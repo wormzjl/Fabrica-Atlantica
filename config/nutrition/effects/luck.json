@@ -1,0 +1,13 @@
+{
+	"name": "luck",               // Unique Effect ID
+	"potion": "minecraft:luck",  // Potion's resource location (eg. fire_resistance)
+	"amplifier": 2,                  // Potion strength
+	"minimum": 95,                   // Minimum nutrition level to take effect
+	"maximum": 100,                  // Maximum nutrition level to take effect
+	"detect": "all",                 // Accepted values:
+	                                 //   'any': Any nutrient may be in the threshold
+	                                 //   'average': The average of all nutrients must be in the threshold
+	                                 //   'all': All nutrients must be in the threshold
+	                                 //   'cumulative': For each nutrient within the threshold, the amplifier increases by one
+	"enabled": true                 // Will this effect be active or not
+}

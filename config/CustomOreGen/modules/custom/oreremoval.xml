@@ -1,0 +1,19 @@
+<ConfigSection>
+          <Substitute name='oreremoval' block='minecraft:stone'>
+            <Replaces block='matteroverdrive:dilithium_ore' weight='1.0' />
+            <Replaces block='matteroverdrive:tritanium_ore' weight='1.0' />
+            <Replaces block='quacklib:nikolite_ore' weight='1.0' />
+          </Substitute>
+          <Substitute name='oreremoval2' block='minecraft:air'>
+            <Replaces block='matteroverdrive:gravitational_anomaly' weight='1.0' />
+          </Substitute>
+          <Substitute name='crafter' block='primal_tech:work_stump'>
+            <Replaces block='minecraft:crafting_table' weight='1.0' />
+          </Substitute>
+          <Substitute name='chest' block='immcraft:chest'>
+            <Replaces block='minecraft:chest' weight='1.0' />
+          </Substitute>
+          <Substitute name='furnace' block='primal_tech:stone_grill'>
+            <Replaces block='minecraft:furnace' weight='1.0' />
+          </Substitute>
+</ConfigSection>

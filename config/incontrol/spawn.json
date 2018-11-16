@@ -1,0 +1,11 @@
+[
+  {
+    "minheight": 64,
+    "mob": ["Squid"],
+    "result": "deny"
+  },
+  {
+    "mob": ["Bat"],
+    "result": "deny"
+  }
+]

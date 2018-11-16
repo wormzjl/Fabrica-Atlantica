@@ -1,0 +1,14 @@
+{
+	"name": "badluck",               // Unique Effect ID
+	"potion": "minecraft:unluck",  // Potion's resource location (eg. fire_resistance)
+	"amplifier": 1,                  // Potion strength
+	"minimum": 0,                   // Minimum nutrition level to take effect
+	"maximum": 10,                  // Maximum nutrition level to take effect
+	"detect": "cumulative",                 // Accepted values:
+	                                 //   'any': Any nutrient may be in the threshold
+	                                 //   'average': The average of all nutrients must be in the threshold
+	                                 //   'all': All nutrients must be in the threshold
+	                                 //   'cumulative': For each nutrient within the threshold, the amplifier increases by one
+	"cumulative_modifier": 1,        // Amount to increase the amplifier by for each cumulative effect
+	"enabled": true                 // Will this effect be active or not
+}

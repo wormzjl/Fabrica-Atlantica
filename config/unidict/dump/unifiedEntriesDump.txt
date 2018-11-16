@@ -1,0 +1,180 @@
+Brass
+	plateBrass
+	dustBrass
+	nuggetBrass
+	blockBrass
+	ingotBrass
+
+Lead
+	chunkLead
+	plateLead
+	gearLead
+	dustLead
+	nuggetLead
+	oreLead
+	blockLead
+	dustTinyLead
+	ingotLead
+
+Coal
+	dustCoal
+
+Aluminum
+	chunkAluminum
+	plateAluminum
+	gearAluminum
+	dustAluminum
+	nuggetAluminum
+	oreAluminum
+	blockAluminum
+	dustTinyAluminum
+	ingotAluminum
+
+Stone
+	dustStone
+
+Nickel
+	chunkNickel
+	plateNickel
+	gearNickel
+	dustNickel
+	nuggetNickel
+	oreNickel
+	blockNickel
+	dustTinyNickel
+	ingotNickel
+
+Sulfur
+	dustSulfur
+
+Gold
+	chunkGold
+	plateGold
+	gearGold
+	dustGold
+	nuggetGold
+	oreGold
+	blockGold
+	dustTinyGold
+	ingotGold
+
+Invar
+	plateInvar
+	gearInvar
+	dustInvar
+	nuggetInvar
+	blockInvar
+	ingotInvar
+
+Salt
+	dustSalt
+
+Iron
+	chunkIron
+	plateIron
+	gearIron
+	dustIron
+	nuggetIron
+	oreIron
+	blockIron
+	dustTinyIron
+	ingotIron
+
+Steel
+	chunkSteel
+	plateSteel
+	gearSteel
+	dustSteel
+	nuggetSteel
+	blockSteel
+	ingotSteel
+
+Bronze
+	plateBronze
+	gearBronze
+	dustBronze
+	nuggetBronze
+	blockBronze
+	dustTinyBronze
+	ingotBronze
+
+Iridium
+	plateIridium
+	gearIridium
+	dustIridium
+	nuggetIridium
+	oreIridium
+	blockIridium
+	ingotIridium
+
+Silver
+	chunkSilver
+	plateSilver
+	gearSilver
+	dustSilver
+	nuggetSilver
+	oreSilver
+	blockSilver
+	dustTinySilver
+	ingotSilver
+
+Copper
+	chunkCopper
+	plateCopper
+	gearCopper
+	dustCopper
+	nuggetCopper
+	oreCopper
+	blockCopper
+	dustTinyCopper
+	ingotCopper
+
+Obsidian
+	dustObsidian
+
+Electrum
+	plateElectrum
+	gearElectrum
+	dustElectrum
+	nuggetElectrum
+	blockElectrum
+	ingotElectrum
+
+Zinc
+	chunkZinc
+	plateZinc
+	dustZinc
+	nuggetZinc
+	blockZinc
+	dustTinyZinc
+	ingotZinc
+
+Uranium
+	plateUranium
+	dustUranium
+	nuggetUranium
+	oreUranium
+	blockUranium
+	ingotUranium
+
+Tin
+	chunkTin
+	plateTin
+	gearTin
+	dustTin
+	nuggetTin
+	oreTin
+	blockTin
+	dustTinyTin
+	ingotTin
+
+Platinum
+	platePlatinum
+	gearPlatinum
+	dustPlatinum
+	nuggetPlatinum
+	orePlatinum
+	blockPlatinum
+	dustTinyPlatinum
+	ingotPlatinum
+

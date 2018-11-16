@@ -1,0 +1,18 @@
+{
+  "items": [
+    /*
+    Examples:
+    {
+      "item": "minecraft:diamond",
+      "cost": "100",
+      "cost_type": "money"
+    },
+    {
+      "item": "minecraft:emerald",
+      "amount": 10,
+      "cost": "1",
+      "cost_type": "dense_money"
+    }
+    */
+  ]
+}

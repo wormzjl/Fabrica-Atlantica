@@ -1,0 +1,13 @@
+These are the functions which can be called on a triumph:player_crafted_item criteria 
+trigger.
+
+
+
+setItem:
+    Arguments:
+        ItemBlockData
+    Usage:
+        item data
+    Notes:
+        Sets the required item.
+

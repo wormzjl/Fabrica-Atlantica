@@ -1,0 +1,12 @@
+These are the functions which can be called on a minecraft:used_totem criteria trigger.
+
+
+
+setItem:
+    Arguments:
+        ItemBlockData
+    Usage:
+        item data
+    Notes:
+        Sets the required item.
+

@@ -1,0 +1,29 @@
+tile.contenttweaker.alumina_block.name=Block of Alumina
+
+item.contenttweaker.alumina.name=Alumina Dust
+item.contenttweaker.tio2.name=Titanium Dioxide Dust
+item.contenttweaker.tungsticacid.name=Tungstic Acid Dust
+item.contenttweaker.berylliumingot.name=Beryllium Ingot
+
+item.contenttweaker.rawrubber.name=Raw rubber
+item.contenttweaker.driedrawrubber.name=Dried raw rubber
+
+item.contenttweaker.scrap1.name=Scrap electronics
+item.contenttweaker.scrap2.name=Corroded mecanical parts
+item.contenttweaker.scrap3.name=Wasted electric cables
+item.contenttweaker.scrap4.name=Used battery
+item.contenttweaker.scrap5.name=Paint cans
+item.contenttweaker.scrap6.name=Stained iron plate
+item.contenttweaker.scrap7.name=Stained iron gear
+item.contenttweaker.scrap8.name=Scrap plastics
+item.contenttweaker.scrap9.name=Silver platters
+
+item.contenttweaker.scrapmetal1.name=Scrap iron
+item.contenttweaker.scrapmetal2.name=Scrap copper
+item.contenttweaker.scrapmetal3.name=Scrap tin
+item.contenttweaker.scrapmetal4.name=Scrap gold
+item.contenttweaker.scrapmetal5.name=Scrap lead
+item.contenttweaker.scrapmetal6.name=Scrap silver
+
+fluid.liquidrubber=Liquid raw rubber
+fluid.formicacid=Formic acid

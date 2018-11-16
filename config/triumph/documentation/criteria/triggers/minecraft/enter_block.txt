@@ -1,0 +1,12 @@
+These are the functions which can be called on a minecraft:enter_block criteria trigger.
+
+
+
+setBlock:
+    Arguments:
+        ItemBlockData
+    Usage:
+        block data
+    Notes:
+        Sets the required block.
+

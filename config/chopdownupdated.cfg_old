@@ -1,0 +1,186 @@
+# Configuration file
+
+~CONFIG_VERSION: 1.1.3
+
+general {
+    # List of all the player classes allowed to chop down trees, used to distinguish fake and real players [default: [net.minecraft.entity.player.EntityPlayerMP], [micdoodle8.mods.galacticraft.core.entities.player.GCEntityPlayerMP], [clayborn.universalremote.hooks.entity.HookedEntityPlayerMP]]
+    S:allowedPlayers <
+        net.minecraft.entity.player.EntityPlayerMP
+        micdoodle8.mods.galacticraft.core.entities.player.GCEntityPlayerMP
+        clayborn.universalremote.hooks.entity.HookedEntityPlayerMP
+     >
+
+    # When you chop a tree down the leaves all fall off and do their drops instead of falling with the tree, this can be better as a) less load and b)The falling of trees gets less messy, you still need to chop the logs but the leaves don't get in the way [default: false]
+    B:breakLeaves=false
+
+    # List of tools to ignore chop down on, such as tinkers lumberaxe, any tool that veinmines or similar should be ignored for chopdown [default: [tconstruct:lumberaxe:.*]]
+    S:ignoreTools <
+        tconstruct:lumberaxe:.*
+     >
+
+    # Whether to move logs down through leaves prior to dropping, makes for a better looking fallen tree but adds a few extra iterations, try setting to false if server not handling well. [default: true]
+    B:lowerLogs=true
+
+    # Maximum number of blocks to drop per tick for each tree thats falling [range: 1 ~ 1000000, default: 150]
+    I:maxDropsPerTickPerTree=150
+
+    # If the total blocks in the tree is above this amount instead of creating entities then it will place the blocks directly on the floor, this is for really large trees like the natura Redwood [range: 1 ~ 1000000, default: 1500]
+    I:maxFallingBlockBeforeManualMove=1500
+
+    # Not necessarily leaves, objects that if seemingly attached to the tree should fall down with it, such as beehives [default: [harvestcraft:beehive:0]]
+    S:sharedLeaves <
+        harvestcraft:beehive:0
+     >
+
+    # List of possible trees, i.e. spruce log and spruce leaves, this makes felling trees more acurate for mixed trees, it also allows large trees like natura redwoods to be chopped more acurately, normally this tree would get ignored because its leaves reach further than a normal tree and its radius is much wider [default: [{"radius":16,"trunk_radius":3,"logs":["biomesoplenty:log_0:4"],"leaves":["biomesoplenty:leaves_3:7","biomesoplenty:leaves_3:11"]}], [{"logs":["biomesoplenty:log_0:5"],"leaves":["biomesoplenty:leaves_2:2","biomesoplenty:leaves_2:1","biomesoplenty:leaves_2:9","biomesoplenty:leaves_2:10"]}], [{"logs":["biomesoplenty:log_0:6"],"leaves":["biomesoplenty:leaves_1:8"]}], [{"logs":["biomesoplenty:log_0:7"],"leaves":["biomesoplenty:leaves_1:6","biomesoplenty:leaves_1:10"]}], [{"logs":["biomesoplenty:log_1:4"],"leaves":["biomesoplenty:leaves_0:6"]}], [{"logs":["biomesoplenty:log_1:5"],"leaves":["biomesoplenty:leaves_0:3","biomesoplenty:leaves_0:11"]}], [{"trunk_radius":3,"logs":["biomesoplenty:log_1:6"],"leaves":["biomesoplenty:leaves_4:0","biomesoplenty:leaves_4:8"]}], [{"logs":["biomesoplenty:log_1:7"],"leaves":["biomesoplenty:leaves_4:9","biomesoplenty:leaves_4:17"]}], [{"trunk_radius":5,"logs":["biomesoplenty:log_2:4"],"leaves":["biomesoplenty:leaves_4:2","biomesoplenty:leaves_4:10"]}], [{"min_vertical_logs":4,"logs":["biomesoplenty:log_2:5"],"leaves":["biomesoplenty:leaves_4:3","biomesoplenty:leaves_4:11"]}], [{"logs":["biomesoplenty:log_2:6"],"leaves":["biomesoplenty:leaves_5:4","biomesoplenty:leaves_5:8"]}], [{"logs":["biomesoplenty:log_2:7"],"leaves":["biomesoplenty:leaves_3:8"]}], [{"logs":["biomesoplenty:log_3:4"],"leaves":["biomesoplenty:leaves_3:6","biomesoplenty:leaves_3:10"]}], [{"logs":["biomesoplenty:log_3:5"],"leaves":["biomesoplenty:leaves_5:5","biomesoplenty:leaves_5:9"]}], [{"logs":["biomesoplenty:log_3:6"],"leaves":["biomesoplenty:leaves_5:6","biomesoplenty:leaves_5:10"]}], [{"logs":["biomesoplenty:log_3:7"],"leaves":["biomesoplenty:leaves_5:7","biomesoplenty:leaves_5:11"]}], [{"logs":["biomesoplenty:log_3:7"],"leaves":["biomesoplenty:leaves_3:8"]}], [{"logs":["biomesoplenty:log_4:5"],"leaves":["forestry:leaves:0"]}], [{"logs":["defiledlands:tenebra_log:0"],"leaves":["defiledlands:tenebra_leaves:0"]}], [{"logs":["dynamictrees:oakbranch:"],"leaves":["dynamictrees:leaves:"]}], [{"logs":["extratrees:logs:0"],"leaves":[]}], [{"logs":["forestry:logs.0:0"],"leaves":["forestry:leaves.default.2:3","forestry:leaves:0"]}], [{"logs":["forestry:logs.0:1"],"leaves":["forestry:leaves.default.4:0","forestry:leaves:0"]}], [{"logs":["forestry:logs.0:2"],"leaves":["forestry:leaves.default.5:3","forestry:leaves:0"]}], [{"logs":["forestry:logs.0:3"],"leaves":["forestry:leaves.default.0:3","forestry:leaves:0"]}], [{"logs":["forestry:logs.1:0"],"leaves":["forestry:leaves.default.1:1","forestry:leaves:0"]}], [{"logs":["forestry:logs.1:1"],"leaves":["forestry:leaves.default.6:3","forestry:leaves:0"]}], [{"logs":["forestry:logs.1:2"],"leaves":["forestry:leaves.default.7:0","forestry:leaves:0"]}], [{"logs":["forestry:logs.1:3"],"leaves":["forestry:leaves.default.3:1","forestry:leaves:0"]}], [{"logs":["forestry:logs.2:0"],"leaves":["forestry:leaves.default.4:2","forestry:leaves:0"]}], [{"logs":["forestry:logs.2:1"],"leaves":["forestry:leaves.default.4:3","forestry:leaves:0"]}], [{"logs":["forestry:logs.2:2"],"leaves":["forestry:leaves.default.5:1","forestry:leaves:0"]}], [{"logs":["forestry:logs.2:3"],"leaves":["forestry:leaves.default.6:1","forestry:leaves:0"]}], [{"logs":["forestry:logs.3:0"],"leaves":["forestry:leaves.default.7:2","forestry:leaves:0"]}], [{"logs":["forestry:logs.3:1"],"leaves":["forestry:leaves.default.1:0","forestry:leaves:0"]}], [{"logs":["forestry:logs.3:2"],"leaves":["forestry:leaves.default.7:3","forestry:leaves:0"]}], [{"logs":["forestry:logs.3:3"],"leaves":["forestry:leaves.default.1:2","forestry:leaves:0"]}], [{"logs":["forestry:logs.4:0"],"leaves":["forestry:leaves.default.7:1","forestry:leaves:0"]}], [{"logs":["forestry:logs.4:1"],"leaves":["forestry:leaves.default.8:2","forestry:leaves:0"]}], [{"logs":["forestry:logs.4:2"],"leaves":["forestry:leaves.default.8:1","forestry:leaves:0"]}], [{"logs":["forestry:logs.4:3"],"leaves":["forestry:leaves.default.8:0","forestry:leaves:0"]}], [{"logs":["forestry:logs.5:0"],"leaves":["forestry:leaves.default.3:0","forestry:leaves:0"]}], [{"logs":["forestry:logs.5:1"],"leaves":["forestry:leaves.default.2:0","forestry:leaves:0"]}], [{"logs":["forestry:logs.5:2"],"leaves":["forestry:leaves.default.2:1","forestry:leaves:0"]}], [{"logs":["forestry:logs.5:3"],"leaves":["forestry:leaves.default.1:3","forestry:leaves:0"]}], [{"logs":["forestry:logs.6:0"],"leaves":["forestry:leaves.default.3:2","forestry:leaves:0"]}], [{"logs":["forestry:logs.6:1"],"leaves":["forestry:leaves.default.4:1","forestry:leaves:0"]}], [{"logs":["forestry:logs.6:2"],"leaves":["forestry:leaves.default.6:0","forestry:leaves:0"]}], [{"logs":["forestry:logs.6:3"],"leaves":["forestry:leaves.default.6:2","forestry:leaves:0"]}], [{"logs":["forestry:logs.7:0"],"leaves":["forestry:leaves.default.5:0","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.0:0"],"leaves":["forestry:leaves.default.2:3","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.0:1"],"leaves":["forestry:leaves.default.4:0","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.0:2"],"leaves":["forestry:leaves.default.5:3","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.0:3"],"leaves":["forestry:leaves.default.0:3","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.1:0"],"leaves":["forestry:leaves.default.1:1","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.1:1"],"leaves":["forestry:leaves.default.6:3","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.1:2"],"leaves":["forestry:leaves.default.7:0","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.1:3"],"leaves":["forestry:leaves.default.3:1","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.2:0"],"leaves":["forestry:leaves.default.4:2","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.2:1"],"leaves":["forestry:leaves.default.4:3","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.2:2"],"leaves":["forestry:leaves.default.5:1","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.2:3"],"leaves":["forestry:leaves.default.6:1","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.3:0"],"leaves":["forestry:leaves.default.7:2","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.3:1"],"leaves":["forestry:leaves.default.1:0","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.3:2"],"leaves":["forestry:leaves.default.7:3","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.3:3"],"leaves":["forestry:leaves.default.1:2","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.4:0"],"leaves":["forestry:leaves.default.7:1","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.4:1"],"leaves":["forestry:leaves.default.8:2","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.4:2"],"leaves":["forestry:leaves.default.8:1","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.4:3"],"leaves":["forestry:leaves.default.8:0","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.5:0"],"leaves":["forestry:leaves.default.3:0","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.5:1"],"leaves":["forestry:leaves.default.2:0","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.5:2"],"leaves":["forestry:leaves.default.2:1","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.5:3"],"leaves":["forestry:leaves.default.1:3","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.6:0"],"leaves":["forestry:leaves.default.3:2","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.6:1"],"leaves":["forestry:leaves.default.4:1","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.6:2"],"leaves":["forestry:leaves.default.6:0","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.6:3"],"leaves":["forestry:leaves.default.6:2","forestry:leaves:0"]}], [{"logs":["forestry:logs.fireproof.7:0"],"leaves":["forestry:leaves.default.5:0","forestry:leaves:0"]}], [{"logs":["forestry:logs.vanilla.fireproof.0:0"],"leaves":["forestry:leaves.default.0:0","forestry:leaves:0"]}], [{"logs":["forestry:logs.vanilla.fireproof.0:1"],"leaves":["forestry:leaves.default.2:2","forestry:leaves:0"]}], [{"logs":["forestry:logs.vanilla.fireproof.0:2"],"leaves":["forestry:leaves.default.0:2","forestry:leaves:0"]}], [{"logs":["forestry:logs.vanilla.fireproof.0:3"],"leaves":["forestry:leaves.default.3:3","forestry:leaves:0"]}], [{"logs":["forestry:logs.vanilla.fireproof.1:0"],"leaves":["forestry:leaves.default.5:2","forestry:leaves:0"]}], [{"logs":["forestry:logs.vanilla.fireproof.1:1"],"leaves":["forestry:leaves.default.0:1","forestry:leaves:0"]}], [{"logs":["harvestcraft:pamcinnamon:0"],"leaves":["minecraft:leaves:3"]}], [{"logs":["harvestcraft:pammaple:0"],"leaves":["minecraft:leaves:1"]}], [{"logs":["ic2:rubber_wood:0"],"leaves":["ic2:leaves:0"]}], [{"logs":["integrateddynamics:menril_log:0","integrateddynamics:menril_log_filled:0"],"leaves":["integrateddynamics:menril_leaves:0"]}], [{"logs":["integrateddynamics:menrilLog:0","integrateddynamics:menrilFilledLog:0"],"leaves":["integrateddynamics:menrilLeaves:0"]}], [{"logs":["minecraft:log:0","leatherworks:debarked_log_oak"],"leaves":["minecraft:leaves:0","biomesoplenty:leaves_0:1","biomesoplenty:leaves_3:9","biomesoplenty:leaves_3:5","biomesoplenty:leaves_2:3","biomesoplenty:leaves_1:5","forestry:leaves:0","traverse:red_autumnal_leaves:0","traverse:brown_autumnal_leaves:0","traverse:yellow_autumnal_leaves:0","tropicraft:leaves:3","tropicraft:leaves_fruit:0","tropicraft:leaves_fruit:1","tropicraft:leaves_fruit:2","tropicraft:leaves_fruit:3","forestry:leaves.default.0:0","biomesoplenty:leaves_2:11","biomesoplenty:leaves_2:8","biomesoplenty:leaves_1:9"]}], [{"logs":["minecraft:log:1","leatherworks:debarked_log_spruce"],"leaves":["minecraft:leaves:1","forestry:leaves:0","forestry:leaves.default.2:2"]}], [{"logs":["minecraft:log:2","leatherworks:debarked_log_birch"],"leaves":["minecraft:leaves:2","biomesoplenty:leaves_0:0","forestry:leaves:0","forestry:leaves.default.0:2","biomesoplenty:leaves_0:8"]}], [{"logs":["minecraft:log:3","leatherworks:debarked_log_jungle"],"leaves":["minecraft:leaves:3","harvestcraft:pampaperbark:0","forestry:leaves:0","forestry:leaves.default.3:3"]}], [{"logs":["minecraft:log2:0","leatherworks:debarked_log_acacia"],"leaves":["minecraft:leaves2:0","biomesoplenty:leaves_0:1","forestry:leaves:0","forestry:leaves.default.5:2"]}], [{"logs":["minecraft:log2:1","leatherworks:debarked_log_darkoak"],"leaves":["minecraft:leaves2:1","biomesoplenty:leaves_0:1","biomesoplenty:leaves_1:5","forestry:leaves:0","forestry:leaves.default.0:1","biomesoplenty:leaves_0:9"]}], [{"logs":["natura:nether_logs:0"],"leaves":["natura:nether_leaves:0"]}], [{"logs":["natura:nether_logs:1"],"leaves":["natura:nether_leaves2:0","natura:nether_leaves2:1","natura:nether_leaves2:2","natura:nether_leaves2:10"]}], [{"logs":["natura:nether_logs:2"],"leaves":["natura:nether_leaves:1"]}], [{"logs":["natura:nether_logs2:0","natura:nether_logs2:1"],"leaves":["natura:nether_leaves:0"]}], [{"logs":["natura:overworld_logs:0"],"leaves":["natura:overworld_leaves:0"]}], [{"logs":["natura:overworld_logs:1"],"leaves":["natura:overworld_leaves:1"]}], [{"logs":["natura:overworld_logs:2"],"leaves":["natura:overworld_leaves:2"]}], [{"logs":["natura:overworld_logs:3"],"leaves":["natura:overworld_leaves:3"]}], [{"logs":["natura:overworld_logs2:0"],"leaves":["natura:overworld_leaves2:0"]}], [{"logs":["natura:overworld_logs2:1"],"leaves":["natura:overworld_leaves2:1"]}], [{"logs":["natura:overworld_logs2:2"],"leaves":["natura:overworld_leaves2:2"]}], [{"logs":["natura:overworld_logs2:3"],"leaves":["natura:overworld_leaves2:3"]}], [{"radius":32,"leaf_limit":32,"min_vertical_logs":20,"trunk_radius":8,"logs":["natura:redwood_logs:0","natura:redwood_logs:1","natura:redwood_logs:2"],"leaves":["natura:redwood_leaves:0"]}], [{"logs":["plants2:crystal_log:0"],"leaves":["plants2:crystal_leaves:0"]}], [{"logs":["plants2:crystal_log:1"],"leaves":["plants2:crystal_leaves:1"]}], [{"logs":["plants2:log_0:0"],"leaves":["plants2:leaves_0:0"]}], [{"logs":["plants2:log_0:1"],"leaves":["plants2:leaves_0:1"]}], [{"logs":["plants2:log_0:2"],"leaves":["plants2:leaves_0:2"]}], [{"logs":["plants2:log_0:3"],"leaves":["plants2:leaves_0:3"]}], [{"logs":["rustic:log:0"],"leaves":["rustic:leaves:0"]}], [{"logs":["rustic:log:1"],"leaves":["rustic:leaves:1"]}], [{"logs":["terra:blackspruce_log:0"],"leaves":["terra:blackspruce_leaves:0"]}], [{"logs":["terra:bluespruce_log:0"],"leaves":["terra:bluespruce_leaves:0"]}], [{"logs":["terra:cherry_log:0"],"leaves":["terra:cherry_leaves_white:0","terra:cherry_leaves_purple:0"]}], [{"logs":["terra:ebony_log:0"],"leaves":["terra:palm_leaves:0"]}], [{"logs":["terra:elm_log:0"],"leaves":["terra:elm_leaves:0"]}], [{"logs":["terra:jacaranda_log:0"],"leaves":["terra:jacaranda_leaves_magenta:0","terra:jacaranda_leaves_green:0"]}], [{"logs":["terra:mahogany_log:0"],"leaves":["terra:mahogany_leaves:0"]}], [{"logs":["terra:palm_log:0"],"leaves":["terra:palm_leaves:0"]}], [{"logs":["terra:paulownia_log:0"],"leaves":["terra:paulownia_leaves_green:0","terra:paulownia_leaves_white:0","terra:paulownia_leaves_blue:0"]}], [{"logs":["terra:redspruce_log:0"],"leaves":["terra:redspruce_leaves:0"]}], [{"logs":["terra:whitespruce_log:0"],"leaves":["terra:whitespruce_leaves:0"]}], [{"logs":["terraqueous:trunk1:0"],"leaves":["terraqueous:foliage1:0","terraqueous:foliage1:1","terraqueous:foliage1:2"]}], [{"logs":["terraqueous:trunk1:1"],"leaves":["terraqueous:foliage1:4","terraqueous:foliage1:5","terraqueous:foliage1:6"]}], [{"logs":["terraqueous:trunk1:2"],"leaves":["terraqueous:foliage2:0","terraqueous:foliage2:1","terraqueous:foliage2:2"]}], [{"logs":["terraqueous:trunk1:3"],"leaves":["terraqueous:foliage2:4","terraqueous:foliage2:5","terraqueous:foliage2:6"]}], [{"logs":["terraqueous:trunk1:4"],"leaves":["terraqueous:foliage3:0","terraqueous:foliage3:1","terraqueous:foliage3:2"]}], [{"logs":["terraqueous:trunk2:0"],"leaves":["terraqueous:foliage3:4","terraqueous:foliage3:5","terraqueous:foliage3:6"]}], [{"logs":["terraqueous:trunk2:1"],"leaves":["terraqueous:foliage4:0","terraqueous:foliage4:1","terraqueous:foliage4:2"]}], [{"logs":["terraqueous:trunk2:2"],"leaves":["terraqueous:foliage4:4","terraqueous:foliage4:5","terraqueous:foliage4:6"]}], [{"logs":["terraqueous:trunk2:3"],"leaves":["terraqueous:foliage5:0"]}], [{"logs":["terraqueous:trunk2:4"],"leaves":["terraqueous:foliage5:1","terraqueous:foliage5:8","terraqueous:foliage5:9","terraqueous:foliage5:10","terraqueous:foliage5:11"]}], [{"radius":15,"leaf_limit":15,"logs":["thaumcraft:log_greatwood:0"],"leaves":["thaumcraft:leaves_greatwood:0"]}], [{"radius":15,"leaf_limit":15,"logs":["thaumcraft:log_silverwood:0"],"leaves":["thaumcraft:leaves_silverwood:0"]}], [{"logs":["traverse:fir_log:0"],"leaves":["traverse:fir_leaves:0"]}], [{"radius":15,"leaf_limit":14,"logs":["tropicraft:log:0"],"leaves":["tropicraft:leaves:0"]}], [{"logs":["tropicraft:log:1"],"leaves":["tropicraft:leaves:1"]}]]
+    S:treeConfigurations <
+        {"radius":16,"trunk_radius":3,"logs":["biomesoplenty:log_0:4"],"leaves":["biomesoplenty:leaves_3:7","biomesoplenty:leaves_3:11"]}
+        {"logs":["biomesoplenty:log_0:5"],"leaves":["biomesoplenty:leaves_2:2","biomesoplenty:leaves_2:1","biomesoplenty:leaves_2:9","biomesoplenty:leaves_2:10"]}
+        {"logs":["biomesoplenty:log_0:6"],"leaves":["biomesoplenty:leaves_1:8"]}
+        {"logs":["biomesoplenty:log_0:7"],"leaves":["biomesoplenty:leaves_1:6","biomesoplenty:leaves_1:10"]}
+        {"logs":["biomesoplenty:log_1:4"],"leaves":["biomesoplenty:leaves_0:6"]}
+        {"logs":["biomesoplenty:log_1:5"],"leaves":["biomesoplenty:leaves_0:3","biomesoplenty:leaves_0:11"]}
+        {"trunk_radius":3,"logs":["biomesoplenty:log_1:6"],"leaves":["biomesoplenty:leaves_4:0","biomesoplenty:leaves_4:8"]}
+        {"logs":["biomesoplenty:log_1:7"],"leaves":["biomesoplenty:leaves_4:9","biomesoplenty:leaves_4:17"]}
+        {"trunk_radius":5,"logs":["biomesoplenty:log_2:4"],"leaves":["biomesoplenty:leaves_4:2","biomesoplenty:leaves_4:10"]}
+        {"min_vertical_logs":4,"logs":["biomesoplenty:log_2:5"],"leaves":["biomesoplenty:leaves_4:3","biomesoplenty:leaves_4:11"]}
+        {"logs":["biomesoplenty:log_2:6"],"leaves":["biomesoplenty:leaves_5:4","biomesoplenty:leaves_5:8"]}
+        {"logs":["biomesoplenty:log_2:7"],"leaves":["biomesoplenty:leaves_3:8"]}
+        {"logs":["biomesoplenty:log_3:4"],"leaves":["biomesoplenty:leaves_3:6","biomesoplenty:leaves_3:10"]}
+        {"logs":["biomesoplenty:log_3:5"],"leaves":["biomesoplenty:leaves_5:5","biomesoplenty:leaves_5:9"]}
+        {"logs":["biomesoplenty:log_3:6"],"leaves":["biomesoplenty:leaves_5:6","biomesoplenty:leaves_5:10"]}
+        {"logs":["biomesoplenty:log_3:7"],"leaves":["biomesoplenty:leaves_5:7","biomesoplenty:leaves_5:11"]}
+        {"logs":["biomesoplenty:log_3:7"],"leaves":["biomesoplenty:leaves_3:8"]}
+        {"logs":["biomesoplenty:log_4:5"],"leaves":["forestry:leaves:0"]}
+        {"logs":["defiledlands:tenebra_log:0"],"leaves":["defiledlands:tenebra_leaves:0"]}
+        {"logs":["dynamictrees:oakbranch:"],"leaves":["dynamictrees:leaves:"]}
+        {"logs":["extratrees:logs:0"],"leaves":[]}
+        {"logs":["forestry:logs.0:0"],"leaves":["forestry:leaves.default.2:3","forestry:leaves:0"]}
+        {"logs":["forestry:logs.0:1"],"leaves":["forestry:leaves.default.4:0","forestry:leaves:0"]}
+        {"logs":["forestry:logs.0:2"],"leaves":["forestry:leaves.default.5:3","forestry:leaves:0"]}
+        {"logs":["forestry:logs.0:3"],"leaves":["forestry:leaves.default.0:3","forestry:leaves:0"]}
+        {"logs":["forestry:logs.1:0"],"leaves":["forestry:leaves.default.1:1","forestry:leaves:0"]}
+        {"logs":["forestry:logs.1:1"],"leaves":["forestry:leaves.default.6:3","forestry:leaves:0"]}
+        {"logs":["forestry:logs.1:2"],"leaves":["forestry:leaves.default.7:0","forestry:leaves:0"]}
+        {"logs":["forestry:logs.1:3"],"leaves":["forestry:leaves.default.3:1","forestry:leaves:0"]}
+        {"logs":["forestry:logs.2:0"],"leaves":["forestry:leaves.default.4:2","forestry:leaves:0"]}
+        {"logs":["forestry:logs.2:1"],"leaves":["forestry:leaves.default.4:3","forestry:leaves:0"]}
+        {"logs":["forestry:logs.2:2"],"leaves":["forestry:leaves.default.5:1","forestry:leaves:0"]}
+        {"logs":["forestry:logs.2:3"],"leaves":["forestry:leaves.default.6:1","forestry:leaves:0"]}
+        {"logs":["forestry:logs.3:0"],"leaves":["forestry:leaves.default.7:2","forestry:leaves:0"]}
+        {"logs":["forestry:logs.3:1"],"leaves":["forestry:leaves.default.1:0","forestry:leaves:0"]}
+        {"logs":["forestry:logs.3:2"],"leaves":["forestry:leaves.default.7:3","forestry:leaves:0"]}
+        {"logs":["forestry:logs.3:3"],"leaves":["forestry:leaves.default.1:2","forestry:leaves:0"]}
+        {"logs":["forestry:logs.4:0"],"leaves":["forestry:leaves.default.7:1","forestry:leaves:0"]}
+        {"logs":["forestry:logs.4:1"],"leaves":["forestry:leaves.default.8:2","forestry:leaves:0"]}
+        {"logs":["forestry:logs.4:2"],"leaves":["forestry:leaves.default.8:1","forestry:leaves:0"]}
+        {"logs":["forestry:logs.4:3"],"leaves":["forestry:leaves.default.8:0","forestry:leaves:0"]}
+        {"logs":["forestry:logs.5:0"],"leaves":["forestry:leaves.default.3:0","forestry:leaves:0"]}
+        {"logs":["forestry:logs.5:1"],"leaves":["forestry:leaves.default.2:0","forestry:leaves:0"]}
+        {"logs":["forestry:logs.5:2"],"leaves":["forestry:leaves.default.2:1","forestry:leaves:0"]}
+        {"logs":["forestry:logs.5:3"],"leaves":["forestry:leaves.default.1:3","forestry:leaves:0"]}
+        {"logs":["forestry:logs.6:0"],"leaves":["forestry:leaves.default.3:2","forestry:leaves:0"]}
+        {"logs":["forestry:logs.6:1"],"leaves":["forestry:leaves.default.4:1","forestry:leaves:0"]}
+        {"logs":["forestry:logs.6:2"],"leaves":["forestry:leaves.default.6:0","forestry:leaves:0"]}
+        {"logs":["forestry:logs.6:3"],"leaves":["forestry:leaves.default.6:2","forestry:leaves:0"]}
+        {"logs":["forestry:logs.7:0"],"leaves":["forestry:leaves.default.5:0","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.0:0"],"leaves":["forestry:leaves.default.2:3","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.0:1"],"leaves":["forestry:leaves.default.4:0","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.0:2"],"leaves":["forestry:leaves.default.5:3","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.0:3"],"leaves":["forestry:leaves.default.0:3","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.1:0"],"leaves":["forestry:leaves.default.1:1","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.1:1"],"leaves":["forestry:leaves.default.6:3","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.1:2"],"leaves":["forestry:leaves.default.7:0","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.1:3"],"leaves":["forestry:leaves.default.3:1","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.2:0"],"leaves":["forestry:leaves.default.4:2","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.2:1"],"leaves":["forestry:leaves.default.4:3","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.2:2"],"leaves":["forestry:leaves.default.5:1","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.2:3"],"leaves":["forestry:leaves.default.6:1","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.3:0"],"leaves":["forestry:leaves.default.7:2","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.3:1"],"leaves":["forestry:leaves.default.1:0","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.3:2"],"leaves":["forestry:leaves.default.7:3","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.3:3"],"leaves":["forestry:leaves.default.1:2","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.4:0"],"leaves":["forestry:leaves.default.7:1","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.4:1"],"leaves":["forestry:leaves.default.8:2","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.4:2"],"leaves":["forestry:leaves.default.8:1","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.4:3"],"leaves":["forestry:leaves.default.8:0","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.5:0"],"leaves":["forestry:leaves.default.3:0","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.5:1"],"leaves":["forestry:leaves.default.2:0","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.5:2"],"leaves":["forestry:leaves.default.2:1","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.5:3"],"leaves":["forestry:leaves.default.1:3","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.6:0"],"leaves":["forestry:leaves.default.3:2","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.6:1"],"leaves":["forestry:leaves.default.4:1","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.6:2"],"leaves":["forestry:leaves.default.6:0","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.6:3"],"leaves":["forestry:leaves.default.6:2","forestry:leaves:0"]}
+        {"logs":["forestry:logs.fireproof.7:0"],"leaves":["forestry:leaves.default.5:0","forestry:leaves:0"]}
+        {"logs":["forestry:logs.vanilla.fireproof.0:0"],"leaves":["forestry:leaves.default.0:0","forestry:leaves:0"]}
+        {"logs":["forestry:logs.vanilla.fireproof.0:1"],"leaves":["forestry:leaves.default.2:2","forestry:leaves:0"]}
+        {"logs":["forestry:logs.vanilla.fireproof.0:2"],"leaves":["forestry:leaves.default.0:2","forestry:leaves:0"]}
+        {"logs":["forestry:logs.vanilla.fireproof.0:3"],"leaves":["forestry:leaves.default.3:3","forestry:leaves:0"]}
+        {"logs":["forestry:logs.vanilla.fireproof.1:0"],"leaves":["forestry:leaves.default.5:2","forestry:leaves:0"]}
+        {"logs":["forestry:logs.vanilla.fireproof.1:1"],"leaves":["forestry:leaves.default.0:1","forestry:leaves:0"]}
+        {"logs":["harvestcraft:pamcinnamon:0"],"leaves":["minecraft:leaves:3"]}
+        {"logs":["harvestcraft:pammaple:0"],"leaves":["minecraft:leaves:1"]}
+        {"logs":["ic2:rubber_wood:0"],"leaves":["ic2:leaves:0"]}
+        {"logs":["integrateddynamics:menril_log:0","integrateddynamics:menril_log_filled:0"],"leaves":["integrateddynamics:menril_leaves:0"]}
+        {"logs":["integrateddynamics:menrilLog:0","integrateddynamics:menrilFilledLog:0"],"leaves":["integrateddynamics:menrilLeaves:0"]}
+        {"logs":["minecraft:log:0","leatherworks:debarked_log_oak"],"leaves":["minecraft:leaves:0","biomesoplenty:leaves_0:1","biomesoplenty:leaves_3:9","biomesoplenty:leaves_3:5","biomesoplenty:leaves_2:3","biomesoplenty:leaves_1:5","forestry:leaves:0","traverse:red_autumnal_leaves:0","traverse:brown_autumnal_leaves:0","traverse:yellow_autumnal_leaves:0","tropicraft:leaves:3","tropicraft:leaves_fruit:0","tropicraft:leaves_fruit:1","tropicraft:leaves_fruit:2","tropicraft:leaves_fruit:3","forestry:leaves.default.0:0","biomesoplenty:leaves_2:11","biomesoplenty:leaves_2:8","biomesoplenty:leaves_1:9"]}
+        {"logs":["minecraft:log:1","leatherworks:debarked_log_spruce"],"leaves":["minecraft:leaves:1","forestry:leaves:0","forestry:leaves.default.2:2"]}
+        {"logs":["minecraft:log:2","leatherworks:debarked_log_birch"],"leaves":["minecraft:leaves:2","biomesoplenty:leaves_0:0","forestry:leaves:0","forestry:leaves.default.0:2","biomesoplenty:leaves_0:8"]}
+        {"logs":["minecraft:log:3","leatherworks:debarked_log_jungle"],"leaves":["minecraft:leaves:3","harvestcraft:pampaperbark:0","forestry:leaves:0","forestry:leaves.default.3:3"]}
+        {"logs":["minecraft:log2:0","leatherworks:debarked_log_acacia"],"leaves":["minecraft:leaves2:0","biomesoplenty:leaves_0:1","forestry:leaves:0","forestry:leaves.default.5:2"]}
+        {"logs":["minecraft:log2:1","leatherworks:debarked_log_darkoak"],"leaves":["minecraft:leaves2:1","biomesoplenty:leaves_0:1","biomesoplenty:leaves_1:5","forestry:leaves:0","forestry:leaves.default.0:1","biomesoplenty:leaves_0:9"]}
+        {"logs":["natura:nether_logs:0"],"leaves":["natura:nether_leaves:0"]}
+        {"logs":["natura:nether_logs:1"],"leaves":["natura:nether_leaves2:0","natura:nether_leaves2:1","natura:nether_leaves2:2","natura:nether_leaves2:10"]}
+        {"logs":["natura:nether_logs:2"],"leaves":["natura:nether_leaves:1"]}
+        {"logs":["natura:nether_logs2:0","natura:nether_logs2:1"],"leaves":["natura:nether_leaves:0"]}
+        {"logs":["natura:overworld_logs:0"],"leaves":["natura:overworld_leaves:0"]}
+        {"logs":["natura:overworld_logs:1"],"leaves":["natura:overworld_leaves:1"]}
+        {"logs":["natura:overworld_logs:2"],"leaves":["natura:overworld_leaves:2"]}
+        {"logs":["natura:overworld_logs:3"],"leaves":["natura:overworld_leaves:3"]}
+        {"logs":["natura:overworld_logs2:0"],"leaves":["natura:overworld_leaves2:0"]}
+        {"logs":["natura:overworld_logs2:1"],"leaves":["natura:overworld_leaves2:1"]}
+        {"logs":["natura:overworld_logs2:2"],"leaves":["natura:overworld_leaves2:2"]}
+        {"logs":["natura:overworld_logs2:3"],"leaves":["natura:overworld_leaves2:3"]}
+        {"radius":32,"leaf_limit":32,"min_vertical_logs":20,"trunk_radius":8,"logs":["natura:redwood_logs:0","natura:redwood_logs:1","natura:redwood_logs:2"],"leaves":["natura:redwood_leaves:0"]}
+        {"logs":["plants2:crystal_log:0"],"leaves":["plants2:crystal_leaves:0"]}
+        {"logs":["plants2:crystal_log:1"],"leaves":["plants2:crystal_leaves:1"]}
+        {"logs":["plants2:log_0:0"],"leaves":["plants2:leaves_0:0"]}
+        {"logs":["plants2:log_0:1"],"leaves":["plants2:leaves_0:1"]}
+        {"logs":["plants2:log_0:2"],"leaves":["plants2:leaves_0:2"]}
+        {"logs":["plants2:log_0:3"],"leaves":["plants2:leaves_0:3"]}
+        {"logs":["rustic:log:0"],"leaves":["rustic:leaves:0"]}
+        {"logs":["rustic:log:1"],"leaves":["rustic:leaves:1"]}
+        {"logs":["terra:blackspruce_log:0"],"leaves":["terra:blackspruce_leaves:0"]}
+        {"logs":["terra:bluespruce_log:0"],"leaves":["terra:bluespruce_leaves:0"]}
+        {"logs":["terra:cherry_log:0"],"leaves":["terra:cherry_leaves_white:0","terra:cherry_leaves_purple:0"]}
+        {"logs":["terra:ebony_log:0"],"leaves":["terra:palm_leaves:0"]}
+        {"logs":["terra:elm_log:0"],"leaves":["terra:elm_leaves:0"]}
+        {"logs":["terra:jacaranda_log:0"],"leaves":["terra:jacaranda_leaves_magenta:0","terra:jacaranda_leaves_green:0"]}
+        {"logs":["terra:mahogany_log:0"],"leaves":["terra:mahogany_leaves:0"]}
+        {"logs":["terra:palm_log:0"],"leaves":["terra:palm_leaves:0"]}
+        {"logs":["terra:paulownia_log:0"],"leaves":["terra:paulownia_leaves_green:0","terra:paulownia_leaves_white:0","terra:paulownia_leaves_blue:0"]}
+        {"logs":["terra:redspruce_log:0"],"leaves":["terra:redspruce_leaves:0"]}
+        {"logs":["terra:whitespruce_log:0"],"leaves":["terra:whitespruce_leaves:0"]}
+        {"logs":["terraqueous:trunk1:0"],"leaves":["terraqueous:foliage1:0","terraqueous:foliage1:1","terraqueous:foliage1:2"]}
+        {"logs":["terraqueous:trunk1:1"],"leaves":["terraqueous:foliage1:4","terraqueous:foliage1:5","terraqueous:foliage1:6"]}
+        {"logs":["terraqueous:trunk1:2"],"leaves":["terraqueous:foliage2:0","terraqueous:foliage2:1","terraqueous:foliage2:2"]}
+        {"logs":["terraqueous:trunk1:3"],"leaves":["terraqueous:foliage2:4","terraqueous:foliage2:5","terraqueous:foliage2:6"]}
+        {"logs":["terraqueous:trunk1:4"],"leaves":["terraqueous:foliage3:0","terraqueous:foliage3:1","terraqueous:foliage3:2"]}
+        {"logs":["terraqueous:trunk2:0"],"leaves":["terraqueous:foliage3:4","terraqueous:foliage3:5","terraqueous:foliage3:6"]}
+        {"logs":["terraqueous:trunk2:1"],"leaves":["terraqueous:foliage4:0","terraqueous:foliage4:1","terraqueous:foliage4:2"]}
+        {"logs":["terraqueous:trunk2:2"],"leaves":["terraqueous:foliage4:4","terraqueous:foliage4:5","terraqueous:foliage4:6"]}
+        {"logs":["terraqueous:trunk2:3"],"leaves":["terraqueous:foliage5:0"]}
+        {"logs":["terraqueous:trunk2:4"],"leaves":["terraqueous:foliage5:1","terraqueous:foliage5:8","terraqueous:foliage5:9","terraqueous:foliage5:10","terraqueous:foliage5:11"]}
+        {"radius":15,"leaf_limit":15,"logs":["thaumcraft:log_greatwood:0"],"leaves":["thaumcraft:leaves_greatwood:0"]}
+        {"radius":15,"leaf_limit":15,"logs":["thaumcraft:log_silverwood:0"],"leaves":["thaumcraft:leaves_silverwood:0"]}
+        {"logs":["traverse:fir_log:0"],"leaves":["traverse:fir_leaves:0"]}
+        {"radius":15,"leaf_limit":14,"logs":["tropicraft:log:0"],"leaves":["tropicraft:leaves:0"]}
+        {"logs":["tropicraft:log:1"],"leaves":["tropicraft:leaves:1"]}
+     >
+
+    # Whether to use falling entities for the block fall, looks slightly smoother but can be abused to pop off logs instead of having to chop them [default: true]
+    B:useFallingEntities=true
+}
+
+
