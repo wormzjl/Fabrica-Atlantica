@@ -10,9 +10,13 @@ resourcepacks/
 saves/
 screenshots/
 server-resource-packs/
+snapshots-server/
+WCalarms/
+backups/
+schematics/
 
-OpenComputersMod-1.7.2.67-lua52-native.64.dll
-OpenComputersMod-1.7.2.67-lua53-native.64.dll
+OpenComputersMod-1.7.3.146-lua52-native.64.dll
+OpenComputersMod-1.7.3.146-lua53-native.64.dll
 
 .ReAuth.cfg
 .curseclient

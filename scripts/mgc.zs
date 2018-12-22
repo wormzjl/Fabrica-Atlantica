@@ -1,5 +1,10 @@
-mods.jei.JEI.removeAndHide(<magneticraft:crushing_table>);
-mods.jei.JEI.removeAndHide(<magneticraft:sluice_box>);
+mods.jei.JEI.removeAndHide(<magneticraft:feeding_trough>);
+mods.jei.JEI.removeAndHide(<magneticraft:thermopile>);
+mods.jei.JEI.removeAndHide(<magneticraft:wind_turbine>);
+
+//mods.jei.JEI.removeAndHide(<magneticraft:crushing_table>);
+//mods.jei.JEI.removeAndHide(<magneticraft:sluice_box>);
+
 //temp
 mods.jei.JEI.removeAndHide(<magneticraft:gasification_unit>);
 
@@ -34,3 +39,7 @@ mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:13>);
 mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:14>);
 
 furnace.remove(<magneticraft:ingots:5>);
+
+mods.magneticraft.OilHeater.removeRecipe(<liquid:water>);
+
+//refining

@@ -1,7 +1,0 @@
-{
-  "name": "fear",
-  "class": "com.lycanitesmobs.core.entity.EntityFear",
-  "loadDefault": true,
-  "enabled": true,
-  "dummy": true
-}

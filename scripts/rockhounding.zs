@@ -19,9 +19,9 @@ mods.rockhounding_chemistry.SlurryPond.removeByOutput(<liquid:silicone>);
 
 mods.rockhounding_chemistry.GasCondenser.add(<liquid:helium>*100, <liquid:liquidhelium>*1);
 
-mods.rockhounding_chemistry.LabOven.add("Animal oil", <primal:tallow>, null, <liquid:plantoil>*200, null, <liquid:animaloil>*2000, null, null);
-mods.rockhounding_chemistry.LabOven.add("Biodiesel", <rockhounding_chemistry:chemical_items:6>, null, <liquid:plantoil>*1000, <liquid:methanol>*200, <liquid:biodiesel>*1000, null, null);
-mods.rockhounding_chemistry.LabOven.add("Biodiesel2", <rockhounding_chemistry:chemical_items:6>, null, <liquid:animaloil>*1000, <liquid:methanol>*200, <liquid:biodiesel>*1000, null, null);
+mods.rockhounding_chemistry.LabOven.add("Animal oil", <primal:tallow>, null, <liquid:plantoil>*200, null, <liquid:animaloil>*2000, null);
+mods.rockhounding_chemistry.LabOven.add("Biodiesel", <rockhounding_chemistry:chemical_items:6>, null, <liquid:plantoil>*1000, <liquid:methanol>*200, <liquid:biodiesel>*1000, null);
+mods.rockhounding_chemistry.LabOven.add("Biodiesel2", <rockhounding_chemistry:chemical_items:6>, null, <liquid:animaloil>*1000, <liquid:methanol>*200, <liquid:biodiesel>*1000, null);
 
 //Material replacements
 mods.rockhounding_chemistry.MaterialCabinet.add("AlO", "dustAlumina", "Alumina");
@@ -29,6 +29,7 @@ mods.rockhounding_chemistry.MaterialCabinet.add("TiO", "dustTiO2", "Titanium Dio
 mods.rockhounding_chemistry.MaterialCabinet.add("WA", "dustTungsticacid", "Tungstic Acid");
 mods.rockhounding_chemistry.MaterialCabinet.add("S", "dustSteel", "Steel Dust");
 
+//Aluminium
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:antimonate_shards>);
 mods.rockhounding_chemistry.ChemicalExtractor.add("Antimonate", <rockhounding_chemistry:antimonate_shards>, ["dustAntimony", "dustAlumina"], [48, 18]);
 
@@ -110,6 +111,7 @@ mods.rockhounding_chemistry.ChemicalExtractor.add("Sulfide", <rockhounding_chemi
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:vanadate_shards:3>);
 mods.rockhounding_chemistry.ChemicalExtractor.add("Vanadate", <rockhounding_chemistry:vanadate_shards:3>, ["dustAlumina", "dustVanadium", "dustZinc", "dustNickel"], [18, 17, 8, 2]);
 
+//Titanium
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:oxide_shards:3>);
 mods.rockhounding_chemistry.ChemicalExtractor.add("Oxide", <rockhounding_chemistry:oxide_shards:3>, ["dustNiobium", "dustYttrium", "dustCerium", "dustCalcium", "dustTiO2"], [33, 16, 3, 2, 2]);
 
@@ -131,6 +133,7 @@ mods.rockhounding_chemistry.ChemicalExtractor.add("Oxide", <rockhounding_chemist
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:silicate_shards:5>);
 mods.rockhounding_chemistry.ChemicalExtractor.add("Silicate", <rockhounding_chemistry:silicate_shards:5>, ["dustSilicon", "dustYttrium", "dustTiO2", "dustPotassium", "dustDysprosium", "dustGadolinium", "dustHolmium", "dustTerbium", "dustSamarium"], [28, 11, 7, 6, 3, 1, 1, 1, 1]);
 
+//Tungsten
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:oxide_shards:16>);
 mods.rockhounding_chemistry.ChemicalExtractor.add("Oxide", <rockhounding_chemistry:oxide_shards:16>, ["dustTungsticacid"], [75]);
 
@@ -156,3 +159,10 @@ mods.rockhounding_chemistry.MetalAlloyer.add(["dustSteel", "dustManganese", "dus
 mods.rockhounding_chemistry.MetalAlloyer.add(["dustMagnesium", "dustBoron"], [33, 67], <nuclearcraft:alloy:3>);
 
 mods.rockhounding_chemistry.MetalAlloyer.add(["dustSteel", "dustBoron", "dustSilicon", "dustAluminum"], [78, 19, 2, 1], <nuclearcraft:alloy:6>);
+
+
+//Petrochem
+//Tester
+mods.rockhounding_chemistry.GasPurifier.removeByOutput(<liquid:ammonia>);
+mods.rockhounding_chemistry.GasReformer.add(<liquid:hydrogen>*1500, <liquid:nitrogen>*500, <liquid:ammonia>*1000, <rockhounding_chemistry:fe_catalyst>);
+

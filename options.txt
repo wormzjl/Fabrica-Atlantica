@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:120
 fboEnable:true
-difficulty:1
+difficulty:2
 fancyGraphics:false
 ao:2
 renderClouds:false
@@ -90,9 +90,6 @@ key_Boost Key:29
 key_Mode Switch Key:50
 key_Side Inventory Key:0
 key_Hub Expand Key:0
-key_Change Caster Focus:33
-key_Misc Caster Toggle:34
-key_keybind.baublesinventory:48
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -113,9 +110,16 @@ key_quark.emote.shrug:0
 key_quark.emote.headbang:0
 key_quark.emote.weep:0
 key_quark.emote.facepalm:0
+key_quark.emote.dance:0
+key_quark.emote.tpose:0
+key_quark.emote.dab:0
+key_quark.emote.jet:0
+key_quark.emote.exorcist:0
+key_quark.emote.zombie:0
 key_quark.keybind.toggleAutojump:48
 key_quark.keybind.lockBuilding:37
 key_autoverse.key.togglemode:35
+key_keybind.baublesinventory:48
 key_key.betterquesting.quests:41
 key_key.nhc.toggle:34
 key_key.ftbguides.guide:0
@@ -140,6 +144,7 @@ key_Toggle StepUp:36
 key_Strip World:211
 key_Dress World:210
 key_Inspect Block:199
+key_key.narrator:48:CONTROL
 key_key.cofh.multimode:0
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
@@ -149,10 +154,15 @@ key_key.jei.showUses:22
 key_key.jei.recipeBack:14
 key_key.jei.previousPage:201
 key_key.jei.nextPage:209
+key_key.jei.bookmark:30
+key_key.jei.toggleBookmarkOverlay:0
 key_key.toggleLiquids:78
 key_key.toggleVisible:0
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
+key_key.toggle_focus.desc:15
+key_key.blockdropstweaker.saveblockdrops:34
+key_key.blockdropstweaker.reloadblockdrops:35
 key_mod.chiselsandbits.chiselmode.single:0
 key_mod.chiselsandbits.chiselmode.snap2:0
 key_mod.chiselsandbits.chiselmode.snap4:0
@@ -187,6 +197,8 @@ key_key.toolProfileChange:0
 key_key.armorProfileChange:0
 key_key.toggleFlight:0
 key_key.toggleDislocator:0
+key_key.reelIn:45
+key_key.reelOut:44
 key_key.dragon_fireAttack:19
 key_key.dragon_strike:34
 key_key.dragon_down:45
@@ -195,7 +207,6 @@ key_key.nextitem:0
 key_key.previtem:0
 key_key.placeitem:0
 key_key.debughandles:0
-key_invtweaks.key.sort:19
 key_Open Matter Scanner GUI:0
 key_Android Ability key:0
 key_Android Switch Ability key:0
@@ -225,6 +236,8 @@ key_Open Rocket GUI:46
 key_Toggle RCS:19
 key_Rotate Rocket Right:32
 key_Rotate Rocket Left:30
+key_Move Rocket Up:44
+key_Move Rocket Down:45
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
 key_key.journeymap.minimap_type:26

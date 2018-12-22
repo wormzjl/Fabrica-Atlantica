@@ -48,7 +48,12 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<magneticraft:ingots:4>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<ic2:ingot:8>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<minecraft:iron_ingot>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<minecraft:gold_ingot>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:1>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:2>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:3>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:4>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:5>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<ic2:ingot:2>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<ic2:ingot:3>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<ic2:ingot:4>);
@@ -63,8 +68,9 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<libvulpes:productingot:10>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:128>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:130>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:131>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:135>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:134>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:135>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:136>);
 
 
 //Industrial wires
@@ -72,10 +78,10 @@ mods.industrialwires.MarxGenerator.removeRecipe(<minecraft:iron_ore>);
 mods.industrialwires.MarxGenerator.removeRecipe(<minecraft:gold_ore>);
 mods.industrialwires.MarxGenerator.removeRecipe(<forestry:resources:1>);
 mods.industrialwires.MarxGenerator.removeRecipe(<forestry:resources:2>);
-//mods.industrialwires.MarxGenerator.removeRecipe(<thermalfoundation:ore:2>);
-//mods.industrialwires.MarxGenerator.removeRecipe(<thermalfoundation:ore:3>);
-//mods.industrialwires.MarxGenerator.removeRecipe(<thermalfoundation:ore:4>);
-//mods.industrialwires.MarxGenerator.removeRecipe(<thermalfoundation:ore:5>);
+mods.industrialwires.MarxGenerator.removeRecipe(<thermalfoundation:ore:2>);
+mods.industrialwires.MarxGenerator.removeRecipe(<thermalfoundation:ore:3>);
+mods.industrialwires.MarxGenerator.removeRecipe(<thermalfoundation:ore:4>);
+mods.industrialwires.MarxGenerator.removeRecipe(<thermalfoundation:ore:5>);
 mods.industrialwires.MarxGenerator.removeRecipe(<ic2:resource:2>);
 mods.industrialwires.MarxGenerator.removeRecipe(<ic2:resource:4>);
 mods.industrialwires.MarxGenerator.removeRecipe(<immersiveengineering:ore:1>);
