@@ -82,7 +82,6 @@ junk.addItemEntry(<contenttweaker:scrap9>, 5);
 junk.addItemEntry(<ic2:crafting:10>, 7);
 junk.addItemEntry(<ic2:sapling>, 10);
 
-treasure.addItemEntry(<matteroverdrive:emergency_ration>, 1);
 treasure.addItemEntry(<ic2:filled_tin_can>, 3);
 treasure.addItemEntry(<betterwithmods:material:5>, 3);
 treasure.addItemEntry(<betterwithmods:material:5>, 3);

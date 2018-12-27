@@ -1,5 +1,5 @@
 mods.jei.JEI.hide(<appliedenergistics2:facade:*>);
-mods.jei.JEI.hide(<buildcraftsilicon:plug_facade:*>);
+//mods.jei.JEI.hide(<buildcraftsilicon:plug_facade:*>);
 mods.jei.JEI.hide(<microblockcbe:microblock:*>);
 
 furnace.remove(<minecraft:coal:1>);
@@ -7,22 +7,14 @@ furnace.remove(<minecraft:coal:1>);
 //Fuel values
 furnace.setFuel(<contenttweaker:scrap8>, 800);
 
-//foundry
-//mods.jei.JEI.removeAndHide(<foundry:alloyfurnace>);
-//mods.jei.JEI.removeAndHide(<foundry:refractoryhopper>);
-//mods.jei.JEI.removeAndHide(<foundry:machine:5>);
-
 //misc
-//mods.jei.JEI.removeAndHide(<bibliocraft:typesettingtable>);
-//mods.jei.JEI.removeAndHide(<bibliocraft:printingpress>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:material:40>);
-mods.jei.JEI.removeAndHide(<buildcraftcore:gear_wood>);
 mods.jei.JEI.removeAndHide(<minecraft:ender_chest>);
 
 //Gated recipes
 //Crafting table
-recipes.remove(<minecraft:crafting_table>);
-recipes.addShaped(<minecraft:crafting_table>, [[<betterwithmods:siding_wood:*>, <betterwithmods:siding_wood:*>], [<betterwithmods:siding_wood:*>, <betterwithmods:siding_wood:*>]]);
+//recipes.remove(<minecraft:crafting_table>);
+//recipes.addShaped(<minecraft:crafting_table>, [[<betterwithmods:siding_wood:*>, <betterwithmods:siding_wood:*>], [<betterwithmods:siding_wood:*>, <betterwithmods:siding_wood:*>]]);
 
 //Chest
 recipes.removeShaped(<minecraft:chest>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, null, <ore:plankWood>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
@@ -33,36 +25,9 @@ recipes.addShaped(<minecraft:hopper>, [[<betterwithmods:material:14>, null, <bet
 recipes.addShaped(<minecraft:hopper>, [[<ore:ingotSteel>, null, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:chestWood>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
 
 
-//Immersivecraft
-mods.jei.JEI.removeAndHide(<immcraft:furnace>);
-recipes.remove(<immcraft:rock>);
-
-recipes.remove(<immcraft:chest>);
-recipes.addShaped(<immcraft:chest>, [[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>], [<minecraft:planks>, null, <minecraft:planks>], [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
-
-recipes.remove(<immcraft:cupboard>);
-recipes.addShaped(<immcraft:cupboard>, [[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>], [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>], [<minecraft:planks>, null, <minecraft:planks>]]);
-
-recipes.remove(<immcraft:shelf>);
-recipes.addShaped(<immcraft:shelf>, [[<minecraft:planks>, null, <minecraft:planks>], [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>], [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
-
-recipes.remove(<immcraft:bookshelf>);
-recipes.addShaped(<immcraft:bookshelf>, [[<minecraft:planks>, null, <minecraft:planks>], [<minecraft:planks>, <minecraft:book>, <minecraft:planks>], [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
-
-
-//modular item frame
-//mods.jei.JEI.removeAndHide(<modularitemframe:module_t1_tank>);
-//mods.jei.JEI.removeAndHide(<modularitemframe:module_t3_tele>);
-//mods.jei.JEI.removeAndHide(<modularitemframe:module_t3_xp>);
-
-
 //Thermal foundation
 mods.jei.JEI.hide(<thermalfoundation:upgrade:*>);
 mods.jei.JEI.hide(<thermalfoundation:glass:*>);
-
-//MO
-mods.jei.JEI.removeAndHide(<matteroverdrive:solar_panel>);
-
 
 //Charcoal pit
 mods.jei.JEI.hide(<charcoal_pit:alchemical_coal>);
@@ -70,7 +35,7 @@ mods.jei.JEI.hide(<charcoal_pit:aeternalis_fuel>);
 mods.jei.JEI.removeAndHide(<charcoal_pit:item_fertilizer>);
 
 recipes.remove(<charcoal_pit:bloomery_hatch>);
-recipes.addShaped(<industrialrenewal:catwalk_pillar>*32,
+recipes.addShaped(<charcoal_pit:bloomery_hatch>,
  [[<ore:plateBronze>, <ore:blockBronze>, <ore:plateBronze>],
   [<ore:plateBronze>, null, <ore:plateBronze>],
   [<ore:plateBronze>, <ore:blockBronze>, <ore:plateBronze>]]);
@@ -113,9 +78,9 @@ mods.jei.JEI.removeAndHide(<ironchest:diamond_obsidian_shulker_upgrade>);
   
 
 //Industrail renewal
-mods.jei.JEI.hide(<industrialrenewal:solar_panel>);
-mods.jei.JEI.hide(<industrialrenewal:sponge_iron>);
-mods.jei.JEI.hide(<industrialrenewal:stick_iron>);
+mods.jei.JEI.removeAndHide(<industrialrenewal:solar_panel>);
+mods.jei.JEI.removeAndHide(<industrialrenewal:sponge_iron>);
+mods.jei.JEI.removeAndHide(<industrialrenewal:stick_iron>);
 
 recipes.removeShaped(<industrialrenewal:catwalk_pillar>*6,
  [[<ore:ingotSteel>, <ore:stickIron>, <ore:ingotSteel>],
@@ -174,38 +139,3 @@ recipes.addShaped(<industrialrenewal:frame> * 12, [[<ore:stickIron>, <ore:ingotS
 recipes.remove(<industrialrenewal:industrial_floor>);
 recipes.addShaped(<industrialrenewal:industrial_floor> * 24, [[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>], [null, null, null], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
 
-//Aluminium modification
-//mods.jei.JEI.removeAndHide(<foundry:machine:3>);
-mods.jei.JEI.removeAndHide(<magneticraft:ingots:7>);
-mods.jei.JEI.removeAndHide(<rockhounding_chemistry:metal_items:3>);
-mods.jei.JEI.removeAndHide(<libvulpes:productingot:9>);
-
-//furnace.remove(<thermalfoundation:material:132>);
-//furnace.remove(<thermalfoundation:material:196>);
-//furnace.remove(<thermalfoundation:material:132>);
-furnace.remove(<rockhounding_chemistry:metal_items:3>);
-furnace.remove(<magneticraft:ingots:7>);
-furnace.remove(<immersiveengineering:metal:1>);
-
-//mods.foundry.Melting.removeRecipe(<thermalfoundation:material:68>);
-//mods.foundry.Melting.removeRecipe(<harderores:tinydust:18>);
-//mods.foundry.Melting.removeRecipe(<magneticraft:chunks:7>);
-//mods.foundry.Melting.removeRecipe(<magneticraft:rocky_chunks:7>);
-//mods.foundry.Melting.removeRecipe(<jaopca:item_crushedaluminium>);
-//mods.foundry.Melting.removeRecipe(<jaopca:item_crushedpurifiedaluminium>);
-//mods.foundry.Melting.removeRecipe(<jaopca:item_clusteraluminium>);
-
-//mods.foundry.Casting.removeRecipe(<liquid:liquidaluminium>, <foundry:mold>);
-//mods.foundry.Casting.removeRecipe(<liquid:liquidaluminium>, <foundry:mold:1>);
-//mods.foundry.Casting.removeRecipe(<liquid:liquidaluminium>, <foundry:mold:2>);
-//mods.foundry.Casting.removeRecipe(<liquid:liquidaluminium>, <foundry:mold:4>);
-//mods.foundry.Casting.removeRecipe(<liquid:liquidaluminium>, <foundry:mold:5>);
-//mods.foundry.Casting.removeRecipe(<liquid:liquidaluminium>, <foundry:mold:26>);
-
-//mods.foundry.CastingTable.removeBlockRecipe(<liquid:liquidaluminium>);
-//mods.foundry.CastingTable.removeIngotRecipe(<liquid:liquidaluminium>);
-//mods.foundry.CastingTable.removePlateRecipe(<liquid:liquidaluminium>);
-
-//mods.foundry.Infuser.removeRecipe(<liquid:alumina>, <thermalfoundation:material:768>);
-//mods.foundry.Infuser.removeRecipe(<liquid:alumina>, <thermalfoundation:material:769>);
-//mods.foundry.Infuser.removeRecipe(<liquid:alumina>, <jaopca:item_dustsmallcoal>);

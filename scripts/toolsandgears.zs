@@ -2,36 +2,6 @@ import crafttweaker.item.IItemStack;
 
 //Batch removal
 static removedtools as IItemStack[] = [
-  <projectred-exploration:ruby_pickaxe>,
-  <projectred-exploration:sapphire_pickaxe>,
-  <projectred-exploration:peridot_pickaxe>,
-  <projectred-exploration:ruby_axe>,
-  <projectred-exploration:sapphire_axe>,
-  <projectred-exploration:peridot_axe>,
-  <projectred-exploration:ruby_hoe>,
-  <projectred-exploration:sapphire_hoe>,
-  <projectred-exploration:peridot_hoe>,
-  <projectred-exploration:ruby_shovel>,
-  <projectred-exploration:sapphire_shovel>,
-  <projectred-exploration:peridot_shovel>,
-  <projectred-exploration:ruby_sword>,
-  <projectred-exploration:sapphire_sword>,
-  <projectred-exploration:peridot_sword>,
-  <projectred-exploration:ruby_helmet>,
-  <projectred-exploration:ruby_chestplate>,
-  <projectred-exploration:ruby_leggings>,
-  <projectred-exploration:ruby_boots>,
-  <projectred-exploration:sapphire_helmet>,
-  <projectred-exploration:sapphire_chestplate>,
-  <projectred-exploration:sapphire_leggings>,
-  <projectred-exploration:sapphire_boots>,
-  <projectred-exploration:peridot_helmet>,
-  <projectred-exploration:peridot_chestplate>,
-  <projectred-exploration:peridot_leggings>,
-  <projectred-exploration:peridot_boots>,
-  <projectred-exploration:backpack:*>,  
-  
-  
   <primal:bone_pickaxe>,
   <primal:bone_shovel>,
   <primal:bone_hoe>,
@@ -56,11 +26,6 @@ static removedtools as IItemStack[] = [
   <primal:emerald_shovel>,
   <primal:emerald_hoe>,
   <primal:emerald_axe>,
-  <primal_tech:bone_pickaxe>,
-  <primal_tech:bone_axe>,
-  <primal_tech:bone_shovel>,
-  <primal_tech:bone_sword>,
-  <primal_tech:bone_shears>,
   <primal:sword_crude_bone>,
   <primal:sword_crude_wootz>,
   <primal:sword_crude_quartz>,
@@ -103,16 +68,6 @@ static removedtools as IItemStack[] = [
   <iceandfire:dragonbone_shovel>,
   <iceandfire:dragonbone_axe>,
   <iceandfire:dragonbone_hoe>,
-  
-  <matteroverdrive:tritanium_pickaxe>,
-  <matteroverdrive:tritanium_axe>,
-  <matteroverdrive:tritanium_sword>,
-  <matteroverdrive:tritanium_hoe>,
-  <matteroverdrive:tritanium_shovel>,
-  <matteroverdrive:tritanium_helmet>,
-  <matteroverdrive:tritanium_chestplate>,
-  <matteroverdrive:tritanium_leggings>,
-  <matteroverdrive:tritanium_boots>
 ];
 
 

@@ -28,6 +28,7 @@ mods.rockhounding_chemistry.MaterialCabinet.add("AlO", "dustAlumina", "Alumina")
 mods.rockhounding_chemistry.MaterialCabinet.add("TiO", "dustTiO2", "Titanium Dioxide");
 mods.rockhounding_chemistry.MaterialCabinet.add("WA", "dustTungsticacid", "Tungstic Acid");
 mods.rockhounding_chemistry.MaterialCabinet.add("S", "dustSteel", "Steel Dust");
+mods.rockhounding_chemistry.MaterialCabinet.add("REE", "dustMischmetal", "Mischmetal Dust");
 
 //Aluminium
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:antimonate_shards>);
@@ -152,6 +153,7 @@ mods.rockhounding_chemistry.ChemicalExtractor.add("Sulfate", <rockhounding_chemi
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:sulfide_shards:12>);
 mods.rockhounding_chemistry.ChemicalExtractor.add("Sulfide", <rockhounding_chemistry:sulfide_shards:12>, ["dustTungsticacid", "dustSulfur"], [74, 26]);
 
+//Rare Earth
 
 //Materials for nuclearcraft
 mods.rockhounding_chemistry.MetalAlloyer.add(["dustSteel", "dustManganese", "dustMolybdenum", "dustNickel", "dustSilicon"], [95, 1, 1, 1, 1], <nuclearcraft:alloy:1>);

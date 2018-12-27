@@ -32,10 +32,10 @@ mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:lithium>*360);
 mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:thorium>*360);
 mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:uranium>*360);
 mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:magnesium>*360);
-mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:quartz>*1665);
-mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:lapis>*1665);
-mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:diamond>*1665);
-mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:emerald>*1665);
+mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:quartz>*5994);
+mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:lapis>*5994);
+mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:diamond>*5994);
+mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:emerald>*5994);
 
 
 

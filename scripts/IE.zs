@@ -36,10 +36,6 @@ mods.immersiveengineering.Crusher.removeRecipesForInput(<libvulpes:ore0:8>);
 mods.immersiveengineering.Crusher.removeRecipesForInput(<libvulpes:ore0:10>);
 
 
-mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:1>);
-mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:1>, <ore:dustAluminum>, null, 300, 512);
-mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:21>*3, <contenttweaker:alumina>, null, 500, 512);
-
 mods.immersiveengineering.ArcFurnace.removeRecipe(<magneticraft:ingots:5>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<magneticraft:ingots:5>, <ore:dustTungsten>, null, 512, 4096);
 
@@ -87,7 +83,4 @@ mods.industrialwires.MarxGenerator.removeRecipe(<ic2:resource:4>);
 mods.industrialwires.MarxGenerator.removeRecipe(<immersiveengineering:ore:1>);
 mods.industrialwires.MarxGenerator.removeRecipe(<immersiveengineering:ore:3>);
 mods.industrialwires.MarxGenerator.removeRecipe(<immersiveengineering:ore:4>);
-
-
-mods.industrialwires.MarxGenerator.addRecipe(<contenttweaker:alumina_block>, 2.5, 9, <rockhounding_chemistry:chemical_dusts:16>);
 

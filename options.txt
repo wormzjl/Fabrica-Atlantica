@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:120
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:false
 ao:2
 renderClouds:false
@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:true
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -90,6 +90,9 @@ key_Boost Key:29
 key_Mode Switch Key:50
 key_Side Inventory Key:0
 key_Hub Expand Key:0
+key_keybind.railcraft.cart.bed:208
+key_quark.keybind.lockBuilding:37
+key_quark.keybind.toggleAutojump:48
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -116,15 +119,11 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.toggleAutojump:48
-key_quark.keybind.lockBuilding:37
 key_autoverse.key.togglemode:35
 key_keybind.baublesinventory:48
 key_key.betterquesting.quests:41
 key_key.nhc.toggle:34
 key_key.ftbguides.guide:0
-key_key.ftbutilities.warp:0
-key_key.ftbutilities.nbt:0
 key_pneumaticcraft.armor.options:22
 key_pneumaticcraft.helmet.hack:0
 key_pneumaticcraft.helmet.debugging.drone:0
@@ -191,6 +190,7 @@ key_mod.chiselsandbits.other.offgrid:0
 key_mod.chiselsandbits.other.undo:0
 key_mod.chiselsandbits.other.redo:0
 key_mod.chiselsandbits.other.add_to_clipboard:0
+key_cyberware.keybinds.menu:19
 key_key.placeItem:0
 key_key.toolConfig:0
 key_key.toolProfileChange:0
@@ -238,6 +238,11 @@ key_Rotate Rocket Right:32
 key_Rotate Rocket Left:30
 key_Move Rocket Up:44
 key_Move Rocket Down:45
+key_keybind.railcraft.loco.reverse:53:ALT
+key_keybind.railcraft.loco.faster:52:ALT
+key_keybind.railcraft.loco.slower:51:ALT
+key_keybind.railcraft.loco.mode:50:ALT
+key_keybind.railcraft.loco.whistle:49:ALT
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
 key_key.journeymap.minimap_type:26
