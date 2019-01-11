@@ -136,3 +136,69 @@ recipes.addShaped(<industrialrenewal:frame> * 12, [[<ore:stickIron>, <ore:ingotS
 recipes.remove(<industrialrenewal:industrial_floor>);
 recipes.addShaped(<industrialrenewal:industrial_floor> * 24, [[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>], [null, null, null], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
 
+//DSE
+mods.jei.JEI.hide(<dse:hyperthermic>);
+mods.jei.JEI.hide(<dse:hypothermic>);
+
+mods.jei.JEI.removeAndHide(<dse:dinghy>);
+mods.jei.JEI.removeAndHide(<dse:vehiclestation>);
+mods.jei.JEI.removeAndHide(<dse:upgrades:1>);
+mods.jei.JEI.removeAndHide(<dse:upgrades:2>);
+
+recipes.remove(<dse:divinggoggles>);
+recipes.addShaped(<dse:divinggoggles>, [[<ic2:crafting>, <ic2:crafting>, <ic2:crafting>], [<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>], [<ic2:crafting>, <ic2:crafting>, <ic2:crafting>]]);
+
+recipes.remove(<nhc:frame>);
+recipes.addShaped(<nhc:frame>, [[<ore:plateSteel>, <immersiveengineering:metal_decoration1>, <ore:plateSteel>], [<immersiveengineering:metal_decoration1>, <minecraft:redstone:*>, <immersiveengineering:metal_decoration1>], [<ore:plateSteel>, <immersiveengineering:metal_decoration1>, <ore:plateSteel>]]);
+
+recipes.remove(<nhc:toolstation>);
+recipes.addShaped(<nhc:toolstation>, [[<ore:plateSteel>, <minecraft:glass_pane:*>, <ore:plateSteel>], [<minecraft:piston>, <minecraft:comparator>, <minecraft:piston>], [<ore:plateSteel>, <nhc:frame>, <ore:plateSteel>]]);
+
+recipes.remove(<dse:scubamask>);
+recipes.addShaped(<dse:scubamask>, [[<ore:plateSteel>, <dse:divinggoggles>, <ore:plateSteel>], [<minecraft:redstone>, <minecraft:leather_helmet>, <minecraft:redstone>], [<ore:plateSteel>, <ore:circuitAdvanced>, <ore:plateSteel>]]);
+
+recipes.remove(<dse:scubachest>);
+recipes.addShaped(<dse:scubachest>, [[<ore:plateSteel>, <ic2:crafting>, <ore:plateSteel>], [<minecraft:redstone>, <minecraft:leather_chestplate>, <minecraft:redstone>], [<ore:plateSteel>, <ore:circuitAdvanced>, <ore:plateSteel>]]);
+
+recipes.remove(<dse:scubalegs>);
+recipes.addShaped(<dse:scubalegs>, [[<ore:plateSteel>, <ic2:crafting>, <ore:plateSteel>], [<minecraft:redstone>, <minecraft:leather_leggings>, <minecraft:redstone>], [<ore:plateSteel>, <ore:circuitAdvanced>, <ore:plateSteel>]]);
+
+recipes.remove(<dse:scubaboots>);
+recipes.addShaped(<dse:scubaboots>, [[<ore:plateSteel>, <ic2:crafting>, <ore:plateSteel>], [<minecraft:redstone>, <minecraft:leather_boots>, <minecraft:redstone>], [<ore:plateSteel>, <ore:circuitAdvanced>, <ore:plateSteel>]]);
+
+recipes.remove(<dse:airtank_small>);
+recipes.addShaped(<dse:airtank_small>, [[<ic2:crafting>, <ore:plateIron>, <ic2:crafting>], [<ore:plateIron>, <dse:components:9>, <ore:plateIron>], [<ore:plateIron>, <ore:denseplateIron>, <ore:plateIron>]]);
+
+recipes.remove(<dse:airtank_large>);
+recipes.addShaped(<dse:airtank_large>, [[<ic2:crafting>, <ore:plateSteel>, <ic2:crafting>], [<dse:airtank_small:*>, <ic2:crafting>, <dse:airtank_small:*>], [<ore:plateSteel>, <ore:denseplateSteel>, <ore:plateSteel>]]);
+
+recipes.remove(<dse:airtank_highpressure>);
+recipes.addShaped(<dse:airtank_highpressure>, [[<ore:plateInvar>, <ore:denseplateInvar>, <ore:plateInvar>], [<ore:plateInvar>, <dse:airtank_large:*>, <ore:plateInvar>], [<ore:plateInvar>, <ore:denseplateInvar>, <ore:plateInvar>]]);
+
+recipes.remove(<dse:motorboat:*>);
+recipes.addShaped(<dse:motorboat>, [[<nhc:frame>, <ore:circuitAdvanced>, <ore:platedenseSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+
+recipes.remove(<dse:upgrades>);
+recipes.addShaped(<dse:upgrades>, [[<ic2:crafting>, null, <ic2:crafting>], [<ic2:crafting>, null, <ic2:crafting>], [<ore:plateIron>, null, <ore:plateIron>]]);
+
+recipes.remove(<dse:flippers:*>);
+recipes.addShaped(<dse:flippers>, [[<ore:dyeBlack>, null, <ore:dyeBlack>], [<ic2:crafting>, null, <ic2:crafting>], [<ic2:crafting>, null, <ic2:crafting>]]);
+
+recipes.addShapeless(<dse:flippers:1>,[<dse:flippers>, <ore:dyeRed>]);
+recipes.addShapeless(<dse:flippers:2>,[<dse:flippers>, <ore:dyeGreen>]);
+recipes.addShapeless(<dse:flippers:3>,[<dse:flippers>, <ore:dyeBrown>]);
+recipes.addShapeless(<dse:flippers:4>,[<dse:flippers>, <ore:dyeBlue>]);
+recipes.addShapeless(<dse:flippers:5>,[<dse:flippers>, <ore:dyePurple>]);
+recipes.addShapeless(<dse:flippers:6>,[<dse:flippers>, <ore:dyeCyan>]);
+recipes.addShapeless(<dse:flippers:7>,[<dse:flippers>, <ore:dyeLightGray>]);
+recipes.addShapeless(<dse:flippers:8>,[<dse:flippers>, <ore:dyeGray>]);
+recipes.addShapeless(<dse:flippers:9>,[<dse:flippers>, <ore:dyePink>]);
+recipes.addShapeless(<dse:flippers:10>,[<dse:flippers>, <ore:dyeLime>]);
+recipes.addShapeless(<dse:flippers:11>,[<dse:flippers>, <ore:dyeYellow>]);
+recipes.addShapeless(<dse:flippers:12>,[<dse:flippers>, <ore:dyeLightBlue>]);
+recipes.addShapeless(<dse:flippers:13>,[<dse:flippers>, <ore:dyeMagenta>]);
+recipes.addShapeless(<dse:flippers:14>,[<dse:flippers>, <ore:dyeOrange>]);
+recipes.addShapeless(<dse:flippers:15>,[<dse:flippers>, <ore:dyeWhite>]);
+
+
+

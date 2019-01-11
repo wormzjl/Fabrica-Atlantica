@@ -29,3 +29,6 @@ chest.remove(<minecraft:ender_chest>);
 
 val dustCarbon = <ore:dustCarbon>;
 dustCarbon.remove(<betterwithmods:material:18>);
+
+val circuitBasic = <ore:circuitBasic>;
+circuitBasic.remove(<techguns:itemshared:65>);

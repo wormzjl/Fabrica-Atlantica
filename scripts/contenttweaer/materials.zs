@@ -100,7 +100,7 @@ var titanium = MaterialSystem.getMaterialBuilder().setName("Titanium").setColor(
 var tungsten = MaterialSystem.getMaterialBuilder().setName("Tungsten").setColor(4868682).build();
 
 var metal_list = [iron, gold, steel, copper, tin, bronze, lead, silver, nickel, invar, zinc, brass, aluminium, titanium, tungsten] as Material[];
-var adv_metals = [aluminium, titanium, tungsten] as Material[];
+var adv_metals = [titanium, tungsten] as Material[];
 var part_names = ["gear", "plate", "rod", "denseplate"] as string[];
 
 for i, metal in metal_list {
