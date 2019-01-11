@@ -32,6 +32,42 @@ sulfuricnitricacid.register();
 var fumingsulfuricnitricacid = VanillaFactory.createFluid("fumingsulfuricnitricacid", Color.fromHex("FAFFA8"));
 fumingsulfuricnitricacid.register();
 
+var flotation_solution = VanillaFactory.createFluid("flotation_solution", Color.fromHex("99E6FF"));
+flotation_solution.register();
+
+var flotation_waste = VanillaFactory.createFluid("flotation_waste", Color.fromHex("1A1A00"));
+flotation_waste.register();
+
+var iron_slurry = VanillaFactory.createFluid("iron_slurry", Color.fromHex("484848"));
+iron_slurry.register();
+
+var gold_slurry = VanillaFactory.createFluid("gold_slurry", Color.fromHex("484848"));
+gold_slurry.register();
+
+var copper_slurry = VanillaFactory.createFluid("copper_slurry", Color.fromHex("484848"));
+copper_slurry.register();
+
+var tin_slurry = VanillaFactory.createFluid("tin_slurry", Color.fromHex("484848"));
+tin_slurry.register();
+
+var lead_slurry = VanillaFactory.createFluid("lead_slurry", Color.fromHex("484848"));
+lead_slurry.register();
+
+var aluminium_slurry = VanillaFactory.createFluid("aluminium_slurry", Color.fromHex("484848"));
+aluminium_slurry.register();
+
+var titanium_slurry = VanillaFactory.createFluid("titanium_slurry", Color.fromHex("484848"));
+titanium_slurry.register();
+
+var tungsten_slurry = VanillaFactory.createFluid("tungsten_slurry", Color.fromHex("484848"));
+tungsten_slurry.register();
+
+var uranium_slurry = VanillaFactory.createFluid("uranium_slurry", Color.fromHex("484848"));
+uranium_slurry.register();
+
+var thorium_slurry = VanillaFactory.createFluid("thorium_slurry", Color.fromHex("484848"));
+thorium_slurry.register();
+
 
 //Petrochem liquid
 var crude_heavy = VanillaFactory.createFluid("crude_heavy", Color.fromHex("252525"));

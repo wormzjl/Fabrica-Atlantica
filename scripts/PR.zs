@@ -1,4 +1,4 @@
-mods.jei.JEI.removeAndHide(<projectred-expansion:jetpack>);
+//mods.jei.JEI.removeAndHide(<projectred-expansion:jetpack>);
 //mods.jei.JEI.removeAndHide(<projectred-transportation:pipe>);
 //mods.jei.JEI.removeAndHide(<projectred-transportation:pipe:1>);
 //mods.jei.JEI.removeAndHide(<projectred-transportation:pipe:2>);

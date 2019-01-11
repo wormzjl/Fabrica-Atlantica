@@ -11,6 +11,9 @@
 //recipes.remove(<nuclearcraft:nitrogen_collector>);
 
 mods.jei.JEI.removeAndHide(<nuclearcraft:lithium_ion_battery_basic>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:lithium_ion_battery_advanced>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:lithium_ion_battery_du>);
+
 mods.jei.JEI.removeAndHide(<nuclearcraft:lithium_ion_cell>);
 mods.jei.JEI.removeAndHide(<nuclearcraft:supercooler_idle>);
 mods.jei.JEI.removeAndHide(<nuclearcraft:compound:1>);

@@ -33,7 +33,7 @@ mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ores:3>);
 mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ores:4>);
 mods.magneticraft.CrushingTable.removeRecipe(<libvulpes:ore0:9>);
 mods.magneticraft.CrushingTable.removeRecipe(<immersiveengineering:ore:4>);
-mods.magneticraft.CrushingTable.removeRecipe(<railcraft:ore_metal:5>);
+//mods.magneticraft.CrushingTable.removeRecipe(<railcraft:ore_metal:5>);
 
 mods.magneticraft.CrushingTable.removeRecipe(<minecraft:iron_ingot>);
 mods.magneticraft.CrushingTable.removeRecipe(<minecraft:gold_ingot>);

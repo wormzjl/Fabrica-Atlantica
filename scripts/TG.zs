@@ -2,7 +2,6 @@ import mods.techguns.ReactionChamber;
 
 mods.jei.JEI.hide(<techguns:itemshared:56>);
 furnace.remove(<techguns:itemshared:56>);
-furnace.remove(<techguns:itemshared:85>);
 
 mods.jei.JEI.hide(<techguns:steam_helmet:*>);
 mods.jei.JEI.hide(<techguns:steam_chestplate:*>);

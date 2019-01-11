@@ -38,6 +38,9 @@ var tio2 = VanillaFactory.createItem("tio2");
 tio2.maxStackSize = 16;
 tio2.register();
 
+var tinytio2 = VanillaFactory.createItem("tinytio2");
+tinytio2.register();
+
 var tungsticacid = VanillaFactory.createItem("tungsticacid");
 tungsticacid.maxStackSize = 16;
 tungsticacid.register();
@@ -101,3 +104,7 @@ scalcomb.register();
 var bushingadv = VanillaFactory.createItem("bushingadv");
 bushingadv.maxStackSize = 16;
 bushingadv.register();
+
+var mold_pellet = VanillaFactory.createItem("mold_pellet");
+mold_pellet.maxStackSize = 1;
+mold_pellet.register();
