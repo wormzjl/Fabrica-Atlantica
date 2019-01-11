@@ -32,15 +32,14 @@ mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:lithium>*360);
 mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:thorium>*360);
 mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:uranium>*360);
 mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:magnesium>*360);
-mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:quartz>*5994);
-mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:lapis>*5994);
-mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:diamond>*5994);
-mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:emerald>*5994);
+
+mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:quartz>*1665);
+mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:lapis>*1665);
+mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:diamond>*1665);
+//mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:emerald>*1665);
 
 
 
-mods.nuclearcraft.electrolyser.removeRecipeWithInput(<liquid:water>*1000);
-mods.nuclearcraft.electrolyser.addRecipe(<liquid:water>*1000, <liquid:hydrogen>*495, <liquid:hydrogen>*495, <liquid:deuterium>*10, <liquid:oxygen>*500);
 
 mods.nuclearcraft.chemical_reactor.removeRecipeWithOutput([<liquid:ammonia>*1000, null]);
 mods.nuclearcraft.chemical_reactor.removeRecipeWithOutput([<liquid:sulfuric_acid>*1000, null]);
@@ -53,7 +52,7 @@ mods.nuclearcraft.chemical_reactor.removeRecipeWithOutput([<liquid:sodium_hydrox
 mods.nuclearcraft.chemical_reactor.removeRecipeWithOutput([<liquid:hydrofluoric_acid>*2000, <liquid:calcium_sulfate_solution>*666]);
 //mods.nuclearcraft.chemical_reactor.removeRecipeWithOutput([<liquid:hydrofluoric_acid>, <liquid:fluorine>]);
 
-
+mods.nuclearcraft.electrolyser.removeRecipeWithInput(<liquid:water>*1000);
 mods.nuclearcraft.electrolyser.removeRecipeWithInput(<liquid:koh>*666);
 
 mods.nuclearcraft.dissolver.removeRecipeWithOutput(<liquid:fluorite_water>*666);

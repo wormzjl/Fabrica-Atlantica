@@ -2,6 +2,7 @@ mods.jei.JEI.hide(<appliedenergistics2:facade:*>);
 //mods.jei.JEI.hide(<buildcraftsilicon:plug_facade:*>);
 mods.jei.JEI.hide(<microblockcbe:microblock:*>);
 
+
 furnace.remove(<minecraft:coal:1>);
 
 //Fuel values
@@ -10,6 +11,7 @@ furnace.setFuel(<contenttweaker:scrap8>, 800);
 //misc
 mods.jei.JEI.removeAndHide(<appliedenergistics2:material:40>);
 mods.jei.JEI.removeAndHide(<minecraft:ender_chest>);
+mods.jei.JEI.removeAndHide(<translocators:diamond_nugget>);
 
 //Gated recipes
 //Crafting table
@@ -23,11 +25,6 @@ recipes.removeShaped(<minecraft:chest>, [[<ore:plankWood>, <ore:plankWood>, <ore
 recipes.remove(<minecraft:hopper>);
 recipes.addShaped(<minecraft:hopper>, [[<betterwithmods:material:14>, null, <betterwithmods:material:14>], [<betterwithmods:material:14>, <ore:chestWood>, <betterwithmods:material:14>], [null, <betterwithmods:material:14>, null]]);
 recipes.addShaped(<minecraft:hopper>, [[<ore:ingotSteel>, null, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:chestWood>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
-
-
-//Thermal foundation
-mods.jei.JEI.hide(<thermalfoundation:upgrade:*>);
-mods.jei.JEI.hide(<thermalfoundation:glass:*>);
 
 //Charcoal pit
 mods.jei.JEI.hide(<charcoal_pit:alchemical_coal>);

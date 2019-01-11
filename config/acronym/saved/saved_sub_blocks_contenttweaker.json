@@ -1,3 +1,38 @@
 {
-  "savedSubBlockNames": {}
+  "savedSubBlockNames": {
+    "0": {
+      "0": "thorium_ore_poor_ore_minecraft_stone",
+      "1": "tin_ore_ore_minecraft_stone",
+      "2": "lead_ore_ore_minecraft_stone",
+      "3": "copper_ore_poor_ore_minecraft_stone",
+      "4": "gold_ore_dense_ore_minecraft_stone",
+      "5": "uranium_ore_ore_minecraft_stone",
+      "6": "iron_ore_ore_minecraft_stone",
+      "7": "tin_ore_poor_ore_minecraft_stone",
+      "8": "iron_ore_dense_ore_minecraft_stone",
+      "9": "aluminium_ore_dense_ore_minecraft_stone",
+      "10": "tungsten_ore_ore_minecraft_stone",
+      "11": "gold_ore_poor_ore_minecraft_stone",
+      "12": "uranium_ore_poor_ore_minecraft_stone",
+      "13": "gold_ore_ore_minecraft_stone",
+      "14": "copper_ore_ore_minecraft_stone",
+      "15": "tin_ore_dense_ore_minecraft_stone"
+    },
+    "1": {
+      "0": "aluminium_ore_poor_ore_minecraft_stone",
+      "1": "tungsten_ore_poor_ore_minecraft_stone",
+      "2": "iron_ore_poor_ore_minecraft_stone",
+      "3": "tungsten_ore_dense_ore_minecraft_stone",
+      "4": "titanium_ore_poor_ore_minecraft_stone",
+      "5": "titanium_ore_ore_minecraft_stone",
+      "6": "lead_ore_dense_ore_minecraft_stone",
+      "7": "uranium_ore_dense_ore_minecraft_stone",
+      "8": "thorium_ore_ore_minecraft_stone",
+      "9": "copper_ore_dense_ore_minecraft_stone",
+      "10": "lead_ore_poor_ore_minecraft_stone",
+      "11": "titanium_ore_dense_ore_minecraft_stone",
+      "12": "thorium_ore_dense_ore_minecraft_stone",
+      "13": "aluminium_ore_ore_minecraft_stone"
+    }
+  }
 }

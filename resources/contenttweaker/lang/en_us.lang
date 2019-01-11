@@ -1,13 +1,8 @@
+//Blocks
 tile.contenttweaker.alumina_block.name=Block of Alumina
+tile.contenttweaker.centrifuge.name=Centrifuge
 
-item.contenttweaker.alumina.name=Alumina Dust
-item.contenttweaker.tio2.name=Titanium Dioxide Dust
-item.contenttweaker.tungsticacid.name=Tungstic Acid Dust
-item.contenttweaker.berylliumingot.name=Beryllium Ingot
-
-item.contenttweaker.rawrubber.name=Raw rubber
-item.contenttweaker.driedrawrubber.name=Dried raw rubber
-
+//Items
 item.contenttweaker.scrap1.name=Scrap electronics
 item.contenttweaker.scrap2.name=Corroded mecanical parts
 item.contenttweaker.scrap3.name=Wasted electric cables
@@ -25,5 +20,124 @@ item.contenttweaker.scrapmetal4.name=Scrap gold
 item.contenttweaker.scrapmetal5.name=Scrap lead
 item.contenttweaker.scrapmetal6.name=Scrap silver
 
+item.contenttweaker.alumina.name=Alumina Dust
+item.contenttweaker.tio2.name=Titanium Dioxide Dust
+item.contenttweaker.tungsticacid.name=Tungstic Acid Dust
+item.contenttweaker.berylliumingot.name=Beryllium Ingot
+item.contenttweaker.cdteingot.name=Cadmium Telluride Ingot
+item.contenttweaker.glassfiber.name=Raw Glass Fiber
+item.contenttweaker.ndmagnet.name=Neodymium Magnet
+item.contenttweaker.rawrubber.name=Raw rubber
+item.contenttweaker.driedrawrubber.name=Dried raw rubber
+item.contenttweaker.solarcell.name=Solar Cell
+item.contenttweaker.advsolarcell.name=Advanced Solar Cell
+item.contenttweaker.scalcomb.name=Scandium-Aluminium Alloy Honeycomb
+item.contenttweaker.bushingadv.name=Titanium Gear Bushing
+
+
+
+//Materials
+base.material.iron_ore=Iron
+base.material.gold_ore=Gold
+base.material.copper_ore=Copper
+base.material.tin_ore=Tin
+base.material.lead_ore=Lead
+base.material.aluminium_ore=Aluminium
+base.material.titanium_ore=Titanium
+base.material.tungsten_ore=Tungsten
+base.material.uranium_ore=Uranium
+base.material.thorium_ore=Thorium
+
+base.material.iron=Iron
+base.material.gold=Gold
+base.material.steel=Steel
+base.material.copper=Copper
+base.material.tin=Tin
+base.material.bronze=Bronze
+base.material.lead=Lead
+base.material.silver=Silver
+base.material.nickel=Nickel
+base.material.invar=Invar
+base.material.zinc=Zinc
+base.material.brass=Brass
+base.material.aluminium=Aluminium
+base.material.titanium=Titanium
+base.material.tungsten=Tungsten
+
+contenttweaker.part.ore_high=High Grade %s Ore
+contenttweaker.part.ore_low=High Grade %s Ore
+contenttweaker.part.ore_small_high=Small Piece of High Grade %s Ore
+contenttweaker.part.ore_small_low=Small Piece of Low Grade %s Ore
+contenttweaker.part.ore_dust_small_high=Small Pile of High Grade %s Ore Dust
+contenttweaker.part.ore_dust_small_low=Small Pile of Low Grade %s Ore Dust
+contenttweaker.part.ore_dust_high=High Grade %s Ore Dust
+contenttweaker.part.ore_dust_low=Low Grade %s Ore Dust
+contenttweaker.part.ore_dust_washed_low=Enriched Low Grade %s Ore Dust
+contenttweaker.part.ore_dust_pure=Purified %s Ore Dust
+contenttweaker.part.ore_pellet=%s Ore Pellet
+contenttweaker.part.ore_tailing=%s Ore Tailing
+
+contenttweaker.part.scrapmetal=Scrap %s
+contenttweaker.part.gear=%s Gear
+contenttweaker.part.gearadv=%s Gear
+contenttweaker.part.denseplate=%s Dense Plate
+
+//Fluid-chemical
+fluid.animaloil=Animal Oil
 fluid.liquidrubber=Liquid raw rubber
 fluid.formicacid=Formic acid
+fluid.chlorine=Chlorine
+fluid.phosgen=Phosgen
+fluid.fumingsulfuricacid=Fuming Sulfuric Acid
+fluid.sulfuricnitricacid=Sulfuric and Nitric acid mixture
+fluid.fumingsulfuricnitricacid=Fuming Sulfuric and Nitric acid mixture
+
+
+//Fluid-petrochem
+fluid.crude_heavy=Heavy Crude Oil
+fluid.crude_heavy_desalted=Desalted Heavy Crude Oil
+fluid.crude_heavy_desalted_hot=Hot Desalted Heavy Crude Oil
+fluid.crude_desalted=Desalted Crude Oil
+fluid.crude_desalted_hot=Hot Desalted Crude Oil
+fluid.oil_brine=Oil Brine
+fluid.heavy_oil_hot=Hot Heavy Oil
+fluid.gas_oil=Gas Oil
+fluid.vgo=Vacuum Gas Oil
+fluid.naphtha_desulfurized=Desulfurized Naphtha
+fluid.kerosene_desulfurized=Desulfurized Kerosene
+fluid.gas_oil_desulfurized=Desulfurized Gas Oil
+fluid.vgo_desulfurized=Desulfurized Vacuum Gas Oil
+fluid.benzene=Benzene
+fluid.toluene=Toluene
+fluid.toluenediisocyanate=Toluene diisocyanate
+fluid.glycerol=Glycerol
+fluid.bisphenola=Bisphenol-A
+fluid.phenol=Phenol
+fluid.acetone=Acetone
+fluid.ethylbenzene=Ethylbenzene
+fluid.formaldehyde=Formaldehyde
+
+
+
+//Fluid-petrochem-gas
+fluid.natural_gas=Natural Gas
+fluid.natural_gas_hot=Hot Natural Gas
+fluid.natural_gas_sour=Sour Natural Gas
+fluid.natural_gas_sour_hot=Hot Sour Natural Gas
+fluid.gas_condensate=Natural Gas Condensate
+fluid.natural_gas_humid=Humid Natural Gas
+fluid.natural_gas_sour_humid=Humid Sour Natural Gas
+fluid.natural_gas_dried=Dried Natural Gas
+fluid.natural_gas_sour_dried=Dried Sour Natural Gas
+fluid.ngl=Natural Gas Liquids
+fluid.acid_gas=Acid Gas
+fluid.methane_natural=Natural Methane
+fluid.methane=Methane
+fluid.ethane=Ethane
+fluid.propane=Propane
+fluid.isopropane=Isopropane
+fluid.butane=Butane
+fluid.isobutane=Isobutane
+fluid.propene=Propene
+fluid.butadiene=Butadiene
+fluid.refinerygas=Refinery Gas

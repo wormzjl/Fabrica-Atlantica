@@ -1,6 +1,6 @@
 //Rockhounding
 mods.rockhounding_chemistry.InhibitElements.inhibit("dustIridium");
-//mods.rockhounding_chemistry.InhibitElements.inhibit("dustOsmium");
+mods.rockhounding_chemistry.InhibitElements.inhibit("dustOsmium");
 
 mods.rockhounding_chemistry.Transposer.add(<liquid:water_vapour>, <liquid:water_vapour>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:steam>, <liquid:water_vapour>);
@@ -13,15 +13,150 @@ mods.rockhounding_chemistry.Transposer.add(<liquid:xenon>, <liquid:xenon>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:oxygen>, <liquid:oxygen>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:nitrogen>, <liquid:nitrogen>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:ammonia>, <liquid:ammonia>);
+mods.rockhounding_chemistry.Transposer.add(<liquid:hydrogen>, <liquid:hydrogen>);
 
-mods.rockhounding_chemistry.RetentionVat.remove(<liquid:leachate>);
-mods.rockhounding_chemistry.SlurryPond.removeByOutput(<liquid:silicone>);
+//mods.rockhounding_chemistry.SlurryPond.removeByOutput(<liquid:silicone>);
 
 mods.rockhounding_chemistry.GasCondenser.add(<liquid:helium>*100, <liquid:liquidhelium>*1);
 
 mods.rockhounding_chemistry.LabOven.add("Animal oil", <primal:tallow>, null, <liquid:plantoil>*200, null, <liquid:animaloil>*2000, null);
 mods.rockhounding_chemistry.LabOven.add("Biodiesel", <rockhounding_chemistry:chemical_items:6>, null, <liquid:plantoil>*1000, <liquid:methanol>*200, <liquid:biodiesel>*1000, null);
 mods.rockhounding_chemistry.LabOven.add("Biodiesel2", <rockhounding_chemistry:chemical_items:6>, null, <liquid:animaloil>*1000, <liquid:methanol>*200, <liquid:biodiesel>*1000, null);
+
+//Mineral shards
+mods.rockhounding_chemistry.LeachingVat.remove(<rockhounding_chemistry:mineral_ores:1>);
+mods.rockhounding_chemistry.LeachingVat.add(<rockhounding_chemistry:mineral_ores:1>,
+ [<rockhounding_chemistry:arsenate_shards:1>,
+  <rockhounding_chemistry:arsenate_shards:2>,
+  <rockhounding_chemistry:arsenate_shards:3>,
+  <rockhounding_chemistry:arsenate_shards:4>],
+  [5.94F, 2.5F, 3.49F, 3.8F], <liquid:leachate>*216);
+
+mods.rockhounding_chemistry.LeachingVat.remove(<rockhounding_chemistry:mineral_ores:3>);
+mods.rockhounding_chemistry.LeachingVat.add(<rockhounding_chemistry:mineral_ores:3>,
+ [<rockhounding_chemistry:carbonate_shards>,
+  <rockhounding_chemistry:carbonate_shards:1>,
+  <rockhounding_chemistry:carbonate_shards:2>,
+  <rockhounding_chemistry:carbonate_shards:4>,
+  <rockhounding_chemistry:carbonate_shards:5>,
+  <rockhounding_chemistry:carbonate_shards:6>],
+  [3.05F, 3.71F, 4.06F, 5.03F, 4.45F, 2.69F], <liquid:leachate>*216);
+
+
+mods.rockhounding_chemistry.LeachingVat.remove(<rockhounding_chemistry:mineral_ores:6>);
+mods.rockhounding_chemistry.LeachingVat.add(<rockhounding_chemistry:mineral_ores:6>,
+ [<rockhounding_chemistry:native_shards>,
+  <rockhounding_chemistry:native_shards:1>,
+  <rockhounding_chemistry:native_shards:2>,
+  <rockhounding_chemistry:native_shards:3>,
+  <rockhounding_chemistry:native_shards:4>,
+  <rockhounding_chemistry:native_shards:5>,
+  <rockhounding_chemistry:native_shards:6>,
+  <rockhounding_chemistry:native_shards:7>,
+  <rockhounding_chemistry:native_shards:8>,
+  <rockhounding_chemistry:native_shards:9>,
+  <rockhounding_chemistry:native_shards:10>,
+  <rockhounding_chemistry:native_shards:11>],
+  [7.42F, 5.12F, 7.7F, 7.88F, 14.9F, 13.44F, 15.46F, 11.5F, 4.42F, 1.95F, 3.38F, 2.16F], <liquid:leachate>*216);
+
+mods.rockhounding_chemistry.LeachingVat.remove(<rockhounding_chemistry:mineral_ores:8>);
+mods.rockhounding_chemistry.LeachingVat.add(<rockhounding_chemistry:mineral_ores:8>,
+ [<rockhounding_chemistry:phosphate_shards>,
+  <rockhounding_chemistry:phosphate_shards:1>,
+  <rockhounding_chemistry:phosphate_shards:3>,
+  <rockhounding_chemistry:phosphate_shards:4>,
+  <rockhounding_chemistry:phosphate_shards:5>,
+  <rockhounding_chemistry:phosphate_shards:7>,
+  <rockhounding_chemistry:phosphate_shards:8>,
+  <rockhounding_chemistry:phosphate_shards:9>,
+  <rockhounding_chemistry:phosphate_shards:10>,
+  <rockhounding_chemistry:phosphate_shards:11>,
+  <rockhounding_chemistry:phosphate_shards:12>,
+  <rockhounding_chemistry:phosphate_shards:13>,
+  <rockhounding_chemistry:phosphate_shards:14>],
+  [2.92F, 3.05F, 2.89F, 3.5F, 2.34F, 4.37F, 3.71F, 3.28F, 4.95F, 3.61F, 3.86F, 1.88F, 3.19F], <liquid:leachate>*216);
+
+mods.rockhounding_chemistry.LeachingVat.remove(<rockhounding_chemistry:mineral_ores:11>);
+mods.rockhounding_chemistry.LeachingVat.add(<rockhounding_chemistry:mineral_ores:11>,
+ [<rockhounding_chemistry:sulfide_shards>,
+  <rockhounding_chemistry:sulfide_shards:1>,
+  <rockhounding_chemistry:sulfide_shards:2>,
+  <rockhounding_chemistry:sulfide_shards:3>,
+  <rockhounding_chemistry:sulfide_shards:4>,
+  <rockhounding_chemistry:sulfide_shards:5>,
+  <rockhounding_chemistry:sulfide_shards:6>,
+  <rockhounding_chemistry:sulfide_shards:7>,
+  <rockhounding_chemistry:sulfide_shards:8>,
+  <rockhounding_chemistry:sulfide_shards:9>,
+  <rockhounding_chemistry:sulfide_shards:10>,
+  <rockhounding_chemistry:sulfide_shards:11>,
+  <rockhounding_chemistry:sulfide_shards:15>,
+  <rockhounding_chemistry:sulfide_shards:16>,
+  <rockhounding_chemistry:sulfide_shards:17>,
+  <rockhounding_chemistry:sulfide_shards:18>,
+  <rockhounding_chemistry:sulfide_shards:20>,
+  <rockhounding_chemistry:sulfide_shards:21>,
+  <rockhounding_chemistry:sulfide_shards:22>,
+  <rockhounding_chemistry:sulfide_shards:23>],
+  [9.0F, 6.44F, 6.31F, 7.4F, 4.56F, 4.8F, 5.01F, 4.4F, 3.11F, 4.05F, 4.61F, 4.66F, 4.49F, 4.77F, 4.0F, 2.82F, 7.3F, 7.8F, 11.0F, 4.97F], <liquid:leachate>*216);
+
+//IrOs
+mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:native_shards:12>);
+mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:sulfide_shards:13>);
+mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:sulfide_shards:14>);
+mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:sulfide_shards:19>);
+
+
+//Leachate retention
+mods.rockhounding_chemistry.RetentionVat.remove(<liquid:coal_slurry>);
+mods.rockhounding_chemistry.RetentionVat.remove(<liquid:leachate>);
+mods.rockhounding_chemistry.RetentionVat.add(<liquid:leachate>*1000,
+ [<rockhounding_chemistry:antimonate_shards:1>,
+  <rockhounding_chemistry:antimonate_shards:3>,
+  <rockhounding_chemistry:antimonate_shards:4>,
+  <rockhounding_chemistry:antimonate_shards:5>,
+  <rockhounding_chemistry:arsenate_shards:1>,
+  <rockhounding_chemistry:arsenate_shards:3>,
+  <rockhounding_chemistry:arsenate_shards:4>,
+  <rockhounding_chemistry:borate_shards>,
+  <rockhounding_chemistry:borate_shards:4>,
+  <rockhounding_chemistry:carbonate_shards>,
+  <rockhounding_chemistry:carbonate_shards:4>,
+  <rockhounding_chemistry:chromate_shards>,
+  <rockhounding_chemistry:chromate_shards:4>,
+  <rockhounding_chemistry:halide_shards:3>,
+  <rockhounding_chemistry:halide_shards:4>,
+  <rockhounding_chemistry:native_shards>,
+  <rockhounding_chemistry:native_shards:3>,
+  <rockhounding_chemistry:native_shards:11>,
+  <rockhounding_chemistry:oxide_shards:1>,
+  <rockhounding_chemistry:oxide_shards:4>,
+  <rockhounding_chemistry:oxide_shards:13>,
+  <rockhounding_chemistry:oxide_shards:14>,
+  <rockhounding_chemistry:oxide_shards:19>,
+  <rockhounding_chemistry:oxide_shards:25>,
+  <rockhounding_chemistry:oxide_shards:26>,
+  <rockhounding_chemistry:phosphate_shards:1>,
+  <rockhounding_chemistry:phosphate_shards:8>,
+  <rockhounding_chemistry:phosphate_shards:14>,
+  <rockhounding_chemistry:silicate_shards:6>,
+  <rockhounding_chemistry:silicate_shards:7>,
+  <rockhounding_chemistry:silicate_shards:16>,
+  <rockhounding_chemistry:sulfate_shards:6>,
+  <rockhounding_chemistry:sulfate_shards:9>,
+  <rockhounding_chemistry:sulfate_shards:11>,
+  <rockhounding_chemistry:sulfide_shards>,
+  <rockhounding_chemistry:sulfide_shards:1>,
+  <rockhounding_chemistry:sulfide_shards:3>,
+  <rockhounding_chemistry:sulfide_shards:6>,
+  <rockhounding_chemistry:sulfide_shards:15>,
+  <rockhounding_chemistry:sulfide_shards:20>,
+  <rockhounding_chemistry:sulfide_shards:22>,
+  <rockhounding_chemistry:vanadate_shards>,
+  <rockhounding_chemistry:vanadate_shards:2>],
+  [5.95F, 4.62F, 3.1F, 6.63F, 5.94F, 3.94F, 3.8F, 1.71F, 4.73F, 3.05F, 5.03F, 2.69F, 6.27F, 2.62F, 2.69F, 7.42F, 7.88F, 2.16F, 5.22F, 5.49F, 7.82F, 1.92F, 8.14F, 5.24F, 5.96F, 3.05F, 3.71F, 3.19F, 2.67F, 2.95F, 3.3F, 1.9F, 3.48F, 4.34F, 9.0F, 6.44F, 7.4F, 5.01F, 4.49F, 7.3F, 11.0F, 2.38F, 6.3F]);
+
+
 
 //Material replacements
 mods.rockhounding_chemistry.MaterialCabinet.add("AlO", "dustAlumina", "Alumina");
@@ -153,7 +288,10 @@ mods.rockhounding_chemistry.ChemicalExtractor.add("Sulfate", <rockhounding_chemi
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:sulfide_shards:12>);
 mods.rockhounding_chemistry.ChemicalExtractor.add("Sulfide", <rockhounding_chemistry:sulfide_shards:12>, ["dustTungsticacid", "dustSulfur"], [74, 26]);
 
-//Rare Earth
+//Rare Earth stuff
+mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:arsenate_shards:3>);
+mods.rockhounding_chemistry.ChemicalExtractor.add("Arsenate", <rockhounding_chemistry:arsenate_shards:3>, ["dustCopper", "dustArsenic", "dustCalcium"], [38, 22, 3]);
+
 
 //Materials for nuclearcraft
 mods.rockhounding_chemistry.MetalAlloyer.add(["dustSteel", "dustManganese", "dustMolybdenum", "dustNickel", "dustSilicon"], [95, 1, 1, 1, 1], <nuclearcraft:alloy:1>);
@@ -165,6 +303,14 @@ mods.rockhounding_chemistry.MetalAlloyer.add(["dustSteel", "dustBoron", "dustSil
 
 //Petrochem
 //Tester
-mods.rockhounding_chemistry.GasPurifier.removeByOutput(<liquid:ammonia>);
+mods.rockhounding_chemistry.GasReformer.removeByOutput(<liquid:ammonia>);
 mods.rockhounding_chemistry.GasReformer.add(<liquid:hydrogen>*1500, <liquid:nitrogen>*500, <liquid:ammonia>*1000, <rockhounding_chemistry:fe_catalyst>);
 
+mods.rockhounding_chemistry.GasifierPlant.add(<liquid:biomass>*2000, <liquid:water>*1000, <liquid:raw_syngas>*1000, <rockhounding_chemistry:chemical_items:2>, null, 900);
+
+//mods.rockhounding_chemistry.StirredTank.removeByOutput(<liquid:chloromethane>);
+mods.rockhounding_chemistry.StirredTank.add(<liquid:hydrochloric_acid>*500, <liquid:methanol>*1000, <liquid:chloromethane>*1000, <liquid:hydrogen>*500, 5);
+
+mods.rockhounding_chemistry.GasPurifier.add(<liquid:water_vapour>*500, <liquid:oxygen>*1000, <minecraft:dye:4>, null);
+
+mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_sour>, <liquid:natural_gas_sour>);

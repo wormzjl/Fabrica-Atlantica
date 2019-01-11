@@ -1,0 +1,1550 @@
+{
+    "registryname": "desalter",
+    "localizedname": "Oil Desalter",
+    "color": "E5E5E5",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_pillar@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "industrialrenewal:catwalk_column@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        }
+    ]}

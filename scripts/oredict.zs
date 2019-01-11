@@ -16,9 +16,6 @@ ingotBeryllium.add(<contenttweaker:berylliumingot>);
 val dustUranium = <ore:dustUranium>;
 dustUranium.add(<rockhounding_chemistry:chemical_dusts:55>);
 
-val dustCarbon = <ore:dustCarbon>;
-dustCarbon.add(<thermalfoundation:material:769>);
-
 val toolShears = <ore:toolShears>;
 toolShears.add(<minecraft:shears>);
 
@@ -29,3 +26,6 @@ itemRubber.remove(<primal:sinuous_resin>);
 
 val chest = <ore:chest>;
 chest.remove(<minecraft:ender_chest>);
+
+val dustCarbon = <ore:dustCarbon>;
+dustCarbon.remove(<betterwithmods:material:18>);

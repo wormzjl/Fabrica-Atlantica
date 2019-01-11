@@ -23,7 +23,6 @@ mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:or
 mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:ore:3>);
 mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:ore:4>);
 mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:ore:5>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<thermalfoundation:ore:6>);
 mods.immersiveengineering.Crusher.removeRecipesForInput(<draconicevolution:draconium_ore>);
 mods.immersiveengineering.Crusher.removeRecipesForInput(<nuclearcraft:ore:3>);
 mods.immersiveengineering.Crusher.removeRecipesForInput(<nuclearcraft:ore:5>);
@@ -61,23 +60,16 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<nuclearcraft:ingot:6>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<nuclearcraft:ingot:7>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<libvulpes:productingot:7>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<libvulpes:productingot:10>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:128>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:130>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:131>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:134>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:135>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:136>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<railcraft:ingot:8>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<magneticraft:ingots:5>);
 
 
 //Industrial wires
 mods.industrialwires.MarxGenerator.removeRecipe(<minecraft:iron_ore>);
 mods.industrialwires.MarxGenerator.removeRecipe(<minecraft:gold_ore>);
+mods.industrialwires.MarxGenerator.removeRecipe(<minecraft:coal_ore>);
 mods.industrialwires.MarxGenerator.removeRecipe(<forestry:resources:1>);
 mods.industrialwires.MarxGenerator.removeRecipe(<forestry:resources:2>);
-mods.industrialwires.MarxGenerator.removeRecipe(<thermalfoundation:ore:2>);
-mods.industrialwires.MarxGenerator.removeRecipe(<thermalfoundation:ore:3>);
-mods.industrialwires.MarxGenerator.removeRecipe(<thermalfoundation:ore:4>);
-mods.industrialwires.MarxGenerator.removeRecipe(<thermalfoundation:ore:5>);
 mods.industrialwires.MarxGenerator.removeRecipe(<ic2:resource:2>);
 mods.industrialwires.MarxGenerator.removeRecipe(<ic2:resource:4>);
 mods.industrialwires.MarxGenerator.removeRecipe(<immersiveengineering:ore:1>);

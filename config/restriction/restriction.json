@@ -1,0 +1,87 @@
+{
+  "entries": [
+    {
+      "block": "minecraft:bed",
+      "meta": 0,
+      "ignoreMeta": true,
+      "restrictions": [
+        {
+          "type": "SEESKY",
+          "reverse": true,
+          "ignoreMeta": false
+        }
+      ]
+    },
+    {
+      "block": "minecraft:furnace",
+      "meta": 0,
+      "ignoreMeta": true,
+      "restrictions": [
+        {
+          "type": "CLOSEDROOM",
+          "reverse": false,
+          "size": 50,
+          "block": "minecraft:planks",
+          "meta": 0,
+          "ignoreMeta": true,
+          "amount": 40
+        }
+      ]
+    },
+    {
+      "block": "minecraft:brewing_stand",
+      "meta": 0,
+      "ignoreMeta": true,
+      "restrictions": [
+        {
+          "type": "DIMENSION",
+          "reverse": false,
+          "ignoreMeta": false,
+          "id": -1
+        }
+      ]
+    },
+    {
+      "block": "minecraft:enchanting_table",
+      "meta": 0,
+      "ignoreMeta": false,
+      "restrictions": [
+        {
+          "type": "NEARBYBLOCKS",
+          "reverse": false,
+          "size": 3,
+          "block": "minecraft:lapis_block",
+          "meta": 0,
+          "ignoreMeta": false,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "block": "minecraft:beacon",
+      "meta": 0,
+      "ignoreMeta": false,
+      "restrictions": [
+        {
+          "type": "EXPERIENCE",
+          "reverse": false,
+          "ignoreMeta": false,
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "block": "minecraft:obsidian",
+      "meta": 0,
+      "ignoreMeta": false,
+      "restrictions": [
+        {
+          "type": "MINHEIGHT",
+          "reverse": true,
+          "ignoreMeta": false,
+          "amount": 16
+        }
+      ]
+    }
+  ]
+}

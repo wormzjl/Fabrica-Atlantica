@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:120
 fboEnable:true
-difficulty:0
+difficulty:2
 fancyGraphics:false
 ao:2
 renderClouds:false
@@ -92,15 +92,6 @@ key_Side Inventory Key:0
 key_Hub Expand Key:0
 key_keybind.railcraft.cart.bed:208
 key_quark.keybind.lockBuilding:37
-key_quark.keybind.toggleAutojump:48
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:44
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
-key_quark.keybind.playerSort:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -119,11 +110,21 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:44
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
+key_quark.keybind.playerSort:0
+key_quark.keybind.toggleAutojump:48
 key_autoverse.key.togglemode:35
-key_keybind.baublesinventory:48
 key_key.betterquesting.quests:41
 key_key.nhc.toggle:34
 key_key.ftbguides.guide:0
+key_key.ftbutilities.warp:35
+key_key.ftbutilities.nbt:49:ALT
 key_pneumaticcraft.armor.options:22
 key_pneumaticcraft.helmet.hack:0
 key_pneumaticcraft.helmet.debugging.drone:0
@@ -203,13 +204,6 @@ key_key.dragon_fireAttack:19
 key_key.dragon_strike:34
 key_key.dragon_down:45
 key_key.dragon_change_view:65
-key_key.nextitem:0
-key_key.previtem:0
-key_key.placeitem:0
-key_key.debughandles:0
-key_Open Matter Scanner GUI:0
-key_Android Ability key:0
-key_Android Switch Ability key:0
 key_nei.options.keys.gui.enchant:45
 key_nei.options.keys.gui.potion:25
 key_nei.options.keys.gui.prev:201
@@ -230,6 +224,7 @@ key_techguns.key.toggleSafemode:48
 key_techguns.key.toggleStepassist:47
 key_techguns.key.forceReload:19
 key_techguns.key.toggleJetpack:36
+key_key.craftingGrid:46
 key_WorldEdit Reference:0
 key_Toggle Jetpack:45
 key_Open Rocket GUI:46
