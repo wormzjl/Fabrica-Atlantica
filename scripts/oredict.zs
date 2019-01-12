@@ -32,3 +32,28 @@ dustCarbon.remove(<betterwithmods:material:18>);
 
 val circuitBasic = <ore:circuitBasic>;
 circuitBasic.remove(<techguns:itemshared:65>);
+
+//Stack size for automation intermediates
+val irongear = <materialpart:iron:gear>;
+irongear.maxStackSize = 4;
+
+val steelgear = <materialpart:steel:gear>;
+steelgear.maxStackSize = 4;
+
+val invargear = <materialpart:invar:gear>;
+invargear.maxStackSize = 4;
+
+val aluminiumgear = <materialpart:aluminium:gear>;
+aluminiumgear.maxStackSize = 4;
+
+val titaniumgear = <materialpart:titanium:gearadv>;
+titaniumgear.maxStackSize = 4;
+
+val tungstengear = <materialpart:tungsten:gearadv>;
+tungstengear.maxStackSize = 4;
+
+val ironmech = <immersiveengineering:material:8>;
+ironmech.maxStackSize = 8;
+
+val steelmech = <immersiveengineering:material:9>;
+steelmech.maxStackSize = 8;

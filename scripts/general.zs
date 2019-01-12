@@ -201,4 +201,13 @@ recipes.addShapeless(<dse:flippers:14>,[<dse:flippers>, <ore:dyeOrange>]);
 recipes.addShapeless(<dse:flippers:15>,[<dse:flippers>, <ore:dyeWhite>]);
 
 
+//Autoverse
+recipes.remove(<autoverse:pipe>);
+recipes.remove(<autoverse:pipe:1>);
+recipes.remove(<autoverse:pipe:2>);
+recipes.remove(<autoverse:pipe:3>);
 
+recipes.addShaped(<autoverse:pipe> * 4, [[<ore:ingotSteel>, <minecraft:cobblestone>, <ore:ingotSteel>], [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], [<ore:ingotSteel>, <minecraft:cobblestone>, <ore:ingotSteel>]]);
+recipes.addShaped(<autoverse:pipe:1> * 4, [[<ore:ingotSteel>, <minecraft:hopper>, <ore:ingotSteel>], [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
+recipes.addShaped(<autoverse:pipe:2> * 4, [[<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>], [<ore:blockGlass>, <ore:blockGlass>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
+recipes.addShaped(<autoverse:pipe:3> * 4, [[<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>], [<ore:blockGlass>, <minecraft:comparator>, <ore:blockGlass>], [<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>]]);

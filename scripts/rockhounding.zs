@@ -17,11 +17,32 @@ mods.rockhounding_chemistry.Transposer.add(<liquid:hydrogen>, <liquid:hydrogen>)
 
 //mods.rockhounding_chemistry.SlurryPond.removeByOutput(<liquid:silicone>);
 
+//Chemistry
 mods.rockhounding_chemistry.GasCondenser.add(<liquid:helium>*100, <liquid:liquidhelium>*1);
 
 mods.rockhounding_chemistry.LabOven.add("Animal oil", <primal:tallow>, null, <liquid:plantoil>*200, null, <liquid:animaloil>*2000, null);
 mods.rockhounding_chemistry.LabOven.add("Biodiesel", <rockhounding_chemistry:chemical_items:6>, null, <liquid:plantoil>*1000, <liquid:methanol>*200, <liquid:biodiesel>*1000, null);
 mods.rockhounding_chemistry.LabOven.add("Biodiesel2", <rockhounding_chemistry:chemical_items:6>, null, <liquid:animaloil>*1000, <liquid:methanol>*200, <liquid:biodiesel>*1000, null);
+
+
+//Petrochem
+//Tester
+mods.rockhounding_chemistry.GasReformer.removeByOutput(<liquid:ammonia>);
+mods.rockhounding_chemistry.GasReformer.add(<liquid:hydrogen>*1500, <liquid:nitrogen>*500, <liquid:ammonia>*1000, <rockhounding_chemistry:fe_catalyst>);
+
+mods.rockhounding_chemistry.GasifierPlant.add(<liquid:biomass>*2000, <liquid:water>*1000, <liquid:raw_syngas>*1000, <rockhounding_chemistry:chemical_items:2>, null, 900);
+
+//mods.rockhounding_chemistry.StirredTank.removeByOutput(<liquid:chloromethane>);
+mods.rockhounding_chemistry.StirredTank.add(<liquid:hydrochloric_acid>*500, <liquid:methanol>*1000, <liquid:chloromethane>*1000, <liquid:hydrogen>*500, 5);
+
+mods.rockhounding_chemistry.GasPurifier.add(<liquid:water_vapour>*500, <liquid:oxygen>*1000, <minecraft:dye:4>, null);
+
+mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_sour>, <liquid:natural_gas_sour>);
+
+
+//Fuel tweaking
+mods.rockhounding_chemistry.SlurryPond.add(<immersiveengineering:material:17>, <liquid:water>*350, <liquid:coal_slurry>*350);
+
 
 //Mineral shards
 mods.rockhounding_chemistry.LeachingVat.remove(<rockhounding_chemistry:mineral_ores:1>);
@@ -299,18 +320,3 @@ mods.rockhounding_chemistry.MetalAlloyer.add(["dustSteel", "dustManganese", "dus
 mods.rockhounding_chemistry.MetalAlloyer.add(["dustMagnesium", "dustBoron"], [33, 67], <nuclearcraft:alloy:3>);
 
 mods.rockhounding_chemistry.MetalAlloyer.add(["dustSteel", "dustBoron", "dustSilicon", "dustAluminum"], [78, 19, 2, 1], <nuclearcraft:alloy:6>);
-
-
-//Petrochem
-//Tester
-mods.rockhounding_chemistry.GasReformer.removeByOutput(<liquid:ammonia>);
-mods.rockhounding_chemistry.GasReformer.add(<liquid:hydrogen>*1500, <liquid:nitrogen>*500, <liquid:ammonia>*1000, <rockhounding_chemistry:fe_catalyst>);
-
-mods.rockhounding_chemistry.GasifierPlant.add(<liquid:biomass>*2000, <liquid:water>*1000, <liquid:raw_syngas>*1000, <rockhounding_chemistry:chemical_items:2>, null, 900);
-
-//mods.rockhounding_chemistry.StirredTank.removeByOutput(<liquid:chloromethane>);
-mods.rockhounding_chemistry.StirredTank.add(<liquid:hydrochloric_acid>*500, <liquid:methanol>*1000, <liquid:chloromethane>*1000, <liquid:hydrogen>*500, 5);
-
-mods.rockhounding_chemistry.GasPurifier.add(<liquid:water_vapour>*500, <liquid:oxygen>*1000, <minecraft:dye:4>, null);
-
-mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_sour>, <liquid:natural_gas_sour>);

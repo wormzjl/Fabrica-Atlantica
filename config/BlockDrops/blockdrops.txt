@@ -2710,21 +2710,6 @@
     "3pair0": "{\n  \"left\": 1,\n  \"right\": 5\n}"
   },
   {
-    "name": "quark:biotite_ore",
-    "meta": 0,
-    "length": 1,
-    "name0": "quark:biotite",
-    "meta0": 0,
-    "0chance0": 100.0,
-    "1chance0": 133.65001,
-    "2chance0": 173.15001,
-    "3chance0": 219.9,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 3\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}"
-  },
-  {
     "name": "railcraft:post_metal",
     "meta": 5,
     "length": 1,
@@ -2768,5 +2753,20 @@
     "1pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
     "2pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
     "3pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}"
+  },
+  {
+    "name": "quark:biotite_ore",
+    "meta": 0,
+    "length": 1,
+    "name0": "quark:biotite",
+    "meta0": 0,
+    "0chance0": 100.0,
+    "1chance0": 133.15001,
+    "2chance0": 175.45,
+    "3chance0": 220.07501,
+    "0pair0": "{\n  \"left\": 1,\n  \"right\": 1\n}",
+    "1pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
+    "2pair0": "{\n  \"left\": 1,\n  \"right\": 3\n}",
+    "3pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}"
   }
 ]

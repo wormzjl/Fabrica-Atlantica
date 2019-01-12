@@ -5,8 +5,18 @@ mods.jei.JEI.removeAndHide(<magneticraft:box>);
 
 //mods.jei.JEI.removeAndHide(<magneticraft:sluice_box>);
 
-//temp
-mods.jei.JEI.removeAndHide(<magneticraft:gasification_unit>);
+//Recipe tweaks
+//mods.jei.JEI.removeAndHide(<magneticraft:gasification_unit>);
+
+//recipes.remove(<magneticraft:multiblock_parts>);
+//recipes.addShaped(<magneticraft:multiblock_parts> * 4, [[<ore:lightPlateIron>, <ore:lightPlateIron>, <ore:lightPlateIron>], [<ore:ingotIron>, <magneticraft:crafting:2>, <ore:ingotIron>], [<ore:lightPlateLead>, <ore:lightPlateLead>, <ore:lightPlateLead>]]);
+
+recipes.remove(<magneticraft:iron_pipe>);
+recipes.addShaped(<magneticraft:iron_pipe> * 8, [[<ore:plateSteel>, null, <ore:plateSteel>], [<ore:plateSteel>, <ore:blockGlass>, <ore:plateSteel>], [<ore:plateSteel>, null, <ore:plateSteel>]]);
+
+recipes.remove(<magneticraft:conveyor_belt>);
+recipes.addShaped(<magneticraft:conveyor_belt> * 8, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:ingotIron>, <magneticraft:multiblock_parts>, <ore:ingotIron>], [<ore:ingotIron>, null, <ore:ingotIron>]]);
+
 
 //Wrenches
 mods.magneticraft.Wrench.addWrench(<appliedenergistics2:certus_quartz_wrench>);
