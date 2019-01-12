@@ -82,6 +82,10 @@ contenttweaker.part.gearadv=%s Gear
 contenttweaker.part.denseplate=%s Dense Plate
 contenttweaker.part.dustiny=Tiny Pile of %s Dust
 
+//Overridden item names
+item.magneticraft.copper_coil_normal.name=Copper Wire Coil
+
+
 //Fluid-chemical
 fluid.animaloil=Animal Oil
 fluid.liquidrubber=Liquid raw rubber

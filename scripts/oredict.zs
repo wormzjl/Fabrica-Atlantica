@@ -19,6 +19,9 @@ dustUranium.add(<rockhounding_chemistry:chemical_dusts:55>);
 val toolShears = <ore:toolShears>;
 toolShears.add(<minecraft:shears>);
 
+val sheetPlastic = <ore:sheetPlastic>;
+sheetPlastic.add(<pneumaticcraft:plastic:15>);
+
 
 //Oredict removals
 val itemRubber = <ore:itemRubber>;

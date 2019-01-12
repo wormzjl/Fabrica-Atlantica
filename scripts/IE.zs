@@ -53,8 +53,6 @@ recipes.removeShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "imm
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 4, [[<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 4, [[<ore:leather>, <ore:leather>, <ore:leather>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
 
-
-
 //mods.immersiveengineering.Crusher.removeRecipe(<rockhounding_chemistry:alloy_items_tech:12>);
 mods.immersiveengineering.Refinery.removeRecipe(<liquid:biodiesel>);
 
