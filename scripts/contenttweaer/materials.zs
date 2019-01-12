@@ -6,8 +6,8 @@ import mods.contenttweaker.Part;
 import mods.contenttweaker.DropTableBuilder;
 
 //New parts
-var names = ["ore_high", "ore_low", "ore_small_high", "ore_small_low", "ore_dust_small_high", "ore_dust_small_low", "ore_dust_high", "ore_dust_low", "ore_dust_washed_low", "ore_dust_pure", "ore_pellet", "ore_tailing", "scrapmetal", "gear", "gearadv", "denseplate", "broken_high", "broken_med", "broken_low", "dusttiny"] as string[];
-var overlay = [true, true, true, true, true, true, true, true, false, true, false, true, false, true, true, false, true, true, true, false] as bool[];
+var names = ["ore_high", "ore_low", "ore_small_high", "ore_small_low", "ore_dust_small_high", "ore_dust_small_low", "ore_dust_high", "ore_dust_low", "ore_dust_washed_low", "ore_dust_pure", "ore_pellet", "ore_tailing", "scrapmetal", "gear", "gearadv", "denseplate", "broken_high", "broken_med", "broken_low", "dusttiny", "slag"] as string[];
+var overlay = [true, true, true, true, true, true, true, true, false, true, false, true, false, true, true, false, true, true, true, false, true] as bool[];
 
 for index, name in names {
     var partBuilder = MaterialSystem.getPartBuilder();
@@ -34,7 +34,7 @@ var thorium_ore = MaterialSystem.getMaterialBuilder().setName("Thorium_ore").set
 var mineral_list = [iron_ore, gold_ore, copper_ore, tin_ore, lead_ore, aluminium_ore, titanium_ore, tungsten_ore, uranium_ore, thorium_ore] as Material[];
 var mineral_names = ["Iron_ore", "Gold_ore", "Copper_ore", "Tin_ore", "Lead_ore", "Aluminium_ore", "Titanium_ore", "Tungsten_ore", "Uranium_ore", "Thorium_ore"] as string[];
 
-var mineral_part_names = ["ore_high", "ore_low", "ore_small_high", "ore_small_low", "ore_dust_small_high", "ore_dust_small_low", "ore_dust_high", "ore_dust_low", "ore_dust_washed_low", "ore_dust_pure", "ore_pellet", "ore_tailing", "broken_high", "broken_med", "broken_low"] as string[];
+var mineral_part_names = ["ore_high", "ore_low", "ore_small_high", "ore_small_low", "ore_dust_small_high", "ore_dust_small_low", "ore_dust_high", "ore_dust_low", "ore_dust_washed_low", "ore_dust_pure", "ore_pellet", "ore_tailing", "broken_high", "broken_med", "broken_low", "slag"] as string[];
 var ore_types = ["ore", "poor_ore", "dense_ore"] as string[];
 
 var poorTable = [] as string[];
@@ -97,7 +97,6 @@ var zinc = MaterialSystem.getMaterialBuilder().setName("Zinc").setColor(15724793
 var brass = MaterialSystem.getMaterialBuilder().setName("Brass").setColor(12886272).build();
 var aluminium = MaterialSystem.getMaterialBuilder().setName("Aluminium").setColor(14611184).build();
 var titanium = MaterialSystem.getMaterialBuilder().setName("Titanium").setColor(16777215).build();
-var tungsten = MaterialSystem.getMaterialBuilder().setName("Tungsten").setColor(4868682).build();
 var tungsten = MaterialSystem.getMaterialBuilder().setName("Tungsten").setColor(4868682).build();
 
 

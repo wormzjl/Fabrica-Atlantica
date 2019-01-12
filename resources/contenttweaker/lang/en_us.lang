@@ -3,25 +3,19 @@ tile.contenttweaker.alumina_block.name=Block of Alumina
 tile.contenttweaker.centrifuge.name=Centrifuge
 
 //Items
-item.contenttweaker.scrap1.name=Scrap electronics
-item.contenttweaker.scrap2.name=Corroded mecanical parts
-item.contenttweaker.scrap3.name=Wasted electric cables
-item.contenttweaker.scrap4.name=Used battery
-item.contenttweaker.scrap5.name=Paint cans
-item.contenttweaker.scrap6.name=Stained iron plate
-item.contenttweaker.scrap7.name=Stained iron gear
-item.contenttweaker.scrap8.name=Scrap plastics
-item.contenttweaker.scrap9.name=Silver platters
-
-item.contenttweaker.scrapmetal1.name=Scrap iron
-item.contenttweaker.scrapmetal2.name=Scrap copper
-item.contenttweaker.scrapmetal3.name=Scrap tin
-item.contenttweaker.scrapmetal4.name=Scrap gold
-item.contenttweaker.scrapmetal5.name=Scrap lead
-item.contenttweaker.scrapmetal6.name=Scrap silver
+item.contenttweaker.scrap1.name=Scrap Electronics
+item.contenttweaker.scrap2.name=Corroded Mecanical Parts
+item.contenttweaker.scrap3.name=Wasted Electric Cables
+item.contenttweaker.scrap4.name=Used Battery
+item.contenttweaker.scrap5.name=Paint Cans
+item.contenttweaker.scrap6.name=Stained Iron Plate
+item.contenttweaker.scrap7.name=Stained Iron Gear
+item.contenttweaker.scrap8.name=Scrap Plastics
+item.contenttweaker.scrap9.name=Silver Platters
 
 item.contenttweaker.alumina.name=Alumina Dust
 item.contenttweaker.tio2.name=Titanium Dioxide Dust
+item.contenttweaker.tinytio2.name=Tiny Pile of Titanium Dioxide Dust
 item.contenttweaker.tungsticacid.name=Tungstic Acid Dust
 item.contenttweaker.berylliumingot.name=Beryllium Ingot
 item.contenttweaker.cdteingot.name=Cadmium Telluride Ingot
@@ -33,8 +27,9 @@ item.contenttweaker.solarcell.name=Solar Cell
 item.contenttweaker.advsolarcell.name=Advanced Solar Cell
 item.contenttweaker.scalcomb.name=Scandium-Aluminium Alloy Honeycomb
 item.contenttweaker.bushingadv.name=Titanium Gear Bushing
-
-
+item.contenttweaker.mold_pellet.name=Ore Pellet Mold
+item.contenttweaker.tinyzr.name=Tiny Pile of Zirconium dust
+item.contenttweaker.tinysb.name=Tiny Pile of Antimony dust
 
 //Materials
 base.material.iron_ore=Iron
@@ -65,7 +60,7 @@ base.material.titanium=Titanium
 base.material.tungsten=Tungsten
 
 contenttweaker.part.ore_high=High Grade %s Ore
-contenttweaker.part.ore_low=High Grade %s Ore
+contenttweaker.part.ore_low=Low Grade %s Ore
 contenttweaker.part.ore_small_high=Small Piece of High Grade %s Ore
 contenttweaker.part.ore_small_low=Small Piece of Low Grade %s Ore
 contenttweaker.part.ore_dust_small_high=Small Pile of High Grade %s Ore Dust
@@ -76,11 +71,16 @@ contenttweaker.part.ore_dust_washed_low=Enriched Low Grade %s Ore Dust
 contenttweaker.part.ore_dust_pure=Purified %s Ore Dust
 contenttweaker.part.ore_pellet=%s Ore Pellet
 contenttweaker.part.ore_tailing=%s Ore Tailing
+contenttweaker.part.broken_high=Broken Dense %s Ore
+contenttweaker.part.broken_med=Broken %s Ore
+contenttweaker.part.broken_low=Broken Poor %s Ore
+contenttweaker.part.slag=%s Slag
 
 contenttweaker.part.scrapmetal=Scrap %s
 contenttweaker.part.gear=%s Gear
 contenttweaker.part.gearadv=%s Gear
 contenttweaker.part.denseplate=%s Dense Plate
+contenttweaker.part.dustiny=Tiny Pile of %s Dust
 
 //Fluid-chemical
 fluid.animaloil=Animal Oil
@@ -91,6 +91,18 @@ fluid.phosgen=Phosgen
 fluid.fumingsulfuricacid=Fuming Sulfuric Acid
 fluid.sulfuricnitricacid=Sulfuric and Nitric acid mixture
 fluid.fumingsulfuricnitricacid=Fuming Sulfuric and Nitric acid mixture
+fluid.flotation_solution=Mineral Flotation Solution
+fluid.flotation_waste=Mineral Flotation Wastewater
+fluid.iron_slurry=Iron Slurry
+fluid.copper_slurry=Copper Slurry
+fluid.gold_slurry=Gold Slurry
+fluid.tin_slurry=Tin Slurry
+fluid.aluminium_slurry=Aluminium Slurry
+fluid.titanium_slurry=Titanium Slurry
+fluid.lead_slurry=Lead Slurry
+fluid.tungsten_slurry=Tungsten Slurry
+fluid.uranium_slurry=Uranium Slurry
+fluid.thorium_slurry=Thorium Slurry
 
 
 //Fluid-petrochem

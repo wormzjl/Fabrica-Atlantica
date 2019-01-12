@@ -91,7 +91,6 @@ key_Mode Switch Key:50
 key_Side Inventory Key:0
 key_Hub Expand Key:0
 key_keybind.railcraft.cart.bed:208
-key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -110,6 +109,7 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.toggleAutojump:48
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -118,7 +118,7 @@ key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
 key_quark.keybind.playerSort:0
-key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:37
 key_autoverse.key.togglemode:35
 key_key.betterquesting.quests:41
 key_key.nhc.toggle:34
@@ -129,6 +129,7 @@ key_pneumaticcraft.armor.options:22
 key_pneumaticcraft.helmet.hack:0
 key_pneumaticcraft.helmet.debugging.drone:0
 key_pneumaticcraft.boots.kick:52
+key_pneumaticcraft.chestplate.launcher:46:CONTROL
 key_schematica.key.load:181
 key_schematica.key.save:55
 key_schematica.key.control:74
@@ -141,6 +142,7 @@ key_schematica.key.moveHere:0
 key_schematica.key.pickBlock:-98:SHIFT
 key_AutoRun:45
 key_Toggle StepUp:36
+key_key.toastcontrol.clear:36
 key_Strip World:211
 key_Dress World:210
 key_Inspect Block:199
@@ -219,6 +221,10 @@ key_nei.options.keys.world.heal:0
 key_nei.options.keys.world.creative:0
 key_key.nutrition:49
 key_key.clipboardPaste:210
+key_key.porterNextDestination:27
+key_key.porterPrevDestination:26
+key_key.debugDumpNBTItem:0
+key_key.debugDumpNBTBlock:0
 key_techguns.key.toggleNightvision:49
 key_techguns.key.toggleSafemode:48
 key_techguns.key.toggleStepassist:47

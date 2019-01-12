@@ -5,6 +5,7 @@ mods.jei.JEI.removeAndHide(<immersiveengineering:wooden_device0:5>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:metal_device1:3>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:metal_device1:13>);
 
+mods.jei.JEI.removeAndHide(<immersiveengineering:metal:29>);
 
 
 //mods.immersiveengineering.Crusher.removeRecipe(<rockhounding_chemistry:alloy_items_tech:12>);

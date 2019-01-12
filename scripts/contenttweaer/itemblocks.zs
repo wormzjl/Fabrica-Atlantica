@@ -108,3 +108,9 @@ bushingadv.register();
 var mold_pellet = VanillaFactory.createItem("mold_pellet");
 mold_pellet.maxStackSize = 1;
 mold_pellet.register();
+
+var tinyzr = VanillaFactory.createItem("tinyzr");
+tinyzr.register();
+
+var tinysb = VanillaFactory.createItem("tinysb");
+tinysb.register();
