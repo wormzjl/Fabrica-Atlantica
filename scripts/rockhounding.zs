@@ -314,9 +314,11 @@ mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:ars
 mods.rockhounding_chemistry.ChemicalExtractor.add("Arsenate", <rockhounding_chemistry:arsenate_shards:3>, ["dustCopper", "dustArsenic", "dustCalcium"], [38, 22, 3]);
 
 
-//Materials for nuclearcraft
+//Custom alloys
 mods.rockhounding_chemistry.MetalAlloyer.add(["dustSteel", "dustManganese", "dustMolybdenum", "dustNickel", "dustSilicon"], [95, 1, 1, 1, 1], <nuclearcraft:alloy:1>);
 
 mods.rockhounding_chemistry.MetalAlloyer.add(["dustMagnesium", "dustBoron"], [33, 67], <nuclearcraft:alloy:3>);
 
 mods.rockhounding_chemistry.MetalAlloyer.add(["dustSteel", "dustBoron", "dustSilicon", "dustAluminum"], [78, 19, 2, 1], <nuclearcraft:alloy:6>);
+
+mods.rockhounding_chemistry.MetalAlloyer.add(["dustSteel", "dustChrome", "dustNickel", "dustManganese"], [53, 25, 20, 2], <materialpart:ssteel:ingot>);

@@ -36,18 +36,26 @@ dustCarbon.remove(<betterwithmods:material:18>);
 val circuitBasic = <ore:circuitBasic>;
 circuitBasic.remove(<techguns:itemshared:65>);
 
-//Stack size for automation intermediates
-val irongear = <materialpart:iron:gear>;
+val wireCopper = <ore:wireCopper>;
+wireCopper.remove(<techguns:itemshared:62>);
+
+sheetPlastic.remove(<techguns:itemshared:55>);
+
+//Stack sizes
+val irongear = <materialpart:iron:gearbase>;
 irongear.maxStackSize = 4;
 
-val steelgear = <materialpart:steel:gear>;
+val steelgear = <materialpart:steel:gearbase>;
 steelgear.maxStackSize = 4;
 
-val invargear = <materialpart:invar:gear>;
+val bronzegear = <materialpart:bronze:gearbase>;
+bronzegear.maxStackSize = 4;
+
+val invargear = <materialpart:invar:gearbase>;
 invargear.maxStackSize = 4;
 
-val aluminiumgear = <materialpart:aluminium:gear>;
-aluminiumgear.maxStackSize = 4;
+val ssteelgear = <materialpart:ssteel:gearadv>;
+ssteelgear.maxStackSize = 4;
 
 val titaniumgear = <materialpart:titanium:gearadv>;
 titaniumgear.maxStackSize = 4;
@@ -55,8 +63,33 @@ titaniumgear.maxStackSize = 4;
 val tungstengear = <materialpart:tungsten:gearadv>;
 tungstengear.maxStackSize = 4;
 
+val irongearpart = <materialpart:iron:gearpart>;
+irongearpart.maxStackSize = 4;
+
+val steelgearpart = <materialpart:steel:gearpart>;
+steelgearpart.maxStackSize = 4;
+
+val bronzegearpart = <materialpart:bronze:gearpart>;
+bronzegearpart.maxStackSize = 4;
+
+val invargearpart = <materialpart:invar:gearpart>;
+invargearpart.maxStackSize = 4;
+
+val ssteelgearpart = <materialpart:ssteel:gearpart>;
+ssteelgearpart.maxStackSize = 4;
+
+val titaniumgearpart = <materialpart:titanium:gearpart>;
+titaniumgearpart.maxStackSize = 4;
+
+val tungstengearpart = <materialpart:tungsten:gearpart>;
+tungstengearpart.maxStackSize = 4;
+
+
 val ironmech = <immersiveengineering:material:8>;
 ironmech.maxStackSize = 8;
 
 val steelmech = <immersiveengineering:material:9>;
 steelmech.maxStackSize = 8;
+
+val bushingbase = <railcraft:gear:3>;
+bushingbase.maxStackSize = 8;

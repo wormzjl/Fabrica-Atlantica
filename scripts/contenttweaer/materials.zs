@@ -6,8 +6,8 @@ import mods.contenttweaker.Part;
 import mods.contenttweaker.DropTableBuilder;
 
 //New parts
-var names = ["ore_high", "ore_low", "ore_small_high", "ore_small_low", "ore_dust_small_high", "ore_dust_small_low", "ore_dust_high", "ore_dust_low", "ore_dust_washed_low", "ore_dust_pure", "ore_pellet", "ore_tailing", "scrapmetal", "gear", "gearadv", "denseplate", "broken_high", "broken_med", "broken_low", "dusttiny", "slag"] as string[];
-var overlay = [true, true, true, true, true, true, true, true, false, true, false, true, false, true, true, false, true, true, true, false, true] as bool[];
+var names = ["ore_high", "ore_low", "ore_small_high", "ore_small_low", "ore_dust_small_high", "ore_dust_small_low", "ore_dust_high", "ore_dust_low", "ore_dust_washed_low", "ore_dust_pure", "ore_pellet", "ore_tailing", "scrapmetal", "gearbase", "gearadv", "denseplate", "broken_high", "broken_med", "broken_low", "dusttiny", "slag", "gearpart"] as string[];
+var overlay = [true, true, true, true, true, true, true, true, false, true, false, true, false, true, true, false, true, true, true, false, true, false] as bool[];
 
 for index, name in names {
     var partBuilder = MaterialSystem.getPartBuilder();
@@ -98,20 +98,32 @@ var brass = MaterialSystem.getMaterialBuilder().setName("Brass").setColor(128862
 var aluminium = MaterialSystem.getMaterialBuilder().setName("Aluminium").setColor(14611184).build();
 var titanium = MaterialSystem.getMaterialBuilder().setName("Titanium").setColor(16777215).build();
 var tungsten = MaterialSystem.getMaterialBuilder().setName("Tungsten").setColor(4868682).build();
+var ssteel = MaterialSystem.getMaterialBuilder().setName("ssteel").setColor(15989503).build();
 
 
-var metal_list = [iron, gold, steel, copper, tin, bronze, lead, silver, nickel, invar, zinc, brass, aluminium, titanium, tungsten] as Material[];
-var adv_metals = [titanium, tungsten] as Material[];
-var part_names = ["gear", "plate", "rod", "denseplate", "dusttiny"] as string[];
+var metal_list = [iron, gold, steel, copper, tin, bronze, lead, silver, nickel, invar, zinc, brass, aluminium, titanium, tungsten, ssteel] as Material[];
+var gear_base = [iron, steel, bronze, invar] as Material[];
+var gear_adv = [ssteel, titanium, tungsten] as Material[];
+var gear_all = [iron, steel, bronze, invar, ssteel, titanium, tungsten] as Material[];
+var part_names = ["plate", "rod", "denseplate", "dusttiny"] as string[];
 
 for i, metal in metal_list {
     metal.registerParts(part_names);
 }
 
-for i, metal in adv_metals {
+for i, metal in gear_base {
+    metal.registerPart("gearbase");
+}
+
+for i, metal in gear_adv {
     metal.registerPart("gearadv");
 }
 
+for i, metal in gear_all {
+    metal.registerPart("gearpart");
+}
+
+ssteel.registerPart("ingot");
 
 //Scraps
 var scraps_list = [iron, gold, copper, tin, lead, silver] as Material[];

@@ -102,7 +102,7 @@ scalcomb.maxStackSize = 16;
 scalcomb.register();
 
 var bushingadv = VanillaFactory.createItem("bushingadv");
-bushingadv.maxStackSize = 16;
+bushingadv.maxStackSize = 4;
 bushingadv.register();
 
 var mold_pellet = VanillaFactory.createItem("mold_pellet");
@@ -114,3 +114,12 @@ tinyzr.register();
 
 var tinysb = VanillaFactory.createItem("tinysb");
 tinysb.register();
+
+var titaniumsponge = VanillaFactory.createItem("titaniumsponge");
+titaniumsponge.maxStackSize = 1;
+titaniumsponge.register();
+
+var gearbox = VanillaFactory.createItem("gearbox");
+gearbox.maxStackSize = 1;
+gearbox.register();
+

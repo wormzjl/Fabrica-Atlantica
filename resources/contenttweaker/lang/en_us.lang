@@ -30,6 +30,8 @@ item.contenttweaker.bushingadv.name=Titanium Gear Bushing
 item.contenttweaker.mold_pellet.name=Ore Pellet Mold
 item.contenttweaker.tinyzr.name=Tiny Pile of Zirconium dust
 item.contenttweaker.tinysb.name=Tiny Pile of Antimony dust
+item.contenttweaker.titaniumsponge.name=Titanium Sponge
+item.contenttweaker.gearbox.name=Gear Box
 
 //Materials
 base.material.iron_ore=Iron
@@ -58,6 +60,7 @@ base.material.brass=Brass
 base.material.aluminium=Aluminium
 base.material.titanium=Titanium
 base.material.tungsten=Tungsten
+base.material.ssteel=Stainless Steel
 
 contenttweaker.part.ore_high=High Grade %s Ore
 contenttweaker.part.ore_low=Low Grade %s Ore
@@ -77,8 +80,9 @@ contenttweaker.part.broken_low=Broken Poor %s Ore
 contenttweaker.part.slag=%s Slag
 
 contenttweaker.part.scrapmetal=Scrap %s
-contenttweaker.part.gear=%s Gear
+contenttweaker.part.gearbase=%s Gear
 contenttweaker.part.gearadv=%s Gear
+contenttweaker.part.gearpart=%s Gear Part
 contenttweaker.part.denseplate=%s Dense Plate
 contenttweaker.part.dustiny=Tiny Pile of %s Dust
 
