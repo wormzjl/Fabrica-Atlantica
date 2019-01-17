@@ -22,10 +22,6 @@ var glassfiber = VanillaFactory.createItem("glassfiber");
 glassfiber.maxStackSize = 32;
 glassfiber.register();
 
-var ccplate = VanillaFactory.createItem("ccplate");
-ccplate.maxStackSize = 32;
-ccplate.register();
-
 var ndmagnet = VanillaFactory.createItem("ndmagnet");
 ndmagnet.maxStackSize = 16;
 ndmagnet.register();

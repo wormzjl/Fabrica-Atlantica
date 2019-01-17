@@ -84,7 +84,7 @@ contenttweaker.part.gearbase=%s Gear
 contenttweaker.part.gearadv=%s Gear
 contenttweaker.part.gearpart=%s Gear Part
 contenttweaker.part.denseplate=%s Dense Plate
-contenttweaker.part.dustiny=Tiny Pile of %s Dust
+contenttweaker.part.dusttiny=Tiny Pile of %s Dust
 
 //Overridden item names
 item.magneticraft.copper_coil_normal.name=Copper Wire Coil

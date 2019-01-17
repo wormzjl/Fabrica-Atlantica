@@ -166,13 +166,3 @@ mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:11>);
 mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:12>);
 mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:13>);
 mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:14>);
-
-
-//refining
-mods.magneticraft.GasificationUnit.removeRecipe(<minecraft:coal>);
-mods.magneticraft.OilHeater.removeRecipe(<liquid:oil>);
-mods.magneticraft.OilHeater.removeRecipe(<liquid:water>);
-
-mods.magneticraft.Refinery.removeRecipe(<liquid:hot_crude>);
-mods.magneticraft.Refinery.removeRecipe(<liquid:heavy_oil>);
-mods.magneticraft.Refinery.removeRecipe(<liquid:lpg>);

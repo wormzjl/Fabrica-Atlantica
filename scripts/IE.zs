@@ -70,10 +70,12 @@ recipes.addShaped(<industrialwires:panel_component:7>*4, [[<ore:stickSteel>, <mi
 recipes.addShapeless(<industrialwires:panel_component:8>*4, [<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <immersiveengineering:tool:2>]);
 recipes.addShapeless(<industrialwires:panel_component:9>*4, [<ore:dustRedstone>, <ore:dustGlowstone>, <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <ore:electronTube>]);
 
+//Charcoal nerf
+mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:coal:1>);
+mods.immersiveengineering.CokeOven.addRecipe(<minecraft:coal:1>, 200, <ore:logWood>, 1800);
 
 //Machine
 //mods.immersiveengineering.Crusher.removeRecipe(<rockhounding_chemistry:alloy_items_tech:12>);
-mods.immersiveengineering.Refinery.removeRecipe(<liquid:biodiesel>);
 
 mods.immersiveengineering.Crusher.removeRecipe(<rockhounding_chemistry:chemical_dusts:55>);
 mods.immersiveengineering.Crusher.removeRecipesForInput(<minecraft:sandstone>);

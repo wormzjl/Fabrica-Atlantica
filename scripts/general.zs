@@ -1,7 +1,5 @@
 mods.jei.JEI.hide(<appliedenergistics2:facade:*>);
-//mods.jei.JEI.hide(<buildcraftsilicon:plug_facade:*>);
 mods.jei.JEI.hide(<microblockcbe:microblock:*>);
-
 
 furnace.remove(<minecraft:coal:1>);
 
@@ -144,6 +142,17 @@ mods.jei.JEI.removeAndHide(<dse:dinghy>);
 mods.jei.JEI.removeAndHide(<dse:vehiclestation>);
 mods.jei.JEI.removeAndHide(<dse:upgrades:1>);
 mods.jei.JEI.removeAndHide(<dse:upgrades:2>);
+
+mods.jei.JEI.removeAndHide(<dse:hammeriron>);
+mods.jei.JEI.removeAndHide(<dse:hammersteel>);
+mods.jei.JEI.removeAndHide(<dse:components:1>);
+mods.jei.JEI.removeAndHide(<dse:components:2>);
+mods.jei.JEI.removeAndHide(<dse:components:6>);
+mods.jei.JEI.removeAndHide(<dse:components:7>);
+mods.jei.JEI.removeAndHide(<dse:components:10>);
+mods.jei.JEI.removeAndHide(<dse:components:11>);
+mods.jei.JEI.removeAndHide(<dse:components:12>);
+
 
 recipes.remove(<dse:divinggoggles>);
 recipes.addShaped(<dse:divinggoggles>, [[<ic2:crafting>, <ic2:crafting>, <ic2:crafting>], [<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>], [<ic2:crafting>, <ic2:crafting>, <ic2:crafting>]]);
