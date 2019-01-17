@@ -53,6 +53,25 @@ recipes.removeShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "imm
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 4, [[<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 4, [[<ore:leather>, <ore:leather>, <ore:leather>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
 
+
+//IW
+recipes.remove(<industrialwires:control_panel:4>);
+recipes.addShaped(<industrialwires:control_panel:4>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+
+recipes.remove(<industrialwires:panel_component:*>);
+recipes.addShapeless(<industrialwires:panel_component>*4, [<ore:dustGlowstone>, <minecraft:stone_button>, <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})]);
+recipes.addShapeless(<industrialwires:panel_component:1>*4, [<ore:paper>, <ore:plateSteel>]);
+recipes.addShapeless(<industrialwires:panel_component:2>*4, [<ore:dustGlowstone>, <ore:dustRedstone>, <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})]);
+recipes.addShapeless(<industrialwires:panel_component:3>*4, [<minecraft:stone_button>, <immersiveengineering:wirecoil:2>, <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})]);
+recipes.addShaped(<industrialwires:panel_component:4>*4, [[<ore:itemRubber>], [<ore:ingotHOPGraphite>], [<ic2:crafting:5>]]);
+recipes.addShapeless(<industrialwires:panel_component:5>*4, [<ore:stickIron>, <minecraft:lever>, <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})]);
+recipes.addShaped(<industrialwires:panel_component:6>, [[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>], [<ore:paneGlass>, <industrialwires:panel_component:5>, <ore:paneGlass>]]);
+recipes.addShaped(<industrialwires:panel_component:7>*4, [[<ore:stickSteel>, <minecraft:iron_door>, <ore:stickSteel>], [null, <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), null]]);
+recipes.addShapeless(<industrialwires:panel_component:8>*4, [<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <immersiveengineering:tool:2>]);
+recipes.addShapeless(<industrialwires:panel_component:9>*4, [<ore:dustRedstone>, <ore:dustGlowstone>, <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <ore:electronTube>]);
+
+
+//Machine
 //mods.immersiveengineering.Crusher.removeRecipe(<rockhounding_chemistry:alloy_items_tech:12>);
 mods.immersiveengineering.Refinery.removeRecipe(<liquid:biodiesel>);
 
@@ -108,7 +127,6 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<libvulpes:productingot:7>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<libvulpes:productingot:10>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<railcraft:ingot:8>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<magneticraft:ingots:5>);
-
 
 //Industrial wires
 mods.industrialwires.MarxGenerator.removeRecipe(<minecraft:iron_ore>);

@@ -6,7 +6,7 @@ import mods.contenttweaker.Part;
 import mods.contenttweaker.DropTableBuilder;
 
 //New parts
-var names = ["ore_high", "ore_low", "ore_small_high", "ore_small_low", "ore_dust_small_high", "ore_dust_small_low", "ore_dust_high", "ore_dust_low", "ore_dust_washed_low", "ore_dust_pure", "ore_pellet", "ore_tailing", "scrapmetal", "gearbase", "gearadv", "denseplate", "broken_high", "broken_med", "broken_low", "dusttiny", "slag", "gearpart"] as string[];
+var names = ["ore_high", "ore_low", "ore_small_high", "ore_small_low", "ore_dust_small_high", "ore_dust_small_low", "ore_dust_high", "ore_dust_low", "ore_dust_washed_low", "ore_dust_pure", "ore_pellet", "ore_tailing", "scrapmetal", "gear", "gearadv", "denseplate", "broken_high", "broken_med", "broken_low", "dusttiny", "slag", "gearpart"] as string[];
 var overlay = [true, true, true, true, true, true, true, true, false, true, false, true, false, true, true, false, true, true, true, false, true, false] as bool[];
 
 for index, name in names {
@@ -98,7 +98,7 @@ var brass = MaterialSystem.getMaterialBuilder().setName("Brass").setColor(128862
 var aluminium = MaterialSystem.getMaterialBuilder().setName("Aluminium").setColor(14611184).build();
 var titanium = MaterialSystem.getMaterialBuilder().setName("Titanium").setColor(16777215).build();
 var tungsten = MaterialSystem.getMaterialBuilder().setName("Tungsten").setColor(4868682).build();
-var ssteel = MaterialSystem.getMaterialBuilder().setName("ssteel").setColor(15989503).build();
+var ssteel = MaterialSystem.getMaterialBuilder().setName("SSteel").setColor(15989503).build();
 
 
 var metal_list = [iron, gold, steel, copper, tin, bronze, lead, silver, nickel, invar, zinc, brass, aluminium, titanium, tungsten, ssteel] as Material[];
@@ -112,7 +112,7 @@ for i, metal in metal_list {
 }
 
 for i, metal in gear_base {
-    metal.registerPart("gearbase");
+    metal.registerPart("gear");
 }
 
 for i, metal in gear_adv {

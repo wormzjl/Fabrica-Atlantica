@@ -41,17 +41,18 @@ wireCopper.remove(<techguns:itemshared:62>);
 
 sheetPlastic.remove(<techguns:itemshared:55>);
 
+
 //Stack sizes
-val irongear = <materialpart:iron:gearbase>;
+val irongear = <materialpart:iron:gear>;
 irongear.maxStackSize = 4;
 
-val steelgear = <materialpart:steel:gearbase>;
+val steelgear = <materialpart:steel:gear>;
 steelgear.maxStackSize = 4;
 
-val bronzegear = <materialpart:bronze:gearbase>;
+val bronzegear = <materialpart:bronze:gear>;
 bronzegear.maxStackSize = 4;
 
-val invargear = <materialpart:invar:gearbase>;
+val invargear = <materialpart:invar:gear>;
 invargear.maxStackSize = 4;
 
 val ssteelgear = <materialpart:ssteel:gearadv>;
@@ -84,7 +85,6 @@ titaniumgearpart.maxStackSize = 4;
 val tungstengearpart = <materialpart:tungsten:gearpart>;
 tungstengearpart.maxStackSize = 4;
 
-
 val ironmech = <immersiveengineering:material:8>;
 ironmech.maxStackSize = 8;
 
@@ -93,3 +93,13 @@ steelmech.maxStackSize = 8;
 
 val bushingbase = <railcraft:gear:3>;
 bushingbase.maxStackSize = 8;
+
+val gearbox = <contenttweaker:gearbox>;
+gearbox.maxStackSize = 1;
+
+val coil = <techguns:itemshared:68>;
+coil.maxStackSize = 1;
+
+val motor = <techguns:itemshared:70>;
+motor.maxStackSize = 1;
+

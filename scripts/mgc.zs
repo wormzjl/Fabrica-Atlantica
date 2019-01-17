@@ -134,12 +134,12 @@ mods.magneticraft.CrushingTable.addRecipe(<railcraft:ingot:8>, <materialpart:zin
 mods.magneticraft.CrushingTable.addRecipe(<railcraft:ingot:9>, <materialpart:brass:plate>, true);
 mods.magneticraft.CrushingTable.addRecipe(<betterwithmods:material:14>, <betterwithmods:material:51>, true);
 
-mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:scrap2>, <materialpart:Iron:scrapmetal>, false);
-mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:scrap6>, <materialpart:Iron:scrapmetal>, false);
-mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:scrap7>, <materialpart:Iron:scrapmetal>, false);
-mods.magneticraft.CrushingTable.addRecipe(<ic2:crafting:10>, <materialpart:Tin:scrapmetal>, false);
-mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:scrap9>, <materialpart:Silver:scrapmetal>, false);
-mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:scrap3>, <materialpart:Copper:scrapmetal>, false);
+mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:scrap2>, <materialpart:iron:scrapmetal>, false);
+mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:scrap6>, <materialpart:iron:scrapmetal>, false);
+mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:scrap7>, <materialpart:iron:scrapmetal>, false);
+mods.magneticraft.CrushingTable.addRecipe(<ic2:crafting:10>, <materialpart:tin:scrapmetal>, false);
+mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:scrap9>, <materialpart:silver:scrapmetal>, false);
+mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:scrap3>, <materialpart:copper:scrapmetal>, false);
 mods.magneticraft.CrushingTable.addRecipe(<primal:salt_dust_fire>, <betterwithmods:material:26>, false);
 
 mods.magneticraft.CrushingTable.addRecipe(<materialpart:bronze:plate>, <ic2:casing>, true);

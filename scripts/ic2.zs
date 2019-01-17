@@ -11,6 +11,10 @@ mods.jei.JEI.removeAndHide(<ic2:resource:14>);
 mods.jei.JEI.removeAndHide(<ic2:te:58>);
 mods.jei.JEI.removeAndHide(<ic2:te:87>);
 
+mods.jei.JEI.removeAndHide(<ic2:tool_box:*>);
+
+recipes.replaceAllOccurences(<ic2:casing:3>, <ic2:casing:5>);
+
 
 recipes.remove(<ic2:resource:12>);
 recipes.addShaped(<ic2:resource:12>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, null, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
