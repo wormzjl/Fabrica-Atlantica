@@ -135,6 +135,8 @@ mods.primal.Smelter.removeRecipe("ore_Thorium");
 mods.primal.Smelter.removeRecipe("ore_Boron");
 mods.primal.Smelter.removeRecipe("ore_Lithium");
 mods.primal.Smelter.removeRecipe("ore_Magnesium");
+mods.primal.Smelter.removeRecipe("charcoal_stripped");
+mods.primal.Smelter.removeRecipe("dust_void");
 
 mods.primal.Smelter.addRecipe("Crude_iron", 15, [<materialpart:iron:scrapmetal>, <ore:fluxSmelting>, <minecraft:coal:1>], [<primal:crude_iron_nugget>*3, <primal:slag>]);
 

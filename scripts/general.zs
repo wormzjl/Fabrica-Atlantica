@@ -24,20 +24,14 @@ recipes.remove(<minecraft:hopper>);
 recipes.addShaped(<minecraft:hopper>, [[<betterwithmods:material:14>, null, <betterwithmods:material:14>], [<betterwithmods:material:14>, <ore:chestWood>, <betterwithmods:material:14>], [null, <betterwithmods:material:14>, null]]);
 recipes.addShaped(<minecraft:hopper>, [[<ore:ingotSteel>, null, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:chestWood>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
 
-//Charcoal pit
-mods.jei.JEI.hide(<charcoal_pit:alchemical_coal>);
-mods.jei.JEI.hide(<charcoal_pit:aeternalis_fuel>);
-mods.jei.JEI.removeAndHide(<charcoal_pit:item_fertilizer>);
-
-recipes.remove(<charcoal_pit:bloomery_hatch>);
-recipes.addShaped(<charcoal_pit:bloomery_hatch>,
- [[<ore:plateBronze>, <ore:blockBronze>, <ore:plateBronze>],
-  [<ore:plateBronze>, null, <ore:plateBronze>],
-  [<ore:plateBronze>, <ore:blockBronze>, <ore:plateBronze>]]);
-
 //Water strainer
 recipes.remove(<waterstrainer:strainer_base>);
 recipes.addShaped(<waterstrainer:strainer_base>, [[<minecraft:iron_bars:*>, null, <minecraft:iron_bars:*>], [<ore:plankWood>, <quark:chute>, <ore:plankWood>], [<ore:plankWood>, <ore:chestWood>, <ore:plankWood>]]);
+
+
+
+recipes.remove(<waterstrainer:strainer_survivalist_dense>);
+recipes.addShaped(<waterstrainer:strainer_survivalist_dense>, [[<ore:stickWood>, <ore:nuggetBronze>, <ore:stickWood>], [<ore:nuggetBronze>, <waterstrainer:net:1>, <ore:nuggetBronze>], [<ore:stickWood>, <ore:nuggetBronze>, <ore:stickWood>]]);
 
 recipes.addShaped(<waterstrainer:net>, [[<ore:cordagePlant>, <ore:cordagePlant>, <ore:cordagePlant>]]);
 recipes.addShaped(<waterstrainer:net:1> * 2, [[<ore:cordagePlant>, <ore:cordagePlant>, <ore:cordagePlant>], [<ore:cordagePlant>, <ore:cordagePlant>, <ore:cordagePlant>]]);

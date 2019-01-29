@@ -94,9 +94,6 @@ steelmech.maxStackSize = 8;
 val bushingbase = <railcraft:gear:3>;
 bushingbase.maxStackSize = 8;
 
-val gearbox = <contenttweaker:gearbox>;
-gearbox.maxStackSize = 1;
-
 val coil = <techguns:itemshared:68>;
 coil.maxStackSize = 1;
 

@@ -13,7 +13,8 @@ mods.jei.JEI.removeAndHide(<ic2:te:87>);
 
 mods.jei.JEI.removeAndHide(<ic2:tool_box:*>);
 
-recipes.replaceAllOccurences(<ic2:casing:3>, <ic2:casing:5>);
+//Not working
+//recipes.replaceAllOccurences(<ic2:casing:3>, <ic2:casing:5>);
 
 
 recipes.remove(<ic2:resource:12>);
