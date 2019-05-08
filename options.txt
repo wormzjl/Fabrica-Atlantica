@@ -9,7 +9,7 @@ guiScale:2
 particles:0
 bobView:true
 anaglyph3d:false
-maxFps:120
+maxFps:260
 fboEnable:true
 difficulty:2
 fancyGraphics:false
@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:true
@@ -91,16 +91,7 @@ key_Mode Switch Key:50
 key_Side Inventory Key:0
 key_Hub Expand Key:0
 key_keybind.railcraft.cart.bed:208
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:44
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
-key_quark.keybind.playerSort:0
 key_quark.keybind.toggleAutojump:48
-key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -119,12 +110,21 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:44
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
+key_quark.keybind.playerSort:0
+key_quark.keybind.lockBuilding:37
 key_autoverse.key.togglemode:35
 key_key.betterquesting.quests:41
 key_key.nhc.toggle:34
 key_key.ftbguides.guide:0
-key_key.ftbutilities.warp:35
 key_key.ftbutilities.nbt:49:ALT
+key_Gravi Fly Key:33
 key_pneumaticcraft.armor.options:22
 key_pneumaticcraft.helmet.hack:0
 key_pneumaticcraft.helmet.debugging.drone:0
@@ -163,6 +163,9 @@ key_key.toggleVisible:0
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
 key_key.toggle_focus.desc:15
+key_key.architect.rotateBlueprint:19
+key_key.architect.toggleGrid:34
+key_key.architect.toggleAllowPartial:25
 key_mod.chiselsandbits.chiselmode.single:0
 key_mod.chiselsandbits.chiselmode.snap2:0
 key_mod.chiselsandbits.chiselmode.snap4:0
@@ -183,7 +186,7 @@ key_mod.chiselsandbits.positivepatternmode.impose:0
 key_mod.chiselsandbits.tapemeasure.bit:0
 key_mod.chiselsandbits.tapemeasure.block:0
 key_mod.chiselsandbits.tapemeasure.distance:0
-key_mod.chiselsandbits.other.mode:56
+key_mod.chiselsandbits.other.mode:0
 key_mod.chiselsandbits.other.rotate.ccw:0
 key_mod.chiselsandbits.other.rotate.cw:0
 key_mod.chiselsandbits.other.pickbit:0
@@ -198,6 +201,10 @@ key_key.toolProfileChange:0
 key_key.armorProfileChange:0
 key_key.toggleFlight:0
 key_key.toggleDislocator:0
+key_key.effortlessbuilding.hud.desc:0
+key_key.effortlessbuilding.replace.desc:0
+key_key.effortlessbuilding.creative.desc:0
+key_key.effortlessbuilding.mode.desc:0
 key_key.reelIn:45
 key_key.reelOut:44
 key_key.dragon_fireAttack:19

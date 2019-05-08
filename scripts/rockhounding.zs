@@ -1,3 +1,7 @@
+//Recipes
+
+mods.rockhounding_chemistry.ProfilingBench.removeByOutput(<rockhounding_chemistry:au_catalyst>);
+
 //Rockhounding
 mods.rockhounding_chemistry.InhibitElements.inhibit("dustIridium");
 mods.rockhounding_chemistry.InhibitElements.inhibit("dustOsmium");
@@ -17,7 +21,7 @@ mods.rockhounding_chemistry.Transposer.add(<liquid:hydrogen>, <liquid:hydrogen>)
 
 //mods.rockhounding_chemistry.SlurryPond.removeByOutput(<liquid:silicone>);
 
-//Chemistry
+//Condenser
 mods.rockhounding_chemistry.GasCondenser.add(<liquid:helium>*100, <liquid:liquidhelium>*1);
 
 

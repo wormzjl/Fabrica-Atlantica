@@ -1,7 +1,7 @@
 {
     "machine": "desalter",
     "registryName": "oil_desalting",
-    "recipeTime": 100,
+    "recipeTime": 200,
     "requirements": [
         {
             "type": "energy",
@@ -12,7 +12,7 @@
             "type": "fluid",
             "io-type": "input",
             "fluid": "oil",
-            "amount": 1000
+            "amount": 2000
         },
         {
             "type": "fluid",
@@ -30,7 +30,7 @@
             "type": "fluid",
             "io-type": "output",
             "fluid": "crude_desalted",
-            "amount": 1000
+            "amount": 2000
         }
     ]
 }

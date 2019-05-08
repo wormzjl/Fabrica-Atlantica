@@ -78,19 +78,9 @@ var crude_heavy_desalted = VanillaFactory.createFluid("crude_heavy_desalted", Co
 crude_heavy_desalted.viscosity = 3000;
 crude_heavy_desalted.register();
 
-var crude_heavy_desalted_hot = VanillaFactory.createFluid("crude_heavy_desalted_hot", Color.fromHex("252525"));
-crude_heavy_desalted_hot.viscosity = 3000;
-crude_heavy_desalted_hot.temperature = 1000;
-crude_heavy_desalted_hot.register();
-
 var crude_desalted = VanillaFactory.createFluid("crude_desalted", Color.fromHex("252525"));
 crude_desalted.viscosity = 2000;
 crude_desalted.register();
-
-var crude_desalted_hot = VanillaFactory.createFluid("crude_desalted_hot", Color.fromHex("252525"));
-crude_desalted_hot.viscosity = 2000;
-crude_desalted_hot.temperature = 1000;
-crude_desalted_hot.register();
 
 var oil_brine = VanillaFactory.createFluid("oil_brine", Color.fromHex("ADD8E6"));
 oil_brine.register();
@@ -104,6 +94,13 @@ gas_oil.register();
 
 var vgo = VanillaFactory.createFluid("vgo", Color.fromHex("D2691E"));
 vgo.register();
+
+var vgo_vapour = VanillaFactory.createFluid("vgo_vapour", Color.fromHex("D2691E"));
+vgo_vapour.gaseous = true;
+vgo_vapour.register();
+
+var vacuum_residue = VanillaFactory.createFluid("vacuum_residue", Color.fromHex("725E5E"));
+vacuum_residue.register();
 
 var naphtha_desulfurized = VanillaFactory.createFluid("naphtha_desulfurized", Color.fromHex("F5DEB3"));
 naphtha_desulfurized.register();
@@ -144,8 +141,25 @@ ethylbenzene.register();
 var formaldehyde = VanillaFactory.createFluid("formaldehyde", Color.fromHex("F08080"));
 formaldehyde.register();
 
+var ethylene_glycol = VanillaFactory.createFluid("ethylene_glycol", Color.fromHex("9CC9EC"));
+ethylene_glycol.register();
 
+var ethylene_glycol_rich = VanillaFactory.createFluid("ethylene_glycol_rich", Color.fromHex("9CC9EC"));
+ethylene_glycol_rich.register();
 
+var naphtha_cracked = VanillaFactory.createFluid("naphtha_cracked", Color.fromHex("F0E1C3"));
+naphtha_cracked.register();
+
+var naphtha_cracked_hot = VanillaFactory.createFluid("naphtha_cracked_hot", Color.fromHex("F0E1C3"));
+naphtha_cracked_hot.temperature = 1000;
+naphtha_cracked_hot.register();
+
+var gas_oil_cracked = VanillaFactory.createFluid("gas_oil_cracked", Color.fromHex("FFB270"));
+gas_oil_cracked.register();
+
+var gas_oil_cracked_hot = VanillaFactory.createFluid("gas_oil_cracked_hot", Color.fromHex("FFB270"));
+gas_oil_cracked_hot.temperature = 1000;
+gas_oil_cracked_hot.register();
 
 
 //Petrochem Gas
@@ -233,3 +247,54 @@ var refinerygas = VanillaFactory.createFluid("refinerygas", Color.fromHex("C1C1C
 refinerygas.gaseous = true;
 refinerygas.register();
 
+var butane_cracked = VanillaFactory.createFluid("butane_cracked", Color.fromHex("2B9F2B"));
+butane_cracked.gaseous = true;
+butane_cracked.register();
+
+var butane_cracked_hot = VanillaFactory.createFluid("butane_cracked_hot", Color.fromHex("2B9F2B"));
+butane_cracked_hot.gaseous = true;
+butane_cracked_hot.temperature = 1000;
+butane_cracked_hot.register();
+
+var propane_cracked = VanillaFactory.createFluid("propane_cracked", Color.fromHex("3ED73E"));
+propane_cracked.gaseous = true;
+propane_cracked.register();
+
+var propane_cracked_hot = VanillaFactory.createFluid("propane_cracked_hot", Color.fromHex("3ED73E"));
+propane_cracked_hot.gaseous = true;
+propane_cracked_hot.temperature = 1000;
+propane_cracked_hot.register();
+
+var ethane_cracked = VanillaFactory.createFluid("ethane_cracked", Color.fromHex("A4D83C"));
+ethane_cracked.gaseous = true;
+ethane_cracked.register();
+
+var ethane_cracked_hot = VanillaFactory.createFluid("ethane_cracked_hot", Color.fromHex("A4D83C"));
+ethane_cracked_hot.gaseous = true;
+ethane_cracked_hot.temperature = 1000;
+ethane_cracked_hot.register();
+
+var syngas_hot = VanillaFactory.createFluid("syngas_hot", Color.fromHex("545454"));
+syngas_hot.gaseous = true;
+syngas_hot.temperature = 1000;
+syngas_hot.register();
+
+var fuel_gas = VanillaFactory.createFluid("fuel_gas", Color.fromHex("A4D83C"));
+fuel_gas.gaseous = true;
+fuel_gas.register();
+
+var fuel_gas_raw = VanillaFactory.createFluid("fuel_gas_raw", Color.fromHex("A4D83C"));
+fuel_gas_raw.gaseous = true;
+fuel_gas_raw.register();
+
+var naphtha_vapour = VanillaFactory.createFluid("naphtha_vapour", Color.fromHex("F5DEB3"));
+naphtha_vapour.gaseous = true;
+naphtha_vapour.register();
+
+var kerosene_vapour = VanillaFactory.createFluid("kerosene_vapour", Color.fromHex("87CEEB"));
+kerosene_vapour.gaseous = true;
+kerosene_vapour.register();
+
+var gas_oil_vapour = VanillaFactory.createFluid("gas_oil_vapour", Color.fromHex("F4A460"));
+gas_oil_vapour.gaseous = true;
+gas_oil_vapour.register();

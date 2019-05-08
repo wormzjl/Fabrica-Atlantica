@@ -123,6 +123,7 @@ fluid.oil_brine=Oil Brine
 fluid.heavy_oil_hot=Hot Heavy Oil
 fluid.gas_oil=Gas Oil
 fluid.vgo=Vacuum Gas Oil
+fluid.vacuum_residue=Vacuum Residue
 fluid.naphtha_desulfurized=Desulfurized Naphtha
 fluid.kerosene_desulfurized=Desulfurized Kerosene
 fluid.gas_oil_desulfurized=Desulfurized Gas Oil
@@ -136,8 +137,12 @@ fluid.phenol=Phenol
 fluid.acetone=Acetone
 fluid.ethylbenzene=Ethylbenzene
 fluid.formaldehyde=Formaldehyde
-
-
+fluid.ethylene_glycol=Ethylene Glycol
+fluid.ethylene_glycol_rich=Rich Ethylene Glycol
+fluid.naphtha_cracked=Steam-Cracked Naphtha
+fluid.naphtha_cracked_hot=Steam-Cracked Naphtha (Hot)
+fluid.gas_oil_cracked=Steam-Cracked Gas Oil
+fluid.gas_oil_cracked_hot=Steam-Cracked Gas Oil (Hot)
 
 //Fluid-petrochem-gas
 fluid.natural_gas=Natural Gas
@@ -161,3 +166,17 @@ fluid.isobutane=Isobutane
 fluid.propene=Propene
 fluid.butadiene=Butadiene
 fluid.refinerygas=Refinery Gas
+fluid.butane_cracked=Steam-Cracked Butane
+fluid.butane_cracked_hot=Steam-Cracked Butane (Hot)
+fluid.propane_cracked=Steam-Cracked Propane
+fluid.propane_cracked_hot=Steam-Cracked Propane (Hot)
+fluid.ethane_cracked=Steam-Cracked Ethane
+fluid.ethane_cracked_hot=Steam-Cracked Ethane (Hot)
+fluid.syngas_hot=Syngas (Hot)
+fluid.fuel_gas_raw=Raw Fuel Gas
+fluid.fuel_gas=Fuel Gas
+fluid.naphtha_vapour=Naphtha Vapour
+fluid.kerosene_vapour=Kerosene Vapour
+fluid.gas_oil_vapour=Gas Oil Vapour
+fluid.vgo_vapour=VGO Vapour
+

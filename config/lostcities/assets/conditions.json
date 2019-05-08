@@ -1,0 +1,84 @@
+[
+  {
+    "type": "condition",
+    "name": "easymobs",
+    "values": [
+      {
+        "factor": 1,
+        "value": "Zombie"
+      },
+      {
+        "factor": 1,
+        "value": "Skeleton"
+      },
+      {
+        "factor": 1,
+        "value": "Spider"
+      }
+    ]
+  },
+  {
+    "type": "condition",
+    "name": "hardmobs",
+    "values": [
+      {
+        "factor": 1,
+        "value": "Blaze"
+      },
+      {
+        "factor": 1,
+        "value": "Witch"
+      }
+    ]
+  },
+  {
+    "type": "condition",
+    "name": "watermobs",
+    "values": [
+      {
+        "factor": 4,
+        "value": "aqua_creepers:aqua_creeper"
+      },
+      {
+        "factor": 8,
+        "value": "primal:shark_hammerhead"
+      },
+      {
+        "factor": 4,
+        "value": "Elder_guardian"
+      },
+      {
+        "factor": 12,
+        "value": "Guardian"
+      },
+      {
+        "factor": 8,
+        "value": "Squid"
+      }
+    ]
+  },
+  {
+    "type": "condition",
+    "name": "chestloot",
+    "values": [
+      {
+        "factor": 8,
+        "value": "lostcities:chests/lostcitychest"
+      },
+      {
+        "factor": 8,
+        "value": "lostcities:chests/lostcitychest"
+      },
+      {
+        "factor": 20,
+        "value": "lostcities:chests/raildungeonchest",
+        "inpart": "rail_dungeon1"
+      },
+      {
+        "factor": 20,
+        "value": "lostcities:chests/raildungeonchest",
+        "inpart": "rail_dungeon2"
+      }
+    ]
+  }
+]
