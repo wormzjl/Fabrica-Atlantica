@@ -401,7 +401,7 @@
          overridden using the stone oredict entry. -->
     
     <!-- ******************** Import Custom Configs ************************ -->
-    <OptionalImport file='modules/custom/oreremoval.xml'/>
+    <OptionalImport file='modules/custom/substitution.xml'/>
 
     <!-- Gregtech checks for other ores' oredict values.  Uncomment the
 	 the following to have it override custom configurations -->

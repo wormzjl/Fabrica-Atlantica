@@ -12,12 +12,24 @@ mods.rockhounding_chemistry.Transposer.add(<liquid:helium>, <liquid:helium>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:argon>, <liquid:argon>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:krypton>, <liquid:krypton>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:carbon_dioxide>, <liquid:carbon_dioxide>);
+mods.rockhounding_chemistry.Transposer.add(<liquid:carbon_monoxide>, <liquid:carbon_monoxide>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:neon>, <liquid:neon>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:xenon>, <liquid:xenon>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:oxygen>, <liquid:oxygen>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:nitrogen>, <liquid:nitrogen>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:ammonia>, <liquid:ammonia>);
+mods.rockhounding_chemistry.Transposer.add(<liquid:chlorine>, <liquid:chlorine>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:hydrogen>, <liquid:hydrogen>);
+mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas>, <liquid:natural_gas>);
+mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_hot>, <liquid:natural_gas_hot>);
+mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_sour>, <liquid:natural_gas_sour>);
+mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_sour_hot>, <liquid:natural_gas_sour_hot>);
+mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_humid>, <liquid:natural_gas_humid>);
+mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_sour_humid>, <liquid:natural_gas_sour_humid>);
+mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_dried>, <liquid:natural_gas_dried>);
+mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_sour_dried>, <liquid:natural_gas_sour_dried>);
+mods.rockhounding_chemistry.Transposer.add(<liquid:acid_gas>, <liquid:acid_gas>);
+
 
 //mods.rockhounding_chemistry.SlurryPond.removeByOutput(<liquid:silicone>);
 

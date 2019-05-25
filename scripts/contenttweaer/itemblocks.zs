@@ -119,3 +119,8 @@ var gearbox = VanillaFactory.createItem("gearbox");
 gearbox.maxStackSize = 1;
 gearbox.register();
 
+var urea = VanillaFactory.createItem("urea");
+urea.register();
+
+var melamine = VanillaFactory.createItem("melamine");
+melamine.register();

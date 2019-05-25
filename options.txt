@@ -4,14 +4,14 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:9
+renderDistance:14
 guiScale:2
 particles:0
 bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:false
 ao:2
 renderClouds:false
@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:false
+enableVsync:true
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:true
@@ -120,10 +120,11 @@ key_quark.keybind.chestExtract:0
 key_quark.keybind.playerSort:0
 key_quark.keybind.lockBuilding:37
 key_autoverse.key.togglemode:35
-key_key.betterquesting.quests:41
 key_key.nhc.toggle:34
 key_key.ftbguides.guide:0
 key_key.ftbutilities.nbt:49:ALT
+key_key.ftbutilities.trash:211
+key_key.ftbquests.quests:0
 key_Gravi Fly Key:33
 key_pneumaticcraft.armor.options:22
 key_pneumaticcraft.helmet.hack:0
@@ -143,6 +144,7 @@ key_schematica.key.pickBlock:-98:SHIFT
 key_AutoRun:45
 key_Toggle StepUp:36
 key_key.toastcontrol.clear:36
+key_key.wearablebackpacks.open:48
 key_Strip World:211
 key_Dress World:210
 key_Inspect Block:199
@@ -151,6 +153,7 @@ key_key.cofh.multimode:0
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
+key_key.jei.toggleEditMode:0
 key_key.jei.showRecipe:19
 key_key.jei.showUses:22
 key_key.jei.recipeBack:14
@@ -166,6 +169,19 @@ key_key.toggle_focus.desc:15
 key_key.architect.rotateBlueprint:19
 key_key.architect.toggleGrid:34
 key_key.architect.toggleAllowPartial:25
+key_key.configurearmor:11
+key_key.hotkey1:71
+key_key.hotkey2:72
+key_key.hotkey3:0
+key_key.hotkey4:0
+key_key.flyforward:17
+key_key.flybackwards:31
+key_key.turnleft:30
+key_key.turnright:32
+key_key.flyup:200
+key_key.flydown:208
+key_key.startflying:57
+key_key.startlanding:14
 key_mod.chiselsandbits.chiselmode.single:0
 key_mod.chiselsandbits.chiselmode.snap2:0
 key_mod.chiselsandbits.chiselmode.snap4:0
@@ -201,10 +217,14 @@ key_key.toolProfileChange:0
 key_key.armorProfileChange:0
 key_key.toggleFlight:0
 key_key.toggleDislocator:0
+key_key.cycleDigAOE:0
+key_key.cycleAttackAOE:0
 key_key.effortlessbuilding.hud.desc:0
 key_key.effortlessbuilding.replace.desc:0
 key_key.effortlessbuilding.creative.desc:0
 key_key.effortlessbuilding.mode.desc:0
+key_key.effortlessbuilding.undo.desc:44:CONTROL
+key_key.effortlessbuilding.redo.desc:21:CONTROL
 key_key.reelIn:45
 key_key.reelOut:44
 key_key.dragon_fireAttack:19
@@ -254,6 +274,7 @@ key_key.journeymap.zoom_out:12
 key_key.journeymap.minimap_type:26
 key_key.journeymap.minimap_preset:43
 key_key.journeymap.create_waypoint:48
+key_key.journeymap.toggle_waypoints:44
 key_key.journeymap.fullscreen_create_waypoint:48
 key_key.journeymap.fullscreen_chat_position:46
 key_key.journeymap.map_toggle_alt:36

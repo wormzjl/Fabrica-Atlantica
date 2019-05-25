@@ -32,6 +32,9 @@ item.contenttweaker.tinyzr.name=Tiny Pile of Zirconium dust
 item.contenttweaker.tinysb.name=Tiny Pile of Antimony dust
 item.contenttweaker.titaniumsponge.name=Titanium Sponge
 item.contenttweaker.gearbox.name=Gear Box
+item.contenttweaker.urea.name=Urea Dust
+item.contenttweaker.melamine.name=Melamine Dust
+
 
 //Materials
 base.material.iron_ore=Iron
@@ -95,7 +98,7 @@ fluid.animaloil=Animal Oil
 fluid.liquidrubber=Liquid raw rubber
 fluid.formicacid=Formic acid
 fluid.chlorine=Chlorine
-fluid.phosgen=Phosgen
+fluid.phosgene=Phosgene
 fluid.fumingsulfuricacid=Fuming Sulfuric Acid
 fluid.sulfuricnitricacid=Sulfuric and Nitric acid mixture
 fluid.fumingsulfuricnitricacid=Fuming Sulfuric and Nitric acid mixture
@@ -112,7 +115,6 @@ fluid.tungsten_slurry=Tungsten Slurry
 fluid.uranium_slurry=Uranium Slurry
 fluid.thorium_slurry=Thorium Slurry
 
-
 //Fluid-petrochem
 fluid.crude_heavy=Heavy Crude Oil
 fluid.crude_heavy_desalted=Desalted Heavy Crude Oil
@@ -124,6 +126,8 @@ fluid.heavy_oil_hot=Hot Heavy Oil
 fluid.gas_oil=Gas Oil
 fluid.vgo=Vacuum Gas Oil
 fluid.vacuum_residue=Vacuum Residue
+fluid.vacuum_residue_cracked_hot=Steam Cracked Vacuum Residue (hot)
+fluid.vacuum_residue_cracked=Steam Cracked Vacuum Residue
 fluid.naphtha_desulfurized=Desulfurized Naphtha
 fluid.kerosene_desulfurized=Desulfurized Kerosene
 fluid.gas_oil_desulfurized=Desulfurized Gas Oil
@@ -139,10 +143,28 @@ fluid.ethylbenzene=Ethylbenzene
 fluid.formaldehyde=Formaldehyde
 fluid.ethylene_glycol=Ethylene Glycol
 fluid.ethylene_glycol_rich=Rich Ethylene Glycol
+fluid.ethylene_oxide=Ethylene Oxide
 fluid.naphtha_cracked=Steam-Cracked Naphtha
 fluid.naphtha_cracked_hot=Steam-Cracked Naphtha (Hot)
 fluid.gas_oil_cracked=Steam-Cracked Gas Oil
 fluid.gas_oil_cracked_hot=Steam-Cracked Gas Oil (Hot)
+fluid.gas_oil_hydrocracked=Hydrocracked Gas Oil
+fluid.vgo_hydrocracked=Hydrocracked VGO
+fluid.vgo_cracked_hot=Steam Cracked VGO (Hot)
+fluid.vgo_cracked=Steam Cracked VGO
+fluid.gas_oil_fcc=Catalytic Cracked Gas Oil
+fluid.vgo_fcc=Catalytic Cracked VGO
+fluid.gas_oil_cracked_hot=Steam Cracked Gas Oil (Hot)
+fluid.gas_oil_cracked=Steam Cracked Gas Oil
+fluid.naphtha_reformed=Reformed Naphtha
+fluid.pygas=Pyrolysis Gasoline
+fluid.gasoline_adv=High-grade Gasoline
+fluid.diesel_adv=High-grade Diesel
+fluid.gasoline_bio=E10 Gasoline
+fluid.diesel_bio=B10 Diesel
+fluid.gasoline_adv_bio=High-grade E10 Gasoline
+fluid.ftproduct=Fischer-Tropsch Reaction Product
+fluid.wgsproduct=Water-Gas Shifting Reaction Product
 
 //Fluid-petrochem-gas
 fluid.natural_gas=Natural Gas

@@ -8,7 +8,7 @@ mods.immersiveengineering.Blueprint.addRecipe("Logistics", <autoverse:pipe>*8, [
 mods.immersiveengineering.Blueprint.addRecipe("Logistics", <autoverse:pipe:1>*8, [<ore:plateSteel>, <ore:plateSteel>, <ore:gearSteel>, <minecraft:hopper>]);
 mods.immersiveengineering.Blueprint.addRecipe("Logistics", <autoverse:pipe:2>*8, [<ore:plateSteel>, <ore:plateSteel>, <ore:gearSteel>, <ore:plateSteel>]);
 mods.immersiveengineering.Blueprint.addRecipe("Logistics", <autoverse:pipe:3>*8, [<ore:plateSteel>, <ore:plateSteel>, <ore:gearSteel>, <minecraft:comparator>]);
-//mods.immersiveengineering.Blueprint.addRecipe("Logistics", <magneticraft:conveyor_belt>*8, [<ore:plateSteel>, <ore:plateSteel>, <ore:gearSteel>]);
+mods.immersiveengineering.Blueprint.addRecipe("Logistics", <magneticraft:conveyor_belt>*8, [<ore:plateSteel>, <ore:plateSteel>, <ore:gearSteel>]);
 mods.immersiveengineering.Blueprint.addRecipe("Logistics", <magneticraft:inserter>*2, [<ore:plateSteel>, <ore:plateSteel>, <ore:gearSteel>, <ore:stickSteel>]);
 
 

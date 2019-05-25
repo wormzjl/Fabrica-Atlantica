@@ -39,4 +39,55 @@
 			<itemStack>minecraft:dye 5 15</itemStack>
 		</output>
 	</Recipe>
+
+	<Recipe timeRequired="80" power ="128">
+		<input>
+			<fluidStack>ammonia 500</fluidStack>
+			<fluidStack>carbon_dioxide 250</fluidStack>
+		</input>
+		<output>
+			<itemStack>contenttweaker:urea</itemStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="80" power ="128">
+		<input>
+			<itemStack>contenttweaker:urea 6 0</itemStack>
+		</input>
+		<output>
+			<itemStack>contenttweaker:melamine</itemStack>
+			<fluidStack>ammonia 1500</fluidStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="100" power ="128">
+		<input>
+			<fluidStack>carbon_monoxide 100</fluidStack>
+			<fluidStack>chlorine 100</fluidStack>
+		</input>
+		<output>
+			<fluidStack>phosgene 100</fluidStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="100" power ="128">
+		<input>
+			<fluidStack>methanol 200</fluidStack>
+			<fluidStack>oxygen 100</fluidStack>
+		</input>
+		<output>
+			<fluidStack>formaldehyde 200</fluidStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="100" power ="128">
+		<input>
+			<fluidStack>formaldehyde 200</fluidStack>
+			<itemStack>contenttweaker:melamine</itemStack>
+		</input>
+		<output>
+			<fluidStack>plastic 200</fluidStack>
+		</output>
+	</Recipe>
+
 </Recipes>

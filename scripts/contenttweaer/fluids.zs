@@ -19,9 +19,9 @@ var chlorine = VanillaFactory.createFluid("chlorine", Color.fromHex("00FF00"));
 chlorine.gaseous = true;
 chlorine.register();
 
-var phosgen = VanillaFactory.createFluid("phosgen", Color.fromHex("FFA07A"));
-phosgen.gaseous = true;
-phosgen.register();
+var phosgene = VanillaFactory.createFluid("phosgene", Color.fromHex("FFA07A"));
+phosgene.gaseous = true;
+phosgene.register();
 
 var fumingsulfuricacid = VanillaFactory.createFluid("fumingsulfuricacid", Color.fromHex("C7DB8E"));
 fumingsulfuricacid.register();
@@ -102,16 +102,26 @@ vgo_vapour.register();
 var vacuum_residue = VanillaFactory.createFluid("vacuum_residue", Color.fromHex("725E5E"));
 vacuum_residue.register();
 
+var vacuum_residue_cracked_hot = VanillaFactory.createFluid("vacuum_residue_cracked_hot", Color.fromHex("A38F8F"));
+vacuum_residue_cracked_hot.temperature = 1000;
+vacuum_residue_cracked_hot.register();
+
+var vacuum_residue_cracked = VanillaFactory.createFluid("vacuum_residue_cracked", Color.fromHex("A38F8F"));
+vacuum_residue_cracked.register();
+
 var naphtha_desulfurized = VanillaFactory.createFluid("naphtha_desulfurized", Color.fromHex("F5DEB3"));
+naphtha_desulfurized.gaseous = true;
 naphtha_desulfurized.register();
 
 var kerosene_desulfurized = VanillaFactory.createFluid("kerosene_desulfurized", Color.fromHex("87CEEB"));
 kerosene_desulfurized.register();
 
 var gas_oil_desulfurized = VanillaFactory.createFluid("gas_oil_desulfurized", Color.fromHex("F5B379"));
+gas_oil_desulfurized.gaseous = true;
 gas_oil_desulfurized.register();
 
 var vgo_desulfurized = VanillaFactory.createFluid("vgo_desulfurized", Color.fromHex("DB813C"));
+vgo_desulfurized.gaseous = true;
 vgo_desulfurized.register();
 
 var benzene = VanillaFactory.createFluid("benzene", Color.fromHex("8B4513"));
@@ -146,6 +156,9 @@ ethylene_glycol.register();
 
 var ethylene_glycol_rich = VanillaFactory.createFluid("ethylene_glycol_rich", Color.fromHex("9CC9EC"));
 ethylene_glycol_rich.register();
+
+var ethylene_oxide = VanillaFactory.createFluid("ethylene_oxide", Color.fromHex("69AEE2"));
+ethylene_oxide.register();
 
 var naphtha_cracked = VanillaFactory.createFluid("naphtha_cracked", Color.fromHex("F0E1C3"));
 naphtha_cracked.register();
@@ -298,3 +311,49 @@ kerosene_vapour.register();
 var gas_oil_vapour = VanillaFactory.createFluid("gas_oil_vapour", Color.fromHex("F4A460"));
 gas_oil_vapour.gaseous = true;
 gas_oil_vapour.register();
+
+var gas_oil_hydrocracked = VanillaFactory.createFluid("gas_oil_hydrocracked", Color.fromHex("F4A460"));
+gas_oil_hydrocracked.register();
+
+var vgo_hydrocracked = VanillaFactory.createFluid("vgo_hydrocracked", Color.fromHex("D2691E"));
+vgo_hydrocracked.register();
+
+var gas_oil_fcc = VanillaFactory.createFluid("gas_oil_fcc", Color.fromHex("F4A460"));
+gas_oil_fcc.gaseous = true;
+gas_oil_fcc.register();
+
+var vgo_fcc = VanillaFactory.createFluid("vgo_fcc", Color.fromHex("D2691E"));
+vgo_fcc.gaseous = true;
+vgo_fcc.register();
+
+var naphtha_reformed = VanillaFactory.createFluid("naphtha_reformed", Color.fromHex("F5DEB3"));
+naphtha_reformed.register();
+
+var pygas = VanillaFactory.createFluid("pygas", Color.fromHex("FFB31A"));
+pygas.register();
+
+var vgo_cracked_hot = VanillaFactory.createFluid("vgo_cracked_hot", Color.fromHex("D2691E"));
+vgo_cracked_hot.temperature = 1000;
+vgo_cracked_hot.register();
+
+var vgo_cracked = VanillaFactory.createFluid("vgo_cracked", Color.fromHex("D2691E"));
+vgo_cracked.register();
+
+var gasoline_adv = VanillaFactory.createFluid("gasoline_adv", Color.fromHex("CC8800"));
+gasoline_adv.register();
+
+var gasoline_bio = VanillaFactory.createFluid("gasoline_bio", Color.fromHex("E69900"));
+gasoline_bio.register();
+
+var diesel_bio = VanillaFactory.createFluid("diesel_bio", Color.fromHex("86592D"));
+diesel_bio.register();
+
+var gasoline_adv_bio = VanillaFactory.createFluid("gasoline_adv_bio", Color.fromHex("FFAA00"));
+gasoline_adv_bio.register();
+
+var ftproduct = VanillaFactory.createFluid("ftproduct", Color.fromHex("FFE0CC"));
+ftproduct.register();
+
+var wgsproduct = VanillaFactory.createFluid("wgsproduct", Color.fromHex("F5F5F0"));
+wgsproduct.gaseous = true;
+wgsproduct.register();

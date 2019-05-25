@@ -1,0 +1,53 @@
+<ConfigSection>
+            <Substitute name='ironsubstitution'>
+                <OreBlock block='bedrockores:bedrock_ore' weight='0.5' nbt='{amount:500,ore:{Properties:{sub_block_number:"6"},Name:"contenttweaker:sub_block_holder_0"},id:"bedrockores:bedrock_ore"}' />
+                <OreBlock block='bedrockores:bedrock_ore' weight='0.5' nbt='{amount:250,ore:{Properties:{sub_block_number:"6"},Name:"contenttweaker:sub_block_holder_0"},id:"bedrockores:bedrock_ore"}' />
+                <Replaces block='minecraft:white_glazed_terracotta' weight='1.0' />
+            </Substitute>
+
+            <Substitute name='coalsubstitution'>
+                <OreBlock block='bedrockores:bedrock_ore' weight='1.0' nbt='{amount:500,ore:{Name:"minecraft:coal_ore"},id:"bedrockores:bedrock_ore"}' />
+                <Replaces block='minecraft:orange_glazed_terracotta' weight='1.0' />
+            </Substitute>
+
+            <Substitute name='goldsubstitution'>
+                <OreBlock block='bedrockores:bedrock_ore' weight='0.5' nbt='{amount:100,ore:{Properties:{sub_block_number:"13"},Name:"contenttweaker:sub_block_holder_0"},id:"bedrockores:bedrock_ore"}' />
+                <OreBlock block='bedrockores:bedrock_ore' weight='0.5' nbt='{amount:50,ore:{Properties:{sub_block_number:"13"},Name:"contenttweaker:sub_block_holder_0"},id:"bedrockores:bedrock_ore"}' />
+                <Replaces block='minecraft:magenta_glazed_terracotta' weight='1.0' />
+            </Substitute>
+
+            <Substitute name='redstonesubstitution'>
+                <OreBlock block='bedrockores:bedrock_ore' weight='1.0' nbt='{amount:100,ore:{Name:"minecraft:redstone_ore"},id:"bedrockores:bedrock_ore"}' />
+                <Replaces block='minecraft:light_blue_glazed_terracotta' weight='1.0' />
+            </Substitute>
+
+            <Substitute name='lapissubstitution'>
+                <OreBlock block='bedrockores:bedrock_ore' weight='1.0' nbt='{amount:100,ore:{Name:"minecraft:lapis_ore"},id:"bedrockores:bedrock_ore"}' />
+                <Replaces block='minecraft:yellow_glazed_terracotta' weight='1.0' />
+            </Substitute>
+
+            <Substitute name='coppersubstitution'>
+                <OreBlock block='bedrockores:bedrock_ore' weight='0.5' nbt='{amount:400,ore:{Properties:{sub_block_number:"14"},Name:"contenttweaker:sub_block_holder_0"},id:"bedrockores:bedrock_ore"}' />
+                <OreBlock block='bedrockores:bedrock_ore' weight='0.5' nbt='{amount:200,ore:{Properties:{sub_block_number:"14"},Name:"contenttweaker:sub_block_holder_0"},id:"bedrockores:bedrock_ore"}' />
+                <Replaces block='minecraft:lime_glazed_terracotta' weight='1.0' />
+            </Substitute>
+
+            <Substitute name='tinsubstitution'>
+                <OreBlock block='bedrockores:bedrock_ore' weight='0.5' nbt='{amount:300,ore:{Properties:{sub_block_number:"1"},Name:"contenttweaker:sub_block_holder_0"},id:"bedrockores:bedrock_ore"}' />
+                <OreBlock block='bedrockores:bedrock_ore' weight='0.5' nbt='{amount:150,ore:{Properties:{sub_block_number:"1"},Name:"contenttweaker:sub_block_holder_0"},id:"bedrockores:bedrock_ore"}' />
+                <Replaces block='minecraft:pink_glazed_terracotta' weight='1.0' />
+            </Substitute>
+
+            <Substitute name='leadsubstitution'>
+                <OreBlock block='bedrockores:bedrock_ore' weight='0.5' nbt='{amount:300,ore:{Properties:{sub_block_number:"2"},Name:"contenttweaker:sub_block_holder_0"},id:"bedrockores:bedrock_ore"}' />
+                <OreBlock block='bedrockores:bedrock_ore' weight='0.5' nbt='{amount:150,ore:{Properties:{sub_block_number:"2"},Name:"contenttweaker:sub_block_holder_0"},id:"bedrockores:bedrock_ore"}' />
+                <Replaces block='minecraft:gray_glazed_terracotta' weight='1.0' />
+            </Substitute>
+
+            <Substitute name='aluminiumsubstitution'>
+                <OreBlock block='bedrockores:bedrock_ore' weight='0.5' nbt='{amount:300,ore:{Properties:{sub_block_number:"13"},Name:"contenttweaker:sub_block_holder_1"},id:"bedrockores:bedrock_ore"}' />
+                <OreBlock block='bedrockores:bedrock_ore' weight='0.5' nbt='{amount:150,ore:{Properties:{sub_block_number:"13"},Name:"contenttweaker:sub_block_holder_1"},id:"bedrockores:bedrock_ore"}' />
+                <Replaces block='minecraft:silver_glazed_terracotta' weight='1.0' />
+            </Substitute>
+
+</ConfigSection>

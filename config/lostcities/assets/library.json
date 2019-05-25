@@ -435,10 +435,6 @@
       {
         "factor": 1.0,
         "bridge": "bridge_open"
-      },
-      {
-        "factor": 1.0,
-        "bridge": "bridge_covered"
       }
     ],
     "fronts": [
