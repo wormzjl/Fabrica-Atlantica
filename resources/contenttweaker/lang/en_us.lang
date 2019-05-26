@@ -34,6 +34,11 @@ item.contenttweaker.titaniumsponge.name=Titanium Sponge
 item.contenttweaker.gearbox.name=Gear Box
 item.contenttweaker.urea.name=Urea Dust
 item.contenttweaker.melamine.name=Melamine Dust
+item.contenttweaker.dinitrotoluene.name=Dinitrotoluene
+item.contenttweaker.trinitrotoluene.name=Trinitrotoluene
+item.contenttweaker.diaminotoluene.name=Diaminotoluene
+item.contenttweaker.advplastic.name=Advanced Plastic
+
 
 
 //Materials
@@ -95,13 +100,14 @@ item.magneticraft.copper_coil_normal.name=Copper Wire Coil
 
 //Fluid-chemical
 fluid.animaloil=Animal Oil
-fluid.liquidrubber=Liquid raw rubber
-fluid.formicacid=Formic acid
+fluid.liquidrubber=Liquid raw Rubber
+fluid.rubber=Liquid Synthetic Rubber
+fluid.formicacid=Formic Acid
 fluid.chlorine=Chlorine
 fluid.phosgene=Phosgene
 fluid.fumingsulfuricacid=Fuming Sulfuric Acid
-fluid.sulfuricnitricacid=Sulfuric and Nitric acid mixture
-fluid.fumingsulfuricnitricacid=Fuming Sulfuric and Nitric acid mixture
+fluid.sulfuricnitricacid=Sulfuric and Nitric Acid Mixture
+fluid.fumingsulfuricnitricacid=Fuming Sulfuric and Nitric Acid Mixture
 fluid.flotation_solution=Mineral Flotation Solution
 fluid.flotation_waste=Mineral Flotation Wastewater
 fluid.iron_slurry=Iron Slurry
@@ -133,6 +139,7 @@ fluid.kerosene_desulfurized=Desulfurized Kerosene
 fluid.gas_oil_desulfurized=Desulfurized Gas Oil
 fluid.vgo_desulfurized=Desulfurized Vacuum Gas Oil
 fluid.benzene=Benzene
+fluid.benzene_vapour=Benzene Vapour
 fluid.toluene=Toluene
 fluid.toluenediisocyanate=Toluene diisocyanate
 fluid.glycerol=Glycerol
@@ -165,6 +172,9 @@ fluid.diesel_bio=B10 Diesel
 fluid.gasoline_adv_bio=High-grade E10 Gasoline
 fluid.ftproduct=Fischer-Tropsch Reaction Product
 fluid.wgsproduct=Water-Gas Shifting Reaction Product
+fluid.cumene=Cumene
+fluid.propyleneoxide=Propylene Oxide
+fluid.polyol=Polyol
 
 //Fluid-petrochem-gas
 fluid.natural_gas=Natural Gas

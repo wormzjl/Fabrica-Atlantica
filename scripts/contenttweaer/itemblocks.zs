@@ -124,3 +124,16 @@ urea.register();
 
 var melamine = VanillaFactory.createItem("melamine");
 melamine.register();
+
+var dinitrotoluene = VanillaFactory.createItem("dinitrotoluene");
+dinitrotoluene.register();
+
+var trinitrotoluene = VanillaFactory.createItem("trinitrotoluene");
+trinitrotoluene.register();
+
+var diaminotoluene = VanillaFactory.createItem("diaminotoluene");
+diaminotoluene.register();
+
+var advplastic = VanillaFactory.createItem("advplastic");
+advplastic.maxStackSize = 16;
+advplastic.register();

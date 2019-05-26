@@ -15,3 +15,6 @@ mods.forestry.ThermionicFabricator.addCast(<ic2:crafting> * 8, [[<ore:dustSulfur
 mods.forestry.ThermionicFabricator.addCast(<ic2:crafting> * 8, [[<ore:dustSulfur>,<ore:dustCharcoal>,null]], <liquid: liquidrubber> * 200, <forestry:wax_cast>);
 
 //Advanced industrial process - petrochem
+recipes.addShapeless(<ic2:dust:27>*9,[<ore:dustSulfur>]);
+mods.pneumaticcraft.thermopneumaticprocessingplant.addRecipe(<liquid:butadiene>*2000, <ic2:dust:27>, 3.0, 473, <liquid:rubber> * 1000);
+mods.pneumaticcraft.plasticmixer.addSolidifyOnlyRecipe(<liquid:rubber> * 100, <ic2:crafting>);

@@ -12,6 +12,10 @@ var liquidrubber = VanillaFactory.createFluid("liquidrubber", Color.fromHex("7A7
 liquidrubber.viscosity = 2000;
 liquidrubber.register();
 
+var rubber = VanillaFactory.createFluid("rubber", Color.fromHex("4D4D4D"));
+rubber.viscosity = 2000;
+rubber.register();
+
 var formicacid = VanillaFactory.createFluid("formicacid", Color.fromHex("00FFFF"));
 formicacid.register();
 
@@ -126,6 +130,10 @@ vgo_desulfurized.register();
 
 var benzene = VanillaFactory.createFluid("benzene", Color.fromHex("8B4513"));
 benzene.register();
+
+var benzene_vapour = VanillaFactory.createFluid("benzene_vapour", Color.fromHex("8B4513"));
+benzene_vapour.gaseous = true;
+benzene_vapour.register();
 
 var toluene = VanillaFactory.createFluid("toluene", Color.fromHex("A52A2A"));
 toluene.register();
@@ -248,7 +256,7 @@ var isobutane = VanillaFactory.createFluid("isobutane", Color.fromHex("228B22"))
 isobutane.gaseous = true;
 isobutane.register();
 
-var propene = VanillaFactory.createFluid("propene", Color.fromHex("FFE4B5"));
+var propene = VanillaFactory.createFluid("propene", Color.fromHex("23A923"));
 propene.gaseous = true;
 propene.register();
 
@@ -357,3 +365,13 @@ ftproduct.register();
 var wgsproduct = VanillaFactory.createFluid("wgsproduct", Color.fromHex("F5F5F0"));
 wgsproduct.gaseous = true;
 wgsproduct.register();
+
+var cumene = VanillaFactory.createFluid("cumene", Color.fromHex("FFCC33"));
+cumene.register();
+
+var propyleneoxide = VanillaFactory.createFluid("propyleneoxide", Color.fromHex("166A16"));
+propyleneoxide.gaseous = true;
+propyleneoxide.register();
+
+var polyol = VanillaFactory.createFluid("polyol", Color.fromHex("FFFFCC"));
+polyol.register();

@@ -90,4 +90,76 @@
 		</output>
 	</Recipe>
 
+	<Recipe timeRequired="120" power ="256">
+		<input>
+			<fluidStack>ethylbenzene 200</fluidStack>
+		</input>
+		<output>
+			<fluidStack>plastic 150</fluidStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="120" power ="256">
+		<input>
+			<fluidStack>acetone 100</fluidStack>
+			<fluidStack>phenol 200</fluidStack>
+		</input>
+		<output>
+			<fluidStack>bisphenola 150</fluidStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="120" power ="256">
+		<input>
+			<fluidStack>bisphenola 100</fluidStack>
+			<fluidStack>phosgene 100</fluidStack>
+		</input>
+		<output>
+			<fluidStack>plastic 200</fluidStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="200" power ="256">
+		<input>
+			<fluidStack>toluene 1000</fluidStack>
+			<fluidStack>sulfuricnitricacid 1000</fluidStack>
+		</input>
+		<output>
+			<fluidStack>toxic_waste 1000</fluidStack>
+			<itemStack>contenttweaker:dinitrotoluene</itemStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="200" power ="256">
+		<input>
+			<itemStack>contenttweaker:dinitrotoluene</itemStack>
+			<fluidStack>fumingsulfuricnitricacid 1000</fluidStack>
+		</input>
+		<output>
+			<fluidStack>toxic_waste 1000</fluidStack>
+			<itemStack>contenttweaker:trinitrotoluene</itemStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="200" power ="512">
+		<input>
+			<fluidStack>toluenediisocyanate 500</fluidStack>
+			<fluidStack>polyol 500</fluidStack>
+		</input>
+		<output>
+			<fluidStack>toxic_waste 100</fluidStack>
+			<itemStack>contenttweaker:advplastic</itemStack>
+		</output>
+	</Recipe>
+
+	<Recipe timeRequired="100" power ="128">
+		<input>
+			<fluidStack>acid_gas 500</fluidStack>
+			<fluidStack>oxygen 1000</fluidStack>
+		</input>
+		<output>
+			<itemStack>railcraft:dust 1 1</itemStack>
+		</output>
+	</Recipe>
+
 </Recipes>
