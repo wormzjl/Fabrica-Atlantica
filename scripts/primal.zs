@@ -4,6 +4,9 @@ mods.jei.JEI.removeAndHide(<primal:storage_crate:*>);
 mods.jei.JEI.removeAndHide(<primal:worktable_slab:*>);
 mods.jei.JEI.removeAndHide(<primal:worktable_shelf:*>);
 
+//Forgecraft stuff
+recipes.remove(<forgecraft:stoneanvil>);
+recipes.addShaped(<forgecraft:stoneanvil>, [[<ore:ingotIron>], [<ore:stone>]]);
 
 
 //Scrap processing

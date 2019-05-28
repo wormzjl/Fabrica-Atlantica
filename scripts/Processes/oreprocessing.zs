@@ -1,33 +1,66 @@
 //early game scrap processing and forgecraft stuff
+recipes.addShapeless(<minecraft:iron_ingot>,[<forgecraft:ironcleaningotball:*>]);
+recipes.addShapeless(<minecraft:iron_ingot>,[<forgecraft:ironingotball:*>]);
+
 mods.forgecraft.NBTCrucible.removeAll();
 
-mods.forgecraft.NBTCrucible.addRecipe(<ore:dustIron>, null, null, null, null, <ic2:dust:8>, <forgecraft:wroughtironchunk>, 1250, 1100, 800,"irondust");
-mods.forgecraft.NBTCrucible.addRecipe(<ore:dustIron>, <ore:slackLime>, null, null, null, <minecraft:iron_ingot>, <forgecraft:ironcleaningotball>, 1550, 1200, 800,"ironpure");
-mods.forgecraft.NBTCrucible.addRecipe(<ore:ingotSteel>, <ore:dustCarbon>, <ore:ingotSteel>, <ore:dustCarbon>, <ore:ingotSteel>, <railcraft:ingot>*3, <forgecraft:wootzingotball>, 2100, 1800, 1500,"wootz");
-mods.forgecraft.NBTCrucible.addRecipe(<betterwithmods:material:14>, <ore:dustCarbon>, <betterwithmods:material:14>, <ore:dustCarbon>, <betterwithmods:material:14>, <betterwithmods:material:14>*3, <forgecraft:wootzingotball>, 2100, 1800, 1500,"wootzplus");
+mods.forgecraft.NBTCrucible.addRecipe(<ore:dustIron>, null, null, null, null, <ic2:dust:8>, <forgecraft:wroughtironchunk>, 1400, 300, 400,"irondust");
+mods.forgecraft.NBTCrucible.addRecipe(<ore:dustIron>, <ore:slackLime>, null, null, null, <minecraft:iron_ingot>, <forgecraft:ironcleaningotball>, 1550, 1200, 400,"ironpure");
+mods.forgecraft.NBTCrucible.addRecipe(<ore:ingotSteel>, <ore:dustCarbon>, <ore:ingotSteel>, <ore:dustCarbon>, <ore:ingotSteel>, <railcraft:ingot>*3, <forgecraft:wootzingotball>, 3100, 1800, 1000,"wootz");
+mods.forgecraft.NBTCrucible.addRecipe(<betterwithmods:material:14>, <ore:dustCarbon>, <betterwithmods:material:14>, <ore:dustCarbon>, <betterwithmods:material:14>, <betterwithmods:material:14>*3, <forgecraft:wootzingotball>, 3100, 1800, 1000,"wootzplus");
 
-mods.forgecraft.NBTCrucible.addRecipe(<ore:ingotSteel>, null, null, null, null, <railcraft:ingot>, <forgecraft:steelingotball>, 2100, 800, 800,"steel");
-mods.forgecraft.NBTCrucible.addRecipe(<ore:ingotBronze>, null, null, null, null, <railcraft:ingot:5>, <forgecraft:bronzeingotball>, 1100, 800, 600,"bronze");
-mods.forgecraft.NBTCrucible.addRecipe(<ore:dustBronze>, null, null, null, null, <railcraft:ingot:5>, <forgecraft:bronzeingotball>, 1100, 800, 600,"bronzedust");
-mods.forgecraft.NBTCrucible.addRecipe(<ore:ingotCopper>, null, null, null, null, <railcraft:ingot:1>, <primal:copper_ingot>, 900, 750, 550,"copper");
+mods.forgecraft.NBTCrucible.addRecipe(<ore:ingotSteel>, null, null, null, null, <railcraft:ingot>, <forgecraft:steelingotball>, 2100, 400, 400,"steel");
+mods.forgecraft.NBTCrucible.addRecipe(<ore:ingotBronze>, null, null, null, null, <railcraft:ingot:5>, <forgecraft:bronzeingotball>, 1100, 300, 400,"bronze");
+mods.forgecraft.NBTCrucible.addRecipe(<ore:dustBronze>, null, null, null, null, <railcraft:ingot:5>, <forgecraft:bronzeingotball>, 1100, 300, 400,"bronzedust");
+mods.forgecraft.NBTCrucible.addRecipe(<ore:ingotCopper>, null, null, null, null, <railcraft:ingot:1>, <primal:copper_ingot>, 900, 400, 300,"copper");
 
-mods.forgecraft.NBTCrucible.addRecipe(<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotTin>, null, <primal:slag>, <forgecraft:bronzeingotball>*4, 1100, 3200, 800,"bronzeingot");
-mods.forgecraft.NBTCrucible.addRecipe(<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustTin>, null, <primal:slag>, <forgecraft:bronzeingotball>*4, 1100, 3200, 800,"bronzedust4x");
-mods.forgecraft.NBTCrucible.addRecipe(<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetTin>, null, <primal:slag>, <forgecraft:bronzechunk>*4, 1100, 300, 200,"bronzenugget");
-mods.forgecraft.NBTCrucible.addRecipe(<materialpart:copper:scrapmetal>, <materialpart:copper:scrapmetal>, <materialpart:copper:scrapmetal>, <materialpart:tin:scrapmetal>, null, <primal:slag>, <forgecraft:bronzechunk>*16, 1100, 3200, 800,"bronzescrap");
+mods.forgecraft.NBTCrucible.addRecipe(<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotTin>, null, <primal:slag>, <forgecraft:bronzeingotball>*4, 1100, 1200, 400,"bronzeingot");
+mods.forgecraft.NBTCrucible.addRecipe(<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustTin>, null, <primal:slag>, <forgecraft:bronzeingotball>*4, 1100, 1200, 400,"bronzedust4x");
+mods.forgecraft.NBTCrucible.addRecipe(<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetTin>, null, <primal:slag>, <forgecraft:bronzechunk>*4, 1100, 130, 200,"bronzenugget");
 
-mods.forgecraft.NBTCrucible.addRecipe(<materialpart:iron:scrapmetal>, null, null, null, null, <materialpart:iron:scrapmetal>, <forgecraft:wroughtironchunk>*4, 1400, 1200, 800,"scrapiron");
-mods.forgecraft.NBTCrucible.addRecipe(<materialpart:gold:scrapmetal>, null, null, null, null, <materialpart:gold:scrapmetal>, <minecraft:gold_nugget>*4, 1000, 800, 600,"scrapgold");
-mods.forgecraft.NBTCrucible.addRecipe(<materialpart:copper:scrapmetal>, null, null, null, null, <materialpart:copper:scrapmetal>, <railcraft:nugget:1>*4, 900, 800, 600,"scrapcopper");
-mods.forgecraft.NBTCrucible.addRecipe(<materialpart:tin:scrapmetal>, null, null, null, null, <materialpart:tin:scrapmetal>, <railcraft:nugget:2>*4, 300, 200, 80,"scraptin");
-mods.forgecraft.NBTCrucible.addRecipe(<materialpart:lead:scrapmetal>, null, null, null, null, <materialpart:lead:scrapmetal>, <railcraft:nugget:3>*4, 400, 300, 160,"scraplead");
-mods.forgecraft.NBTCrucible.addRecipe(<materialpart:silver:scrapmetal>, null, null, null, null, <materialpart:silver:scrapmetal>, <railcraft:nugget:4>*4, 1000, 800, 600,"scrapsilver");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:copper_scrapmetal>, <contenttweaker:copper_scrapmetal>, <contenttweaker:copper_scrapmetal>, <contenttweaker:tin_scrapmetal>, null, <primal:slag>, <forgecraft:bronzechunk>*16, 1100, 900, 400,"bronzescrap");
+
+//Stupid recipe handler-_-
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:iron_scrapmetal>, null, null, null, null, <primal:slag>, <forgecraft:wroughtironchunk>*4, 1400, 300, 100,"scrapiron1");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:gold_scrapmetal>, null, null, null, null, <primal:slag>, <minecraft:gold_nugget>*4, 1000, 250, 100,"scrapgold1");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:copper_scrapmetal>, null, null, null, null, <primal:slag>, <railcraft:nugget:1>*4, 800, 200, 100,"scrapcopper1");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:tin_scrapmetal>, null, null, null, null, <primal:slag>, <railcraft:nugget:2>*4, 300, 100, 100,"scraptin1");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:lead_scrapmetal>, null, null, null, null, <primal:slag>, <railcraft:nugget:3>*4, 400, 100, 100,"scraplead1");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:silver_scrapmetal>, null, null, null, null, <primal:slag>, <railcraft:nugget:4>*4, 1000, 250, 100,"scrapsilver1");
+
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:iron_scrapmetal>, <contenttweaker:iron_scrapmetal>, null, null, null, <primal:slag>, <forgecraft:wroughtironchunk>*8, 1400, 600, 200,"scrapiron2");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:gold_scrapmetal>, <contenttweaker:gold_scrapmetal>, null, null, null, <primal:slag>, <minecraft:gold_nugget>*8, 1000, 500, 200,"scrapgold2");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:copper_scrapmetal>, <contenttweaker:copper_scrapmetal>, null, null, null, <primal:slag>, <railcraft:nugget:1>*8, 800, 400, 200,"scrapcopper2");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:tin_scrapmetal>, <contenttweaker:tin_scrapmetal>, null, null, null, <primal:slag>, <railcraft:nugget:2>*8, 300, 200, 200,"scraptin2");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:lead_scrapmetal>, <contenttweaker:lead_scrapmetal>, null, null, null, <primal:slag>, <railcraft:nugget:3>*8, 400, 200, 200,"scraplead2");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:silver_scrapmetal>, <contenttweaker:silver_scrapmetal>, null, null, null, <primal:slag>, <railcraft:nugget:4>*8, 1000, 500, 200,"scrapsilver2");
+
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:iron_scrapmetal>, <contenttweaker:iron_scrapmetal>, <contenttweaker:iron_scrapmetal>, null, null, <primal:slag>, <forgecraft:wroughtironchunk>*12, 1400, 900, 300,"scrapiron3");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:gold_scrapmetal>, <contenttweaker:gold_scrapmetal>, <contenttweaker:gold_scrapmetal>, null, null, <primal:slag>, <minecraft:gold_nugget>*12, 1000, 750, 300,"scrapgold3");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:copper_scrapmetal>, <contenttweaker:copper_scrapmetal>, <contenttweaker:copper_scrapmetal>, null, null, <primal:slag>, <railcraft:nugget:1>*12, 800, 600, 300,"scrapcopper3");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:tin_scrapmetal>, <contenttweaker:tin_scrapmetal>, <contenttweaker:tin_scrapmetal>, null, null, <primal:slag>, <railcraft:nugget:2>*12, 300, 300, 300,"scraptin3");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:lead_scrapmetal>, <contenttweaker:lead_scrapmetal>, <contenttweaker:lead_scrapmetal>, null, null, <primal:slag>, <railcraft:nugget:3>*12, 400, 300, 300,"scraplead3");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:silver_scrapmetal>, <contenttweaker:silver_scrapmetal>, <contenttweaker:silver_scrapmetal>, null, null, <primal:slag>, <railcraft:nugget:4>*12, 1000, 750, 300,"scrapsilver3");
+
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:iron_scrapmetal>, <contenttweaker:iron_scrapmetal>, <contenttweaker:iron_scrapmetal>, <contenttweaker:iron_scrapmetal>, null, <primal:slag>, <forgecraft:wroughtironchunk>*16, 1400, 1200, 400,"scrapiron4");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:gold_scrapmetal>, <contenttweaker:gold_scrapmetal>, <contenttweaker:gold_scrapmetal>, <contenttweaker:gold_scrapmetal>, null, <primal:slag>, <minecraft:gold_nugget>*16, 1000, 1000, 400,"scrapgold4");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:copper_scrapmetal>, <contenttweaker:copper_scrapmetal>, <contenttweaker:copper_scrapmetal>, <contenttweaker:copper_scrapmetal>, null, <primal:slag>, <railcraft:nugget:1>*16, 800, 900, 400,"scrapcopper4");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:tin_scrapmetal>, <contenttweaker:tin_scrapmetal>, <contenttweaker:tin_scrapmetal>, <contenttweaker:tin_scrapmetal>, null, <primal:slag>, <railcraft:nugget:2>*16, 300, 400, 400,"scraptin4");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:lead_scrapmetal>, <contenttweaker:lead_scrapmetal>, <contenttweaker:lead_scrapmetal>, <contenttweaker:lead_scrapmetal>, null, <primal:slag>, <railcraft:nugget:3>*16, 400, 400, 400,"scraplead4");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:silver_scrapmetal>, <contenttweaker:silver_scrapmetal>, <contenttweaker:silver_scrapmetal>, <contenttweaker:silver_scrapmetal>, null, <primal:slag>, <railcraft:nugget:4>*16, 1000, 1000, 400,"scrapsilver4");
+
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:iron_scrapmetal>, <contenttweaker:iron_scrapmetal>, <contenttweaker:iron_scrapmetal>, <contenttweaker:iron_scrapmetal>, <contenttweaker:iron_scrapmetal>, <primal:slag>, <forgecraft:wroughtironchunk>*20, 1400, 1500, 500,"scrapiron5");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:gold_scrapmetal>, <contenttweaker:gold_scrapmetal>, <contenttweaker:gold_scrapmetal>, <contenttweaker:gold_scrapmetal>, <contenttweaker:gold_scrapmetal>, <primal:slag>, <minecraft:gold_nugget>*20, 1000, 1250, 500,"scrapgold5");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:copper_scrapmetal>, <contenttweaker:copper_scrapmetal>, <contenttweaker:copper_scrapmetal>, <contenttweaker:copper_scrapmetal>, <contenttweaker:copper_scrapmetal>, <primal:slag>, <railcraft:nugget:1>*20, 800, 1000, 500,"scrapcopper5");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:tin_scrapmetal>, <contenttweaker:tin_scrapmetal>, <contenttweaker:tin_scrapmetal>, <contenttweaker:tin_scrapmetal>, <contenttweaker:tin_scrapmetal>, <primal:slag>, <railcraft:nugget:2>*20, 300, 500, 500,"scraptin5");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:lead_scrapmetal>, <contenttweaker:lead_scrapmetal>, <contenttweaker:lead_scrapmetal>, <contenttweaker:lead_scrapmetal>, <contenttweaker:lead_scrapmetal>, <primal:slag>, <railcraft:nugget:3>*20, 400, 500, 500,"scraplead5");
+mods.forgecraft.NBTCrucible.addRecipe(<contenttweaker:silver_scrapmetal>, <contenttweaker:silver_scrapmetal>, <contenttweaker:silver_scrapmetal>, <contenttweaker:silver_scrapmetal>, <contenttweaker:silver_scrapmetal>, <primal:slag>, <railcraft:nugget:4>*20, 1000, 1250, 500,"scrapsilver5");
 
 mods.forgecraft.NBTCrucible.addRecipe(<forgecraft:brokenbronzetool>, null, null, null, null, <forgecraft:brokenbronzetool>, <forgecraft:bronzechunk>*2, 1100, 300, 200,"bronzerecycle");
 mods.forgecraft.NBTCrucible.addRecipe(<forgecraft:brokenwroughtirontool>, null, null, null, null, <forgecraft:brokenwroughtirontool>, <forgecraft:wroughtironchunk>*2, 1250, 300, 200,"ironrecycle");
 mods.forgecraft.NBTCrucible.addRecipe(<forgecraft:brokencleanirontool>, null, null, null, null, <forgecraft:brokencleanirontool>, <forgecraft:ironcleanchunk>*2, 1550, 300, 200,"ironpurerecycle");
 mods.forgecraft.NBTCrucible.addRecipe(<forgecraft:brokensteeltool>, null, null, null, null, <forgecraft:brokensteeltool>, <forgecraft:steelchunk>*2, 2100, 400, 300,"steelrecycle");
-mods.forgecraft.NBTCrucible.addRecipe(<forgecraft:brokenwootztool>, null, null, null, null, <forgecraft:brokenwootztool>, <forgecraft:wootzchunk>*2, 2100, 400, 300,"wootzrecycle");
+mods.forgecraft.NBTCrucible.addRecipe(<forgecraft:brokenwootztool>, null, null, null, null, <forgecraft:brokenwootztool>, <forgecraft:wootzchunk>*2, 3100, 400, 300,"wootzrecycle");
 
 //Scrap advanced processing
 mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:iron_nugget>*5, <materialpart:iron:scrapmetal>, 500);

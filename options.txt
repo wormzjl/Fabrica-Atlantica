@@ -2,7 +2,7 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
-gamma:1.0
+gamma:1.04
 saturation:0.0
 renderDistance:14
 guiScale:2
@@ -92,6 +92,14 @@ key_Side Inventory Key:0
 key_Hub Expand Key:0
 key_keybind.railcraft.cart.bed:208
 key_quark.keybind.toggleAutojump:48
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:44
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
+key_quark.keybind.playerSort:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -110,20 +118,11 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:44
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
-key_quark.keybind.playerSort:0
 key_quark.keybind.lockBuilding:37
 key_autoverse.key.togglemode:35
-key_key.nhc.toggle:34
 key_key.ftbguides.guide:0
 key_key.ftbutilities.nbt:49:ALT
-key_key.ftbutilities.trash:211
+key_key.ftbutilities.trash:0
 key_key.ftbquests.quests:0
 key_Gravi Fly Key:33
 key_pneumaticcraft.armor.options:22
@@ -182,6 +181,7 @@ key_key.flyup:200
 key_key.flydown:208
 key_key.startflying:57
 key_key.startlanding:14
+key_Dive down:46
 key_mod.chiselsandbits.chiselmode.single:0
 key_mod.chiselsandbits.chiselmode.snap2:0
 key_mod.chiselsandbits.chiselmode.snap4:0

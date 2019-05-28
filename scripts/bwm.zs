@@ -35,7 +35,7 @@ mods.betterwithmods.Mill.addRecipe([<primal:salt_dust_fire>],[<betterwithmods:ma
 
 //crafting recipes
 recipes.remove(<betterwithmods:single_machine>);
-recipes.addShaped(<betterwithmods:single_machine>, [[<ore:stone>, <ore:gearBronze>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
+recipes.addShaped(<betterwithmods:single_machine>, [[<ore:stone>, <betterwithmods:material:34>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
 
 recipes.remove(<betterwithmods:hand_crank>);
 recipes.addShaped(<betterwithmods:hand_crank>, [[null, null, <ore:nuggetIron>], [null, <ore:stickWood>, null], [<ore:cobblestone>, <ore:gearWood>, <ore:cobblestone>]]);

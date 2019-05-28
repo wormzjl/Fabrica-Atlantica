@@ -95,7 +95,6 @@ mods.magneticraft.Wrench.addWrench(<ic2:electric_wrench>);
 mods.magneticraft.Wrench.addWrench(<quacklib:wrench>);
 mods.magneticraft.Wrench.addWrench(<rockhounding_core:mod_wrench>);
 mods.magneticraft.Wrench.addWrench(<immersiveengineering:tool>);
-mods.magneticraft.Wrench.addWrench(<tow:wrench>);
 
 //Crushing table
 mods.magneticraft.CrushingTable.removeRecipe(<minecraft:iron_ore>);

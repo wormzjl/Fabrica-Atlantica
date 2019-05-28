@@ -1,0 +1,12 @@
+[
+	{
+		"id": "primal",
+		"title": "PrimalCore",
+		"icon": "item:primal:smelter"
+	},
+	{
+		"id": "forgecraft",
+		"title": "Kitsu's Forgecraft",
+		"icon": "item:forgecraft:bloomery_brick"
+	}
+]

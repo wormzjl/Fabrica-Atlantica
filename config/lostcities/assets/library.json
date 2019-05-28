@@ -199,20 +199,12 @@
         "char": "F",
         "blocks": [
           {
-            "random": 25,
-            "block": "minecraft:furnace"
-          },
-          {
             "random": 20,
             "block": "minecraft:crafting_table"
           },
           {
-            "random": 7,
+            "random": 5,
             "block": "minecraft:brewing_stand"
-          },
-          {
-            "random": 6,
-            "block": "minecraft:anvil"
           },
           {
             "random": 5,
