@@ -1,5 +1,4 @@
 mods.jei.JEI.removeAndHide(<primal:fish_trap:*>);
-mods.jei.JEI.removeAndHide(<primal:logs_stacked:*>);
 mods.jei.JEI.removeAndHide(<primal:storage_crate:*>);
 mods.jei.JEI.removeAndHide(<primal:worktable_slab:*>);
 mods.jei.JEI.removeAndHide(<primal:worktable_shelf:*>);

@@ -4,7 +4,7 @@ recipes.addShapeless(<minecraft:iron_ingot>,[<forgecraft:ironingotball:*>]);
 
 mods.forgecraft.NBTCrucible.removeAll();
 
-mods.forgecraft.NBTCrucible.addRecipe(<ore:dustIron>, null, null, null, null, <ic2:dust:8>, <forgecraft:wroughtironchunk>, 1400, 300, 400,"irondust");
+mods.forgecraft.NBTCrucible.addRecipe(<ore:dustIron>, null, null, null, null, <ic2:dust:8>, <forgecraft:ironingotball>, 1400, 300, 400,"irondust");
 mods.forgecraft.NBTCrucible.addRecipe(<ore:dustIron>, <ore:slackLime>, null, null, null, <minecraft:iron_ingot>, <forgecraft:ironcleaningotball>, 1550, 1200, 400,"ironpure");
 mods.forgecraft.NBTCrucible.addRecipe(<ore:ingotSteel>, <ore:dustCarbon>, <ore:ingotSteel>, <ore:dustCarbon>, <ore:ingotSteel>, <railcraft:ingot>*3, <forgecraft:wootzingotball>, 3100, 1800, 1000,"wootz");
 mods.forgecraft.NBTCrucible.addRecipe(<betterwithmods:material:14>, <ore:dustCarbon>, <betterwithmods:material:14>, <ore:dustCarbon>, <betterwithmods:material:14>, <betterwithmods:material:14>*3, <forgecraft:wootzingotball>, 3100, 1800, 1000,"wootzplus");
