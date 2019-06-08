@@ -143,6 +143,8 @@ mods.primal.Smelter.removeRecipe("dust_void");
 
 mods.primal.Smelter.addRecipe("Crude_iron", 15, [<materialpart:iron:scrapmetal>, <ore:fluxSmelting>, <minecraft:coal:1>], [<primal:crude_iron_nugget>*3, <primal:slag>]);
 
+mods.primal.Hibachi.removeRecipe("ic2_sticky_resin");
+
 //Recipes
 recipes.addShapeless(<minecraft:flint_and_steel>, [<primal:crude_iron_ingot>, <minecraft:flint>]);
 

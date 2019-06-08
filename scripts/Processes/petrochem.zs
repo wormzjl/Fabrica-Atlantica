@@ -48,16 +48,19 @@ mods.rockhounding_chemistry.StirredTank.add(<liquid:natural_gas_sour_humid>*1000
 
 //Hydrotreating, need to make input a "gas"
 mods.rockhounding_chemistry.GasCondenser.add(<liquid:naphtha_vapour>*100, <liquid:naphtha>*100);
-mods.rockhounding_chemistry.GasReformer.add(<liquid:naphtha_vapour>*200, <liquid:hydrogen>*20, <liquid:naphtha_desulfurized>*200, <rockhounding_chemistry:mo_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("Naphtha Desulfurization", <liquid:water_vapour>*100, <liquid:oxygen>*150, <liquid:syngas>*110, <minecraft:diamond_sword>);
+
+
+mods.rockhounding_chemistry.GasReformer.add("Naphtha Desulfurization", <liquid:naphtha_vapour>*200, <liquid:hydrogen>*20, <liquid:naphtha_desulfurized>*200, <rockhounding_chemistry:mo_catalyst>);
 
 mods.rockhounding_chemistry.GasCondenser.add(<liquid:kerosene_vapour>*100, <liquid:kerosene>*100);
-mods.rockhounding_chemistry.GasReformer.add(<liquid:kerosene_vapour>*200, <liquid:hydrogen>*20, <liquid:kerosene_desulfurized>*200, <rockhounding_chemistry:mo_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("Kerosene Desulfurization", <liquid:kerosene_vapour>*200, <liquid:hydrogen>*20, <liquid:kerosene_desulfurized>*200, <rockhounding_chemistry:mo_catalyst>);
 
 mods.rockhounding_chemistry.GasCondenser.add(<liquid:gas_oil_vapour>*100, <liquid:gas_oil>*100);
-mods.rockhounding_chemistry.GasReformer.add(<liquid:gas_oil_vapour>*200, <liquid:hydrogen>*20, <liquid:gas_oil_desulfurized>*200, <rockhounding_chemistry:mo_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("Gas Oil Desulfurization", <liquid:gas_oil_vapour>*200, <liquid:hydrogen>*20, <liquid:gas_oil_desulfurized>*200, <rockhounding_chemistry:mo_catalyst>);
 
 mods.rockhounding_chemistry.GasCondenser.add(<liquid:vgo_vapour>*100, <liquid:vgo>*100);
-mods.rockhounding_chemistry.GasReformer.add(<liquid:vgo_vapour>*200, <liquid:hydrogen>*20, <liquid:vgo_desulfurized>*200, <rockhounding_chemistry:mo_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("VGO Desulfurization", <liquid:vgo_vapour>*200, <liquid:hydrogen>*20, <liquid:vgo_desulfurized>*200, <rockhounding_chemistry:mo_catalyst>);
 
 
 //Lubricant
@@ -100,15 +103,15 @@ mods.immersivepetroleum.Distillation.addRecipe([<liquid:pygas> * 200, <liquid:di
 
 
 //Hydrocracking
-mods.rockhounding_chemistry.GasReformer.add(<liquid:gas_oil_vapour>*100, <liquid:hydrogen>*25, <liquid:gas_oil_hydrocracked>*100, <rockhounding_chemistry:ni_catalyst>);
-mods.rockhounding_chemistry.GasReformer.add(<liquid:vgo_vapour>*100, <liquid:hydrogen>*25, <liquid:vgo_hydrocracked>*100, <rockhounding_chemistry:ni_catalyst> );
+mods.rockhounding_chemistry.GasReformer.add("Gas Oil Hydrocracking", <liquid:gas_oil_vapour>*100, <liquid:hydrogen>*25, <liquid:gas_oil_hydrocracked>*100, <rockhounding_chemistry:ni_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("VGO Hydrocracking", <liquid:vgo_vapour>*100, <liquid:hydrogen>*25, <liquid:vgo_hydrocracked>*100, <rockhounding_chemistry:ni_catalyst> );
 
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:diesel> * 900, <liquid:acid_gas> * 50, <liquid:fuel_gas_raw> * 50], [<immersiveengineering:material:6>], <liquid:gas_oil_hydrocracked> * 1000, 128, 256, [0.0]);
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:diesel> * 800, <liquid:acid_gas> * 100, <liquid:fuel_gas_raw> * 100], [<immersiveengineering:material:6>], <liquid:vgo_hydrocracked> * 1000, 128, 256, [0.0]);
 
 //FCC
-mods.rockhounding_chemistry.GasReformer.add(<liquid:vgo_desulfurized>*100, <liquid:water_vapour>*100, <liquid:vgo_fcc>*100, <rockhounding_chemistry:ze_catalyst>);
-mods.rockhounding_chemistry.GasReformer.add(<liquid:gas_oil_desulfurized>*100, <liquid:water_vapour>*100, <liquid:gas_oil_fcc>*100, <rockhounding_chemistry:ze_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("VGO Catalytic Cracking", <liquid:vgo_desulfurized>*100, <liquid:water_vapour>*100, <liquid:vgo_fcc>*100, <rockhounding_chemistry:ze_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("Gas Oil Catalytic Cracking", <liquid:gas_oil_desulfurized>*100, <liquid:water_vapour>*100, <liquid:gas_oil_fcc>*100, <rockhounding_chemistry:ze_catalyst>);
 
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:naphtha_desulfurized> * 100, <liquid:gasoline> * 900, <liquid:fuel_gas_raw> * 50], [<immersiveengineering:material:6>], <liquid:vgo_fcc> * 1000, 128, 256, [0.0]);
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:naphtha_desulfurized> * 200, <liquid:gasoline> * 800, <liquid:fuel_gas_raw> * 50], [<immersiveengineering:material:6>], <liquid:gas_oil_fcc> * 1000, 128, 256, [0.0]);
@@ -127,11 +130,11 @@ mods.ic2.HeatExchanger.addFluidCoolDown(<liquid:vgo_cracked>, <liquid:vgo_cracke
 
 
 //Reforming
-mods.rockhounding_chemistry.GasReformer.add(<liquid:propane>*200, <liquid:water_vapour>*200, <liquid:isopropane>*200, <rockhounding_chemistry:nl_catalyst>);
-mods.rockhounding_chemistry.GasReformer.add(<liquid:butane>*200, <liquid:water_vapour>*200, <liquid:isobutane>*200, <rockhounding_chemistry:nl_catalyst>);
-mods.rockhounding_chemistry.GasReformer.add(<liquid:naphtha_desulfurized>*200, <liquid:hydrogen>*40, <liquid:naphtha_reformed>*200, <rockhounding_chemistry:pt_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("Propane Isomerisation", <liquid:propane>*200, <liquid:water_vapour>*200, <liquid:isopropane>*200, <rockhounding_chemistry:nl_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("Butane Isomerisation", <liquid:butane>*200, <liquid:water_vapour>*200, <liquid:isobutane>*200, <rockhounding_chemistry:nl_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("Naphtha Reforming", <liquid:naphtha_desulfurized>*200, <liquid:hydrogen>*40, <liquid:naphtha_reformed>*200, <rockhounding_chemistry:pt_catalyst>);
 
-mods.rockhounding_chemistry.GasReformer.add(<liquid:butane>*200, <liquid:water_vapour>*800, <liquid:butadiene>*200, <rockhounding_chemistry:va_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("Butadiene Synthesis", <liquid:butane>*200, <liquid:water_vapour>*800, <liquid:butadiene>*200, <rockhounding_chemistry:va_catalyst>);
 
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:pygas> * 150, <liquid:gasoline> * 800, <liquid:hydrogen> * 50], [<immersiveengineering:material:6>], <liquid:naphtha_reformed> * 1000, 128, 256, [0.0]);
 
@@ -170,33 +173,33 @@ mods.rockhounding_chemistry.GasReformer.removeByOutput(<liquid:ammonia>);
 mods.rockhounding_chemistry.GasReformer.removeByOutput(<liquid:hydrogen>);
 mods.rockhounding_chemistry.GasReformer.removeByOutput(<liquid:methanol>);
 
-mods.rockhounding_chemistry.GasReformer.add(<liquid:syngas>*200, <liquid:water_vapour>*400, <liquid:wgsproduct>*200, <rockhounding_chemistry:fe_catalyst>);
-mods.rockhounding_chemistry.GasReformer.add(<liquid:wgsproduct>*600, <liquid:nitrogen>*100, <liquid:ammonia>*200, <rockhounding_chemistry:fe_catalyst>);
-mods.rockhounding_chemistry.GasReformer.add(<liquid:hydrogen>*300, <liquid:nitrogen>*100, <liquid:ammonia>*200, <rockhounding_chemistry:fe_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("Water-Gas Shifting", <liquid:syngas>*200, <liquid:water_vapour>*400, <liquid:wgsproduct>*200, <rockhounding_chemistry:fe_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("Ammonia Synthesis (direct)", <liquid:wgsproduct>*600, <liquid:nitrogen>*100, <liquid:ammonia>*200, <rockhounding_chemistry:fe_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("Ammonia Synthesis (H2+N2)", <liquid:hydrogen>*300, <liquid:nitrogen>*100, <liquid:ammonia>*200, <rockhounding_chemistry:fe_catalyst>);
 
 mods.magneticraft.Refinery.addRecipe(<liquid:wgsproduct> * 100, <liquid:carbon_dioxide>*50, <liquid:hydrogen>*50, null, 100);
 mods.magneticraft.Refinery.addRecipe(<liquid:syngas> * 100, <liquid:carbon_dioxide>*15, <liquid:carbon_monoxide>*55, <liquid:hydrogen>*30, 100);
 mods.magneticraft.Refinery.addRecipe(<liquid:syngas_hot> * 100, <liquid:carbon_dioxide>*15, <liquid:carbon_monoxide>*55, <liquid:hydrogen>*30, 100);
 
-mods.rockhounding_chemistry.GasReformer.add(<liquid:syngas>*100, <liquid:water_vapour>*200, <liquid:ftproduct>*100, <rockhounding_chemistry:co_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("Fischer-Trophsch Synthesis", <liquid:syngas>*100, <liquid:water_vapour>*200, <liquid:ftproduct>*100, <rockhounding_chemistry:co_catalyst>);
 mods.magneticraft.Refinery.addRecipe(<liquid:ftproduct> * 100, <liquid:diesel>*80, <liquid:fuel_gas_raw>*20, null, 10);
 
-mods.rockhounding_chemistry.GasReformer.add(<liquid:syngas>*300, <liquid:water_vapour>*300, <liquid:methanol>*100, <rockhounding_chemistry:zn_catalyst>);
-mods.rockhounding_chemistry.GasReformer.add(<liquid:carbon_monoxide>*100, <liquid:hydrogen>*200, <liquid:methanol>*100, <rockhounding_chemistry:zn_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("Methanol Synthesis (Syngas)", <liquid:syngas>*300, <liquid:water_vapour>*300, <liquid:methanol>*100, <rockhounding_chemistry:zn_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("Methanol Synthesis (CO+H2)", <liquid:carbon_monoxide>*100, <liquid:hydrogen>*200, <liquid:methanol>*100, <rockhounding_chemistry:zn_catalyst>);
 
 
 //Plastics
 mods.pneumaticcraft.thermopneumaticprocessingplant.addRecipe(<liquid:ethene>*200, null, 3.0, 473, <liquid:plastic> * 50);
 mods.pneumaticcraft.thermopneumaticprocessingplant.addRecipe(<liquid:propene>*200, null, 3.0, 473, <liquid:plastic> * 65);
 
-mods.rockhounding_chemistry.GasReformer.add(<liquid:propene>*200, <liquid:water_vapour>*100, <liquid:plastic>*75, <rockhounding_chemistry:wg_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("Polypropylene", <liquid:propene>*200, <liquid:water_vapour>*100, <liquid:plastic>*75, <rockhounding_chemistry:wg_catalyst>);
 
 mods.nuclearcraft.chemical_reactor.addRecipe([<liquid:toluene>*100, <liquid:hydrogen>*100, <liquid:benzene>*100, null]);
 
 mods.rockhounding_chemistry.GasCondenser.add(<liquid:benzene_vapour>*100, <liquid:benzene>*100);
-mods.rockhounding_chemistry.GasReformer.add(<liquid:benzene_vapour>*200, <liquid:ethene>*200, <liquid:ethylbenzene>*200, <rockhounding_chemistry:ze_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("Ethylbenzene Synthesis", <liquid:benzene_vapour>*200, <liquid:ethene>*200, <liquid:ethylbenzene>*200, <rockhounding_chemistry:ze_catalyst>);
 
-mods.rockhounding_chemistry.GasReformer.add(<liquid:benzene_vapour>*200, <liquid:propene>*200, <liquid:cumene>*200, <rockhounding_chemistry:ze_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("Cumene Process", <liquid:benzene_vapour>*200, <liquid:propene>*200, <liquid:cumene>*200, <rockhounding_chemistry:ze_catalyst>);
 mods.pneumaticcraft.refinery.addRecipe(<liquid:cumene> * 10, [<liquid:phenol> * 5, <liquid:acetone> * 5]);
 
 mods.rockhounding_chemistry.Precipitator.add("Diaminotoluene", <contenttweaker:dinitrotoluene>, <rockhounding_chemistry:ni_catalyst>, <liquid:hydrogen>*1000, <liquid:toxic_waste>*100, <contenttweaker:diaminotoluene>);
@@ -218,14 +221,14 @@ mods.nuclearcraft.chemical_reactor.addRecipe([<liquid:fumingsulfuricacid>*500, <
 mods.nuclearcraft.chemical_reactor.addRecipe([<liquid:hydrogen>*100, <liquid:chlorine>*100, <liquid:hydrochloric_acid>*200, null]);
 
 mods.rockhounding_chemistry.GasReformer.removeByOutput(<liquid:nitric_acid>*15);
-mods.rockhounding_chemistry.GasReformer.add(<liquid:ammonia>*200, <liquid:oxygen>*300, <liquid:nitric_acid>*150, <rockhounding_chemistry:pt_catalyst>);
+mods.rockhounding_chemistry.GasReformer.add("Nitric Acid Synthesis", <liquid:ammonia>*200, <liquid:oxygen>*300, <liquid:nitric_acid>*150, <rockhounding_chemistry:pt_catalyst>);
 
 
 //Tester
 
-mods.rockhounding_chemistry.GasifierPlant.add(<liquid:biomass>*2000, <liquid:water>*1000, <liquid:raw_syngas>*1000, <rockhounding_chemistry:chemical_items:2>, null, 900);
+//mods.rockhounding_chemistry.GasifierPlant.add(<liquid:biomass>*2000, <liquid:water>*1000, <liquid:raw_syngas>*1000, <rockhounding_chemistry:chemical_items:2>, null, 900);
 
 //mods.rockhounding_chemistry.StirredTank.removeByOutput(<liquid:chloromethane>);
-mods.rockhounding_chemistry.StirredTank.add(<liquid:hydrochloric_acid>*500, <liquid:methanol>*1000, <liquid:chloromethane>*1000, <liquid:hydrogen>*500, 5);
+//mods.rockhounding_chemistry.StirredTank.add(<liquid:hydrochloric_acid>*500, <liquid:methanol>*1000, <liquid:chloromethane>*1000, <liquid:hydrogen>*500, 5);
 
 

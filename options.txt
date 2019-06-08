@@ -2,7 +2,7 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
-gamma:1.04
+gamma:1.0
 saturation:0.0
 renderDistance:14
 guiScale:2
@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:0
+difficulty:2
 fancyGraphics:false
 ao:2
 renderClouds:false
@@ -91,7 +91,6 @@ key_Mode Switch Key:50
 key_Side Inventory Key:0
 key_Hub Expand Key:0
 key_keybind.railcraft.cart.bed:208
-key_quark.keybind.toggleAutojump:48
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -119,6 +118,7 @@ key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
 key_quark.keybind.lockBuilding:37
+key_quark.keybind.toggleAutojump:48
 key_autoverse.key.togglemode:35
 key_key.ftbguides.guide:0
 key_key.ftbutilities.nbt:49:ALT

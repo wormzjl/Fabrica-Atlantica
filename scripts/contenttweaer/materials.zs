@@ -47,7 +47,7 @@ for i, mineral in mineral_list {
     var oredictHigh = "oredict:ore_high" + mineral_names[i] as string;
     var oredictLow = "oredict:ore_low" + mineral_names[i] as string;
     
-    poorTable += DropTableBuilder.newSlot().addItem(oredictHigh).addItem("empty").newSlot().addItem(oredictLow).addItem("empty").addItem("empty").newSlot().addItem("minecraft:cobblestone");
+    poorTable += DropTableBuilder.newSlot().addItem(oredictHigh).addItem("empty").newSlot().addItem(oredictLow).addItem("empty").addItem("empty").newSlot().addItem("minecraft:cobblestone").newSlot().addItem("railcraft:dust:1").addItem("empty").addItem("empty");
     normalTable += DropTableBuilder.newSlot().addItem(oredictHigh).newSlot().addItem(oredictLow).addItem("empty").newSlot().addItem("minecraft:cobblestone");
     denseTable += DropTableBuilder.newSlot().addItem(oredictHigh, 1, 2).newSlot().addItem(oredictLow).newSlot().addItem("minecraft:cobblestone");
 }

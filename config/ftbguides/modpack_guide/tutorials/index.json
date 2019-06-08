@@ -1,5 +1,10 @@
 [
 	{
+		"id": "tutorials",
+		"title": "Tutorials and wikis index",
+		"icon": "item:minecraft:stone"
+	},
+	{
 		"id": "primal",
 		"title": "PrimalCore",
 		"icon": "item:primal:smelter"

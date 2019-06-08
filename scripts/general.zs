@@ -46,6 +46,10 @@ recipes.addShaped(<waterstrainer:strainer_survivalist_solid>*2, [[<ore:ingotIron
 recipes.remove(<waterstrainer:strainer_survivalist_dense_solid>);
 recipes.addShaped(<waterstrainer:strainer_survivalist_dense_solid>*2, [[<ore:ingotIron>, <minecraft:iron_bars:*>, <ore:ingotIron>], [<minecraft:iron_bars:*>, <waterstrainer:net:1>, <minecraft:iron_bars:*>], [<ore:ingotIron>, <minecraft:iron_bars:*>, <ore:ingotIron>]]);
 
+//Bedrock ore
+recipes.remove(<bedrockores:bedrock_miner>);
+recipes.addShaped(<bedrockores:bedrock_miner>, [[<ore:plateSteel>, <minecraft:dropper>, <ore:plateSteel>], [<ore:blockRedstone>, <minecraft:piston>, <ore:blockRedstone>], [<ore:obsidian>, <ore:gemDiamond>, <ore:obsidian>]]);
+
 
 //Iron chests
 mods.jei.JEI.removeAndHide(<ironchest:iron_shulker_box_white:*>);
@@ -207,4 +211,3 @@ recipes.addShaped(<autoverse:pipe> * 4, [[<ore:ingotSteel>, <minecraft:cobblesto
 recipes.addShaped(<autoverse:pipe:1> * 4, [[<ore:ingotSteel>, <minecraft:hopper>, <ore:ingotSteel>], [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 recipes.addShaped(<autoverse:pipe:2> * 4, [[<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>], [<ore:blockGlass>, <ore:blockGlass>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 recipes.addShaped(<autoverse:pipe:3> * 4, [[<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>], [<ore:blockGlass>, <minecraft:comparator>, <ore:blockGlass>], [<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>]]);
-
