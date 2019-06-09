@@ -11,6 +11,9 @@ mods.jei.JEI.removeAndHide(<appliedenergistics2:material:40>);
 mods.jei.JEI.removeAndHide(<minecraft:ender_chest>);
 mods.jei.JEI.removeAndHide(<translocators:diamond_nugget>);
 
+recipes.addShaped(<contenttweaker:grassseed>, [[<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>], [<minecraft:dye:15>, <minecraft:wheat_seeds>, <minecraft:dye:15>], [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>]]);
+<contenttweaker:grassseed>.addTooltip("Use this on dirt to get a grass block!");
+
 //Gated recipes
 //Crafting table
 //recipes.remove(<minecraft:crafting_table>);

@@ -2,10 +2,23 @@
   {
     "minheight": 64,
     "mob": ["Squid"],
+    "onjoin":true,
     "result": "deny"
   },
   {
     "mob": ["Bat"],
+    "onjoin":true,
+    "result": "deny"
+  },
+  {
+    "hostile": true,
+    "insphere": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "minheight": 64,
+    "hostile": true,
     "result": "deny"
   }
 ]

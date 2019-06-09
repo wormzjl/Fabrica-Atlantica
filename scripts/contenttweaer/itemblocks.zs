@@ -1,7 +1,25 @@
 #loader contenttweaker
 
 import mods.contenttweaker.VanillaFactory;
+import mods.contenttweaker.ActionResult;
+import mods.contenttweaker.IItemUse;
 import mods.contenttweaker.Block;
+import mods.contenttweaker.BlockState;
+import mods.contenttweaker.World;
+
+//grass seed
+var grassseed = VanillaFactory.createItem("grassseed");
+grassseed.maxStackSize = 16;
+grassseed.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+    if (world.getBlockState(pos) == <block:minecraft:dirt>) {
+        world.setBlockState(<block:minecraft:grass>, pos);
+        player.getHeldItem(hand).shrink(1);
+        return ActionResult.success();
+    }
+    return ActionResult.pass();
+};
+grassseed.register();
+
 
 //blocks
 var alumina_block = VanillaFactory.createBlock("alumina_block", <blockmaterial:rock>);

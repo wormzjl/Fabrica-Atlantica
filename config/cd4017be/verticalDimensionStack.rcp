@@ -7,19 +7,19 @@ VERSION = 18;
 chunk_load_time = 30.0;
 !maximum time in seconds a chunk can be kept continously loaded via portal requests without a player, spawnarea or modded chunkloader nearby.
 !This is to prevent players from buiding exploit contraptions to keep chunks loaded indefinitely
-cont_load_time = 300.0;
+cont_load_time = 60.0;
 
 !set to true to disable creation of nether portals (through obsidian ignition)
 disable_nether_portal = true;
 
 !set these to true to disable vanilla ore-generation in overworld and nether. 
-disable_coal = false;
-disable_diamond = false;
-disable_emerald = false;
-disable_gold = false;
-disable_iron = false;
-disable_lapis = false;
-disable_redstone = false;
+disable_coal = true;
+disable_diamond = true;
+disable_emerald = true;
+disable_gold = true;
+disable_iron = true;
+disable_lapis = true;
+disable_redstone = true;
 disable_quartz = false;
 
 {	
@@ -70,7 +70,7 @@ INIT() {
 	
 	!custom block layers
 	!add("basicLayer", <dimId>, <blockstate>, [<startY>, <minY>, <maxY>, <endY>]#);
-	add("basicLayer", -1, "dimstack:bedrock@12", [118, 120, 121, 123]#); !put our fiery bedrock at nether celing just below the portal
+	!add("basicLayer", -1, "dimstack:bedrock@12", [118, 120, 121, 123]#); !put our fiery bedrock at nether celing just below the portal
 	
 	!remove the '!' in the following line to enable top half nether generation
 	!netherTop();
@@ -81,7 +81,7 @@ netherTop() {
 	Loc stoneNether = true, !should the top nether be out of stone instead of netherrack
 		fullSolid = false, !should the top nether be completely filled instead of giant cave terrain
 		stoneVariants = true, !should veins of dirt, gravel and stone variants be generated
-		overworldOres = true, !should overworld ores be generated
+		overworldOres = false, !should overworld ores be generated
 		netherOres = false, !should nether ores be generated
 		ceil = 256; !the ceiling height
 	

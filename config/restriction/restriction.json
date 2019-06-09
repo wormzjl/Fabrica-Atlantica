@@ -1,85 +1,67 @@
 {
   "entries": [
     {
-      "block": "minecraft:bed",
-      "meta": 0,
-      "ignoreMeta": true,
-      "restrictions": [
-        {
-          "type": "SEESKY",
-          "reverse": true,
-          "ignoreMeta": false
-        }
-      ]
-    },
-    {
-      "block": "minecraft:furnace",
-      "meta": 0,
-      "ignoreMeta": true,
-      "restrictions": [
-        {
-          "type": "CLOSEDROOM",
-          "reverse": false,
-          "size": 50,
-          "block": "minecraft:planks",
-          "meta": 0,
-          "ignoreMeta": true,
-          "amount": 40
-        }
-      ]
-    },
-    {
-      "block": "minecraft:brewing_stand",
-      "meta": 0,
-      "ignoreMeta": true,
+      "block": "immersiveengineering:metal_device0",
+      "meta": 5,
+      "ignoreMeta": false,
       "restrictions": [
         {
           "type": "DIMENSION",
-          "reverse": false,
+          "reverse": true,
           "ignoreMeta": false,
           "id": -1
         }
       ]
     },
     {
-      "block": "minecraft:enchanting_table",
-      "meta": 0,
+      "block": "ic2:te",
+      "meta": 32,
       "ignoreMeta": false,
       "restrictions": [
         {
-          "type": "NEARBYBLOCKS",
-          "reverse": false,
-          "size": 3,
-          "block": "minecraft:lapis_block",
-          "meta": 0,
-          "ignoreMeta": false,
-          "amount": 4
-        }
-      ]
-    },
-    {
-      "block": "minecraft:beacon",
-      "meta": 0,
-      "ignoreMeta": false,
-      "restrictions": [
-        {
-          "type": "EXPERIENCE",
-          "reverse": false,
-          "ignoreMeta": false,
-          "amount": 20
-        }
-      ]
-    },
-    {
-      "block": "minecraft:obsidian",
-      "meta": 0,
-      "ignoreMeta": false,
-      "restrictions": [
-        {
-          "type": "MINHEIGHT",
+          "type": "DIMENSION",
           "reverse": true,
           "ignoreMeta": false,
-          "amount": 16
+          "id": -1
+        }
+      ]
+    },
+    {
+      "block": "pneumaticcraft:vacuum_pump",
+      "meta": 0,
+      "ignoreMeta": false,
+      "restrictions": [
+        {
+          "type": "DIMENSION",
+          "reverse": true,
+          "ignoreMeta": false,
+          "id": -1
+        }
+      ]
+    },
+    {
+      "block": "rockhounding_chemistry:machines_e",
+      "meta": 2,
+      "ignoreMeta": false,
+      "restrictions": [
+        {
+          "type": "DIMENSION",
+          "reverse": true,
+          "ignoreMeta": false,
+          "id": -1
+        }
+      ]
+    },
+    {
+      "block": "rftools:builder",
+      "meta": 0,
+      "ignoreMeta": false,
+      "restrictions": [
+        {
+          "type": "DIMENSION",
+          "reverse": true,
+          "ignoreMeta": false,
+          "id": -1
         }
       ]
     }

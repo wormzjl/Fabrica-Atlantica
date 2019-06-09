@@ -8,13 +8,6 @@ recipes.remove(<forgecraft:stoneanvil>);
 recipes.addShaped(<forgecraft:stoneanvil>, [[<ore:ingotIron>], [<ore:stone>]]);
 
 
-//Scrap processing
-mods.primal.Smelter.addRecipe("Scrap_copper", 10, [<contenttweaker:scrap3>], [<materialpart:copper:scrapmetal>]);
-mods.primal.Cauldron.addRecipe("Used_battery", 5, <liquid:water> * 500, [<contenttweaker:scrap4>], [<materialpart:lead:scrapmetal>, <minecraft:redstone>]);
-mods.primal.Cauldron.addRecipe("Paint_cans", 5, <liquid:water> * 500, [<contenttweaker:scrap5>], [<materialpart:tin:scrapmetal>, <minecraft:dye:4>]);
-mods.primal.Cauldron.addRecipe("Sulfuric_acid", 5, <liquid:water> * 500, <liquid:sulfuric_acid> * 1000, [<primal:corypha_stalk:1>, <betterwithmods:material:26>], [<forestry:ash>]);
-mods.primal.Cauldron.addRecipe("Scrap_electronics", 15, <liquid:sulfuric_acid> * 200, <liquid:waste> * 200, [<contenttweaker:scrap1>], [<materialpart:gold:scrapmetal>, <minecraft:redstone>]);
-
 
 //Smelter
 mods.primal.Smelter.removeRecipe("ore_good_lithium");
@@ -140,6 +133,7 @@ mods.primal.Smelter.removeRecipe("ore_Magnesium");
 mods.primal.Smelter.removeRecipe("charcoal_stripped");
 mods.primal.Smelter.removeRecipe("dust_void");
 
+//Add charcoal variations
 mods.primal.Smelter.addRecipe("Crude_iron", 15, [<materialpart:iron:scrapmetal>, <ore:fluxSmelting>, <minecraft:coal:1>], [<primal:crude_iron_nugget>*3, <primal:slag>]);
 
 mods.primal.Hibachi.removeRecipe("ic2_sticky_resin");

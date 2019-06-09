@@ -1,180 +1,266 @@
-Brass
-	plateBrass
-	dustBrass
-	nuggetBrass
-	blockBrass
-	ingotBrass
-
-Lead
-	chunkLead
-	plateLead
-	gearLead
-	dustLead
-	nuggetLead
-	oreLead
-	blockLead
-	dustTinyLead
-	ingotLead
+Thorium
+	dustThorium
+	oreThorium
+	blockThorium
+	ingotThorium
 
 Coal
 	dustCoal
 
-Aluminum
-	chunkAluminum
-	plateAluminum
-	gearAluminum
-	dustAluminum
-	nuggetAluminum
-	oreAluminum
-	blockAluminum
-	dustTinyAluminum
-	ingotAluminum
+RedAlloy
+	ingotRedAlloy
 
-Stone
-	dustStone
+Cobalt
+	chunkCobalt
+	dustCobalt
+	nuggetCobalt
+	oreCobalt
+	blockCobalt
+	ingotCobalt
+
+Aluminium
+	stickAluminium
+	chunkAluminium
+	plateAluminium
+	rodAluminium
+	dustAluminium
+	nuggetAluminium
+	ingotAluminium
+
+Tin
+	chunkTin
+	stickTin
+	dustTinyTin
+	plateTin
+	rodTin
+	dustTin
+	nuggetTin
+	oreTin
+	gearTin
+	blockTin
+	ingotTin
+
+Boron
+	dustBoron
+	oreBoron
+	blockBoron
+	ingotBoron
 
 Nickel
+	stickNickel
 	chunkNickel
 	plateNickel
-	gearNickel
+	rodNickel
 	dustNickel
 	nuggetNickel
 	oreNickel
 	blockNickel
-	dustTinyNickel
 	ingotNickel
 
-Sulfur
-	dustSulfur
-
-Gold
-	chunkGold
-	plateGold
-	gearGold
-	dustGold
-	nuggetGold
-	oreGold
-	blockGold
-	dustTinyGold
-	ingotGold
-
 Invar
+	stickInvar
 	plateInvar
-	gearInvar
-	dustInvar
+	rodInvar
 	nuggetInvar
+	gearInvar
 	blockInvar
 	ingotInvar
 
-Salt
-	dustSalt
+Shibuichi
+	plateShibuichi
+	dustShibuichi
+	nuggetShibuichi
+	gearShibuichi
+	blockShibuichi
+	ingotShibuichi
 
-Iron
-	chunkIron
-	plateIron
-	gearIron
-	dustIron
-	nuggetIron
-	oreIron
-	blockIron
-	dustTinyIron
-	ingotIron
+Tungsten
+	stickTungsten
+	chunkTungsten
+	plateTungsten
+	rodTungsten
+	dustTungsten
+	nuggetTungsten
+	oreTungsten
+	blockTungsten
+	ingotTungsten
 
 Steel
+	stickSteel
 	chunkSteel
 	plateSteel
-	gearSteel
+	rodSteel
 	dustSteel
 	nuggetSteel
+	gearSteel
 	blockSteel
 	ingotSteel
 
+Lithium
+	dustTinyLithium
+	dustLithium
+	oreLithium
+	blockLithium
+	ingotLithium
+
+Graphite
+	dustGraphite
+	blockGraphite
+	ingotGraphite
+
+Zinc
+	stickZinc
+	chunkZinc
+	plateZinc
+	rodZinc
+	dustZinc
+	nuggetZinc
+	blockZinc
+	ingotZinc
+
+Stone
+	dustStone
+
+Electrum
+	plateElectrum
+	dustElectrum
+	nuggetElectrum
+	blockElectrum
+	ingotElectrum
+
+Iron
+	dustTinyIron
+	stickIron
+	chunkIron
+	plateIron
+	rodIron
+	dustIron
+	nuggetIron
+	oreIron
+	gearIron
+	blockIron
+	ingotIron
+
+Obsidian
+	dustObsidian
+
+Beryllium
+	dustBeryllium
+	blockBeryllium
+	ingotBeryllium
+
+Silver
+	dustTinySilver
+	stickSilver
+	chunkSilver
+	plateSilver
+	rodSilver
+	dustSilver
+	nuggetSilver
+	oreSilver
+	blockSilver
+	ingotSilver
+
+Zirconium
+	dustZirconium
+	blockZirconium
+	ingotZirconium
+
+Magnesium
+	dustMagnesium
+	oreMagnesium
+	blockMagnesium
+	ingotMagnesium
+
 Bronze
+	stickBronze
+	dustTinyBronze
 	plateBronze
-	gearBronze
+	rodBronze
 	dustBronze
 	nuggetBronze
+	gearBronze
 	blockBronze
-	dustTinyBronze
 	ingotBronze
 
 Iridium
+	stickIridium
 	plateIridium
-	gearIridium
 	dustIridium
 	nuggetIridium
 	oreIridium
 	blockIridium
 	ingotIridium
 
-Silver
-	chunkSilver
-	plateSilver
-	gearSilver
-	dustSilver
-	nuggetSilver
-	oreSilver
-	blockSilver
-	dustTinySilver
-	ingotSilver
-
-Copper
-	chunkCopper
-	plateCopper
-	gearCopper
-	dustCopper
-	nuggetCopper
-	oreCopper
-	blockCopper
-	dustTinyCopper
-	ingotCopper
-
-Obsidian
-	dustObsidian
-
-Electrum
-	plateElectrum
-	gearElectrum
-	dustElectrum
-	nuggetElectrum
-	blockElectrum
-	ingotElectrum
-
-Zinc
-	chunkZinc
-	plateZinc
-	dustZinc
-	nuggetZinc
-	blockZinc
-	dustTinyZinc
-	ingotZinc
-
-Uranium
-	plateUranium
-	dustUranium
-	nuggetUranium
-	oreUranium
-	blockUranium
-	ingotUranium
-
-Tin
-	chunkTin
-	plateTin
-	gearTin
-	dustTin
-	nuggetTin
-	oreTin
-	blockTin
-	dustTinyTin
-	ingotTin
+Brass
+	stickBrass
+	plateBrass
+	rodBrass
+	dustBrass
+	nuggetBrass
+	gearBrass
+	blockBrass
+	ingotBrass
 
 Platinum
 	platePlatinum
-	gearPlatinum
 	dustPlatinum
 	nuggetPlatinum
 	orePlatinum
 	blockPlatinum
-	dustTinyPlatinum
 	ingotPlatinum
+
+Titanium
+	stickTitanium
+	plateTitanium
+	rodTitanium
+	dustTitanium
+	nuggetTitanium
+	oreTitanium
+	gearTitanium
+	blockTitanium
+	ingotTitanium
+
+Sulfur
+	dustTinySulfur
+	dustSulfur
+	oreSulfur
+	blockSulfur
+
+Lead
+	dustTinyLead
+	stickLead
+	chunkLead
+	plateLead
+	rodLead
+	dustLead
+	nuggetLead
+	oreLead
+	blockLead
+	ingotLead
+
+Gold
+	dustTinyGold
+	stickGold
+	chunkGold
+	plateGold
+	rodGold
+	dustGold
+	nuggetGold
+	oreGold
+	blockGold
+	ingotGold
+
+Copper
+	dustTinyCopper
+	stickCopper
+	chunkCopper
+	plateCopper
+	rodCopper
+	dustCopper
+	nuggetCopper
+	oreCopper
+	gearCopper
+	blockCopper
+	ingotCopper
 

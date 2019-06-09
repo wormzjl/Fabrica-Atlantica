@@ -1,0 +1,2206 @@
+Neutron
+
+Fumingsulfuricnitricacid
+
+Uranium_233_fluoride_flibe
+
+Plutonium242
+	nuggetPlutonium242
+	blockPlutonium242
+	ingotPlutonium242
+
+Plutonium241
+	nuggetPlutonium241
+	ingotPlutonium241
+
+Tin_nak_hot
+
+Basic
+	circuitBasic
+	pinBasic
+	plateBasic
+	seedDryGrass, thatchingMaterialBasic
+
+Californium_250_fluoride_flibe
+
+Curium245Base
+	ingotCurium245Base
+
+Hydrated_gelatin
+
+SiliconNitride
+	dustSiliconNitride
+	nuggetSiliconNitride
+	blockSiliconNitride
+	ingotSiliconNitride
+
+Liquidrubber
+
+Uranium233Oxide
+	nuggetUranium233Oxide
+	ingotUranium233Oxide
+
+Scal
+	coinScal
+	plateScal
+	dustScal
+	nuggetScal
+	gearScal
+	blockScal
+	ingotScal
+
+Plutonium239
+	nuggetPlutonium239
+	ingotPlutonium239
+
+Plutonium238
+	nuggetPlutonium238
+	ingotPlutonium238
+
+Vacuum_residue
+
+Bef2
+
+Ic2pahoehoe_lava
+
+TitaniumAluminide
+	sheetTitaniumAluminide
+	stickTitaniumAluminide
+	plateTitaniumAluminide
+	dustTitaniumAluminide
+	nuggetTitaniumAluminide
+	gearTitaniumAluminide
+	blockTitaniumAluminide
+	ingotTitaniumAluminide
+
+Molten_nimonic
+
+Lpg
+
+Neptunium237Oxide
+	nuggetNeptunium237Oxide
+	ingotNeptunium237Oxide
+
+Ic2construction_foam
+
+ConductiveIron
+
+Fumingsulfuricacid
+
+Curium247Oxide
+	nuggetCurium247Oxide
+	ingotCurium247Oxide
+
+LithiumManganeseDioxide
+	ingotLithiumManganeseDioxide
+
+Boron_nitride_solution
+
+Whitegold
+	coinWhitegold
+	plateWhitegold
+	dustWhitegold
+	nuggetWhitegold
+	gearWhitegold
+	blockWhitegold
+	ingotWhitegold
+
+Emerald
+	pointEmerald
+	toolWorkBladeEmerald
+	toolHatchetEmerald
+	toolAxeEmerald
+	oreEmerald
+	blockEmerald
+	gemEmerald
+	flakeEmerald
+
+Ic2hydrogen
+
+Natural_gas_sour_humid
+
+Quartz_nak_hot
+
+Potassium_hydroxide_solution
+
+Stellite
+	coinStellite
+	plateStellite
+	dustStellite
+	nuggetStellite
+	gearStellite
+	blockStellite
+	ingotStellite
+
+Kerosene_desulfurized
+
+Brine_netjry
+
+Nak_hot
+
+Plutonium_242
+
+Plutonium_241
+
+Ic2creosote
+
+Oil_residue
+
+Emerald_nak_hot
+
+Magnesium
+	dustMagnesium
+	oreMagnesium
+	blockMagnesium
+	ingotMagnesium
+
+Supremium
+
+Naphtha_cracked
+
+Sodium_fluoride_solution
+
+Americium_241_fluoride
+
+Plutonium238Oxide
+	nuggetPlutonium238Oxide
+	ingotPlutonium238Oxide
+
+Curium_246_fluoride_flibe
+
+HardCarbon
+	ingotHardCarbon
+
+Plutonium_239
+
+Plutonium_238
+
+Potion
+
+Fluorite_water
+
+Gas_condensate
+
+ConcentratedHellfire
+	blockConcentratedHellfire
+	ingotConcentratedHellfire
+
+SiCSiCCMC
+	ingotSiCSiCCMC
+
+CrystallineAlloy
+
+Titanium_slurry
+
+Ice
+	blockPackedIce
+	blockIce
+
+Low_pressure_steam
+
+Californium_249_fluoride_flibe
+
+Smoke
+
+Pygas
+
+Vgo_vapour
+
+Magma_basaltic
+
+Boron10
+	nuggetBoron10
+	ingotBoron10
+
+Bitumen_boiling
+
+Plutonium241Oxide
+	nuggetPlutonium241Oxide
+	ingotPlutonium241Oxide
+
+Coal_slurry
+
+Molten_stellite
+
+HSLASteel
+	ingotHSLASteel
+
+RefinedObsidian
+
+Nak
+
+Potassium_fluoride_solution
+
+Crude_heavy
+
+Graphite
+	dustGraphite
+	compoundGraphite
+	blockGraphite
+	ingotGraphite
+
+Uranium_fluoride_flibe
+
+Methanol
+
+Tamahagane
+	bloomTamahagane
+	plateTamahagane
+	dustTamahagane
+	nuggetTamahagane
+	blockTamahagane
+	ingotTamahagane
+
+Nitric_acid
+
+Yellorium
+
+Syngas
+
+Thermoconducting
+	ingotThermoconducting
+
+Refined_air
+
+Sulfur_dioxide
+
+Hot_crude
+
+Hydronalium
+	coinHydronalium
+	plateHydronalium
+	dustHydronalium
+	nuggetHydronalium
+	gearHydronalium
+	blockHydronalium
+	ingotHydronalium
+
+Thorium_230_fluoride
+
+Ic2superheated_steam
+
+Plutonium241Base
+	ingotPlutonium241Base
+
+Isobutane
+
+Californium252
+	nuggetCalifornium252
+	blockCalifornium252
+	ingotCalifornium252
+
+Californium251
+	nuggetCalifornium251
+	ingotCalifornium251
+
+Californium250
+	nuggetCalifornium250
+	ingotCalifornium250
+
+Manasteel
+
+Gas_oil_fcc
+
+Californium249Oxide
+	nuggetCalifornium249Oxide
+	ingotCalifornium249Oxide
+
+Americium241Base
+	ingotAmericium241Base
+
+Thorium_230_fluoride_flibe
+
+Americium_242_fluoride_flibe
+
+BaseEssence
+
+StellarAlloy
+
+Ender
+	dustEnder
+	chestEnder
+	blockEnder
+
+Molten_cunife
+
+Natural_gas_dried
+
+Uranium_238
+
+Californium249
+	nuggetCalifornium249
+	ingotCalifornium249
+
+Uranium_235
+
+SSteel
+	ingotSSteel
+	denseplateSSteel
+	stickSSteel
+	partToolRodSSteel
+	plateSSteel
+	rodSSteel
+	gearadvSSteel
+	dusttinySSteel
+	gearpartSSteel
+
+Lumium
+
+VividAlloy
+
+Kerosene
+
+Lif
+
+Preheated_water
+
+Butane_cracked_hot
+
+SoulforgedSteel
+	blockSoulforgedSteel
+	plateSoulforgedSteel
+	nuggetSoulforgedSteel
+	springSoulforgedSteel
+	gearSoulforgedSteel
+	arrowSoulforgedSteel
+	ingotSoulforgedSteel
+
+Berkelium247Oxide
+	nuggetBerkelium247Oxide
+	ingotBerkelium247Oxide
+
+Elite
+	circuitElite
+	plateElite
+
+Magnesium_nak_hot
+
+Chocolate
+	ingotChocolate
+
+PulsatingIron
+
+Helium
+
+Diesel
+
+Vanasteel
+	coinVanasteel
+	plateVanasteel
+	dustVanasteel
+	nuggetVanasteel
+	gearVanasteel
+	blockVanasteel
+	ingotVanasteel
+
+Vgo
+
+Berkelium_247_fluoride
+
+RefinedIron
+	ingotRefinedIron
+
+Naphtha
+
+Arsenic
+	dustArsenic
+
+Extreme
+	ingotExtreme
+
+Juice
+
+Corten
+	coinCorten
+	plateCorten
+	dustCorten
+	nuggetCorten
+	gearCorten
+	blockCorten
+	ingotCorten
+
+Raw_flue_gas
+
+Molten_vanasteel
+
+Boric_acid
+
+Isopropane
+
+Uranium_fluoride
+
+ManganeseDioxide
+	dustManganeseDioxide
+	ingotManganeseDioxide
+
+Boron11
+	nuggetBoron11
+	ingotBoron11
+
+Atomicscience:strange_matter
+
+Natural_gas
+
+Propyleneoxide
+
+Neptunium237Base
+	ingotNeptunium237Base
+
+Berkelium248Base
+	ingotBerkelium248Base
+
+Plutonium
+
+Refinerygas
+
+Liquidhelium_nak_hot
+
+CarbonManganese
+	dustCarbonManganese
+
+Uranium_233
+
+Molten_cupronickel
+
+Napalm
+
+AstralStarmetal
+
+ThoriumOxide
+	dustThoriumOxide
+	ingotThoriumOxide
+
+Waste
+
+Ic2coolant
+
+Widia
+	coinWidia
+	plateWidia
+	dustWidia
+	nuggetWidia
+	compoundWidia
+	gearWidia
+	blockWidia
+	ingotWidia
+
+Californium249Base
+	ingotCalifornium249Base
+
+Osmium
+	rockyChunkOsmium
+	chunkOsmium
+	dustOsmium
+	nuggetOsmium
+	ingotOsmium
+
+Flibe
+
+Neptunium_237_fluoride_flibe
+
+Lithium
+	dustTinyLithium
+	dustLithium
+	oreLithium
+	blockLithium
+	ingotLithium
+
+Plutonium239Oxide
+	nuggetPlutonium239Oxide
+	ingotPlutonium239Oxide
+
+Cooled_air
+
+Natural_gas_sour_hot
+
+Water_vapour
+
+Gas_oil_cracked
+
+Thorium_230
+
+Mother_liquor
+
+Plutonium_241_fluoride_flibe
+
+Etchacid
+
+Bitumen
+	bottleBitumen
+	arrowBitumen
+
+Americium243
+	nuggetAmericium243
+	blockAmericium243
+	ingotAmericium243
+
+Americium242
+	nuggetAmericium242
+	ingotAmericium242
+
+Americium241
+	nuggetAmericium241
+	ingotAmericium241
+
+Paraffin
+	bottleParaffin
+	clumpParaffin
+	arrowParaffin
+	blockParaffin
+
+Manganese2
+
+Toluene
+
+Milk
+	bucketMilk
+
+Butane
+
+Cryotheum_nak
+
+Plutonium242Oxide
+	nuggetPlutonium242Oxide
+	ingotPlutonium242Oxide
+
+Pewter
+	coinPewter
+	platePewter
+	dustPewter
+	nuggetPewter
+	gearPewter
+	blockPewter
+	ingotPewter
+
+Uranium238
+	nuggetUranium238
+	blockUranium238
+	pelletUranium238
+	ingotUranium238
+
+Ender_nak_hot
+
+Uranium235
+	nuggetUranium235
+	pelletUranium235
+	ingotUranium235
+
+Lubricant
+
+Uranium233
+	nuggetUranium233
+	ingotUranium233
+
+Lead_slurry
+
+Ic2heavy_water
+
+Uranium_235_fluoride
+
+Tritium
+
+CrudeSteel
+
+Neptunium237
+	nuggetNeptunium237
+	blockNeptunium237
+	ingotNeptunium237
+
+Neptunium236
+	nuggetNeptunium236
+	ingotNeptunium236
+
+Tinite
+	coinTinite
+	plateTinite
+	dustTinite
+	nuggetTinite
+	gearTinite
+	blockTinite
+	ingotTinite
+
+IronCompressed
+	gearIronCompressed
+	blockIronCompressed
+	ingotIronCompressed
+
+Glowstone_nak_hot
+
+Ferroboron
+	ingotFerroboron
+
+Iridium
+	stickIridium
+	coilIridium
+	plateIridium
+	dustIridium
+	nuggetIridium
+	oreIridium
+	blockIridium
+	ingotIridium
+
+Thorium230Oxide
+	nuggetThorium230Oxide
+	ingotThorium230Oxide
+
+Atomicscience:contaminated_mineral_water
+
+Beryllium
+	dustBeryllium
+	blockBeryllium
+	ingotBeryllium
+
+Vgo_hydrocracked
+
+Methane
+
+Elementium
+
+Benzene_vapour
+
+AluminumBrass
+
+Enderium
+
+Molten_scal
+
+Americium241Oxide
+	nuggetAmericium241Oxide
+	ingotAmericium241Oxide
+
+Emerald_nak
+
+Salt_brine
+
+Bas
+
+Zirconium
+	dustZirconium
+	blockZirconium
+	ingotZirconium
+
+Manganese2Oxide
+
+Bam
+	coinBam
+	plateBam
+	dustBam
+	nuggetBam
+	gearBam
+	blockBam
+	ingotBam
+
+Chloromethane
+
+Neptunium_237_fluoride
+
+Bronze
+	partToolRodBronze
+	denseplateBronze
+	gearBronze
+	dusttinyBronze
+	stickBronze
+	dustTinyBronze
+	plateBronze
+	rodBronze
+	dustBronze
+	nuggetBronze
+	plateDenseBronze
+	blockBronze
+	ingotBronze
+	gearpartBronze
+
+Berkelium248Oxide
+	nuggetBerkelium248Oxide
+	ingotBerkelium248Oxide
+
+Signalum
+
+Curium_247_fluoride_flibe
+
+ObsidianSteel
+	plateObsidianSteel
+	ingotObsidianSteel
+
+Tin
+	partToolRodTin
+	scrapmetalTin
+	denseplateTin
+	crushedTin
+	gearTin
+	dusttinyTin
+	crushedPurifiedTin
+	rockyChunkTin
+	stickTin
+	chunkTin
+	dustTinyTin
+	plateTin
+	rodTin
+	dustTin
+	nuggetTin
+	oreTin
+	plateDenseTin
+	blockTin
+	ingotTin
+
+Lapis_nak
+
+Hastelloy
+	coinHastelloy
+	plateHastelloy
+	dustHastelloy
+	nuggetHastelloy
+	gearHastelloy
+	blockHastelloy
+	ingotHastelloy
+
+Berkelium_247_fluoride_flibe
+
+Uranium235Oxide
+	nuggetUranium235Oxide
+	ingotUranium235Oxide
+
+Natural_gas_sour
+
+Gasoline
+
+Oil
+
+ElectricalSteel
+
+Berkelium248
+	nuggetBerkelium248
+	ingotBerkelium248
+
+Berkelium247
+	nuggetBerkelium247
+	blockBerkelium247
+	ingotBerkelium247
+
+Gasoline_adv_bio
+
+Unsweetened_chocolate
+
+Condensate_water
+
+Thorium_fluoride
+
+Curium243Oxide
+	nuggetCurium243Oxide
+	ingotCurium243Oxide
+
+Manganese_dioxide
+
+Hydrochloric_acid
+
+Lapis
+	dustTinyLapis
+	plateLapis
+	dustLapis
+	oreLapis
+	plateDenseLapis
+	blockLapis
+	gemLapis
+
+Quartz_nak
+
+Naoh
+
+Plastic
+	sheetPlastic
+	rawPlastic
+
+Tungsten_slurry
+
+Wood_gas
+
+Molten_vanadium
+
+Oil_brine
+
+Krypton
+
+Plutonium_242_fluoride
+
+Plutonium_238_fluoride_flibe
+
+Plasma
+
+Draconium
+	dustDraconium
+	nuggetDraconium
+	oreDraconium
+	blockDraconium
+	ingotDraconium
+
+Californium252Base
+	ingotCalifornium252Base
+
+Naphtha_reformed
+
+Americium_243_fluoride
+
+Molten_pewter
+
+Alugentum
+	dustAlugentum
+
+Iron
+	spongeIron
+	strandIron
+	ringIron
+	lightPlateIron
+	oreClusteredBogIron
+	slatIron
+	oreTitaniumIron
+	dustTinyIron
+	blockSheetmetalIron
+	heavyPlateIron
+	gearpartIron
+	bloomIron
+	slabSheetmetalIron
+	oreClusterBogIron
+	pinIron
+	meshIron
+	scrapmetalIron
+	denseplateIron
+	crushedIron
+	gearIron
+	dusttinyIron
+	crushedPurifiedIron
+	sheetIron
+	rockyChunkIron
+	stickIron
+	chunkIron
+	partToolRodIron
+	plateIron
+	rodIron
+	dustIron
+	nuggetIron
+	oreIron
+	plateDenseIron
+	blockIron
+	ingotIron
+
+Inferium
+
+Copper_nak_hot
+
+Liquid_ammonia
+
+Wgsproduct
+
+Americium_243_fluoride_flibe
+
+Uranium
+	slabSheetmetalUranium
+	crushedUranium
+	crushedPurifiedUranium
+	plateUranium
+	dustUranium
+	slabUranium
+	nuggetUranium
+	oreUranium
+	blockSheetmetalUranium
+	blockUranium
+	ingotUranium
+
+Uranium235Base
+	ingotUranium235Base
+
+Xenon
+
+Cupronickel
+	coinCupronickel
+	plateCupronickel
+	dustCupronickel
+	nuggetCupronickel
+	gearCupronickel
+	blockCupronickel
+	ingotCupronickel
+
+Toxic_sludge
+
+Heavy_oil_hot
+
+ConstructionAlloy
+
+Ic2hot_coolant
+
+Americium243Base
+	ingotAmericium243Base
+
+Ic2oxygen
+
+UraniumOxide
+	dustUraniumOxide
+	ingotUraniumOxide
+
+Gas_oil_desulfurized
+
+Ic2air
+
+Diamond_nak_hot
+
+Thaumium
+
+Nitrogen
+
+Curium247Base
+	ingotCurium247Base
+
+Water
+	bottleWater
+	arrowWater
+
+Quartz
+	oreQuartz
+	arrowQuartz
+	crystalPureCertusQuartz
+	pointQuartz
+	toolHatchetQuartz
+	flakeQuartz
+	dustNetherQuartz
+	crystalCertusQuartz
+	crystalPureNetherQuartz
+	dustCertusQuartz
+	dustQuartz
+	toolAxeQuartz
+	blockQuartz
+	gemQuartz
+
+Inconel
+	coinInconel
+	plateInconel
+	dustInconel
+	nuggetInconel
+	gearInconel
+	blockInconel
+	ingotInconel
+
+Curium_245_fluoride
+
+Lapis_nak_hot
+
+Californium_252
+
+Californium_251
+
+Californium_250
+
+Wootz
+	plateWootz
+	dustWootz
+	nuggetWootz
+	blockWootz
+	ingotWootz
+
+Creeper_acid
+
+Marshmallow
+
+Thorium_232_fluoride
+
+Diesel_bio
+
+Radaway_slow
+
+Thorium230Base
+	ingotThorium230Base
+
+Californium_249
+
+Low_quality_steam
+
+Oxygen
+
+Superium
+
+Gas_oil_cracked_hot
+
+Ethylene_glycol_rich
+
+Ic2hot_water
+
+Atomicscience:antimatter
+
+Propene
+
+Ovis_atre_milk
+
+Advanced
+	circuitAdvanced
+	plateAdvanced
+
+Purplegold
+	coinPurplegold
+	platePurplegold
+	dustPurplegold
+	nuggetPurplegold
+	gearPurplegold
+	blockPurplegold
+	ingotPurplegold
+
+Blutonium
+
+Exhaust_steam
+
+Neptunium236Base
+	ingotNeptunium236Base
+
+DarkSteel
+
+Uranium238Base
+	ingotUranium238Base
+
+Plutonium_fluoride
+
+Gas_oil_hydrocracked
+
+Ardite
+
+Heavy_oil
+
+Carbon_monoxide
+
+Berkelium247Base
+	ingotBerkelium247Base
+
+Glowstone_nak
+
+Corium
+
+Ethene
+
+TitaniumIridium
+	sheetTitaniumIridium
+	stickTitaniumIridium
+	plateTitaniumIridium
+	dustTitaniumIridium
+	nuggetTitaniumIridium
+	gearTitaniumIridium
+	blockTitaniumIridium
+	ingotTitaniumIridium
+
+Glycerol
+
+Atomicscience:deuterium
+
+Nichrome
+	coinNichrome
+	plateNichrome
+	dustNichrome
+	nuggetNichrome
+	gearNichrome
+	blockNichrome
+	ingotNichrome
+
+Creosote
+
+Copper_nak
+
+Plutonium_242_fluoride_flibe
+
+Ethylene_glycol
+
+Diamond
+	toolHatchetDiamond
+	pointDiamond
+	oreDiamond
+	toolWorkBladeDiamond
+	flakeDiamond
+	chipDiamond
+	plateDiamond
+	dustDiamond
+	nuggetDiamond
+	toolAxeDiamond
+	blockDiamond
+	gemDiamond
+	ingotDiamond
+
+Neptunium_236
+
+Urushi
+	bottleUrushi
+	dustUrushi
+
+Cryotheum
+
+ElectrumFlux
+
+Carbon_dioxide
+
+SiliconCarbide
+	fiberSiliconCarbide
+	ingotSiliconCarbide
+
+Uranium_235_fluoride_flibe
+
+Liquid_oxygen
+
+Terrasteel
+
+Plutonium_239_fluoride
+
+Propane_cracked_hot
+
+Ender_nak
+
+Lead
+	lightPlateLead
+	dustTinyLead
+	slabLead
+	blockSheetmetalLead
+	heavyPlateLead
+	slabSheetmetalLead
+	scrapmetalLead
+	denseplateLead
+	crushedLead
+	dusttinyLead
+	crushedPurifiedLead
+	rockyChunkLead
+	stickLead
+	chunkLead
+	partToolRodLead
+	plateLead
+	rodLead
+	dustLead
+	nuggetLead
+	oreLead
+	plateDenseLead
+	blockLead
+	tinyDustLead
+	ingotLead
+
+Lava
+
+Ic2biogas
+
+Propane_cracked
+
+Ethylbenzene
+
+Atomicscience:mineral_waste
+
+Gold_nak_hot
+
+Psi
+
+Acrylic_acid
+
+Curium_247
+
+Curium_246
+
+Curium_245
+
+Leachate
+
+Nickel
+	slabSheetmetalNickel
+	denseplateNickel
+	dusttinyNickel
+	rockyChunkNickel
+	stickNickel
+	chunkNickel
+	partToolRodNickel
+	plateNickel
+	rodNickel
+	dustNickel
+	slabNickel
+	nuggetNickel
+	oreNickel
+	blockSheetmetalNickel
+	blockNickel
+	ingotNickel
+
+Iron_nak
+
+Platinum
+	platePlatinum
+	dustPlatinum
+	nuggetPlatinum
+	orePlatinum
+	blockPlatinum
+	ingotPlatinum
+
+Natural_gas_humid
+
+Cocoa_butter
+
+Kerosene_vapour
+
+Curium_243
+
+Curium243Base
+	ingotCurium243Base
+
+Curium246
+	nuggetCurium246
+	blockCurium246
+	ingotCurium246
+
+Curium245
+	nuggetCurium245
+	ingotCurium245
+
+Toxic_waste
+
+Curium243
+	nuggetCurium243
+	ingotCurium243
+
+Ethane_cracked_hot
+
+Naphtha_desulfurized
+
+Gold
+	lightPlateGold
+	dustTinyGold
+	blockSheetmetalGold
+	heavyPlateGold
+	slabSheetmetalGold
+	coilGold
+	scrapmetalGold
+	denseplateGold
+	crushedGold
+	dusttinyGold
+	wireGold
+	crushedPurifiedGold
+	rockyChunkGold
+	stickGold
+	chunkGold
+	partToolRodGold
+	plateGold
+	rodGold
+	dustGold
+	nuggetGold
+	oreGold
+	plateDenseGold
+	blockGold
+	ingotGold
+
+Dist_water
+
+Americium_241
+
+Californium_249_fluoride
+
+MelodicAlloy
+
+Californium_250_fluoride
+
+Greengold
+	coinGreengold
+	plateGreengold
+	dustGreengold
+	nuggetGreengold
+	gearGreengold
+	blockGreengold
+	ingotGreengold
+
+Californium251Oxide
+	nuggetCalifornium251Oxide
+	ingotCalifornium251Oxide
+
+Curium_247_fluoride
+
+Plutonium_241_fluoride
+
+Ethanol
+
+Animaloil
+
+Acetone
+
+Liquidhelium_nak
+
+Atomicscience:contaminated_water
+
+Cumene
+
+High_pressure_steam
+
+LeadPlatinum
+	ingotLeadPlatinum
+
+Carborundum
+	dustCarborundum
+	nuggetCarborundum
+	blockCarborundum
+	ingotCarborundum
+
+Chocolate_liquor
+
+Natural_gas_sour_dried
+
+DU
+	plateDU
+
+Vgo_cracked_hot
+
+Silicone
+
+Sodium_cyanide
+
+Sodium_hydroxide
+
+Potassium
+	dustPotassium
+
+Liquidhelium
+
+Ic2biomass
+
+Steel
+	scaffoldingSteel
+	lightPlateSteel
+	slabSteel
+	blockSheetmetalSteel
+	heavyPlateSteel
+	gearpartSteel
+	slabSheetmetalSteel
+	fanSteel
+	denseplateSteel
+	gearSteel
+	dusttinySteel
+	wireSteel
+	sheetSteel
+	rockyChunkSteel
+	stickSteel
+	chunkSteel
+	partToolRodSteel
+	plateSteel
+	rodSteel
+	dustSteel
+	fenceSteel
+	nuggetSteel
+	plateDenseSteel
+	blockSteel
+	ingotSteel
+
+RedAlloy
+	ingotRedAlloy
+
+Molten_corten
+
+Gasoline_bio
+
+Thorium232Oxide
+	nuggetThorium232Oxide
+	ingotThorium232Oxide
+
+UraniumEnriched
+	ingotUraniumEnriched
+
+Koh
+
+Californium_251_fluoride
+
+Molten_hastelloy
+
+Cosm
+	coinCosm
+	plateCosm
+	dustCosm
+	nuggetCosm
+	gearCosm
+	blockCosm
+	ingotCosm
+
+PlutoniumOxide
+
+Neptunium_237
+
+Americium243Oxide
+	nuggetAmericium243Oxide
+	ingotAmericium243Oxide
+
+Obsidian
+	pointObsidian
+	shardObsidian
+	toolHatchetObsidian
+	flakeObsidian
+	lensObsidian
+	dustTinyObsidian
+	plateObsidian
+	dustObsidian
+	toolAxeObsidian
+	plateDenseObsidian
+
+Seed.oil
+
+Benzene
+
+Phosgene
+
+Vgo_cracked
+
+Soularium
+
+Crude_desalted
+
+Neptunium_236_fluoride
+
+Gas_oil
+
+CrudeIron
+	plateCrudeIron
+	dustCrudeIron
+	nuggetCrudeIron
+	blockCrudeIron
+	ingotCrudeIron
+
+Argon
+
+Californium251Base
+	ingotCalifornium251Base
+
+Flotation_waste
+
+Thorium_232_fluoride_flibe
+
+Polyol
+
+Chlorine
+
+Californium_251_fluoride_flibe
+
+Aluminium_slurry
+
+Molten_inconel
+
+Ftproduct
+
+Curium245Oxide
+	nuggetCurium245Oxide
+	ingotCurium245Oxide
+
+Shibuichi
+	coinShibuichi
+	plateShibuichi
+	dustShibuichi
+	nuggetShibuichi
+	gearShibuichi
+	blockShibuichi
+	ingotShibuichi
+
+Formicacid
+
+Atomicscience:reactor_waste
+
+Cunife
+	coinCunife
+	plateCunife
+	dustCunife
+	nuggetCunife
+	gearCunife
+	blockCunife
+	ingotCunife
+
+Raw_syngas
+
+Toluenediisocyanate
+
+Intermedium
+
+Plantoil
+
+Liquid_nitrogen
+
+Molybdenum
+	dustMolybdenum
+	ingotMolybdenum
+
+Americium242Base
+	ingotAmericium242Base
+
+Atomicscience:uranium_hexafluoride
+
+Steam
+
+Acid_gas
+
+Butadiene
+
+Californium_252_fluoride
+
+Mischmetal
+	coinMischmetal
+	plateMischmetal
+	dustMischmetal
+	nuggetMischmetal
+	gearMischmetal
+	blockMischmetal
+	ingotMischmetal
+
+Tungstensteel
+
+Curium246Base
+	ingotCurium246Base
+
+Zinc
+	oreClusteredZinc
+	denseplateZinc
+	oreClusterZinc
+	dusttinyZinc
+	rockyChunkZinc
+	stickZinc
+	chunkZinc
+	partToolRodZinc
+	plateZinc
+	rodZinc
+	dustZinc
+	nuggetZinc
+	blockZinc
+	ingotZinc
+
+Flue_gas
+
+Ic2weed_ex
+
+Naphtha_vapour
+
+Americium_242_fluoride
+
+Plutonium238Base
+	ingotPlutonium238Base
+
+Boron
+	dustBoron
+	oreBoron
+	blockBoron
+	ingotBoron
+
+Compressed_air
+
+ManganeseOxide
+	dustManganeseOxide
+	ingotManganeseOxide
+
+Americium_241_fluoride_flibe
+
+Alumina
+	dustAlumina
+
+Uranium_238_fluoride_flibe
+
+Hydrogen
+
+Borax_solution
+
+Glowstone
+	dustGlowstone
+	blockGlowstone
+
+Vgo_fcc
+
+Berkelium_248_fluoride_flibe
+
+Californium252Oxide
+	nuggetCalifornium252Oxide
+	ingotCalifornium252Oxide
+
+Rubber
+	itemRawRubber
+
+Helium3
+
+Tannin
+	bottleTannin
+	dustTannin
+
+Constantan
+	dustConstantan
+	wireConstantan
+	slabSheetmetalConstantan
+	blockSheetmetalConstantan
+	plateConstantan
+	slabConstantan
+	nuggetConstantan
+	blockConstantan
+	ingotConstantan
+
+Zeolite
+	dustZeolite
+	compoundZeolite
+	ingotZeolite
+
+Sic_vapor
+
+Sulfuric_acid
+
+Silicon
+	waferSilicon
+	plateSilicon
+	dustSilicon
+	nuggetSilicon
+	oreSilicon
+	compoundSilicon
+	bouleSilicon
+	ingotSilicon
+
+Diamond_nak
+
+Short.mead
+
+Sodium_hydroxide_solution
+
+Methane_natural
+
+Cube
+	coinCube
+	plateCube
+	dustCube
+	nuggetCube
+	gearCube
+	blockCube
+	ingotCube
+
+Thorium_fluoride_flibe
+
+Natural_gas_hot
+
+Sulfur
+	dustTinySulfur
+	dustSulfur
+	oreSulfur
+	compoundSulfur
+	blockSulfur
+
+Uranium_slurry
+
+Lithium7
+	nuggetLithium7
+	ingotLithium7
+
+Lithium6
+	nuggetLithium6
+	ingotLithium6
+
+Plutonium239Base
+	ingotPlutonium239Base
+
+Flotation_solution
+
+Ic2steam
+
+Vgo_desulfurized
+
+Curium_245_fluoride_flibe
+
+Uranium_238_fluoride
+
+Molten_zircaloy
+
+Tombak
+	coinTombak
+	plateTombak
+	dustTombak
+	nuggetTombak
+	gearTombak
+	blockTombak
+	ingotTombak
+
+Carbon
+	specialCarbon
+	plateCarbon
+	dustCarbon
+	fiberCarbon
+	ingotCarbon
+
+Zircaloy
+	coinZircaloy
+	plateZircaloy
+	dustZircaloy
+	nuggetZircaloy
+	gearZircaloy
+	blockZircaloy
+	ingotZircaloy
+
+Shakudo
+	coinShakudo
+	plateShakudo
+	dustShakudo
+	nuggetShakudo
+	gearShakudo
+	blockShakudo
+	ingotShakudo
+
+Gasoline_adv
+
+Deuterium
+
+MagnesiumDiboride
+	solenoidMagnesiumDiboride
+	ingotMagnesiumDiboride
+
+Vacuum_residue_cracked
+
+Rosegold
+	coinRosegold
+	plateRosegold
+	dustRosegold
+	nuggetRosegold
+	gearRosegold
+	blockRosegold
+	ingotRosegold
+
+Oxygen_difluoride
+
+Manyullyn
+
+Thorium_slurry
+
+Void
+	blockSaltVoid
+	dustVoid
+	cordageVoid
+	dustSaltVoid
+
+Syngas_hot
+
+Butane_cracked
+
+Ethane_cracked
+
+Formaldehyde
+
+Bisphenola
+
+Plutonium_fluoride_flibe
+
+Tin_slurry
+
+Sulfuricnitricacid
+
+Berkelium_248_fluoride
+
+Mithril
+	rockyChunkMithril
+	chunkMithril
+	dustMithril
+	nuggetMithril
+	ingotMithril
+
+Gelatin
+
+Uranium238Oxide
+	nuggetUranium238Oxide
+	ingotUranium238Oxide
+
+EnergeticAlloy
+
+Sugar
+
+EndSteel
+
+Bio.ethanol
+
+Neptunium236Oxide
+	nuggetNeptunium236Oxide
+	ingotNeptunium236Oxide
+
+Biomass
+
+Naphtha_cracked_hot
+
+Curium_243_fluoride_flibe
+
+Curium246Oxide
+	nuggetCurium246Oxide
+	ingotCurium246Oxide
+
+ElectrotineAlloy
+	ingotElectrotineAlloy
+
+Cryotheum_nak_hot
+
+Curium247
+	nuggetCurium247
+	ingotCurium247
+
+Tungsten
+	denseplateTungsten
+	gearadvTungsten
+	dusttinyTungsten
+	lightPlateTungsten
+	rockyChunkTungsten
+	stickTungsten
+	chunkTungsten
+	partToolRodTungsten
+	plateTungsten
+	rodTungsten
+	dustTungsten
+	nuggetTungsten
+	oreTungsten
+	blockTungsten
+	heavyPlateTungsten
+	ingotTungsten
+	gearpartTungsten
+
+Titanium
+	coilTitanium
+	denseplateTitanium
+	gearadvTitanium
+	gearTitanium
+	dusttinyTitanium
+	coinTitanium
+	sheetTitanium
+	stickTitanium
+	partToolRodTitanium
+	plateTitanium
+	rodTitanium
+	dustTitanium
+	nuggetTitanium
+	oreTitanium
+	blockTitanium
+	ingotTitanium
+	gearpartTitanium
+
+Light_oil
+
+Hydrofluoric_acid
+
+Tantaloy
+	coinTantaloy
+	plateTantaloy
+	dustTantaloy
+	nuggetTantaloy
+	gearTantaloy
+	blockTantaloy
+	ingotTantaloy
+
+Berkelium_248
+
+Plutonium_238_fluoride
+
+Phenol
+
+Nimonic
+	coinNimonic
+	plateNimonic
+	dustNimonic
+	nuggetNimonic
+	gearNimonic
+	blockNimonic
+	ingotNimonic
+
+Gas_oil_vapour
+
+Americium_243
+
+Americium_242
+
+Berkelium_247
+
+Propane
+
+HOPGraphite
+	dustHOPGraphite
+	ingotHOPGraphite
+
+Ic2distilled_water
+
+Dilithium
+	crystalDilithium
+	dustDilithium
+	oreDilithium
+
+Iron_slurry
+
+EnergeticSilver
+
+Aluminium
+	denseplateAluminium
+	dusttinyAluminium
+	rockyChunkAluminium
+	stickAluminium
+	chunkAluminium
+	partToolRodAluminium
+	plateAluminium
+	rodAluminium
+	dustAluminium
+	nuggetAluminium
+	ingotAluminium
+
+Ethylene_oxide
+
+Silver
+	dustTinySilver
+	slabSheetmetalSilver
+	scrapmetalSilver
+	denseplateSilver
+	crushedSilver
+	dusttinySilver
+	crushedPurifiedSilver
+	rockyChunkSilver
+	stickSilver
+	chunkSilver
+	partToolRodSilver
+	plateSilver
+	rodSilver
+	dustSilver
+	slabSilver
+	nuggetSilver
+	oreSilver
+	blockSheetmetalSilver
+	blockSilver
+	ingotSilver
+
+Fluoromethane
+
+Biodiesel
+
+Thorium232Base
+	ingotThorium232Base
+
+Vanadium
+	coinVanadium
+	plateVanadium
+	dustVanadium
+	nuggetVanadium
+	gearVanadium
+	ingotVanadium
+
+Californium250Oxide
+	nuggetCalifornium250Oxide
+	ingotCalifornium250Oxide
+
+Prudentium
+
+Copper
+	standCopper
+	lightPlateCopper
+	dustTinyCopper
+	slabCopper
+	solenoidCopper
+	blockSheetmetalCopper
+	heavyPlateCopper
+	slabSheetmetalCopper
+	coilCopper
+	scrapmetalCopper
+	denseplateCopper
+	crushedCopper
+	gearCopper
+	dusttinyCopper
+	wireCopper
+	crushedPurifiedCopper
+	sheetCopper
+	rockyChunkCopper
+	stickCopper
+	chunkCopper
+	partToolRodCopper
+	plateCopper
+	rodCopper
+	dustCopper
+	nuggetCopper
+	oreCopper
+	plateDenseCopper
+	blockCopper
+	ingotCopper
+
+Adamant
+	plateAdamant
+	dustAdamant
+	nuggetAdamant
+	blockAdamant
+	ingotAdamant
+
+Nial
+	coinNial
+	plateNial
+	dustNial
+	nuggetNial
+	gearNial
+	blockNial
+	ingotNial
+
+Ethane
+
+Iron_nak_hot
+
+Virgin_water
+
+Ic2uu_matter
+
+TinSilver
+	ingotTinSilver
+
+Brass
+	denseplateBrass
+	gearBrass
+	dusttinyBrass
+	stickBrass
+	partToolRodBrass
+	plateBrass
+	rodBrass
+	dustBrass
+	nuggetBrass
+	blockBrass
+	ingotBrass
+
+Plutonium_239_fluoride_flibe
+
+Molten_hydronalium
+
+Electrum
+	wireElectrum
+	slabSheetmetalElectrum
+	slabElectrum
+	plateElectrum
+	dustElectrum
+	nuggetElectrum
+	blockSheetmetalElectrum
+	blockElectrum
+	ingotElectrum
+
+Americium242Oxide
+	nuggetAmericium242Oxide
+	ingotAmericium242Oxide
+
+Concrete
+	blockConcrete
+
+Thorium
+	dustThorium
+	oreThorium
+	blockThorium
+	ingotThorium
+
+Sodium
+	dustSodium
+
+Invar
+	gearpartInvar
+	stickInvar
+	partToolRodInvar
+	plateInvar
+	rodInvar
+	denseplateInvar
+	nuggetInvar
+	gearInvar
+	blockInvar
+	dusttinyInvar
+	ingotInvar
+
+Curium_246_fluoride
+
+Coal_tar
+
+Manganese
+	dustManganese
+	oreManganese
+	blockManganese
+	ingotManganese
+
+Milk_chocolate
+
+Organic_slurry
+
+Molten_bam
+
+Gold_nak
+
+Molten_titanium
+
+Molten_cube
+
+Curium_243_fluoride
+
+Molten_tantaloy
+
+Vacuum_residue_cracked_hot
+
+Cobalt
+	rockyChunkCobalt
+	chunkCobalt
+	dustCobalt
+	nuggetCobalt
+	oreCobalt
+	blockCobalt
+	ingotCobalt
+
+RefinedGlowstone
+
+Californium_252_fluoride_flibe
+
+Uranium_233_fluoride
+
+Gold_slurry
+
+Neon
+
+Diborane
+
+Nib
+	coinNib
+	plateNib
+	dustNib
+	nuggetNib
+	gearNib
+	blockNib
+	ingotNib
+
+Plutonium242Base
+	ingotPlutonium242Base
+
+Tough
+	ingotTough
+
+Californium250Base
+	ingotCalifornium250Base
+
+For.honey
+
+Calcium_sulfate_solution
+
+Thorium_232
+
+Magnesium_nak
+
+Sulfur_trioxide
+
+Hard_carbon
+
+Copper_slurry
+
+Neptunium_236_fluoride_flibe
+
+Ammonia
+
+VibrantAlloy
+
+Tin_nak
+
+Radaway
+
+Thorium232
+	nuggetThorium232
+	ingotThorium232
+
+Thorium230
+	nuggetThorium230
+	blockThorium230
+	ingotThorium230
+
+Molten_nial
+
+DraconiumAwakened
+	nuggetDraconiumAwakened
+	blockDraconiumAwakened
+	ingotDraconiumAwakened
+
+Uranium233Base
+	ingotUranium233Base
+
+Molten_nichrome
+
+Dark_chocolate
+
+Ngl
+
+Crude_heavy_desalted
+
+Fluorine
+
