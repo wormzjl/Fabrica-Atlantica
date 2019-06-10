@@ -2,7 +2,9 @@
 
 
 //removals and unifications
-mods.betterwithmods.Mill.addRecipe([<minecraft:coal:1>],[<betterwithmods:material:37>]);
+mods.betterwithmods.Mill.addRecipe([<primal:charcoal_fair>],[<betterwithmods:material:37>]);
+mods.betterwithmods.Mill.addRecipe([<primal:charcoal_good>],[<betterwithmods:material:37>]);
+mods.betterwithmods.Mill.addRecipe([<primal:charcoal_high>],[<betterwithmods:material:37>]);
 
 recipes.removeShaped(<betterwithmods:material:45>, [[<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>], [<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>], [<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>]]);
 

@@ -141,3 +141,6 @@ mods.primal.Hibachi.removeRecipe("ic2_sticky_resin");
 //Recipes
 recipes.addShapeless(<minecraft:flint_and_steel>, [<primal:crude_iron_ingot>, <minecraft:flint>]);
 
+recipes.addShapeless(<minecraft:coal:1>, [<primal:charcoal_fair>]);
+recipes.addShapeless(<minecraft:coal:1>, [<primal:charcoal_good>]);
+recipes.addShapeless(<minecraft:coal:1>, [<primal:charcoal_high>]);

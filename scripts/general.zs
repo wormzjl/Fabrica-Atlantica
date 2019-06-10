@@ -168,7 +168,7 @@ recipes.remove(<better_diving:diving_mask>);
 recipes.addShaped(<better_diving:diving_mask>, [[<immersiveengineering:material:5>, <minecraft:glass>, <immersiveengineering:material:5>]]);
 
 recipes.remove(<better_diving:standard_o2_tank>);
-recipes.addShaped(<better_diving:standard_o2_tank>, [[<ic2:crafting>, <ore:plateIron>, <ic2:crafting>], [<ore:plateIron>], [<ic2:crafting>, <ore:plateIron>, <ic2:crafting>]]);
+recipes.addShaped(<better_diving:standard_o2_tank>, [[<ic2:crafting>, <ore:plateIron>, <ic2:crafting>], [<ore:plateIron>, null, <ore:plateIron>], [<ic2:crafting>, <ore:plateIron>, <ic2:crafting>]]);
 
 recipes.remove(<better_diving:wetsuit_leggings>);
 recipes.addShaped(<better_diving:wetsuit_leggings>, [[<immersiveengineering:material:5>, <ic2:crafting>, <immersiveengineering:material:5>], [<ic2:crafting>, null, <ic2:crafting>], [<ic2:crafting>, null, <ic2:crafting>]]);

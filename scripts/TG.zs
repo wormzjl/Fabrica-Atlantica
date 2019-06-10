@@ -16,6 +16,7 @@ mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:96>, null);
 mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:97>, null);
 mods.techguns.ChemLab.removeRecipe(<minecraft:slime_ball>, null);
 mods.techguns.ChemLab.removeRecipe(null, <liquid:creeper_acid>);
+mods.techguns.ChemLab.removeRecipe(<minecraft:leather>,null);
 
 mods.techguns.ReactionChamber.removeRecipe(<minecraft:redstone_block>, <liquid:lava>);
 mods.techguns.ReactionChamber.removeRecipe(<techguns:basicore:3>, <liquid:creeper_acid>);
