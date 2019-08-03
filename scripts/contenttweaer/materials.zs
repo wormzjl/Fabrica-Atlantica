@@ -105,7 +105,8 @@ var metal_list = [iron, gold, steel, copper, tin, bronze, lead, silver, nickel, 
 var gear_base = [iron, steel, bronze, invar] as Material[];
 var gear_adv = [ssteel, titanium, tungsten] as Material[];
 var gear_all = [iron, steel, bronze, invar, ssteel, titanium, tungsten] as Material[];
-var part_names = ["plate", "rod", "denseplate", "dusttiny"] as string[];
+var plate_all = [aluminium, titanium, tungsten, ssteel] as Material[];
+var part_names = ["rod", "denseplate", "dusttiny"] as string[];
 
 for i, metal in metal_list {
     metal.registerParts(part_names);
@@ -121,6 +122,10 @@ for i, metal in gear_adv {
 
 for i, metal in gear_all {
     metal.registerPart("gearpart");
+}
+
+for i, metal in gear_all {
+    metal.registerPart("plate");
 }
 
 ssteel.registerPart("ingot");

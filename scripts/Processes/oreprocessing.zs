@@ -1,4 +1,22 @@
 //early game scrap processing and forgecraft stuff
+//mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:scrap2>, <materialpart:iron:scrapmetal>, false);
+//mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:scrap6>, <materialpart:iron:scrapmetal>, false);
+//mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:scrap7>, <materialpart:iron:scrapmetal>, false);
+//mods.magneticraft.CrushingTable.addRecipe(<ic2:crafting:10>, <materialpart:tin:scrapmetal>, false);
+//mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:scrap9>, <materialpart:silver:scrapmetal>, false);
+//mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:scrap3>, <materialpart:copper:scrapmetal>, false);
+//mods.magneticraft.CrushingTable.addRecipe(<primal:salt_dust_fire>, <betterwithmods:material:26>, false);
+//mods.pyrotech.IroncladAnvil.addRecipe("scrap2_", <materialpart:iron:scrapmetal>, <contenttweaker:scrap2>, 4, "hammer");
+
+mods.pyrotech.GraniteAnvil.addRecipe("scrap2", <materialpart:iron:scrapmetal>, <contenttweaker:scrap2>, 8, "hammer");
+mods.pyrotech.GraniteAnvil.addRecipe("scrap6", <materialpart:iron:scrapmetal>, <contenttweaker:scrap6>, 8, "hammer");
+mods.pyrotech.GraniteAnvil.addRecipe("scrap7", <materialpart:iron:scrapmetal>, <contenttweaker:scrap7>, 8, "hammer");
+mods.pyrotech.GraniteAnvil.addRecipe("scraptin", <materialpart:tin:scrapmetal>, <ic2:crafting:10>, 8, "hammer");
+mods.pyrotech.GraniteAnvil.addRecipe("scrapsilver", <materialpart:silver:scrapmetal>, <contenttweaker:scrap9>, 8, "hammer");
+mods.pyrotech.GraniteAnvil.addRecipe("saltpeter", <betterwithmods:material:26>, <primal:salt_dust_fire>, 6, "hammer");
+
+
+
 mods.primal.Smelter.addRecipe("Scrap_copper", 10, [<contenttweaker:scrap3>], [<materialpart:copper:scrapmetal>]);
 mods.primal.Cauldron.addRecipe("Used_battery", 5, <liquid:water> * 500, [<contenttweaker:scrap4>], [<materialpart:lead:scrapmetal>, <minecraft:redstone>]);
 mods.primal.Cauldron.addRecipe("Paint_cans", 5, <liquid:water> * 500, [<contenttweaker:scrap5>], [<materialpart:tin:scrapmetal>, <minecraft:dye:4>]);
