@@ -7,8 +7,6 @@ mods.jei.JEI.removeAndHide(<primal:worktable_shelf:*>);
 recipes.remove(<forgecraft:stoneanvil>);
 recipes.addShaped(<forgecraft:stoneanvil>, [[<ore:ingotIron>], [<ore:stone>]]);
 
-
-
 //Smelter
 mods.primal.Smelter.removeRecipe("ore_good_lithium");
 mods.primal.Smelter.removeRecipe("ore_sand_aluminum");
@@ -139,8 +137,8 @@ mods.primal.Smelter.addRecipe("Crude_iron", 15, [<materialpart:iron:scrapmetal>,
 mods.primal.Hibachi.removeRecipe("ic2_sticky_resin");
 
 //Recipes
-recipes.addShapeless(<minecraft:flint_and_steel>, [<primal:crude_iron_ingot>, <minecraft:flint>]);
+//recipes.addShapeless(<minecraft:coal:1>, [<primal:charcoal_fair>]);
+//recipes.addShapeless(<minecraft:coal:1>, [<primal:charcoal_good>]);
+//recipes.addShapeless(<minecraft:coal:1>, [<primal:charcoal_high>]);
 
-recipes.addShapeless(<minecraft:coal:1>, [<primal:charcoal_fair>]);
-recipes.addShapeless(<minecraft:coal:1>, [<primal:charcoal_good>]);
-recipes.addShapeless(<minecraft:coal:1>, [<primal:charcoal_high>]);
+//recipes.remove(<forgecraft:stoneanvil>);

@@ -19,6 +19,9 @@ recipes.addShaped(<contenttweaker:grassseed>, [[<minecraft:dye:15>, <minecraft:d
 //recipes.remove(<minecraft:crafting_table>);
 //recipes.addShaped(<minecraft:crafting_table>, [[<betterwithmods:siding_wood:*>, <betterwithmods:siding_wood:*>], [<betterwithmods:siding_wood:*>, <betterwithmods:siding_wood:*>]]);
 
+recipes.remove(<minecraft:flint_and_steel>);
+recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:nuggetSteel>, <minecraft:flint>]);
+
 //Chest
 //recipes.removeShaped(<minecraft:chest>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, null, <ore:plankWood>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 
@@ -86,6 +89,8 @@ mods.jei.JEI.removeAndHide(<ironchest:diamond_obsidian_shulker_upgrade>);
 mods.jei.JEI.removeAndHide(<industrialrenewal:solar_panel>);
 mods.jei.JEI.removeAndHide(<industrialrenewal:sponge_iron>);
 mods.jei.JEI.removeAndHide(<industrialrenewal:stick_iron>);
+mods.jei.JEI.removeAndHide(<industrialrenewal:chunk_loader>);
+
 
 recipes.removeShaped(<industrialrenewal:catwalk_pillar>*6,
  [[<ore:ingotSteel>, <ore:stickIron>, <ore:ingotSteel>],
