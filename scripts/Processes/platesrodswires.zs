@@ -55,8 +55,7 @@ mods.magneticraft.HydraulicPress.addRecipe(<minecraft:iron_ingot>, <railcraft:pl
 mods.magneticraft.HydraulicPress.addRecipe(<minecraft:gold_ingot>, <railcraft:plate:7>, 40, 1, true);
 mods.magneticraft.HydraulicPress.addRecipe(<railcraft:ingot>, <railcraft:plate:1>, 40, 1, true);
 mods.magneticraft.HydraulicPress.addRecipe(<railcraft:ingot:1>, <railcraft:plate:3>, 40, 1, true);
-mods.magneticraft.HydraulicPress.addRecipe(<railcraft:ingot:2>, <materialpart:tin:plate>, 40, 1, true);
-
+mods.magneticraft.HydraulicPress.addRecipe(<railcraft:ingot:2>, <railcraft:plate:2>, 40, 1, true);
 mods.magneticraft.HydraulicPress.addRecipe(<railcraft:ingot:5>, <railcraft:plate:6>, 40, 1, true);
 mods.magneticraft.HydraulicPress.addRecipe(<railcraft:ingot:3>, <railcraft:plate:4>, 40, 1, true);
 mods.magneticraft.HydraulicPress.addRecipe(<railcraft:ingot:4>, <railcraft:plate:5>, 40, 1, true);
@@ -69,22 +68,22 @@ mods.magneticraft.HydraulicPress.addRecipe(<rockhounding_chemistry:metal_items:4
 mods.magneticraft.HydraulicPress.addRecipe(<magneticraft:ingots:5>, <materialpart:tungsten:plate>, 40, 1, true);
 mods.magneticraft.HydraulicPress.addRecipe(<materialpart:ssteel:ingot>, <materialpart:ssteel:plate>, 40, 1, true);
 
-mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate>*7, <materialpart:iron:denseplate>, 50, 2, true);
-mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:7>*7, <materialpart:gold:denseplate>, 50, 2, true);
-mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:1>*7, <materialpart:steel:denseplate>, 50, 2, true);
-mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:3>*7, <materialpart:copper:denseplate>, 50, 2, true);
-mods.magneticraft.HydraulicPress.addRecipe(<materialpart:tin:plate>*7, <materialpart:tin:denseplate>, 50, 2, true);
-mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:6>*7, <materialpart:bronze:denseplate>, 50, 2, true);
-mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:4>*7, <materialpart:lead:denseplate>, 50, 2, true);
-mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:5>*7, <materialpart:silver:denseplate>, 50, 2, true);
-mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:8>*7, <materialpart:nickel:denseplate>, 50, 2, true);
-mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:9>*7, <materialpart:invar:denseplate>, 50, 2, true);
-mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:10>*7, <materialpart:zinc:denseplate>, 50, 2, true);
-mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:11>*7, <materialpart:brass:denseplate>, 50, 2, true);
-mods.magneticraft.HydraulicPress.addRecipe(<materialpart:aluminium:plate>*7, <materialpart:aluminium:denseplate>, 50, 2, true);
-mods.magneticraft.HydraulicPress.addRecipe(<materialpart:titanium:plate>*7, <materialpart:titanium:denseplate>, 50, 2, true);
-mods.magneticraft.HydraulicPress.addRecipe(<materialpart:tungsten:plate>*7, <materialpart:tungsten:denseplate>, 50, 2, true);
-mods.magneticraft.HydraulicPress.addRecipe(<materialpart:ssteel:plate>*7, <materialpart:ssteel:denseplate>, 50, 2, true);
+mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate>*7, <materialpart:iron:denseplate>, 60, 2, true);
+mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:7>*7, <materialpart:gold:denseplate>, 60, 2, true);
+mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:1>*7, <materialpart:steel:denseplate>, 60, 2, true);
+mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:3>*7, <materialpart:copper:denseplate>, 60, 2, true);
+mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:2>*7, <materialpart:tin:denseplate>, 60, 2, true);
+mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:6>*7, <materialpart:bronze:denseplate>, 60, 2, true);
+mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:4>*7, <materialpart:lead:denseplate>, 60, 2, true);
+mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:5>*7, <materialpart:silver:denseplate>, 60, 2, true);
+mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:8>*7, <materialpart:nickel:denseplate>, 60, 2, true);
+mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:9>*7, <materialpart:invar:denseplate>, 60, 2, true);
+mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:10>*7, <materialpart:zinc:denseplate>, 60, 2, true);
+mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:11>*7, <materialpart:brass:denseplate>, 60, 2, true);
+mods.magneticraft.HydraulicPress.addRecipe(<materialpart:aluminium:plate>*7, <materialpart:aluminium:denseplate>, 60, 2, true);
+mods.magneticraft.HydraulicPress.addRecipe(<materialpart:titanium:plate>*7, <materialpart:titanium:denseplate>, 60, 2, true);
+mods.magneticraft.HydraulicPress.addRecipe(<materialpart:tungsten:plate>*7, <materialpart:tungsten:denseplate>, 60, 2, true);
+mods.magneticraft.HydraulicPress.addRecipe(<materialpart:ssteel:plate>*7, <materialpart:ssteel:denseplate>, 60, 2, true);
 
 //Wires
 mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:20>);

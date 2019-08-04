@@ -1,8 +1,6 @@
 mods.jei.JEI.hide(<appliedenergistics2:facade:*>);
 mods.jei.JEI.hide(<microblockcbe:microblock:*>);
 
-furnace.remove(<minecraft:coal:1>);
-
 //Fuel values
 furnace.setFuel(<contenttweaker:scrap8>, 1200);
 

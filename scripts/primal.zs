@@ -2,6 +2,11 @@ mods.jei.JEI.removeAndHide(<primal:fish_trap:*>);
 mods.jei.JEI.removeAndHide(<primal:storage_crate:*>);
 mods.jei.JEI.removeAndHide(<primal:worktable_slab:*>);
 mods.jei.JEI.removeAndHide(<primal:worktable_shelf:*>);
+mods.jei.JEI.removeAndHide(<primal:logs_stacked:*>);
+mods.jei.JEI.removeAndHide(<primal:charcoal_stack:*>);
+mods.jei.JEI.removeAndHide(<primal:charcoal_fair>);
+mods.jei.JEI.removeAndHide(<primal:charcoal_good>);
+mods.jei.JEI.removeAndHide(<primal:charcoal_high>);
 
 //Forgecraft stuff
 recipes.remove(<forgecraft:stoneanvil>);
@@ -137,8 +142,5 @@ mods.primal.Smelter.addRecipe("Crude_iron", 15, [<materialpart:iron:scrapmetal>,
 mods.primal.Hibachi.removeRecipe("ic2_sticky_resin");
 
 //Recipes
-//recipes.addShapeless(<minecraft:coal:1>, [<primal:charcoal_fair>]);
-//recipes.addShapeless(<minecraft:coal:1>, [<primal:charcoal_good>]);
-//recipes.addShapeless(<minecraft:coal:1>, [<primal:charcoal_high>]);
 
 //recipes.remove(<forgecraft:stoneanvil>);

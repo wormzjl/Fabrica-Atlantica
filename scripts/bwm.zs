@@ -2,10 +2,6 @@
 
 
 //removals and unifications
-mods.betterwithmods.Mill.addRecipe([<primal:charcoal_fair>],[<betterwithmods:material:37>]);
-mods.betterwithmods.Mill.addRecipe([<primal:charcoal_good>],[<betterwithmods:material:37>]);
-mods.betterwithmods.Mill.addRecipe([<primal:charcoal_high>],[<betterwithmods:material:37>]);
-
 recipes.removeShaped(<betterwithmods:material:45>, [[<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>], [<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>], [<ore:nuggetDiamond>, <ore:nuggetDiamond>, <ore:nuggetDiamond>]]);
 
 recipes.removeShaped(<minecraft:diamond_helmet>, [[<primal:diamond_plate>, <primal:diamond_plate>, <primal:diamond_plate>], [<primal:iron_ring>, <minecraft:leather_helmet:*>, <primal:iron_ring>]]);
@@ -21,7 +17,7 @@ mods.betterwithmods.Crucible.remove([<minecraft:iron_ingot>]);
 
 mods.betterwithmods.Cauldron.remove([<betterwithmods:material:1>]);
 mods.betterwithmods.Cauldron.addStoked([<betterwithmods:material:16>,<ore:dustCarbon>],[<betterwithmods:material:1>]);
-furnace.setFuel(<betterwithmods:material:1>, 2000);
+furnace.setFuel(<betterwithmods:material:1>, 1600);
 
 mods.betterwithmods.Mill.addRecipe([<contenttweaker:scrap2>],[<materialpart:iron:scrapmetal>]);
 mods.betterwithmods.Mill.addRecipe([<contenttweaker:scrap6>],[<materialpart:iron:scrapmetal>]);

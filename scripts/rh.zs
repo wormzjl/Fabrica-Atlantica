@@ -2,7 +2,7 @@
 
 mods.rockhounding_chemistry.ProfilingBench.removeByOutput(<rockhounding_chemistry:au_catalyst>);
 
-//Rockhounding
+//base
 mods.rockhounding_chemistry.InhibitElements.inhibit("dustIridium");
 mods.rockhounding_chemistry.InhibitElements.inhibit("dustOsmium");
 
@@ -29,9 +29,6 @@ mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_sour_humid>, <liq
 mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_dried>, <liquid:natural_gas_dried>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_sour_dried>, <liquid:natural_gas_sour_dried>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:acid_gas>, <liquid:acid_gas>);
-
-
-//mods.rockhounding_chemistry.SlurryPond.removeByOutput(<liquid:silicone>);
 
 //Condenser
 mods.rockhounding_chemistry.GasCondenser.add(<liquid:helium>*100, <liquid:liquidhelium>*1);

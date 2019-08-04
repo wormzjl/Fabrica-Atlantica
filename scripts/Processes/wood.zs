@@ -1,0 +1,52 @@
+//Fuel values
+furnace.setFuel(<ore:plankWood>, 200);
+furnace.setFuel(<ore:slabWood>, 60);
+furnace.setFuel(<ore:stickWood>, 50);
+furnace.setFuel(<ore:stairWood>, 150);
+furnace.setFuel(<ore:fenceWood>, 75);
+furnace.setFuel(<ore:fenceGateWood>, 200);
+furnace.setFuel(<minecraft:sign>, 50);
+furnace.setFuel(<minecraft:bowl>, 50);
+
+furnace.setFuel(<betterwithmods:siding_wood:*>, 100);
+furnace.setFuel(<betterwithmods:moulding_wood:*>, 50);
+furnace.setFuel(<betterwithmods:corner_wood:*>, 25);
+furnace.setFuel(<betterwithmods:wood_bench:*>, 50);
+furnace.setFuel(<betterwithmods:wood_table:*>, 50);
+
+furnace.setFuel(<pyrotech:cog_wood>, 200);
+furnace.setFuel(<railcraft:generic:5>, 400);
+furnace.setFuel(<railcraft:tank_water>, 0);
+furnace.setFuel(<ic2:scaffold>, 100);
+furnace.setFuel(<ic2:scaffold:1>, 100);
+
+furnace.setFuel(<blockcraftery:editable_fence>, 0);
+furnace.setFuel(<blockcraftery:editable_fence_reinforced>, 0);
+furnace.setFuel(<blockcraftery:editable_door>, 0);
+furnace.setFuel(<blockcraftery:editable_door_reinforced>, 0);
+furnace.setFuel(<blockcraftery:editable_block>, 0);
+furnace.setFuel(<blockcraftery:editable_stairs>, 0);
+furnace.setFuel(<blockcraftery:editable_slant>, 0);
+furnace.setFuel(<blockcraftery:editable_outer_corner>, 0);
+furnace.setFuel(<blockcraftery:editable_inner_corner>, 0);
+furnace.setFuel(<blockcraftery:editable_block_reinforced>, 0);
+furnace.setFuel(<blockcraftery:editable_stairs_reinforced>, 0);
+furnace.setFuel(<blockcraftery:editable_slant_reinforced>, 0);
+furnace.setFuel(<blockcraftery:editable_outer_corner_reinforced>, 0);
+furnace.setFuel(<blockcraftery:editable_inner_corner_reinforced>, 0);
+furnace.setFuel(<blockcraftery:editable_slab>, 0);
+furnace.setFuel(<blockcraftery:editable_wall>, 0);
+furnace.setFuel(<blockcraftery:editable_slab_reinforced>, 0);
+furnace.setFuel(<blockcraftery:editable_wall_reinforced>, 0);
+furnace.setFuel(<blockcraftery:editable_trap_door>, 0);
+furnace.setFuel(<blockcraftery:editable_trap_door_reinforced>, 0);
+furnace.setFuel(<blockcraftery:editable_pressure_plate_all>, 0);
+furnace.setFuel(<blockcraftery:editable_pressure_plate_items>, 0);
+furnace.setFuel(<blockcraftery:editable_pressure_plate_mobs>, 0);
+furnace.setFuel(<blockcraftery:editable_pressure_plate_player>, 0);
+furnace.setFuel(<blockcraftery:editable_pressure_plate_all_reinforced>, 0);
+furnace.setFuel(<blockcraftery:editable_pressure_plate_items_reinforced>, 0);
+furnace.setFuel(<blockcraftery:editable_pressure_plate_mobs_reinforced>, 0);
+furnace.setFuel(<blockcraftery:editable_pressure_plate_player_reinforced>, 0);
+
+//Pyrotech rebalancing
