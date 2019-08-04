@@ -22,12 +22,12 @@ mods.jei.JEI.removeAndHide(<nuclearcraft:portable_ender_chest>);
 //ores
 furnace.remove(<ic2:ingot:8>);
 
-//mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:aluminum>*360);
+mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:aluminum>*360);
 mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:iron>*360);
 mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:gold>*360);
 //mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:lead>*360);
 mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:copper>*360);
-//mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:silver>*360);
+mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:silver>*360);
 mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:tin>*360);
 //mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:nickel>*360);
 mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:boron>*360);
@@ -35,6 +35,7 @@ mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:lithium>*360);
 mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:thorium>*360);
 mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:uranium>*360);
 mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:magnesium>*360);
+
 
 mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:quartz>*1665);
 mods.nuclearcraft.melter.removeRecipeWithOutput(<liquid:lapis>*1665);

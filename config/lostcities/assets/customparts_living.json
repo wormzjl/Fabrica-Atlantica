@@ -11342,10 +11342,6 @@
         ]
       },
       {
-        "char": "l",
-        "block": "minecraft:crafting_table"
-      },
-      {
         "char": "m",
         "block": "minecraft:gravel"
       },
@@ -11400,7 +11396,7 @@
         " hi    id     c ",
         " cdd dddd     h ",
         " ckmmmmmm     c ",
-        " hlmmmmmmm    c ",
+        " hmmmmmmmm    c ",
         " cddmdddmm    h ",
         " cimmmmidmm   h ",
         " cj  mmjdm  n c ",
@@ -12364,10 +12360,6 @@
         ]
       },
       {
-        "char": "l",
-        "block": "minecraft:crafting_table"
-      },
-      {
         "char": "m",
         "block": "chisel:cobblestone2@7"
       },
@@ -12414,7 +12406,7 @@
         " hi    id     c ",
         " cdd dddd     h ",
         " ck           c ",
-        " hl           c ",
+        " h            c ",
         " cdd dddd     h ",
         " ci    id     h ",
         " cj    jd  mm c ",

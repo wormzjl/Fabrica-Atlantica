@@ -28,8 +28,9 @@ recipes.remove(<minecraft:hopper>);
 recipes.addShaped(<minecraft:hopper>, [[<betterwithmods:material:14>, null, <betterwithmods:material:14>], [<betterwithmods:material:14>, <ore:chestWood>, <betterwithmods:material:14>], [null, <betterwithmods:material:14>, null]]);
 recipes.addShaped(<minecraft:hopper>, [[<ore:ingotSteel>, null, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:chestWood>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
 
-recipes.addShaped(<wopper:wopper>, [[<betterwithmods:siding_wood:*>, null, <betterwithmods:siding_wood:*>], [<betterwithmods:siding_wood:*>, <ore:chestWood>, <betterwithmods:siding_wood:*>], [null, <ore:plankWood>, null]]);
-
+//Furnace
+recipes.remove(<minecraft:furnace>);
+recipes.addShaped(<minecraft:furnace>, [[<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, null, <ore:stone>], [<ore:stone>, <ore:ingotSteel>, <ore:stone>]]);
 
 //Water strainer
 recipes.remove(<waterstrainer:strainer_base>);
@@ -81,7 +82,7 @@ mods.jei.JEI.removeAndHide(<ironchest:diamond_crystal_shulker_upgrade>);
 mods.jei.JEI.removeAndHide(<ironchest:vanilla_copper_shulker_upgrade>);
 mods.jei.JEI.removeAndHide(<ironchest:vanilla_iron_shulker_upgrade>);
 mods.jei.JEI.removeAndHide(<ironchest:diamond_obsidian_shulker_upgrade>);
-  
+
 
 //Industrail renewal
 mods.jei.JEI.removeAndHide(<industrialrenewal:solar_panel>);
@@ -137,7 +138,7 @@ recipes.addShaped(<industrialrenewal:platform>*8,
  [[<ore:stickIron>, null, <ore:stickIron>],
   [<ore:stickIron>, <ore:plankWood>, <ore:stickIron>],
   [null, <industrialrenewal:catwalk_pillar>, null]]);
-  
+
 recipes.remove(<industrialrenewal:scaffold>);
 recipes.addShaped(<industrialrenewal:scaffold> * 24, [[<ore:stickIron>, <ore:plankWood>, <ore:stickIron>], [<ore:stickIron>, <ore:stickIron>, <ore:stickIron>], [<ore:stickIron>, null, <ore:stickIron>]]);
 

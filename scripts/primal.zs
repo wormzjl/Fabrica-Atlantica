@@ -7,6 +7,7 @@ mods.jei.JEI.removeAndHide(<primal:charcoal_stack:*>);
 mods.jei.JEI.removeAndHide(<primal:charcoal_fair>);
 mods.jei.JEI.removeAndHide(<primal:charcoal_good>);
 mods.jei.JEI.removeAndHide(<primal:charcoal_high>);
+mods.jei.JEI.removeAndHide(<primal:hibachi:*>);
 
 //Forgecraft stuff
 recipes.remove(<forgecraft:stoneanvil>);
@@ -106,6 +107,7 @@ mods.primal.Smelter.removeRecipe("alloy_shibuichi");
 mods.primal.Smelter.removeRecipe("ore_good_gold");
 mods.primal.Smelter.removeRecipe("ore_sand_iron");
 mods.primal.Smelter.removeRecipe("ore_sand_thorium");
+mods.primal.Smelter.removeRecipe("ore_sand_silver");
 mods.primal.Smelter.removeRecipe("plate_shibuichi");
 mods.primal.Smelter.removeRecipe("dust_aluminum");
 mods.primal.Smelter.removeRecipe("magnetite_ore");
@@ -135,11 +137,19 @@ mods.primal.Smelter.removeRecipe("ore_Lithium");
 mods.primal.Smelter.removeRecipe("ore_Magnesium");
 mods.primal.Smelter.removeRecipe("charcoal_stripped");
 mods.primal.Smelter.removeRecipe("dust_void");
+mods.primal.Smelter.removeRecipe("stone");
+mods.primal.Smelter.removeRecipe("sand");
+mods.primal.Smelter.removeRecipe("netherstone_to_brick");
+mods.primal.Smelter.removeRecipe("netherrack_to_brick");
+mods.primal.Smelter.removeRecipe("appliedenergistics2_smooth_sky_stone");
+
+mods.primal.Hibachi.removeAll()
+//mods.primal.Hibachi.removeRecipe("vanilla_brick");
+//mods.primal.Hibachi.removeRecipe("ic2_sticky_resin");
 
 //Add charcoal variations
 mods.primal.Smelter.addRecipe("Crude_iron", 15, [<materialpart:iron:scrapmetal>, <ore:fluxSmelting>, <minecraft:coal:1>], [<primal:crude_iron_nugget>*3, <primal:slag>]);
 
-mods.primal.Hibachi.removeRecipe("ic2_sticky_resin");
 
 //Recipes
 
