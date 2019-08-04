@@ -1,8 +1,5 @@
 //Furnance
 furnace.remove(<minecraft:coal:1>);
-furnace.setFuel(<pyrotech:log_pile>, 0);
-furnace.setFuel(<pyrotech:wood_tar_block>, 0);
-furnace.setFuel(<pyrotech:living_tar>, 6400);
 
 //Charcoal
 recipes.remove(<primal:logs_split_oak>);
@@ -18,12 +15,13 @@ recipes.remove(<pyrotech:log_pile>);
 recipes.addShapeless(<pyrotech:log_pile>, [<ore:logSplit>, <ore:logSplit>, <ore:logSplit>, <ore:logSplit>, <ore:logSplit>, <ore:logSplit>, <ore:logSplit>, <ore:logSplit>, <ore:logSplit>]);
 
 mods.pyrotech.SoakingPot.removeRecipes(<minecraft:coal_block>);
+mods.pyrotech.PitKiln.removeRecipes(<pyrotech:material:15>);
 
 mods.pyrotech.Burn.removeRecipes(<minecraft:coal:1>);
 mods.pyrotech.Burn.createBuilder("charcoal_1", <minecraft:coal:1>, "pyrotech:log_pile:*")
     .setBurnStages(2)
     .setTotalBurnTimeTicks(4 * 60 * 20)
-    .setFluidProduced(<liquid:wood_tar> * 25)
+    .setFluidProduced(<liquid:wood_tar> * 50)
     .setFailureChance(0.1)
     .addFailureItem(<pyrotech:material:0>)
     .addFailureItem(<pyrotech:material:15> * 2)
@@ -57,3 +55,12 @@ mods.pyrotech.Burn.createBuilder("coke", <immersiveengineering:material:6>, "min
     .setRequiresRefractoryBlocks(true)
     .setFluidLevelAffectsFailureChance(true)
     .register();
+
+//Industrial method
+mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:material:6>);
+mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:stone_decoration:3>);
+mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:coal:1>);
+
+mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:material:6>, 100, <minecraft:coal>, 1600);
+mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:stone_decoration:3>, 900, <minecraft:coal_block>, 14400);
+mods.immersiveengineering.CokeOven.addRecipe(<minecraft:coal:1>, 50, <ore:logWood>, 3200);

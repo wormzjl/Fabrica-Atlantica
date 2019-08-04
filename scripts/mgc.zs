@@ -9,6 +9,8 @@ mods.jei.JEI.removeAndHide(<magneticraft:box>);
 mods.jei.JEI.removeAndHide(<magneticraft:sluice_box>);
 mods.jei.JEI.removeAndHide(<magneticraft:gasification_unit>);
 mods.jei.JEI.removeAndHide(<magneticraft:steam_boiler>);
+mods.jei.JEI.removeAndHide(<magneticraft:crushing_table>);
+
 
 recipes.remove(<magneticraft:solar_panel>);
 recipes.remove(<magneticraft:shelving_unit>);

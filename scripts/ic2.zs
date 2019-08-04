@@ -10,6 +10,9 @@ mods.jei.JEI.removeAndHide(<ic2:resource:14>);
 
 mods.jei.JEI.removeAndHide(<ic2:te:58>);
 mods.jei.JEI.removeAndHide(<ic2:te:87>);
+mods.jei.JEI.removeAndHide(<ic2:te:100>);
+mods.jei.JEI.removeAndHide(<ic2:te:101>);
+mods.jei.JEI.removeAndHide(<ic2:te:102>);
 
 mods.jei.JEI.removeAndHide(<ic2:tool_box:*>);
 
