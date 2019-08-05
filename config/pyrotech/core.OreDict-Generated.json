@@ -7,6 +7,9 @@
     "Item strings are in the format: (domain):(path):(meta)"
   ],
   "oreDict": {
+    "blockFuelCoke": [
+      "pyrotech:coal_coke_block"
+    ],
     "blockGlass": [
       "pyrotech:refractory_glass",
       "pyrotech:slag_glass"
@@ -53,6 +56,9 @@
     "dustLimestone": [
       "pyrotech:material:28"
     ],
+    "fuelCoke": [
+      "pyrotech:material:1"
+    ],
     "mulchNitrogen": [
       "minecraft:mutton",
       "minecraft:rabbit",
@@ -65,6 +71,9 @@
       "minecraft:fish:3",
       "minecraft:porkchop",
       "minecraft:dye:15"
+    ],
+    "oreNetherCoal": [
+      "pyrotech:dense_nether_coal_ore"
     ],
     "rock": [
       "pyrotech:rock:0",
@@ -92,7 +101,8 @@
     ],
     "twine": [
       "minecraft:string",
-      "pyrotech:material:14"
+      "pyrotech:material:14",
+      "pyrotech:material:26"
     ]
   }
 }

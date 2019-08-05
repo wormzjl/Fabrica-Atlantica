@@ -29,6 +29,10 @@ var centrifuge = VanillaFactory.createBlock("centrifuge", <blockmaterial:iron>);
 centrifuge.fullBlock = false;
 centrifuge.register();
 
+var scrapiron = VanillaFactory.createBlock("scrapiron", <blockmaterial:rock>);
+scrapiron.register();
+
+
 //items
 var berylliumingot = VanillaFactory.createItem("berylliumingot");
 berylliumingot.register();

@@ -91,7 +91,7 @@ recipes.removeByRecipeName("immersiveengineering:material/stick_treated");
 mods.nuclearcraft.infuser.removeRecipeWithOutput(<immersiveengineering:treated_wood>);
 
 mods.primal.Cauldron.addRecipe("treated_wood", 4, <liquid:wood_tar>*250, [<ore:plankWood>], [<immersiveengineering:treated_wood>]);
-mods.primal.Cauldron.addRecipe("treated_wood", 4, <liquid:creosote>*250, [<ore:plankWood>], [<immersiveengineering:treated_wood>]);
+mods.primal.Cauldron.addRecipe("treated_wood_2", 4, <liquid:creosote>*250, [<ore:plankWood>], [<immersiveengineering:treated_wood>]);
 
 mods.immersiveengineering.BottlingMachine.addRecipe(<immersiveengineering:treated_wood>, <ore:plankWood>, <liquid:wood_tar>*200);
 mods.immersiveengineering.BottlingMachine.addRecipe(<immersiveengineering:treated_wood>, <ore:plankWood>, <liquid:creosote>*200);

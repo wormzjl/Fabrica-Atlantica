@@ -143,13 +143,12 @@ mods.primal.Smelter.removeRecipe("netherstone_to_brick");
 mods.primal.Smelter.removeRecipe("netherrack_to_brick");
 mods.primal.Smelter.removeRecipe("appliedenergistics2_smooth_sky_stone");
 
-mods.primal.Hibachi.removeAll()
+mods.primal.Hibachi.removeAll();
 //mods.primal.Hibachi.removeRecipe("vanilla_brick");
 //mods.primal.Hibachi.removeRecipe("ic2_sticky_resin");
 
 //Add charcoal variations
 mods.primal.Smelter.addRecipe("Crude_iron", 15, [<materialpart:iron:scrapmetal>, <ore:fluxSmelting>, <minecraft:coal:1>], [<primal:crude_iron_nugget>*3, <primal:slag>]);
-
 
 //Recipes
 

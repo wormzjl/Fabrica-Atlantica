@@ -1,6 +1,7 @@
 //Blocks
 tile.contenttweaker.alumina_block.name=Block of Alumina
 tile.contenttweaker.centrifuge.name=Centrifuge
+tile.contenttweaker.scrapiron.name=Scrap Iron
 
 //Items
 item.contenttweaker.scrap1.name=Scrap Electronics
