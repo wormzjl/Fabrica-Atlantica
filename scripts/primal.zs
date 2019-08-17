@@ -142,6 +142,7 @@ mods.primal.Smelter.removeRecipe("sand");
 mods.primal.Smelter.removeRecipe("netherstone_to_brick");
 mods.primal.Smelter.removeRecipe("netherrack_to_brick");
 mods.primal.Smelter.removeRecipe("appliedenergistics2_smooth_sky_stone");
+mods.primal.Smelter.removeRecipe("bark");
 
 mods.primal.Hibachi.removeAll();
 //mods.primal.Hibachi.removeRecipe("vanilla_brick");

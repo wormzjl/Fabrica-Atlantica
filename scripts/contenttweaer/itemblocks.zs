@@ -29,8 +29,14 @@ var centrifuge = VanillaFactory.createBlock("centrifuge", <blockmaterial:iron>);
 centrifuge.fullBlock = false;
 centrifuge.register();
 
-var scrapiron = VanillaFactory.createBlock("scrapiron", <blockmaterial:rock>);
+var scrapiron = VanillaFactory.createBlock("scrapiron", <blockmaterial:iron>);
 scrapiron.register();
+
+var compressedbark = VanillaFactory.createBlock("compressedbark", <blockmaterial:wood>);
+compressedbark.register();
+
+var compressedsawdust = VanillaFactory.createBlock("compressedsawdust", <blockmaterial:wood>);
+compressedsawdust.register();
 
 
 //items

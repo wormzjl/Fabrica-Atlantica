@@ -14,8 +14,8 @@ recipes.addShaped(<contenttweaker:grassseed>, [[<minecraft:dye:15>, <minecraft:d
 
 //Gated recipes
 //Crafting table
-//recipes.remove(<minecraft:crafting_table>);
-//recipes.addShaped(<minecraft:crafting_table>, [[<betterwithmods:siding_wood:*>, <betterwithmods:siding_wood:*>], [<betterwithmods:siding_wood:*>, <betterwithmods:siding_wood:*>]]);
+recipes.remove(<minecraft:crafting_table>);
+recipes.addShaped(<minecraft:crafting_table>, [[<betterwithmods:siding_wood:*>, <betterwithmods:siding_wood:*>, <betterwithmods:siding_wood:*>], [<betterwithmods:siding_wood:*>, <ore:plateIron>, <betterwithmods:siding_wood:*>], [<betterwithmods:siding_wood:*>, <betterwithmods:siding_wood:*>, <betterwithmods:siding_wood:*>]]);
 
 recipes.remove(<minecraft:flint_and_steel>);
 recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:nuggetSteel>, <minecraft:flint>]);
@@ -218,3 +218,6 @@ recipes.addShaped(<autoverse:pipe> * 4, [[<ore:ingotSteel>, <minecraft:cobblesto
 recipes.addShaped(<autoverse:pipe:1> * 4, [[<ore:ingotSteel>, <minecraft:hopper>, <ore:ingotSteel>], [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 recipes.addShaped(<autoverse:pipe:2> * 4, [[<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>], [<ore:blockGlass>, <ore:blockGlass>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 recipes.addShaped(<autoverse:pipe:3> * 4, [[<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>], [<ore:blockGlass>, <minecraft:comparator>, <ore:blockGlass>], [<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>]]);
+
+recipes.remove(<autoverse:crafter>);
+recipes.addShaped(<autoverse:crafter>, [[<minecraft:redstone>, <minecraft:piston>, <minecraft:redstone>], [<ore:plateIron>, <ore:workbench>, <ore:plateIron>], [<ore:stone>, <pyrotech:mechanical_hopper>, <ore:stone>]]);

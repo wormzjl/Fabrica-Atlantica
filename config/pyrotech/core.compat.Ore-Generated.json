@@ -85,6 +85,7 @@
     "oreIron": {
       "slagColor": "d8af93",
       "langKey": [
+        "industrialrenewal:item.industrialrenewal.chunk_hematite",
         "minecraft:tile.oreIron"
       ],
       "output": [
@@ -140,6 +141,7 @@
         "ariente:tile.ariente.silverore",
         "arienteworld:tile.arienteworld.silverore",
         "better_diving:item.silver_ore",
+        "iceandfire:tile.iceandfire.silverOre",
         "immersiveengineering:tile.immersiveengineering.ore.silver",
         "magneticraft:tile.magneticraft.ores_lead"
       ],

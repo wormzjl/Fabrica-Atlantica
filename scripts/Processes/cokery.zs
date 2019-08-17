@@ -1,5 +1,8 @@
 //Furnance
 furnace.remove(<minecraft:coal:1>);
+furnace.remove(<pyrotech:material:15>);
+mods.pyrotech.StoneKiln.removeRecipes(<pyrotech:material:15>);
+mods.pyrotech.BrickKiln.removeRecipes(<pyrotech:material:15>);
 
 //Charcoal
 recipes.remove(<primal:logs_split_oak>);
@@ -55,6 +58,33 @@ mods.pyrotech.Burn.createBuilder("coke", <immersiveengineering:material:6>, "min
     .setRequiresRefractoryBlocks(true)
     .setFluidLevelAffectsFailureChance(true)
     .register();
+
+//Barkandsawdust
+mods.pyrotech.CompactingBin.addRecipe("bark_compression", <contenttweaker:compressedbark>, <ore:barkWood>, 32, true);
+mods.pyrotech.CompactingBin.addRecipe("sawdust_compression", <contenttweaker:compressedsawdust>, <betterwithmods:material:22>, 64, true);
+
+mods.pyrotech.Burn.createBuilder("charcoal_bark", <minecraft:coal:1>, "contenttweaker:compressedbark:*")
+    .setBurnStages(2)
+    .setTotalBurnTimeTicks(4 * 60 * 20)
+    .setFluidProduced(<liquid:wood_tar> * 50)
+    .setFailureChance(0.5)
+    .addFailureItem(<pyrotech:material:0>)
+    .addFailureItem(<pyrotech:material:15> * 2)
+    .setRequiresRefractoryBlocks(false)
+    .setFluidLevelAffectsFailureChance(true)
+    .register();
+
+mods.pyrotech.Burn.createBuilder("charcoal_sawdust", <minecraft:coal:1>, "contenttweaker:compressedsawdust:*")
+    .setBurnStages(2)
+    .setTotalBurnTimeTicks(4 * 60 * 20)
+    .setFluidProduced(<liquid:wood_tar> * 50)
+    .setFailureChance(0.5)
+    .addFailureItem(<pyrotech:material:0>)
+    .addFailureItem(<pyrotech:material:15> * 2)
+    .setRequiresRefractoryBlocks(false)
+    .setFluidLevelAffectsFailureChance(true)
+    .register();
+
 
 //Industrial method
 mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:material:6>);
