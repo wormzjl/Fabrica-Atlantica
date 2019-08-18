@@ -1,23 +1,56 @@
 [
   {
-    "minheight": 64,
     "mob": ["Squid"],
-    "onjoin":true,
-    "result": "deny"
+    "spawner": true,
+    "isnotcolliding ": true,
+    "maxcount": {
+      "amount": 8,
+      "perplayer": true
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["primal:shark_hammerhead"],
+    "spawner": true,
+    "isnotcolliding ": true,
+    "maxcount": {
+      "amount": 4,
+      "perplayer": true
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["Guardian"],
+    "spawner": true,
+    "isnotcolliding ": true,
+    "maxcount": {
+      "amount": 6,
+      "perplayer": true
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["Elder_guardian"],
+    "spawner": true,
+    "isnotcolliding ": true,
+    "maxcount": {
+      "amount": 2,
+      "perplayer": true
+    },
+    "result": "allow"
   },
   {
     "mob": ["Bat"],
-    "onjoin":true,
-    "result": "deny"
-  },
-  {
-    "hostile": true,
-    "insphere": true,
     "result": "deny"
   },
   {
     "dimension": 0,
-    "minheight": 64,
+    "block": "minecraft:stonebrick",
+    "hostile": true,
+    "result": "deny"
+  },
+  {
+    "maxspawndist": 250,
     "hostile": true,
     "result": "deny"
   }
