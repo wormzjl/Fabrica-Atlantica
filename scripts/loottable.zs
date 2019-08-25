@@ -1,5 +1,5 @@
-import loottweaker.vanilla.loot.LootTables;  
-import loottweaker.vanilla.loot.LootTable;  
+import loottweaker.vanilla.loot.LootTables;
+import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
 
 
@@ -129,3 +129,7 @@ raildungeonchest.addItemEntry(<ic2:filled_tin_can>, 5);
 
 raildungeonchest.addItemEntry(<minecraft:bone>, 10);
 raildungeonchest.addItemEntry(<minecraft:web>, 10);
+
+//Loot additions
+LootTables.getTable("minecraft:entities/guardian").getPool("pool1").addItemEntry(<primal:pelt_animal>, 3);
+LootTables.getTable("minecraft:entities/elder_guardian").getPool("pool1").addItemEntry(<primal:pelt_animal_large>, 3);

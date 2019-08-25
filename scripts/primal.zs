@@ -13,6 +13,12 @@ mods.jei.JEI.removeAndHide(<primal:hibachi:*>);
 recipes.remove(<forgecraft:stoneanvil>);
 recipes.addShaped(<forgecraft:stoneanvil>, [[<ore:ingotIron>], [<ore:stone>]]);
 
+recipes.remove(<forgecraft:forge_brick>);
+recipes.addShaped(<forgecraft:forge_brick>, [[<minecraft:brick>, <primal:slat_iron>, <minecraft:brick>], [<minecraft:brick>, null, <minecraft:brick>], [<minecraft:brick>, <minecraft:brick>, <minecraft:brick>]]);
+
+recipes.remove(<forgecraft:forge_adobe>);
+recipes.addShaped(<forgecraft:forge_adobe>, [[<primal:adobe_brick_dry>, <primal:slat_iron>, <primal:adobe_brick_dry>], [<primal:adobe_brick_dry>, null, <primal:adobe_brick_dry>], [<primal:adobe_brick_dry>, <primal:adobe_brick_dry>, <primal:adobe_brick_dry>]]);
+
 //Smelter
 mods.primal.Smelter.removeRecipe("ore_good_lithium");
 mods.primal.Smelter.removeRecipe("ore_sand_aluminum");
@@ -149,8 +155,14 @@ mods.primal.Hibachi.removeAll();
 //mods.primal.Hibachi.removeRecipe("ic2_sticky_resin");
 
 //Add charcoal variations
-mods.primal.Smelter.addRecipe("Crude_iron", 15, [<materialpart:iron:scrapmetal>, <ore:fluxSmelting>, <minecraft:coal:1>], [<primal:crude_iron_nugget>*3, <primal:slag>]);
+mods.primal.Smelter.addRecipe("Crude_iron", 15, [<materialpart:iron:scrapmetal>, <minecraft:coal:1>], [<primal:crude_iron_nugget>*3, <primal:slag>]);
 
 //Recipes
+recipes.removeByRegex("primal:rock_stone.*");
+recipes.removeByRegex("primal:rock_andesite.*");
+recipes.removeByRegex("primal:rock_diorite.*");
+recipes.removeByRegex("primal:rock_granite.*");
+recipes.removeByRegex("primal:rock_netherrack.*");
 
-//recipes.remove(<forgecraft:stoneanvil>);
+recipes.remove(<pyrotech:flint_and_tinder>);
+recipes.addShapeless(<pyrotech:flint_and_tinder>, [<primal:flint_knapp>, <pyrotech:material:13>, <ore:rock>]);

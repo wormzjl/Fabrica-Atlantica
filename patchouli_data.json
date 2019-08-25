@@ -108,19 +108,19 @@
       ],
       "bookmarks": [],
       "history": [
+        "pyrotech:bloom/anvil_ironclad",
+        "pyrotech:adapt/pit_kiln",
+        "pyrotech:adapt/stone",
+        "pyrotech:survive/hammer_crude",
+        "pyrotech:survive/campfire",
+        "pyrotech:appendix/ignition",
+        "pyrotech:survive/flint_and_tinder",
         "pyrotech:accelerate/refractory_burn",
         "pyrotech:innovate/stone_collector",
         "pyrotech:innovate/charcoal",
         "pyrotech:bloom/wither_forge",
         "pyrotech:accelerate/coal_coke",
-        "pyrotech:accelerate/bloomery",
-        "pyrotech:bloom/bloom",
-        "pyrotech:innovate/stone_sawmill",
-        "pyrotech:survive/chopping_block",
-        "pyrotech:bloom/tools_obsidian",
-        "pyrotech:bloom/shears_gold",
-        "pyrotech:bloom/shears_diamond",
-        "pyrotech:bloom/shards_advanced"
+        "pyrotech:accelerate/bloomery"
       ],
       "completedManualQuests": []
     }

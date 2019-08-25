@@ -41,9 +41,9 @@ recipes.addShaped(<waterstrainer:strainer_survivalist_dense>, [[<ore:stickWood>,
 
 recipes.remove(<waterstrainer:net>);
 recipes.remove(<waterstrainer:net:1>);
-recipes.addShaped(<waterstrainer:net>, [[<ore:cordagePlant>, <ore:cordagePlant>], [<ore:cordagePlant>, <ore:cordagePlant>]]);
-recipes.addShaped(<waterstrainer:net:1>, [[<ore:cordagePlant>, <ore:cordagePlant>, <ore:cordagePlant>], [<ore:cordagePlant>, <ore:cordagePlant>, <ore:cordagePlant>]]);
-recipes.addShaped(<waterstrainer:strainer_fisherman>, [[<ore:cordagePlant>, <ore:cordagePlant>, <ore:cordagePlant>], [<ore:cordagePlant>, <waterstrainer:net>, <ore:cordagePlant>], [<ore:cordagePlant>, <ore:cordagePlant>, <ore:cordagePlant>]]);
+recipes.addShaped(<waterstrainer:net>, [[<pyrotech:material:14>, <pyrotech:material:14>], [<pyrotech:material:14>, <pyrotech:material:14>]]);
+recipes.addShaped(<waterstrainer:net:1>, [[<pyrotech:material:14>, <pyrotech:material:14>, <pyrotech:material:14>], [<pyrotech:material:14>, <pyrotech:material:14>, <pyrotech:material:14>]]);
+recipes.addShaped(<waterstrainer:strainer_fisherman>, [[<pyrotech:material:14>, <pyrotech:material:14>, <pyrotech:material:14>], [<pyrotech:material:14>, <waterstrainer:net>, <pyrotech:material:14>], [<pyrotech:material:14>, <pyrotech:material:14>, <pyrotech:material:14>]]);
 
 recipes.remove(<waterstrainer:strainer_survivalist_solid>);
 recipes.addShaped(<waterstrainer:strainer_survivalist_solid>*2, [[<ore:ingotIron>, <minecraft:iron_bars:*>, <ore:ingotIron>], [<minecraft:iron_bars:*>, <waterstrainer:net>, <minecraft:iron_bars:*>], [<ore:ingotIron>, <minecraft:iron_bars:*>, <ore:ingotIron>]]);

@@ -26,6 +26,10 @@ recipes.addShaped(<ic2:resource:12>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:
 recipes.remove(<ic2:te:3>);
 recipes.addShaped(<ic2:te:3>, [[<ic2:re_battery:*>], [<ic2:resource:12>], [<minecraft:furnace>]]);
 
+recipes.remove(<ic2:te:46>);
+recipes.addShaped(<ic2:te:46>, [[null, <ore:plateSteel>, null], [<ore:plateSteel>, null, <ore:plateSteel>], [<ore:plateSteel>, <minecraft:furnace>, <ore:plateSteel>]]);
+
+
 //Consider moving to RC rolling machine after
 recipes.addShaped(<ic2:ingot>*3, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:platebronze>, <ore:platebronze>, <ore:platebronze>], [<ore:plateTin>, <ore:plateTin>, <ore:plateTin>]]);
 recipes.addShaped(<ic2:ingot>*4, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:platebrass>, <ore:platebrass>, <ore:platebrass>], [<ore:plateTin>, <ore:plateTin>, <ore:plateTin>]]);

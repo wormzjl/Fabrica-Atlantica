@@ -13,5 +13,10 @@
 		"id": "forgecraft",
 		"title": "Kitsu's Forgecraft",
 		"icon": "item:forgecraft:bloomery_brick"
+	},
+	{
+		"id": "pitburn",
+		"title": "Pit Burning",
+		"icon": "item:pyrotech:kiln_pit"
 	}
 ]
