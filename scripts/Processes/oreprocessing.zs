@@ -67,7 +67,7 @@ mods.forgecraft.NBTCrucible.addRecipe(<forgecraft:brokenwootztool>, null, null, 
 
 //Iron processing
 //8 scraps to 1 block, 32 nuggets
-mods.pyrotech.CompactingBin.addRecipe("scrap_iron", <contenttweaker:scrapiron>, <contenttweaker:iron_scrapmetal>, 8);
+mods.pyrotech.MechanicalCompactor.addRecipe("scrap_iron", <contenttweaker:scrapiron>, <contenttweaker:iron_scrapmetal>, 8);
 
 mods.pyrotech.Bloomery.removeBloomeryRecipes(<minecraft:iron_nugget>);
 mods.pyrotech.Bloomery.removeWitherForgeRecipes(<minecraft:iron_nugget>);

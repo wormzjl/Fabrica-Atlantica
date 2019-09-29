@@ -18,5 +18,10 @@
 		"id": "pitburn",
 		"title": "Pit Burning",
 		"icon": "item:pyrotech:kiln_pit"
+	},
+	{
+		"id": "bloomery",
+		"title": "Bloomery",
+		"icon": "item:pyrotech:bloomery"
 	}
 ]

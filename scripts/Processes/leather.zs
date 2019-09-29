@@ -1,8 +1,5 @@
 recipes.remove(<minecraft:leather>);
 
-//Rot flesh to leather
-mods.primal.DryingRack.addRottingRecipe("rotfleshtoleather", 15, 50, <minecraft:rotten_flesh>, <primal:rot>, <primal:hide_raw>);
-
 //Removing BWM tanned leather
 mods.betterwithmods.Cauldron.remove([<betterwithmods:material:6>]);
 mods.betterwithmods.Cauldron.remove([<betterwithmods:material:32>]);

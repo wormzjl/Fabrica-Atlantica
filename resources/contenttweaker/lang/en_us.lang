@@ -1,7 +1,7 @@
 //Blocks
 tile.contenttweaker.alumina_block.name=Block of Alumina
 tile.contenttweaker.centrifuge.name=Centrifuge
-tile.contenttweaker.scrapiron.name=Scrap Iron
+tile.contenttweaker.scrapiron.name=Scrap Iron Block
 tile.contenttweaker.compressedbark.name=Compressed Bark
 tile.contenttweaker.compressedsawdust.name=Compressed Sawdust
 
