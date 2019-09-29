@@ -8,10 +8,11 @@ mods.betterwithmods.Cauldron.remove([<betterwithmods:material:6>]);
 mods.betterwithmods.Cauldron.remove([<betterwithmods:material:32>]);
 
 //Replacement recipes
-recipes.addShapeless(<betterwithmods:material:6>,[<primal:hide_tanned>]);
-recipes.addShapeless(<primal:hide_tanned>,[<betterwithmods:material:6>]);
+//recipes.addShapeless(<betterwithmods:material:6>,[<primal:hide_tanned>]);
+//recipes.addShapeless(<primal:hide_tanned>,[<betterwithmods:material:6>]);
 
 recipes.addShapeless(<betterwithmods:material:32>*2,[<primal:hide_tanned>,<ore:toolShears>.transformDamage(1)]);
+recipes.addShapeless(<betterwithmods:material:32>,[<primal:pigman_leather>,<ore:toolShears>.transformDamage(1)]);
 
 
 //Upgraded process
@@ -24,4 +25,3 @@ mods.betterwithmods.Cauldron.addStoked([<primal:hide_dried>, <betterwithmods:bar
 mods.betterwithmods.Cauldron.addStoked([<primal:hide_dried>, <betterwithmods:bark:6>*8],[<primal:hide_tanned>]);
 
 //Industrial process
-

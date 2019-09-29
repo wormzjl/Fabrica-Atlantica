@@ -30,6 +30,11 @@ mods.betterwithmods.Mill.addRecipe([<contenttweaker:scrap5>],[<materialpart:tin:
 
 mods.betterwithmods.Mill.addRecipe([<primal:salt_dust_fire>],[<betterwithmods:material:26>]);
 
+//Prima quern compa
+mods.betterwithmods.Mill.addRecipe([<ore:barkWood>],[<primal:tannin_ground>]);
+mods.betterwithmods.Mill.addRecipe([<primal:corn_seeds>],[<primal:corn_ground>]);
+mods.betterwithmods.Mill.addRecipe([<primal:nether_vine>],[<primal:inferum_ground>]);
+
 
 //crafting recipes
 recipes.remove(<betterwithmods:single_machine>);

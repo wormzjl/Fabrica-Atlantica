@@ -3,7 +3,10 @@ mods.jei.JEI.removeAndHide(<primal:sinuous_resin>);
 //Primal process
 mods.primal.Cauldron.addRecipe("Formic_acid", 15, <liquid:water> * 50, <liquid:formicacid> * 50, [<forestry:bee_drone_ge:*>], [<forestry:ash>]);
 mods.primal.Cauldron.addRecipe("Raw_rubber", 15, <liquid:formicacid> * 50, null, [<ic2:misc_resource:4>], [<contenttweaker:rawrubber>]);
-mods.primal.DryingRack.addNonRottingRecipe("Raw rubber drying", 5, <contenttweaker:rawrubber>, <contenttweaker:driedrawrubber>);
+mods.primal.DryingRack.addNonRottingRecipe("Raw_rubber", 5, <contenttweaker:rawrubber>, <contenttweaker:driedrawrubber>);
+mods.pyrotech.DryingRack.addRecipe("Raw_rubber", <contenttweaker:driedrawrubber>, <contenttweaker:rawrubber>, 5 * 60 * 20, true);
+
+
 mods.betterwithmods.Cauldron.addUnstoked([<contenttweaker:driedrawrubber>, <betterwithmods:material:37>, <railcraft:dust:1>],[<ic2:crafting>*4]);
 
 //Early Industrial process - need to gate forestry devices further

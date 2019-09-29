@@ -157,7 +157,33 @@ mods.primal.Hibachi.removeAll();
 //Add charcoal variations
 mods.primal.Smelter.addRecipe("Crude_iron", 15, [<materialpart:iron:scrapmetal>, <minecraft:coal:1>], [<primal:crude_iron_nugget>*3, <primal:slag>]);
 
+//quern
+mods.primal.Quern.removeRecipe("dye_red_root");
+mods.primal.Quern.removeRecipe("dye_red_flower");
+mods.primal.Quern.removeRecipe("dye_red_flower_double");
+mods.primal.Quern.removeRecipe("dye_green_weed");
+mods.primal.Quern.removeRecipe("dye_purple_valus");
+mods.primal.Quern.removeRecipe("dye_gray_flower");
+mods.primal.Quern.removeRecipe("dye_pink_flower_double");
+mods.primal.Quern.removeRecipe("dye_pink_flower");
+mods.primal.Quern.removeRecipe("dye_yellow_flower_double");
+mods.primal.Quern.removeRecipe("dye_yellow_flower");
+mods.primal.Quern.removeRecipe("dye_light_blue_flower");
+mods.primal.Quern.removeRecipe("dye_magenta_root");
+mods.primal.Quern.removeRecipe("dye_magenta_flower");
+mods.primal.Quern.removeRecipe("dye_magenta_flower_double");
+mods.primal.Quern.removeRecipe("dye_orange_tulip");
+
+//Drying (0.83x crude rack time)
+mods.primal.DryingRack.addNonRottingRecipe("pt_straw", 12, <minecraft:wheat>, <pyrotech:material:2>);
+mods.primal.DryingRack.addNonRottingRecipe("pt_fiber", 8, <pyrotech:material:12>, <pyrotech:material:13>);
+mods.primal.DryingRack.addNonRottingRecipe("pt_fiber_sapling", 10, <ore:treeSapling>, <pyrotech:material:13>);
+mods.primal.DryingRack.addNonRottingRecipe("pt_sponge", 8, <minecraft:sponge:1>, <minecraft:sponge>);
+mods.primal.DryingRack.addNonRottingRecipe("pt_paper", 5, <pyrotech:material:25>, <minecraft:paper>);
+
+
 //Recipes
+
 recipes.removeByRegex("primal:rock_stone.*");
 recipes.removeByRegex("primal:rock_andesite.*");
 recipes.removeByRegex("primal:rock_diorite.*");
