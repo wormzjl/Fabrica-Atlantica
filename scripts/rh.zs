@@ -31,7 +31,7 @@ mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_sour_dried>, <liq
 mods.rockhounding_chemistry.Transposer.add(<liquid:acid_gas>, <liquid:acid_gas>);
 
 //Condenser
-mods.rockhounding_chemistry.GasCondenser.add(<liquid:helium>*100, <liquid:liquidhelium>*1);
+mods.rockhounding_chemistry.GasCondenser.add(<liquid:helium>*100, <liquid:liquid_helium>*1);
 
 
 //Fuel tweaking

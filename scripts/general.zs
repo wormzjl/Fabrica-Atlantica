@@ -9,6 +9,22 @@ mods.jei.JEI.removeAndHide(<appliedenergistics2:material:40>);
 mods.jei.JEI.removeAndHide(<minecraft:ender_chest>);
 mods.jei.JEI.removeAndHide(<translocators:diamond_nugget>);
 
+//Compact machines
+mods.jei.JEI.removeAndHide(<compactmachines3:psd>);
+mods.jei.JEI.hide(<compactmachines3:machine>);
+mods.jei.JEI.hide(<compactmachines3:machine:1>);
+mods.jei.JEI.hide(<compactmachines3:machine:2>);
+mods.jei.JEI.hide(<compactmachines3:machine:3>);
+mods.jei.JEI.hide(<compactmachines3:machine:4>);
+mods.jei.JEI.hide(<compactmachines3:machine:5>);
+mods.jei.JEI.hide(<compactmachines3:wallbreakable>);
+mods.jei.JEI.hide(<compactmachines3:tunneltool>);
+mods.jei.JEI.hide(<compactmachines3:redstonetunneltool>);
+
+recipes.remove(<compactmachines3:fieldprojector>);
+recipes.addShaped(<compactmachines3:fieldprojector> * 4, [[null, <minecraft:ender_eye>, null], [null, <minecraft:redstone_torch>, null], [<minecraft:diamond>, <ore:plateTitanium>, <minecraft:diamond>]]);
+
+
 recipes.addShaped(<contenttweaker:grassseed>, [[<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>], [<minecraft:dye:15>, <minecraft:wheat_seeds>, <minecraft:dye:15>], [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>]]);
 <contenttweaker:grassseed>.addTooltip("Use this on dirt to get a grass block!");
 

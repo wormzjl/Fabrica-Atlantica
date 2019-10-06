@@ -1,0 +1,39 @@
+{
+  "name": "compactmachines3:machine-small",
+  "target-item": "compactmachines3:machine",
+  "target-meta": 1,
+  "target-count": 1,
+
+  "duration": 440,
+
+  "catalyst": "minecraft:ender_pearl",
+
+  "input-types": {
+    "w": {
+      "id": "immersiveengineering:aluminum_scaffolding_stairs0",
+      "meta": 2
+    },
+    "s": {
+      "id": "immersiveengineering:aluminum_scaffolding_stairs0",
+      "meta": 3
+    },
+    "a": {
+      "id": "immersiveengineering:aluminum_scaffolding_stairs0",
+      "meta": 0
+    },
+    "d": {
+      "id": "immersiveengineering:aluminum_scaffolding_stairs0",
+      "meta": 1
+    },
+    "i": { "id": "minecraft:iron_block"}
+  },
+
+  "symmetrical": true,
+  "shape": [
+    [
+      ["-","w","-"],
+      ["a","i","d"],
+      ["-","s","-"]
+    ]
+  ]
+}
