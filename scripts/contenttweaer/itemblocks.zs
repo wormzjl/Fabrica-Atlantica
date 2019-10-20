@@ -1,4 +1,5 @@
 #loader contenttweaker
+#priority 999
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.ActionResult;

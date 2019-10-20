@@ -1,9 +1,11 @@
+#priority 400
+
 //Mod and item staging
 //mods.ItemStages.addItemStage(String stage, Item/Block/OreDict);
 //mods.recipestages.Recipes.setRecipeStage("one", <minecraft:stone_hoe>);
 //mods.recipestages.Recipes.setRecipeStage("one", "minecraft:boat");
 //mods.recipestages.Recipes.setRecipeStageByMod("one", "minecraft");
-mods.ItemStages.stageModItems("forestry", "forestry");
+//mods.ItemStages.stageModItems("forestry", "forestry");
 
 //Locking mulitiblocks with stages
 mods.multiblockstages.IEMultiBlockStages.addStage("blastfurnace_basic", "IE:BlastFurnace", "Need Research First!");

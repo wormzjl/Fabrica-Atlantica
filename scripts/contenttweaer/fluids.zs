@@ -1,4 +1,5 @@
 #loader contenttweaker
+#priority 1000
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Fluid;
