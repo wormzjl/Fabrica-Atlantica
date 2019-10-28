@@ -15,6 +15,8 @@ mods.jei.JEI.removeAndHide(<ic2:te:100>);
 mods.jei.JEI.removeAndHide(<ic2:te:101>);
 mods.jei.JEI.removeAndHide(<ic2:te:102>);
 
+mods.jei.JEI.removeAndHide(<ic2:refractory_bricks>);
+
 mods.jei.JEI.removeAndHide(<ic2:tool_box:*>);
 
 //Not working

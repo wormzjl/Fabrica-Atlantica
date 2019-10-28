@@ -6,7 +6,6 @@ mods.primal.Cauldron.addRecipe("Raw_rubber", 15, <liquid:formicacid> * 50, null,
 mods.primal.DryingRack.addNonRottingRecipe("Raw_rubber", 5, <contenttweaker:rawrubber>, <contenttweaker:driedrawrubber>);
 mods.pyrotech.DryingRack.addRecipe("Raw_rubber", <contenttweaker:driedrawrubber>, <contenttweaker:rawrubber>, 5 * 60 * 20, true);
 
-
 mods.betterwithmods.Cauldron.addUnstoked([<contenttweaker:driedrawrubber>, <betterwithmods:material:37>, <railcraft:dust:1>],[<ic2:crafting>*4]);
 
 //Early Industrial process - need to gate forestry devices further

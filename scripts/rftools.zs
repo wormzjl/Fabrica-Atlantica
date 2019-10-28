@@ -1,3 +1,5 @@
+//Consider crafter gate (OP)
+
 mods.jei.JEI.removeAndHide(<rftools:powercell>);
 mods.jei.JEI.removeAndHide(<rftools:powercell_advanced>);
 
@@ -18,4 +20,3 @@ mods.jei.JEI.removeAndHide(<rftools:shape_card:7>);
 recipes.remove(<rftools:space_chamber_card>);
 recipes.remove(<rftools:space_chamber>);
 recipes.remove(<rftools:space_chamber_controller>);
-
