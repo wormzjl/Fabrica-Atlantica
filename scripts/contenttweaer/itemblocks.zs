@@ -39,6 +39,26 @@ compressedbark.register();
 var compressedsawdust = VanillaFactory.createBlock("compressedsawdust", <blockmaterial:wood>);
 compressedsawdust.register();
 
+var sssheetmetal = VanillaFactory.createBlock("sssheetmetal", <blockmaterial:iron>);
+sssheetmetal.register();
+
+var hasheetmetal = VanillaFactory.createBlock("hasheetmetal", <blockmaterial:iron>);
+hasheetmetal.register();
+
+var tisheetmetal = VanillaFactory.createBlock("tisheetmetal", <blockmaterial:iron>);
+tisheetmetal.register();
+
+var separatorinternal = VanillaFactory.createBlock("separatorinternal", <blockmaterial:iron>);
+separatorinternal.register();
+
+var columninternal = VanillaFactory.createBlock("columninternal", <blockmaterial:iron>);
+columninternal.register();
+
+var reactorinternal = VanillaFactory.createBlock("reactorinternal", <blockmaterial:iron>);
+reactorinternal.register();
+
+var advreactorinternal = VanillaFactory.createBlock("advreactorinternal", <blockmaterial:iron>);
+advreactorinternal.register();
 
 //items
 var berylliumingot = VanillaFactory.createItem("berylliumingot");
@@ -166,3 +186,31 @@ diaminotoluene.register();
 var advplastic = VanillaFactory.createItem("advplastic");
 advplastic.maxStackSize = 16;
 advplastic.register();
+
+var electromagnet = VanillaFactory.createItem("electromagnet");
+electromagnet.maxStackSize = 1;
+electromagnet.register();
+
+var motor = VanillaFactory.createItem("motor");
+motor.maxStackSize = 1;
+motor.register();
+
+var controller = VanillaFactory.createItem("controller");
+controller.maxStackSize = 1;
+controller.register();
+
+var advcontroller = VanillaFactory.createItem("advcontroller");
+advcontroller.maxStackSize = 1;
+advcontroller.register();
+
+var eengine = VanillaFactory.createItem("eengine");
+eengine.maxStackSize = 1;
+eengine.register();
+
+var nuke = VanillaFactory.createItem("nuke");
+nuke.maxStackSize = 1;
+nuke.register();
+
+var data1 = VanillaFactory.createItem("data1");
+data1.maxStackSize = 1;
+data1.register();

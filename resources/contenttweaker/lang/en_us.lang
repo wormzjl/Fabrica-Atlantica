@@ -4,6 +4,13 @@ tile.contenttweaker.centrifuge.name=Centrifuge
 tile.contenttweaker.scrapiron.name=Scrap Iron Block
 tile.contenttweaker.compressedbark.name=Compressed Bark
 tile.contenttweaker.compressedsawdust.name=Compressed Sawdust
+tile.contenttweaker.sssheetmetal.name=Stainless Steel Sheetmetal
+tile.contenttweaker.hasheetmetal.name=Hastealloy Sheetmetal
+tile.contenttweaker.tisheetmetal.name=Titanium Sheetmetal
+tile.contenttweaker.separatorinternal.name=Separator Internals
+tile.contenttweaker.columninternal.name=Column Internals
+tile.contenttweaker.reactorinternal.name=Reactor Internals
+tile.contenttweaker.advreactorinternal.name=Advanced Reactor Internals
 
 //Items
 item.contenttweaker.scrap1.name=Scrap Electronics
@@ -42,6 +49,13 @@ item.contenttweaker.trinitrotoluene.name=Trinitrotoluene
 item.contenttweaker.diaminotoluene.name=Diaminotoluene
 item.contenttweaker.advplastic.name=Advanced Plastic
 item.contenttweaker.grassseed.name=Grass Seed
+item.contenttweaker.electromagnet.name=Electromagnet
+item.contenttweaker.motor.name=Experimental Motor
+item.contenttweaker.controller.name=Controller Box
+item.contenttweaker.advcontroller.name=Advanced Controller Box
+item.contenttweaker.eengine.name=Electric Engine Unit
+item.contenttweaker.nuke.name=Experimental Calfornium Warhead
+item.contenttweaker.data1.name=Nuclear Testing Data
 
 
 //Materials

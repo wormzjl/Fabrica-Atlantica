@@ -20,6 +20,9 @@ recipes.addShapeless(<pyrotech:log_pile>, [<ore:logSplit>, <ore:logSplit>, <ore:
 mods.pyrotech.SoakingPot.removeRecipes(<minecraft:coal_block>);
 mods.pyrotech.PitKiln.removeRecipes(<pyrotech:material:15>);
 
+mods.pyrotech.CompactingBin.removeRecipes(<pyrotech:pile_wood_chips>);
+mods.pyrotech.Burn.removeRecipes(<pyrotech:material:15>);
+
 mods.pyrotech.Burn.removeRecipes(<minecraft:coal:1>);
 mods.pyrotech.Burn.createBuilder("charcoal_1", <minecraft:coal:1>, "pyrotech:log_pile:*")
     .setBurnStages(2)
