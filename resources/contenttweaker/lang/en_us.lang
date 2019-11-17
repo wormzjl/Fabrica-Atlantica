@@ -11,6 +11,7 @@ tile.contenttweaker.separatorinternal.name=Separator Internals
 tile.contenttweaker.columninternal.name=Column Internals
 tile.contenttweaker.reactorinternal.name=Reactor Internals
 tile.contenttweaker.advreactorinternal.name=Advanced Reactor Internals
+tile.contenttweaker.membrane.name=Membrane
 
 //Items
 item.contenttweaker.scrap1.name=Scrap Electronics

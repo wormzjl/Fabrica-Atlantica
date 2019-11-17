@@ -1,6 +1,6 @@
 {
     "registryname": "steamcrackerlarge",
-    "localizedname": "Large Steam Cracking Furnace",
+    "localizedname": "Steam Cracking Furnace (Large)",
     "color": "666666",
     "parts": [
         {
@@ -180,6 +180,14 @@
             ]
         },
         {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "pressure:pipe@0"
+            ]
+        },
+        {
             "x": 1,
             "y": -1,
             "z": 0,
@@ -468,6 +476,14 @@
             ]
         },
         {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "pressure:pipe@0"
+            ]
+        },
+        {
             "x": -2,
             "y": 2,
             "z": 0,
@@ -492,11 +508,19 @@
             ]
         },
         {
+            "x": 1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "pressure:pipe@0"
+            ]
+        },
+        {
             "x": 2,
             "y": 6,
             "z": 2,
             "elements": [
-                "pyrotech:refractory_brick_block@0"
+                "pressure:pipe@0"
             ]
         },
         {
@@ -512,7 +536,7 @@
             "y": 6,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "modularmachinery:blockfluidoutputhatch"
             ]
         },
         {
@@ -556,7 +580,23 @@
             ]
         },
         {
+            "x": -1,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
             "x": 0,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
             "y": 0,
             "z": 15,
             "elements": [
@@ -4972,6 +5012,14 @@
             ]
         },
         {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
             "x": 3,
             "y": 8,
             "z": 5,
@@ -5001,6 +5049,14 @@
             "z": 3,
             "elements": [
                 "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -6368,7 +6424,7 @@
             "y": 0,
             "z": 14,
             "elements": [
-                "pyrotech:refractory_brick_block@0"
+                "railcraft:equipment@3"
             ]
         },
         {
@@ -6744,7 +6800,7 @@
             "y": 2,
             "z": 14,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "modularmachinery:blockfluidinputhatch"
             ]
         },
         {
@@ -6768,7 +6824,15 @@
             "y": 2,
             "z": 14,
             "elements": [
-                "pyrotech:refractory_brick_block@0"
+                "pressure:pipe@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "pressure:pipe@0"
             ]
         },
         {
@@ -6785,6 +6849,14 @@
             "z": 16,
             "elements": [
                 "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "pressure:pipe@0"
             ]
         },
         {
@@ -6937,6 +7009,14 @@
             "z": 16,
             "elements": [
                 "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "pressure:pipe@0"
             ]
         },
         {
@@ -7137,6 +7217,14 @@
             "z": 16,
             "elements": [
                 "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "pressure:pipe@0"
             ]
         },
         {
@@ -7284,6 +7372,14 @@
             ]
         },
         {
+            "x": 0,
+            "y": 5,
+            "z": 14,
+            "elements": [
+                "pressure:pipe@0"
+            ]
+        },
+        {
             "x": -2,
             "y": 1,
             "z": 12,
@@ -7356,6 +7452,14 @@
             ]
         },
         {
+            "x": 0,
+            "y": 6,
+            "z": 14,
+            "elements": [
+                "pressure:pipe@0"
+            ]
+        },
+        {
             "x": -2,
             "y": 2,
             "z": 12,
@@ -7372,11 +7476,19 @@
             ]
         },
         {
+            "x": 1,
+            "y": 6,
+            "z": 14,
+            "elements": [
+                "pressure:pipe@0"
+            ]
+        },
+        {
             "x": 2,
             "y": 6,
             "z": 14,
             "elements": [
-                "pyrotech:refractory_brick_block@0"
+                "pressure:pipe@0"
             ]
         },
         {
@@ -7392,7 +7504,7 @@
             "y": 6,
             "z": 14,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "modularmachinery:blockfluidoutputhatch"
             ]
         },
         {
@@ -10112,7 +10224,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "pyrotech:refractory_brick_block@0"
+                "railcraft:equipment@3"
             ]
         },
         {
@@ -10432,7 +10544,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "modularmachinery:blockfluidinputhatch"
             ]
         },
         {
@@ -10464,7 +10576,15 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "pyrotech:refractory_brick_block@0"
+                "pressure:pipe@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "pressure:pipe@0"
             ]
         },
         {
@@ -10487,6 +10607,14 @@
             "x": 2,
             "y": 6,
             "z": 4,
+            "elements": [
+                "pressure:pipe@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
             "elements": [
                 "pressure:pipe@0"
             ]
@@ -10620,6 +10748,14 @@
             ]
         },
         {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "pressure:pipe@0"
+            ]
+        },
+        {
             "x": 3,
             "y": 7,
             "z": 4,
@@ -10729,6 +10865,14 @@
             "z": 4,
             "elements": [
                 "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "pressure:pipe@0"
             ]
         },
         {

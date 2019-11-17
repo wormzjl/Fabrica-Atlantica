@@ -60,6 +60,9 @@ reactorinternal.register();
 var advreactorinternal = VanillaFactory.createBlock("advreactorinternal", <blockmaterial:iron>);
 advreactorinternal.register();
 
+var membrane = VanillaFactory.createBlock("membrane", <blockmaterial:iron>);
+membrane.register();
+
 //items
 var berylliumingot = VanillaFactory.createItem("berylliumingot");
 berylliumingot.register();

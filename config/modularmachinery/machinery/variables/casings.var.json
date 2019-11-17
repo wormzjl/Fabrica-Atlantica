@@ -22,5 +22,9 @@
     "casings_item": [
         "modularmachinery:blockinputbus",
         "modularmachinery:blockoutputbus"
+    ],
+    "casings_catalyst": [
+        "modularmachinery:blockcatalystbus",
+        "modularmachinery:blockcatalystbusbroken"
     ]
 }
