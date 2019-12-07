@@ -1,6 +1,6 @@
 {
-    "registryname": "hdtsmall",
-    "localizedname": "Hydrotreating Reactor (Small)",
+    "registryname": "reactoradvsmall",
+    "localizedname": "Advanced Fixed Bed Reactor (Small)",
     "color": "F3FAFF",
     "parts": [
         {
@@ -40,12 +40,28 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "modularmachinery:blockredstonebus@0"
             ]
         },
         {
             "x": 1,
             "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
             "z": 2,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
@@ -72,7 +88,7 @@
             "y": 7,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch"
+                "casings_catalyst"
             ]
         },
         {
@@ -229,8 +245,32 @@
         },
         {
             "x": -1,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -1,
             "y": 6,
             "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "contenttweaker:reactorinternal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 1,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
             ]
@@ -296,7 +336,7 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "casings_catalyst"
+                "contenttweaker:advreactorinternal@0"
             ]
         },
         {
@@ -372,9 +412,57 @@
             ]
         },
         {
+            "x": -1,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
             "x": 0,
             "y": 7,
             "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 2,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
             ]
@@ -396,11 +484,19 @@
             ]
         },
         {
+            "x": 1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
             "x": 0,
             "y": 5,
             "z": 1,
             "elements": [
-                "casings_catalyst"
+                "contenttweaker:reactorinternal@0"
             ]
         },
         {
@@ -493,8 +589,56 @@
         },
         {
             "x": -1,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -1,
             "y": 6,
             "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 2,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
             ]
@@ -504,7 +648,7 @@
             "y": 6,
             "z": 1,
             "elements": [
-                "contenttweaker:reactorinternal@0"
+                "casings_catalyst"
             ]
         },
         {
@@ -528,7 +672,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "modularmachinery:blockfluidinputhatch"
             ]
         },
         {
@@ -560,7 +704,7 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "modularmachinery:blockfluidoutputhatch"
             ]
         },
         {

@@ -1,17 +1,9 @@
 {
-    "registryname": "advhdtsmall",
-    "localizedname": "Advanced Hydrotreating Reactor (Small)",
+    "registryname": "reactorfccmedium",
+    "localizedname": "FCC Reactor (Medium)",
     "color": "F3FAFF",
     "parts": [
         {
-            "x": -1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
             "x": 1,
             "y": 2,
             "z": 1,
@@ -21,7 +13,31 @@
         },
         {
             "x": 1,
-            "y": 0,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
             "z": 0,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
@@ -29,24 +45,25 @@
         },
         {
             "x": -1,
-            "y": 0,
-            "z": 2,
+            "y": 11,
+            "z": 1,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
             ]
         },
         {
             "x": 0,
-            "y": 0,
-            "z": 2,
+            "y": 11,
+            "z": 1,
+            "nbt": {"input":"0b","size":"0","casingColor":"6710886","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilefluidoutputhatch","tank":{"Empty":""}},
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "modularmachinery:blockfluidoutputhatch@0"
             ]
         },
         {
             "x": 1,
-            "y": 0,
-            "z": 2,
+            "y": 11,
+            "z": 1,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
             ]
@@ -56,6 +73,406 @@
             "y": 9,
             "z": 0,
             "elements": [
+                "contenttweaker:reactorinternal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "contenttweaker:reactorinternal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "contenttweaker:reactorinternal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 1,
+            "elements": [
                 "immersiveengineering:sheetmetal@1"
             ]
         },
@@ -64,11 +481,35 @@
             "y": 9,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:reactorinternal@0"
             ]
         },
         {
             "x": -1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 2,
             "y": 7,
             "z": 1,
             "elements": [
@@ -76,128 +517,8 @@
             ]
         },
         {
-            "x": -1,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "casings_catalyst"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
             "x": 1,
             "y": 5,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "contenttweaker:advreactorinternal@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
             "z": 0,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
@@ -212,8 +533,40 @@
             ]
         },
         {
+            "x": 1,
+            "y": 9,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
             "x": -1,
-            "y": -1,
+            "y": 9,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
             "z": 1,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
@@ -221,24 +574,16 @@
         },
         {
             "x": 0,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockfluidoutputhatch"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
+            "y": 10,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:reactorinternal@0"
             ]
         },
         {
-            "x": 1,
-            "y": -1,
-            "z": 1,
+            "x": -2,
+            "y": 6,
+            "z": 0,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
             ]
@@ -248,23 +593,15 @@
             "y": 8,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:reactorinternal@0"
             ]
         },
         {
-            "x": -1,
-            "y": 6,
-            "z": 0,
+            "x": 2,
+            "y": 10,
+            "z": 2,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 1,
-            "elements": [
-                "contenttweaker:advreactorinternal@0"
             ]
         },
         {
@@ -272,100 +609,20 @@
             "y": 8,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:reactorinternal@0"
             ]
         },
         {
-            "x": 0,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
+            "x": 2,
+            "y": 8,
             "z": 1,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
             ]
         },
         {
-            "x": -1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 1,
+            "x": 2,
             "y": 6,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "contenttweaker:advreactorinternal@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
             "z": 0,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
@@ -375,8 +632,9 @@
             "x": 0,
             "y": 2,
             "z": 2,
+            "nbt": {"busSize":"0","casingColor":"6710886","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tileiteminputbus","inventory":{"inventoryArray":[{"holderEmpty":"1b","holderId":"0"}],"outSlots":,"miscSlots":,"inSlots":,"sides":}},
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "modularmachinery:blockinputbus@0"
             ]
         },
         {
@@ -391,16 +649,9 @@
             "x": 0,
             "y": 0,
             "z": 1,
+            "nbt": {"input":"1b","size":"0","casingColor":"6710886","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilefluidinputhatch","tank":{"Empty":""}},
             "elements": [
-                "contenttweaker:advreactorinternal@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "modularmachinery:blockfluidinputhatch@0"
             ]
         },
         {
@@ -412,7 +663,31 @@
             ]
         },
         {
+            "x": 1,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
             "x": -1,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -2,
             "y": 9,
             "z": 1,
             "elements": [
@@ -420,17 +695,41 @@
             ]
         },
         {
+            "x": -1,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
             "x": 0,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -1,
             "y": 9,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch"
+                "contenttweaker:reactorinternal@0"
             ]
         },
         {
-            "x": -1,
-            "y": 7,
-            "z": 0,
+            "x": 1,
+            "y": 11,
+            "z": 2,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
             ]
@@ -440,53 +739,21 @@
             "y": 9,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:reactorinternal@0"
             ]
         },
         {
-            "x": 0,
-            "y": 7,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
+            "x": 2,
+            "y": 9,
             "z": 1,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
             ]
         },
         {
-            "x": 0,
+            "x": 2,
             "y": 7,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 2,
+            "z": 0,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
             ]
@@ -494,45 +761,13 @@
         {
             "x": 0,
             "y": 5,
-            "z": 1,
-            "elements": [
-                "contenttweaker:advreactorinternal@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 1,
+            "z": 3,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
             ]
         },
         {
             "x": 0,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": -1,
             "y": 3,
             "z": 2,
             "elements": [
@@ -549,26 +784,10 @@
         },
         {
             "x": 0,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
             "y": 1,
             "z": 1,
             "elements": [
-                "casings_catalyst"
+                "contenttweaker:reactorinternal@0"
             ]
         },
         {
@@ -580,15 +799,39 @@
             ]
         },
         {
+            "x": 1,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
             "x": 0,
-            "y": -1,
-            "z": 2,
+            "y": 7,
+            "z": -1,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
             ]
         },
         {
             "x": -1,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@1"
+            ]
+        },
+        {
+            "x": -2,
             "y": 8,
             "z": 0,
             "elements": [
@@ -596,25 +839,41 @@
             ]
         },
         {
-            "x": 0,
-            "y": 8,
-            "z": 0,
+            "x": -1,
+            "y": 10,
+            "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:reactorinternal@0"
             ]
         },
         {
             "x": 1,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "contenttweaker:reactorinternal@0"
+            ]
+        },
+        {
+            "x": 0,
             "y": 8,
             "z": 0,
+            "elements": [
+                "contenttweaker:reactorinternal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 1,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
             ]
         },
         {
-            "x": -1,
+            "x": 2,
             "y": 8,
-            "z": 2,
+            "z": 0,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
             ]
@@ -622,23 +881,7 @@
         {
             "x": -1,
             "y": 6,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 2,
+            "z": 3,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
             ]
@@ -646,15 +889,7 @@
         {
             "x": 0,
             "y": 6,
-            "z": 1,
-            "elements": [
-                "casings_catalyst"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 0,
+            "z": 3,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
             ]
@@ -662,7 +897,7 @@
         {
             "x": 1,
             "y": 6,
-            "z": 1,
+            "z": 3,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
             ]
@@ -670,25 +905,10 @@
         {
             "x": 0,
             "y": 4,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
             "z": 2,
+            "nbt": {"busSize":"0","casingColor":"6710886","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tileitemoutputbus","inventory":{"inventoryArray":[{"holderEmpty":"1b","holderId":"0"}],"outSlots":,"miscSlots":,"inSlots":,"sides":}},
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "modularmachinery:blockoutputbus@0"
             ]
         },
         {
@@ -697,30 +917,6 @@
             "z": 1,
             "elements": [
                 "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockfluidoutputhatch"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "casings_catalyst"
             ]
         }
     ]}

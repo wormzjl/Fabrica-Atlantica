@@ -97,16 +97,17 @@ var invar = MaterialSystem.getMaterialBuilder().setName("Invar").setColor(128296
 var zinc = MaterialSystem.getMaterialBuilder().setName("Zinc").setColor(15724793).build();
 var brass = MaterialSystem.getMaterialBuilder().setName("Brass").setColor(12886272).build();
 var aluminium = MaterialSystem.getMaterialBuilder().setName("Aluminium").setColor(14611184).build();
-var titanium = MaterialSystem.getMaterialBuilder().setName("Titanium").setColor(16777215).build();
+var titanium = MaterialSystem.getMaterialBuilder().setName("Titanium").setColor(16183039).build();
 var tungsten = MaterialSystem.getMaterialBuilder().setName("Tungsten").setColor(4868682).build();
 var ssteel = MaterialSystem.getMaterialBuilder().setName("Ssteel").setColor(15989503).build();
+var hastelloy = MaterialSystem.getMaterialBuilder().setName("Hastelloy").setColor(14024681).build();
 
 
-var metal_list = [iron, gold, steel, copper, tin, bronze, lead, silver, nickel, invar, zinc, brass, aluminium, titanium, tungsten, ssteel] as Material[];
+var metal_list = [iron, gold, steel, copper, tin, bronze, lead, silver, nickel, invar, zinc, brass, aluminium, titanium, tungsten, ssteel, hastelloy] as Material[];
 var gear_base = [iron, steel, bronze, invar] as Material[];
 var gear_adv = [ssteel, titanium, tungsten] as Material[];
 var gear_all = [iron, steel, bronze, invar, ssteel, titanium, tungsten] as Material[];
-var plate_all = [aluminium, titanium, tungsten, ssteel] as Material[];
+var plate_all = [aluminium, titanium, tungsten, ssteel, hastelloy] as Material[];
 var part_names = ["rod", "denseplate", "dusttiny"] as string[];
 
 for i, metal in metal_list {
@@ -130,6 +131,7 @@ for i, metal in plate_all {
 }
 
 ssteel.registerPart("ingot");
+hastelloy.registerPart("ingot");
 
 //Scraps
 var scraps_list = [iron, gold, copper, tin, lead, silver] as Material[];

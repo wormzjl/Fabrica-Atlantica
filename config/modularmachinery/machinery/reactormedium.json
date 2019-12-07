@@ -1,6 +1,6 @@
 {
-    "registryname": "hdtmedium",
-    "localizedname": "Hydrotreating Reactor (Medium)",
+    "registryname": "reactormedium",
+    "localizedname": "Fixed Bed Reactor (Medium)",
     "color": "F3FAFF",
     "parts": [
         {
@@ -56,7 +56,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "modularmachinery:blockredstonebus@0"
             ]
         },
         {
