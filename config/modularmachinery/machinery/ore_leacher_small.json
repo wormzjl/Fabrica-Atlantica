@@ -8,7 +8,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "railcraft:metal@7"
+                "industrialrenewal:catwalk_steel_pillar@0"
             ]
         },
         {
@@ -32,7 +32,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "railcraft:metal@7"
+                "industrialrenewal:catwalk_steel_pillar@0"
             ]
         },
         {
@@ -48,7 +48,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "railcraft:metal@7"
+                "industrialrenewal:catwalk_steel_pillar@0"
             ]
         },
         {
@@ -64,7 +64,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "railcraft:metal@7"
+                "industrialrenewal:catwalk_steel_pillar@0"
             ]
         },
         {
@@ -73,6 +73,14 @@
             "z": 3,
             "elements": [
                 "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "railcraft:metal@7"
             ]
         },
         {
@@ -92,11 +100,43 @@
             ]
         },
         {
+            "x": -1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@4"
+            ]
+        },
+        {
             "x": 1,
             "y": -1,
             "z": 0,
             "elements": [
                 "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@4"
             ]
         },
         {
@@ -166,14 +206,190 @@
         {
             "x": 0,
             "y": 1,
+            "z": 4,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
             "z": 4,
             "elements": [
                 "modularmachinery:blockoutputbus"
             ]
         },
         {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
             "x": 0,
-            "y": -1,
+            "y": 0,
             "z": 3,
             "elements": [
                 "railcraft:metal@7"
@@ -181,151 +397,143 @@
         },
         {
             "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -2,
             "y": 1,
+            "z": 3,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
             "z": 4,
             "elements": [
                 "railcraft:metal@7"
             ]
         },
         {
-            "x": 2,
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -1,
             "y": -1,
-            "z": 3,
-            "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
             "z": 2,
             "elements": [
                 "railcraft:metal@7"
             ]
         },
         {
-            "x": 1,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
             "x": 0,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
+            "y": -1,
             "z": 2,
             "elements": [
                 "modularmachinery:blockenergyinputhatch"
@@ -333,62 +541,14 @@
         },
         {
             "x": 1,
-            "y": 0,
+            "y": 1,
             "z": 3,
             "elements": [
-                "railcraft:metal@7"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
             "x": 2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -2,
             "y": 1,
             "z": 3,
             "elements": [
@@ -396,31 +556,7 @@
             ]
         },
         {
-            "x": -1,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockfluidoutputhatch"
-            ]
-        },
-        {
             "x": 1,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -1,
             "y": -1,
             "z": 2,
             "elements": [
@@ -428,8 +564,128 @@
             ]
         },
         {
+            "x": -2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
             "x": 0,
-            "y": -1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
             "z": 2,
             "elements": [
                 "immersiveengineering:metal_decoration0@2"
@@ -437,70 +693,6 @@
         },
         {
             "x": 2,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockinputbus"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -2,
             "y": 2,
             "z": 3,
             "elements": [
@@ -508,23 +700,7 @@
             ]
         },
         {
-            "x": -1,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -2,
+            "x": 1,
             "y": 0,
             "z": 2,
             "elements": [
@@ -532,15 +708,15 @@
             ]
         },
         {
-            "x": 1,
-            "y": 4,
-            "z": 4,
+            "x": 2,
+            "y": 0,
+            "z": 2,
             "elements": [
                 "railcraft:metal@7"
             ]
         },
         {
-            "x": -2,
+            "x": 2,
             "y": -2,
             "z": 1,
             "elements": [
@@ -548,8 +724,64 @@
             ]
         },
         {
+            "x": -2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
             "x": -1,
-            "y": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
             "z": 2,
             "elements": [
                 "railcraft:metal@7"
@@ -557,138 +789,50 @@
         },
         {
             "x": 0,
-            "y": 0,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
             "z": 2,
             "elements": [
                 "modularmachinery:blockcasing@3"
             ]
         },
         {
-            "x": 2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:metal_decoration1@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:metal_decoration1@4"
-            ]
-        },
-        {
             "x": 0,
             "y": -1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockredstonebus@0"
+                "railcraft:metal@7"
             ]
         },
         {
@@ -704,7 +848,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "immersiveengineering:metal_decoration1@4"
+                "modularmachinery:blockcasing@2"
             ]
         },
         {
@@ -724,209 +868,9 @@
             ]
         },
         {
-            "x": -2,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
             "x": -1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:metal_decoration1@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:metal_decoration1@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
+            "y": 8,
             "z": 1,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:metal_decoration1@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:metal_decoration1@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:metal_decoration1@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:metal_decoration1@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "railcraft:metal@7"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 2,
             "elements": [
                 "railcraft:metal@7"
             ]
@@ -934,31 +878,31 @@
         {
             "x": -1,
             "y": 6,
-            "z": 3,
+            "z": 0,
             "elements": [
                 "railcraft:metal@7"
             ]
         },
         {
-            "x": -2,
-            "y": 2,
+            "x": 0,
+            "y": 8,
             "z": 1,
             "elements": [
                 "railcraft:metal@7"
             ]
         },
         {
-            "x": -1,
-            "y": 4,
-            "z": 2,
+            "x": 1,
+            "y": 8,
+            "z": 1,
             "elements": [
-                "immersiveengineering:metal_decoration1@4"
+                "railcraft:metal@7"
             ]
         },
         {
             "x": 0,
             "y": 6,
-            "z": 3,
+            "z": 0,
             "elements": [
                 "modularmachinery:blockfluidinputhatch"
             ]
@@ -966,9 +910,337 @@
         {
             "x": 1,
             "y": 6,
+            "z": 0,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
             "z": 3,
             "elements": [
                 "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "railcraft:metal@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@4"
             ]
         },
         {
@@ -977,6 +1249,14 @@
             "z": 2,
             "elements": [
                 "immersiveengineering:metal_decoration1@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "railcraft:metal@7"
             ]
         },
         {
