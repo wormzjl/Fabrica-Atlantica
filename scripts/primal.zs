@@ -9,6 +9,10 @@ mods.jei.JEI.removeAndHide(<primal:charcoal_good>);
 mods.jei.JEI.removeAndHide(<primal:charcoal_high>);
 mods.jei.JEI.removeAndHide(<primal:hibachi:*>);
 
+mods.jei.JEI.removeAndHide(<primal:quern:*>);
+mods.jei.JEI.removeAndHide(<primal:quern_buhrstone_carbonate>);
+mods.primal.Quern.removeAll();
+
 //Forgecraft stuff
 recipes.remove(<forgecraft:stoneanvil>);
 recipes.addShaped(<forgecraft:stoneanvil>, [[<ore:ingotIron>], [<ore:stone>]]);
@@ -158,21 +162,21 @@ mods.primal.Hibachi.removeAll();
 mods.primal.Smelter.addRecipe("Crude_iron", 15, [<materialpart:iron:scrapmetal>, <minecraft:coal:1>], [<primal:crude_iron_nugget>*3, <primal:slag>]);
 
 //quern
-mods.primal.Quern.removeRecipe("dye_red_root");
-mods.primal.Quern.removeRecipe("dye_red_flower");
-mods.primal.Quern.removeRecipe("dye_red_flower_double");
-mods.primal.Quern.removeRecipe("dye_green_weed");
-mods.primal.Quern.removeRecipe("dye_purple_valus");
-mods.primal.Quern.removeRecipe("dye_gray_flower");
-mods.primal.Quern.removeRecipe("dye_pink_flower_double");
-mods.primal.Quern.removeRecipe("dye_pink_flower");
-mods.primal.Quern.removeRecipe("dye_yellow_flower_double");
-mods.primal.Quern.removeRecipe("dye_yellow_flower");
-mods.primal.Quern.removeRecipe("dye_light_blue_flower");
-mods.primal.Quern.removeRecipe("dye_magenta_root");
-mods.primal.Quern.removeRecipe("dye_magenta_flower");
-mods.primal.Quern.removeRecipe("dye_magenta_flower_double");
-mods.primal.Quern.removeRecipe("dye_orange_tulip");
+//mods.primal.Quern.removeRecipe("dye_red_root");
+//mods.primal.Quern.removeRecipe("dye_red_flower");
+//mods.primal.Quern.removeRecipe("dye_red_flower_double");
+//mods.primal.Quern.removeRecipe("dye_green_weed");
+//mods.primal.Quern.removeRecipe("dye_purple_valus");
+//mods.primal.Quern.removeRecipe("dye_gray_flower");
+//mods.primal.Quern.removeRecipe("dye_pink_flower_double");
+//mods.primal.Quern.removeRecipe("dye_pink_flower");
+//mods.primal.Quern.removeRecipe("dye_yellow_flower_double");
+//mods.primal.Quern.removeRecipe("dye_yellow_flower");
+//mods.primal.Quern.removeRecipe("dye_light_blue_flower");
+//mods.primal.Quern.removeRecipe("dye_magenta_root");
+//mods.primal.Quern.removeRecipe("dye_magenta_flower");
+//mods.primal.Quern.removeRecipe("dye_magenta_flower_double");
+//mods.primal.Quern.removeRecipe("dye_orange_tulip");
 
 //Drying (0.83x crude rack time)
 mods.primal.DryingRack.addNonRottingRecipe("pt_straw", 12, <minecraft:wheat>, <pyrotech:material:2>);

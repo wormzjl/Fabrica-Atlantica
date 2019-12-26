@@ -87,6 +87,7 @@ base.material.aluminium=Aluminium
 base.material.titanium=Titanium
 base.material.tungsten=Tungsten
 base.material.ssteel=Stainless Steel
+base.material.hastelloy=Hastelloy
 
 contenttweaker.part.ore_high=High Grade %s Ore
 contenttweaker.part.ore_low=Low Grade %s Ore

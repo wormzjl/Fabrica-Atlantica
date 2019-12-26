@@ -15,6 +15,16 @@ mods.jei.JEI.removeAndHide(<ic2:te:100>);
 mods.jei.JEI.removeAndHide(<ic2:te:101>);
 mods.jei.JEI.removeAndHide(<ic2:te:102>);
 
+mods.jei.JEI.removeAndHide(<ic2:te:111>);
+mods.jei.JEI.removeAndHide(<ic2:te:112>);
+mods.jei.JEI.removeAndHide(<ic2:te:113>);
+mods.jei.JEI.removeAndHide(<ic2:te:114>);
+mods.jei.JEI.removeAndHide(<ic2:te:115>);
+mods.jei.JEI.removeAndHide(<ic2:te:131>);
+mods.jei.JEI.removeAndHide(<ic2:te:132>);
+mods.jei.JEI.removeAndHide(<ic2:te:133>);
+mods.jei.JEI.removeAndHide(<ic2:te:134>);
+
 mods.jei.JEI.removeAndHide(<ic2:refractory_bricks>);
 
 mods.jei.JEI.removeAndHide(<ic2:tool_box:*>);
