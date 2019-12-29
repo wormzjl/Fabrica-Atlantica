@@ -24,5 +24,8 @@ mods.pyrotech.DryingRack.removeAllRecipes();
 mods.jei.JEI.removeAndHide(<pyrotech:chopping_block>);
 mods.jei.JEI.removeAndHide(<pyrotech:drying_rack:1>);
 
+mods.pyrotech.StoneKiln.removeRecipes(<minecraft:cobblestone>);
+mods.pyrotech.BrickKiln.removeRecipes(<minecraft:cobblestone>);
+
 recipes.remove(<pyrotech:worktable>);
 recipes.addShapeless(<pyrotech:worktable>, [<ore:logWood>, <ore:toolAxe>.transformDamage()]);

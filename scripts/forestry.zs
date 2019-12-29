@@ -45,6 +45,9 @@ mods.jei.JEI.hide(<forestry:greenhouse.window>);
 mods.jei.JEI.hide(<forestry:greenhouse.window_up>);
 mods.jei.JEI.hide(<forestry:thermionic_tubes:8>);
 
+mods.jei.JEI.removeAndHide(<forestry:engine_clockwork>);
+mods.jei.JEI.removeAndHide(<forestry:raintank>);
+
 
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:8>);
 

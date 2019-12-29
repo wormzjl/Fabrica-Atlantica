@@ -32,7 +32,6 @@ furnace.setFuel(<pyrotech:wool_tarred>, 0);
 furnace.setFuel(<pyrotech:planks_tarred>, 0);
 
 furnace.setFuel(<railcraft:generic:5>, 400);
-furnace.setFuel(<railcraft:tank_water>, 0);
 furnace.setFuel(<ic2:scaffold>, 50);
 furnace.setFuel(<ic2:scaffold:1>, 50);
 furnace.setFuel(<ore:logSplit>, 100);
