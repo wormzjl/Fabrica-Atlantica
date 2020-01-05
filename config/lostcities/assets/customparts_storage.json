@@ -6,19 +6,6 @@
     "zsize": 16,
     "palette": [
       {
-        "char": "A",
-        "blocks": [
-          {
-            "random": 10,
-            "block": "minecraft:mob_spawner", "mob": "watermobs"
-          },
-          {
-            "random": 10,
-            "block": "minecraft:air"
-          }
-        ]
-      },
-      {
         "char": " ",
         "block": "minecraft:air"
       },
@@ -33,10 +20,6 @@
       {
         "char": "c",
         "block": "chisel:factory@1"
-      },
-      {
-        "char": "d",
-        "block": "industrialrenewal:brace@5"
       },
       {
         "char": "e",
@@ -60,67 +43,72 @@
       },
       {
         "char": "j",
-        "block": "industrialrenewal:industrial_floor"
-      },
-      {
-        "char": "k",
-        "block": "industrialrenewal:brace@7"
-      },
-      {
-        "char": "l",
         "block": "chisel:factory@9"
       },
       {
-        "char": "m",
-        "block": "industrialrenewal:catwalk_pillar"
-      },
-      {
-        "char": "o",
+        "char": "k",
         "block": "chisel:technicalnew"
       },
       {
+        "char": "l",
+        "block": "minecraft:lime_glazed_terracotta"
+      },
+      {
+        "char": "m",
+        "block": "minecraft:pink_glazed_terracotta"
+      },
+      {
+        "char": "n",
+        "block": "minecraft:pink_glazed_terracotta"
+      },
+      {
+        "char": "o",
+        "block": "minecraft:lime_glazed_terracotta"
+      },
+      {
         "char": "p",
-        "block": "minecraft:lime_glazed_terracotta"
-      },
-      {
-        "char": "q",
-        "block": "minecraft:lime_glazed_terracotta"
-      },
-      {
-        "char": "r",
-        "block": "minecraft:lime_glazed_terracotta"
-      },
-      {
-        "char": "s",
-        "block": "minecraft:lime_glazed_terracotta"
-      },
-      {
-        "char": "t",
         "block": "minecraft:gravel"
       },
       {
-        "char": "u",
+        "char": "q",
         "block": "chisel:technical1"
       },
       {
-        "char": "v",
+        "char": "r",
         "block": "chisel:brownstone@8"
       },
       {
-        "char": "w",
+        "char": "s",
         "block": "minecraft:pink_glazed_terracotta"
+      },
+      {
+        "char": "t",
+        "block": "minecraft:pink_glazed_terracotta"
+      },
+      {
+        "char": "u",
+        "block": "minecraft:prismarine"
+      },
+      {
+        "char": "v",
+        "blocks": [
+          {
+            "random": 10,
+            "block": "minecraft:mob_spawner", "mob": "famobs"
+          },
+          {
+            "random": 10,
+            "block": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "char": "w",
+        "block": "minecraft:prismarine@1"
       },
       {
         "char": "x",
-        "block": "minecraft:pink_glazed_terracotta"
-      },
-      {
-        "char": "y",
-        "block": "industrialrenewal:brace@3"
-      },
-      {
-        "char": "z",
-        "block": "industrialrenewal:catwalk_column"
+        "block": "minecraft:sea_lantern"
       }
     ],
     "meta": [
@@ -131,109 +119,109 @@
     ],
     "slices": [
       [
-        "abcacbabcacbabkk",
+        "abcacbabcacbab  ",
         "beeeeeeeeeeeefgg",
         "ceeeeebeeeeebchi",
-        "aeeeeebeeeeebfji",
-        "ceeeeebeeeeebfji",
-        "beeeeebeeeeebfji",
+        "aeeeeebeeeeebfbi",
+        "ceeeeebeeeeebfbi",
+        "beeeeebeeeeebfbi",
         "aebbbbhbbbbbachi",
-        "beeeeebeeeeebfji",
-        "ceeeeebeeeeebfji",
-        "aeeeeebeeeeebfji",
+        "beeeeebeeeeebfbi",
+        "ceeeeebeeeeebfbi",
+        "aeeeeebeeeeebfbi",
         "ceeeeebeeeeebchi",
-        "beeeeebeeeeebfji",
-        "aebbbbabbbbbacji",
-        "bfcfffcfffcfcfji",
-        "dghjjjhjjjhjjjgi",
-        "dgiiiiiiiiiiiiil"
+        "beeeeebeeeeebfbi",
+        "aebbbbabbbbbacbi",
+        "bfcfffcfffcfcfbi",
+        " ghbbbhbbbhbbbgi",
+        " giiiiiiiiiiiiij"
       ],
       [
-        "hm   mhm   mhm  ",
-        "mfooofmfooofm   ",
-        " oppse eppse  h ",
-        " oppse epsse    ",
-        " opssetepsse    ",
-        "mfeeeeteeeee    ",
-        "hm  Attvtut   h ",
-        "mfeeeeueeeee    ",
-        " oqqqevewwxe    ",
-        " oqrretewwwe    ",
-        " orrrevewwwe  h ",
-        "mfeeeeveeeee    ",
-        "hm              ",
-        "m               ",
+        "ha   aha   aha  ",
+        "afkkkf fkkkfa   ",
+        " klloepelloe  h ",
+        " klloepelooe    ",
+        " klooepelooe    ",
+        "afeeeepeeeee    ",
+        "h    pprpqpp  h ",
+        "afeeeeqeeeee    ",
+        " kmmmeresste    ",
+        " knnmepessse    ",
+        " knnneressse  h ",
+        "afeeeepeeeee    ",
+        "h   pp p        ",
+        "a               ",
         "  h   h   h   g ",
-        "               l"
+        "               j"
       ],
       [
-        "hm   mhm   mhm  ",
-        "mfooofmfooofm   ",
-        " opppe eppse  m ",
-        " ospse epsse    ",
-        " osstt epss     ",
-        "mfeettteeee     ",
-        "hm   tut      m ",
-        "mfeeetttteee    ",
-        " oqqretvvwxe    ",
-        " oqqretewwwe    ",
-        " oqrretewwwe  m ",
-        "mfeeee eeeee    ",
-        "hm              ",
-        "m               ",
-        "  m   m   m   m ",
-        "               l"
+        "hi   ihi   ihi  ",
+        "ifkkkf fkkkfi   ",
+        " kllle elloe  h ",
+        " koloe elooe    ",
+        " koooe elooe    ",
+        "ifeeee eeeee    ",
+        "h    uqpwp    h ",
+        "ifeeepvppeee    ",
+        " kmmmeprrste    ",
+        " kmmme essse    ",
+        " kmmmeuessse  h ",
+        "ifeeeepeeeee    ",
+        "h               ",
+        "i               ",
+        "  h   h   h   h ",
+        "               j"
       ],
       [
-        "hm   mhm   mhm  ",
-        "mfooofmfooofm   ",
-        " o            m ",
-        " o              ",
-        " o t            ",
-        "mf   t          ",
-        "hm    t       m ",
-        "mf        u     ",
-        " o  tt  tiu     ",
-        " o  v  tuiii    ",
-        " o   t iiii   m ",
-        "mf      uiuu    ",
-        "hm      u       ",
-        "m               ",
-        "  m   m   m   m ",
-        "               l"
+        "ha   aha   aha  ",
+        "afkkkf fkkkfa   ",
+        " kppp  pp     h ",
+        " kppp    p      ",
+        " kpppu p p      ",
+        "af  u  u        ",
+        "h             h ",
+        "af pu  x uq     ",
+        " kpppw  wiq     ",
+        " kppru wqiii    ",
+        " kp pppiiii   h ",
+        "af      qiqq    ",
+        "h       q       ",
+        "a               ",
+        "  h   h   h   h ",
+        "               j"
       ],
       [
         " cfffc cfffc caf",
         "c     c     c f ",
-        "f             af",
+        "f             hf",
         "f             f ",
         "f             f ",
+        "c     f       f ",
+        "     f        h ",
         "c             f ",
-        "              a ",
+        "f   u    u    f ",
+        "f        r    f ",
+        "f       u     h ",
         "c             f ",
-        "f        t    f ",
-        "f        v    f ",
-        "f             a ",
+        "              f ",
         "c             f ",
-        "   y          f ",
-        "c  z          f ",
-        "afafffafffafffaf",
+        "afhfffhfffhfffhf",
         "f f           f "
       ],
       [
         "                ",
         " ccccccccccccc  ",
         " ccccccccccccc  ",
-        " cccccccuccccc  ",
-        " cccccccu uucc  ",
-        " ccccc  u  ccc  ",
-        " cccuuu    uuc  ",
+        " cccccccqccccc  ",
+        " cccccccq qqcc  ",
+        " ccccc  q  ccc  ",
+        " cccqqq    qqc  ",
         " cccc       cc  ",
         " ccc        cc  ",
-        " cccuu    uuuc  ",
-        " cccc    u  cc  ",
-        " ccccc u u  cc  ",
-        " ccccccucucccc  ",
+        " cccqq    qqqc  ",
+        " cccc    q  cc  ",
+        " ccccc q q  cc  ",
+        " ccccccqcqcccc  ",
         " ccccccccccccc  ",
         "                ",
         "                "
@@ -399,10 +387,6 @@
         "block": "chisel:factory@1"
       },
       {
-        "char": "d",
-        "block": "industrialrenewal:brace@5"
-      },
-      {
         "char": "e",
         "block": "chisel:factory@2"
       },
@@ -424,47 +408,35 @@
       },
       {
         "char": "j",
-        "block": "industrialrenewal:industrial_floor"
-      },
-      {
-        "char": "k",
-        "block": "industrialrenewal:brace@7"
-      },
-      {
-        "char": "l",
         "block": "chisel:factory@9"
       },
       {
-        "char": "m",
-        "block": "industrialrenewal:catwalk_pillar"
-      },
-      {
-        "char": "o",
+        "char": "k",
         "block": "chisel:technicalnew"
       },
       {
-        "char": "p",
+        "char": "l",
         "block": "minecraft:lime_glazed_terracotta"
+      },
+      {
+        "char": "m",
+        "block": "minecraft:pink_glazed_terracotta"
+      },
+      {
+        "char": "n",
+        "block": "minecraft:pink_glazed_terracotta"
+      },
+      {
+        "char": "o",
+        "block": "minecraft:lime_glazed_terracotta"
+      },
+      {
+        "char": "p",
+        "block": "minecraft:pink_glazed_terracotta"
       },
       {
         "char": "q",
-        "block": "minecraft:lime_glazed_terracotta"
-      },
-      {
-        "char": "r",
-        "block": "minecraft:lime_glazed_terracotta"
-      },
-      {
-        "char": "s",
         "block": "minecraft:pink_glazed_terracotta"
-      },
-      {
-        "char": "t",
-        "block": "minecraft:pink_glazed_terracotta"
-      },
-      {
-        "char": "u",
-        "block": "minecraft:lime_glazed_terracotta"
       }
     ],
     "meta": [
@@ -475,79 +447,79 @@
     ],
     "slices": [
       [
-        "abcacbabcacbabkk",
+        "abcacbabcacbab  ",
         "beeeeeeeeeeeefgg",
         "ceeeeebeeeeebchi",
-        "aeeeeebeeeeebfji",
-        "ceeeeebeeeeebfji",
-        "beeeeebeeeeebfji",
+        "aeeeeebeeeeebfbi",
+        "ceeeeebeeeeebfbi",
+        "beeeeebeeeeebfbi",
         "aebbbbhbbbbbachi",
-        "beeeeebeeeeebfji",
-        "ceeeeebeeeeebfji",
-        "aeeeeebeeeeebfji",
+        "beeeeebeeeeebfbi",
+        "ceeeeebeeeeebfbi",
+        "aeeeeebeeeeebfbi",
         "ceeeeebeeeeebchi",
-        "beeeeebeeeeebfji",
-        "aebbbbabbbbbacji",
-        "bfcfffcfffcfcfji",
-        "dghjjjhjjjhjjjgi",
-        "dgiiiiiiiiiiiiil"
+        "beeeeebeeeeebfbi",
+        "aebbbbabbbbbacbi",
+        "bfcfffcfffcfcfbi",
+        " ghbbbhbbbhbbbgi",
+        " giiiiiiiiiiiiij"
       ],
       [
-        "hm   mhm   mhm  ",
-        "mfooofmfooofm   ",
-        " oppre eppre  h ",
-        " oppre eprre    ",
-        " oprre eprre    ",
-        "mfeeee eeeee    ",
-        "hm    h       h ",
-        "mfeeee eeeee    ",
-        " oqqqe esste    ",
-        " oqqqe essse    ",
-        " opqqe essse  h ",
-        "mfeeee eeeee    ",
-        "hm              ",
-        "m               ",
+        "ha   aha   aha  ",
+        "afkkkfhfkkkfh   ",
+        " klloe elloe  h ",
+        " klloe elooe    ",
+        " klooe elooe    ",
+        "afeeee eeeee    ",
+        "hh    h       h ",
+        "afeeee eeeee    ",
+        " kmmme eppqe    ",
+        " knnme epppe    ",
+        " knnne epppe  h ",
+        "afeeee eeeee    ",
+        "hh              ",
+        "a               ",
         "  h   h   h   g ",
-        "               l"
+        "               j"
       ],
       [
-        "hm   mhm   mhm  ",
-        "mfooofmfooofm   ",
-        " opppe eppre  m ",
-        " orpre eprre    ",
-        " orrre eprre    ",
-        "mfeeee eeeee    ",
-        "hm    m       m ",
-        "mfeeee eeeee    ",
-        " oqqqe esste    ",
-        " oqqqe essse    ",
-        " opque essse  m ",
-        "mfeeee eeeee    ",
-        "hm              ",
-        "m               ",
-        "  m   m   m   m ",
-        "               l"
+        "hi   ihi   ihi  ",
+        "ifkkkfhfkkkfh   ",
+        " kllle elloe  h ",
+        " koloe elooe    ",
+        " koooe elooe    ",
+        "ifeeee eeeee    ",
+        "hh    h       h ",
+        "ifeeee eeeee    ",
+        " kmmme eppqe    ",
+        " kmmme epppe    ",
+        " kmmme epppe  h ",
+        "ifeeee eeeee    ",
+        "hh              ",
+        "i               ",
+        "  h   h   h   h ",
+        "               j"
       ],
       [
-        "hm   mhm   mhm  ",
-        "mfooofmfooofm   ",
-        " o            m ",
-        " o              ",
-        " o              ",
-        "mf              ",
-        "hm    m       m ",
-        "mf              ",
-        " o              ",
-        " o              ",
-        " o            m ",
-        "mf              ",
-        "hm              ",
-        "m               ",
-        "  m   m   m   m ",
-        "               l"
+        "ha   aha   aha  ",
+        "afkkkfhfkkkfh   ",
+        " k            h ",
+        " k              ",
+        " k              ",
+        "af              ",
+        "hh    h       h ",
+        "af              ",
+        " k              ",
+        " k              ",
+        " k            h ",
+        "af              ",
+        "hh              ",
+        "a               ",
+        "  h   h   h   h ",
+        "               j"
       ],
       [
-        " cfffc cfffc cff",
+        " cfffc cfffc caf",
         "c     c     c   ",
         "f             af",
         "f             f ",
@@ -561,7 +533,7 @@
         "c             f ",
         "              f ",
         "c             f ",
-        "f afffafffafffaf",
+        "a afffafffafffaf",
         "f f           f "
       ],
       [
@@ -723,37 +695,8 @@
     "zsize": 16,
     "palette": [
       {
-        "char": "A",
-        "block": "chisel:technical1"
-      },
-      {
-        "char": "B",
-        "block": "industrialrenewal:catwalk_column"
-      },
-      {
-        "char": "C",
-        "block": "industrialrenewal:brace@2"
-      },
-      {
-        "char": "D",
-        "blocks": [
-          {
-            "random": 10,
-            "block": "minecraft:mob_spawner", "mob": "watermobs"
-          },
-          {
-            "random": 10,
-            "block": "minecraft:air"
-          }
-        ]
-      },
-      {
         "char": " ",
         "block": "minecraft:air"
-      },
-      {
-        "char": "a",
-        "block": "industrialrenewal:brace@7"
       },
       {
         "char": "b",
@@ -773,83 +716,71 @@
       },
       {
         "char": "f",
-        "block": "industrialrenewal:industrial_floor"
-      },
-      {
-        "char": "g",
         "block": "chisel:factory@4"
       },
       {
-        "char": "h",
+        "char": "g",
         "block": "chisel:glass@12"
       },
       {
-        "char": "i",
+        "char": "h",
         "block": "chisel:factory@1"
       },
       {
-        "char": "j",
+        "char": "i",
         "block": "chisel:technicalnew@2"
       },
       {
-        "char": "k",
+        "char": "j",
         "block": "chisel:factory@2"
       },
       {
-        "char": "l",
-        "block": "industrialrenewal:brace"
-      },
-      {
-        "char": "n",
-        "block": "industrialrenewal:catwalk_pillar"
-      },
-      {
-        "char": "o",
-        "block": "chisel:technicalnew"
-      },
-      {
-        "char": "p",
-        "block": "minecraft:magenta_glazed_terracotta"
-      },
-      {
-        "char": "q",
-        "block": "minecraft:gray_glazed_terracotta"
-      },
-      {
-        "char": "r",
-        "block": "minecraft:gray_glazed_terracotta"
-      },
-      {
-        "char": "s",
-        "block": "minecraft:gray_glazed_terracotta"
-      },
-      {
-        "char": "t",
+        "char": "k",
         "block": "minecraft:gravel"
       },
       {
-        "char": "u",
+        "char": "l",
+        "block": "chisel:technicalnew"
+      },
+      {
+        "char": "m",
+        "block": "minecraft:magenta_glazed_terracotta"
+      },
+      {
+        "char": "n",
+        "block": "minecraft:gray_glazed_terracotta"
+      },
+      {
+        "char": "o",
+        "block": "minecraft:gray_glazed_terracotta"
+      },
+      {
+        "char": "p",
+        "block": "minecraft:gray_glazed_terracotta"
+      },
+      {
+        "char": "q",
         "block": "minecraft:light_blue_glazed_terracotta"
+      },
+      {
+        "char": "r",
+        "block": "minecraft:light_blue_glazed_terracotta"
+      },
+      {
+        "char": "s",
+        "block": "minecraft:light_blue_glazed_terracotta"
+      },
+      {
+        "char": "t",
+        "block": "minecraft:yellow_glazed_terracotta"
+      },
+      {
+        "char": "u",
+        "block": "minecraft:yellow_glazed_terracotta"
       },
       {
         "char": "v",
-        "block": "minecraft:light_blue_glazed_terracotta"
-      },
-      {
-        "char": "w",
-        "block": "minecraft:light_blue_glazed_terracotta"
-      },
-      {
-        "char": "x",
-        "block": "minecraft:yellow_glazed_terracotta"
-      },
-      {
-        "char": "y",
-        "block": "minecraft:yellow_glazed_terracotta"
-      },
-      {
-        "char": "z",
-        "block": "minecraft:sand"
+        "block": "chisel:technical1"
       }
     ],
     "meta": [
@@ -860,110 +791,110 @@
     ],
     "slices": [
       [
-        "aagjgijigjgijigj",
-        "bbhkkkkkkkkkkkkg",
-        "ceigkkkkkgkkkkki",
-        "cfhgkkkkkgkkkkkj",
-        "cfhgkkkkkgkkkkki",
-        "cfhgkkkkkgkkkkkg",
-        "ceijgggggeggggkj",
-        "cfhgkkkkkgkkkkkg",
-        "cfhgkkkkkgkkkkki",
-        "cfhgkkkkkgkkkkkj",
-        "ceigkkkkkgkkkkki",
-        "cfhgkkkkkgkkkkkg",
-        "cfijgggggjggggkj",
-        "cfhihihhhihhhihg",
-        "cbfffefffefffebl",
-        "dcccccccccccccbl"
+        "  fifhihfifhihfi",
+        "bbgjjjjjjjjjjjjf",
+        "cehfjjjjjfjjjjjh",
+        "cfgfjjjjjfjjjjji",
+        "cfgfjjjjjfjjjjjh",
+        "cfgfjjjjjfjjjjjf",
+        "cehifffffeffffji",
+        "cfgfjjjjjfjkjjjf",
+        "cfgfjjjjjfkjjjjh",
+        "cfgfjjjjjfjjjjji",
+        "cehfjjjjjfjjjjjh",
+        "cfgfjjjjjfjjjjjf",
+        "cfhifffffiffffji",
+        "cfghghggghggghgf",
+        "cbfffefffefffeb ",
+        "dcccccccccccccb "
       ],
       [
-        "  nen   nen   ne",
-        "   nhooohnhooohn",
-        " e  kpppktkuuuo ",
-        "    kpppktkvuuo ",
-        "    kpppktkwwvo ",
-        "    kkkkktkkkkhn",
-        " e    tttettz ne",
-        "    kkkkktkkkkhn",
-        "    kqqqktkxxyo ",
-        "    krqqktkxxyo ",
-        " e  ksrqktkyyyo ",
-        "    kkkkk ktkkhn",
-        "              ne",
-        "             a n",
+        "  iei   iei   ie",
+        "   iglllgkglllgi",
+        " e  jmmmjkjqqql ",
+        "    jmmmjkkrqql ",
+        "    jmmmjkjssrl ",
+        "    jjjjkkkjjjgi",
+        " e   kkkkekkkkke",
+        "    jjjkkkkkjjgi",
+        "    jnnnkkkktul ",
+        "    jonnjkkttul ",
+        " e  jponjkjuuul ",
+        "    jjjjjkjjjjgi",
+        "              ie",
+        "               i",
         " b   e   e   e  ",
         "d               "
       ],
       [
-        "  nen   nen   ne",
-        "   nhooohnhooohn",
-        " n  kpppk kuuuo ",
-        "    kpptkztvvvo ",
-        "    kpztttttwvo ",
-        "    kkAttttkkkhn",
-        " n    tztttzzAne",
-        "    kkkkktkkkkhn",
-        "    ksqqkzzyyyA ",
-        "    ksrqkt yyyo ",
-        " n  krrqk tyyyo ",
-        "    kkkkk   kkhn",
-        "              ne",
-        "               n",
-        " n   n   n   n  ",
+        "  cec   cec   ce",
+        "   cglllgkglllgc",
+        " e  jmmmjkjqqql ",
+        "    jmmmjkkrrrl ",
+        "    jmmkkkkksrl ",
+        "    jj kkkkkjjgc",
+        " e    kkkekkkkke",
+        "    jjjkkkkkjjgc",
+        "    jpkkkkkkuul ",
+        "    jponjkkkuul ",
+        " e  joonjkjuuul ",
+        "    jjjjj jjjjgc",
+        "              ce",
+        "               c",
+        " e   e   e   e  ",
         "d               "
       ],
       [
-        "  nen   nen   ne",
-        "   nhooohnhooohn",
-        " n            o ",
-        "              o ",
-        "           zzDo ",
-        "         tttzzhn",
-        " n       tttttte",
-        "         tAttAtn",
-        "         ttctct ",
-        "            tAo ",
-        " n            o ",
-        "              hn",
-        "              ne",
-        "               n",
-        " n   n   n   n  ",
+        "  iei   iei   ie",
+        "   iglllg glllgi",
+        " e            l ",
+        "              l ",
+        "         kk   l ",
+        "        kkk k gi",
+        " e    kkkkkk k e",
+        "     kkkkkkkkkgi",
+        "       kkkkk  l ",
+        "        kkv   l ",
+        " e            l ",
+        "              gi",
+        "              ie",
+        "               i",
+        " e   e   e   e  ",
         "d               "
       ],
       [
-        "hji ihhhi ihhhi ",
-        " h i     i     i",
-        "hj             h",
-        " hBC           h",
-        " h          z  h",
-        " h         z z i",
-        " j      h ttzttt",
-        " h       hzzttti",
-        " h        tAtzth",
-        " h          t  h",
-        " j             h",
-        " h             i",
-        " h            i ",
-        " h             i",
-        "hjhhhjhhhjhhhj h",
-        " h           h h"
+        "gih hgggh hgggh ",
+        " g h     h     h",
+        "ge             g",
+        " g             g",
+        " g       k     g",
+        " g      kkk    h",
+        " e     kkkk   h ",
+        " g    kkkvkk   h",
+        " g     kkkk    g",
+        " g      kkk    g",
+        " e             g",
+        " g             h",
+        " g            h ",
+        " g             h",
+        "gegggegggeggge g",
+        " g           g g"
       ],
       [
         "                ",
-        "  iiiiiiiiiiiii ",
-        "  iiiiiiiiiiiii ",
-        "  iiiiiiiiiiiii ",
-        "  iiiiiiiiiiiii ",
-        "  iiiiiiiiiAiii ",
-        "  iiiiiiii t zt ",
-        "  iiiiiiittttt  ",
-        "  iiiiiiiAtAz   ",
-        "  iiiiiiiiiiAii ",
-        "  iiiiiiiiiiiii ",
-        "  iiiiiiiiiiiii ",
-        "  iiiiiiiiiiiii ",
-        "  iiiiiiiiiiiii ",
+        "  hhhhhhhhhhhhh ",
+        "  hhhhhhhhhhhhh ",
+        "  hhhhhhhhhhhhh ",
+        "  hhhhhhhkhhhhh ",
+        "  hhhhhhkkkhhhh ",
+        "  hhhhhkkkkhhhh ",
+        "  hhhhkkkkkkhhh ",
+        "  hhhhhkkkkhhhh ",
+        "  hhhhhhkkkhhhh ",
+        "  hhhhhhhhhhhhh ",
+        "  hhhhhhhhhhhhh ",
+        "  hhhhhhhhhhhhh ",
+        "  hhhhhhhhhhhhh ",
         "                ",
         "                "
       ]
@@ -985,15 +916,19 @@
       },
       {
         "char": "c",
-        "block": "minecraft:sand"
-      },
-      {
-        "char": "d",
         "block": "minecraft:gravel"
       },
       {
-        "char": "e",
+        "char": "d",
         "block": "chisel:technical1"
+      },
+      {
+        "char": "e",
+        "block": "minecraft:leaves@4"
+      },
+      {
+        "char": "f",
+        "block": "minecraft:mob_spawner", "mob": "famobs"
       }
     ],
     "meta": [
@@ -1007,32 +942,14 @@
         "                ",
         "                ",
         "   bbbbbbbbbbb  ",
-        "   b        ddd ",
-        "   b      d     ",
-        "   b      dc  d ",
-        "   b    dd c    ",
-        "   b   cedcc    ",
-        "   b   cdd d    ",
-        "   b    ddcd d  ",
-        "   b     c ddb  ",
+        "   b   e     b  ",
+        "   b  c ccc  b  ",
+        "   b  ccccc  b  ",
+        "   bcccccccc b  ",
+        "   bcccccccc b  ",
+        "   b  ccccc  b  ",
+        "   b ddccccc b  ",
         "   b    c    b  ",
-        "   bbbbbbbbbbb  ",
-        "                ",
-        "                ",
-        "                "
-      ],
-      [
-        "                ",
-        "                ",
-        "   bbbbbbbbbbb  ",
-        "   b            ",
-        "   b            ",
-        "   b          d ",
-        "   b     d      ",
-        "   b       d    ",
-        "   b            ",
-        "   b      d     ",
-        "   b         b  ",
         "   b         b  ",
         "   bbbbbbbbbbb  ",
         "                ",
@@ -1043,13 +960,13 @@
         "                ",
         "                ",
         "   bbbbbbbbbbb  ",
-        "   b            ",
-        "   b            ",
-        "   b          d ",
-        "   b            ",
-        "   b            ",
-        "   b            ",
-        "   b            ",
+        "   b e       b  ",
+        "   b         b  ",
+        "   b  feccc  b  ",
+        "   b  cccc   b  ",
+        "   b  ecccc  b  ",
+        "   b  cccc   b  ",
+        "   b   cc    b  ",
         "   b         b  ",
         "   b         b  ",
         "   bbbbbbbbbbb  ",
@@ -1061,14 +978,32 @@
         "                ",
         "                ",
         "   bbbbbbbbbbb  ",
+        "   b         b  ",
+        "   b         b  ",
+        "   b   ee    b  ",
+        "   b    ee   b  ",
+        "   b  e c e  b  ",
+        "   b    e    b  ",
+        "   b   ee    b  ",
+        "   b         b  ",
+        "   b         b  ",
         "   bbbbbbbbbbb  ",
-        "   bbbbbbbbbb   ",
-        "   bbbbbbebe    ",
-        "   bbbbbb       ",
-        "   bbbbbee      ",
-        "   bbbbbb       ",
-        "   bbbbbbe e    ",
-        "   bbbbbbbbebe  ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "   bbbbbbbbbbb  ",
+        "   bbbbbbbbbbb  ",
+        "   bbb d  bbbb  ",
+        "   bbb    dbbb  ",
+        "   bbb     dbb  ",
+        "   bbd     bbb  ",
+        "   bbb     dbb  ",
+        "   bbbd  ddbbb  ",
+        "   bbbbbbbbbbb  ",
         "   bbbbbbbbbbb  ",
         "   bbbbbbbbbbb  ",
         "                ",
@@ -1124,10 +1059,6 @@
         "block": "minecraft:air"
       },
       {
-        "char": "a",
-        "block": "industrialrenewal:brace@7"
-      },
-      {
         "char": "b",
         "block": "chisel:factory@6"
       },
@@ -1145,74 +1076,62 @@
       },
       {
         "char": "f",
-        "block": "industrialrenewal:industrial_floor"
-      },
-      {
-        "char": "g",
         "block": "chisel:factory@4"
       },
       {
-        "char": "h",
+        "char": "g",
         "block": "chisel:glass@12"
       },
       {
-        "char": "i",
+        "char": "h",
         "block": "chisel:factory@1"
       },
       {
-        "char": "j",
+        "char": "i",
         "block": "chisel:technicalnew@2"
       },
       {
-        "char": "k",
+        "char": "j",
         "block": "chisel:factory@2"
       },
       {
-        "char": "l",
-        "block": "industrialrenewal:brace"
-      },
-      {
-        "char": "n",
-        "block": "industrialrenewal:catwalk_pillar"
-      },
-      {
-        "char": "o",
+        "char": "k",
         "block": "chisel:technicalnew"
       },
       {
-        "char": "p",
+        "char": "l",
         "block": "minecraft:magenta_glazed_terracotta"
       },
       {
-        "char": "q",
+        "char": "m",
         "block": "minecraft:gray_glazed_terracotta"
+      },
+      {
+        "char": "n",
+        "block": "minecraft:gray_glazed_terracotta"
+      },
+      {
+        "char": "o",
+        "block": "minecraft:gray_glazed_terracotta"
+      },
+      {
+        "char": "p",
+        "block": "minecraft:light_blue_glazed_terracotta"
+      },
+      {
+        "char": "q",
+        "block": "minecraft:light_blue_glazed_terracotta"
       },
       {
         "char": "r",
-        "block": "minecraft:gray_glazed_terracotta"
+        "block": "minecraft:light_blue_glazed_terracotta"
       },
       {
         "char": "s",
-        "block": "minecraft:gray_glazed_terracotta"
-      },
-      {
-        "char": "t",
-        "block": "minecraft:light_blue_glazed_terracotta"
-      },
-      {
-        "char": "u",
-        "block": "minecraft:light_blue_glazed_terracotta"
-      },
-      {
-        "char": "v",
-        "block": "minecraft:light_blue_glazed_terracotta"
-      },
-      {
-        "char": "w",
         "block": "minecraft:yellow_glazed_terracotta"
       },
       {
-        "char": "x",
+        "char": "t",
         "block": "minecraft:yellow_glazed_terracotta"
       }
     ],
@@ -1224,110 +1143,110 @@
     ],
     "slices": [
       [
-        "aagjgijigjgijigj",
-        "bbhkkkkkkkkkkkkg",
-        "ceigkkkkkgkkkkki",
-        "cfhgkkkkkgkkkkkj",
-        "cfhgkkkkkgkkkkki",
-        "cfhgkkkkkgkkkkkg",
-        "ceijgggggeggggkj",
-        "cfhgkkkkkgkkkkkg",
-        "cfhgkkkkkgkkkkki",
-        "cfhgkkkkkgkkkkkj",
-        "ceigkkkkkgkkkkki",
-        "cfhgkkkkkgkkkkkg",
-        "cfijgggggjggggkj",
-        "cfhihihhhihhhihg",
-        "cbfffefffefffebl",
-        "dcccccccccccccbl"
+        "  fifhihfifhihfi",
+        "bbgjjjjjjjjjjjjf",
+        "cehfjjjjjfjjjjjh",
+        "cfgfjjjjjfjjjjji",
+        "cfgfjjjjjfjjjjjh",
+        "cfgfjjjjjfjjjjjf",
+        "cehifffffeffffji",
+        "cfgfjjjjjfjjjjjf",
+        "cfgfjjjjjfjjjjjh",
+        "cfgfjjjjjfjjjjji",
+        "cehfjjjjjfjjjjjh",
+        "cfgfjjjjjfjjjjjf",
+        "cfhifffffiffffji",
+        "cfghghggghggghgf",
+        "cbfffefffefffeb ",
+        "dcccccccccccccb "
       ],
       [
-        "  nen   nen   ne",
-        "   nhooohnhooohn",
-        " e  kpppk kttto ",
-        "    kpppk kutto ",
-        "    kpppk kvvuo ",
-        "    kkkkk kkkkhn",
-        " e       e    ne",
-        "    kkkkk kkkkhn",
-        "    kqqqk kwwxo ",
-        "    krqqk kwwxo ",
-        " e  ksrqk kxxxo ",
-        "    kkkkk kkkkhn",
-        "              ne",
-        "         a   a n",
+        "  iei   iei   ie",
+        "   egkkkgegkkkgi",
+        " e  jlllj jpppk ",
+        "    jlllj jqppk ",
+        "    jlllj jrrqk ",
+        "    jjjjj jjjjgi",
+        " e       e    ee",
+        "    jjjjj jjjjgi",
+        "    jmmmj jsstk ",
+        "    jnmmj jsstk ",
+        " e  jonmj jtttk ",
+        "    jjjjj jjjjgi",
+        "              ee",
+        "               i",
         " b   e   e   e  ",
         "d               "
       ],
       [
-        "  nen   nen   ne",
-        "   nhooohnhooohn",
-        " n  kpppk kttto ",
-        "    kpppk kuuuo ",
-        "    kpppk kvvuo ",
-        "    kkkkk kkkkhn",
-        " n       n    ne",
-        "    kkkkk kkkkhn",
-        "    ksqqk kxxxo ",
-        "    ksrqk kxxxo ",
-        " n  krrqk kxxxo ",
-        "    kkkkk kkkkhn",
-        "              ne",
-        "               n",
-        " n   n   n   n  ",
+        "  cec   cec   ce",
+        "   egkkkgegkkkgc",
+        " e  jlllj jpppk ",
+        "    jlllj jqqqk ",
+        "    jlllj jrrqk ",
+        "    jjjjj jjjjgc",
+        " e       e    ee",
+        "    jjjjj jjjjgc",
+        "    jommj jtttk ",
+        "    jonmj jtttk ",
+        " e  jnnmj jtttk ",
+        "    jjjjj jjjjgc",
+        "              ee",
+        "               c",
+        " e   e   e   e  ",
         "d               "
       ],
       [
-        "  nen   nen   ne",
-        "   nhooohnhooohn",
-        " n            o ",
-        "              o ",
-        "              o ",
-        "              hn",
-        " n       n    ne",
-        "              hn",
-        "              o ",
-        "              o ",
-        " n            o ",
-        "              hn",
-        "              ne",
-        "               n",
-        " n   n   n   n  ",
+        "  iei   iei   ie",
+        "   egkkkgegkkkgi",
+        " e            k ",
+        "              k ",
+        "              k ",
+        "              gi",
+        " e       e    ee",
+        "              gi",
+        "              k ",
+        "              k ",
+        " e            k ",
+        "              gi",
+        "              ee",
+        "               i",
+        " e   e   e   e  ",
         "d               "
       ],
       [
-        "hhi ihhhi ihhhi ",
-        "   i     i     i",
-        "hj             h",
-        " h             h",
-        " h             h",
-        " h       h     i",
-        " j      hjh   i ",
-        " h       h     i",
-        " h             h",
-        " h             h",
-        " j             h",
-        " h             i",
-        " h            i ",
-        " h             i",
-        "hjhhhjhhhjhhhj h",
-        " h           h h"
+        "gih hgggh hgggh ",
+        "   h     h     h",
+        "gi             g",
+        " g             g",
+        " g             g",
+        " g       g     h",
+        " i      gig   h ",
+        " g       g     h",
+        " g             g",
+        " g             g",
+        " i             g",
+        " g             h",
+        " g            h ",
+        " g             h",
+        "gigggigggigggi g",
+        " g           g g"
       ],
       [
         "                ",
-        "  iiiiiiiiiiiii ",
-        "  iiiiiiiiiiiii ",
-        "  iiiiiiiiiiiii ",
-        "  iiiiiiiiiiiii ",
-        "  iiiiiiiiiiiii ",
-        "  iiiiiiiiiiiii ",
-        "  iiiiiiiiiiiii ",
-        "  iiiiiiiiiiiii ",
-        "  iiiiiiiiiiiii ",
-        "  iiiiiiiiiiiii ",
-        "  iiiiiiiiiiiii ",
-        "  iiiiiiiiiiiii ",
-        "  iiiiiiiiiiiii ",
+        "  hhhhhhhhhhhhh ",
+        "  hhhhhhhhhhhhh ",
+        "  hhhhhhhhhhhhh ",
+        "  hhhhhhhhhhhhh ",
+        "  hhhhhhhhhhhhh ",
+        "  hhhhhhhhhhhhh ",
+        "  hhhhhhhhhhhhh ",
+        "  hhhhhhhhhhhhh ",
+        "  hhhhhhhhhhhhh ",
+        "  hhhhhhhhhhhhh ",
+        "  hhhhhhhhhhhhh ",
+        "  hhhhhhhhhhhhh ",
+        "  hhhhhhhhhhhhh ",
         "                ",
         "                "
       ]
@@ -1472,25 +1391,8 @@
     "zsize": 16,
     "palette": [
       {
-        "char": "A",
-        "blocks": [
-          {
-            "random": 10,
-            "block": "minecraft:mob_spawner", "mob": "watermobs"
-          },
-          {
-            "random": 10,
-            "block": "minecraft:air"
-          }
-        ]
-      },
-      {
         "char": " ",
         "block": "minecraft:air"
-      },
-      {
-        "char": "a",
-        "block": "industrialrenewal:brace@5"
       },
       {
         "char": "b",
@@ -1526,31 +1428,35 @@
       },
       {
         "char": "j",
-        "block": "industrialrenewal:industrial_floor"
-      },
-      {
-        "char": "k",
         "block": "minecraft:gravel"
       },
       {
-        "char": "m",
+        "char": "k",
         "block": "chisel:brownstone@8"
       },
       {
-        "char": "n",
-        "block": "industrialrenewal:brace@6"
-      },
-      {
-        "char": "o",
+        "char": "l",
         "block": "chisel:factory@9"
       },
       {
+        "char": "m",
+        "block": "chisel:technicalnew"
+      },
+      {
+        "char": "n",
+        "block": "minecraft:orange_glazed_terracotta"
+      },
+      {
+        "char": "o",
+        "block": "minecraft:orange_glazed_terracotta"
+      },
+      {
         "char": "p",
-        "block": "industrialrenewal:catwalk_pillar"
+        "block": "minecraft:mob_spawner", "mob": "famobs"
       },
       {
         "char": "q",
-        "block": "chisel:technicalnew"
+        "block": "chisel:technical1"
       },
       {
         "char": "r",
@@ -1558,15 +1464,7 @@
       },
       {
         "char": "s",
-        "block": "minecraft:orange_glazed_terracotta"
-      },
-      {
-        "char": "t",
-        "block": "chisel:technical1"
-      },
-      {
-        "char": "u",
-        "block": "minecraft:orange_glazed_terracotta"
+        "block": "minecraft:leaves@4"
       }
     ],
     "meta": [
@@ -1577,92 +1475,92 @@
     ],
     "slices": [
       [
-        "aehhhhhhhhhhhhho",
-        "aeijjjijjjijjjeh",
-        "bfdfffdfffdfdfjh",
-        "cgbbbbcbbbbbcdjh",
-        "bgggggbgggggbfjh",
+        " ehhhhhhhhhhhhhl",
+        " eibbbibbbibbbeh",
+        "bfdfffdfffdfdfbh",
+        "cgbbbbcbbbbbcdbh",
+        "bgggggbgggggbfbh",
         "dgggggbgggggbdih",
-        "cgggggbgggggbfjh",
-        "dgggggmgggggbfjh",
-        "bggggkbgggggbfjh",
-        "cgbbb  kbbbbcdih",
-        "bggggk kggggbfjh",
-        "dgggggb ggggbfjh",
-        "cgggg   ggggbfjh",
+        "cgggggbgggggbfbh",
+        "dgggggkgggggbfbh",
+        "bggggjbgggggbfbh",
+        "cgbbbjjjbbbbcdih",
+        "bggggj jggggbfbh",
+        "dgggggb ggggbfbh",
+        "cgggg   ggggbfbh",
         "dgggggbgggggbdih",
         "bggggggggggggfee",
-        "cbdcdbkbdcdbcbnn"
+        "cbdcdbjbdcdbcb  "
       ],
       [
-        "               o",
+        "               l",
         "  i   i   i   e ",
-        "p               ",
-        "ip              ",
-        "pfgggg ggggg    ",
-        " qrrsg gsuug  i ",
-        " qrrsg gsssg    ",
-        " qrssg gsssg    ",
-        "pfggg  m ggg    ",
-        "ip kk    km   i ",
-        "pfggk d kggg    ",
-        " qss ktfkssg    ",
-        " qsskf frssg    ",
-        " qrrsftfsssg  i ",
-        "pfqqqfkfqqqfp   ",
-        "ip  kk k   pip  "
+        "c               ",
+        "i               ",
+        "cfggggjggggg    ",
+        " mnnogjgorrg  i ",
+        " mnnogjgooog    ",
+        " mnoogjgooog    ",
+        "cfgggjjkpggg    ",
+        "ijjjjjjjjjk   i ",
+        "cfggj djjggg    ",
+        " moopjqfjoog    ",
+        " moojf fnoog    ",
+        " mnnofqfooog  i ",
+        "cfmmmfjfmmmfc   ",
+        "ic  jj j   cic  "
       ],
       [
-        "               o",
-        "  p   p   p   p ",
-        "p               ",
-        "ip              ",
-        "pfgggg ggggg    ",
-        " qsssg grsug  p ",
-        " qsssg Asssg    ",
-        " qsss  mmssg    ",
-        "pfggm    ggg    ",
-        "ip            p ",
-        "pfgg dcd ggg    ",
-        " qss  i  ssg    ",
-        " qss kikkssg    ",
-        " qsrr i kssg  p ",
-        "pfqq kik qqfp   ",
-        "ip         pip  "
+        "               l",
+        "  i   i   i   i ",
+        "h               ",
+        "i               ",
+        "hfgggg ggggg    ",
+        " mooog gnorg  i ",
+        " mooogj ooog    ",
+        " mooojjkkoog    ",
+        "hfggkjjj ggg    ",
+        "i   jjj       i ",
+        "hfggjdcd ggg    ",
+        " moossis oog    ",
+        " moosjijjoog    ",
+        " monnsisjoog  i ",
+        "hfmmjjijjmmfh   ",
+        "ih         hih  "
       ],
       [
-        "               o",
-        "  p   p   p   p ",
-        "p               ",
-        "ip              ",
-        "pf              ",
-        " q            p ",
-        " q      m       ",
-        " q mm           ",
-        "pf              ",
-        "ip            p ",
-        "pf        m     ",
-        " q        m     ",
-        " qk      k      ",
-        " qkk  k  kk   p ",
-        "pfq      qqfp   ",
-        "ip         pip  "
+        "               l",
+        "  i   i   i   i ",
+        "c               ",
+        "i               ",
+        "cf              ",
+        " m            i ",
+        " m   j  k       ",
+        " mjkkj    j     ",
+        "cf j            ",
+        "i             i ",
+        "cf   jj   k     ",
+        " mjj   j  k     ",
+        " mj      j      ",
+        " mjj  j  jj   i ",
+        "cfm      mmfc   ",
+        "ic         cic  "
       ],
       [
         "f f           f ",
-        "cfcfffcfffcfffcf",
+        "cfifffifffifffif",
         "d             f ",
         "              f ",
         "d             f ",
-        "f             c ",
+        "f             i ",
         "f             f ",
         "f             f ",
         "d             f ",
-        " d            c ",
+        " d            i ",
         "d             f ",
         "f             f ",
         "f             f ",
-        "f             cf",
+        "f             if",
         "d           d   ",
         " dfff   fffd dff"
       ],
@@ -1673,13 +1571,13 @@
         " ddddddddddddd  ",
         " ddddddddddddd  ",
         " ddddddddddddd  ",
-        " dddddtddddddd  ",
-        " dddtdtdtddddd  ",
-        " dddt t tddddd  ",
-        " ddd  t   dddd  ",
-        " dttt   tttddd  ",
+        " dddddqddddddd  ",
+        " dddqdqdqddddd  ",
+        " dddq q qddddd  ",
+        " ddd  q   dddd  ",
+        " dqqq   qqqddd  ",
         " dd       dddd  ",
-        " dd    tttdddd  ",
+        " dd    qqqdddd  ",
         " dddd   dddddd  ",
         " dddd   dddddd  ",
         "                "
@@ -1837,10 +1735,6 @@
         "block": "minecraft:air"
       },
       {
-        "char": "a",
-        "block": "industrialrenewal:brace@5"
-      },
-      {
         "char": "b",
         "block": "chisel:factory@4"
       },
@@ -1874,34 +1768,22 @@
       },
       {
         "char": "j",
-        "block": "industrialrenewal:industrial_floor"
-      },
-      {
-        "char": "k",
-        "block": "industrialrenewal:brace@6"
-      },
-      {
-        "char": "l",
         "block": "chisel:factory@9"
       },
       {
-        "char": "n",
-        "block": "industrialrenewal:catwalk_pillar"
-      },
-      {
-        "char": "o",
+        "char": "k",
         "block": "chisel:technicalnew"
       },
       {
-        "char": "p",
+        "char": "l",
         "block": "minecraft:orange_glazed_terracotta"
       },
       {
-        "char": "q",
+        "char": "m",
         "block": "minecraft:orange_glazed_terracotta"
       },
       {
-        "char": "r",
+        "char": "n",
         "block": "minecraft:orange_glazed_terracotta"
       }
     ],
@@ -1913,80 +1795,80 @@
     ],
     "slices": [
       [
-        "aehhhhhhhhhhhhhl",
-        "aeijjjijjjijjjeh",
-        "bfdfffdfffdfdfjh",
-        "cgbbbbcbbbbbcdjh",
-        "bgggggbgggggbfjh",
+        " ehhhhhhhhhhhhhj",
+        " eibbbibbbibbbeh",
+        "bfdfffdfffdfdfbh",
+        "cgbbbbcbbbbbcdbh",
+        "bgggggbgggggbfbh",
         "dgggggbgggggbdih",
-        "cgggggbgggggbfjh",
-        "dgggggbgggggbfjh",
-        "bgggggbgggggbfjh",
+        "cgggggbgggggbfbh",
+        "dgggggbgggggbfbh",
+        "bgggggbgggggbfbh",
         "cgbbbbibbbbbcdih",
-        "bgggggbgggggbfjh",
-        "dgggggbgggggbfjh",
-        "cgggggbgggggbfjh",
+        "bgggggbgggggbfbh",
+        "dgggggbgggggbfbh",
+        "cgggggbgggggbfbh",
         "dgggggbgggggbdih",
         "bggggggggggggfee",
-        "cbdcdbcbdcdbcbkk"
+        "cbdcdbcbdcdbcb  "
       ],
       [
-        "               l",
+        "               j",
         "  i   i   i   e ",
-        "n               ",
-        "in              ",
-        "nfgggg ggggg    ",
-        " oppqg gqrrg  i ",
-        " oppqg gqqqg    ",
-        " opqqg gqqqg    ",
-        "nfgggg ggggg    ",
-        "in    i       i ",
-        "nfgggg ggggg    ",
-        " oqqqg gpqqg    ",
-        " oqqqg gpqqg    ",
-        " oppqg gqqqg  i ",
-        "nfooofnfooofn   ",
-        "in   nin   nin  "
+        "c               ",
+        "ii              ",
+        "cfgggg ggggg    ",
+        " kllmg gmnng  i ",
+        " kllmg gmmmg    ",
+        " klmmg gmmmg    ",
+        "cfgggg ggggg    ",
+        "ii    i       i ",
+        "cfgggg ggggg    ",
+        " kmmmg glmmg    ",
+        " kmmmg glmmg    ",
+        " kllmg gmmmg  i ",
+        "cfkkkfifkkkfi   ",
+        "ic   cic   cic  "
       ],
       [
-        "               l",
-        "  n   n   n   n ",
-        "n               ",
-        "in              ",
-        "nfgggg ggggg    ",
-        " oqqqg gpqrg  n ",
-        " oqqqg gqqqg    ",
-        " oqqqg gqqqg    ",
-        "nfgggg ggggg    ",
-        "in    n       n ",
-        "nfgggg ggggg    ",
-        " oqqqg gqqqg    ",
-        " oqqqg gqqqg    ",
-        " oqppg gqqqg  n ",
-        "nfooofnfooofn   ",
-        "in   nin   nin  "
+        "               j",
+        "  i   i   i   i ",
+        "h               ",
+        "ii              ",
+        "hfgggg ggggg    ",
+        " kmmmg glmng  i ",
+        " kmmmg gmmmg    ",
+        " kmmmg gmmmg    ",
+        "hfgggg ggggg    ",
+        "ii    i       i ",
+        "hfgggg ggggg    ",
+        " kmmmg gmmmg    ",
+        " kmmmg gmmmg    ",
+        " kmllg gmmmg  i ",
+        "hfkkkfifkkkfi   ",
+        "ih   hih   hih  "
       ],
       [
-        "               l",
-        "  n   n   n   n ",
-        "n               ",
-        "in              ",
-        "nf              ",
-        " o            n ",
-        " o              ",
-        " o              ",
-        "nf              ",
-        "in    n       n ",
-        "nf              ",
-        " o              ",
-        " o              ",
-        " o            n ",
-        "nfooofnfooofn   ",
-        "in   nin   nin  "
+        "               j",
+        "  i   i   i   i ",
+        "c               ",
+        "ii              ",
+        "cf              ",
+        " k            i ",
+        " k              ",
+        " k              ",
+        "cf              ",
+        "ii    i       i ",
+        "cf              ",
+        " k              ",
+        " k              ",
+        " k            i ",
+        "cfkkkfifkkkfi   ",
+        "ic   cic   cic  "
       ],
       [
         "f f           f ",
-        "f cfffcfffcfffcf",
+        "c cfffcfffcfffcf",
         "d             f ",
         "              f ",
         "d             f ",
@@ -2000,7 +1882,7 @@
         "f             f ",
         "f             cf",
         "d     d     d   ",
-        " dfffd dfffd dff"
+        " dfffd dfffd dcf"
       ],
       [
         "                ",
@@ -2161,19 +2043,6 @@
     "zsize": 16,
     "palette": [
       {
-        "char": "A",
-        "blocks": [
-          {
-            "random": 10,
-            "block": "minecraft:mob_spawner", "mob": "watermobs"
-          },
-          {
-            "random": 10,
-            "block": "minecraft:air"
-          }
-        ]
-      },
-      {
         "char": " ",
         "block": "minecraft:air"
       },
@@ -2190,12 +2059,8 @@
         "block": "chisel:factory@6"
       },
       {
-        "char": "d",
-        "block": "industrialrenewal:brace@6"
-      },
-      {
         "char": "e",
-        "block": "industrialrenewal:industrial_floor"
+        "block": "chisel:factory@4"
       },
       {
         "char": "f",
@@ -2211,35 +2076,39 @@
       },
       {
         "char": "i",
-        "block": "chisel:factory@4"
-      },
-      {
-        "char": "j",
         "block": "chisel:technicalnew@2"
       },
       {
-        "char": "k",
+        "char": "j",
         "block": "chisel:factory@2"
       },
       {
-        "char": "l",
-        "block": "industrialrenewal:brace"
-      },
-      {
-        "char": "n",
+        "char": "k",
         "block": "minecraft:gravel"
       },
       {
-        "char": "o",
+        "char": "l",
         "block": "chisel:technical1"
       },
       {
+        "char": "m",
+        "block": "minecraft:leaves@4"
+      },
+      {
+        "char": "n",
+        "block": "chisel:brownstone@8"
+      },
+      {
+        "char": "o",
+        "block": "minecraft:white_glazed_terracotta"
+      },
+      {
         "char": "p",
-        "block": "industrialrenewal:catwalk_pillar"
+        "block": "minecraft:white_glazed_terracotta"
       },
       {
         "char": "q",
-        "block": "chisel:brownstone@8"
+        "block": "minecraft:white_glazed_terracotta"
       },
       {
         "char": "r",
@@ -2247,23 +2116,15 @@
       },
       {
         "char": "s",
-        "block": "minecraft:white_glazed_terracotta"
-      },
-      {
-        "char": "t",
-        "block": "minecraft:white_glazed_terracotta"
-      },
-      {
-        "char": "u",
-        "block": "minecraft:white_glazed_terracotta"
-      },
-      {
-        "char": "v",
         "block": "chisel:technicalnew"
       },
       {
-        "char": "w",
+        "char": "t",
         "block": "chisel:brownstone"
+      },
+      {
+        "char": "u",
+        "block": "minecraft:mob_spawner", "mob": "famobs"
       }
     ],
     "meta": [
@@ -2274,105 +2135,105 @@
     ],
     "slices": [
       [
-        "abbbbbbbbbbbbbcl",
-        "bceeefeeefeeefcl",
-        "beghghggghggghgi",
-        "behjiiiiijiiiikj",
-        "begikkkkkikkkkki",
-        "bfhikkkkkikkkkkh",
-        "begikkkkkikkkkkj",
-        "begikkkkkikkkkkh",
-        "begikkkkkikkkkki",
-        "bfhjiiiiifiiiikj",
-        "begikkkkkikkkkki",
-        "begikkkkkikkkkkh",
-        "begikkkkkikkkkkj",
-        "bfhikkkkkikkkkkh",
-        "ccgkkkkkkkkkkkki",
-        "ddijihjhijihjhij"
+        "abbbbbbbbbbbbbc ",
+        "bceeefeeefeeefc ",
+        "beghghggghggghge",
+        "behieeeeeieeeeji",
+        "begejjjjjejjjjje",
+        "bfhejjjjjejjjjjh",
+        "begejjjjjejjjjji",
+        "begejjjjjejjjjjh",
+        "begejjjjjejjjjje",
+        "bfhieeeeefeeeeji",
+        "begejjjjjejjjjje",
+        "begejjjjjejjjjjh",
+        "begejjjjjejjjjji",
+        "bfhejjjjjejjjjjh",
+        "ccgjjjjjjjjjjjje",
+        "  eiehiheiehihei"
       ],
       [
         "a               ",
-        " c  nfnn f   f  ",
-        "  nn q qn    d p",
-        "   nqqoqnnq   pf",
-        "  oqkkkkkokkkkgp",
-        " fnnkrssknkrttv ",
-        "  nnksttk kruuv ",
-        "   qksttk kuuuv ",
-        "    kkkkk kkkkgp",
-        " f       f    pf",
-        "    kkkkk kkkkgp",
-        "    ktttk ksttv ",
-        "    kuttk ktttv ",
-        " f  krruk ktttv ",
-        "   pgvvvgpgvvvgp",
-        "  pfp   pfp A pf"
+        " c  kfkk f   f  ",
+        "  kk n nk      i",
+        "   knnlnkkn   if",
+        "  lnjjjjjljjjjgi",
+        " f kjoppjkjoqqs ",
+        "  kkjpqqj jorrs ",
+        "  mnjpqqj jrrrs ",
+        "   kjjjjj jjjjgi",
+        " f   kkkkf     f",
+        "    jjjjj jjjjgi",
+        "    jqqqj jpqqs ",
+        "    jrqqj jqqqs ",
+        " f  joorj jqqqs ",
+        "   igsssg gsssgi",
+        "  ifi   ifi   if"
       ],
       [
         "a               ",
-        " p   p   p   p  ",
-        "               p",
-        "     woww     pf",
-        "  nonkkkn kkkkgp",
-        " pnnkruuk krrtv ",
-        "   nnuutk krutv ",
-        "    kuttk kuuuv ",
-        "    kkkkk kkkkgp",
-        " p       p    pf",
-        "    kkkkk kkkkgp",
-        "    ktttk kstsv ",
-        "    kuttk ktttv ",
-        " p  kurrk ktttv ",
-        "   pgvvvgpgvvvgp",
-        "  pfp   pfp   pf"
+        " f   f   f   f  ",
+        "               b",
+        "     tltt     bf",
+        "   ljjjjk jjjjgb",
+        " f  jorrjmjooqs ",
+        "    jrrqj jorqs ",
+        "    jrqqjmjrrrs ",
+        "    jjjjj jjjjgb",
+        " f   mkkuf     f",
+        "    jjjjj jjjjgb",
+        "    jqqqj jpqps ",
+        "    jrqqj jqqqs ",
+        " f  jrooj jqqqs ",
+        "   bgsssg gsssgb",
+        "  bfb   bfb   bf"
       ],
       [
         "a               ",
-        " p   p   p   p  ",
-        "               p",
-        "     o        pf",
-        "   n q qo     gp",
-        " p  nnoqn     v ",
-        "    nonq      v ",
-        "    nqnn      v ",
-        "      n       gp",
-        " p       p    pf",
-        "              gp",
-        "              v ",
-        "              v ",
-        " p            v ",
-        "   pgvvvgpgvvvgp",
-        "  pfp   pfp   pf"
+        " f   f   f   f  ",
+        "               i",
+        "     l        if",
+        "    kn nl     gi",
+        " f    lnk     s ",
+        "    klkn      s ",
+        "    knkk      s ",
+        "     kkk      gi",
+        " f    m  f     f",
+        "              gi",
+        "              s ",
+        "              s ",
+        " f            s ",
+        "   igsssg gsssgi",
+        "  ifi   ifi   if"
       ],
       [
         " g           g g",
-        "gjgggjgggjgggj g",
-        " g             h",
-        " g            h ",
-        " g   w w       h",
-        " j   n         g",
-        " g  nnnq       g",
-        " g   nnn       g",
-        " g    n  g     h",
-        " j      gjg   h ",
+        "gf   fgggfgggf g",
+        "               h",
+        "              h ",
+        "     t t       h",
+        " f             g",
+        " g     n       g",
+        " g    n        g",
+        " g       g     h",
+        " f      gfg   h ",
         " g       g     h",
         " g             g",
         " g             g",
-        "gj             g",
+        "gf             g",
         "   h     h     h",
         "ggh hgggh hgggh "
       ],
       [
         "                ",
         "                ",
+        "     hhhhhhhhhh ",
+        "      lhhhhhhhh ",
+        "       t hhhhhh ",
+        "  h     hhhhhhh ",
+        "  hh   nhhhhhhh ",
+        "  hhhln hhhhhhh ",
         "  hhhhhhhhhhhhh ",
-        "  ohhh hhhhhhhh ",
-        "    ow w hhhhhh ",
-        "      h hhhhhhh ",
-        "  honnnqhhhhhhh ",
-        "  hhonnhhhhhhhh ",
-        "  hhhonhhhhhhhh ",
         "  hhhhhhhhhhhhh ",
         "  hhhhhhhhhhhhh ",
         "  hhhhhhhhhhhhh ",
@@ -2403,15 +2264,15 @@
       },
       {
         "char": "d",
-        "block": "chisel:brownstone"
-      },
-      {
-        "char": "e",
         "block": "chisel:brownstone@8"
       },
       {
+        "char": "e",
+        "block": "chisel:technical1"
+      },
+      {
         "char": "f",
-        "block": "chisel:factory@2"
+        "block": "chisel:brownstone"
       },
       {
         "char": "g",
@@ -2419,7 +2280,15 @@
       },
       {
         "char": "h",
-        "block": "chisel:technical1"
+        "block": "chisel:factory@2"
+      },
+      {
+        "char": "i",
+        "block": "minecraft:leaves@4"
+      },
+      {
+        "char": "j",
+        "block": "minecraft:mob_spawner", "mob": "famobs"
       }
     ],
     "meta": [
@@ -2433,68 +2302,68 @@
         "                ",
         "                ",
         "                ",
-        "    bbbbbbbbbb  ",
-        "    cd dee   b  ",
-        "      eeeee  b  ",
-        "    c  efeg  b  ",
-        "    cccffg   b  ",
-        "   bccceg    b  ",
-        "   b  ecge   b  ",
-        "   b c  g e  b  ",
-        "   b   g     b  ",
-        "   b         b  ",
-        "   bbbbbbbbbbb  ",
-        "                ",
-        "                "
-      ],
-      [
-        "                ",
-        "                ",
-        "                ",
-        "    bbbbbbbbbb  ",
-        "             b  ",
-        "       gf    b  ",
-        "       cfg   b  ",
-        "       cf    b  ",
-        "   b   c     b  ",
-        "   b         b  ",
-        "   b         b  ",
-        "   b         b  ",
-        "   b         b  ",
-        "   bbbbbbbbbbb  ",
-        "                ",
-        "                "
-      ],
-      [
-        "                ",
-        "                ",
-        "                ",
-        "    bbbbbbbbbb  ",
-        "             b  ",
-        "             b  ",
-        "             b  ",
-        "             b  ",
-        "   b   c     b  ",
-        "   b         b  ",
-        "   b         b  ",
-        "   b         b  ",
-        "   b         b  ",
-        "   bbbbbbbbbbb  ",
-        "                ",
-        "                "
-      ],
-      [
-        "                ",
-        "                ",
-        "                ",
-        "    bbbbbbbbbb  ",
-        "    hbbbbbbbbb  ",
         "       bbbbbbb  ",
-        "        hbbbbb  ",
-        "        hbbbbb  ",
-        "       hbbbbbb  ",
-        "   bbh hbbbbbb  ",
+        "       fdd   b  ",
+        "       dddd  b  ",
+        "   b    edg  b  ",
+        "   b  d hg   b  ",
+        "   b  ddg    b  ",
+        "   b  dcgd iib  ",
+        "   b ceegid  b  ",
+        "   b   g iii b  ",
+        "   b      i  b  ",
         "   bbbbbbbbbbb  ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "        bbbbbb  ",
+        "             b  ",
+        "        he   b  ",
+        "        hg   b  ",
+        "   b   hh    b  ",
+        "   b  ecj    b  ",
+        "   b      ii b  ",
+        "   b     ii  b  ",
+        "   b     i i b  ",
+        "   b      iiib  ",
+        "   bbbbbbbbbbb  ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "         ebebb  ",
+        "             b  ",
+        "             b  ",
+        "        e    b  ",
+        "   b         b  ",
+        "   b         b  ",
+        "   b         b  ",
+        "   b      i  b  ",
+        "   b     i   b  ",
+        "   b         b  ",
+        "   bbbbbbbbbbb  ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "             b  ",
+        "             b  ",
+        "            bb  ",
+        "   b       ebb  ",
+        "   be      bbb  ",
+        "   bbb  ebbbbb  ",
         "   bbbbbbbbbbb  ",
         "   bbbbbbbbbbb  ",
         "   bbbbbbbbbbb  ",
@@ -2562,12 +2431,8 @@
         "block": "chisel:factory@6"
       },
       {
-        "char": "d",
-        "block": "industrialrenewal:brace@6"
-      },
-      {
         "char": "e",
-        "block": "industrialrenewal:industrial_floor"
+        "block": "chisel:factory@4"
       },
       {
         "char": "f",
@@ -2583,42 +2448,30 @@
       },
       {
         "char": "i",
-        "block": "chisel:factory@4"
-      },
-      {
-        "char": "j",
         "block": "chisel:technicalnew@2"
       },
       {
-        "char": "k",
+        "char": "j",
         "block": "chisel:factory@2"
       },
       {
+        "char": "k",
+        "block": "minecraft:white_glazed_terracotta"
+      },
+      {
         "char": "l",
-        "block": "industrialrenewal:brace"
+        "block": "minecraft:white_glazed_terracotta"
+      },
+      {
+        "char": "m",
+        "block": "minecraft:white_glazed_terracotta"
       },
       {
         "char": "n",
-        "block": "industrialrenewal:catwalk_pillar"
+        "block": "minecraft:white_glazed_terracotta"
       },
       {
         "char": "o",
-        "block": "minecraft:white_glazed_terracotta"
-      },
-      {
-        "char": "p",
-        "block": "minecraft:white_glazed_terracotta"
-      },
-      {
-        "char": "q",
-        "block": "minecraft:white_glazed_terracotta"
-      },
-      {
-        "char": "r",
-        "block": "minecraft:white_glazed_terracotta"
-      },
-      {
-        "char": "s",
         "block": "chisel:technicalnew"
       }
     ],
@@ -2630,94 +2483,94 @@
     ],
     "slices": [
       [
-        "abbbbbbbbbbbbbcl",
-        "bceeefeeefeeefcl",
-        "beghghggghggghgi",
-        "behjiiiiijiiiikj",
-        "begikkkkkikkkkki",
-        "bfhikkkkkikkkkkh",
-        "begikkkkkikkkkkj",
-        "begikkkkkikkkkkh",
-        "begikkkkkikkkkki",
-        "bfhjiiiiifiiiikj",
-        "begikkkkkikkkkki",
-        "begikkkkkikkkkkh",
-        "begikkkkkikkkkkj",
-        "bfhikkkkkikkkkkh",
-        "ccgkkkkkkkkkkkki",
-        "ddijihjhijihjhij"
+        "abbbbbbbbbbbbbc ",
+        "bceeefeeefeeefc ",
+        "beghghggghggghge",
+        "behieeeeeieeeeji",
+        "begejjjjjejjjjje",
+        "bfhejjjjjejjjjjh",
+        "begejjjjjejjjjji",
+        "begejjjjjejjjjjh",
+        "begejjjjjejjjjje",
+        "bfhieeeeefeeeeji",
+        "begejjjjjejjjjje",
+        "begejjjjjejjjjjh",
+        "begejjjjjejjjjji",
+        "bfhejjjjjejjjjjh",
+        "ccgjjjjjjjjjjjje",
+        "  eiehiheiehihei"
       ],
       [
         "a               ",
         " c   f   f   f  ",
-        "         d   d n",
-        "              nf",
-        "    kkkkk kkkkgn",
-        " f  koppk koqqs ",
-        "    kpqqk korrs ",
-        "    kpqqk krrrs ",
-        "    kkkkk kkkkgn",
-        " f       f    nf",
-        "    kkkkk kkkkgn",
-        "    kqqqk kpqqs ",
-        "    krqqk kqqqs ",
-        " f  koork kqqqs ",
-        "   ngsssgngsssgn",
-        "  nfn   nfn   nf"
+        "               i",
+        "              ff",
+        "    jjjjj jjjjgi",
+        " f  jkllj jkmmo ",
+        "    jlmmj jknno ",
+        "    jlmmj jnnno ",
+        "    jjjjj jjjjgi",
+        " f       f    ff",
+        "    jjjjj jjjjgi",
+        "    jmmmj jlmmo ",
+        "    jnmmj jmmmo ",
+        " f  jkknj jmmmo ",
+        "   fgooogfgooogi",
+        "  ifi   ifi   if"
       ],
       [
         "a               ",
-        " n   n   n   n  ",
-        "               n",
-        "              nf",
-        "    kkkkk kkkkgn",
-        " n  korrk kooqs ",
-        "    krrqk korqs ",
-        "    krqqk krrrs ",
-        "    kkkkk kkkkgn",
-        " n       n    nf",
-        "    kkkkk kkkkgn",
-        "    kqqqk kpqps ",
-        "    krqqk kqqqs ",
-        " n  krook kqqqs ",
-        "   ngsssgngsssgn",
-        "  nfn   nfn   nf"
+        " f   f   f   f  ",
+        "               b",
+        "              ff",
+        "    jjjjj jjjjgb",
+        " f  jknnj jkkmo ",
+        "    jnnmj jknmo ",
+        "    jnmmj jnnno ",
+        "    jjjjj jjjjgb",
+        " f       f    ff",
+        "    jjjjj jjjjgb",
+        "    jmmmj jlmlo ",
+        "    jnmmj jmmmo ",
+        " f  jnkkj jmmmo ",
+        "   fgooogfgooogb",
+        "  bfb   bfb   bf"
       ],
       [
         "a               ",
-        " n   n   n   n  ",
-        "               n",
-        "              nf",
-        "              gn",
-        " n            s ",
-        "              s ",
-        "              s ",
-        "              gn",
-        " n       n    nf",
-        "              gn",
-        "              s ",
-        "              s ",
-        " n            s ",
-        "   ngsssgngsssgn",
-        "  nfn   nfn   nf"
+        " f   f   f   f  ",
+        "               i",
+        "              ff",
+        "              gi",
+        " f            o ",
+        "              o ",
+        "              o ",
+        "              gi",
+        " f       f    ff",
+        "              gi",
+        "              o ",
+        "              o ",
+        " f            o ",
+        "   fgooogfgooogi",
+        "  ifi   ifi   if"
       ],
       [
         " g           g g",
-        "gjgggjgggjgggj g",
+        "gigggigggigggi g",
         " g             h",
         " g            h ",
         " g             h",
-        " j             g",
+        " i             g",
         " g             g",
         " g             g",
         " g       g     h",
-        " j      gjg   h ",
+        " i      gig   h ",
         " g       g     h",
         " g             g",
         " g             g",
-        "gj             g",
+        "gi             g",
         "   h     h     h",
-        "ggh hgggh hgggh "
+        "gih hgggh hgggh "
       ],
       [
         "                ",
@@ -2907,19 +2760,19 @@
       },
       {
         "char": "g",
-        "block": "industrialrenewal:catwalk_pillar"
-      },
-      {
-        "char": "h",
         "block": "chisel:glass@12"
       },
       {
-        "char": "j",
+        "char": "i",
         "block": "chisel:factory@9"
       },
       {
-        "char": "k",
+        "char": "j",
         "block": "minecraft:silver_glazed_terracotta"
+      },
+      {
+        "char": "k",
+        "block": "minecraft:gravel"
       },
       {
         "char": "l",
@@ -2931,50 +2784,18 @@
       },
       {
         "char": "n",
-        "block": "minecraft:gravel"
-      },
-      {
-        "char": "o",
-        "block": "industrialrenewal:frame"
-      },
-      {
-        "char": "p",
-        "block": "minecraft:silver_glazed_terracotta"
-      },
-      {
-        "char": "q",
-        "block": "industrialrenewal:brace@1"
-      },
-      {
-        "char": "r",
-        "block": "industrialrenewal:brace@4"
-      },
-      {
-        "char": "s",
         "block": "chisel:technical1"
       },
       {
-        "char": "t",
-        "block": "industrialrenewal:brace@2"
+        "char": "o",
+        "block": "minecraft:silver_glazed_terracotta"
       },
       {
-        "char": "u",
-        "block": "industrialrenewal:brace"
+        "char": "p",
+        "block": "minecraft:mob_spawner", "mob": "famobs"
       },
       {
-        "char": "v",
-        "block": "industrialrenewal:brace@5"
-      },
-      {
-        "char": "w",
-        "block": "industrialrenewal:brace@7"
-      },
-      {
-        "char": "x",
-        "block": "minecraft:mob_spawner", "mob": "watermobs"
-      },
-      {
-        "char": "y",
+        "char": "q",
         "block": "chisel:factory@4"
       }
     ],
@@ -3004,97 +2825,98 @@
         "abbbbbbbbbbbbbba"
       ],
       [
-        "fchhcg    gchhcf",
-        "g    eo noe    g",
-        "h jjjj nnnn    h",
-        "h jklj nnnjjjj h",
-        "g jkkjnnnnjppj g",
-        " ejjjjnnnnjppje ",
-        "g    nnnnnjjjjng",
-        "h    nneennnnnnh",
-        "h    nneennnnnnh",
-        "g    nnnnnnnnnng",
-        " ejjjjnnnnjjjje ",
-        "g jkkjnnnnjkmj g",
-        "h jkmj nnnjmmj h",
-        "h jjjj  n jjjj h",
-        "g    e    e    g",
-        "fghhg ghhg ghhgf"
+        "fcggc c  c cggcf",
+        "c    enkkne kkkc",
+        "g iiiikkkkkkkkkg",
+        "g ijlikkkkiiiikg",
+        "c ijjikkkkiokikc",
+        " eiiiikkkkiooie ",
+        "c  kkkkkkkiiiikc",
+        "g  kkkkeekkkkkkk",
+        "g  kkkkeekkkkkk ",
+        "c    kkkkkkkkkkc",
+        " eiiiikkkkiiiie ",
+        "c ijjikkkkijmi c",
+        "  ijmi  kkimmi g",
+        "  iiii  kkiiii g",
+        "c    e    e    c",
+        "fcggc cggc cggcf"
       ],
       [
-        "fchhcg    gchhcf",
-        "g    eo  oe    g",
-        "h jjjj  n      h",
-        "h jkkj  nnnjjj h",
-        "g jkkj n njnnj g",
-        " ejjjj nnnjnnje ",
-        "g      nnnjjjjng",
-        "h     neennnnnnh",
-        "h     neennnnnnh",
-        "g     nnnnnnnn g",
-        " ejjjjnnnnjjjje ",
-        "g jkkj  nnjnnj g",
-        "h jmmj    jknj h",
-        "h jjjj    jjjj h",
-        "g    e    e    g",
-        "fghhg ghhg ghhgf"
+        "fcggc c  c cggcf",
+        "c    en  ne k kc",
+        "g iiiikkkkkkkkkg",
+        "g ijjikkkkiiiikg",
+        "c ijki kkkikkikc",
+        " eiiiikpkkikkie ",
+        "c   kkkkkkiiiikc",
+        "g    kkekkkkkkk ",
+        "    kkkeekkkkkk ",
+        "c    kkpkkkkkkkc",
+        " eiiii kkkiiiie ",
+        "c ijji  kkijmi c",
+        "  immi    ijmi g",
+        "  iiii    iiii g",
+        "c    e    e    c",
+        "fc  c cggc cggcf"
       ],
       [
-        "fccccg    gccccf",
-        "d    eo  oe    d",
-        "h              h",
-        "h              h",
-        "d         n    d",
-        "qe       nnn  et",
-        "d       nnnnnn d",
-        "h      esnnnnnnh",
-        "h      esnnnnn h",
-        "d       nnnnn  d",
-        "qe       nnnn et",
-        "d          n   d",
-        "h              h",
-        "h              h",
-        "d    e    e    d",
-        "fdhhdrdhhdrdhhdf"
+        "fcccc c  c ccccf",
+        "c    en  ne    c",
+        "g              g",
+        "g   kk  kkkkk  g",
+        "c   k   kkkkkk c",
+        " e  kk  kkkkkke ",
+        "c   kk  kkkkkkkc",
+        "g     keekkkkk  ",
+        "g   k keekkkkkk ",
+        "c       kkkk k c",
+        " e       kkkkke ",
+        "c         kk   c",
+        "               g",
+        "               g",
+        "c    e    e    c",
+        "fc  c cggc cggcf"
       ],
       [
         "abbbbaccccabbbba",
-        "c    vabbau    c",
+        "c    eabbae    c",
+        "c              c",
+        "c              c",
+        "c         kk   c",
+        "ae   k   kkkk ea",
+        "c      ddk kk  c",
+        "c     deekkkk  c",
+        "c     dee  kk  c",
+        "c      dd  k   c",
+        "ae            ea",
         "c              c",
         "c              c",
         "c              c",
-        "au            va",
-        "c     xdd nn   c",
-        "c     dennnnn  c",
-        "c     dennnnn  c",
-        "c     xds nns  c",
-        "au         ns va",
-        "c              c",
-        "c              c",
-        "c              c",
-        "c    w    w    c",
+        "c    e    e    c",
         "accccaccccacccca"
       ],
       [
-        "do  odo  odo  od",
-        "oyyyyh    hyyyyo",
-        " yyyyhyyyyhyyyy ",
-        " yyyyhyyyyhyyyy ",
-        "oyyyyhyyyyhyyyyo",
-        "dhhhhhhhhhshhhhd",
-        "oyyyyhyys     yo",
-        " yyyyhyy  n   y ",
-        " yyyyhyy  n  sy ",
-        "oyyyyhyy     yyo",
-        "dhhhhhhhhhs hhhd",
-        "oyyyyhyyyyhsyyyo",
-        " yyyyhyyyyhyyyy ",
-        " yyyyhyyyyhyyyy ",
-        "oyyyyhyyyyhyyyyo",
-        "do  odo  odo  od"
+        "dn  ndn  ndn  nd",
+        "nqqqqgqqqqgqqqqn",
+        " qqqqgqqqqgqqqq ",
+        " qqqqgqqqq    q ",
+        "nqqqqgqqq    qqn",
+        "dgggggggg     gd",
+        "nqqqqgqqq    qqn",
+        " qqqqgqqq    qq ",
+        " qqqqgqqqq   qq ",
+        "nqqqqgqqqq qqqqn",
+        "dggggggggg ggggd",
+        "nqqqqgqqqqgqqqqn",
+        " qqqqgqqqqgqqqq ",
+        " qqqqgqqqqgqqqq ",
+        "nqqqqgqqqqgqqqqn",
+        "dn  ndn  ndn  nd"
       ]
     ]
   },
+
   {
     "type": "part",
     "name": "storage_single_bauxite_o",
@@ -3131,15 +2953,15 @@
       },
       {
         "char": "g",
-        "block": "industrialrenewal:catwalk_pillar"
-      },
-      {
-        "char": "h",
         "block": "chisel:glass@12"
       },
       {
-        "char": "j",
+        "char": "i",
         "block": "chisel:factory@9"
+      },
+      {
+        "char": "j",
+        "block": "minecraft:silver_glazed_terracotta"
       },
       {
         "char": "k",
@@ -3151,46 +2973,18 @@
       },
       {
         "char": "m",
-        "block": "minecraft:silver_glazed_terracotta"
+        "block": "chisel:technical1"
       },
       {
         "char": "n",
-        "block": "industrialrenewal:frame"
-      },
-      {
-        "char": "o",
         "block": "minecraft:silver_glazed_terracotta"
       },
       {
+        "char": "o",
+        "block": "minecraft:mob_spawner", "mob": "famobs"
+      },
+      {
         "char": "p",
-        "block": "industrialrenewal:brace@1"
-      },
-      {
-        "char": "q",
-        "block": "industrialrenewal:brace@4"
-      },
-      {
-        "char": "r",
-        "block": "industrialrenewal:brace@2"
-      },
-      {
-        "char": "s",
-        "block": "industrialrenewal:brace"
-      },
-      {
-        "char": "t",
-        "block": "industrialrenewal:brace@5"
-      },
-      {
-        "char": "u",
-        "block": "industrialrenewal:brace@7"
-      },
-      {
-        "char": "v",
-        "block": "minecraft:mob_spawner", "mob": "watermobs"
-      },
-      {
-        "char": "w",
         "block": "chisel:factory@4"
       }
     ],
@@ -3220,94 +3014,94 @@
         "abbbbbbbbbbbbbba"
       ],
       [
-        "fchhcg    gchhcf",
-        "g    en  ne    g",
-        "h jjjj         h",
-        "h jklj    jjjj h",
-        "g jkkj    jooj g",
-        " ejjjj    jooje ",
-        "g         jjjj g",
-        "h      ee      h",
-        "h      ee      h",
-        "g              g",
-        " ejjjj    jjjje ",
-        "g jkkj    jkmj g",
-        "h jkmj    jmmj h",
-        "h jjjj    jjjj h",
-        "g    e    e    g",
-        "fghhg ghhg ghhgf"
+        "fcggc c  c cggcf",
+        "c    em  me    c",
+        "g iiii         g",
+        "g ijki    iiii g",
+        "c ijji    inni c",
+        " eiiii    innie ",
+        "c         iiii c",
+        "g      ee      g",
+        "g      ee      g",
+        "c              c",
+        " eiiii    iiiie ",
+        "c ijji    ijli c",
+        "g ijli    illi g",
+        "g iiii    iiii g",
+        "c    e    e    c",
+        "fcggc cggc cggcf"
       ],
       [
-        "fchhcg    gchhcf",
-        "g    en  ne    g",
-        "h jjjj         h",
-        "h jkkj    jjjj h",
-        "g jkkj    jooj g",
-        " ejjjj    jooje ",
-        "g         jjjj g",
-        "h      ee      h",
-        "h      ee      h",
-        "g              g",
-        " ejjjj    jjjje ",
-        "g jkkj    jkmj g",
-        "h jmmj    jkmj h",
-        "h jjjj    jjjj h",
-        "g    e    e    g",
-        "fghhg ghhg ghhgf"
+        "fcggc c  c cggcf",
+        "c    em  me    c",
+        "g iiii         g",
+        "g ijji    iiii g",
+        "c ijji    inni c",
+        " eiiii    innie ",
+        "c         iiii c",
+        "g      ee      g",
+        "g      ee      g",
+        "c              c",
+        " eiiii    iiiie ",
+        "c ijji    ijli c",
+        "g illi    ijli g",
+        "g iiii    iiii g",
+        "c    e    e    c",
+        "fcggc cggc cggcf"
       ],
       [
-        "fccccg    gccccf",
-        "d    en  ne    d",
-        "h              h",
-        "h              h",
-        "d              d",
-        "pe            er",
-        "d              d",
-        "h      ee      h",
-        "h      ee      h",
-        "d              d",
-        "pe            er",
-        "d              d",
-        "h              h",
-        "h              h",
-        "d    e    e    d",
-        "fdhhdqdhhdqdhhdf"
+        "fcccc c  c ccccf",
+        "c    em  me    c",
+        "g              g",
+        "g              g",
+        "c              c",
+        " e            e ",
+        "c              c",
+        "g      ee      g",
+        "g      ee      g",
+        "c              c",
+        " e            e ",
+        "c              c",
+        "g              g",
+        "g              g",
+        "c    e    e    c",
+        "fcggc cggc cggcf"
       ],
       [
         "abbbbaccccabbbba",
-        "c    tabbas    c",
+        "c    eabbae    c",
         "c              c",
         "c              c",
         "c              c",
-        "as            ta",
-        "c      ddv     c",
+        "ae            ea",
+        "c      ddo     c",
         "c     deed     c",
         "c     deed     c",
-        "c     vdd      c",
-        "as            ta",
+        "c     odd      c",
+        "ae            ea",
         "c              c",
         "c              c",
         "c              c",
-        "c    u    u    c",
+        "c    e    e    c",
         "accccaccccacccca"
       ],
       [
-        "dn  ndn  ndn  nd",
-        "nwwwwh    hwwwwn",
-        " wwwwhwwwwhwwww ",
-        " wwwwhwwwwhwwww ",
-        "nwwwwhwwwwhwwwwn",
-        "dhhhhhhhhhhhhhhd",
-        "nwwwwhwwwwhwwwwn",
-        " wwwwhwwwwhwwww ",
-        " wwwwhwwwwhwwww ",
-        "nwwwwhwwwwhwwwwn",
-        "dhhhhhhhhhhhhhhd",
-        "nwwwwhwwwwhwwwwn",
-        " wwwwhwwwwhwwww ",
-        " wwwwhwwwwhwwww ",
-        "nwwwwhwwwwhwwwwn",
-        "dn  ndn  ndn  nd"
+        "dm  mdm  mdm  md",
+        "mppppgppppgppppm",
+        " ppppgppppgpppp ",
+        " ppppgppppgpppp ",
+        "mppppgppppgppppm",
+        "dggggggggggggggd",
+        "mppppgppppgppppm",
+        " ppppgppppgpppp ",
+        " ppppgppppgpppp ",
+        "mppppgppppgppppm",
+        "dggggggggggggggd",
+        "mppppgppppgppppm",
+        " ppppgppppgpppp ",
+        " ppppgppppgpppp ",
+        "mppppgppppgppppm",
+        "dm  mdm  mdm  md"
       ]
     ]
   },
@@ -3317,19 +3111,6 @@
     "xsize": 16,
     "zsize": 16,
     "palette": [
-      {
-        "char": "A",
-        "blocks": [
-          {
-            "random": 10,
-            "block": "minecraft:mob_spawner", "mob": "watermobs"
-          },
-          {
-            "random": 10,
-            "block": "minecraft:air"
-          }
-        ]
-      },
       {
         "char": " ",
         "block": "minecraft:air"
@@ -3348,83 +3129,63 @@
       },
       {
         "char": "d",
-        "block": "chisel:glass@12"
-      },
-      {
-        "char": "e",
         "block": "chisel:factory@4"
       },
       {
-        "char": "f",
-        "block": "industrialrenewal:brace@4"
-      },
-      {
-        "char": "g",
+        "char": "e",
         "block": "chisel:technical1"
       },
       {
-        "char": "h",
-        "block": "industrialrenewal:catwalk_pillar"
-      },
-      {
-        "char": "i",
+        "char": "f",
         "block": "chisel:technicalnew@2"
       },
       {
-        "char": "j",
-        "block": "chisel:technical@15"
-      },
-      {
-        "char": "l",
-        "block": "industrialrenewal:brace@2"
-      },
-      {
-        "char": "m",
-        "block": "industrialrenewal:brace@3"
-      },
-      {
-        "char": "n",
+        "char": "h",
         "block": "minecraft:gravel"
       },
       {
-        "char": "o",
+        "char": "i",
+        "block": "chisel:technical@15"
+      },
+      {
+        "char": "j",
         "block": "minecraft:orange_glazed_terracotta"
       },
       {
-        "char": "p",
+        "char": "k",
         "block": "minecraft:orange_glazed_terracotta"
       },
       {
-        "char": "q",
+        "char": "l",
         "block": "minecraft:lime_glazed_terracotta"
       },
       {
-        "char": "r",
+        "char": "m",
         "block": "minecraft:white_glazed_terracotta"
+      },
+      {
+        "char": "n",
+        "block": "minecraft:white_glazed_terracotta"
+      },
+      {
+        "char": "o",
+        "block": "minecraft:pink_glazed_terracotta"
+      },
+      {
+        "char": "p",
+        "block": "industrialrenewal:catwalk_pillar"
+      },
+      {
+        "char": "q",
+        "block": "chisel:glass@12"
+      },
+      {
+        "char": "r",
+        "block": "minecraft:mob_spawner", "mob": "famobs"
       },
       {
         "char": "s",
-        "block": "minecraft:white_glazed_terracotta"
-      },
-      {
-        "char": "t",
-        "block": "industrialrenewal:brace@7"
-      },
-      {
-        "char": "u",
-        "block": "industrialrenewal:frame"
-      },
-      {
-        "char": "v",
-        "block": "industrialrenewal:brace@6"
-      },
-      {
-        "char": "w",
         "block": "chisel:factory@5"
-      },
-      {
-        "char": "x",
-        "block": "industrialrenewal:brace"
       }
     ],
     "meta": [
@@ -3436,109 +3197,109 @@
     "slices": [
       [
         "abbbbbabbbbbacca",
-        "bcccccfccccfcbbc",
-        "bdeeeedeeeedcbbc",
-        "beeeeeeeeeeeabba",
-        "beeeeeeeegeecbbb",
-        "beeeeeeeeeeecbbb",
-        "beeeeeeeeeeecbbb",
-        "bdeeeedeeeedcbbb",
-        "beeeeeeeeeeecbbb",
-        "beeeeeeeeeeecbbb",
-        "beeeeeeeeeeebbbb",
-        "beeeeeeeeeeebbbb",
-        "bdeeeedeeeedcbbb",
-        "beeeeeeeeeeecbbb",
-        "beeeeeeeeeeecbbb",
+        "bccccccccccccbbc",
+        "bcddddddddddcbbc",
+        "bcddddddddddabba",
+        "bcddddddddddcbbb",
+        "bcddddddddddcbbb",
+        "bcddddddddddcbbb",
+        "bcddddddddddcbbb",
+        "bcddddddddddcbbb",
+        "bcddddddddddcbbb",
+        "bcddddddddddcbbb",
+        "bcddddddddddcbbb",
+        "bcddddddddddcbbb",
+        "bcddddddddddcbbb",
+        "bccccccccccccbbb",
         "abbbbbbbbbbbabba"
       ],
       [
-        "hicccihiccih   t",
-        "hjfff jnffnnnn f",
-        "i     hnnnnggn  ",
-        "cl bbbnngngnhn h",
-        "cl bqbnngnnnnnnj",
-        "cl bbbnnnnnnhnnh",
-        "i  nnnnnnnnnnnnh",
-        "hj   nhnnnnnhnnh",
-        "hj     nnnnnn  h",
-        "iAbbbb bbbbnh  j",
-        "clboob brrb    h",
-        "clbppb bssb    h",
-        "clbbbbhbbbb h  h",
-        "i              h",
-        "hjmmm j mm jjddj",
-        "hicccihiccihh  h"
+        "efcccf fccfp    ",
+        "eihhh i    ie  e",
+        "f hhhhf         ",
+        "chhbbb hbbb f  f",
+        "c hblbhhbob    i",
+        "c hbbbhhbbbh   q",
+        "fhhhhhhhhhh    q",
+        " hhhhhfhhhh f  q",
+        "hihhhhhhh h    q",
+        "fhbbbhhbbbb    i",
+        "c bjjb bmmb    q",
+        "c bkkb bnnb    q",
+        "c bbbb bbbb    q",
+        "f     f     f  q",
+        "ei    i    iiqqi",
+        "efcccf fccf f  f"
       ],
       [
-        "hc   chc  ch    ",
-        "hjddd jnddn    t",
-        "c     hnnnnnnn f",
-        " d bbbnnnnnnh  h",
-        " d bqbnnnnnngn j",
-        " d bbbnnnnnnhnnd",
-        "c       nnnnn nd",
-        "hj      nnnnhn d",
-        "hj             d",
-        "c bbbb bbbb h  j",
-        " dbpob bssb    d",
-        " dbpob bssb    d",
-        " dbbbbhbbbb h  d",
-        "c              d",
-        "hjddd j dd jjddj",
-        "hc   chc  chh  h"
+        "ec   c c  cp    ",
+        "ei  h i qq ie  e",
+        "c   hhf         ",
+        " q bbb  bbb f  f",
+        " qhhhb  bob    i",
+        " qhhhbhhbbb    q",
+        "chhhhhhh       q",
+        " hhhhhf     f  q",
+        " ihhhhhh       q",
+        "chbbhhhbbbb    i",
+        " qbkhh bnnb    q",
+        " qbkjb bnnb    q",
+        " qbbbb bbbb    q",
+        "c     f     f  q",
+        "eiqqq i qq iiqqi",
+        "ec   c c  c f  f"
       ],
       [
-        "ac   chc        ",
-        "hjddd j         ",
-        "c     h  n  n  t",
-        " d     nnnn neeu",
-        " d      nnnngn j",
-        " d    nn  nnunnh",
-        "c              h",
-        "hj          u  h",
-        "hj             h",
-        "c           u  j",
-        " d             h",
-        " d             h",
-        " d    h     u  h",
-        "c              h",
-        "hjddd j dd jjddj",
-        "ac   chc  chh  h"
+        "ac   c c  cp    ",
+        "ei    i qq if  f",
+        "c     e     e  e",
+        " q   h      fddf",
+        " q h           i",
+        " qhhhh         q",
+        "c hhhh         q",
+        "  hhhhe     e  q",
+        " hhhhhr        q",
+        "chhh hh        i",
+        " qh  h         q",
+        " q             q",
+        " q             q",
+        "c     e     e  q",
+        "eiqqq i qq iiqqi",
+        "ac   c c  c f  f"
       ],
       [
-        " iccciaic       ",
-        "ievvv a v       ",
-        "ce    w         ",
-        " d    w      g a",
-        " d    w       di",
-        " d    w   n n  c",
-        "ce    w    wc  c",
-        "hj    w    wc  c",
-        "hj    w    wc  c",
-        "ce    w    wi  a",
-        " d    w    wc  c",
-        " d    w    wc  c",
-        " d    w    wc  c",
-        "ce    w    wc  c",
-        "iettt a tt aiddi",
-        " iccciaicciaacca"
+        " fcccfafccfa    ",
+        "fd    a    a    ",
+        "cd    s    s    ",
+        " q    s    sa  a",
+        " q    s    sfqqf",
+        " qhh  s    sc  c",
+        "c hh hs    sc  c",
+        "   hh s    sc  c",
+        " h h  s    sc  c",
+        "c     s    sf  a",
+        "      s    sc  c",
+        " q    s    sc  c",
+        " q    s    sc  c",
+        "cd    s    sc  c",
+        "fd    a    afqqf",
+        " fcccfafccfaacca"
       ],
       [
         "                ",
-        "  bbbb b        ",
-        "i bbbb b        ",
-        "cxbbbb       bb ",
-        "cxbbbb  b    bb ",
-        "cxbbbb bbb   bb ",
-        "i bbbb bbbb  bb ",
-        "aabbbb bbbb  bb ",
-        "aabbbb bbbb  bb ",
-        "i bbbb bbbb  bb ",
-        "cxbbbb bbbb  bb ",
-        "cxbbbb bbbb  bb ",
-        "cxbbbb bbbb  bb ",
-        "i bbbb bbbb  bb ",
+        "  bbbb bbbb     ",
+        "f bbbb bbbb     ",
+        "c bbbb bbbb  bb ",
+        "c bbbb bbbb  bb ",
+        "c  bbb bbbb  bb ",
+        "     b bbbb  bb ",
+        "    hb bbbb  bb ",
+        "     b bbbb  bb ",
+        "f   bb bbbb  bb ",
+        "c  bbb bbbb  bb ",
+        "c bbbb bbbb  bb ",
+        "c bbbb bbbb  bb ",
+        "f bbbb bbbb  bb ",
         "  bbbb bbbb  bb ",
         "                "
       ]
@@ -3551,19 +3312,6 @@
     "zsize": 16,
     "palette": [
       {
-        "char": "A",
-        "blocks": [
-          {
-            "random": 10,
-            "block": "minecraft:mob_spawner", "mob": "watermobs"
-          },
-          {
-            "random": 10,
-            "block": "minecraft:air"
-          }
-        ]
-      },
-      {
         "char": " ",
         "block": "minecraft:air"
       },
@@ -3581,79 +3329,59 @@
       },
       {
         "char": "d",
-        "block": "chisel:glass@12"
-      },
-      {
-        "char": "e",
         "block": "chisel:factory@4"
       },
       {
+        "char": "e",
+        "block": "chisel:technical1"
+      },
+      {
         "char": "f",
-        "block": "industrialrenewal:brace@4"
-      },
-      {
-        "char": "g",
-        "block": "industrialrenewal:catwalk_pillar"
-      },
-      {
-        "char": "h",
         "block": "chisel:technicalnew@2"
       },
       {
-        "char": "i",
+        "char": "h",
         "block": "chisel:technical@15"
       },
       {
+        "char": "i",
+        "block": "minecraft:orange_glazed_terracotta"
+      },
+      {
+        "char": "j",
+        "block": "minecraft:orange_glazed_terracotta"
+      },
+      {
         "char": "k",
-        "block": "industrialrenewal:brace@2"
-      },
-      {
-        "char": "l",
-        "block": "industrialrenewal:brace@3"
-      },
-      {
-        "char": "m",
-        "block": "minecraft:orange_glazed_terracotta"
-      },
-      {
-        "char": "n",
-        "block": "minecraft:orange_glazed_terracotta"
-      },
-      {
-        "char": "o",
         "block": "minecraft:lime_glazed_terracotta"
       },
       {
-        "char": "p",
+        "char": "l",
         "block": "minecraft:white_glazed_terracotta"
       },
       {
-        "char": "q",
+        "char": "m",
         "block": "minecraft:white_glazed_terracotta"
       },
       {
-        "char": "r",
+        "char": "n",
         "block": "minecraft:pink_glazed_terracotta"
       },
       {
-        "char": "s",
-        "block": "industrialrenewal:brace@7"
+        "char": "o",
+        "block": "industrialrenewal:catwalk_pillar"
       },
       {
-        "char": "t",
-        "block": "industrialrenewal:frame"
+        "char": "p",
+        "block": "chisel:glass@12"
       },
       {
-        "char": "u",
-        "block": "industrialrenewal:brace@6"
+        "char": "q",
+        "block": "minecraft:mob_spawner", "mob": "famobs"
       },
       {
-        "char": "v",
+        "char": "r",
         "block": "chisel:factory@5"
-      },
-      {
-        "char": "w",
-        "block": "industrialrenewal:brace"
       }
     ],
     "meta": [
@@ -3665,109 +3393,109 @@
     "slices": [
       [
         "abbbbbabbbbbacca",
-        "bcccccfccccfcbbc",
-        "bdeeeedeeeedcbbc",
-        "beeeeeeeeeeeabba",
-        "beeeeeeeeeeecbbb",
-        "beeeeeeeeeeecbbb",
-        "beeeeeeeeeeecbbb",
-        "bdeeeedeeeedcbbb",
-        "beeeeeeeeeeecbbb",
-        "beeeeeeeeeeecbbb",
-        "beeeeeeeeeeebbbb",
-        "beeeeeeeeeeebbbb",
-        "bdeeeedeeeedcbbb",
-        "beeeeeeeeeeecbbb",
-        "beeeeeeeeeeecbbb",
+        "bccccccccccccbbc",
+        "bcddddddddddcbbc",
+        "bcddddddddddabba",
+        "bcddddddddddcbbb",
+        "bcddddddddddcbbb",
+        "bcddddddddddcbbb",
+        "bcddddddddddcbbb",
+        "bcddddddddddcbbb",
+        "bcddddddddddcbbb",
+        "bcddddddddddcbbb",
+        "bcddddddddddcbbb",
+        "bcddddddddddcbbb",
+        "bcddddddddddcbbb",
+        "bccccccccccccbbb",
         "abbbbbbbbbbbabba"
       ],
       [
-        "ghccchghcchgs  s",
-        "gifff i ff if  f",
-        "h     g         ",
-        "ck bbb  bbb g  g",
-        "ck bob  brb    i",
-        "ck bbb  bbb g  g",
-        "h              g",
-        "gi    g     g  g",
-        "gi             g",
-        "h bbbb bbbb g  i",
-        "ckbmmb bppb    g",
-        "ckbnnb bqqb    g",
-        "ckbbbbgbbbb g  g",
-        "h              g",
-        "gilll i ll iiddi",
-        "ghccchghcchgg  g"
+        "efcccf fccfo    ",
+        "eh    h    he  e",
+        "f     f         ",
+        "c  bbb  bbb f  f",
+        "c  bkb  bnb    h",
+        "c  bbb  bbb    p",
+        "f              p",
+        " h    f     f  p",
+        " h             p",
+        "f bbbb bbbb    h",
+        "c biib bllb    p",
+        "c bjjb bmmb    p",
+        "c bbbb bbbb    p",
+        "f     f     f  p",
+        "eh    h    hhpph",
+        "efcccf fccf f  f"
       ],
       [
-        "gc   cgc  cg    ",
-        "giddd i dd is  s",
-        "c     g     f  f",
-        " d bbb  bbb g  g",
-        " d bob  brb    i",
-        " d bbb  bbb g  d",
-        "c              d",
-        "gi    g     g  d",
-        "gi             d",
-        "c bbbb bbbb g  i",
-        " dbnmb bqqb    d",
-        " dbnmb bqqb    d",
-        " dbbbbgbbbb g  d",
-        "c              d",
-        "giddd i dd iiddi",
-        "gc   cgc  cgg  g"
+        "ec   c c  co    ",
+        "ehppp h pp he  e",
+        "c     f         ",
+        " p bbb  bbb f  f",
+        " p bkb  bnb    h",
+        " p bbb  bbb    p",
+        "c              p",
+        " h    f     f  p",
+        " h             p",
+        "c bbbb bbbb    h",
+        " pbjib bmmb    p",
+        " pbjib bmmb    p",
+        " pbbbb bbbb    p",
+        "c     f     f  p",
+        "ehppp h pp hhpph",
+        "ec   c c  c f  f"
       ],
       [
-        "ac   cgc  cg    ",
-        "giddd i dd i    ",
-        "c     g     s  s",
-        " d          teet",
-        " d             i",
-        " d          t  g",
-        "cA             g",
-        "gi    g     t  g",
-        "gi             g",
-        "c           t  i",
-        " d             g",
-        " d             g",
-        " d    g     t  g",
-        "c              g",
-        "giddd i dd iiddi",
-        "ac   cgc  cgg  g"
+        "ac   c c  co    ",
+        "ehppp h pp hf  f",
+        "c     e     e  e",
+        " p          fddf",
+        " p             h",
+        " p             p",
+        "c              p",
+        " h    e     e  p",
+        " h             p",
+        "c              h",
+        " p             p",
+        " p             p",
+        " p    q        p",
+        "c     e     e  p",
+        "ehppp h pp hhpph",
+        "ac   c c  c f  f"
       ],
       [
-        " hccchahccha    ",
-        "heuuu a uu a    ",
-        "ce    v    v    ",
-        " d    v    va  a",
-        " d    v    vhddh",
-        " d    v    vc  c",
-        "ce    v    vc  c",
-        "gi    v    vc  c",
-        "gi    v    vc  c",
-        "ce    v    vh  a",
-        " d    v    vc  c",
-        " d    v    vc  c",
-        " d    v    vc  c",
-        "ce    v    vc  c",
-        "hesss a ss ahddh",
-        " hccchahcchaacca"
+        " fcccfafccfa    ",
+        "fd    a    a    ",
+        "cd    r    r    ",
+        " p    r    ra  a",
+        " p    r    rfppf",
+        " p    r    rc  c",
+        "cd    r    rc  c",
+        " h    r    rc  c",
+        " h    r    rc  c",
+        "cd    r    rf  a",
+        " p    r    rc  c",
+        " p    r    rc  c",
+        " p    r    rc  c",
+        "cd    r    rc  c",
+        "fd    a    afppf",
+        " fcccfafccfaacca"
       ],
       [
         "                ",
         "  bbbb bbbb     ",
-        "h bbbb bbbb     ",
-        "cwbbbb bbbb  bb ",
-        "cwbbbb bbbb  bb ",
-        "cwbbbb bbbb  bb ",
-        "h bbbb bbbb  bb ",
+        "f bbbb bbbb     ",
+        "c bbbb bbbb  bb ",
+        "c bbbb bbbb  bb ",
+        "c bbbb bbbb  bb ",
+        "f bbbb bbbb  bb ",
         "aabbbb bbbb  bb ",
         "aabbbb bbbb  bb ",
-        "h bbbb bbbb  bb ",
-        "cwbbbb bbbb  bb ",
-        "cwbbbb bbbb  bb ",
-        "cwbbbb bbbb  bb ",
-        "h bbbb bbbb  bb ",
+        "f bbbb bbbb  bb ",
+        "c bbbb bbbb  bb ",
+        "c bbbb bbbb  bb ",
+        "c bbbb bbbb  bb ",
+        "f bbbb bbbb  bb ",
         "  bbbb bbbb  bb ",
         "                "
       ]

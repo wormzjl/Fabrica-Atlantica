@@ -1,8 +1,10 @@
 [
   {
     "mob": ["Squid"],
+    "dimension": 0,
     "spawner": true,
     "isnotcolliding ": true,
+    "block": "minecraft:water",
     "maxcount": {
       "amount": 8,
       "perplayer": true
@@ -11,8 +13,10 @@
   },
   {
     "mob": ["primal:shark_hammerhead"],
+    "dimension": 0,
     "spawner": true,
     "isnotcolliding ": true,
+    "block": "minecraft:water",
     "maxcount": {
       "amount": 4,
       "perplayer": true
@@ -21,8 +25,10 @@
   },
   {
     "mob": ["Guardian"],
+    "dimension": 0,
     "spawner": true,
     "isnotcolliding ": true,
+    "block": "minecraft:water",
     "maxcount": {
       "amount": 6,
       "perplayer": true
@@ -31,8 +37,10 @@
   },
   {
     "mob": ["Elder_guardian"],
+    "dimension": 0,
     "spawner": true,
     "isnotcolliding ": true,
+    "block": "minecraft:water",
     "maxcount": {
       "amount": 2,
       "perplayer": true
@@ -40,17 +48,51 @@
     "result": "allow"
   },
   {
+    "mob": ["Squid"],
+    "dimension": 0,
+    "mincount": {
+      "amount": 10,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
     "mob": ["Bat"],
     "result": "deny"
   },
   {
     "dimension": 0,
-    "block": "minecraft:stonebrick",
-    "hostile": true,
-    "result": "deny"
+    "mob": "better_diving:peeper",
+    "block": "minecraft:water",
+    "result": "allow"
   },
   {
-    "maxspawndist": 250,
+    "dimension": 0,
+    "mob": "better_diving:bladderfish",
+    "block": "minecraft:water",
+    "result": "allow"
+  },
+  {
+    "dimension": 0,
+    "mob": "better_diving:garryfish",
+    "block": "minecraft:water",
+    "result": "allow"
+  },
+  {
+    "dimension": 0,
+    "mob": "better_diving:holefish",
+    "block": "minecraft:water",
+    "result": "allow"
+  },
+  {
+    "dimension": 0,
+    "mob": "better_diving:boomerang",
+    "block": "minecraft:water",
+    "result": "allow"
+  },
+  {
+    "dimension": 0,
+    "spawner": false,
     "hostile": true,
     "result": "deny"
   }

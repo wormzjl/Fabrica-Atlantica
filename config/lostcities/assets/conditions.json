@@ -33,7 +33,7 @@
   },
   {
     "type": "condition",
-    "name": "watermobs",
+    "name": "famobs",
     "values": [
       {
         "factor": 4,

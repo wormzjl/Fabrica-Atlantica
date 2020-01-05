@@ -1,2 +1,62 @@
 [
+  {
+    "dimension": 0,
+    "block": "minecraft:water",
+    "mobs": [
+      {
+        "mob": "better_diving:peeper",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "block": "minecraft:water",
+    "mobs": [
+      {
+        "mob": "better_diving:bladderfish",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "block": "minecraft:water",
+    "mobs": [
+      {
+        "mob": "better_diving:garryfish",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "block": "minecraft:water",
+    "mobs": [
+      {
+        "mob": "better_diving:holefish",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "block": "minecraft:water",
+    "mobs": [
+      {
+        "mob": "better_diving:boomerang",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  }
 ]

@@ -1,75 +1,5 @@
 [
   {
-    "type": "sphere",
-    "name": "spawnsphere",
-    "dimension": 0,
-    "chunkx": 10,
-    "chunkz": 10,
-    "centerx": 168,
-    "centerz": 168,
-    "radius": 128
-  },
-  {
-    "type": "city",
-    "name": "spawncity",
-    "dimension": 0,
-    "chunkx": 10,
-    "chunkz": 10,
-    "radius": 90,
-    "buildings": [
-      {
-        "multibuilding": "center",
-        "chunkx": 0,
-        "chunkz": 0
-      },
-      {
-        "multibuilding": "library",
-        "chunkx": -3,
-        "chunkz": -1
-      },
-      {
-        "multibuilding": "townhall",
-        "chunkx": 2,
-        "chunkz": 3
-      },
-      {
-        "building": "building1",
-        "chunkx": -3,
-        "chunkz": 2
-      },
-      {
-        "building": "building2",
-        "chunkx": -1,
-        "chunkz": 3
-      },
-      {
-        "building": "building3",
-        "chunkx": -3,
-        "chunkz": 4
-      },
-      {
-        "building": "building4",
-        "chunkx": -2,
-        "chunkz": -3
-      },
-      {
-        "building": "building5",
-        "chunkx": 0,
-        "chunkz": -2
-      },
-      {
-        "building": "building1",
-        "chunkx": 3,
-        "chunkz": 0
-      },
-      {
-        "building": "building2",
-        "chunkx": 3,
-        "chunkz": -3
-      }
-    ]
-  },
-  {
     "type": "worldstyle",
     "name": "industrial",
     "outsidestyle": "outside_chisel",
@@ -169,19 +99,19 @@
         "building": "buildings7"
       },
       {
-        "factor": 2.0,
+        "factor": 0.5,
         "building": "living_ds1"
       },
       {
-        "factor": 2.0,
+        "factor": 0.5,
         "building": "living_ds2"
       },
       {
-        "factor": 2.0,
+        "factor": 0.5,
         "building": "living_ds3"
       },
       {
-        "factor": 2.0,
+        "factor": 0.5,
         "building": "living_ds4"
       },
       {
@@ -261,6 +191,22 @@
       {
         "factor": 2.0,
         "multibuilding": "d6"
+      },
+      {
+        "factor": 0.5,
+        "multibuilding": "d7"
+      },
+      {
+        "factor": 0.5,
+        "multibuilding": "d7_ds1"
+      },
+      {
+        "factor": 0.5,
+        "multibuilding": "d7_ds2"
+      },
+      {
+        "factor": 0.5,
+        "multibuilding": "d7_ds3"
       },
       {
         "factor": 2.0,
@@ -820,8 +766,8 @@
     "filler": "#",
     "mincellars": 0,
     "maxcellars": 0,
-    "minfloors": 3,
-    "maxfloors": 3,
+    "minfloors": 1,
+    "maxfloors": 1,
     "parts": [
       {
         "top": false,
@@ -829,19 +775,9 @@
         "part": "single_ds1_1"
       },
       {
-        "top": false,
+        "top": true,
         "floor": 1,
         "part": "single_ds1_2"
-      },
-      {
-        "top": false,
-        "floor": 2,
-        "part": "single_ds1_3"
-      },
-      {
-        "top": true,
-        "floor": 3,
-        "part": "single_ds1_4"
       }
     ]
   },
@@ -851,8 +787,8 @@
     "filler": "#",
     "mincellars": 0,
     "maxcellars": 0,
-    "minfloors": 3,
-    "maxfloors": 3,
+    "minfloors": 1,
+    "maxfloors": 1,
     "parts": [
       {
         "top": false,
@@ -860,19 +796,9 @@
         "part": "single_ds2_1"
       },
       {
-        "top": false,
+        "top": true,
         "floor": 1,
         "part": "single_ds2_2"
-      },
-      {
-        "top": false,
-        "floor": 2,
-        "part": "single_ds2_3"
-      },
-      {
-        "top": true,
-        "floor": 3,
-        "part": "single_ds2_4"
       }
     ]
   },
@@ -882,8 +808,8 @@
     "filler": "#",
     "mincellars": 0,
     "maxcellars": 0,
-    "minfloors": 3,
-    "maxfloors": 3,
+    "minfloors": 1,
+    "maxfloors": 1,
     "parts": [
       {
         "top": false,
@@ -891,19 +817,9 @@
         "part": "single_ds3_1"
       },
       {
-        "top": false,
+        "top": true,
         "floor": 1,
         "part": "single_ds3_2"
-      },
-      {
-        "top": false,
-        "floor": 2,
-        "part": "single_ds3_3"
-      },
-      {
-        "top": true,
-        "floor": 3,
-        "part": "single_ds3_4"
       }
     ]
   },
@@ -913,8 +829,8 @@
     "filler": "#",
     "mincellars": 0,
     "maxcellars": 0,
-    "minfloors": 3,
-    "maxfloors": 3,
+    "minfloors": 1,
+    "maxfloors": 1,
     "parts": [
       {
         "top": false,
@@ -922,23 +838,12 @@
         "part": "single_ds4_1"
       },
       {
-        "top": false,
+        "top": true,
         "floor": 1,
         "part": "single_ds4_2"
-      },
-      {
-        "top": false,
-        "floor": 2,
-        "part": "single_ds4_3"
-      },
-      {
-        "top": true,
-        "floor": 3,
-        "part": "single_ds4_4"
       }
     ]
   },
-
   {
     "type": "building",
     "name": "storage_single",
@@ -991,15 +896,30 @@
       }
     ]
   },
-
   {
     "type": "building",
     "name": "living_b1",
     "filler": "#",
     "mincellars": 0,
-    "maxcellars": 0,
+    "maxcellars": 1,
     "minfloors": 3,
     "parts": [
+      {
+        "cellar": true,
+        "part": "b1_cellar1"
+      },
+      {
+        "cellar": true,
+        "part": "b1_cellar2"
+      },
+      {
+        "cellar": true,
+        "part": "b1_cellar3"
+      },
+      {
+        "cellar": true,
+        "part": "b1_cellar4"
+      },
       {
         "top": false,
         "floor": 0,
@@ -1068,6 +988,16 @@
       {
         "top": false,
         "range": "1,100",
+        "part": "b1_d6"
+      },
+      {
+        "top": false,
+        "range": "1,100",
+        "part": "b1_d7"
+      },
+      {
+        "top": false,
+        "range": "1,100",
         "part": "b1_o1"
       },
       {
@@ -1089,6 +1019,16 @@
         "top": false,
         "range": "1,100",
         "part": "b1_o5"
+      },
+      {
+        "top": false,
+        "range": "1,100",
+        "part": "b1_o6"
+      },
+      {
+        "top": false,
+        "range": "1,100",
+        "part": "b1_o7"
       },
       {
         "top": true,
@@ -1117,6 +1057,14 @@
       {
         "top": true,
         "part": "b1_roof7"
+      },
+      {
+        "top": true,
+        "part": "b1_roof8"
+      },
+      {
+        "top": true,
+        "part": "b1_roof9"
       }
     ]
   },
@@ -1129,6 +1077,22 @@
     "maxcellars": 0,
     "minfloors": 2,
     "parts": [
+      {
+        "cellar": true,
+        "part": "b2_cellar1"
+      },
+      {
+        "cellar": true,
+        "part": "b2_cellar2"
+      },
+      {
+        "cellar": true,
+        "part": "b2_cellar3"
+      },
+      {
+        "cellar": true,
+        "part": "b2_cellar4"
+      },
       {
         "top": false,
         "floor": 0,
@@ -1197,6 +1161,16 @@
       {
         "top": false,
         "range": "1,100",
+        "part": "b2_d6"
+      },
+      {
+        "top": false,
+        "range": "1,100",
+        "part": "b2_d7"
+      },
+      {
+        "top": false,
+        "range": "1,100",
         "part": "b2_o1"
       },
       {
@@ -1220,6 +1194,16 @@
         "part": "b2_o5"
       },
       {
+        "top": false,
+        "range": "1,100",
+        "part": "b2_o6"
+      },
+      {
+        "top": false,
+        "range": "1,100",
+        "part": "b2_o7"
+      },
+      {
         "top": true,
         "part": "b2_roof1"
       },
@@ -1234,10 +1218,29 @@
       {
         "top": true,
         "part": "b2_roof4"
+      },
+      {
+        "top": true,
+        "part": "b2_roof5"
+      },
+      {
+        "top": true,
+        "part": "b2_roof6"
+      },
+      {
+        "top": true,
+        "part": "b2_roof7"
+      },
+      {
+        "top": true,
+        "part": "b2_roof8"
+      },
+      {
+        "top": true,
+        "part": "b2_roof9"
       }
     ]
   },
-
   {
     "type": "building",
     "name": "d11",
@@ -1297,6 +1300,11 @@
         "top": true,
         "floor": 1,
         "part": "d12_o_2"
+      },
+      {
+        "top": true,
+        "floor": 1,
+        "part": "empty"
       }
     ]
   },
@@ -1359,10 +1367,14 @@
         "top": true,
         "floor": 1,
         "part": "d14_o_2"
+      },
+      {
+        "top": true,
+        "floor": 1,
+        "part": "empty"
       }
     ]
   },
-
   {
     "type": "multibuilding",
     "name": "d1",
@@ -2326,6 +2338,406 @@
       [
         "d62",
         "d64"
+      ]
+    ]
+  },
+  {
+    "type": "building",
+    "name": "d71",
+    "filler": "#",
+    "mincellars": 0,
+    "maxcellars": 0,
+    "minfloors": 1,
+    "maxfloors": 1,
+    "parts": [
+      {
+        "top": false,
+        "floor": 0,
+        "part": "d71_o_1"
+      },
+      {
+        "top": true,
+        "floor": 1,
+        "part": "d71_o_2"
+      }
+    ]
+  },
+  {
+    "type": "building",
+    "name": "d72",
+    "filler": "#",
+    "mincellars": 0,
+    "maxcellars": 0,
+    "minfloors": 1,
+    "maxfloors": 1,
+    "parts": [
+      {
+        "top": false,
+        "floor": 0,
+        "part": "d72_o_1"
+      },
+      {
+        "top": true,
+        "floor": 1,
+        "part": "d72_o_2"
+      }
+    ]
+  },
+  {
+    "type": "building",
+    "name": "d73",
+    "filler": "#",
+    "mincellars": 0,
+    "maxcellars": 0,
+    "minfloors": 1,
+    "maxfloors": 1,
+    "parts": [
+      {
+        "top": false,
+        "floor": 0,
+        "part": "d73_o_1"
+      },
+      {
+        "top": true,
+        "floor": 1,
+        "part": "d73_o_2"
+      }
+    ]
+  },
+  {
+    "type": "building",
+    "name": "d74",
+    "filler": "#",
+    "mincellars": 0,
+    "maxcellars": 0,
+    "minfloors": 1,
+    "maxfloors": 1,
+    "parts": [
+      {
+        "top": false,
+        "floor": 0,
+        "part": "d74_o_1"
+      },
+      {
+        "top": true,
+        "floor": 1,
+        "part": "d74_o_2"
+      }
+    ]
+  },
+  {
+    "type": "multibuilding",
+    "name": "d7",
+    "dimx": 2,
+    "dimz": 2,
+    "buildings": [
+      [
+        "d71",
+        "d73"
+      ],
+      [
+        "d72",
+        "d74"
+      ]
+    ]
+  },
+  {
+    "type": "building",
+    "name": "d71_ds1",
+    "filler": "#",
+    "mincellars": 0,
+    "maxcellars": 0,
+    "minfloors": 1,
+    "maxfloors": 1,
+    "parts": [
+      {
+        "top": false,
+        "floor": 0,
+        "part": "d71_ds1_1"
+      },
+      {
+        "top": true,
+        "floor": 1,
+        "part": "d71_ds1_2"
+      }
+    ]
+  },
+  {
+    "type": "building",
+    "name": "d72_ds1",
+    "filler": "#",
+    "mincellars": 0,
+    "maxcellars": 0,
+    "minfloors": 1,
+    "maxfloors": 1,
+    "parts": [
+      {
+        "top": false,
+        "floor": 0,
+        "part": "d72_ds1_1"
+      },
+      {
+        "top": true,
+        "floor": 1,
+        "part": "d72_ds1_2"
+      }
+    ]
+  },
+  {
+    "type": "building",
+    "name": "d73_ds1",
+    "filler": "#",
+    "mincellars": 0,
+    "maxcellars": 0,
+    "minfloors": 1,
+    "maxfloors": 1,
+    "parts": [
+      {
+        "top": false,
+        "floor": 0,
+        "part": "d73_ds1_1"
+      },
+      {
+        "top": true,
+        "floor": 1,
+        "part": "d73_ds1_2"
+      }
+    ]
+  },
+  {
+    "type": "building",
+    "name": "d74_ds1",
+    "filler": "#",
+    "mincellars": 0,
+    "maxcellars": 0,
+    "minfloors": 1,
+    "maxfloors": 1,
+    "parts": [
+      {
+        "top": false,
+        "floor": 0,
+        "part": "d74_ds1_1"
+      },
+      {
+        "top": true,
+        "floor": 1,
+        "part": "d74_ds1_2"
+      }
+    ]
+  },
+  {
+    "type": "multibuilding",
+    "name": "d7_ds1",
+    "dimx": 2,
+    "dimz": 2,
+    "buildings": [
+      [
+        "d71_ds1",
+        "d73_ds1"
+      ],
+      [
+        "d72_ds1",
+        "d74_ds1"
+      ]
+    ]
+  },
+  {
+    "type": "building",
+    "name": "d71_ds2",
+    "filler": "#",
+    "mincellars": 0,
+    "maxcellars": 0,
+    "minfloors": 1,
+    "maxfloors": 1,
+    "parts": [
+      {
+        "top": false,
+        "floor": 0,
+        "part": "d71_ds2_1"
+      },
+      {
+        "top": true,
+        "floor": 1,
+        "part": "d71_ds2_2"
+      }
+    ]
+  },
+  {
+    "type": "building",
+    "name": "d72_ds2",
+    "filler": "#",
+    "mincellars": 0,
+    "maxcellars": 0,
+    "minfloors": 1,
+    "maxfloors": 1,
+    "parts": [
+      {
+        "top": false,
+        "floor": 0,
+        "part": "d72_ds2_1"
+      },
+      {
+        "top": true,
+        "floor": 1,
+        "part": "d72_ds2_2"
+      }
+    ]
+  },
+  {
+    "type": "building",
+    "name": "d73_ds2",
+    "filler": "#",
+    "mincellars": 0,
+    "maxcellars": 0,
+    "minfloors": 1,
+    "maxfloors": 1,
+    "parts": [
+      {
+        "top": false,
+        "floor": 0,
+        "part": "d73_ds2_1"
+      },
+      {
+        "top": true,
+        "floor": 1,
+        "part": "d73_ds2_2"
+      }
+    ]
+  },
+  {
+    "type": "building",
+    "name": "d74_ds2",
+    "filler": "#",
+    "mincellars": 0,
+    "maxcellars": 0,
+    "minfloors": 1,
+    "maxfloors": 1,
+    "parts": [
+      {
+        "top": false,
+        "floor": 0,
+        "part": "d74_ds2_1"
+      },
+      {
+        "top": true,
+        "floor": 1,
+        "part": "d74_ds2_2"
+      }
+    ]
+  },
+  {
+    "type": "multibuilding",
+    "name": "d7_ds2",
+    "dimx": 2,
+    "dimz": 2,
+    "buildings": [
+      [
+        "d71_ds2",
+        "d73_ds2"
+      ],
+      [
+        "d72_ds2",
+        "d74_ds2"
+      ]
+    ]
+  },
+  {
+    "type": "building",
+    "name": "d71_ds3",
+    "filler": "#",
+    "mincellars": 0,
+    "maxcellars": 0,
+    "minfloors": 1,
+    "maxfloors": 1,
+    "parts": [
+      {
+        "top": false,
+        "floor": 0,
+        "part": "d71_ds3_1"
+      },
+      {
+        "top": true,
+        "floor": 1,
+        "part": "d71_ds3_2"
+      }
+    ]
+  },
+  {
+    "type": "building",
+    "name": "d72_ds3",
+    "filler": "#",
+    "mincellars": 0,
+    "maxcellars": 0,
+    "minfloors": 1,
+    "maxfloors": 1,
+    "parts": [
+      {
+        "top": false,
+        "floor": 0,
+        "part": "d72_ds3_1"
+      },
+      {
+        "top": true,
+        "floor": 1,
+        "part": "d72_ds3_2"
+      }
+    ]
+  },
+  {
+    "type": "building",
+    "name": "d73_ds3",
+    "filler": "#",
+    "mincellars": 0,
+    "maxcellars": 0,
+    "minfloors": 1,
+    "maxfloors": 1,
+    "parts": [
+      {
+        "top": false,
+        "floor": 0,
+        "part": "d73_ds3_1"
+      },
+      {
+        "top": true,
+        "floor": 1,
+        "part": "d73_ds3_2"
+      }
+    ]
+  },
+  {
+    "type": "building",
+    "name": "d74_ds3",
+    "filler": "#",
+    "mincellars": 0,
+    "maxcellars": 0,
+    "minfloors": 1,
+    "maxfloors": 1,
+    "parts": [
+      {
+        "top": false,
+        "floor": 0,
+        "part": "d74_ds3_1"
+      },
+      {
+        "top": true,
+        "floor": 1,
+        "part": "d74_ds3_2"
+      }
+    ]
+  },
+  {
+    "type": "multibuilding",
+    "name": "d7_ds3",
+    "dimx": 2,
+    "dimz": 2,
+    "buildings": [
+      [
+        "d71_ds3",
+        "d73_ds3"
+      ],
+      [
+        "d72_ds3",
+        "d74_ds3"
       ]
     ]
   },
