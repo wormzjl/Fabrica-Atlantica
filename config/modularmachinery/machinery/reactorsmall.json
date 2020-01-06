@@ -1,38 +1,14 @@
 {
     "registryname": "reactorsmall",
     "localizedname": "Fixed Bed Reactor (Small)",
-    "color": "F3FAFF",
+    "color": "AEAEAE",
     "parts": [
-        {
-            "x": -1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
         {
             "x": 1,
             "y": 2,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -40,15 +16,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockredstonebus@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -56,7 +24,7 @@
             "y": 7,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -64,12 +32,156 @@
             "y": 5,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
             "x": 0,
             "y": 7,
+            "z": 1,
+            "elements": [
+                "contenttweaker:reactorinternal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "casings_catalyst"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
             "z": 1,
             "elements": [
                 "modularmachinery:blockfluidinputhatch"
@@ -77,79 +189,71 @@
         },
         {
             "x": 1,
-            "y": 7,
+            "y": 8,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
             "x": 0,
-            "y": 5,
+            "y": 6,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
             "x": -1,
-            "y": 5,
+            "y": 6,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
             "x": 1,
-            "y": 5,
+            "y": 6,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
             "x": 0,
-            "y": 5,
+            "y": 6,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
             "x": -1,
-            "y": 3,
+            "y": 4,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
             "x": -1,
-            "y": 1,
+            "y": 2,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
             "x": 1,
-            "y": 5,
+            "y": 6,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
             "x": 0,
-            "y": 3,
+            "y": 4,
             "z": 1,
             "elements": [
                 "contenttweaker:reactorinternal@0"
@@ -157,55 +261,55 @@
         },
         {
             "x": 1,
-            "y": 3,
+            "y": 4,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
             "x": 0,
-            "y": 1,
+            "y": 2,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
             "x": -1,
-            "y": 1,
+            "y": 2,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
             "x": 1,
-            "y": 1,
+            "y": 2,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
             "x": 0,
-            "y": 1,
+            "y": 2,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
             "x": -1,
-            "y": -1,
+            "y": 0,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
             "x": 0,
-            "y": -1,
+            "y": 0,
             "z": 1,
             "elements": [
                 "modularmachinery:blockfluidoutputhatch"
@@ -213,154 +317,10 @@
         },
         {
             "x": 1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "casings_catalyst"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": -1,
             "y": 2,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -368,7 +328,15 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -376,7 +344,23 @@
             "y": 7,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -384,7 +368,7 @@
             "y": 5,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -392,7 +376,15 @@
             "y": 7,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -408,7 +400,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -416,7 +408,7 @@
             "y": 5,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -424,7 +416,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -432,7 +424,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -440,7 +432,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -448,7 +440,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -456,7 +448,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -464,55 +456,63 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
             "x": 0,
             "y": 1,
-            "z": 1,
-            "elements": [
-                "casings_catalyst"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
             "z": 1,
             "elements": [
                 "contenttweaker:reactorinternal@0"
             ]
         },
         {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "casings_catalyst"
+            ]
+        },
+        {
             "x": -1,
             "y": 4,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -520,7 +520,7 @@
             "y": 6,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -528,7 +528,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -536,7 +536,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -544,7 +544,7 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -552,7 +552,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -560,7 +560,7 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -568,7 +568,7 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@1"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {

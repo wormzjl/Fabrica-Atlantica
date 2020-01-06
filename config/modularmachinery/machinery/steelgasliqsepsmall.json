@@ -1,14 +1,14 @@
 {
     "registryname": "steelgasliqsepsmall",
     "localizedname": "Steel Gas / Liquid Separator (Small)",
-    "color": "666666",
+    "color": "AEAEAE",
     "parts": [
         {
             "x": -2,
             "y": 0,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -16,7 +16,7 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -24,7 +24,7 @@
             "y": 4,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -32,7 +32,7 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -40,7 +40,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -48,7 +48,7 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -56,7 +56,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -64,7 +64,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -72,7 +72,7 @@
             "y": 7,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -80,7 +80,7 @@
             "y": 5,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -88,7 +88,7 @@
             "y": 5,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -104,7 +104,7 @@
             "y": 7,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -120,7 +120,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -136,7 +136,7 @@
             "y": 5,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -144,7 +144,7 @@
             "y": 5,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -152,7 +152,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -160,7 +160,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -168,7 +168,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -176,7 +176,7 @@
             "y": 3,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -184,7 +184,7 @@
             "y": 3,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -192,7 +192,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -200,7 +200,7 @@
             "y": 1,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -208,7 +208,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -216,7 +216,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -224,7 +224,7 @@
             "y": 6,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -232,7 +232,7 @@
             "y": 6,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -240,7 +240,7 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -248,7 +248,7 @@
             "y": 6,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -256,7 +256,7 @@
             "y": 6,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -264,7 +264,7 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -272,7 +272,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -280,7 +280,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -288,7 +288,7 @@
             "y": 4,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -296,7 +296,7 @@
             "y": 4,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -304,7 +304,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -312,7 +312,7 @@
             "y": 2,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -320,7 +320,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -328,7 +328,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -336,7 +336,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -344,7 +344,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -352,7 +352,7 @@
             "y": 7,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -360,7 +360,7 @@
             "y": 5,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -376,7 +376,7 @@
             "y": 7,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -392,7 +392,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -400,7 +400,7 @@
             "y": 5,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -408,7 +408,7 @@
             "y": 5,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -432,7 +432,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -440,7 +440,7 @@
             "y": 5,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -448,7 +448,7 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -456,7 +456,7 @@
             "y": 3,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -464,7 +464,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -472,7 +472,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -480,7 +480,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -496,7 +496,7 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -504,7 +504,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -512,7 +512,7 @@
             "y": 6,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -520,7 +520,7 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -528,7 +528,7 @@
             "y": 6,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -536,7 +536,7 @@
             "y": 6,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -544,7 +544,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -552,7 +552,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         },
         {
@@ -560,7 +560,7 @@
             "y": 6,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing"
             ]
         }
     ]}

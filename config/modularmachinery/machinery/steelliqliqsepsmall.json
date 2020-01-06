@@ -1,14 +1,14 @@
 {
     "registryname": "steelliqliqsepsmall",
     "localizedname": "Steel Liquid / Liquid Separator (Small)",
-    "color": "666666",
+    "color": "AEAEAE",
     "parts": [
         {
             "x": -1,
             "y": 0,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -16,7 +16,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -24,7 +24,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -32,7 +32,7 @@
             "y": 2,
             "z": 5,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -40,7 +40,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -48,7 +48,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -56,7 +56,7 @@
             "y": -2,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -64,7 +64,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -72,7 +72,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -80,7 +80,7 @@
             "y": 0,
             "z": 8,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -112,7 +112,7 @@
             "y": -2,
             "z": 7,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -128,7 +128,7 @@
             "y": 0,
             "z": 8,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -136,7 +136,7 @@
             "y": 0,
             "z": 12,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -152,7 +152,7 @@
             "y": -2,
             "z": 11,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -160,7 +160,7 @@
             "y": 0,
             "z": 12,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -168,7 +168,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -176,7 +176,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -184,7 +184,7 @@
             "y": 1,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -192,7 +192,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -200,7 +200,7 @@
             "y": 1,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -208,7 +208,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -216,7 +216,7 @@
             "y": 1,
             "z": 8,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -224,7 +224,7 @@
             "y": -1,
             "z": 7,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -232,7 +232,7 @@
             "y": 1,
             "z": 8,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -240,7 +240,7 @@
             "y": -1,
             "z": 7,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -248,7 +248,7 @@
             "y": 1,
             "z": 12,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -256,7 +256,7 @@
             "y": -1,
             "z": 11,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -264,7 +264,7 @@
             "y": -1,
             "z": 11,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -272,7 +272,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -280,7 +280,7 @@
             "y": 2,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -296,7 +296,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -304,7 +304,7 @@
             "y": 0,
             "z": 7,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -312,7 +312,7 @@
             "y": 2,
             "z": 8,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -320,7 +320,7 @@
             "y": -2,
             "z": 6,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -328,7 +328,7 @@
             "y": 0,
             "z": 7,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -336,7 +336,7 @@
             "y": 0,
             "z": 11,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -344,7 +344,7 @@
             "y": -2,
             "z": 10,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -352,7 +352,7 @@
             "y": 0,
             "z": 11,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -360,7 +360,7 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -368,7 +368,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -376,7 +376,7 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -384,7 +384,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -392,7 +392,7 @@
             "y": 1,
             "z": 7,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -400,7 +400,7 @@
             "y": -1,
             "z": 6,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -408,7 +408,7 @@
             "y": 1,
             "z": 7,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -416,7 +416,7 @@
             "y": -1,
             "z": 6,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -424,7 +424,7 @@
             "y": 1,
             "z": 11,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -432,7 +432,7 @@
             "y": -1,
             "z": 10,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -440,7 +440,7 @@
             "y": 1,
             "z": 11,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -448,7 +448,7 @@
             "y": -1,
             "z": 10,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -456,7 +456,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -464,7 +464,7 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -472,7 +472,7 @@
             "y": -2,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -480,7 +480,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -488,7 +488,7 @@
             "y": 0,
             "z": 6,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -496,7 +496,7 @@
             "y": 2,
             "z": 7,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -512,7 +512,7 @@
             "y": 0,
             "z": 6,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -520,7 +520,7 @@
             "y": 0,
             "z": 10,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -536,7 +536,7 @@
             "y": -2,
             "z": 9,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -544,7 +544,7 @@
             "y": 0,
             "z": 10,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -552,7 +552,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -560,7 +560,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -568,7 +568,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -576,7 +576,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -584,7 +584,7 @@
             "y": 1,
             "z": 6,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -592,7 +592,7 @@
             "y": -1,
             "z": 5,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -600,7 +600,7 @@
             "y": 1,
             "z": 6,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -608,7 +608,7 @@
             "y": -1,
             "z": 5,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -616,7 +616,7 @@
             "y": 1,
             "z": 10,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -624,7 +624,7 @@
             "y": -1,
             "z": 9,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -632,7 +632,7 @@
             "y": 1,
             "z": 10,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -640,7 +640,7 @@
             "y": -1,
             "z": 9,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -648,7 +648,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -664,7 +664,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -672,7 +672,7 @@
             "y": 0,
             "z": 5,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -680,7 +680,7 @@
             "y": 2,
             "z": 6,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -688,7 +688,7 @@
             "y": -2,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -696,7 +696,7 @@
             "y": 0,
             "z": 5,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -704,7 +704,7 @@
             "y": 0,
             "z": 9,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -712,7 +712,7 @@
             "y": 2,
             "z": 10,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -720,7 +720,7 @@
             "y": -2,
             "z": 8,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -728,7 +728,7 @@
             "y": 0,
             "z": 9,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -736,7 +736,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -744,7 +744,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -752,7 +752,7 @@
             "y": 1,
             "z": 5,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -760,7 +760,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -768,7 +768,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -776,7 +776,7 @@
             "y": 1,
             "z": 5,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -784,7 +784,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -792,7 +792,7 @@
             "y": 1,
             "z": 9,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -800,7 +800,7 @@
             "y": -1,
             "z": 8,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -816,7 +816,7 @@
             "y": 1,
             "z": 9,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -824,7 +824,7 @@
             "y": -1,
             "z": 8,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -832,7 +832,7 @@
             "y": -1,
             "z": 12,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         },
         {
@@ -840,7 +840,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "contenttweaker:steelcasing@0"
             ]
         }
     ]}

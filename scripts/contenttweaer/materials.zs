@@ -93,14 +93,14 @@ var bronze = MaterialSystem.getMaterialBuilder().setName("Bronze").setColor(1339
 var lead = MaterialSystem.getMaterialBuilder().setName("Lead").setColor(8753330).build();
 var silver = MaterialSystem.getMaterialBuilder().setName("Silver").setColor(16056319).build();
 var nickel = MaterialSystem.getMaterialBuilder().setName("Nickel").setColor(14606000).build();
-var invar = MaterialSystem.getMaterialBuilder().setName("Invar").setColor(12829607).build();
+var invar = MaterialSystem.getMaterialBuilder().setName("Invar").setColor(15000271).build();
 var zinc = MaterialSystem.getMaterialBuilder().setName("Zinc").setColor(15724793).build();
 var brass = MaterialSystem.getMaterialBuilder().setName("Brass").setColor(12886272).build();
 var aluminium = MaterialSystem.getMaterialBuilder().setName("Aluminium").setColor(14611184).build();
-var titanium = MaterialSystem.getMaterialBuilder().setName("Titanium").setColor(16183039).build();
+var titanium = MaterialSystem.getMaterialBuilder().setName("Titanium").setColor(15986431).build();
 var tungsten = MaterialSystem.getMaterialBuilder().setName("Tungsten").setColor(4868682).build();
 var ssteel = MaterialSystem.getMaterialBuilder().setName("Ssteel").setColor(15989503).build();
-var hastelloy = MaterialSystem.getMaterialBuilder().setName("Hastelloy").setColor(14024681).build();
+var hastelloy = MaterialSystem.getMaterialBuilder().setName("Hastelloy").setColor(14022121).build();
 
 
 var metal_list = [iron, gold, steel, copper, tin, bronze, lead, silver, nickel, invar, zinc, brass, aluminium, titanium, tungsten, ssteel, hastelloy] as Material[];

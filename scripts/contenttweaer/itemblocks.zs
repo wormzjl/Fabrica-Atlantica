@@ -39,14 +39,20 @@ compressedbark.register();
 var compressedsawdust = VanillaFactory.createBlock("compressedsawdust", <blockmaterial:wood>);
 compressedsawdust.register();
 
-var sssheetmetal = VanillaFactory.createBlock("sssheetmetal", <blockmaterial:iron>);
-sssheetmetal.register();
+var steelcasing = VanillaFactory.createBlock("steelcasing", <blockmaterial:iron>);
+steelcasing.register();
 
-var hasheetmetal = VanillaFactory.createBlock("hasheetmetal", <blockmaterial:iron>);
-hasheetmetal.register();
+var sscasing = VanillaFactory.createBlock("sscasing", <blockmaterial:iron>);
+sscasing.register();
 
-var tisheetmetal = VanillaFactory.createBlock("tisheetmetal", <blockmaterial:iron>);
-tisheetmetal.register();
+var hacasing = VanillaFactory.createBlock("hacasing", <blockmaterial:iron>);
+hacasing.register();
+
+var ticasing = VanillaFactory.createBlock("ticasing", <blockmaterial:iron>);
+ticasing.register();
+
+var invarcasing = VanillaFactory.createBlock("invarcasing", <blockmaterial:iron>);
+invarcasing.register();
 
 var separatorinternal = VanillaFactory.createBlock("separatorinternal", <blockmaterial:iron>);
 separatorinternal.register();
