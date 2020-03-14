@@ -138,3 +138,15 @@ var scraps_list = [iron, gold, copper, tin, lead, silver] as Material[];
 for i, scrap in scraps_list {
     scrap.registerPart("scrapmetal");
 }
+
+//Misc dusts
+var gaas = MaterialSystem.getMaterialBuilder().setName("GaAs").setColor(9474718).build();
+var tio2 = MaterialSystem.getMaterialBuilder().setName("TiO2").setColor(16185078).build();
+var alumina = MaterialSystem.getMaterialBuilder().setName("Alumina").setColor(16579836).build();
+
+var chemicals = [gaas, tio2, alumina] as Material[];
+
+for i, chemical in chemicals {
+    chemical.registerPart("dust");
+    chemical.registerPart("dusttiny");
+}

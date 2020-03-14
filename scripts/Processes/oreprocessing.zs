@@ -426,12 +426,12 @@ furnace.remove(<primal:aluminum_ingot>);
 furnace.remove(<nuclearcraft:ingot:12>);
 furnace.remove(<libvulpes:productingot:9>);
 
-mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:alumina>*2, <nuclearcraft:compound:5>, <materialpart:aluminium_ore:ore_dust_pure>, 500);
-mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:alumina>*2, <nuclearcraft:compound:5>, <materialpart:aluminium_ore:ore_dust_pure>, 100, 512);
+mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:alumina_dust>*2, <nuclearcraft:compound:5>, <materialpart:aluminium_ore:ore_dust_pure>, 500);
+mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:alumina_dust>*2, <nuclearcraft:compound:5>, <materialpart:aluminium_ore:ore_dust_pure>, 100, 512);
 
 mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:1>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:1>, <nuclearcraft:compound:5>, null, 300, 512);
-mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:21>*3, <contenttweaker:alumina>, null, 256, 1024);
+mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:21>*3, <contenttweaker:alumina_dust>, null, 256, 1024);
 
 mods.industrialwires.MarxGenerator.addRecipe(<contenttweaker:alumina_block>, 2.5, 9, <immersiveengineering:metal:10>);
 
@@ -439,7 +439,7 @@ mods.industrialwires.MarxGenerator.addRecipe(<contenttweaker:alumina_block>, 2.5
 furnace.remove(<techguns:itemshared:85>);
 furnace.remove(<rockhounding_chemistry:metal_items:4>);
 
-recipes.addShapeless(<contenttweaker:tio2>,[<contenttweaker:tinytio2>,<contenttweaker:tinytio2>,<contenttweaker:tinytio2>,<contenttweaker:tinytio2>,<contenttweaker:tinytio2>,<contenttweaker:tinytio2>,<contenttweaker:tinytio2>,<contenttweaker:tinytio2>,<contenttweaker:tinytio2>]);
+recipes.addShapeless(<contenttweaker:ti_o2_dust>,[<contenttweaker:ti_o2_dusttiny>,<contenttweaker:ti_o2_dusttiny>,<contenttweaker:ti_o2_dusttiny>,<contenttweaker:ti_o2_dusttiny>,<contenttweaker:ti_o2_dusttiny>,<contenttweaker:ti_o2_dusttiny>,<contenttweaker:ti_o2_dusttiny>,<contenttweaker:ti_o2_dusttiny>,<contenttweaker:ti_o2_dusttiny>]);
 
 
 //Uranium

@@ -53,6 +53,14 @@ recipes.removeShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "imm
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 4, [[<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 4, [[<ore:leather>, <ore:leather>, <ore:leather>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
 
+recipes.remove(<immersiveengineering:material:1>);
+recipes.addShaped(<immersiveengineering:material:1> * 2, [[<ore:ingotIron>], [<ore:ingotIron>]]);
+
+recipes.remove(<immersiveengineering:material:2>);
+recipes.addShaped(<immersiveengineering:material:2> * 2, [[<ore:ingotSteel>], [<ore:ingotSteel>]]);
+
+recipes.remove(<immersiveengineering:material:3>);
+recipes.addShaped(<immersiveengineering:material:3> * 2, [[<ore:ingotAluminium>], [<ore:ingotAluminium>]]);
 
 //IW
 recipes.remove(<industrialwires:control_panel:4>);
@@ -141,4 +149,3 @@ mods.industrialwires.MarxGenerator.removeRecipe(<ic2:resource:4>);
 mods.industrialwires.MarxGenerator.removeRecipe(<immersiveengineering:ore:1>);
 mods.industrialwires.MarxGenerator.removeRecipe(<immersiveengineering:ore:3>);
 mods.industrialwires.MarxGenerator.removeRecipe(<immersiveengineering:ore:4>);
-

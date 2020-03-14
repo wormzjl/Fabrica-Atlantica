@@ -37,6 +37,11 @@ sulfuricnitricacid.register();
 var fumingsulfuricnitricacid = VanillaFactory.createFluid("fumingsulfuricnitricacid", Color.fromHex("FAFFA8"));
 fumingsulfuricnitricacid.register();
 
+var epoxyresin = VanillaFactory.createFluid("epoxyresin", Color.fromHex("2AB4D7"));
+epoxyresin.register();
+
+
+//Mineral processing
 var flotation_solution = VanillaFactory.createFluid("flotation_solution", Color.fromHex("99E6FF"));
 flotation_solution.register();
 

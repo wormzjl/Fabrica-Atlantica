@@ -1,12 +1,6 @@
 import crafttweaker.oredict.IOreDictEntry;
 
 //Oredict additions
-val dustAlumina = <ore:dustAlumina>;
-dustAlumina.add(<contenttweaker:alumina>);
-
-val dustTiO2 = <ore:dustTiO2>;
-dustTiO2.add(<contenttweaker:tio2>);
-
 val dustTungsticacid = <ore:dustTungsticacid>;
 dustTungsticacid.add(<contenttweaker:tungsticacid>);
 
@@ -94,9 +88,14 @@ steelmech.maxStackSize = 8;
 val bushingbase = <railcraft:gear:3>;
 bushingbase.maxStackSize = 8;
 
-val coil = <techguns:itemshared:68>;
-coil.maxStackSize = 1;
+val coil = <ic2:crafting:5>;
+coil.maxStackSize = 8;
 
-val motor = <techguns:itemshared:70>;
-motor.maxStackSize = 1;
+val motor = <ic2:crafting:6>;
+motor.maxStackSize = 4;
 
+val capacitor = <pneumaticcraft:capacitor>;
+capacitor.maxStackSize = 16;
+
+val transistor = <pneumaticcraft:transistor>;
+transistor.maxStackSize = 16;

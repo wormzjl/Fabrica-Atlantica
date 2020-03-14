@@ -26,9 +26,6 @@ item.contenttweaker.scrap7.name=Stained Iron Gear
 item.contenttweaker.scrap8.name=Scrap Plastics
 item.contenttweaker.scrap9.name=Silver Platters
 
-item.contenttweaker.alumina.name=Alumina Dust
-item.contenttweaker.tio2.name=Titanium Dioxide Dust
-item.contenttweaker.tinytio2.name=Tiny Pile of Titanium Dioxide Dust
 item.contenttweaker.tungsticacid.name=Tungstic Acid Dust
 item.contenttweaker.berylliumingot.name=Beryllium Ingot
 item.contenttweaker.cdteingot.name=Cadmium Telluride Ingot
@@ -60,6 +57,11 @@ item.contenttweaker.eengine.name=Electric Engine Unit
 item.contenttweaker.nuke.name=Experimental Calfornium Warhead
 item.contenttweaker.data1.name=Nuclear Testing Data
 
+item.contenttweaker.resistor.name=Resistor
+item.contenttweaker.advancedwafer.name=Advanced Silicon Wafer
+item.contenttweaker.solder.name=Solder
+item.contenttweaker.fiberglassboard.name=Fiberglass Board
+
 
 //Materials
 base.material.iron_ore=Iron
@@ -90,6 +92,11 @@ base.material.titanium=Titanium
 base.material.tungsten=Tungsten
 base.material.ssteel=Stainless Steel
 base.material.hastelloy=Hastelloy
+
+base.material.alumina=Alumina
+base.material.tio2=Titanium Dioxide
+base.material.gaas=Gallium Arsenide
+
 
 contenttweaker.part.ore_high=High Grade %s Ore
 contenttweaker.part.ore_low=Low Grade %s Ore
@@ -129,6 +136,9 @@ fluid.phosgene=Phosgene
 fluid.fumingsulfuricacid=Fuming Sulfuric Acid
 fluid.sulfuricnitricacid=Sulfuric and Nitric Acid Mixture
 fluid.fumingsulfuricnitricacid=Fuming Sulfuric and Nitric Acid Mixture
+fluid.epoxyresin=Epoxy Resin
+
+//Mineral Processing
 fluid.flotation_solution=Mineral Flotation Solution
 fluid.flotation_waste=Mineral Flotation Wastewater
 fluid.iron_slurry=Iron Slurry

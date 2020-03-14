@@ -77,3 +77,7 @@ recipes.addShaped(<nuclearcraft:part:3>,
  [[<rockhounding_chemistry:alloy_items_tech:28>, <rockhounding_chemistry:alloy_items_gems:1>, <rockhounding_chemistry:alloy_items_tech:28>],
   [<rockhounding_chemistry:alloy_items_tech:28>, <nuclearcraft:part:2>, <rockhounding_chemistry:alloy_items_tech:28>],
   [<rockhounding_chemistry:alloy_items_tech:28>, <rockhounding_chemistry:alloy_items_gems:1>, <rockhounding_chemistry:alloy_items_tech:28>]]);
+
+recipes.remove(<nuclearcraft:upgrade>);
+recipes.remove(<nuclearcraft:upgrade:1>);
+recipes.addShapeless(<nuclearcraft:upgrade>, [<ic2:upgrade>]);

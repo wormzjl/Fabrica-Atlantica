@@ -45,7 +45,6 @@ mods.immersiveengineering.Blueprint.addRecipe("IC2 Crafting Componets", <ic2:cra
 mods.immersiveengineering.Blueprint.addRecipe("IC2 Crafting Componets", <ic2:crafting:7>, [<ore:plateCopper>, <ore:stickCopper>, <ore:stickCopper>]);
 mods.immersiveengineering.Blueprint.addRecipe("IC2 Crafting Componets", <ic2:re_battery:26>, [<ic2:casing:6>, <ic2:casing:6>, <minecraft:redstone>]);
 
-mods.immersiveengineering.Blueprint.addRecipe("Research Components T1", <contenttweaker:gearbox>, [<ore:stickSteel>, <ore:gearSteel>]);
-mods.immersiveengineering.Blueprint.addRecipe("Research Components T1", <techguns:itemshared:68>, [<ore:stickSteel>, <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})]);
-mods.immersiveengineering.Blueprint.addRecipe("Research Components T1", <techguns:itemshared:70>, [<ore:stickSteel>, <techguns:itemshared:68>, <techguns:itemshared:68>, <ic2:casing:5>]);
-
+//mods.immersiveengineering.Blueprint.addRecipe("Research Components T1", <contenttweaker:gearbox>, [<ore:stickSteel>, <ore:gearSteel>]);
+//mods.immersiveengineering.Blueprint.addRecipe("Research Components T1", <techguns:itemshared:68>, [<ore:stickSteel>, <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})]);
+//mods.immersiveengineering.Blueprint.addRecipe("Research Components T1", <techguns:itemshared:70>, [<ore:stickSteel>, <techguns:itemshared:68>, <techguns:itemshared:68>, <ic2:casing:5>]);

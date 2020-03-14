@@ -7,7 +7,6 @@ furnace.setFuel(<contenttweaker:scrap8>, 1200);
 //misc
 mods.jei.JEI.removeAndHide(<appliedenergistics2:material:40>);
 mods.jei.JEI.removeAndHide(<minecraft:ender_chest>);
-mods.jei.JEI.removeAndHide(<translocators:diamond_nugget>);
 
 //Compact machines
 mods.jei.JEI.removeAndHide(<compactmachines3:psd>);
@@ -254,3 +253,5 @@ recipes.addShaped(<aquamunda:boiler>, [[<ore:plateIron>, <ore:plateIron>, <ore:p
 
 recipes.remove(<aquamunda:evaporator>);
 recipes.addShaped(<aquamunda:evaporator>, [[null, <minecraft:glass>, null], [<minecraft:glass>, null, <minecraft:glass>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+
+//OC TODO - replace components

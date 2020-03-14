@@ -84,17 +84,6 @@ var ndmagnet = VanillaFactory.createItem("ndmagnet");
 ndmagnet.maxStackSize = 16;
 ndmagnet.register();
 
-var alumina = VanillaFactory.createItem("alumina");
-alumina.maxStackSize = 16;
-alumina.register();
-
-var tio2 = VanillaFactory.createItem("tio2");
-tio2.maxStackSize = 16;
-tio2.register();
-
-var tinytio2 = VanillaFactory.createItem("tinytio2");
-tinytio2.register();
-
 var tungsticacid = VanillaFactory.createItem("tungsticacid");
 tungsticacid.maxStackSize = 16;
 tungsticacid.register();
@@ -223,3 +212,18 @@ nuke.register();
 var data1 = VanillaFactory.createItem("data1");
 data1.maxStackSize = 1;
 data1.register();
+
+var resistor = VanillaFactory.createItem("resistor");
+resistor.maxStackSize = 16;
+resistor.register();
+
+var advancedwafer = VanillaFactory.createItem("advancedwafer");
+advancedwafer.maxStackSize = 16;
+advancedwafer.register();
+
+var solder = VanillaFactory.createItem("solder");
+solder.register();
+
+var fiberglassboard = VanillaFactory.createItem("fiberglassboard");
+fiberglassboard.maxStackSize = 16;
+fiberglassboard.register();

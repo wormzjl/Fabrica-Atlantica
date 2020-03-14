@@ -1,5 +1,9 @@
 import mods.techguns.ReactionChamber;
 
+mods.jei.JEI.removeAndHide(<techguns:simplemachine:8>);
+mods.jei.JEI.removeAndHide(<techguns:simplemachine:11>);
+
+
 mods.jei.JEI.hide(<techguns:itemshared:56>);
 furnace.remove(<techguns:itemshared:55>);
 furnace.remove(<techguns:itemshared:56>);
@@ -9,6 +13,9 @@ mods.jei.JEI.hide(<techguns:steam_chestplate:*>);
 mods.jei.JEI.hide(<techguns:steam_leggings:*>);
 mods.jei.JEI.hide(<techguns:steam_boots:*>);
 
+mods.techguns.BlastFurnace.removeRecipe(<techguns:itemshared:83>);
+mods.techguns.BlastFurnace.removeRecipe(<techguns:itemshared:84>);
+
 mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:64>, null);
 mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:75>, null);
 mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:95>, null);
@@ -17,6 +24,9 @@ mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:97>, null);
 mods.techguns.ChemLab.removeRecipe(<minecraft:slime_ball>, null);
 mods.techguns.ChemLab.removeRecipe(null, <liquid:creeper_acid>);
 mods.techguns.ChemLab.removeRecipe(<minecraft:leather>,null);
+mods.techguns.ChemLab.removeRecipe(<minecraft:clay>,null);
+mods.techguns.ChemLab.removeRecipe(<techguns:radpills>,null);
+mods.techguns.ChemLab.removeRecipe(<techguns:radaway>,null);
 
 mods.techguns.ReactionChamber.removeRecipe(<minecraft:redstone_block>, <liquid:lava>);
 mods.techguns.ReactionChamber.removeRecipe(<techguns:basicore:3>, <liquid:creeper_acid>);
@@ -53,4 +63,3 @@ recipes.addShaped(<techguns:itemshared:69>, [[<ore:sheetPlastic>, <pneumaticcraf
 
 mods.techguns.Fabricator.removeRecipe(<techguns:itemshared:69>);
 mods.techguns.Fabricator.addRecipe(<materialpart:ssteel:gearadv>, 1, <pneumaticcraft:printed_circuit_board>, 1, <ic2:dust:6>, 1, "sheetPlastic", 2, <techguns:itemshared:69>);
-

@@ -11,16 +11,16 @@
 			<oreDict>OREDICT_NAME SIZE</oreDict>
 		</output>
 	</Recipe>
-	
+
 	Can have Multiple In/Outputs
 	Some Machines can only Accept either Fluids or Items
-	
+
 	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
 	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
-	
+
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
-<Recipes useDefault="true">
+<Recipes useDefault="false">
 	<Recipe timeRequired="900" power ="100">
 		<input>
 			<oreDict>ingotGold</oreDict>
@@ -69,16 +69,6 @@
 		</input>
 		<output>
 			<itemStack>advancedrocketry:ic 1 4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="200" power ="10">
-		<input>
-			<oreDict>plateSilicon</oreDict>
-			<oreDict>plateCopper</oreDict>
-			<oreDict>dustRedstone</oreDict>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:ic 1 3</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="200" power ="10">
