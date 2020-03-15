@@ -97,6 +97,11 @@ base.material.alumina=Alumina
 base.material.tio2=Titanium Dioxide
 base.material.gaas=Gallium Arsenide
 
+base.material.tier1=Tier 1
+base.material.tier2=Tier 2
+base.material.tier3=Tier 3
+base.material.tier4=Tier 4
+base.material.tier5=Tier 5
 
 contenttweaker.part.ore_high=High Grade %s Ore
 contenttweaker.part.ore_low=Low Grade %s Ore
@@ -121,6 +126,8 @@ contenttweaker.part.gearadv=%s Gear
 contenttweaker.part.gearpart=%s Gear Part
 contenttweaker.part.denseplate=%s Dense Plate
 contenttweaker.part.dusttiny=Tiny Pile of %s Dust
+
+contenttweaker.part.data=%s Research Data
 
 //Overridden item names
 item.magneticraft.copper_coil_normal.name=Copper Wire Coil

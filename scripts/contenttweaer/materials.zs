@@ -7,8 +7,8 @@ import mods.contenttweaker.Part;
 import mods.contenttweaker.DropTableBuilder;
 
 //New parts
-var names = ["ore_high", "ore_low", "ore_small_high", "ore_small_low", "ore_dust_small_high", "ore_dust_small_low", "ore_dust_high", "ore_dust_low", "ore_dust_washed_low", "ore_dust_pure", "ore_pellet", "ore_tailing", "scrapmetal", "gear", "gearadv", "denseplate", "broken_high", "broken_med", "broken_low", "dusttiny", "slag", "gearpart"] as string[];
-var overlay = [true, true, true, true, true, true, true, true, false, true, false, true, false, true, true, false, true, true, true, false, true, false] as bool[];
+var names = ["ore_high", "ore_low", "ore_small_high", "ore_small_low", "ore_dust_small_high", "ore_dust_small_low", "ore_dust_high", "ore_dust_low", "ore_dust_washed_low", "ore_dust_pure", "ore_pellet", "ore_tailing", "scrapmetal", "gear", "gearadv", "denseplate", "broken_high", "broken_med", "broken_low", "dusttiny", "slag", "gearpart", "data"] as string[];
+var overlay = [true, true, true, true, true, true, true, true, false, true, false, true, false, true, true, false, true, true, true, false, true, false, true] as bool[];
 
 for index, name in names {
     var partBuilder = MaterialSystem.getPartBuilder();
@@ -149,4 +149,17 @@ var chemicals = [gaas, tio2, alumina] as Material[];
 for i, chemical in chemicals {
     chemical.registerPart("dust");
     chemical.registerPart("dusttiny");
+}
+
+//Research data
+var t1 = MaterialSystem.getMaterialBuilder().setName("tier1").setColor(2486272).build();
+var t2 = MaterialSystem.getMaterialBuilder().setName("tier2").setColor(16456475).build();
+var t3 = MaterialSystem.getMaterialBuilder().setName("tier3").setColor(16513819).build();
+var t4 = MaterialSystem.getMaterialBuilder().setName("tier4").setColor(657915).build();
+var t5 = MaterialSystem.getMaterialBuilder().setName("tier5").setColor(719867).build();
+
+var research_all = [t1, t2, t3, t4, t5] as Material[];
+
+for i, item in research_all {
+    item.registerPart("data");
 }

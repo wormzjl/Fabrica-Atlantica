@@ -1,16 +1,23 @@
+import crafttweaker.item.IItemStack;
+
 //Recipe tweaks
 
 furnace.remove(<magneticraft:ingots:5>);
 
-mods.jei.JEI.removeAndHide(<magneticraft:feeding_trough>);
-mods.jei.JEI.removeAndHide(<magneticraft:thermopile>);
-mods.jei.JEI.removeAndHide(<magneticraft:wind_turbine>);
-mods.jei.JEI.removeAndHide(<magneticraft:box>);
-mods.jei.JEI.removeAndHide(<magneticraft:sluice_box>);
-mods.jei.JEI.removeAndHide(<magneticraft:gasification_unit>);
-mods.jei.JEI.removeAndHide(<magneticraft:steam_boiler>);
-mods.jei.JEI.removeAndHide(<magneticraft:crushing_table>);
+static removed as IItemStack[] = [
+  <magneticraft:feeding_trough>,
+  <magneticraft:thermopile>,
+  <magneticraft:wind_turbine>,
+  <magneticraft:box>,
+  <magneticraft:sluice_box>,
+  <magneticraft:gasification_unit>,
+  <magneticraft:steam_boiler>,
+  <magneticraft:crushing_table>
+];
 
+for item in removed {
+	mods.jei.JEI.removeAndHide(item);
+}
 
 recipes.remove(<magneticraft:solar_panel>);
 recipes.remove(<magneticraft:shelving_unit>);

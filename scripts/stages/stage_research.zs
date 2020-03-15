@@ -5,6 +5,7 @@ mods.multiblockstages.IEMultiBlockStages.addStage("blastfurnace_basic", "IE:Blas
 mods.multiblockstages.IEMultiBlockStages.addStage("cokery_basic", "IE:CokeOven", "Need Research First!");
 mods.multiblockstages.IEMultiBlockStages.addStage("crusher", "IE:Crusher", "Need Research First!");
 mods.multiblockstages.IEMultiBlockStages.addStage("metalpress", "IE:MetalPress", "Need Research First!");
+mods.multiblockstages.IEMultiBlockStages.addStage("autoworkbench", "IE:AutoWorkbench", "Need Research First!");
 
 //T0 Research
 var cat1 = mods.ResearchTable.addCategory(<immersiveengineering:metal_decoration1:1>);

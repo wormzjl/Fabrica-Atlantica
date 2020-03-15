@@ -35,6 +35,34 @@ wireCopper.remove(<techguns:itemshared:62>);
 
 sheetPlastic.remove(<techguns:itemshared:55>);
 
+//Research related stack size
+val t1data = <contenttweaker:tier1_data>;
+t1data.maxStackSize = 1;
+
+val t2data = <contenttweaker:tier2_data>;
+t2data.maxStackSize = 1;
+
+val t3data = <contenttweaker:tier3_data>;
+t3data.maxStackSize = 1;
+
+val t4data = <contenttweaker:tier4_data>;
+t4data.maxStackSize = 1;
+
+val t5data = <contenttweaker:tier5_data>;
+t5data.maxStackSize = 1;
+
+val solenoid = <nuclearcraft:part:4>;
+solenoid.maxStackSize = 8;
+
+val motor = <nuclearcraft:part:8>;
+motor.maxStackSize = 4;
+
+val rocketengine = <advancedrocketry:rocketmotor>;
+rocketengine.maxStackSize = 1;
+
+val rocketengine2 = <advancedrocketry:advrocketmotor>;
+rocketengine2.maxStackSize = 1;
+
 
 //Stack sizes
 val irongear = <materialpart:iron:gear>;
@@ -87,12 +115,6 @@ steelmech.maxStackSize = 8;
 
 val bushingbase = <railcraft:gear:3>;
 bushingbase.maxStackSize = 8;
-
-val coil = <ic2:crafting:5>;
-coil.maxStackSize = 8;
-
-val motor = <ic2:crafting:6>;
-motor.maxStackSize = 4;
 
 val capacitor = <pneumaticcraft:capacitor>;
 capacitor.maxStackSize = 16;

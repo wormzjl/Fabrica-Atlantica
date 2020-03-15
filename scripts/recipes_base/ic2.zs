@@ -45,7 +45,7 @@ for item in removed {
 //Not working
 //recipes.replaceAllOccurences(<ic2:casing:3>, <ic2:casing:5>);
 recipes.remove(<ic2:re_battery:*>);
-recipes.addShaped(<ic2:re_battery:26>, [[null, <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}), null], [<ic2:casing:4>, <minecraft:redstone>, <ic2:casing:4>], [<ic2:casing:4>, <minecraft:redstone>, <ic2:casing:4>]]);
+recipes.addShaped(<ic2:re_battery:26>, [[null, <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}), null], [<ic2:casing:6>, <minecraft:redstone>, <ic2:casing:6>], [<ic2:casing:6>, <minecraft:redstone>, <ic2:casing:6>]]);
 
 
 recipes.remove(<ic2:resource:12>);

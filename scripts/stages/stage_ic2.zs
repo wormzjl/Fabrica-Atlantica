@@ -12,6 +12,7 @@ var excluded as IItemStack[] = [
 ];
 
 var recipestaged as IItemStack[] = [
+  <ic2:te:*>
 ];
 
 for item in scripts.recipes_base.ic2.removed {
