@@ -1,5 +1,3 @@
-#priority 10000
-
 import crafttweaker.item.IItemStack;
 
 function inArray(a as IItemStack, list as IItemStack[]) as bool{

@@ -1,33 +1,46 @@
+import crafttweaker.item.IItemStack;
+
 //mods.jei.JEI.removeAndHide(<ic2:te:22>);
 //mods.jei.JEI.removeAndHide(<ic2:te:24>);
 
-mods.jei.JEI.removeAndHide(<ic2:ingot:8>);
 
-mods.jei.JEI.removeAndHide(<ic2:te:17>);
-mods.jei.JEI.removeAndHide(<ic2:te:23>);
-mods.jei.JEI.removeAndHide(<ic2:te:25>);
-mods.jei.JEI.removeAndHide(<ic2:te:26>);
-mods.jei.JEI.removeAndHide(<ic2:resource:14>);
+static removed as IItemStack[] = [
+  <ic2:bronze_pickaxe>,
+  <ic2:bronze_axe>,
+  <ic2:bronze_hoe>,
+  <ic2:bronze_shovel>,
+  <ic2:bronze_sword>,
+  <ic2:bronze_boots>,
+  <ic2:bronze_chestplate>,
+  <ic2:bronze_helmet>,
+  <ic2:bronze_leggings>,
+  <ic2:ingot:8>,
+  <ic2:resource:14>,
+  <ic2:refractory_bricks>,
+  <ic2:tool_box:*>,
+  <ic2:te:17>,
+  <ic2:te:23>,
+  <ic2:te:25>,
+  <ic2:te:26>,
+  <ic2:te:58>,
+  <ic2:te:87>,
+  <ic2:te:100>,
+  <ic2:te:101>,
+  <ic2:te:102>,
+  <ic2:te:111>,
+  <ic2:te:112>,
+  <ic2:te:113>,
+  <ic2:te:114>,
+  <ic2:te:115>,
+  <ic2:te:131>,
+  <ic2:te:132>,
+  <ic2:te:133>,
+  <ic2:te:134>
+];
 
-mods.jei.JEI.removeAndHide(<ic2:te:58>);
-mods.jei.JEI.removeAndHide(<ic2:te:87>);
-mods.jei.JEI.removeAndHide(<ic2:te:100>);
-mods.jei.JEI.removeAndHide(<ic2:te:101>);
-mods.jei.JEI.removeAndHide(<ic2:te:102>);
-
-mods.jei.JEI.removeAndHide(<ic2:te:111>);
-mods.jei.JEI.removeAndHide(<ic2:te:112>);
-mods.jei.JEI.removeAndHide(<ic2:te:113>);
-mods.jei.JEI.removeAndHide(<ic2:te:114>);
-mods.jei.JEI.removeAndHide(<ic2:te:115>);
-mods.jei.JEI.removeAndHide(<ic2:te:131>);
-mods.jei.JEI.removeAndHide(<ic2:te:132>);
-mods.jei.JEI.removeAndHide(<ic2:te:133>);
-mods.jei.JEI.removeAndHide(<ic2:te:134>);
-
-mods.jei.JEI.removeAndHide(<ic2:refractory_bricks>);
-
-mods.jei.JEI.removeAndHide(<ic2:tool_box:*>);
+for item in removed {
+	mods.jei.JEI.removeAndHide(item);
+}
 
 //Not working
 //recipes.replaceAllOccurences(<ic2:casing:3>, <ic2:casing:5>);

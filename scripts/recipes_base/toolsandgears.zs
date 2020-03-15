@@ -1,3 +1,5 @@
+#priority 1000
+
 import crafttweaker.item.IItemStack;
 
 //Batch removal
@@ -79,19 +81,6 @@ static removedtools as IItemStack[] = [
   <pyrotech:gold_hammer>,
   <pyrotech:diamond_hammer>,
   <pyrotech:obsidian_hammer>,
-
-  <ic2:bronze_pickaxe>,
-  <ic2:bronze_axe>,
-  <ic2:bronze_hoe>,
-  <ic2:bronze_shovel>,
-  <ic2:bronze_sword>,
-  <ic2:bronze_boots>,
-  <ic2:bronze_chestplate>,
-  <ic2:bronze_helmet>,
-  <ic2:bronze_leggings>,
-
-  <forestry:bronze_pickaxe>,
-  <forestry:bronze_shovel>,
 
   <immersiveengineering:pickaxe_steel>,
   <immersiveengineering:shovel_steel>,
