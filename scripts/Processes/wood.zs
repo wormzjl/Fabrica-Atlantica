@@ -189,7 +189,7 @@ recipes.addShaped("slab_primal_10", <primal:slab_netherearth> * 6, [[<ore:dirtNe
 //Treated wood
 recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood");
 recipes.removeByRecipeName("immersiveengineering:material/stick_treated");
-mods.nuclearcraft.infuser.removeRecipeWithOutput(<immersiveengineering:treated_wood>);
+mods.nuclearcraft.Infuser.removeRecipeWithOutput(<immersiveengineering:treated_wood>);
 
 mods.primal.Cauldron.addRecipe("treated_wood", 4, <liquid:wood_tar>*250, [<ore:plankWood>], [<immersiveengineering:treated_wood>]);
 mods.primal.Cauldron.addRecipe("treated_wood_2", 4, <liquid:creosote>*250, [<ore:plankWood>], [<immersiveengineering:treated_wood>]);

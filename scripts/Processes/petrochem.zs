@@ -152,8 +152,8 @@ mods.immersiveengineering.Refinery.addRecipe(<liquid:gasoline_adv_bio>*1000, <li
 
 
 //Misc Chemistry
-mods.nuclearcraft.chemical_reactor.removeRecipeWithOutput(<liquid:ethanol>*1000, <liquid:sulfur_trioxide>*1000);
-mods.nuclearcraft.chemical_reactor.removeRecipeWithOutput(<liquid:methanol>*1000, null);
+mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:ethanol>*1000, <liquid:sulfur_trioxide>*1000);
+mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:methanol>*1000, null);
 
 mods.rockhounding_chemistry.LabOven.add("Animal oil", <primal:tallow>, null, <liquid:plantoil>*200, null, <liquid:animaloil>*2000, null);
 mods.rockhounding_chemistry.LabOven.add("Biodiesel", <rockhounding_chemistry:chemical_items:6>, null, <liquid:plantoil>*1000, <liquid:methanol>*200, <liquid:biodiesel>*1000, null);
@@ -161,11 +161,11 @@ mods.rockhounding_chemistry.LabOven.add("Biodiesel2", <rockhounding_chemistry:ch
 
 mods.rockhounding_chemistry.GasPurifier.add(<liquid:fuel_gas_raw>, <liquid:fuel_gas>, null, <immersiveengineering:material:17>);
 
-mods.nuclearcraft.chemical_reactor.addRecipe(<liquid:ethene>*50, <liquid:steam>*100, <liquid:ethanol>*50, null);
+mods.nuclearcraft.ChemicalReactor.addRecipe(<liquid:ethene>*50, <liquid:steam>*100, <liquid:ethanol>*50, null);
 
 //TBD - NuC or AR reactor
-mods.nuclearcraft.chemical_reactor.addRecipe(<liquid:ethene>*70, <liquid:oxygen>*100, <liquid:ethylene_oxide>*60, null);
-mods.nuclearcraft.chemical_reactor.addRecipe(<liquid:ethylene_oxide>*100, <liquid:water>*100, <liquid:ethylene_glycol>*100, null);
+mods.nuclearcraft.ChemicalReactor.addRecipe(<liquid:ethene>*70, <liquid:oxygen>*100, <liquid:ethylene_oxide>*60, null);
+mods.nuclearcraft.ChemicalReactor.addRecipe(<liquid:ethylene_oxide>*100, <liquid:water>*100, <liquid:ethylene_glycol>*100, null);
 
 
 //Syngas chem, composition: 15 CO2, 55 CO, 30H2
@@ -194,7 +194,7 @@ mods.pneumaticcraft.thermopneumaticprocessingplant.addRecipe(<liquid:propene>*20
 
 mods.rockhounding_chemistry.GasReformer.add("Polypropylene", <liquid:propene>*200, <liquid:water_vapour>*100, <liquid:plastic>*75, <rockhounding_chemistry:wg_catalyst>);
 
-mods.nuclearcraft.chemical_reactor.addRecipe(<liquid:toluene>*100, <liquid:hydrogen>*100, <liquid:benzene>*100, null);
+mods.nuclearcraft.ChemicalReactor.addRecipe(<liquid:toluene>*100, <liquid:hydrogen>*100, <liquid:benzene>*100, null);
 
 mods.rockhounding_chemistry.GasCondenser.add(<liquid:benzene_vapour>*100, <liquid:benzene>*100);
 mods.rockhounding_chemistry.GasReformer.add("Ethylbenzene Synthesis", <liquid:benzene_vapour>*200, <liquid:ethene>*200, <liquid:ethylbenzene>*200, <rockhounding_chemistry:ze_catalyst>);
@@ -213,12 +213,12 @@ mods.rockhounding_chemistry.LabOven.removeByInput(<rockhounding_chemistry:chemic
 mods.rockhounding_chemistry.LabOven.add("Sulfur Trioxide", "dustSulfur", null, <liquid:oxygen>*500, null, <liquid:sulfur_trioxide>*500, null);
 mods.rockhounding_chemistry.LabOven.add("Sulfur Trioxide +", "dustSulfur", <rockhounding_chemistry:va_catalyst>, <liquid:oxygen>*500, null, <liquid:sulfur_trioxide>*500, null);
 
-mods.nuclearcraft.chemical_reactor.addRecipe(<liquid:sulfur_trioxide>*500, <liquid:sulfuric_acid>*500, <liquid:fumingsulfuricacid>*500, null);
-mods.nuclearcraft.chemical_reactor.addRecipe(<liquid:fumingsulfuricacid>*500, <liquid:ic2distilled_water>*500, <liquid:sulfuric_acid>*1000, null);
-mods.nuclearcraft.chemical_reactor.addRecipe(<liquid:sulfuric_acid>*500, <liquid:nitric_acid>*500, <liquid:sulfuricnitricacid>*1000, null);
-mods.nuclearcraft.chemical_reactor.addRecipe(<liquid:fumingsulfuricacid>*500, <liquid:nitric_acid>*500, <liquid:fumingsulfuricnitricacid>*1000, null);
+mods.nuclearcraft.ChemicalReactor.addRecipe(<liquid:sulfur_trioxide>*500, <liquid:sulfuric_acid>*500, <liquid:fumingsulfuricacid>*500, null);
+mods.nuclearcraft.ChemicalReactor.addRecipe(<liquid:fumingsulfuricacid>*500, <liquid:ic2distilled_water>*500, <liquid:sulfuric_acid>*1000, null);
+mods.nuclearcraft.ChemicalReactor.addRecipe(<liquid:sulfuric_acid>*500, <liquid:nitric_acid>*500, <liquid:sulfuricnitricacid>*1000, null);
+mods.nuclearcraft.ChemicalReactor.addRecipe(<liquid:fumingsulfuricacid>*500, <liquid:nitric_acid>*500, <liquid:fumingsulfuricnitricacid>*1000, null);
 
-mods.nuclearcraft.chemical_reactor.addRecipe(<liquid:hydrogen>*100, <liquid:chlorine>*100, <liquid:hydrochloric_acid>*200, null);
+mods.nuclearcraft.ChemicalReactor.addRecipe(<liquid:hydrogen>*100, <liquid:chlorine>*100, <liquid:hydrochloric_acid>*200, null);
 
 mods.rockhounding_chemistry.GasReformer.removeByOutput(<liquid:nitric_acid>*15);
 mods.rockhounding_chemistry.GasReformer.add("Nitric Acid Synthesis", <liquid:ammonia>*200, <liquid:oxygen>*300, <liquid:nitric_acid>*150, <rockhounding_chemistry:pt_catalyst>);
