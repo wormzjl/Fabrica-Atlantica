@@ -3,49 +3,45 @@
     "mob": ["Squid"],
     "dimension": 0,
     "spawner": true,
-    "isnotcolliding ": true,
     "block": "minecraft:water",
     "maxcount": {
       "amount": 8,
       "perplayer": true
     },
-    "result": "allow"
+    "result": "default"
   },
   {
     "mob": ["primal:shark_hammerhead"],
     "dimension": 0,
     "spawner": true,
-    "isnotcolliding ": true,
     "block": "minecraft:water",
     "maxcount": {
       "amount": 4,
       "perplayer": true
     },
-    "result": "allow"
+    "result": "default"
   },
   {
     "mob": ["Guardian"],
     "dimension": 0,
     "spawner": true,
-    "isnotcolliding ": true,
     "block": "minecraft:water",
     "maxcount": {
       "amount": 6,
       "perplayer": true
     },
-    "result": "allow"
+    "result": "default"
   },
   {
     "mob": ["Elder_guardian"],
     "dimension": 0,
     "spawner": true,
-    "isnotcolliding ": true,
     "block": "minecraft:water",
     "maxcount": {
       "amount": 2,
       "perplayer": true
     },
-    "result": "allow"
+    "result": "default"
   },
   {
     "mob": ["Squid"],
@@ -64,31 +60,31 @@
     "dimension": 0,
     "mob": "better_diving:peeper",
     "block": "minecraft:water",
-    "result": "allow"
+    "result": "default"
   },
   {
     "dimension": 0,
     "mob": "better_diving:bladderfish",
     "block": "minecraft:water",
-    "result": "allow"
+    "result": "default"
   },
   {
     "dimension": 0,
     "mob": "better_diving:garryfish",
     "block": "minecraft:water",
-    "result": "allow"
+    "result": "default"
   },
   {
     "dimension": 0,
     "mob": "better_diving:holefish",
     "block": "minecraft:water",
-    "result": "allow"
+    "result": "default"
   },
   {
     "dimension": 0,
     "mob": "better_diving:boomerang",
     "block": "minecraft:water",
-    "result": "allow"
+    "result": "default"
   },
   {
     "dimension": 0,

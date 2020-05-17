@@ -172,7 +172,6 @@
     "oreUranium": {
       "slagColor": "5c734b",
       "langKey": [
-        "atomicscience:tile.atomicscience:ore.uranium",
         "ic2:ic2.resource.uranium_ore",
         "immersiveengineering:tile.immersiveengineering.ore.uranium",
         "nuclearcraft:tile.nuclearcraft.ore.uranium",

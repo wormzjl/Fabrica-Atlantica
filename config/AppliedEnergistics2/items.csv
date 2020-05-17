@@ -1682,6 +1682,35 @@ ic2:fluid_cell:0, Universal Fluid Cell
 ic2:fluid_cell:0, Universal Fluid Cell
 ic2:fluid_cell:0, Universal Fluid Cell
 ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
+ic2:fluid_cell:0, Universal Fluid Cell
 ic2:cable:0, Copper Cable
 ic2:cable:0, Insulated Copper Cable
 ic2:cable:1, Glass Fibre Cable
@@ -1816,6 +1845,61 @@ forestry:ash_stairs:0, Ash Brick Stairs
 forestry:honeyed_slice, Honeyed Slice
 forestry:ambrosia, Ambrosia
 forestry:honey_pot, Honey Pot
+forestry:fluid.bio.ethanol, Ethanol
+forestry:fluid.biomass, Biomass
+forestry:fluid.glass, Liquid Glass
+forestry:fluid.for.honey, Honey
+forestry:fluid.ice, Crushed Ice
+forestry:fluid.juice, Fruit Juice
+forestry:fluid.milk, Milk
+forestry:fluid.seed.oil, Seed Oil
+forestry:fluid.short.mead, Short Mead
+forestry:can, item.for.can.name
+forestry:capsule, item.for.capsule.name
+forestry:refractory, item.for.refractory.name
+forestry:engine_peat:0, Peat-fired Engine
+forestry:engine_biogas:0, Biogas Engine
+forestry:engine_clockwork:0, Clockwork Engine
+forestry:genetic_filter:0, Genetic Filter
+forestry:worktable:0, Worktable
+forestry:database:0, Database
+forestry:apiarist_bag, Apiarist's Backpack
+forestry:lepidopterist_bag, Lepidopterist's Backpack
+forestry:miner_bag, Mining Backpack
+forestry:miner_bag_t2, Woven Mining Backpack
+forestry:digger_bag, Digging Backpack
+forestry:digger_bag_t2, Woven Digging Backpack
+forestry:forester_bag, Foresting Backpack
+forestry:forester_bag_t2, Woven Foresting Backpack
+forestry:hunter_bag, Hunting Backpack
+forestry:hunter_bag_t2, Woven Hunting Backpack
+forestry:adventurer_bag, Adventuring Backpack
+forestry:adventurer_bag_t2, Woven Adventuring Backpack
+forestry:builder_bag, Building Backpack
+forestry:builder_bag_t2, Woven Building Backpack
+forestry:stamps:0, Stamp (1n)
+forestry:stamps:1, Stamp (2n)
+forestry:stamps:2, Stamp (5n)
+forestry:stamps:3, Stamp (10n)
+forestry:stamps:4, Stamp (20n)
+forestry:stamps:5, Stamp (50n)
+forestry:stamps:6, Stamp (100n)
+forestry:letters, Letter
+forestry:catalogue, Catalogue
+forestry:mailbox:0, Mailbox
+forestry:trade_station:0, Trade Station
+forestry:stamp_collector:0, Stamp Collector
+forestry:book_forester, Forester's Manual
+forestry:bottler:0, Bottler
+forestry:carpenter:0, Carpenter
+forestry:centrifuge:0, Centrifuge
+forestry:fermenter:0, Fermenter
+forestry:moistener:0, Moistener
+forestry:squeezer:0, Squeezer
+forestry:still:0, Still
+forestry:rainmaker:0, Rainmaker
+forestry:fabricator:0, Thermionic Fabricator
+forestry:raintank:0, Rain Tank
 forestry:mushroom:0, tile.for.mushroom.name
 forestry:mushroom:1, tile.for.mushroom.name
 forestry:ffarm:0, Farm Block
@@ -1873,37 +1957,31 @@ forestry:ffarm:5, Farm Control
 forestry:ffarm:5, Farm Control
 forestry:ffarm:5, Farm Control
 forestry:ffarm:5, Farm Control
-forestry:engine_peat:0, Peat-fired Engine
-forestry:engine_biogas:0, Biogas Engine
-forestry:engine_clockwork:0, Clockwork Engine
-forestry:worktable:0, Worktable
-forestry:habitat_former:0, Habitat Former
-forestry:habitat_screen, Habitat Screen
-forestry:apiarist_bag, Apiarist's Backpack
-forestry:lepidopterist_bag, Lepidopterist's Backpack
-forestry:miner_bag, Mining Backpack
-forestry:miner_bag_t2, Woven Mining Backpack
-forestry:digger_bag, Digging Backpack
-forestry:digger_bag_t2, Woven Digging Backpack
-forestry:forester_bag, Foresting Backpack
-forestry:forester_bag_t2, Woven Foresting Backpack
-forestry:hunter_bag, Hunting Backpack
-forestry:hunter_bag_t2, Woven Hunting Backpack
-forestry:adventurer_bag, Adventuring Backpack
-forestry:adventurer_bag_t2, Woven Adventuring Backpack
-forestry:builder_bag, Building Backpack
-forestry:builder_bag_t2, Woven Building Backpack
-forestry:bottler:0, Bottler
-forestry:carpenter:0, Carpenter
-forestry:centrifuge:0, Centrifuge
-forestry:fermenter:0, Fermenter
-forestry:moistener:0, Moistener
-forestry:squeezer:0, Squeezer
-forestry:still:0, Still
-forestry:rainmaker:0, Rainmaker
-forestry:fabricator:0, Thermionic Fabricator
-forestry:raintank:0, Rain Tank
-forestry:genetic_filter:0, Genetic Filter
+forestry:arboretum:0, Arboretum (Managed)
+forestry:arboretum:1, Arboretum (Manual)
+forestry:farm_crops:0, Farm (Managed)
+forestry:farm_crops:1, Farm (Manual)
+forestry:farm_mushroom:0, Mushroom Farm (Managed)
+forestry:farm_mushroom:1, Mushroom Farm (Manual)
+forestry:farm_gourd:0, Gourd Farm (Managed)
+forestry:farm_gourd:1, Gourd Farm (Manual)
+forestry:farm_nether:0, Infernal Farm (Managed)
+forestry:farm_nether:1, Infernal Farm (Manual)
+forestry:farm_ender:0, Ender Farm (Managed)
+forestry:farm_ender:1, Ender Farm (Manual)
+forestry:peat_bog:0, Peat Bog (Managed)
+forestry:peat_bog:1, Peat Bog (Manual)
+forestry:greenhouse:0, Greenhouse Block
+forestry:greenhouse:3, Greenhouse Energy Distributor
+forestry:greenhouse:4, Greenhouse Control
+forestry:greenhouse:5, Greenhouse Screen
+forestry:climatiser:0, Greenhouse Hygroregulator
+forestry:climatiser:1, Greenhouse Heater
+forestry:climatiser:2, Greenhouse Fan
+forestry:climatiser:3, Greenhouse Humidifier
+forestry:climatiser:4, Greenhouse Dehumidifier
+forestry:greenhouse.window:0, Greenhouse Window
+forestry:greenhouse.window_up:0, Greenhouse Roof Window
 forestry:bee_queen_ge:0, Forest Queen
 forestry:bee_queen_ge:0, Meadows Queen
 forestry:bee_queen_ge:0, Common Queen
@@ -2123,58 +2201,6 @@ forestry:alveary.heater:0, Alveary Heater
 forestry:alveary.hygro:0, Alveary Hygroregulator
 forestry:alveary.stabiliser:0, Alveary Stabiliser
 forestry:alveary.sieve:0, Alveary Sieve
-forestry:stamps:0, Stamp (1n)
-forestry:stamps:1, Stamp (2n)
-forestry:stamps:2, Stamp (5n)
-forestry:stamps:3, Stamp (10n)
-forestry:stamps:4, Stamp (20n)
-forestry:stamps:5, Stamp (50n)
-forestry:stamps:6, Stamp (100n)
-forestry:letters, Letter
-forestry:catalogue, Catalogue
-forestry:mailbox:0, Mailbox
-forestry:trade_station:0, Trade Station
-forestry:stamp_collector:0, Stamp Collector
-forestry:crate, Crate
-forestry:greenhouse:0, Greenhouse Block
-forestry:greenhouse:3, Greenhouse Energy Distributor
-forestry:greenhouse:4, Greenhouse Control
-forestry:greenhouse:5, Greenhouse Screen
-forestry:climatiser:0, Greenhouse Hygroregulator
-forestry:climatiser:1, Greenhouse Heater
-forestry:climatiser:2, Greenhouse Fan
-forestry:climatiser:3, Greenhouse Humidifier
-forestry:climatiser:4, Greenhouse Dehumidifier
-forestry:greenhouse.window:0, Greenhouse Window
-forestry:greenhouse.window_up:0, Greenhouse Roof Window
-forestry:fluid.bio.ethanol, Ethanol
-forestry:fluid.biomass, Biomass
-forestry:fluid.glass, Liquid Glass
-forestry:fluid.for.honey, Honey
-forestry:fluid.ice, Crushed Ice
-forestry:fluid.juice, Fruit Juice
-forestry:fluid.milk, Milk
-forestry:fluid.seed.oil, Seed Oil
-forestry:fluid.short.mead, Short Mead
-forestry:can, item.for.can.name
-forestry:capsule, item.for.capsule.name
-forestry:refractory, item.for.refractory.name
-forestry:book_forester, Forester's Manual
-forestry:arboretum:0, Arboretum (Managed)
-forestry:arboretum:1, Arboretum (Manual)
-forestry:farm_crops:0, Farm (Managed)
-forestry:farm_crops:1, Farm (Manual)
-forestry:farm_mushroom:0, Mushroom Farm (Managed)
-forestry:farm_mushroom:1, Mushroom Farm (Manual)
-forestry:farm_gourd:0, Gourd Farm (Managed)
-forestry:farm_gourd:1, Gourd Farm (Manual)
-forestry:farm_nether:0, Infernal Farm (Managed)
-forestry:farm_nether:1, Infernal Farm (Manual)
-forestry:farm_ender:0, Ender Farm (Managed)
-forestry:farm_ender:1, Ender Farm (Manual)
-forestry:peat_bog:0, Peat Bog (Managed)
-forestry:peat_bog:1, Peat Bog (Manual)
-forestry:database:0, Database
 forestry:sapling:0, Apple Oak Sapling
 forestry:sapling:0, Dark Oak Sapling
 forestry:sapling:0, Silver Birch Sapling
@@ -2862,6 +2888,9 @@ forestry:cocoon_ge:0, Diana Fritillary Cocoon
 forestry:butterfly_chest:0, Lepidopterist's Chest
 forestry:cocoon:0, tile.for.cocoon.name
 forestry:cocoon.solid:0, tile.for.cocoon.solid.name
+forestry:crate, Crate
+forestry:habitat_former:0, Habitat Former
+forestry:habitat_screen, Habitat Screen
 forestry:engine_electrical:0, Electrical Engine
 forestry:engine_generator:0, Bio Generator
 railcraft:creosote, Creosote
@@ -3068,7 +3097,6 @@ railcraft:tank_steel_wall:12, Steel Tank Wall
 railcraft:tank_steel_wall:13, Steel Tank Wall
 railcraft:tank_steel_wall:14, Steel Tank Wall
 railcraft:tank_steel_wall:15, Steel Tank Wall
-railcraft:tank_water:0, Water Tank Siding
 railcraft:chest_metals:0, Metals Chest
 railcraft:cart_chest_metals:0, Metals Chest Cart
 railcraft:filter_bee, Bee Filter
@@ -3872,55 +3900,6 @@ gravisuite:crafting:3, Gravitation Engine
 gravisuite:crafting:4, Magnetron
 gravisuite:crafting:5, Vajra Core
 gravisuite:crafting:6, Engine Booster
-malisisdoors:wood_sliding_door, Wooden Glass Door
-malisisdoors:iron_sliding_door, Iron Glass Door
-malisisdoors:jail_door, Jail Door
-malisisdoors:laboratory_door, Laboratory Door
-malisisdoors:factory_door, Factory Door
-malisisdoors:shoji_door, Shoji Door
-malisisdoors:curtain_white, White Curtain
-malisisdoors:curtain_orange, Orange Curtain
-malisisdoors:curtain_magenta, Magenta Curtain
-malisisdoors:curtain_light_blue, Light Blue Curtain
-malisisdoors:curtain_yellow, Yellow Curtain
-malisisdoors:curtain_lime, Lime Curtain
-malisisdoors:curtain_pink, Pink Curtain
-malisisdoors:curtain_gray, Gray Curtain
-malisisdoors:curtain_silver, SilverCurtain
-malisisdoors:curtain_cyan, Cyan Curtain
-malisisdoors:curtain_purple, Purple Curtain
-malisisdoors:curtain_blue, Blue Curtain
-malisisdoors:curtain_brown, Brown Curtain
-malisisdoors:curtain_green, Green Curtain
-malisisdoors:curtain_red, Red Curtain
-malisisdoors:curtain_black, Black Curtain
-malisisdoors:customdooritem, Custom Door
-malisisdoors:saloon, Saloon Door
-malisisdoors:sliding_trapdoor, Sliding Trapdoor
-malisisdoors:trapdoor_acacia, Acacia Trapdoor
-malisisdoors:trapdoor_birch, Birch Trapdoor
-malisisdoors:trapdoor_dark_oak, Dark Oak Trapdoor
-malisisdoors:trapdoor_jungle, Jungle Trapdoor
-malisisdoors:trapdoor_spruce, Spruce Trapdoor
-malisisdoors:camofencegate, Camo Fence Gate
-malisisdoors:verticalhatch, Reinforced Door
-malisisdoors:garage_door, Garage Door
-malisisdoors:carriage_door, Carriage Door
-malisisdoors:medieval_door, Medieval Door
-malisisdoors:big_door_oak_3x3, Large Oak Double Doors
-malisisdoors:big_door_spruce_3x3, Large Spruce Double Doors
-malisisdoors:big_door_birch_3x3, Large Birch Double Doors
-malisisdoors:big_door_jungle_3x3, Large Jungle Double Doors
-malisisdoors:big_door_acacia_3x3, Large Acacia Double Doors
-malisisdoors:big_door_dark_oak_3x3, Large Dark Oak Double Doors
-malisisdoors:big_door_iron_3x3, Large Iron Double Doors
-malisisdoors:big_door_rusty_3x3, Large Rusty Iron Double Doors
-malisisdoors:rustyhatch, Rusty Hatch
-malisisdoors:rustyhandle, Rusty Handle
-malisisdoors:rustyladder, Rusty Ladder
-malisisdoors:door_factory, Door Factory
-malisisdoors:forcefielditem, Forcefield Controller
-malisisdoors:hitechdoor, Hi-tech Door
 nuclearcraft:ore:0, Copper Ore
 nuclearcraft:ore:1, Tin Ore
 nuclearcraft:ore:2, Lead Ore
@@ -3954,21 +3933,26 @@ nuclearcraft:fertile_isotope:5, Berkelium-247 Block
 nuclearcraft:fertile_isotope:6, Californium-252 Block
 nuclearcraft:supercold_ice, Supercold Ice
 nuclearcraft:heavy_water_moderator, Heavy Water Moderator
-nuclearcraft:isotope_separator, Isotope Separator
+nuclearcraft:nuclear_furnace, Nuclear Furnace
+nuclearcraft:manufactory, Manufactory
+nuclearcraft:separator, Separator
 nuclearcraft:decay_hastener, Decay Hastener
 nuclearcraft:fuel_reprocessor, Fuel Reprocessor
+nuclearcraft:alloy_furnace, Alloy Furnace
 nuclearcraft:infuser, Fluid Infuser
 nuclearcraft:melter, Melter
 nuclearcraft:supercooler, Supercooler
 nuclearcraft:electrolyzer, Electrolyzer
-nuclearcraft:irradiator, Neutron Irradiator
+nuclearcraft:assembler, Assembler
 nuclearcraft:ingot_former, Ingot Former
+nuclearcraft:pressurizer, Pressurizer
 nuclearcraft:chemical_reactor, Chemical Reactor
 nuclearcraft:salt_mixer, Salt Mixer
 nuclearcraft:crystallizer, Crystallizer
 nuclearcraft:enricher, Fluid Enricher
 nuclearcraft:extractor, Fluid Extractor
 nuclearcraft:centrifuge, Centrifuge
+nuclearcraft:rock_crusher, Rock Crusher
 nuclearcraft:machine_interface, Machine Interface
 nuclearcraft:rtg_uranium, Uranium RTG
 nuclearcraft:rtg_plutonium, Plutonium RTG
@@ -3991,50 +3975,121 @@ nuclearcraft:bin, Universal Bin
 nuclearcraft:fission_casing, Fission Reactor Casing
 nuclearcraft:fission_glass, Fission Reactor Glass
 nuclearcraft:fission_conductor, Fission Reactor Conductor
-nuclearcraft:fission_reflector, Neutron Reflector
-nuclearcraft:fission_port, Fission Reactor Port (WIP)
+nuclearcraft:fission_monitor, Fission Reactor Monitor (WIP)
+nuclearcraft:fission_reflector:0, Beryllium-Carbon Neutron Reflector
+nuclearcraft:fission_reflector:1, Lead-Steel Neutron Reflector
+nuclearcraft:fission_power_port, Fission Reactor Power Port
 nuclearcraft:fission_vent, Fission Reactor Vent
-nuclearcraft:fission_source:0, Ra-Be Fission Reactor Neutron Source
-nuclearcraft:fission_source:1, Po-Be Fission Reactor Neutron Source
-nuclearcraft:fission_source:2, Cf-252 Fission Reactor Neutron Source
-nuclearcraft:fission_computer_port, Fission Reactor Computer Port (WIP)
-nuclearcraft:solid_fission_controller, Solid Fuel Reactor Controller
-nuclearcraft:solid_fission_cell, Fission Reactor Fuel Cell
-nuclearcraft:solid_fission_sink:0, Water Fission Reactor Sink
-nuclearcraft:solid_fission_sink:1, Iron Fission Reactor Sink
-nuclearcraft:solid_fission_sink:2, Redstone Fission Reactor Sink
-nuclearcraft:solid_fission_sink:3, Quartz Fission Reactor Sink
-nuclearcraft:solid_fission_sink:4, Obsidian Fission Reactor Sink
-nuclearcraft:solid_fission_sink:5, Nether Brick Fission Reactor Sink
-nuclearcraft:solid_fission_sink:6, Glowstone Fission Reactor Sink
-nuclearcraft:solid_fission_sink:7, Lapis Fission Reactor Sink
-nuclearcraft:solid_fission_sink:8, Gold Fission Reactor Sink
-nuclearcraft:solid_fission_sink:9, Prismarine Fission Reactor Sink
-nuclearcraft:solid_fission_sink:10, Slime Fission Reactor Sink
-nuclearcraft:solid_fission_sink:11, End Stone Fission Reactor Sink
-nuclearcraft:solid_fission_sink:12, Purpur Fission Reactor Sink
-nuclearcraft:solid_fission_sink:13, Diamond Fission Reactor Sink
-nuclearcraft:solid_fission_sink:14, Emerald Fission Reactor Sink
-nuclearcraft:solid_fission_sink:15, Copper Fission Reactor Sink
-nuclearcraft:solid_fission_sink2:0, Tin Fission Reactor Sink
-nuclearcraft:solid_fission_sink2:1, Lead Fission Reactor Sink
-nuclearcraft:solid_fission_sink2:2, Boron Fission Reactor Sink
-nuclearcraft:solid_fission_sink2:3, Lithium Fission Reactor Sink
-nuclearcraft:solid_fission_sink2:4, Magnesium Fission Reactor Sink
-nuclearcraft:solid_fission_sink2:5, Manganese Fission Reactor Sink
-nuclearcraft:solid_fission_sink2:6, Aluminum Fission Reactor Sink
-nuclearcraft:solid_fission_sink2:7, Silver Fission Reactor Sink
-nuclearcraft:solid_fission_sink2:8, Fluorite Fission Reactor Sink
-nuclearcraft:solid_fission_sink2:9, Villiaumite Fission Reactor Sink
-nuclearcraft:solid_fission_sink2:10, Carobbiite Fission Reactor Sink
-nuclearcraft:solid_fission_sink2:11, Arsenic Fission Reactor Sink
-nuclearcraft:solid_fission_sink2:12, Liquid Nitrogen Fission Reactor Sink
-nuclearcraft:solid_fission_sink2:13, Liquid Helium Fission Reactor Sink
-nuclearcraft:solid_fission_sink2:14, Enderium Fission Reactor Sink
-nuclearcraft:solid_fission_sink2:15, Cryotheum Fission Reactor Sink
-nuclearcraft:salt_fission_controller, Molten Salt Reactor Controller (MULTIBLOCK BROKEN!)
-nuclearcraft:salt_fission_vessel, Fission Reactor Fuel Vessel
-nuclearcraft:salt_fission_heater, Fission Reactor Coolant Heater
+nuclearcraft:fission_irradiator, Fission Neutron Irradiator
+nuclearcraft:fission_source:0, Ra-Be Fission Neutron Source
+nuclearcraft:fission_source:1, Po-Be Fission Neutron Source
+nuclearcraft:fission_source:2, Cf-252 Fission Neutron Source
+nuclearcraft:fission_shield:0, Boron-Silver Fission Neutron Shield
+nuclearcraft:fission_computer_port, Fission Computer Port (WIP)
+nuclearcraft:fission_irradiator_port, Fission Neutron Irradiator Port
+nuclearcraft:fission_cell_port, Fission Fuel Cell Port
+nuclearcraft:fission_vessel_port, Fission Fuel Vessel Port
+nuclearcraft:fission_heater_port:0, Standard Fission Coolant Heater Port
+nuclearcraft:fission_heater_port:1, Iron Fission Coolant Heater Port
+nuclearcraft:fission_heater_port:2, Redstone Fission Coolant Heater Port
+nuclearcraft:fission_heater_port:3, Quartz Fission Coolant Heater Port
+nuclearcraft:fission_heater_port:4, Obsidian Fission Coolant Heater Port
+nuclearcraft:fission_heater_port:5, Nether Brick Fission Coolant Heater Port
+nuclearcraft:fission_heater_port:6, Glowstone Fission Coolant Heater Port
+nuclearcraft:fission_heater_port:7, Lapis Fission Coolant Heater Port
+nuclearcraft:fission_heater_port:8, Gold Fission Coolant Heater Port
+nuclearcraft:fission_heater_port:9, Prismarine Fission Coolant Heater Port
+nuclearcraft:fission_heater_port:10, Slime Fission Coolant Heater Port
+nuclearcraft:fission_heater_port:11, End Stone Fission Coolant Heater Port
+nuclearcraft:fission_heater_port:12, Purpur Fission Coolant Heater Port
+nuclearcraft:fission_heater_port:13, Diamond Fission Coolant Heater Port
+nuclearcraft:fission_heater_port:14, Emerald Fission Coolant Heater Port
+nuclearcraft:fission_heater_port:15, Copper Fission Coolant Heater Port
+nuclearcraft:fission_heater_port2:0, Tin Fission Coolant Heater Port
+nuclearcraft:fission_heater_port2:1, Lead Fission Coolant Heater Port
+nuclearcraft:fission_heater_port2:2, Boron Fission Coolant Heater Port
+nuclearcraft:fission_heater_port2:3, Lithium Fission Coolant Heater Port
+nuclearcraft:fission_heater_port2:4, Magnesium Fission Coolant Heater Port
+nuclearcraft:fission_heater_port2:5, Manganese Fission Coolant Heater Port
+nuclearcraft:fission_heater_port2:6, Aluminum Fission Coolant Heater Port
+nuclearcraft:fission_heater_port2:7, Silver Fission Coolant Heater Port
+nuclearcraft:fission_heater_port2:8, Fluorite Fission Coolant Heater Port
+nuclearcraft:fission_heater_port2:9, Villiaumite Fission Coolant Heater Port
+nuclearcraft:fission_heater_port2:10, Carobbiite Fission Coolant Heater Port
+nuclearcraft:fission_heater_port2:11, Arsenic Fission Coolant Heater Port
+nuclearcraft:fission_heater_port2:12, Liquid Nitrogen Fission Coolant Heater Port
+nuclearcraft:fission_heater_port2:13, Liquid Helium Fission Coolant Heater Port
+nuclearcraft:fission_heater_port2:14, Enderium Fission Coolant Heater Port
+nuclearcraft:fission_heater_port2:15, Cryotheum Fission Coolant Heater Port
+nuclearcraft:fission_shield_manager, Fission Neutron Shield Manager (WIP)
+nuclearcraft:solid_fission_controller, Solid Fuel Fission Controller
+nuclearcraft:solid_fission_cell, Fission Fuel Cell
+nuclearcraft:solid_fission_sink:0, Water Fission Heat Sink
+nuclearcraft:solid_fission_sink:1, Iron Fission Heat Sink
+nuclearcraft:solid_fission_sink:2, Redstone Fission Heat Sink
+nuclearcraft:solid_fission_sink:3, Quartz Fission Heat Sink
+nuclearcraft:solid_fission_sink:4, Obsidian Fission Heat Sink
+nuclearcraft:solid_fission_sink:5, Nether Brick Fission Heat Sink
+nuclearcraft:solid_fission_sink:6, Glowstone Fission Heat Sink
+nuclearcraft:solid_fission_sink:7, Lapis Fission Heat Sink
+nuclearcraft:solid_fission_sink:8, Gold Fission Heat Sink
+nuclearcraft:solid_fission_sink:9, Prismarine Fission Heat Sink
+nuclearcraft:solid_fission_sink:10, Slime Fission Heat Sink
+nuclearcraft:solid_fission_sink:11, End Stone Fission Heat Sink
+nuclearcraft:solid_fission_sink:12, Purpur Fission Heat Sink
+nuclearcraft:solid_fission_sink:13, Diamond Fission Heat Sink
+nuclearcraft:solid_fission_sink:14, Emerald Fission Heat Sink
+nuclearcraft:solid_fission_sink:15, Copper Fission Heat Sink
+nuclearcraft:solid_fission_sink2:0, Tin Fission Heat Sink
+nuclearcraft:solid_fission_sink2:1, Lead Fission Heat Sink
+nuclearcraft:solid_fission_sink2:2, Boron Fission Heat Sink
+nuclearcraft:solid_fission_sink2:3, Lithium Fission Heat Sink
+nuclearcraft:solid_fission_sink2:4, Magnesium Fission Heat Sink
+nuclearcraft:solid_fission_sink2:5, Manganese Fission Heat Sink
+nuclearcraft:solid_fission_sink2:6, Aluminum Fission Heat Sink
+nuclearcraft:solid_fission_sink2:7, Silver Fission Heat Sink
+nuclearcraft:solid_fission_sink2:8, Fluorite Fission Heat Sink
+nuclearcraft:solid_fission_sink2:9, Villiaumite Fission Heat Sink
+nuclearcraft:solid_fission_sink2:10, Carobbiite Fission Heat Sink
+nuclearcraft:solid_fission_sink2:11, Arsenic Fission Heat Sink
+nuclearcraft:solid_fission_sink2:12, Liquid Nitrogen Fission Heat Sink
+nuclearcraft:solid_fission_sink2:13, Liquid Helium Fission Heat Sink
+nuclearcraft:solid_fission_sink2:14, Enderium Fission Heat Sink
+nuclearcraft:solid_fission_sink2:15, Cryotheum Fission Heat Sink
+nuclearcraft:salt_fission_controller, Molten Salt Fission Controller
+nuclearcraft:salt_fission_vessel, Fission Fuel Vessel
+nuclearcraft:salt_fission_heater:0, Standard Fission Coolant Heater
+nuclearcraft:salt_fission_heater:1, Iron Fission Coolant Heater
+nuclearcraft:salt_fission_heater:2, Redstone Fission Coolant Heater
+nuclearcraft:salt_fission_heater:3, Quartz Fission Coolant Heater
+nuclearcraft:salt_fission_heater:4, Obsidian Fission Coolant Heater
+nuclearcraft:salt_fission_heater:5, Nether Brick Fission Coolant Heater
+nuclearcraft:salt_fission_heater:6, Glowstone Fission Coolant Heater
+nuclearcraft:salt_fission_heater:7, Lapis Fission Coolant Heater
+nuclearcraft:salt_fission_heater:8, Gold Fission Coolant Heater
+nuclearcraft:salt_fission_heater:9, Prismarine Fission Coolant Heater
+nuclearcraft:salt_fission_heater:10, Slime Fission Coolant Heater
+nuclearcraft:salt_fission_heater:11, End Stone Fission Coolant Heater
+nuclearcraft:salt_fission_heater:12, Purpur Fission Coolant Heater
+nuclearcraft:salt_fission_heater:13, Diamond Fission Coolant Heater
+nuclearcraft:salt_fission_heater:14, Emerald Fission Coolant Heater
+nuclearcraft:salt_fission_heater:15, Copper Fission Coolant Heater
+nuclearcraft:salt_fission_heater2:0, Tin Fission Coolant Heater
+nuclearcraft:salt_fission_heater2:1, Lead Fission Coolant Heater
+nuclearcraft:salt_fission_heater2:2, Boron Fission Coolant Heater
+nuclearcraft:salt_fission_heater2:3, Lithium Fission Coolant Heater
+nuclearcraft:salt_fission_heater2:4, Magnesium Fission Coolant Heater
+nuclearcraft:salt_fission_heater2:5, Manganese Fission Coolant Heater
+nuclearcraft:salt_fission_heater2:6, Aluminum Fission Coolant Heater
+nuclearcraft:salt_fission_heater2:7, Silver Fission Coolant Heater
+nuclearcraft:salt_fission_heater2:8, Fluorite Fission Coolant Heater
+nuclearcraft:salt_fission_heater2:9, Villiaumite Fission Coolant Heater
+nuclearcraft:salt_fission_heater2:10, Carobbiite Fission Coolant Heater
+nuclearcraft:salt_fission_heater2:11, Arsenic Fission Coolant Heater
+nuclearcraft:salt_fission_heater2:12, Liquid Nitrogen Fission Coolant Heater
+nuclearcraft:salt_fission_heater2:13, Liquid Helium Fission Coolant Heater
+nuclearcraft:salt_fission_heater2:14, Enderium Fission Coolant Heater
+nuclearcraft:salt_fission_heater2:15, Cryotheum Fission Coolant Heater
 nuclearcraft:heat_exchanger_controller, Heat Exchanger Controller (MULTIBLOCK BROKEN!)
 nuclearcraft:heat_exchanger_casing, Heat Exchanger Shell
 nuclearcraft:heat_exchanger_glass, Heat Exchanger Glass
@@ -4062,14 +4117,53 @@ nuclearcraft:turbine_dynamo_coil:2, Aluminum Turbine Dynamo Coil
 nuclearcraft:turbine_dynamo_coil:3, Gold Turbine Dynamo Coil
 nuclearcraft:turbine_dynamo_coil:4, Copper Turbine Dynamo Coil
 nuclearcraft:turbine_dynamo_coil:5, Silver Turbine Dynamo Coil
+nuclearcraft:turbine_coil_connector, Turbine Dynamo Coil Connector
 nuclearcraft:turbine_inlet, Turbine Fluid Inlet
 nuclearcraft:turbine_outlet, Turbine Fluid Outlet
 nuclearcraft:turbine_computer_port, Turbine Computer Port (WIP)
+nuclearcraft:cobblestone_generator, Cobblestone Generator
+nuclearcraft:cobblestone_generator_compact, Compact Cobblestone Generator
+nuclearcraft:cobblestone_generator_dense, Dense Cobblestone Generator
+nuclearcraft:water_source, Infinite Water Source
+nuclearcraft:water_source_compact, Compact Infinite Water Source
+nuclearcraft:water_source_dense, Dense Infinite Water Source
+nuclearcraft:nitrogen_collector, Nitrogen Collector
+nuclearcraft:nitrogen_collector_compact, Compact Nitrogen Collector
+nuclearcraft:nitrogen_collector_dense, Dense Nitrogen Collector
 nuclearcraft:radiation_scrubber, Radiation Scrubber
 nuclearcraft:geiger_block, Geiger Counter Block
 nuclearcraft:glowing_mushroom, Glowing Mushroom
 nuclearcraft:wasteland_earth, Wasteland Earth
 nuclearcraft:tritium_lamp, Tritium Lamp
+nuclearcraft:quantum_computer_controller, Quantum Computer Controller
+nuclearcraft:quantum_computer_qubit, Quantum Computer Qubit
+nuclearcraft:quantum_computer_gate_single:0, Quantum Computer Pauli-X Gate
+nuclearcraft:quantum_computer_gate_single:1, Quantum Computer Pauli-Y Gate
+nuclearcraft:quantum_computer_gate_single:2, Quantum Computer Pauli-Z Gate
+nuclearcraft:quantum_computer_gate_single:3, Quantum Computer Hadamard Gate
+nuclearcraft:quantum_computer_gate_single:4, Quantum Computer S Gate
+nuclearcraft:quantum_computer_gate_single:5, Quantum Computer Inverse S Gate
+nuclearcraft:quantum_computer_gate_single:6, Quantum Computer T Gate
+nuclearcraft:quantum_computer_gate_single:7, Quantum Computer Inverse T Gate
+nuclearcraft:quantum_computer_gate_single:8, Quantum Computer Phase Gate
+nuclearcraft:quantum_computer_gate_single:9, Quantum Computer X-Rotation Gate
+nuclearcraft:quantum_computer_gate_single:10, Quantum Computer Y-Rotation Gate
+nuclearcraft:quantum_computer_gate_single:11, Quantum Computer Z-Rotation Gate
+nuclearcraft:quantum_computer_gate_control:0, Quantum Computer Controlled Pauli-X Gate
+nuclearcraft:quantum_computer_gate_control:1, Quantum Computer Controlled Pauli-Y Gate
+nuclearcraft:quantum_computer_gate_control:2, Quantum Computer Controlled Pauli-Z Gate
+nuclearcraft:quantum_computer_gate_control:3, Quantum Computer Controlled Hadamard Gate
+nuclearcraft:quantum_computer_gate_control:4, Quantum Computer Controlled S Gate
+nuclearcraft:quantum_computer_gate_control:5, Quantum Computer Controlled Inverse S Gate
+nuclearcraft:quantum_computer_gate_control:6, Quantum Computer Controlled T Gate
+nuclearcraft:quantum_computer_gate_control:7, Quantum Computer Controlled Inverse T Gate
+nuclearcraft:quantum_computer_gate_control:8, Quantum Computer Controlled Phase Gate
+nuclearcraft:quantum_computer_gate_control:9, Quantum Computer Controlled X-Rotation Gate
+nuclearcraft:quantum_computer_gate_control:10, Quantum Computer Controlled Y-Rotation Gate
+nuclearcraft:quantum_computer_gate_control:11, Quantum Computer Controlled Z-Rotation Gate
+nuclearcraft:quantum_computer_gate_swap:0, Quantum Computer Swap Gate
+nuclearcraft:quantum_computer_gate_swap:1, Quantum Computer Controlled Swap Gate
+nuclearcraft:quantum_computer_connector, Quantum Computer Connector
 nuclearcraft:ingot:0, Copper Ingot
 nuclearcraft:ingot:1, Tin Ingot
 nuclearcraft:ingot:2, Lead Ingot
@@ -4121,8 +4215,6 @@ nuclearcraft:gem_dust:8, Crushed Villiaumite
 nuclearcraft:gem_dust:9, Crushed Carobbiite
 nuclearcraft:gem_dust:10, Crushed Arsenic
 nuclearcraft:gem_dust:11, Crushed End Stone
-nuclearcraft:gem_dust:12, Radium Dust
-nuclearcraft:gem_dust:13, Polonium Dust
 nuclearcraft:alloy:0, Bronze Ingot
 nuclearcraft:alloy:1, Tough Alloy
 nuclearcraft:alloy:2, Hard Carbon Alloy
@@ -4166,12 +4258,14 @@ nuclearcraft:part:11, Empty Frame
 nuclearcraft:part:12, Steel Chassis
 nuclearcraft:part:13, Silicon Carbide Fiber
 nuclearcraft:part:14, Empty Heat Sink
+nuclearcraft:part:15, Pyrolytic Carbon
 nuclearcraft:upgrade:0, Speed Upgrade
 nuclearcraft:upgrade:1, Energy Upgrade
-nuclearcraft:thorium:0, Thorium Carbide
-nuclearcraft:thorium:1, Thorium Oxide
-nuclearcraft:thorium:2, Thorium Nitride
-nuclearcraft:thorium:3, Thorium-Zirconium Alloy
+nuclearcraft:fission_dust:0, Bismuth Dust
+nuclearcraft:fission_dust:1, Radium Dust
+nuclearcraft:fission_dust:2, Polonium Dust
+nuclearcraft:fission_dust:3, Protactinium-Enriched Thorium Dust
+nuclearcraft:fission_dust:4, Protactinium-233 Dust
 nuclearcraft:uranium:0, Uranium-233
 nuclearcraft:uranium:1, Uranium-233 Carbide
 nuclearcraft:uranium:2, Uranium-233 Oxide
@@ -4282,6 +4376,60 @@ nuclearcraft:californium:16, Californium-252 Carbide
 nuclearcraft:californium:17, Californium-252 Oxide
 nuclearcraft:californium:18, Californium-252 Nitride
 nuclearcraft:californium:19, Californium-252-Zirconium Alloy
+nuclearcraft:pellet_thorium:0, TBU
+nuclearcraft:pellet_thorium:1, TBU Carbide
+nuclearcraft:pellet_uranium:0, LEU-233
+nuclearcraft:pellet_uranium:1, LEU-233 Carbide
+nuclearcraft:pellet_uranium:2, HEU-233
+nuclearcraft:pellet_uranium:3, HEU-233 Carbide
+nuclearcraft:pellet_uranium:4, LEU-235
+nuclearcraft:pellet_uranium:5, LEU-235 Carbide
+nuclearcraft:pellet_uranium:6, HEU-235
+nuclearcraft:pellet_uranium:7, HEU-235 Carbide
+nuclearcraft:pellet_neptunium:0, LEN-236
+nuclearcraft:pellet_neptunium:1, LEN-236 Carbide
+nuclearcraft:pellet_neptunium:2, HEN-236
+nuclearcraft:pellet_neptunium:3, HEN-236 Carbide
+nuclearcraft:pellet_plutonium:0, LEP-239
+nuclearcraft:pellet_plutonium:1, LEP-239 Carbide
+nuclearcraft:pellet_plutonium:2, HEP-239
+nuclearcraft:pellet_plutonium:3, HEP-239 Carbide
+nuclearcraft:pellet_plutonium:4, LEP-241
+nuclearcraft:pellet_plutonium:5, LEP-241 Carbide
+nuclearcraft:pellet_plutonium:6, HEP-241
+nuclearcraft:pellet_plutonium:7, HEP-241 Carbide
+nuclearcraft:pellet_mixed:0, MIX-239
+nuclearcraft:pellet_mixed:1, MIX-239 Carbide
+nuclearcraft:pellet_mixed:2, MIX-241
+nuclearcraft:pellet_mixed:3, MIX-241 Carbide
+nuclearcraft:pellet_americium:0, LEA-242
+nuclearcraft:pellet_americium:1, LEA-242 Carbide
+nuclearcraft:pellet_americium:2, HEA-242
+nuclearcraft:pellet_americium:3, HEA-242 Carbide
+nuclearcraft:pellet_curium:0, LECm-243
+nuclearcraft:pellet_curium:1, LECm-243 Carbide
+nuclearcraft:pellet_curium:2, HECm-243
+nuclearcraft:pellet_curium:3, HECm-243 Carbide
+nuclearcraft:pellet_curium:4, LECm-245
+nuclearcraft:pellet_curium:5, LECm-245 Carbide
+nuclearcraft:pellet_curium:6, HECm-245
+nuclearcraft:pellet_curium:7, HECm-245 Carbide
+nuclearcraft:pellet_curium:8, LECm-247
+nuclearcraft:pellet_curium:9, LECm-247 Carbide
+nuclearcraft:pellet_curium:10, HECm-247
+nuclearcraft:pellet_curium:11, HECm-247 Carbide
+nuclearcraft:pellet_berkelium:0, LEB-248
+nuclearcraft:pellet_berkelium:1, LEB-248 Carbide
+nuclearcraft:pellet_berkelium:2, HEB-248
+nuclearcraft:pellet_berkelium:3, HEB-248 Carbide
+nuclearcraft:pellet_californium:0, LECf-249
+nuclearcraft:pellet_californium:1, LECf-249 Carbide
+nuclearcraft:pellet_californium:2, HECf-249
+nuclearcraft:pellet_californium:3, HECf-249 Carbide
+nuclearcraft:pellet_californium:4, LECf-251
+nuclearcraft:pellet_californium:5, LECf-251 Carbide
+nuclearcraft:pellet_californium:6, HECf-251
+nuclearcraft:pellet_californium:7, HECf-251 Carbide
 nuclearcraft:fuel_thorium:0, TBU TRISO Fuel Pebble
 nuclearcraft:fuel_thorium:1, TBU Oxide Fuel Pellet
 nuclearcraft:fuel_thorium:2, TBU Nitride Fuel Pellet
@@ -4326,11 +4474,11 @@ nuclearcraft:fuel_plutonium:12, HEP-241 TRISO Fuel Pebble
 nuclearcraft:fuel_plutonium:13, HEP-241 Oxide Fuel Pellet
 nuclearcraft:fuel_plutonium:14, HEP-241 Nitride Fuel Pellet
 nuclearcraft:fuel_plutonium:15, HEP-241-Zirconium Alloy Fuel Pellet
-nuclearcraft:fuel_mixed:0, MTRISO-239 Fuel Pellet
+nuclearcraft:fuel_mixed:0, MTRISO-239 Fuel Pebble
 nuclearcraft:fuel_mixed:1, MOX-239 Fuel Pellet
 nuclearcraft:fuel_mixed:2, MNI-239 Fuel Pellet
 nuclearcraft:fuel_mixed:3, MZA-239 Fuel Pellet
-nuclearcraft:fuel_mixed:4, MTRISO-241 Fuel Pellet
+nuclearcraft:fuel_mixed:4, MTRISO-241 Fuel Pebble
 nuclearcraft:fuel_mixed:5, MOX-241 Fuel Pellet
 nuclearcraft:fuel_mixed:6, MNI-241 Fuel Pellet
 nuclearcraft:fuel_mixed:7, MZA-241 Fuel Pellet
@@ -4434,11 +4582,11 @@ nuclearcraft:depleted_fuel_plutonium:12, Depleted HEP-241 TRISO Fuel Pebble
 nuclearcraft:depleted_fuel_plutonium:13, Depleted HEP-241 Oxide Fuel Pellet
 nuclearcraft:depleted_fuel_plutonium:14, Depleted HEP-241 Nitride Fuel Pellet
 nuclearcraft:depleted_fuel_plutonium:15, Depleted HEP-241-Zirconium Alloy Fuel Pellet
-nuclearcraft:depleted_fuel_mixed:0, Depleted MTRISO-239 Fuel Pellet
+nuclearcraft:depleted_fuel_mixed:0, Depleted MTRISO-239 Fuel Pebble
 nuclearcraft:depleted_fuel_mixed:1, Depleted MOX-239 Fuel Pellet
 nuclearcraft:depleted_fuel_mixed:2, Depleted MNI-239 Fuel Pellet
 nuclearcraft:depleted_fuel_mixed:3, Depleted MZA-239 Fuel Pellet
-nuclearcraft:depleted_fuel_mixed:4, Depleted MTRISO-241 Fuel Pellet
+nuclearcraft:depleted_fuel_mixed:4, Depleted MTRISO-241 Fuel Pebble
 nuclearcraft:depleted_fuel_mixed:5, Depleted MOX-241 Fuel Pellet
 nuclearcraft:depleted_fuel_mixed:6, Depleted MNI-241 Fuel Pellet
 nuclearcraft:depleted_fuel_mixed:7, Depleted MZA-241 Fuel Pellet
@@ -4505,6 +4653,7 @@ nuclearcraft:boron:1, Boron-11
 nuclearcraft:lithium:0, Lithium-6
 nuclearcraft:lithium:1, Lithium-7
 nuclearcraft:lithium_ion_cell, Lithium Ion Cell
+nuclearcraft:multitool, Multitool
 nuclearcraft:geiger_counter, Geiger Counter
 nuclearcraft:rad_shielding:0, Light Radiation Shielding
 nuclearcraft:rad_shielding:1, Medium Radiation Shielding
@@ -4533,6 +4682,46 @@ nuclearcraft:record_wanderer, Music Disc
 nuclearcraft:record_end_of_the_world, Music Disc
 nuclearcraft:record_money_for_nothing, Music Disc
 nuclearcraft:record_hyperspace, Music Disc
+nuclearcraft:sword_boron, Boron Sword
+nuclearcraft:pickaxe_boron, Boron Pickaxe
+nuclearcraft:shovel_boron, Boron Shovel
+nuclearcraft:axe_boron, Boron Axe
+nuclearcraft:hoe_boron, Boron Hoe
+nuclearcraft:spaxelhoe_boron, Boron Spaxelhoe
+nuclearcraft:sword_tough, Tough Alloy Sword
+nuclearcraft:pickaxe_tough, Tough Alloy Pickaxe
+nuclearcraft:shovel_tough, Tough Alloy Shovel
+nuclearcraft:axe_tough, Tough Alloy Axe
+nuclearcraft:hoe_tough, Tough Alloy Hoe
+nuclearcraft:spaxelhoe_tough, Tough Alloy Spaxelhoe
+nuclearcraft:sword_hard_carbon, Hard Carbon Sword
+nuclearcraft:pickaxe_hard_carbon, Hard Carbon Pickaxe
+nuclearcraft:shovel_hard_carbon, Hard Carbon Shovel
+nuclearcraft:axe_hard_carbon, Hard Carbon Axe
+nuclearcraft:hoe_hard_carbon, Hard Carbon Hoe
+nuclearcraft:spaxelhoe_hard_carbon, Hard Carbon Spaxelhoe
+nuclearcraft:sword_boron_nitride, Boron Nitride Sword
+nuclearcraft:pickaxe_boron_nitride, Boron Nitride Pickaxe
+nuclearcraft:shovel_boron_nitride, Boron Nitride Shovel
+nuclearcraft:axe_boron_nitride, Boron Nitride Axe
+nuclearcraft:hoe_boron_nitride, Boron Nitride Hoe
+nuclearcraft:spaxelhoe_boron_nitride, Boron Nitride Spaxelhoe
+nuclearcraft:helm_boron, Boron Helmet
+nuclearcraft:chest_boron, Boron Chestplate
+nuclearcraft:legs_boron, Boron Leggings
+nuclearcraft:boots_boron, Boron Boots
+nuclearcraft:helm_tough, Tough Alloy Helmet
+nuclearcraft:chest_tough, Tough Alloy Chestplate
+nuclearcraft:legs_tough, Tough Alloy Leggings
+nuclearcraft:boots_tough, Tough Alloy Boots
+nuclearcraft:helm_hard_carbon, Hard Carbon Helmet
+nuclearcraft:chest_hard_carbon, Hard Carbon Chestplate
+nuclearcraft:legs_hard_carbon, Hard Carbon Leggings
+nuclearcraft:boots_hard_carbon, Hard Carbon Boots
+nuclearcraft:helm_boron_nitride, Boron Nitride Helmet
+nuclearcraft:chest_boron_nitride, Boron Nitride Chestplate
+nuclearcraft:legs_boron_nitride, Boron Nitride Leggings
+nuclearcraft:boots_boron_nitride, Boron Nitride Boots
 nuclearcraft:helm_hazmat, Hazmat Suit Headwear
 nuclearcraft:chest_hazmat, Hazmat Suit Chestpiece
 nuclearcraft:legs_hazmat, Hazmat Suit Leggings
@@ -4543,10 +4732,8 @@ nuclearcraft:fluid_deuterium, Deuterium
 nuclearcraft:fluid_tritium, Tritium
 nuclearcraft:fluid_helium3, Helium-3
 nuclearcraft:fluid_helium, Helium
-nuclearcraft:fluid_boron, Molten Boron
 nuclearcraft:fluid_boron10, Molten Boron-10
 nuclearcraft:fluid_boron11, Molten Boron-11
-nuclearcraft:fluid_lithium, Molten Lithium
 nuclearcraft:fluid_lithium6, Molten Lithium-6
 nuclearcraft:fluid_lithium7, Molten Lithium-7
 nuclearcraft:fluid_ferroboron, Molten Ferroboron
@@ -4555,10 +4742,8 @@ nuclearcraft:fluid_hard_carbon, Molten Hard Carbon
 nuclearcraft:fluid_coal, Liquefacted Coal
 nuclearcraft:fluid_beryllium, Molten Beryllium
 nuclearcraft:fluid_zirconium, Molten Zirconium
-nuclearcraft:fluid_manganese, Molten Manganese
 nuclearcraft:fluid_manganese_dioxide, Molten Manganese Dioxide
 nuclearcraft:fluid_sulfur, Molten Sulfur
-nuclearcraft:fluid_arsenic, Molten Arsenic
 nuclearcraft:fluid_liquid_helium, Liquid Helium
 nuclearcraft:fluid_liquid_nitrogen, Liquid Nitrogen
 nuclearcraft:fluid_heavy_water, Heavy Water
@@ -4596,6 +4781,8 @@ nuclearcraft:fluid_potassium_hydroxide_solution, Potassium Hydroxide Solution
 nuclearcraft:fluid_borax_solution, Borax Solution
 nuclearcraft:fluid_irradiated_borax_solution, Irradiated Borax Solution
 nuclearcraft:fluid_corium, Corium
+nuclearcraft:fluid_ice, Crushed Ice
+nuclearcraft:fluid_slurry_ice, Slurry Ice
 nuclearcraft:fluid_chocolate_liquor, Chocolate Liquor
 nuclearcraft:fluid_cocoa_butter, Cocoa Butter
 nuclearcraft:fluid_unsweetened_chocolate, Molten Unsweetened Chocolate
@@ -4622,260 +4809,13 @@ nuclearcraft:fluid_sodium, Molten Sodium
 nuclearcraft:fluid_potassium, Molten Potassium
 nuclearcraft:fluid_nak, Eutectic NaK Alloy
 nuclearcraft:fluid_nak_hot, Hot Eutectic NaK Alloy
+nuclearcraft:fluid_emergency_coolant, Emergency Coolant
+nuclearcraft:fluid_emergency_coolant_heated, Heated Emergency Coolant
+nuclearcraft:fluid_arsenic, Sublimated Arsenic
 nuclearcraft:fluid_bas, Molten Boron Arsenide
 nuclearcraft:fluid_sic_vapor, Silicon Carbide Vapor
 nuclearcraft:fluid_alugentum, Molten Alugentum
 nuclearcraft:fluid_alumina, Molten Alumina
-nuclearcraft:fluid_aluminum, Molten Aluminum
-nuclearcraft:fluid_silver, Molten Silver
-nuclearcraft:fluid_thorium, Molten Thorium
-nuclearcraft:fluid_thorium_za, Molten Thorium-Zirconium Alloy
-nuclearcraft:fluid_uranium, Molten Uranium
-nuclearcraft:fluid_uranium_233, Molten Uranium-233
-nuclearcraft:fluid_uranium_233_za, Molten Uranium-233-Zirconium Alloy
-nuclearcraft:fluid_uranium_235, Molten Uranium-235
-nuclearcraft:fluid_uranium_235_za, Molten Uranium-235-Zirconium Alloy
-nuclearcraft:fluid_uranium_238, Molten Uranium-238
-nuclearcraft:fluid_uranium_238_za, Molten Uranium-238-Zirconium Alloy
-nuclearcraft:fluid_neptunium_236, Molten Neptunium-236
-nuclearcraft:fluid_neptunium_236_za, Molten Neptunium-236-Zirconium Alloy
-nuclearcraft:fluid_neptunium_237, Molten Neptunium-237
-nuclearcraft:fluid_neptunium_237_za, Molten Neptunium-237-Zirconium Alloy
-nuclearcraft:fluid_plutonium_238, Molten Plutonium-238
-nuclearcraft:fluid_plutonium_238_za, Molten Plutonium-238-Zirconium Alloy
-nuclearcraft:fluid_plutonium_239, Molten Plutonium-239
-nuclearcraft:fluid_plutonium_239_za, Molten Plutonium-239-Zirconium Alloy
-nuclearcraft:fluid_plutonium_241, Molten Plutonium-241
-nuclearcraft:fluid_plutonium_241_za, Molten Plutonium-241-Zirconium Alloy
-nuclearcraft:fluid_plutonium_242, Molten Plutonium-242
-nuclearcraft:fluid_plutonium_242_za, Molten Plutonium-242-Zirconium Alloy
-nuclearcraft:fluid_americium_241, Molten Americium-241
-nuclearcraft:fluid_americium_241_za, Molten Americium-241-Zirconium Alloy
-nuclearcraft:fluid_americium_242, Molten Americium-242
-nuclearcraft:fluid_americium_242_za, Molten Americium-242-Zirconium Alloy
-nuclearcraft:fluid_americium_243, Molten Americium-243
-nuclearcraft:fluid_americium_243_za, Molten Americium-243-Zirconium Alloy
-nuclearcraft:fluid_curium_243, Molten Curium-243
-nuclearcraft:fluid_curium_243_za, Molten Curium-243-Zirconium Alloy
-nuclearcraft:fluid_curium_245, Molten Curium-245
-nuclearcraft:fluid_curium_245_za, Molten Curium-245-Zirconium Alloy
-nuclearcraft:fluid_curium_246, Molten Curium-246
-nuclearcraft:fluid_curium_246_za, Molten Curium-246-Zirconium Alloy
-nuclearcraft:fluid_curium_247, Molten Curium-247
-nuclearcraft:fluid_curium_247_za, Molten Curium-247-Zirconium Alloy
-nuclearcraft:fluid_berkelium_247, Molten Berkelium-247
-nuclearcraft:fluid_berkelium_247_za, Molten Berkelium-247-Zirconium Alloy
-nuclearcraft:fluid_berkelium_248, Molten Berkelium-248
-nuclearcraft:fluid_berkelium_248_za, Molten Berkelium-248-Zirconium Alloy
-nuclearcraft:fluid_californium_249, Molten Californium-249
-nuclearcraft:fluid_californium_249_za, Molten Californium-249-Zirconium Alloy
-nuclearcraft:fluid_californium_250, Molten Californium-250
-nuclearcraft:fluid_californium_250_za, Molten Californium-250-Zirconium Alloy
-nuclearcraft:fluid_californium_251, Molten Californium-251
-nuclearcraft:fluid_californium_251_za, Molten Californium-251-Zirconium Alloy
-nuclearcraft:fluid_californium_252, Molten Californium-252
-nuclearcraft:fluid_californium_252_za, Molten Californium-252-Zirconium Alloy
-nuclearcraft:fluid_fuel_tbu, Molten TBU Fuel
-nuclearcraft:fluid_fuel_tbu_fluoride, Molten TBU Fluoride Fuel
-nuclearcraft:fluid_fuel_tbu_fluoride_flibe, Molten FLiBe Salt Solution of TBU Fluoride Fuel
-nuclearcraft:fluid_fuel_leu_233, Molten LEU-233 Fuel
-nuclearcraft:fluid_fuel_leu_233_fluoride, Molten LEU-233 Fluoride Fuel
-nuclearcraft:fluid_fuel_leu_233_fluoride_flibe, Molten FLiBe Salt Solution of LEU-233 Fluoride Fuel
-nuclearcraft:fluid_fuel_heu_233, Molten HEU-233 Fuel
-nuclearcraft:fluid_fuel_heu_233_fluoride, Molten HEU-233 Fluoride Fuel
-nuclearcraft:fluid_fuel_heu_233_fluoride_flibe, Molten FLiBe Salt Solution of HEU-233 Fluoride Fuel
-nuclearcraft:fluid_fuel_leu_235, Molten LEU-235 Fuel
-nuclearcraft:fluid_fuel_leu_235_fluoride, Molten LEU-235 Fluoride Fuel
-nuclearcraft:fluid_fuel_leu_235_fluoride_flibe, Molten FLiBe Salt Solution of LEU-235 Fluoride Fuel
-nuclearcraft:fluid_fuel_heu_235, Molten HEU-235 Fuel
-nuclearcraft:fluid_fuel_heu_235_fluoride, Molten HEU-235 Fluoride Fuel
-nuclearcraft:fluid_fuel_heu_235_fluoride_flibe, Molten FLiBe Salt Solution of HEU-235 Fluoride Fuel
-nuclearcraft:fluid_fuel_len_236, Molten LEN-236 Fuel
-nuclearcraft:fluid_fuel_len_236_fluoride, Molten LEN-236 Fluoride Fuel
-nuclearcraft:fluid_fuel_len_236_fluoride_flibe, Molten FLiBe Salt Solution of LEN-236 Fluoride Fuel
-nuclearcraft:fluid_fuel_hen_236, Molten HEN-236 Fuel
-nuclearcraft:fluid_fuel_hen_236_fluoride, Molten HEN-236 Fluoride Fuel
-nuclearcraft:fluid_fuel_hen_236_fluoride_flibe, Molten FLiBe Salt Solution of HEN-236 Fluoride Fuel
-nuclearcraft:fluid_fuel_lep_239, Molten LEP-239 Fuel
-nuclearcraft:fluid_fuel_lep_239_fluoride, Molten LEP-239 Fluoride Fuel
-nuclearcraft:fluid_fuel_lep_239_fluoride_flibe, Molten FLiBe Salt Solution of LEP-239 Fluoride Fuel
-nuclearcraft:fluid_fuel_hep_239, Molten HEP-239 Fuel
-nuclearcraft:fluid_fuel_hep_239_fluoride, Molten HEP-239 Fluoride Fuel
-nuclearcraft:fluid_fuel_hep_239_fluoride_flibe, Molten FLiBe Salt Solution of HEP-239 Fluoride Fuel
-nuclearcraft:fluid_fuel_lep_241, Molten LEP-241 Fuel
-nuclearcraft:fluid_fuel_lep_241_fluoride, Molten LEP-241 Fluoride Fuel
-nuclearcraft:fluid_fuel_lep_241_fluoride_flibe, Molten FLiBe Salt Solution of LEP-241 Fluoride Fuel
-nuclearcraft:fluid_fuel_hep_241, Molten HEP-241 Fuel
-nuclearcraft:fluid_fuel_hep_241_fluoride, Molten HEP-241 Fluoride Fuel
-nuclearcraft:fluid_fuel_hep_241_fluoride_flibe, Molten FLiBe Salt Solution of HEP-241 Fluoride Fuel
-nuclearcraft:fluid_fuel_mix_239, Molten MIX-239 Fuel
-nuclearcraft:fluid_fuel_mix_239_fluoride, Molten MF4-239 Fuel
-nuclearcraft:fluid_fuel_mix_239_fluoride_flibe, Molten FLiBe Salt Solution of MF4-239 Fuel
-nuclearcraft:fluid_fuel_mix_241, Molten MIX-241 Fuel
-nuclearcraft:fluid_fuel_mix_241_fluoride, Molten MF4-241 Fuel
-nuclearcraft:fluid_fuel_mix_241_fluoride_flibe, Molten FLiBe Salt Solution of MF4-241 Fuel
-nuclearcraft:fluid_fuel_lea_242, Molten LEA-242 Fuel
-nuclearcraft:fluid_fuel_lea_242_fluoride, Molten LEA-242 Fluoride Fuel
-nuclearcraft:fluid_fuel_lea_242_fluoride_flibe, Molten FLiBe Salt Solution of LEA-242 Fluoride Fuel
-nuclearcraft:fluid_fuel_hea_242, Molten HEA-242 Fuel
-nuclearcraft:fluid_fuel_hea_242_fluoride, Molten HEA-242 Fluoride Fuel
-nuclearcraft:fluid_fuel_hea_242_fluoride_flibe, Molten FLiBe Salt Solution of HEA-242 Fluoride Fuel
-nuclearcraft:fluid_fuel_lecm_243, Molten LECm-243 Fuel
-nuclearcraft:fluid_fuel_lecm_243_fluoride, Molten LECm-243 Fluoride Fuel
-nuclearcraft:fluid_fuel_lecm_243_fluoride_flibe, Molten FLiBe Salt Solution of LECm-243 Fluoride Fuel
-nuclearcraft:fluid_fuel_hecm_243, Molten HECm-243 Fuel
-nuclearcraft:fluid_fuel_hecm_243_fluoride, Molten HECm-243 Fluoride Fuel
-nuclearcraft:fluid_fuel_hecm_243_fluoride_flibe, Molten FLiBe Salt Solution of HECm-243 Fluoride Fuel
-nuclearcraft:fluid_fuel_lecm_245, Molten LECm-245 Fuel
-nuclearcraft:fluid_fuel_lecm_245_fluoride, Molten LECm-245 Fluoride Fuel
-nuclearcraft:fluid_fuel_lecm_245_fluoride_flibe, Molten FLiBe Salt Solution of LECm-245 Fluoride Fuel
-nuclearcraft:fluid_fuel_hecm_245, Molten HECm-245 Fuel
-nuclearcraft:fluid_fuel_hecm_245_fluoride, Molten HECm-245 Fluoride Fuel
-nuclearcraft:fluid_fuel_hecm_245_fluoride_flibe, Molten FLiBe Salt Solution of HECm-245 Fluoride Fuel
-nuclearcraft:fluid_fuel_lecm_247, Molten LECm-247 Fuel
-nuclearcraft:fluid_fuel_lecm_247_fluoride, Molten LECm-247 Fluoride Fuel
-nuclearcraft:fluid_fuel_lecm_247_fluoride_flibe, Molten FLiBe Salt Solution of LECm-247 Fluoride Fuel
-nuclearcraft:fluid_fuel_hecm_247, Molten HECm-247 Fuel
-nuclearcraft:fluid_fuel_hecm_247_fluoride, Molten HECm-247 Fluoride Fuel
-nuclearcraft:fluid_fuel_hecm_247_fluoride_flibe, Molten FLiBe Salt Solution of HECm-247 Fluoride Fuel
-nuclearcraft:fluid_fuel_leb_248, Molten LEB-248 Fuel
-nuclearcraft:fluid_fuel_leb_248_fluoride, Molten LEB-248 Fluoride Fuel
-nuclearcraft:fluid_fuel_leb_248_fluoride_flibe, Molten FLiBe Salt Solution of LEB-248 Fluoride Fuel
-nuclearcraft:fluid_fuel_heb_248, Molten HEB-248 Fuel
-nuclearcraft:fluid_fuel_heb_248_fluoride, Molten HEB-248 Fluoride Fuel
-nuclearcraft:fluid_fuel_heb_248_fluoride_flibe, Molten FLiBe Salt Solution of HEB-248 Fluoride Fuel
-nuclearcraft:fluid_fuel_lecf_249, Molten LECf-249 Fuel
-nuclearcraft:fluid_fuel_lecf_249_fluoride, Molten LECf-249 Fluoride Fuel
-nuclearcraft:fluid_fuel_lecf_249_fluoride_flibe, Molten FLiBe Salt Solution of LECf-249 Fluoride Fuel
-nuclearcraft:fluid_fuel_hecf_249, Molten HECf-249 Fuel
-nuclearcraft:fluid_fuel_hecf_249_fluoride, Molten HECf-249 Fluoride Fuel
-nuclearcraft:fluid_fuel_hecf_249_fluoride_flibe, Molten FLiBe Salt Solution of HECf-249 Fluoride Fuel
-nuclearcraft:fluid_fuel_lecf_251, Molten LECf-251 Fuel
-nuclearcraft:fluid_fuel_lecf_251_fluoride, Molten LECf-251 Fluoride Fuel
-nuclearcraft:fluid_fuel_lecf_251_fluoride_flibe, Molten FLiBe Salt Solution of LECf-251 Fluoride Fuel
-nuclearcraft:fluid_fuel_hecf_251, Molten HECf-251 Fuel
-nuclearcraft:fluid_fuel_hecf_251_fluoride, Molten HECf-251 Fluoride Fuel
-nuclearcraft:fluid_fuel_hecf_251_fluoride_flibe, Molten FLiBe Salt Solution of HECf-251 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_tbu, Molten Depleted TBU Fuel
-nuclearcraft:fluid_depleted_fuel_tbu_fluoride, Molten Depleted TBU Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_tbu_fluoride_flibe, Molten FLiBe Salt Solution of Depleted TBU Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_leu_233, Molten Depleted LEU-233 Fuel
-nuclearcraft:fluid_depleted_fuel_leu_233_fluoride, Molten Depleted LEU-233 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_leu_233_fluoride_flibe, Molten FLiBe Salt Solution of Depleted LEU-233 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_heu_233, Molten Depleted HEU-233 Fuel
-nuclearcraft:fluid_depleted_fuel_heu_233_fluoride, Molten Depleted HEU-233 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_heu_233_fluoride_flibe, Molten FLiBe Salt Solution of Depleted HEU-233 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_leu_235, Molten Depleted LEU-235 Fuel
-nuclearcraft:fluid_depleted_fuel_leu_235_fluoride, Molten Depleted LEU-235 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_leu_235_fluoride_flibe, Molten FLiBe Salt Solution of Depleted LEU-235 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_heu_235, Molten Depleted HEU-235 Fuel
-nuclearcraft:fluid_depleted_fuel_heu_235_fluoride, Molten Depleted HEU-235 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_heu_235_fluoride_flibe, Molten FLiBe Salt Solution of Depleted HEU-235 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_len_236, Molten Depleted LEN-236 Fuel
-nuclearcraft:fluid_depleted_fuel_len_236_fluoride, Molten Depleted LEN-236 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_len_236_fluoride_flibe, Molten FLiBe Salt Solution of Depleted LEN-236 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_hen_236, Molten Depleted HEN-236 Fuel
-nuclearcraft:fluid_depleted_fuel_hen_236_fluoride, Molten Depleted HEN-236 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_hen_236_fluoride_flibe, Molten FLiBe Salt Solution of Depleted HEN-236 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_lep_239, Molten Depleted LEP-239 Fuel
-nuclearcraft:fluid_depleted_fuel_lep_239_fluoride, Molten Depleted LEP-239 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_lep_239_fluoride_flibe, Molten FLiBe Salt Solution of Depleted LEP-239 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_hep_239, Molten Depleted HEP-239 Fuel
-nuclearcraft:fluid_depleted_fuel_hep_239_fluoride, Molten Depleted HEP-239 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_hep_239_fluoride_flibe, Molten FLiBe Salt Solution of Depleted HEP-239 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_lep_241, Molten Depleted LEP-241 Fuel
-nuclearcraft:fluid_depleted_fuel_lep_241_fluoride, Molten Depleted LEP-241 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_lep_241_fluoride_flibe, Molten FLiBe Salt Solution of Depleted LEP-241 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_hep_241, Molten Depleted HEP-241 Fuel
-nuclearcraft:fluid_depleted_fuel_hep_241_fluoride, Molten Depleted HEP-241 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_hep_241_fluoride_flibe, Molten FLiBe Salt Solution of Depleted HEP-241 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_mix_239, Molten Depleted MIX-239 Fuel
-nuclearcraft:fluid_depleted_fuel_mix_239_fluoride, Molten Depleted MF4-239 Fuel
-nuclearcraft:fluid_depleted_fuel_mix_239_fluoride_flibe, Molten FLiBe Salt Solution of Depleted MF4-239 Fuel
-nuclearcraft:fluid_depleted_fuel_mix_241, Molten Depleted MIX-241 Fuel
-nuclearcraft:fluid_depleted_fuel_mix_241_fluoride, Molten Depleted MF4-241 Fuel
-nuclearcraft:fluid_depleted_fuel_mix_241_fluoride_flibe, Molten FLiBe Salt Solution of Depleted MF4-241 Fuel
-nuclearcraft:fluid_depleted_fuel_lea_242, Molten Depleted LEA-242 Fuel
-nuclearcraft:fluid_depleted_fuel_lea_242_fluoride, Molten Depleted LEA-242 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_lea_242_fluoride_flibe, Molten FLiBe Salt Solution of Depleted LEA-242 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_hea_242, Molten Depleted HEA-242 Fuel
-nuclearcraft:fluid_depleted_fuel_hea_242_fluoride, Molten Depleted HEA-242 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_hea_242_fluoride_flibe, Molten FLiBe Salt Solution of Depleted HEA-242 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_lecm_243, Molten Depleted LECm-243 Fuel
-nuclearcraft:fluid_depleted_fuel_lecm_243_fluoride, Molten Depleted LECm-243 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_lecm_243_fluoride_flibe, Molten FLiBe Salt Solution of Depleted LECm-243 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_hecm_243, Molten Depleted HECm-243 Fuel
-nuclearcraft:fluid_depleted_fuel_hecm_243_fluoride, Molten Depleted HECm-243 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_hecm_243_fluoride_flibe, Molten FLiBe Salt Solution of Depleted HECm-243 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_lecm_245, Molten Depleted LECm-245 Fuel
-nuclearcraft:fluid_depleted_fuel_lecm_245_fluoride, Molten Depleted LECm-245 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_lecm_245_fluoride_flibe, Molten FLiBe Salt Solution of Depleted LECm-245 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_hecm_245, Molten Depleted HECm-245 Fuel
-nuclearcraft:fluid_depleted_fuel_hecm_245_fluoride, Molten Depleted HECm-245 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_hecm_245_fluoride_flibe, Molten FLiBe Salt Solution of Depleted HECm-245 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_lecm_247, Molten Depleted LECm-247 Fuel
-nuclearcraft:fluid_depleted_fuel_lecm_247_fluoride, Molten Depleted LECm-247 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_lecm_247_fluoride_flibe, Molten FLiBe Salt Solution of Depleted LECm-247 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_hecm_247, Molten Depleted HECm-247 Fuel
-nuclearcraft:fluid_depleted_fuel_hecm_247_fluoride, Molten Depleted HECm-247 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_hecm_247_fluoride_flibe, Molten FLiBe Salt Solution of Depleted HECm-247 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_leb_248, Molten Depleted LEB-248 Fuel
-nuclearcraft:fluid_depleted_fuel_leb_248_fluoride, Molten Depleted LEB-248 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_leb_248_fluoride_flibe, Molten FLiBe Salt Solution of Depleted LEB-248 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_heb_248, Molten Depleted HEB-248 Fuel
-nuclearcraft:fluid_depleted_fuel_heb_248_fluoride, Molten Depleted HEB-248 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_heb_248_fluoride_flibe, Molten FLiBe Salt Solution of Depleted HEB-248 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_lecf_249, Molten Depleted LECf-249 Fuel
-nuclearcraft:fluid_depleted_fuel_lecf_249_fluoride, Molten Depleted LECf-249 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_lecf_249_fluoride_flibe, Molten FLiBe Salt Solution of Depleted LECf-249 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_hecf_249, Molten Depleted HECf-249 Fuel
-nuclearcraft:fluid_depleted_fuel_hecf_249_fluoride, Molten Depleted HECf-249 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_hecf_249_fluoride_flibe, Molten FLiBe Salt Solution of Depleted HECf-249 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_lecf_251, Molten Depleted LECf-251 Fuel
-nuclearcraft:fluid_depleted_fuel_lecf_251_fluoride, Molten Depleted LECf-251 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_lecf_251_fluoride_flibe, Molten FLiBe Salt Solution of Depleted LECf-251 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_hecf_251, Molten Depleted HECf-251 Fuel
-nuclearcraft:fluid_depleted_fuel_hecf_251_fluoride, Molten Depleted HECf-251 Fluoride Fuel
-nuclearcraft:fluid_depleted_fuel_hecf_251_fluoride_flibe, Molten FLiBe Salt Solution of Depleted HECf-251 Fluoride Fuel
-nuclearcraft:fluid_redstone, Molten Redstone
-nuclearcraft:fluid_redstone_nak, Eutectic NaK-Redstone Mixture
-nuclearcraft:fluid_redstone_nak_hot, Hot Eutectic NaK-Redstone Mixture
-nuclearcraft:fluid_quartz, Molten Quartz
-nuclearcraft:fluid_quartz_nak, Eutectic NaK-Quartz Mixture
-nuclearcraft:fluid_quartz_nak_hot, Hot Eutectic NaK-Quartz Mixture
-nuclearcraft:fluid_gold, Molten Gold
-nuclearcraft:fluid_gold_nak, Eutectic NaK-Gold Mixture
-nuclearcraft:fluid_gold_nak_hot, Hot Eutectic NaK-Gold Mixture
-nuclearcraft:fluid_glowstone, Molten Glowstone
-nuclearcraft:fluid_glowstone_nak, Eutectic NaK-Glowstone Mixture
-nuclearcraft:fluid_glowstone_nak_hot, Hot Eutectic NaK-Glowstone Mixture
-nuclearcraft:fluid_lapis, Molten Lapis
-nuclearcraft:fluid_lapis_nak, Eutectic NaK-Lapis Mixture
-nuclearcraft:fluid_lapis_nak_hot, Hot Eutectic NaK-Lapis Mixture
-nuclearcraft:fluid_diamond, Molten Diamond
-nuclearcraft:fluid_diamond_nak, Eutectic NaK-Diamond Mixture
-nuclearcraft:fluid_diamond_nak_hot, Hot Eutectic NaK-Diamond Mixture
-nuclearcraft:fluid_liquid_helium_nak, Eutectic NaK-Helium Mixture
-nuclearcraft:fluid_liquid_helium_nak_hot, Hot Eutectic NaK-Helium Mixture
-nuclearcraft:fluid_enderium_nak, Eutectic NaK-Enderium Mixture
-nuclearcraft:fluid_enderium_nak_hot, Hot Eutectic NaK-Enderium Mixture
-nuclearcraft:fluid_cryotheum_nak, Eutectic NaK-Cryotheum Mixture
-nuclearcraft:fluid_cryotheum_nak_hot, Hot Eutectic NaK-Cryotheum Mixture
-nuclearcraft:fluid_iron, Molten Iron
-nuclearcraft:fluid_iron_nak, Eutectic NaK-Iron Mixture
-nuclearcraft:fluid_iron_nak_hot, Hot Eutectic NaK-Iron Mixture
-nuclearcraft:fluid_emerald, Molten Emerald
-nuclearcraft:fluid_emerald_nak, Eutectic NaK-Emerald Mixture
-nuclearcraft:fluid_emerald_nak_hot, Hot Eutectic NaK-Emerald Mixture
-nuclearcraft:fluid_copper, Molten Copper
-nuclearcraft:fluid_copper_nak, Eutectic NaK-Copper Mixture
-nuclearcraft:fluid_copper_nak_hot, Hot Eutectic NaK-Copper Mixture
-nuclearcraft:fluid_tin, Molten Tin
-nuclearcraft:fluid_tin_nak, Eutectic NaK-Tin Mixture
-nuclearcraft:fluid_tin_nak_hot, Hot Eutectic NaK-Tin Mixture
-nuclearcraft:fluid_magnesium, Molten Magnesium
-nuclearcraft:fluid_magnesium_nak, Eutectic NaK-Magnesium Mixture
-nuclearcraft:fluid_magnesium_nak_hot, Hot Eutectic NaK-Magnesium Mixture
 opencomputers:adapter:0, Adapter
 opencomputers:assembler:0, Electronics Assembler
 opencomputers:cable:11250603, Cable
@@ -5068,14 +5008,6 @@ pressure:canister:0, Canister - Biodiesel
 pressure:canister:0, Canister - Liquid Concrete
 pressure:canister:0, Canister - Potion
 pressure:canister:0, Canister - Fresh Water
-pressure:canister:0, Canister - Antimatter
-pressure:canister:0, Canister - Strange Matter
-pressure:canister:0, Canister - Deuterium
-pressure:canister:0, Canister - Reactor Waste
-pressure:canister:0, Canister - Contaminated Mineral Sludge
-pressure:canister:0, Canister - Contaminated Mineral Solution
-pressure:canister:0, Canister - Contaminated Water
-pressure:canister:0, Canister - Uranium Hexafluoride
 pressure:canister:0, Canister - Animal Oil
 pressure:canister:0, Canister - Liquid raw Rubber
 pressure:canister:0, Canister - Liquid Synthetic Rubber
@@ -5085,6 +5017,7 @@ pressure:canister:0, Canister - Phosgene
 pressure:canister:0, Canister - Fuming Sulfuric Acid
 pressure:canister:0, Canister - Sulfuric and Nitric Acid Mixture
 pressure:canister:0, Canister - Fuming Sulfuric and Nitric Acid Mixture
+pressure:canister:0, Canister - Epoxy Resin
 pressure:canister:0, Canister - Mineral Flotation Solution
 pressure:canister:0, Canister - Mineral Flotation Wastewater
 pressure:canister:0, Canister - Iron Slurry
@@ -5191,10 +5124,8 @@ pressure:canister:0, Canister - Deuterium
 pressure:canister:0, Canister - Tritium
 pressure:canister:0, Canister - Helium-3
 pressure:canister:0, Canister - Helium
-pressure:canister:0, Canister - Molten Boron
 pressure:canister:0, Canister - Molten Boron-10
 pressure:canister:0, Canister - Molten Boron-11
-pressure:canister:0, Canister - Molten Lithium
 pressure:canister:0, Canister - Molten Lithium-6
 pressure:canister:0, Canister - Molten Lithium-7
 pressure:canister:0, Canister - Molten Ferroboron
@@ -5203,10 +5134,8 @@ pressure:canister:0, Canister - Molten Hard Carbon
 pressure:canister:0, Canister - Liquefacted Coal
 pressure:canister:0, Canister - Molten Beryllium
 pressure:canister:0, Canister - Molten Zirconium
-pressure:canister:0, Canister - Molten Manganese
 pressure:canister:0, Canister - Molten Manganese Dioxide
 pressure:canister:0, Canister - Molten Sulfur
-pressure:canister:0, Canister - Molten Arsenic
 pressure:canister:0, Canister - Liquid Helium
 pressure:canister:0, Canister - Liquid Nitrogen
 pressure:canister:0, Canister - Heavy Water
@@ -5243,6 +5172,7 @@ pressure:canister:0, Canister - Potassium Hydroxide Solution
 pressure:canister:0, Canister - Borax Solution
 pressure:canister:0, Canister - Irradiated Borax Solution
 pressure:canister:0, Canister - Corium
+pressure:canister:0, Canister - Slurry Ice
 pressure:canister:0, Canister - Chocolate Liquor
 pressure:canister:0, Canister - Cocoa Butter
 pressure:canister:0, Canister - Molten Unsweetened Chocolate
@@ -5267,59 +5197,37 @@ pressure:canister:0, Canister - Molten Sodium
 pressure:canister:0, Canister - Molten Potassium
 pressure:canister:0, Canister - Eutectic NaK Alloy
 pressure:canister:0, Canister - Hot Eutectic NaK Alloy
+pressure:canister:0, Canister - Emergency Coolant
+pressure:canister:0, Canister - Heated Emergency Coolant
+pressure:canister:0, Canister - Sublimated Arsenic
 pressure:canister:0, Canister - Molten Boron Arsenide
 pressure:canister:0, Canister - Silicon Carbide Vapor
 pressure:canister:0, Canister - Molten Alugentum
 pressure:canister:0, Canister - Molten Alumina
-pressure:canister:0, Canister - Molten Aluminum
-pressure:canister:0, Canister - Molten Silver
 pressure:canister:0, Canister - Molten Thorium
-pressure:canister:0, Canister - Molten Thorium-Zirconium Alloy
 pressure:canister:0, Canister - Molten Uranium
 pressure:canister:0, Canister - Molten Uranium-233
-pressure:canister:0, Canister - Molten Uranium-233-Zirconium Alloy
 pressure:canister:0, Canister - Molten Uranium-235
-pressure:canister:0, Canister - Molten Uranium-235-Zirconium Alloy
 pressure:canister:0, Canister - Molten Uranium-238
-pressure:canister:0, Canister - Molten Uranium-238-Zirconium Alloy
 pressure:canister:0, Canister - Molten Neptunium-236
-pressure:canister:0, Canister - Molten Neptunium-236-Zirconium Alloy
 pressure:canister:0, Canister - Molten Neptunium-237
-pressure:canister:0, Canister - Molten Neptunium-237-Zirconium Alloy
 pressure:canister:0, Canister - Molten Plutonium-238
-pressure:canister:0, Canister - Molten Plutonium-238-Zirconium Alloy
 pressure:canister:0, Canister - Molten Plutonium-239
-pressure:canister:0, Canister - Molten Plutonium-239-Zirconium Alloy
 pressure:canister:0, Canister - Molten Plutonium-241
-pressure:canister:0, Canister - Molten Plutonium-241-Zirconium Alloy
 pressure:canister:0, Canister - Molten Plutonium-242
-pressure:canister:0, Canister - Molten Plutonium-242-Zirconium Alloy
 pressure:canister:0, Canister - Molten Americium-241
-pressure:canister:0, Canister - Molten Americium-241-Zirconium Alloy
 pressure:canister:0, Canister - Molten Americium-242
-pressure:canister:0, Canister - Molten Americium-242-Zirconium Alloy
 pressure:canister:0, Canister - Molten Americium-243
-pressure:canister:0, Canister - Molten Americium-243-Zirconium Alloy
 pressure:canister:0, Canister - Molten Curium-243
-pressure:canister:0, Canister - Molten Curium-243-Zirconium Alloy
 pressure:canister:0, Canister - Molten Curium-245
-pressure:canister:0, Canister - Molten Curium-245-Zirconium Alloy
 pressure:canister:0, Canister - Molten Curium-246
-pressure:canister:0, Canister - Molten Curium-246-Zirconium Alloy
 pressure:canister:0, Canister - Molten Curium-247
-pressure:canister:0, Canister - Molten Curium-247-Zirconium Alloy
 pressure:canister:0, Canister - Molten Berkelium-247
-pressure:canister:0, Canister - Molten Berkelium-247-Zirconium Alloy
 pressure:canister:0, Canister - Molten Berkelium-248
-pressure:canister:0, Canister - Molten Berkelium-248-Zirconium Alloy
 pressure:canister:0, Canister - Molten Californium-249
-pressure:canister:0, Canister - Molten Californium-249-Zirconium Alloy
 pressure:canister:0, Canister - Molten Californium-250
-pressure:canister:0, Canister - Molten Californium-250-Zirconium Alloy
 pressure:canister:0, Canister - Molten Californium-251
-pressure:canister:0, Canister - Molten Californium-251-Zirconium Alloy
 pressure:canister:0, Canister - Molten Californium-252
-pressure:canister:0, Canister - Molten Californium-252-Zirconium Alloy
 pressure:canister:0, Canister - Molten TBU Fuel
 pressure:canister:0, Canister - Molten TBU Fluoride Fuel
 pressure:canister:0, Canister - Molten FLiBe Salt Solution of TBU Fluoride Fuel
@@ -5482,33 +5390,45 @@ pressure:canister:0, Canister - Molten FLiBe Salt Solution of Depleted LECf-251 
 pressure:canister:0, Canister - Molten Depleted HECf-251 Fuel
 pressure:canister:0, Canister - Molten Depleted HECf-251 Fluoride Fuel
 pressure:canister:0, Canister - Molten FLiBe Salt Solution of Depleted HECf-251 Fluoride Fuel
+pressure:canister:0, Canister - Molten Iron
+pressure:canister:0, Canister - Eutectic NaK-Iron Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Iron Mixture
 pressure:canister:0, Canister - Molten Redstone
 pressure:canister:0, Canister - Eutectic NaK-Redstone Mixture
 pressure:canister:0, Canister - Hot Eutectic NaK-Redstone Mixture
 pressure:canister:0, Canister - Molten Quartz
 pressure:canister:0, Canister - Eutectic NaK-Quartz Mixture
 pressure:canister:0, Canister - Hot Eutectic NaK-Quartz Mixture
-pressure:canister:0, Canister - Molten Gold
-pressure:canister:0, Canister - Eutectic NaK-Gold Mixture
-pressure:canister:0, Canister - Hot Eutectic NaK-Gold Mixture
+pressure:canister:0, Canister - Molten Obsidian
+pressure:canister:0, Canister - Eutectic NaK-Obsidian Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Obsidian Mixture
+pressure:canister:0, Canister - Molten Nether Brick
+pressure:canister:0, Canister - Eutectic NaK-Nether Brick Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Nether Brick Mixture
 pressure:canister:0, Canister - Molten Glowstone
 pressure:canister:0, Canister - Eutectic NaK-Glowstone Mixture
 pressure:canister:0, Canister - Hot Eutectic NaK-Glowstone Mixture
 pressure:canister:0, Canister - Molten Lapis
 pressure:canister:0, Canister - Eutectic NaK-Lapis Mixture
 pressure:canister:0, Canister - Hot Eutectic NaK-Lapis Mixture
+pressure:canister:0, Canister - Molten Gold
+pressure:canister:0, Canister - Eutectic NaK-Gold Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Gold Mixture
+pressure:canister:0, Canister - Molten Prismarine
+pressure:canister:0, Canister - Eutectic NaK-Prismarine Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Prismarine Mixture
+pressure:canister:0, Canister - Molten Slime
+pressure:canister:0, Canister - Eutectic NaK-Slime Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Slime Mixture
+pressure:canister:0, Canister - Molten End Stone
+pressure:canister:0, Canister - Eutectic NaK-End Stone Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-End Stone Mixture
+pressure:canister:0, Canister - Molten Purpur
+pressure:canister:0, Canister - Eutectic NaK-Purpur Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Purpur Mixture
 pressure:canister:0, Canister - Molten Diamond
 pressure:canister:0, Canister - Eutectic NaK-Diamond Mixture
 pressure:canister:0, Canister - Hot Eutectic NaK-Diamond Mixture
-pressure:canister:0, Canister - Eutectic NaK-Helium Mixture
-pressure:canister:0, Canister - Hot Eutectic NaK-Helium Mixture
-pressure:canister:0, Canister - Eutectic NaK-Enderium Mixture
-pressure:canister:0, Canister - Hot Eutectic NaK-Enderium Mixture
-pressure:canister:0, Canister - Eutectic NaK-Cryotheum Mixture
-pressure:canister:0, Canister - Hot Eutectic NaK-Cryotheum Mixture
-pressure:canister:0, Canister - Molten Iron
-pressure:canister:0, Canister - Eutectic NaK-Iron Mixture
-pressure:canister:0, Canister - Hot Eutectic NaK-Iron Mixture
 pressure:canister:0, Canister - Molten Emerald
 pressure:canister:0, Canister - Eutectic NaK-Emerald Mixture
 pressure:canister:0, Canister - Hot Eutectic NaK-Emerald Mixture
@@ -5518,9 +5438,46 @@ pressure:canister:0, Canister - Hot Eutectic NaK-Copper Mixture
 pressure:canister:0, Canister - Molten Tin
 pressure:canister:0, Canister - Eutectic NaK-Tin Mixture
 pressure:canister:0, Canister - Hot Eutectic NaK-Tin Mixture
+pressure:canister:0, Canister - Molten Lead
+pressure:canister:0, Canister - Eutectic NaK-Lead Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Lead Mixture
+pressure:canister:0, Canister - Molten Boron
+pressure:canister:0, Canister - Eutectic NaK-Boron Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Boron Mixture
+pressure:canister:0, Canister - Molten Lithium
+pressure:canister:0, Canister - Eutectic NaK-Lithium Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Lithium Mixture
 pressure:canister:0, Canister - Molten Magnesium
 pressure:canister:0, Canister - Eutectic NaK-Magnesium Mixture
 pressure:canister:0, Canister - Hot Eutectic NaK-Magnesium Mixture
+pressure:canister:0, Canister - Molten Manganese
+pressure:canister:0, Canister - Eutectic NaK-Manganese Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Manganese Mixture
+pressure:canister:0, Canister - Molten Aluminum
+pressure:canister:0, Canister - Eutectic NaK-Aluminum Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Aluminum Mixture
+pressure:canister:0, Canister - Molten Silver
+pressure:canister:0, Canister - Eutectic NaK-Silver Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Silver Mixture
+pressure:canister:0, Canister - Molten Fluorite
+pressure:canister:0, Canister - Eutectic NaK-Fluorite Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Fluorite Mixture
+pressure:canister:0, Canister - Molten Villiaumite
+pressure:canister:0, Canister - Eutectic NaK-Villiaumite Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Villiaumite Mixture
+pressure:canister:0, Canister - Molten Carobbiite
+pressure:canister:0, Canister - Eutectic NaK-Carobbiite Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Carobbiite Mixture
+pressure:canister:0, Canister - Eutectic NaK-Arsenic Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Arsenic Mixture
+pressure:canister:0, Canister - Eutectic NaK-Nitrogen Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Nitrogen Mixture
+pressure:canister:0, Canister - Eutectic NaK-Helium Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Helium Mixture
+pressure:canister:0, Canister - Eutectic NaK-Enderium Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Enderium Mixture
+pressure:canister:0, Canister - Eutectic NaK-Cryotheum Mixture
+pressure:canister:0, Canister - Hot Eutectic NaK-Cryotheum Mixture
 pressure:canister:0, Canister - Etching Acid
 pressure:canister:0, Canister - Liquid Plastic
 pressure:canister:0, Canister - LPG
@@ -5529,11 +5486,24 @@ pressure:canister:0, Canister - Kerosene
 pressure:canister:0, Canister - Liquid Clay
 pressure:canister:0, Canister - Wood Tar
 pressure:canister:0, Canister - Coal Tar
-pressure:canister:0, Canister - Sodium Hydroxide
 pressure:canister:0, Canister - Hydrochloric Acid
+pressure:canister:0, Canister - Nitric Acid
+pressure:canister:0, Canister - Sodium Chloride Solution
+pressure:canister:0, Canister - Sodium Nitrate Solution
+pressure:canister:0, Canister - Lead Nitrate Solution
+pressure:canister:0, Canister - Sodium Tungstate Solution
+pressure:canister:0, Canister - Lead Tungstate Solution
+pressure:canister:0, Canister - Liquid Hydrogen
+pressure:canister:0, Canister - Liquid Argon
+pressure:canister:0, Canister - Argon
+pressure:canister:0, Canister - Nitric Oxide
+pressure:canister:0, Canister - Nitrogen Dioxide
+pressure:canister:0, Canister - Molten Silicon
+pressure:canister:0, Canister - Molten Yttrium Aluminum Garnet
+pressure:canister:0, Canister - Molten Neodymium Doped YAG
+pressure:canister:0, Canister - Sodium Hydroxide
 pressure:canister:0, Canister - Chloromethane
 pressure:canister:0, Canister - Liquid Ammonia
-pressure:canister:0, Canister - Nitric Acid
 pressure:canister:0, Canister - Sodium Cyanide
 pressure:canister:0, Canister - Liquid Oxygen
 pressure:canister:0, Canister - Acrylic Acid
@@ -5552,7 +5522,6 @@ pressure:canister:0, Canister - Syngas
 pressure:canister:0, Canister - Compressed Air
 pressure:canister:0, Canister - Refined Air
 pressure:canister:0, Canister - Cooled Air
-pressure:canister:0, Canister - Argon
 pressure:canister:0, Canister - Neon
 pressure:canister:0, Canister - Krypton
 pressure:canister:0, Canister - Xenon
@@ -5964,12 +5933,183 @@ projectred-illumination:inverted_cage_lamp:12, Inverted Brown Cage Lamp
 projectred-illumination:inverted_cage_lamp:13, Inverted Green Cage Lamp
 projectred-illumination:inverted_cage_lamp:14, Inverted Red Cage Lamp
 projectred-illumination:inverted_cage_lamp:15, Inverted Black Cage Lamp
+qmd:beamline, Beamline Pipe
+qmd:linear_accelerator_controller, Linear Accelerator Controller
+qmd:ring_accelerator_controller, Synchrotron Accelerator Controller
+qmd:accelerator_beam, Accelerator Beam
+qmd:accelerator_casing, Accelerator Casing
+qmd:accelerator_glass, Accelerator Glass
+qmd:accelerator_inlet, Accelerator Coolant Inlet
+qmd:accelerator_outlet, Accelerator Coolant Outlet
+qmd:accelerator_beam_port, Accelerator Beam Port
+qmd:accelerator_cavity:0, Copper RF Cavity
+qmd:accelerator_cavity:1, Magnesium Diboride RF Cavity
+qmd:accelerator_cavity:2, Niobium-Tin RF Cavity
+qmd:accelerator_magnet:0, Copper Accelerator Electromagnet
+qmd:accelerator_magnet:1, Magnesium Diboride Accelerator Electromagnet
+qmd:accelerator_magnet:2, Niobium-Tin Accelerator Electromagnet
+qmd:accelerator_magnet:3, BSCCO Accelerator Electromagnet
+qmd:accelerator_yoke, Accelerator Electromagnet Yoke
+qmd:accelerator_cooler1:0, Water Accelerator Cooler
+qmd:accelerator_cooler1:1, Iron Accelerator Cooler
+qmd:accelerator_cooler1:2, Redstone Accelerator Cooler
+qmd:accelerator_cooler1:3, Quartz Accelerator Cooler
+qmd:accelerator_cooler1:4, Obsidian Accelerator Cooler
+qmd:accelerator_cooler1:5, Nether Brick Accelerator Cooler
+qmd:accelerator_cooler1:6, Glowstone Accelerator Cooler
+qmd:accelerator_cooler1:7, Lapis Accelerator Cooler
+qmd:accelerator_cooler1:8, Gold Accelerator Cooler
+qmd:accelerator_cooler1:9, Prismarine Accelerator Cooler
+qmd:accelerator_cooler1:10, Slime Accelerator Cooler
+qmd:accelerator_cooler1:11, End Stone Accelerator Cooler
+qmd:accelerator_cooler1:12, Purpur Accelerator Cooler
+qmd:accelerator_cooler1:13, Diamond Accelerator Cooler
+qmd:accelerator_cooler1:14, Emerald Accelerator Cooler
+qmd:accelerator_cooler1:15, Copper Accelerator Cooler
+qmd:accelerator_cooler2:0, Tin Accelerator Cooler
+qmd:accelerator_cooler2:1, Lead Accelerator Cooler
+qmd:accelerator_cooler2:2, Boron Accelerator Cooler
+qmd:accelerator_cooler2:3, Lithium Accelerator Cooler
+qmd:accelerator_cooler2:4, Magnesium Accelerator Cooler
+qmd:accelerator_cooler2:5, Manganese Accelerator Cooler
+qmd:accelerator_cooler2:6, Aluminum Accelerator Cooler
+qmd:accelerator_cooler2:7, Silver Accelerator Cooler
+qmd:accelerator_cooler2:8, Fluorite Accelerator Cooler
+qmd:accelerator_cooler2:9, Villiaumite Accelerator Cooler
+qmd:accelerator_cooler2:10, Carobbiite Accelerator Cooler
+qmd:accelerator_cooler2:11, Arsenic Accelerator Cooler
+qmd:accelerator_cooler2:12, Liquid Nitrogen Accelerator Cooler
+qmd:accelerator_cooler2:13, Liquid Helium Accelerator Cooler
+qmd:accelerator_cooler2:14, Enderium Accelerator Cooler
+qmd:accelerator_cooler2:15, Cryotheum Accelerator Cooler
+qmd:accelerator_source, Accelerator Ion Source
+qmd:accelerator_energy_port, Accelerator Energy Port
+qmd:beam_diverter_controller, Beam Diverter Controller
+qmd:target_chamber_controller, Target Chamber Controller
+qmd:decay_chamber_controller, Decay Chamber Controller
+qmd:particle_chamber_beam, Particle Chamber Beam
+qmd:particle_chamber_casing, Particle Chamber Casing
+qmd:particle_chamber_glass, Particle Chamber Glass
+qmd:particle_chamber_beam_port, Particle Chamber Beam Port
+qmd:particle_chamber_detector:0, Bubble Chamber Detector
+qmd:particle_chamber_detector:1, Silicon Tracker Detector
+qmd:particle_chamber_detector:2, Wire Chamber Detector
+qmd:particle_chamber_detector:3, Electromagnetic Calorimeter Detector
+qmd:particle_chamber_detector:4, Hadron Calorimeter Detector
+qmd:particle_chamber_energy_port, Particle Chamber Energy Port
+qmd:particle_chamber, Particle Chamber
+qmd:particle_chamber_port, Particle Chamber Port
+qmd:ore_leacher, Ore Leacher
+qmd:irradiator, Irradiator
+qmd:fission_reflector:0, Tungsten Carbide Neutron Reflector
+qmd:rtg_strontium, Strontium RTG
+qmd:dust:0, Tungsten Dust
+qmd:dust:1, Niobium Dust
+qmd:dust:2, Chromium Dust
+qmd:dust:3, Titanium Dust
+qmd:dust:4, Cobalt Dust
+qmd:dust:5, Nickel Dust
+qmd:dust:6, Hafnium Dust
+qmd:dust:7, Zinc Dust
+qmd:dust:8, Osmium Dust
+qmd:dust:9, Iridium Dust
+qmd:dust:10, Platinum Dust
+qmd:dust:11, Sodium Dust
+qmd:dust:12, Potassium Dust
+qmd:dust:13, Calcium Dust
+qmd:dust:14, Strontium Dust
+qmd:ingot:0, Tungsten Ingot
+qmd:ingot:1, Niobium Ingot
+qmd:ingot:2, Chromium Ingot
+qmd:ingot:3, Titanium Ingot
+qmd:ingot:4, Cobalt Ingot
+qmd:ingot:5, Nickel Ingot
+qmd:ingot:6, Hafnium Ingot
+qmd:ingot:7, Zinc Ingot
+qmd:ingot:8, Osmium Ingot
+qmd:ingot:9, Iridium Ingot
+qmd:ingot:10, Platinum Ingot
+qmd:ingot:11, Sodium Ingot
+qmd:ingot:12, Potassium Ingot
+qmd:ingot:13, Calcium Ingot
+qmd:ingot:14, Strontium Ingot
+qmd:ingot2:0, Yttrium Ingot
+qmd:ingot2:1, Neodymium Ingot
+qmd:ingot2:2, Germanium Ingot
+qmd:ingot_alloy:0, Tungsten Carbide Ingot
+qmd:ingot_alloy:1, Niobium-Tin Ingot
+qmd:ingot_alloy:2, Stainless Steel Ingot
+qmd:tungsten_filament, Tungsten Filament
+qmd:canister, Canister
+qmd:canister_hydrogen, Hydrogen Canister
+qmd:canister_deuterium, Deuterium Canister
+qmd:canister_helium, Helium Canister
+qmd:canister_diborane, Diborane Canister
+qmd:source_sodium_22, Sodium-22 Source
+qmd:source_cobalt_60, Cobalt-60 Source
+qmd:source_iridium_192, Iridium-192 Source
+qmd:isotope:0, Sodium-22
+qmd:isotope:1, Promethium-147
+qmd:isotope:2, Beryllium-7
+qmd:isotope:3, Magnesium-24
+qmd:isotope:4, Magnesium-26
+qmd:isotope:5, Lead-210
+qmd:isotope:6, Strontium-90
+qmd:isotope:7, Uranium-234
+qmd:isotope:8, Protactinium-231 Dust
+qmd:isotope:9, Cobalt-60
+qmd:isotope:10, Iridium-192
+qmd:part:0, Empty Cooler
+qmd:part:1, Empty Detector Casing
+qmd:part:2, Lead Tungstate Scintillator
+qmd:part:3, Plastic Scintillator
+qmd:part:4, BSCCO Wire
+qmd:part:5, Neodymium Doped YAG Rod
+qmd:semiconductor:0, P-Type Doped Silicon
+qmd:semiconductor:1, N-Type Doped Silicon
+qmd:semiconductor:2, Silicon Boule
+qmd:semiconductor:3, Silicon Wafer
+qmd:semiconductor:4, Basic Processor
+qmd:semiconductor:5, Advanced Processor
+qmd:semiconductor:6, Elite Processor
+qmd:chemical_dust:0, Tungsten Oxide
+qmd:chemical_dust:1, BSCCO Dust
+qmd:chemical_dust:2, Sodium Nitrate
+qmd:chemical_dust:3, Sodium Chloride
+qmd:chemical_dust:4, Copper Oxide
+qmd:sword_tungsten_carbide, Tungsten Carbide Sword
+qmd:pickaxe_tungsten_carbide, Tungsten Carbide Pickaxe
+qmd:shovel_tungsten_carbide, Tungsten Carbide Shovel
+qmd:axe_tungsten_carbide, Tungsten Carbide Axe
+qmd:hoe_tungsten_carbide, Tungsten Carbide Hoe
+qmd:flesh, Not So Rotten Flesh
+qmd:fluid_hydrochloric_acid, Hydrochloric Acid
+qmd:fluid_nitric_acid, Nitric Acid
+qmd:fluid_sodium_chloride_solution, Sodium Chloride Solution
+qmd:fluid_sodium_nitrate_solution, Sodium Nitrate Solution
+qmd:fluid_lead_nitrate_solution, Lead Nitrate Solution
+qmd:fluid_sodium_tungstate_solution, Sodium Tungstate Solution
+qmd:fluid_lead_tungstate_solution, Lead Tungstate Solution
+qmd:fluid_liquid_hydrogen, Liquid Hydrogen
+qmd:fluid_liquid_argon, Liquid Argon
+qmd:fluid_argon, Argon
+qmd:fluid_chlorine, Chlorine
+qmd:fluid_nitric_oxide, Nitric Oxide
+qmd:fluid_nitrogen_dioxide, Nitrogen Dioxide
+qmd:fluid_silicon, Molten Silicon
+qmd:fluid_yag, Molten Yttrium Aluminum Garnet
+qmd:fluid_nd_yag, Molten Neodymium Doped YAG
 rewired:stub, item.rewired.stub.name
 rewired:ecglass, Electrochromic Glass
+rewired:canopic_jar, Preservation Tank
 rewired:visor, AR Visor
 rewired:shield.polymer, Polymer Riot Shield
 rewired:shield.carbon, Carbon Riot Shield
 rewired:shield.plasteel, Plasteel Riot Shield
+rewired:necrolimb:0, Necrotic Left Arm
+rewired:necrolimb:1, Necrotic Right Arm
+rewired:necrolimb:2, Necrotic Left Leg
+rewired:necrolimb:3, Necrotic Right Leg
 rewired:hand:0, Plasteel Fist
 rewired:hand:1, Projected Kinetic Barrier
 rewired:foot:0, Rail Riders
@@ -5982,11 +6122,10 @@ rewired:cranium:0, Ender-Convergence Device
 rewired:cranium:1, Neural Interlink
 rewired:powerbar, Charge Power Bar
 rewired:energydrink, Silver Gorgon Energy Drink
+rewired:meat_raw, Raw Meat
+rewired:meat_cooked, Cooked Meat
 rewired:charger_eu, EU Charger
 tombmanygraves:death_list, Death Inventory List
-translocators:diamond_nugget, Diamond Nugget
-translocators:translocator_part:0, Item Translocator
-translocators:translocator_part:1, Liquid Translocator
 libvulpes:blockphantom, tile.blockPhantom.name
 libvulpes:hatch:0, Input Hatch
 libvulpes:hatch:1, Output Hatch
@@ -6069,9 +6208,6 @@ libvulpes:coil0:4, Copper Coil
 libvulpes:coil0:7, Titanium Coil
 libvulpes:coil0:9, Aluminum Coil
 libvulpes:coil0:10, Iridium Coil
-advancedrocketry:datapipe, Data Cable(Deprecated)
-advancedrocketry:energypipe, Energy Pipe(Deprecated)
-advancedrocketry:liquidpipe, Liquid Pipe(Deprecated)
 advancedrocketry:launchpad, Launch Pad
 advancedrocketry:rocketbuilder, Rocket Assembling Machine
 advancedrocketry:structuretower, Structure Tower
@@ -8637,26 +8773,26 @@ immersiveengineering:connector:10, Redstone Breaker
 immersiveengineering:connector:11, Current Transformer
 immersiveengineering:connector:12, Redstone Wire Connector
 immersiveengineering:connector:13, Redstone Probe Connector
-immersiveengineering:metal_device0:0, LV Capacitor
-immersiveengineering:metal_device0:1, MV Capacitor
-immersiveengineering:metal_device0:2, HV Capacitor
-immersiveengineering:metal_device0:3, Creative Capacitor
-immersiveengineering:metal_device0:4, Metal Barrel
-immersiveengineering:metal_device0:5, Fluid Pump
-immersiveengineering:metal_device0:6, Fluid Outlet
-immersiveengineering:metal_device1:0, Blast Furnace Preheater
-immersiveengineering:metal_device1:1, External Heater
-immersiveengineering:metal_device1:2, Kinetic Dynamo
-immersiveengineering:metal_device1:3, Thermoelectric Generator
-immersiveengineering:metal_device1:4, Powered Lantern
-immersiveengineering:metal_device1:5, Charging Station
-immersiveengineering:metal_device1:6, Fluid Pipe
-immersiveengineering:metal_device1:7, Core Sample Drill
-immersiveengineering:metal_device1:8, Tesla Coil
-immersiveengineering:metal_device1:9, Floodlight
-immersiveengineering:metal_device1:10, Chemthrower Turret
-immersiveengineering:metal_device1:11, Gun Turret
-immersiveengineering:metal_device1:13, Garden Cloche
+immersiveengineering:metaldevice0dummy:0, tile.immersiveengineering.metaldevice0dummy.capacitor_lv.name
+immersiveengineering:metaldevice0dummy:1, tile.immersiveengineering.metaldevice0dummy.capacitor_mv.name
+immersiveengineering:metaldevice0dummy:2, tile.immersiveengineering.metaldevice0dummy.capacitor_hv.name
+immersiveengineering:metaldevice0dummy:3, tile.immersiveengineering.metaldevice0dummy.capacitor_creative.name
+immersiveengineering:metaldevice0dummy:4, tile.immersiveengineering.metaldevice0dummy.barrel.name
+immersiveengineering:metaldevice0dummy:5, tile.immersiveengineering.metaldevice0dummy.fluid_pump.name
+immersiveengineering:metaldevice0dummy:6, tile.immersiveengineering.metaldevice0dummy.fluid_placer.name
+immersiveengineering:metaldevice1dummy:0, tile.immersiveengineering.metaldevice1dummy.blast_furnace_preheater.name
+immersiveengineering:metaldevice1dummy:1, tile.immersiveengineering.metaldevice1dummy.furnace_heater.name
+immersiveengineering:metaldevice1dummy:2, tile.immersiveengineering.metaldevice1dummy.dynamo.name
+immersiveengineering:metaldevice1dummy:3, tile.immersiveengineering.metaldevice1dummy.thermoelectric_gen.name
+immersiveengineering:metaldevice1dummy:4, tile.immersiveengineering.metaldevice1dummy.electric_lantern.name
+immersiveengineering:metaldevice1dummy:5, tile.immersiveengineering.metaldevice1dummy.charging_station.name
+immersiveengineering:metaldevice1dummy:6, tile.immersiveengineering.metaldevice1dummy.fluid_pipe.name
+immersiveengineering:metaldevice1dummy:7, tile.immersiveengineering.metaldevice1dummy.sample_drill.name
+immersiveengineering:metaldevice1dummy:8, tile.immersiveengineering.metaldevice1dummy.tesla_coil.name
+immersiveengineering:metaldevice1dummy:9, tile.immersiveengineering.metaldevice1dummy.floodlight.name
+immersiveengineering:metaldevice1dummy:10, tile.immersiveengineering.metaldevice1dummy.turret_chem.name
+immersiveengineering:metaldevice1dummy:11, tile.immersiveengineering.metaldevice1dummy.turret_gun.name
+immersiveengineering:metaldevice1dummy:13, tile.immersiveengineering.metaldevice1dummy.belljar.name
 immersiveengineering:conveyor, tile.immersiveengineering.conveyor.name
 immersiveengineering:material:0, Treated Stick
 immersiveengineering:material:1, Iron Rod
@@ -8804,6 +8940,26 @@ immersiveengineering:steel_armor_feet, Steel Boots
 immersiveengineering:steel_armor_legs, Steel Leggings
 immersiveengineering:steel_armor_chest, Steel Chestplate
 immersiveengineering:steel_armor_head, Steel Helmet
+immersiveengineering:metal_device0:0, LV Capacitor
+immersiveengineering:metal_device0:1, MV Capacitor
+immersiveengineering:metal_device0:2, HV Capacitor
+immersiveengineering:metal_device0:3, Creative Capacitor
+immersiveengineering:metal_device0:4, Metal Barrel
+immersiveengineering:metal_device0:5, Fluid Pump
+immersiveengineering:metal_device0:6, Fluid Outlet
+immersiveengineering:metal_device1:0, Blast Furnace Preheater
+immersiveengineering:metal_device1:1, External Heater
+immersiveengineering:metal_device1:2, Kinetic Dynamo
+immersiveengineering:metal_device1:3, Thermoelectric Generator
+immersiveengineering:metal_device1:4, Powered Lantern
+immersiveengineering:metal_device1:5, Charging Station
+immersiveengineering:metal_device1:6, Fluid Pipe
+immersiveengineering:metal_device1:7, Core Sample Drill
+immersiveengineering:metal_device1:8, Tesla Coil
+immersiveengineering:metal_device1:9, Floodlight
+immersiveengineering:metal_device1:10, Chemthrower Turret
+immersiveengineering:metal_device1:11, Gun Turret
+immersiveengineering:metal_device1:13, Garden Cloche
 alternatingflux:connector:0, AF Wire Relay
 alternatingflux:connector:1, AF Transformer
 alternatingflux:wirecoil:0, AF Wire Coil
@@ -9143,15 +9299,15 @@ betterwithmods:wool_boots, Wool Socks
 betterwithmods:wool_chest, Wool Shirt
 betterwithmods:wool_helmet, Wool Cap
 betterwithmods:wool_pants, Wool Pants
-betterwithmods:siding_iron, %s Siding
 betterwithmods:siding_wood, %s Siding
 betterwithmods:siding_rock, %s Siding
-betterwithmods:moulding_iron, %s Moulding
+betterwithmods:siding_iron, %s Siding
 betterwithmods:moulding_wood, %s Moulding
 betterwithmods:moulding_rock, %s Moulding
-betterwithmods:corner_iron, %s Corner
+betterwithmods:moulding_iron, %s Moulding
 betterwithmods:corner_wood, %s Corner
 betterwithmods:corner_rock, %s Corner
+betterwithmods:corner_iron, %s Corner
 appliedenergistics2:quartz_ore, Certus Quartz Ore
 appliedenergistics2:charged_quartz_ore, Charged Certus Quartz Ore
 appliedenergistics2:quartz_block, Certus Quartz Block
@@ -9496,15 +9652,6 @@ appliedenergistics2:facade:0, Cable Facade - Block of Copper
 appliedenergistics2:facade:0, Cable Facade - Block of Tin
 appliedenergistics2:facade:0, Cable Facade - Block of Bronze
 appliedenergistics2:facade:0, Cable Facade - Ash Bricks
-appliedenergistics2:facade:0, Cable Facade - Honey Comb Block
-appliedenergistics2:facade:0, Cable Facade - Simmering Comb Block
-appliedenergistics2:facade:0, Cable Facade - Stringy Comb Block
-appliedenergistics2:facade:0, Cable Facade - Frozen Comb Block
-appliedenergistics2:facade:0, Cable Facade - Dripping Comb Block
-appliedenergistics2:facade:0, Cable Facade - Silky Comb Block
-appliedenergistics2:facade:0, Cable Facade - Parched Comb Block
-appliedenergistics2:facade:0, Cable Facade - Mossy Comb Block
-appliedenergistics2:facade:0, Cable Facade - Mellow Comb Block
 appliedenergistics2:facade:0, Cable Facade - Greenhouse Block
 appliedenergistics2:facade:0, Cable Facade - Greenhouse Energy Distributor
 appliedenergistics2:facade:0, Cable Facade - Greenhouse Control
@@ -9514,6 +9661,15 @@ appliedenergistics2:facade:0, Cable Facade - Greenhouse Heater
 appliedenergistics2:facade:0, Cable Facade - Greenhouse Fan
 appliedenergistics2:facade:0, Cable Facade - Greenhouse Humidifier
 appliedenergistics2:facade:0, Cable Facade - Greenhouse Dehumidifier
+appliedenergistics2:facade:0, Cable Facade - Honey Comb Block
+appliedenergistics2:facade:0, Cable Facade - Simmering Comb Block
+appliedenergistics2:facade:0, Cable Facade - Stringy Comb Block
+appliedenergistics2:facade:0, Cable Facade - Frozen Comb Block
+appliedenergistics2:facade:0, Cable Facade - Dripping Comb Block
+appliedenergistics2:facade:0, Cable Facade - Silky Comb Block
+appliedenergistics2:facade:0, Cable Facade - Parched Comb Block
+appliedenergistics2:facade:0, Cable Facade - Mossy Comb Block
+appliedenergistics2:facade:0, Cable Facade - Mellow Comb Block
 appliedenergistics2:facade:0, Cable Facade - Larch Wood
 appliedenergistics2:facade:0, Cable Facade - Teak Wood
 appliedenergistics2:facade:0, Cable Facade - Desert Acacia Wood
@@ -9845,11 +10001,13 @@ appliedenergistics2:facade:0, Cable Facade - Berkelium-247 Block
 appliedenergistics2:facade:0, Cable Facade - Californium-252 Block
 appliedenergistics2:facade:0, Cable Facade - Supercold Ice
 appliedenergistics2:facade:0, Cable Facade - Heavy Water Moderator
-appliedenergistics2:facade:0, Cable Facade - Neutron Reflector
+appliedenergistics2:facade:0, Cable Facade - Beryllium-Carbon Neutron Reflector
+appliedenergistics2:facade:0, Cable Facade - Lead-Steel Neutron Reflector
 appliedenergistics2:facade:0, Cable Facade - Wasteland Earth
 appliedenergistics2:facade:0, Cable Facade - Tritium Lamp
 appliedenergistics2:facade:0, Cable Facade - Block of Chamelium
 appliedenergistics2:facade:0, Cable Facade - End Stone
+appliedenergistics2:facade:0, Cable Facade - Tungsten Carbide Neutron Reflector
 appliedenergistics2:facade:0, Cable Facade - Machine Structure
 appliedenergistics2:facade:0, Cable Facade - Motor
 appliedenergistics2:facade:0, Cable Facade - Advanced Motor
@@ -10065,10 +10223,6 @@ appliedenergistics2:facade:0, Cable Facade - Negarite Ore
 appliedenergistics2:facade:0, Cable Facade - Guard Dummy
 appliedenergistics2:facade:0, Cable Facade - Soldier Dummy
 appliedenergistics2:facade:0, Cable Facade - tile.arienteworld.master_soldier_dummy.name
-appliedenergistics2:facade:0, Cable Facade - Uranium Ore
-appliedenergistics2:facade:0, Cable Facade - Sugar Block
-appliedenergistics2:facade:0, Cable Facade - Red Slime Block
-appliedenergistics2:facade:0, Cable Facade - Gravisand
 appliedenergistics2:facade:0, Cable Facade - Lit Redstone Lamp
 appliedenergistics2:facade:0, Cable Facade - Blaze Lantern
 appliedenergistics2:facade:0, Cable Facade - Polished Sandstone
@@ -10110,6 +10264,9 @@ appliedenergistics2:facade:0, Cable Facade - Slate
 appliedenergistics2:facade:0, Cable Facade - Brimstone
 appliedenergistics2:facade:0, Cable Facade - Elder Prismarine
 appliedenergistics2:facade:0, Cable Facade - Elder Sea Lantern
+appliedenergistics2:facade:0, Cable Facade - Sugar Block
+appliedenergistics2:facade:0, Cable Facade - Red Slime Block
+appliedenergistics2:facade:0, Cable Facade - Gravisand
 appliedenergistics2:facade:0, Cable Facade - Machine Frame
 appliedenergistics2:facade:0, Cable Facade - Height Sensor
 appliedenergistics2:facade:0, Cable Facade - Block of Aluminum
@@ -12256,6 +12413,17 @@ appliedenergistics2:facade:0, Cable Facade - Desert Myrmex Resin Glass
 appliedenergistics2:facade:0, Cable Facade - Jungle Myrmex Resin Glass
 appliedenergistics2:facade:0, Cable Facade - Block of Fire Dragonsteel
 appliedenergistics2:facade:0, Cable Facade - Block of Ice Dragonsteel
+appliedenergistics2:facade:0, Cable Facade - Dreadstone
+appliedenergistics2:facade:0, Cable Facade - Dreadstone Bricks
+appliedenergistics2:facade:0, Cable Facade - Chiseled Dreadstone Bricks
+appliedenergistics2:facade:0, Cable Facade - Cracked Dreadstone Bricks
+appliedenergistics2:facade:0, Cable Facade - Mossy Dreadstone Bricks
+appliedenergistics2:facade:0, Cable Facade - Dreadstone Tile
+appliedenergistics2:facade:0, Cable Facade - Dreadstone Chiseled Skull
+appliedenergistics2:facade:0, Cable Facade - Dreadstone Bricks Slab
+appliedenergistics2:facade:0, Cable Facade - Dreadwood Log
+appliedenergistics2:facade:0, Cable Facade - Dreadwood Planks
+appliedenergistics2:facade:0, Cable Facade - Dreadwood Keyhole
 appliedenergistics2:facade:0, Cable Facade - Block of Sea Serpent Scales
 appliedenergistics2:facade:0, Cable Facade - Block of Sea Serpent Scales
 appliedenergistics2:facade:0, Cable Facade - Block of Sea Serpent Scales
@@ -12264,7 +12432,6 @@ appliedenergistics2:facade:0, Cable Facade - Block of Sea Serpent Scales
 appliedenergistics2:facade:0, Cable Facade - Block of Sea Serpent Scales
 appliedenergistics2:facade:0, Cable Facade - Block of Sea Serpent Scales
 appliedenergistics2:facade:0, Cable Facade - Asphalt Concrete
-appliedenergistics2:facade:0, Cable Facade - Reinforced Coke Brick
 appliedenergistics2:facade:0, Cable Facade - Physical Hazard
 appliedenergistics2:facade:0, Cable Facade - Housekeeping and Aisle Hazard
 appliedenergistics2:facade:0, Cable Facade - Traffic and Caution Hazard
@@ -12272,6 +12439,7 @@ appliedenergistics2:facade:0, Cable Facade - Defective Machinery Hazard
 appliedenergistics2:facade:0, Cable Facade - Fire Prevention Hazard
 appliedenergistics2:facade:0, Cable Facade - Radiation Hazard
 appliedenergistics2:facade:0, Cable Facade - Safety and First Aid Hazard
+appliedenergistics2:facade:0, Cable Facade - Block of Steel
 appliedenergistics2:facade:0, Cable Facade - Rail Frame
 appliedenergistics2:facade:0, Cable Facade - Colored Block Clean
 appliedenergistics2:facade:0, Cable Facade - Colored Block Floor
@@ -12301,6 +12469,9 @@ appliedenergistics2:facade:0, Cable Facade - Colored Block Thinnest
 appliedenergistics2:facade:0, Cable Facade - Water
 appliedenergistics2:facade:0, Cable Facade - White Water
 appliedenergistics2:facade:0, Cable Facade - Little Storage Block
+appliedenergistics2:facade:0, Cable Facade - tile.ltinput.name
+appliedenergistics2:facade:0, Cable Facade - tile.ltoutput.name
+appliedenergistics2:facade:0, Cable Facade - Reinforced Coke Brick
 appliedenergistics2:facade:0, Cable Facade - tile.fake_ice.name
 appliedenergistics2:facade:0, Cable Facade - Log Pile
 appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
@@ -12473,29 +12644,31 @@ appliedenergistics2:facade:0, Cable Facade - Organic Bedrock
 appliedenergistics2:facade:0, Cable Facade - Magical Bedrock
 appliedenergistics2:facade:0, Cable Facade - Void Bedrock
 appliedenergistics2:facade:0, Cable Facade - Membrane
-appliedenergistics2:facade:0, Cable Facade - Hastealloy Sheetmetal
-appliedenergistics2:facade:0, Cable Facade - Titanium Sheetmetal
 appliedenergistics2:facade:0, Cable Facade - Reactor Internals
 appliedenergistics2:facade:0, Cable Facade - Column Internals
 appliedenergistics2:facade:0, Cable Facade - Block of Alumina
+appliedenergistics2:facade:0, Cable Facade - Steel Casing
+appliedenergistics2:facade:0, Cable Facade - Invar Casing
+appliedenergistics2:facade:0, Cable Facade - Hastealloy Casing
 appliedenergistics2:facade:0, Cable Facade - Compressed Bark
 appliedenergistics2:facade:0, Cable Facade - Advanced Reactor Internals
 appliedenergistics2:facade:0, Cable Facade - Separator Internals
 appliedenergistics2:facade:0, Cable Facade - Missing
 appliedenergistics2:facade:0, Cable Facade - Missing
 appliedenergistics2:facade:0, Cable Facade - Compressed Sawdust
-appliedenergistics2:facade:0, Cable Facade - Stainless Steel Sheetmetal
+appliedenergistics2:facade:0, Cable Facade - Stainless Steel Casing
+appliedenergistics2:facade:0, Cable Facade - Titanium Casing
 appliedenergistics2:facade:0, Cable Facade - Scrap Iron Block
 appliedenergistics2:facade:0, Cable Facade - Compact Raw Porkchop
 appliedenergistics2:facade:0, Cable Facade - Machine Block
 appliedenergistics2:facade:0, Cable Facade - Support Column (Y axis)
 appliedenergistics2:facade:0, Cable Facade - Pumpjack Pipe
-appliedenergistics2:facade:0, Cable Facade - Chalcopyrite Ore (Copper)
-appliedenergistics2:facade:0, Cable Facade - Oil Source (Full)
-appliedenergistics2:facade:0, Cable Facade - Copper Block
 appliedenergistics2:facade:0, Cable Facade - Limestone
 appliedenergistics2:facade:0, Cable Facade - Burnt Limestone
 appliedenergistics2:facade:0, Cable Facade - Limestone Tiles
+appliedenergistics2:facade:0, Cable Facade - Chalcopyrite Ore (Copper)
+appliedenergistics2:facade:0, Cable Facade - Oil Source (Full)
+appliedenergistics2:facade:0, Cable Facade - Copper Block
 appliedenergistics2:facade:0, Cable Facade - Boat Energy Battery
 appliedenergistics2:facade:0, Cable Facade - Boat Fluid Tank
 appliedenergistics2:crystal_seed:0, Certus Quartz Seed
@@ -12979,64 +13152,24 @@ arienteworld:negarite, Negarite Ore
 arienteworld:guard_dummy, Guard Dummy
 arienteworld:soldier_dummy, Soldier Dummy
 arienteworld:master_soldier_dummy, tile.arienteworld.master_soldier_dummy.name
-atomicscience:hazmat_mask, Hazmat Mask M1A
-atomicscience:hazmat_body, Hazmat Upper body M1A
-atomicscience:hazmat_leggings, Hazmat Lower Body M1A
-atomicscience:hazmat_boots, Hazmat Boots M1A
-atomicscience:hazmat_color_mask, Hazmat Mask M1B
-atomicscience:hazmat_color_body, Hazmat Upper body M1B
-atomicscience:hazmat_color_leggings, Hazmat Lower Body M1B
-atomicscience:hazmat_color_boots, Hazmat Boots M1B
-atomicscience:fluid_cell, Fluid Cell
-atomicscience:powered_cell, Powered Cell
-atomicscience:fissile_fuel_cell, Fission Fuel Rod
-atomicscience:breeder_fuel_cell, Fission Breeder Rod
-atomicscience:cell_empty, Empty Cell
-atomicscience:yellow_cake, Yellow Cake
-atomicscience:uranium_234, Uranium 234
-atomicscience:uranium_235, Uranium 235
-atomicscience:uranium_238, Uranium 238
-atomicscience:processing_waste, Toxic Mineral Waste
-atomicscience:toxic_waste, Toxic Waste
-atomicscience:heat_probe, Thermal Probe
-atomicscience:wrench, Adjuster
-atomicscience:reactor_cell, Fission Reactor Core
-atomicscience:reactor_controller, Fission Reactor Controller
-atomicscience:steam_funnel, Steam Funnel
-atomicscience:steam_turbine, Steam Turbine
-atomicscience:uranium_ore, Uranium Ore
-atomicscience:chem_extractor, Chemical Extractor
-atomicscience:chem_boiler, Chemical Boiler
-atomicscience:chem_centrifuge, Chemical Centrifuge
-atomicscience:rod_pipe, Reactor Rod Conveyor
-atomicscience:rod_pipe_inv, Reactor Rod Storage Conveyor
-atomicscience:cap_relay, Connection Relay
-atomicscience:magnet, Electromagnet
-atomicscience:accelerator_tube, Accelerator Tube
-atomicscience:accelerator_gun, Accelerator Entry
-atomicscience:accelerator_exit, Accelerator Exit
-atomicscience:particle_detector, Particle Detector
-atomicscience:laser_emitter, Laser Emitter
-atomicscience:laser_booster, Laser Booster
-atomicscience:item_container, Item Holder
-atomicscience:sensor_thermal_redstone, Thermal Sensor Redstone
 morphtool:tool, item.tool.name
-quark:chute, tile.chute.name
-quark:sugar_block, tile.sugar_block.name
-quark:redstone_randomizer, tile.redstone_randomizer.name
-quark:iron_button, tile.iron_button.name
-quark:gold_button, tile.gold_button.name
-quark:ender_watcher, tile.ender_watcher.name
-quark:color_slime:0, Red Slime Block
-quark:color_slime:1, Blue Slime Block
-quark:color_slime:2, Cyan Slime Block
-quark:color_slime:3, Magenta Slime Block
-quark:color_slime:4, Yellow Slime Block
-quark:gravisand, tile.gravisand.name
-quark:redstone_inductor, tile.redstone_inductor.name
-quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
-quark:rain_detector, tile.rain_detector.name
-quark:chain, item.chain.name
+quark:glass_shards:0, Glass Shard
+quark:glass_shards:1, White Glass Shard
+quark:glass_shards:2, Orange Glass Shard
+quark:glass_shards:3, Magenta Glass Shard
+quark:glass_shards:4, Light Blue Glass Shard
+quark:glass_shards:5, Yellow Glass Shard
+quark:glass_shards:6, Lime Glass Shard
+quark:glass_shards:7, Pink Glass Shard
+quark:glass_shards:8, Gray Glass Shard
+quark:glass_shards:9, Light Gray Glass Shard
+quark:glass_shards:10, Cyan Glass Shard
+quark:glass_shards:11, Purple Glass Shard
+quark:glass_shards:12, Blue Glass Shard
+quark:glass_shards:13, Brown Glass Shard
+quark:glass_shards:14, Green Glass Shard
+quark:glass_shards:15, Red Glass Shard
+quark:glass_shards:16, Black Glass Shard
 quark:paper_wall, tile.paper_wall.name
 quark:paper_wall_big, tile.paper_wall_big.name
 quark:paper_wall_sakura, tile.paper_wall_sakura.name
@@ -13089,6 +13222,7 @@ quark:leaf_carpet:6, Swamp Oak Leaf Carpet
 quark:leaf_carpet:7, Blossoming Leaf Carpet
 quark:grate, tile.grate.name
 quark:glass_item_frame, item.glass_item_frame.name
+quark:witch_hat, item.witch_hat.name
 quark:sandstone_new:0, Polished Sandstone
 quark:sandstone_new:1, Sandstone Bricks
 quark:sandstone_new:2, Polished Red Sandstone
@@ -13205,20 +13339,6 @@ quark:quilted_wool:12, Brown Quilted Wool
 quark:quilted_wool:13, Green Quilted Wool
 quark:quilted_wool:14, Red Quilted Wool
 quark:quilted_wool:15, Black Quilted Wool
-quark:pickarang, item.pickarang.name
-quark:arrow_ender, item.arrow_ender.name
-quark:arrow_explosive, item.arrow_explosive.name
-quark:arrow_torch, item.arrow_torch.name
-quark:slime_bucket:0, Slime in a Bucket
-quark:black_ash, tile.black_ash.name
-quark:horse_whistle, item.horse_whistle.name
-quark:parrot_egg:0, Red Parrot Egg
-quark:parrot_egg:1, Blue Parrot Egg
-quark:parrot_egg:2, Green Parrot Egg
-quark:parrot_egg:3, Cyan Parrot Egg
-quark:parrot_egg:4, Gray Parrot Egg
-quark:enderdragon_scale, item.enderdragon_scale.name
-quark:witch_hat, item.witch_hat.name
 quark:roots, tile.roots.name
 quark:root, item.root.name
 quark:roots_blue_flower, tile.roots_blue_flower.name
@@ -13230,7 +13350,6 @@ quark:root_flower:2, White Sprout
 quark:root_dye:0, Blue Dye
 quark:root_dye:1, Black Dye
 quark:root_dye:2, White Dye
-quark:diamond_heart, item.diamond_heart.name
 quark:archaeologist_hat, item.archaeologist_hat.name
 quark:variant_leaves:0, Swamp Oak Leaves
 quark:variant_leaves:1, Blossoming Leaves
@@ -13289,23 +13408,38 @@ quark:elder_prismarine:2, Dark Elder Prismarine
 quark:elder_sea_lantern, tile.elder_sea_lantern.name
 quark:soul_bead, item.soul_bead.name
 quark:smoker, tile.smoker.name
-quark:glass_shards:0, Glass Shard
-quark:glass_shards:1, White Glass Shard
-quark:glass_shards:2, Orange Glass Shard
-quark:glass_shards:3, Magenta Glass Shard
-quark:glass_shards:4, Light Blue Glass Shard
-quark:glass_shards:5, Yellow Glass Shard
-quark:glass_shards:6, Lime Glass Shard
-quark:glass_shards:7, Pink Glass Shard
-quark:glass_shards:8, Gray Glass Shard
-quark:glass_shards:9, Light Gray Glass Shard
-quark:glass_shards:10, Cyan Glass Shard
-quark:glass_shards:11, Purple Glass Shard
-quark:glass_shards:12, Blue Glass Shard
-quark:glass_shards:13, Brown Glass Shard
-quark:glass_shards:14, Green Glass Shard
-quark:glass_shards:15, Red Glass Shard
-quark:glass_shards:16, Black Glass Shard
+quark:pickarang, item.pickarang.name
+quark:arrow_ender, item.arrow_ender.name
+quark:arrow_explosive, item.arrow_explosive.name
+quark:arrow_torch, item.arrow_torch.name
+quark:slime_bucket:0, Slime in a Bucket
+quark:black_ash, tile.black_ash.name
+quark:horse_whistle, item.horse_whistle.name
+quark:parrot_egg:0, Red Parrot Egg
+quark:parrot_egg:1, Blue Parrot Egg
+quark:parrot_egg:2, Green Parrot Egg
+quark:parrot_egg:3, Cyan Parrot Egg
+quark:parrot_egg:4, Gray Parrot Egg
+quark:enderdragon_scale, item.enderdragon_scale.name
+quark:chute, tile.chute.name
+quark:sugar_block, tile.sugar_block.name
+quark:redstone_randomizer, tile.redstone_randomizer.name
+quark:iron_button, tile.iron_button.name
+quark:gold_button, tile.gold_button.name
+quark:ender_watcher, tile.ender_watcher.name
+quark:iron_rod, tile.iron_rod.name
+quark:color_slime:0, Red Slime Block
+quark:color_slime:1, Blue Slime Block
+quark:color_slime:2, Cyan Slime Block
+quark:color_slime:3, Magenta Slime Block
+quark:color_slime:4, Yellow Slime Block
+quark:gravisand, tile.gravisand.name
+quark:redstone_inductor, tile.redstone_inductor.name
+quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
+quark:rain_detector, tile.rain_detector.name
+quark:chain, item.chain.name
+autoverse:configurator, Block Placer Property Configurator
+autoverse:wand, Wand of the Lazy Sequencer
 autoverse:barrel:0, Barrel
 autoverse:barrel:1, Pulsed Barrel
 autoverse:breaker:0, Block Breaker
@@ -13344,20 +13478,7 @@ autoverse:splitter:1, Redstone Controllable Splitter
 autoverse:splitter:2, Sequence Length Splitter
 autoverse:trash:0, Trash Bin
 autoverse:trash:1, Trash Buffer
-autoverse:configurator, Block Placer Property Configurator
-autoverse:wand, Wand of the Lazy Sequencer
 bedrockores:bedrock_miner, Bedrock Miner
-better_diving:limestone_outcrop, Limestone Outcrop
-better_diving:sandstone_outcrop, Sandstone Outcrop
-better_diving:creepvine, Creepvine Sample
-better_diving:creepvine_seed, Creepvine Seed
-better_diving:creepvine_top, Creepvine Top
-better_diving:seagrass, Seagrass
-better_diving:seagrass_tall_bottom, Seagrass Tall
-better_diving:seagrass_tall_top, Seagrass Tall Top
-better_diving:acid_mushroom, Acid Mushroom
-better_diving:structure_block, Structure Block (WIP)
-better_diving:solar_panel, Solar Panel (WIP)
 better_diving:titanium, Titanium
 better_diving:copper_ore, Copper Ore
 better_diving:silver_ore, Silver Ore
@@ -13400,11 +13521,28 @@ better_diving:boomerang, Boomerang
 better_diving:boomerang_cooked, Cooked Boomerang
 better_diving:boomerang_cured, Cured Boomerang
 better_diving:habitat_builder, Habitat Builder (WIP)
+better_diving:seaglide, Seaglide (WIP)
+better_diving:creepvine, Creepvine Sample
+better_diving:limestone_outcrop, Limestone Outcrop
+better_diving:sandstone_outcrop, Sandstone Outcrop
+better_diving:creepvine_seed, Creepvine Seed
+better_diving:creepvine_top, Creepvine Top
+better_diving:seagrass, Seagrass
+better_diving:seagrass_tall_bottom, Seagrass Tall
+better_diving:seagrass_tall_top, Seagrass Tall Top
+better_diving:acid_mushroom, Acid Mushroom
+better_diving:structure_block, Structure Block (WIP)
+better_diving:solar_panel, Solar Panel (WIP)
+better_diving:fabricator, Fabricator (WIP)
+better_diving:seabase_ladder, Seabase Ladder
 cd4017be_lib:rrwi, §4Disabled Recipe!
 cd4017be_lib:m:0, item.cd4017be.m
 cd4017be_lib:m:400, Redstone Battery
 cd4017be_lib:m:401, Telekinetic Actuator
 cd4017be_lib:m:402, Telekinetic Alloy
+cd4017be_lib:m:403, Core-Rope Cell
+cd4017be_lib:m:404, Core-Rope Cluster
+cd4017be_lib:m:405, Core-Rope Grid
 chisel:auto_chisel, Auto Chisel
 chisel:chisel_iron, Chisel
 chisel:chisel_diamond, Diamond Chisel
@@ -13523,6 +13661,7 @@ primal:bucket_clay:0, §fPhosgene§f Clay Bucket
 primal:bucket_clay:0, §fFuming Sulfuric Acid§f Clay Bucket
 primal:bucket_clay:0, §fSulfuric and Nitric Acid Mixture§f Clay Bucket
 primal:bucket_clay:0, §fFuming Sulfuric and Nitric Acid Mixture§f Clay Bucket
+primal:bucket_clay:0, §fEpoxy Resin§f Clay Bucket
 primal:bucket_clay:0, §fMineral Flotation Solution§f Clay Bucket
 primal:bucket_clay:0, §fMineral Flotation Wastewater§f Clay Bucket
 primal:bucket_clay:0, §fIron Slurry§f Clay Bucket
@@ -13629,10 +13768,8 @@ primal:bucket_clay:0, §fDeuterium§f Clay Bucket
 primal:bucket_clay:0, §fTritium§f Clay Bucket
 primal:bucket_clay:0, §fHelium-3§f Clay Bucket
 primal:bucket_clay:0, §fHelium§f Clay Bucket
-primal:bucket_clay:0, §fMolten Boron§f Clay Bucket
 primal:bucket_clay:0, §fMolten Boron-10§f Clay Bucket
 primal:bucket_clay:0, §fMolten Boron-11§f Clay Bucket
-primal:bucket_clay:0, §fMolten Lithium§f Clay Bucket
 primal:bucket_clay:0, §fMolten Lithium-6§f Clay Bucket
 primal:bucket_clay:0, §fMolten Lithium-7§f Clay Bucket
 primal:bucket_clay:0, §fMolten Ferroboron§f Clay Bucket
@@ -13641,10 +13778,8 @@ primal:bucket_clay:0, §fMolten Hard Carbon§f Clay Bucket
 primal:bucket_clay:0, §fLiquefacted Coal§f Clay Bucket
 primal:bucket_clay:0, §fMolten Beryllium§f Clay Bucket
 primal:bucket_clay:0, §fMolten Zirconium§f Clay Bucket
-primal:bucket_clay:0, §fMolten Manganese§f Clay Bucket
 primal:bucket_clay:0, §fMolten Manganese Dioxide§f Clay Bucket
 primal:bucket_clay:0, §fMolten Sulfur§f Clay Bucket
-primal:bucket_clay:0, §fMolten Arsenic§f Clay Bucket
 primal:bucket_clay:0, §fLiquid Helium§f Clay Bucket
 primal:bucket_clay:0, §fLiquid Nitrogen§f Clay Bucket
 primal:bucket_clay:0, §fHeavy Water§f Clay Bucket
@@ -13681,6 +13816,7 @@ primal:bucket_clay:0, §fPotassium Hydroxide Solution§f Clay Bucket
 primal:bucket_clay:0, §fBorax Solution§f Clay Bucket
 primal:bucket_clay:0, §fIrradiated Borax Solution§f Clay Bucket
 primal:bucket_clay:0, §fCorium§f Clay Bucket
+primal:bucket_clay:0, §fSlurry Ice§f Clay Bucket
 primal:bucket_clay:0, §fChocolate Liquor§f Clay Bucket
 primal:bucket_clay:0, §fCocoa Butter§f Clay Bucket
 primal:bucket_clay:0, §fMolten Unsweetened Chocolate§f Clay Bucket
@@ -13705,59 +13841,37 @@ primal:bucket_clay:0, §fMolten Sodium§f Clay Bucket
 primal:bucket_clay:0, §fMolten Potassium§f Clay Bucket
 primal:bucket_clay:0, §fEutectic NaK Alloy§f Clay Bucket
 primal:bucket_clay:0, §fHot Eutectic NaK Alloy§f Clay Bucket
+primal:bucket_clay:0, §fEmergency Coolant§f Clay Bucket
+primal:bucket_clay:0, §fHeated Emergency Coolant§f Clay Bucket
+primal:bucket_clay:0, §fSublimated Arsenic§f Clay Bucket
 primal:bucket_clay:0, §fMolten Boron Arsenide§f Clay Bucket
 primal:bucket_clay:0, §fSilicon Carbide Vapor§f Clay Bucket
 primal:bucket_clay:0, §fMolten Alugentum§f Clay Bucket
 primal:bucket_clay:0, §fMolten Alumina§f Clay Bucket
-primal:bucket_clay:0, §fMolten Aluminum§f Clay Bucket
-primal:bucket_clay:0, §fMolten Silver§f Clay Bucket
 primal:bucket_clay:0, §fMolten Thorium§f Clay Bucket
-primal:bucket_clay:0, §fMolten Thorium-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Uranium§f Clay Bucket
 primal:bucket_clay:0, §fMolten Uranium-233§f Clay Bucket
-primal:bucket_clay:0, §fMolten Uranium-233-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Uranium-235§f Clay Bucket
-primal:bucket_clay:0, §fMolten Uranium-235-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Uranium-238§f Clay Bucket
-primal:bucket_clay:0, §fMolten Uranium-238-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Neptunium-236§f Clay Bucket
-primal:bucket_clay:0, §fMolten Neptunium-236-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Neptunium-237§f Clay Bucket
-primal:bucket_clay:0, §fMolten Neptunium-237-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Plutonium-238§f Clay Bucket
-primal:bucket_clay:0, §fMolten Plutonium-238-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Plutonium-239§f Clay Bucket
-primal:bucket_clay:0, §fMolten Plutonium-239-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Plutonium-241§f Clay Bucket
-primal:bucket_clay:0, §fMolten Plutonium-241-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Plutonium-242§f Clay Bucket
-primal:bucket_clay:0, §fMolten Plutonium-242-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Americium-241§f Clay Bucket
-primal:bucket_clay:0, §fMolten Americium-241-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Americium-242§f Clay Bucket
-primal:bucket_clay:0, §fMolten Americium-242-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Americium-243§f Clay Bucket
-primal:bucket_clay:0, §fMolten Americium-243-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Curium-243§f Clay Bucket
-primal:bucket_clay:0, §fMolten Curium-243-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Curium-245§f Clay Bucket
-primal:bucket_clay:0, §fMolten Curium-245-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Curium-246§f Clay Bucket
-primal:bucket_clay:0, §fMolten Curium-246-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Curium-247§f Clay Bucket
-primal:bucket_clay:0, §fMolten Curium-247-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Berkelium-247§f Clay Bucket
-primal:bucket_clay:0, §fMolten Berkelium-247-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Berkelium-248§f Clay Bucket
-primal:bucket_clay:0, §fMolten Berkelium-248-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Californium-249§f Clay Bucket
-primal:bucket_clay:0, §fMolten Californium-249-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Californium-250§f Clay Bucket
-primal:bucket_clay:0, §fMolten Californium-250-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Californium-251§f Clay Bucket
-primal:bucket_clay:0, §fMolten Californium-251-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten Californium-252§f Clay Bucket
-primal:bucket_clay:0, §fMolten Californium-252-Zirconium Alloy§f Clay Bucket
 primal:bucket_clay:0, §fMolten TBU Fuel§f Clay Bucket
 primal:bucket_clay:0, §fMolten TBU Fluoride Fuel§f Clay Bucket
 primal:bucket_clay:0, §fMolten FLiBe Salt Solution of TBU Fluoride Fuel§f Clay Bucket
@@ -13920,33 +14034,45 @@ primal:bucket_clay:0, §fMolten FLiBe Salt Solution of Depleted LECf-251 Fluorid
 primal:bucket_clay:0, §fMolten Depleted HECf-251 Fuel§f Clay Bucket
 primal:bucket_clay:0, §fMolten Depleted HECf-251 Fluoride Fuel§f Clay Bucket
 primal:bucket_clay:0, §fMolten FLiBe Salt Solution of Depleted HECf-251 Fluoride Fuel§f Clay Bucket
+primal:bucket_clay:0, §fMolten Iron§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Iron Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Iron Mixture§f Clay Bucket
 primal:bucket_clay:0, §fMolten Redstone§f Clay Bucket
 primal:bucket_clay:0, §fEutectic NaK-Redstone Mixture§f Clay Bucket
 primal:bucket_clay:0, §fHot Eutectic NaK-Redstone Mixture§f Clay Bucket
 primal:bucket_clay:0, §fMolten Quartz§f Clay Bucket
 primal:bucket_clay:0, §fEutectic NaK-Quartz Mixture§f Clay Bucket
 primal:bucket_clay:0, §fHot Eutectic NaK-Quartz Mixture§f Clay Bucket
-primal:bucket_clay:0, §fMolten Gold§f Clay Bucket
-primal:bucket_clay:0, §fEutectic NaK-Gold Mixture§f Clay Bucket
-primal:bucket_clay:0, §fHot Eutectic NaK-Gold Mixture§f Clay Bucket
+primal:bucket_clay:0, §fMolten Obsidian§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Obsidian Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Obsidian Mixture§f Clay Bucket
+primal:bucket_clay:0, §fMolten Nether Brick§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Nether Brick Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Nether Brick Mixture§f Clay Bucket
 primal:bucket_clay:0, §fMolten Glowstone§f Clay Bucket
 primal:bucket_clay:0, §fEutectic NaK-Glowstone Mixture§f Clay Bucket
 primal:bucket_clay:0, §fHot Eutectic NaK-Glowstone Mixture§f Clay Bucket
 primal:bucket_clay:0, §fMolten Lapis§f Clay Bucket
 primal:bucket_clay:0, §fEutectic NaK-Lapis Mixture§f Clay Bucket
 primal:bucket_clay:0, §fHot Eutectic NaK-Lapis Mixture§f Clay Bucket
+primal:bucket_clay:0, §fMolten Gold§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Gold Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Gold Mixture§f Clay Bucket
+primal:bucket_clay:0, §fMolten Prismarine§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Prismarine Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Prismarine Mixture§f Clay Bucket
+primal:bucket_clay:0, §fMolten Slime§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Slime Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Slime Mixture§f Clay Bucket
+primal:bucket_clay:0, §fMolten End Stone§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-End Stone Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-End Stone Mixture§f Clay Bucket
+primal:bucket_clay:0, §fMolten Purpur§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Purpur Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Purpur Mixture§f Clay Bucket
 primal:bucket_clay:0, §fMolten Diamond§f Clay Bucket
 primal:bucket_clay:0, §fEutectic NaK-Diamond Mixture§f Clay Bucket
 primal:bucket_clay:0, §fHot Eutectic NaK-Diamond Mixture§f Clay Bucket
-primal:bucket_clay:0, §fEutectic NaK-Helium Mixture§f Clay Bucket
-primal:bucket_clay:0, §fHot Eutectic NaK-Helium Mixture§f Clay Bucket
-primal:bucket_clay:0, §fEutectic NaK-Enderium Mixture§f Clay Bucket
-primal:bucket_clay:0, §fHot Eutectic NaK-Enderium Mixture§f Clay Bucket
-primal:bucket_clay:0, §fEutectic NaK-Cryotheum Mixture§f Clay Bucket
-primal:bucket_clay:0, §fHot Eutectic NaK-Cryotheum Mixture§f Clay Bucket
-primal:bucket_clay:0, §fMolten Iron§f Clay Bucket
-primal:bucket_clay:0, §fEutectic NaK-Iron Mixture§f Clay Bucket
-primal:bucket_clay:0, §fHot Eutectic NaK-Iron Mixture§f Clay Bucket
 primal:bucket_clay:0, §fMolten Emerald§f Clay Bucket
 primal:bucket_clay:0, §fEutectic NaK-Emerald Mixture§f Clay Bucket
 primal:bucket_clay:0, §fHot Eutectic NaK-Emerald Mixture§f Clay Bucket
@@ -13956,9 +14082,46 @@ primal:bucket_clay:0, §fHot Eutectic NaK-Copper Mixture§f Clay Bucket
 primal:bucket_clay:0, §fMolten Tin§f Clay Bucket
 primal:bucket_clay:0, §fEutectic NaK-Tin Mixture§f Clay Bucket
 primal:bucket_clay:0, §fHot Eutectic NaK-Tin Mixture§f Clay Bucket
+primal:bucket_clay:0, §fMolten Lead§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Lead Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Lead Mixture§f Clay Bucket
+primal:bucket_clay:0, §fMolten Boron§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Boron Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Boron Mixture§f Clay Bucket
+primal:bucket_clay:0, §fMolten Lithium§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Lithium Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Lithium Mixture§f Clay Bucket
 primal:bucket_clay:0, §fMolten Magnesium§f Clay Bucket
 primal:bucket_clay:0, §fEutectic NaK-Magnesium Mixture§f Clay Bucket
 primal:bucket_clay:0, §fHot Eutectic NaK-Magnesium Mixture§f Clay Bucket
+primal:bucket_clay:0, §fMolten Manganese§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Manganese Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Manganese Mixture§f Clay Bucket
+primal:bucket_clay:0, §fMolten Aluminum§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Aluminum Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Aluminum Mixture§f Clay Bucket
+primal:bucket_clay:0, §fMolten Silver§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Silver Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Silver Mixture§f Clay Bucket
+primal:bucket_clay:0, §fMolten Fluorite§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Fluorite Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Fluorite Mixture§f Clay Bucket
+primal:bucket_clay:0, §fMolten Villiaumite§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Villiaumite Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Villiaumite Mixture§f Clay Bucket
+primal:bucket_clay:0, §fMolten Carobbiite§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Carobbiite Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Carobbiite Mixture§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Arsenic Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Arsenic Mixture§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Nitrogen Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Nitrogen Mixture§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Helium Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Helium Mixture§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Enderium Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Enderium Mixture§f Clay Bucket
+primal:bucket_clay:0, §fEutectic NaK-Cryotheum Mixture§f Clay Bucket
+primal:bucket_clay:0, §fHot Eutectic NaK-Cryotheum Mixture§f Clay Bucket
 primal:bucket_clay:0, §fEtching Acid§f Clay Bucket
 primal:bucket_clay:0, §fLiquid Plastic§f Clay Bucket
 primal:bucket_clay:0, §fLPG§f Clay Bucket
@@ -13967,11 +14130,24 @@ primal:bucket_clay:0, §fKerosene§f Clay Bucket
 primal:bucket_clay:0, §fLiquid Clay§f Clay Bucket
 primal:bucket_clay:0, §fWood Tar§f Clay Bucket
 primal:bucket_clay:0, §fCoal Tar§f Clay Bucket
-primal:bucket_clay:0, §fSodium Hydroxide§f Clay Bucket
 primal:bucket_clay:0, §fHydrochloric Acid§f Clay Bucket
+primal:bucket_clay:0, §fNitric Acid§f Clay Bucket
+primal:bucket_clay:0, §fSodium Chloride Solution§f Clay Bucket
+primal:bucket_clay:0, §fSodium Nitrate Solution§f Clay Bucket
+primal:bucket_clay:0, §fLead Nitrate Solution§f Clay Bucket
+primal:bucket_clay:0, §fSodium Tungstate Solution§f Clay Bucket
+primal:bucket_clay:0, §fLead Tungstate Solution§f Clay Bucket
+primal:bucket_clay:0, §fLiquid Hydrogen§f Clay Bucket
+primal:bucket_clay:0, §fLiquid Argon§f Clay Bucket
+primal:bucket_clay:0, §fArgon§f Clay Bucket
+primal:bucket_clay:0, §fNitric Oxide§f Clay Bucket
+primal:bucket_clay:0, §fNitrogen Dioxide§f Clay Bucket
+primal:bucket_clay:0, §fMolten Silicon§f Clay Bucket
+primal:bucket_clay:0, §fMolten Yttrium Aluminum Garnet§f Clay Bucket
+primal:bucket_clay:0, §fMolten Neodymium Doped YAG§f Clay Bucket
+primal:bucket_clay:0, §fSodium Hydroxide§f Clay Bucket
 primal:bucket_clay:0, §fChloromethane§f Clay Bucket
 primal:bucket_clay:0, §fLiquid Ammonia§f Clay Bucket
-primal:bucket_clay:0, §fNitric Acid§f Clay Bucket
 primal:bucket_clay:0, §fSodium Cyanide§f Clay Bucket
 primal:bucket_clay:0, §fLiquid Oxygen§f Clay Bucket
 primal:bucket_clay:0, §fAcrylic Acid§f Clay Bucket
@@ -13990,7 +14166,6 @@ primal:bucket_clay:0, §fSyngas§f Clay Bucket
 primal:bucket_clay:0, §fCompressed Air§f Clay Bucket
 primal:bucket_clay:0, §fRefined Air§f Clay Bucket
 primal:bucket_clay:0, §fCooled Air§f Clay Bucket
-primal:bucket_clay:0, §fArgon§f Clay Bucket
 primal:bucket_clay:0, §fNeon§f Clay Bucket
 primal:bucket_clay:0, §fKrypton§f Clay Bucket
 primal:bucket_clay:0, §fXenon§f Clay Bucket
@@ -15152,6 +15327,23 @@ iceandfire:myrmex_desert_resin_glass, Desert Myrmex Resin Glass
 iceandfire:myrmex_jungle_resin_glass, Jungle Myrmex Resin Glass
 iceandfire:dragonsteel_fire_block, Block of Fire Dragonsteel
 iceandfire:dragonsteel_ice_block, Block of Ice Dragonsteel
+iceandfire:dread_stone, Dreadstone
+iceandfire:dread_stone_bricks, Dreadstone Bricks
+iceandfire:dread_stone_bricks_chiseled, Chiseled Dreadstone Bricks
+iceandfire:dread_stone_bricks_cracked, Cracked Dreadstone Bricks
+iceandfire:dread_stone_bricks_mossy, Mossy Dreadstone Bricks
+iceandfire:dread_stone_tile, Dreadstone Tile
+iceandfire:dread_stone_face, Dreadstone Chiseled Skull
+iceandfire:dread_torch, Dreadstone Torch
+iceandfire:dread_stone_stairs, Dreadstone Bricks Stairs
+iceandfire:dread_stone_slab_double:0, Dreadstone Bricks Slab
+iceandfire:dread_stone_slab:0, Dreadstone Bricks Slab
+iceandfire:dreadwood_log, Dreadwood Log
+iceandfire:dreadwood_planks, Dreadwood Planks
+iceandfire:dreadwood_planks_lock, Dreadwood Keyhole
+iceandfire:dread_portal, Dread Lands Portal
+iceandfire:dread_spawner, Dreadstone Mob Spawner
+iceandfire:burnt_torch, Burnt Out Torch
 iceandfire:sea_serpent_scale_block_blue, Block of Sea Serpent Scales
 iceandfire:sea_serpent_scale_block_bronze, Block of Sea Serpent Scales
 iceandfire:sea_serpent_scale_block_deepblue, Block of Sea Serpent Scales
@@ -15244,6 +15436,8 @@ iceandfire:dragon_horn, Dragon Horn
 iceandfire:dragon_horn_fire, Dragon Horn
 iceandfire:dragon_horn_ice, Dragon Horn
 iceandfire:dragon_flute, Dragon Bone Flute
+iceandfire:summoning_crystal_fire, Fire Dragon Summoning Crystal
+iceandfire:summoning_crystal_ice, Ice Dragon Summoning Crystal
 iceandfire:hippogryph_egg:0, Hippogryph Egg
 iceandfire:hippogryph_egg:1, Hippogryph Egg
 iceandfire:hippogryph_egg:2, Hippogryph Egg
@@ -15371,6 +15565,18 @@ iceandfire:dragonsteel_ice_helmet, Ice Dragonsteel Helmet
 iceandfire:dragonsteel_ice_chestplate, Ice Dragonsteel Chestplate
 iceandfire:dragonsteel_ice_leggings, Ice Dragonsteel Leggings
 iceandfire:dragonsteel_ice_boots, Ice Dragonsteel Boots
+iceandfire:weezer_blue_album, Weezer
+iceandfire:dragon_debug_stick, Dragon Debug Stick
+iceandfire:dread_sword, Dread Thrall's Sword
+iceandfire:dread_knight_sword, Dread Knight's Sword
+iceandfire:lich_staff, Dread Lich Staff
+iceandfire:dread_queen_sword, Blade of the Dreaded Queen
+iceandfire:dread_queen_staff, Staff of the Dreaded Queen
+iceandfire:dread_shard, Dread Shard
+iceandfire:dread_key, §bGravemaster's Key§r
+iceandfire:hydra_fang, Hydra Fang
+iceandfire:hydra_heart, Hydra Heart
+iceandfire:hydra_arrow, Hydra Arrow
 iceandfire:armor_red_helmet, Dragon Scale Helmet
 iceandfire:armor_red_chestplate, Dragon Scale Chestplate
 iceandfire:armor_red_leggings, Dragon Scale Leggings
@@ -15467,6 +15673,7 @@ iceandfire:stymphalian_skull, Stymphalian Bird Skull
 iceandfire:troll_skull, Troll Skull
 iceandfire:amphithere_skull, Amphithere Skull
 iceandfire:seaserpent_skull, Sea Serpent Skull
+iceandfire:hydra_skull, Hydra Skull
 immersivepetroleum:metal_device:0, Automatic Lubricator
 immersivepetroleum:metal_device:1, Portable Generator
 immersivepetroleum:stone_decoration, tile.immersivepetroleum.stone_decoration.name
@@ -15479,16 +15686,12 @@ immersivepetroleum:upgrades:2, Expanded Fuel Tank
 immersivepetroleum:upgrades:3, Maneuvering Rudders
 immersivepetroleum:upgrades:4, Emergency Paddles
 immersivepetroleum:oil_can, Lubricant Can
-immersivetech:stone_multiblock, tile.immersivetech.stone_multiblock.name
-immersivetech:connectors, tile.immersivetech.connectors.name
-immersivetech:metal_device, tile.immersivetech.metal_device.name
-immersivetech:stone_decoration, tile.immersivetech.stone_decoration.name
-immersivetech:material:0, Salt
 industrialrenewal:chunk_hematite, Hematite Chunk
 industrialrenewal:ir_manual, Industrial Renewal Manual
 industrialrenewal:ingot_steel, Steel Ingot
 industrialrenewal:sponge_iron, Sponge Iron
 industrialrenewal:screwdrive, Powered Screwdrive
+industrialrenewal:cart_linkable, item.industrialrenewal.cart_linkable.name
 industrialrenewal:steel_saw, Steel Saw
 industrialrenewal:cargo_container, Cargo Cart
 industrialrenewal:cart_hopper, Bulk Cargo Cart
@@ -15511,20 +15714,21 @@ industrialrenewal:cartridge_minus, Redstone Cartridge Minus
 industrialrenewal:cartridge_half, Redstone Cartridge Half
 industrialrenewal:cartridge_double, Redstone Cartridge Double
 industrialrenewal:cartridge_inverter, Redstone Cartridge Inverter
+industrialrenewal:coil_hv, Ultra-HV Wire Coil
 industrialrenewal:pointer, item.industrialrenewal.pointer.name
+industrialrenewal:limiter, item.industrialrenewal.limiter.name
 industrialrenewal:pointer_long, item.industrialrenewal.pointer_long.name
 industrialrenewal:bar_level, item.industrialrenewal.bar_level.name
 industrialrenewal:fire, item.industrialrenewal.fire.name
 industrialrenewal:barrel_item, Barrel
 industrialrenewal:firebox_solid, Firebox for Solid Fuel
-industrialrenewal:firebox_fluid, Firebox for Fluid Fuel
+industrialrenewal:firebox_fluid, Firebox for Liquid Fuel
 industrialrenewal:battery, Battery
 industrialrenewal:motor, Motor
 industrialrenewal:small_wind_blade, Wind Generator Blades
-industrialrenewal:drill_steel, item.industrialrenewal.drill_steel.name
-industrialrenewal:drill_diamond, item.industrialrenewal.drill_diamond.name
 industrialrenewal:fluid_loader_arm, item.industrialrenewal.fluid_loader_arm.name
 industrialrenewal:rotary_drum, item.industrialrenewal.rotary_drum.name
+industrialrenewal:lathecutter, item.industrialrenewal.lathecutter.name
 industrialrenewal:orevein_hematite, Hematite
 industrialrenewal:block_hazard, Physical Hazard
 industrialrenewal:aisle_hazard, Housekeeping and Aisle Hazard
@@ -15534,6 +15738,7 @@ industrialrenewal:fire_hazard, Fire Prevention Hazard
 industrialrenewal:radiation_hazard, Radiation Hazard
 industrialrenewal:safety_hazard, Safety and First Aid Hazard
 industrialrenewal:concrete, Concrete
+industrialrenewal:block_steel, Block of Steel
 industrialrenewal:platform, Platform
 industrialrenewal:roof, Roof
 industrialrenewal:frame, Rail Frame
@@ -15555,6 +15760,7 @@ industrialrenewal:catwalk_ladder_steel, Caged Steel Ladder
 industrialrenewal:catwalk_steel_pillar, Steel Pillar
 industrialrenewal:catwalk_column_steel, Steel Column
 industrialrenewal:brace_steel, Steel Brace Beam
+industrialrenewal:lathe, Lathe Machine
 industrialrenewal:alarm, Industrial Alarm
 industrialrenewal:entity_detector, Entity Detector
 industrialrenewal:flame_detector, Flame Detector
@@ -15578,14 +15784,21 @@ industrialrenewal:wall_concrete, Concrete Wall
 industrialrenewal:fence_big_wire, Big Fence Wire
 industrialrenewal:electric_gate, Electric Gate
 industrialrenewal:razor_wire, Razor Wire
-industrialrenewal:dam_intake, tile.industrialrenewal.dam_intake.name
+industrialrenewal:dam_intake, Dam Intake
+industrialrenewal:dam_outflow, Dam OutFlow
 industrialrenewal:sign_hv, Hazard Sign
 industrialrenewal:fluorescent, Fluorescent Light
 industrialrenewal:light, External Light
 industrialrenewal:industrial_floor, Industrial Floor
-industrialrenewal:energy_cable, Energy Cable
+industrialrenewal:isolator_hv, Ultra-HV Isolator
+industrialrenewal:energy_cable_lv, Energy Cable LV
+industrialrenewal:energy_cable, Energy Cable MV
+industrialrenewal:energy_cable_hv, Energy Cable HV
+industrialrenewal:cable_tray, Cable Tray
 industrialrenewal:fluid_pipe, Fluid Pipe
+industrialrenewal:energy_switch, Energy Breaker
 industrialrenewal:valve_pipe_large, Fluid Valve
+industrialrenewal:infinity_generator, Creative Infinity §mScam§r §fEnergy Generator
 industrialrenewal:solar_panel, Basic Solar Panel
 industrialrenewal:solar_panel_frame, Solar Panel Frame
 industrialrenewal:small_wind_turbine, Wind Turbine
@@ -15603,33 +15816,19 @@ industrialrenewal:fluid_gauge, Fluid Gauge
 industrialrenewal:energy_level, Energy Level Indicator
 industrialrenewal:button_red, Emergency Button
 industrialrenewal:battery_bank, Battery Bank
-industrialrenewal:electric_pump, Electric Pump (WIP)
+industrialrenewal:electric_pump, Electric Pump
 industrialrenewal:trash, Trash Bin
+industrialrenewal:transformer_hv, Ultra-HV Transformer
+industrialrenewal:dam_turbine, Dam Turbine
+industrialrenewal:dam_generator, Dam Generator
+industrialrenewal:dam_axis, Turbine Shaft
+industrialrenewal:high_pressure_pipe, High Pressure Pipe
 industrialrenewal:steam_boiler, Steam Boiler
 industrialrenewal:steam_turbine, Steam Turbine
-industrialrenewal:mining, tile.industrialrenewal.mining.name
-industrialrenewal:steam, Steam
 industrialrenewal:eotm, Employee of the Month Award
 industrialrenewal:chunk_loader, Chunk Loader
 industrialrenewal:conveyor_bulk, Bulk Conveyor
-ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
-ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
-ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
-ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
-ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
-ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
-ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
-ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
-ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
-ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
-ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
-ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
-ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
-ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
-ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
-ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
-ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
-ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
+industrialrenewal:steam, Steam
 ironchest:iron_chest:0, Iron Chest
 ironchest:iron_chest:1, Gold Chest
 ironchest:iron_chest:2, Diamond Chest
@@ -15750,6 +15949,24 @@ ironchest:iron_shulker_box_black:3, Black Copper Shulker Box
 ironchest:iron_shulker_box_black:4, Black Silver Shulker Box
 ironchest:iron_shulker_box_black:5, Black Crystal Shulker Box
 ironchest:iron_shulker_box_black:6, Black Obsidian Shulker Box
+ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
+ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
+ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
+ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
+ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
+ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
+ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
+ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
+ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
+ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
+ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
+ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
+ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
+ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
+ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
+ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
+ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
+ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 littletiles:hammer:0, Little Hammer
 littletiles:recipe:0, Little Recipe
 littletiles:recipeadvanced:0, Advanced Recipe
@@ -15760,9 +15977,6 @@ littletiles:screwdriver:0, Little Screwdriver
 littletiles:chisel:0, Little Chisel
 littletiles:colortube:0, Little Paint Brush
 littletiles:grabber:0, Little Glove
-littletiles:premade:0, Little Importer
-littletiles:premade:0, Little Exporter
-littletiles:premade:0, Little Workbench
 littletiles:ltstorageblocktile, Little Storage Block
 littletiles:ltparticleblock, Little Particle Block
 littletiles:ltcoloredblock:0, Colored Block Clean
@@ -15792,6 +16006,23 @@ littletiles:lttransparentcoloredblock:3, Colored Block Thinner
 littletiles:lttransparentcoloredblock:4, Colored Block Thinnest
 littletiles:lttransparentcoloredblock:5, Water
 littletiles:lttransparentcoloredblock:6, White Water
+littletiles:ltsinglecable, tile.ltsinglecable.name
+littletiles:ltinput, tile.ltinput.name
+littletiles:ltoutput, tile.ltoutput.name
+immersivetech:connectors, tile.immersivetech.connectors.name
+immersivetech:metal_trash:0, Trash Can
+immersivetech:metal_trash:1, Fluid Trash Can
+immersivetech:metal_trash:2, Energy Trash Can
+immersivetech:metal_barrel:0, Creative Metal Barrel
+immersivetech:metal_barrel:1, Open Metal Barrel
+immersivetech:metal_barrel:2, Steel Metal Barrel
+immersivetech:valve:0, Fluid Valve
+immersivetech:valve:1, Load Controller
+immersivetech:valve:2, Stack Limiter
+immersivetech:metal_device, tile.immersivetech.metal_device.name
+immersivetech:stone_decoration, tile.immersivetech.stone_decoration.name
+immersivetech:wooden_crate, tile.immersivetech.wooden_crate.name
+immersivetech:material:0, Salt
 modularmachinery:itemblueprint, Machine Blueprint
 modularmachinery:itemmodularium, Modularium
 modularmachinery:itemconstructtool, Construct Selection Tool
@@ -15883,23 +16114,6 @@ modularmachinery:blockenergyoutputhatch:4, Big Energy Output Hatch
 modularmachinery:blockenergyoutputhatch:5, Huge Energy Output Hatch
 modularmachinery:blockenergyoutputhatch:6, Ludicrous Energy Output Hatch
 modularmachinery:blockenergyoutputhatch:7, Ultimate Energy Output Hatch
-pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
-pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
-pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
-pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
-pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
-pneumaticcraft:heat_frame, Heat Frame
-pneumaticcraft:spawner_agitator, Spawner Agitator
-pneumaticcraft:crop_support, Crop Support
-pneumaticcraft:transfer_gadget, Transfer Gadget
-pneumaticcraft:safety_tube_module, Safety Tube Module
-pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
-pneumaticcraft:flow_detector_module, Flow Detector Tube Module
-pneumaticcraft:air_grate_module, Air Grate Tube Module
-pneumaticcraft:regulator_tube_module, Regulator Tube Module
-pneumaticcraft:charging_module, Charging Module
-pneumaticcraft:logistics_module, Logistics Module
-pneumaticcraft:redstone_module, Redstone Screen Module
 pneumaticcraft:gps_tool, GPS Tool
 pneumaticcraft:gps_area_tool, GPS Area Tool
 pneumaticcraft:ingot_iron_compressed, Compressed Iron Ingot
@@ -16051,11 +16265,28 @@ pneumaticcraft:thermal_compressor, Thermal Compressor
 pneumaticcraft:drone_interface, Drone Interface
 pneumaticcraft:electric_compressor, Electric Compressor
 pneumaticcraft:pneumatic_generator, Pneumatic Generator
-pneumaticcraft:fluid.plastic, Plastic
 pneumaticcraft:fluid.lpg, LPG
 pneumaticcraft:fluid.etchacid, Etching Acid
 pneumaticcraft:fluid.kerosene, Kerosene
+pneumaticcraft:fluid.plastic, Plastic
 pneumaticcraft:fluid.fuel, Gasoline
+pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
+pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
+pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
+pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
+pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
+pneumaticcraft:heat_frame, Heat Frame
+pneumaticcraft:spawner_agitator, Spawner Agitator
+pneumaticcraft:crop_support, Crop Support
+pneumaticcraft:transfer_gadget, Transfer Gadget
+pneumaticcraft:safety_tube_module, Safety Tube Module
+pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
+pneumaticcraft:flow_detector_module, Flow Detector Tube Module
+pneumaticcraft:air_grate_module, Air Grate Tube Module
+pneumaticcraft:regulator_tube_module, Regulator Tube Module
+pneumaticcraft:charging_module, Charging Module
+pneumaticcraft:logistics_module, Logistics Module
+pneumaticcraft:redstone_module, Redstone Screen Module
 pyrotech:fluid.liquid_clay, Liquid Clay
 pyrotech:rock:0, Stone Rock
 pyrotech:rock:1, Granite Rock
@@ -16334,18 +16565,27 @@ rs_ctr:fluid_translocator, controlled Fluid Translocator
 rs_ctr:energy_valve, Power Regulator
 rs_ctr:panel, Control Panel
 rs_ctr:solar_cell, Solar Cell
-rs_ctr:block_breaker, controlled Block Breaker
+rs_ctr:block_breaker, controlled Block Miner
+rs_ctr:block_breaker1, controlled Block Breaker
 rs_ctr:item_placer, controlled Item User
 rs_ctr:frame, 3D Block Frame
 rs_ctr:block_selector, 3D Block Selector
+rs_ctr:oc_adapter, Signal IO Controller
+rs_ctr:ram, external RAM chip [%sbit]
+rs_ctr:chunk_loader, Chunk Loader
 rs_ctr:wire, Signal Wire
 rs_ctr:wire_e, Energy Wire
 rs_ctr:block_wire, Block Reference Wire
+rs_ctr:split_s, Signal Splitter Plug
+rs_ctr:split_b, Block Reference Splitter Plug
 rs_ctr:wireless, Wireless Signal Connector
+rs_ctr:wireless_b, Wireless Block Reference Connector
 rs_ctr:constant, Constant Plug
 rs_ctr:lamp, Signal Status Lamp
 rs_ctr:tag, Wire Tag
 rs_ctr:clock, Clock Plug
+rs_ctr:edge_trigger:0, Toggle Latch Plug:§e ⍏ ⟹ ⇵
+rs_ctr:pulse_gen, Pulse Generator Plug
 rs_ctr:seg7, 7-Segment Display Module
 rs_ctr:pointer_dsp, Analog Display Module
 rs_ctr:slider, Slider Module
@@ -16356,7 +16596,13 @@ rs_ctr:text:4, full Text Module
 rs_ctr:lever:0, Lever Module
 rs_ctr:lever:1, Lamp-Switch Module
 rs_ctr:lever:2, Lamp-Button Module
+rs_ctr:trigger, Signal Threshold Latch
+rs_ctr:scale, Signal Scaler
+rs_ctr:offset, Signal Offset
+rs_ctr:oscilloscope, Oscilloscope Screen
 rs_ctr:wrench, Screwdriver
+rs_ctr:cl_fuel, Runtime [§a%d:%02d h§r]
+rs_ctr:signal_probe, Signal Probe Monitor
 rflux:lightblock_on, Light Block (on)
 rflux:lightblock_off, Light Block (off)
 rflux:flatlightblock_on, Flat Light Block (on)
@@ -16525,6 +16771,52 @@ gbook:guidebook:0, Demo / Feature test book
 gbook:guidebook:0, Guidebook Manual
 gbook:guidebook:0, Rockhounding Chemistry Quest Book
 gbook:guidebook:0, Rockhounding Chemistry Guide book
+rockhounding_chemistry:fluid.silicone, Silicone
+rockhounding_chemistry:fluid.molten_cunife, Molten CuNiFe
+rockhounding_chemistry:fluid.molten_scal, Molten ScAl
+rockhounding_chemistry:fluid.coal_slurry, Coal Slurry
+rockhounding_chemistry:fluid.molten_stellite, Molten Stellite
+rockhounding_chemistry:fluid.organic_slurry, Organic Slurry
+rockhounding_chemistry:fluid.molten_titanium, Molten Titanium
+rockhounding_chemistry:fluid.virgin_water, Virgin Water
+rockhounding_chemistry:fluid.toxic_waste, Toxic Waste
+rockhounding_chemistry:fluid.molten_nichrome, Molten Nichrome
+rockhounding_chemistry:fluid.sodium_cyanide, Sodium Cyanide
+rockhounding_chemistry:fluid.molten_cube, Molten CuBe
+rockhounding_chemistry:fluid.molten_nimonic, Molten Nimonic
+rockhounding_chemistry:fluid.liquid_ammonia, Liquid Ammonia
+rockhounding_chemistry:fluid.acrylic_acid, Acrylic Acid
+rockhounding_chemistry:fluid.molten_cupronickel, Molten Cupronickel
+rockhounding_chemistry:fluid.refined_air, Refined Air
+rockhounding_chemistry:fluid.syngas, Syngas
+rockhounding_chemistry:fluid.flue_gas, Flue Gas
+rockhounding_chemistry:fluid.leachate, Leachate
+rockhounding_chemistry:fluid.water_vapour, Water Vapour
+rockhounding_chemistry:fluid.molten_pewter, Molten Pewter
+rockhounding_chemistry:fluid.molten_bam, Molten BAM
+rockhounding_chemistry:fluid.raw_flue_gas, Raw Flue Gas
+rockhounding_chemistry:fluid.dense_brine, Dense Brine
+rockhounding_chemistry:fluid.molten_hydronalium, Molten Hydronalium
+rockhounding_chemistry:fluid.compressed_air, Compressed Air
+rockhounding_chemistry:fluid.molten_corten, Molten Corten Steel
+rockhounding_chemistry:fluid.molten_zircaloy, Molten Zircaloy
+rockhounding_chemistry:fluid.molten_hastelloy, Molten Hastelloy
+rockhounding_chemistry:fluid.molten_vanasteel, Molten Vanasteel
+rockhounding_chemistry:fluid.molten_tantaloy, Molten Tantaloy
+rockhounding_chemistry:fluid.molten_nial, Molten NiAl
+rockhounding_chemistry:fluid.krypton, Krypton
+rockhounding_chemistry:fluid.xenon, Xenon
+rockhounding_chemistry:fluid.mother_liquor, Mother Liquor
+rockhounding_chemistry:fluid.sodium_hydroxide, Sodium Hydroxide
+rockhounding_chemistry:fluid.chloromethane, Chloromethane
+rockhounding_chemistry:fluid.raw_syngas, Raw Syngas
+rockhounding_chemistry:fluid.molten_vanadium, Molten Vanadium
+rockhounding_chemistry:fluid.molten_inconel, Molten Inconel
+rockhounding_chemistry:fluid.cooled_air, Cooled Air
+rockhounding_chemistry:fluid.salt_brine, Saturated Brine
+rockhounding_chemistry:fluid.toxic_sludge, Toxic Sludge
+rockhounding_chemistry:fluid.liquid_oxygen, Liquid Oxygen
+rockhounding_chemistry:fluid.neon, Neon
 rockhounding_chemistry:uninspected_mineral, Uninspected Mineral
 rockhounding_chemistry:mineral_ores:0, Antimonate Gangue
 rockhounding_chemistry:mineral_ores:1, Arsenate Gangue
@@ -17258,55 +17550,6 @@ rockhounding_chemistry:probe_items:1, Copper probe
 rockhounding_chemistry:probe_items:2, NIB Probe
 rockhounding_chemistry:probe_items:3, CoSm Probe
 rockhounding_chemistry:mob_items:0, Toxic Slimeball
-rockhounding_chemistry:fluid.chloromethane, Chloromethane
-rockhounding_chemistry:fluid.molten_inconel, Molten Inconel
-rockhounding_chemistry:fluid.organic_slurry, Organic Slurry
-rockhounding_chemistry:fluid.liquid_oxygen, Liquid Oxygen
-rockhounding_chemistry:fluid.molten_scal, Molten ScAl
-rockhounding_chemistry:fluid.salt_brine, Saturated Brine
-rockhounding_chemistry:fluid.molten_vanasteel, Molten Vanasteel
-rockhounding_chemistry:fluid.virgin_water, Virgin Water
-rockhounding_chemistry:fluid.compressed_air, Compressed Air
-rockhounding_chemistry:fluid.molten_cunife, Molten CuNiFe
-rockhounding_chemistry:fluid.sodium_hydroxide, Sodium Hydroxide
-rockhounding_chemistry:fluid.coal_slurry, Coal Slurry
-rockhounding_chemistry:fluid.dense_brine, Dense Brine
-rockhounding_chemistry:fluid.cooled_air, Cooled Air
-rockhounding_chemistry:fluid.liquid_ammonia, Liquid Ammonia
-rockhounding_chemistry:fluid.molten_nimonic, Molten Nimonic
-rockhounding_chemistry:fluid.hydrochloric_acid, Hydrochloric Acid
-rockhounding_chemistry:fluid.molten_vanadium, Molten Vanadium
-rockhounding_chemistry:fluid.molten_zircaloy, Molten Zircaloy
-rockhounding_chemistry:fluid.raw_syngas, Raw Syngas
-rockhounding_chemistry:fluid.syngas, Syngas
-rockhounding_chemistry:fluid.molten_tantaloy, Molten Tantaloy
-rockhounding_chemistry:fluid.neon, Neon
-rockhounding_chemistry:fluid.molten_hastelloy, Molten Hastelloy
-rockhounding_chemistry:fluid.molten_pewter, Molten Pewter
-rockhounding_chemistry:fluid.molten_cube, Molten CuBe
-rockhounding_chemistry:fluid.refined_air, Refined Air
-rockhounding_chemistry:fluid.toxic_sludge, Toxic Sludge
-rockhounding_chemistry:fluid.molten_stellite, Molten Stellite
-rockhounding_chemistry:fluid.molten_cupronickel, Molten Cupronickel
-rockhounding_chemistry:fluid.argon, Argon
-rockhounding_chemistry:fluid.xenon, Xenon
-rockhounding_chemistry:fluid.molten_nichrome, Molten Nichrome
-rockhounding_chemistry:fluid.mother_liquor, Mother Liquor
-rockhounding_chemistry:fluid.toxic_waste, Toxic Waste
-rockhounding_chemistry:fluid.sodium_cyanide, Sodium Cyanide
-rockhounding_chemistry:fluid.acrylic_acid, Acrylic Acid
-rockhounding_chemistry:fluid.leachate, Leachate
-rockhounding_chemistry:fluid.molten_bam, Molten BAM
-rockhounding_chemistry:fluid.molten_titanium, Molten Titanium
-rockhounding_chemistry:fluid.molten_hydronalium, Molten Hydronalium
-rockhounding_chemistry:fluid.water_vapour, Water Vapour
-rockhounding_chemistry:fluid.nitric_acid, Nitric Acid
-rockhounding_chemistry:fluid.molten_nial, Molten NiAl
-rockhounding_chemistry:fluid.molten_corten, Molten Corten Steel
-rockhounding_chemistry:fluid.krypton, Krypton
-rockhounding_chemistry:fluid.flue_gas, Flue Gas
-rockhounding_chemistry:fluid.raw_flue_gas, Raw Flue Gas
-rockhounding_chemistry:fluid.silicone, Silicone
 merpig:seagrassonastick, Seagrass on a stick
 techguns:basicmachine:0, Ammo Press
 techguns:basicmachine:1, Metal Press
@@ -18291,7 +18534,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Draconium Block
 chiselsandbits:block_bit:0, Chiseled Bit - Awakened Draconium Block
 chiselsandbits:block_bit:0, Chiseled Bit - Draconium Infused Obsidian
 chiselsandbits:block_bit:0, Chiseled Bit - Dislocation Normalization Field Projector
-chiselsandbits:block_bit:0, Chiseled Bit - Rusty Ladder
 chiselsandbits:block_bit:0, Chiseled Bit - Copper Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Tin Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Lead Ore
@@ -18323,10 +18565,13 @@ chiselsandbits:block_bit:0, Chiseled Bit - Americium-243 Block
 chiselsandbits:block_bit:0, Chiseled Bit - Curium-246 Block
 chiselsandbits:block_bit:0, Chiseled Bit - Berkelium-247 Block
 chiselsandbits:block_bit:0, Chiseled Bit - Californium-252 Block
+chiselsandbits:block_bit:0, Chiseled Bit - Beryllium-Carbon Neutron Reflector
+chiselsandbits:block_bit:0, Chiseled Bit - Lead-Steel Neutron Reflector
 chiselsandbits:block_bit:0, Chiseled Bit - Wasteland Earth
 chiselsandbits:block_bit:0, Chiseled Bit - Tritium Lamp
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Chamelium
 chiselsandbits:block_bit:0, Chiseled Bit - End Stone
+chiselsandbits:block_bit:0, Chiseled Bit - Tungsten Carbide Neutron Reflector
 chiselsandbits:block_bit:0, Chiseled Bit - Dilithium Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Copper Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Tin Ore
@@ -20575,9 +20820,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Silver Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Platinum Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Posirite Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Negarite Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Uranium Ore
-chiselsandbits:block_bit:0, Chiseled Bit - Sugar Block
-chiselsandbits:block_bit:0, Chiseled Bit - Gravisand
 chiselsandbits:block_bit:0, Chiseled Bit - Lit Redstone Lamp
 chiselsandbits:block_bit:0, Chiseled Bit - Blaze Lantern
 chiselsandbits:block_bit:0, Chiseled Bit - Polished Sandstone
@@ -20706,6 +20948,8 @@ chiselsandbits:block_bit:0, Chiseled Bit - Elder Prismarine
 chiselsandbits:block_bit:0, Chiseled Bit - Elder Prismarine Bricks
 chiselsandbits:block_bit:0, Chiseled Bit - Dark Elder Prismarine
 chiselsandbits:block_bit:0, Chiseled Bit - Elder Sea Lantern
+chiselsandbits:block_bit:0, Chiseled Bit - Sugar Block
+chiselsandbits:block_bit:0, Chiseled Bit - Gravisand
 chiselsandbits:block_bit:0, Chiseled Bit - Height Sensor
 chiselsandbits:block_bit:0, Chiseled Bit - Compact Machine Wall
 chiselsandbits:block_bit:0, Chiseled Bit - Kitchen Floor
@@ -20743,6 +20987,16 @@ chiselsandbits:block_bit:0, Chiseled Bit - Sticky Desert Myrmex Resin
 chiselsandbits:block_bit:0, Chiseled Bit - Sticky Jungle Myrmex Resin
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Fire Dragonsteel
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Ice Dragonsteel
+chiselsandbits:block_bit:0, Chiseled Bit - Dreadstone
+chiselsandbits:block_bit:0, Chiseled Bit - Dreadstone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Dreadstone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Cracked Dreadstone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Mossy Dreadstone Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Dreadstone Tile
+chiselsandbits:block_bit:0, Chiseled Bit - Dreadstone Chiseled Skull South
+chiselsandbits:block_bit:0, Chiseled Bit - Dreadwood Log Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Dreadwood Planks
+chiselsandbits:block_bit:0, Chiseled Bit - Dreadwood Keyhole
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Sea Serpent Scales
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Sea Serpent Scales
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Sea Serpent Scales
@@ -20751,7 +21005,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Block of Sea Serpent Scales
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Sea Serpent Scales
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Sea Serpent Scales
 chiselsandbits:block_bit:0, Chiseled Bit - Asphalt Concrete
-chiselsandbits:block_bit:0, Chiseled Bit - Reinforced Coke Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Physical Hazard
 chiselsandbits:block_bit:0, Chiseled Bit - Housekeeping and Aisle Hazard
 chiselsandbits:block_bit:0, Chiseled Bit - Traffic and Caution Hazard
@@ -20759,6 +21012,7 @@ chiselsandbits:block_bit:0, Chiseled Bit - Defective Machinery Hazard
 chiselsandbits:block_bit:0, Chiseled Bit - Fire Prevention Hazard
 chiselsandbits:block_bit:0, Chiseled Bit - Radiation Hazard
 chiselsandbits:block_bit:0, Chiseled Bit - Safety and First Aid Hazard
+chiselsandbits:block_bit:0, Chiseled Bit - Block of Steel
 chiselsandbits:block_bit:0, Chiseled Bit - Little Storage Block
 chiselsandbits:block_bit:0, Chiseled Bit - Colored Block Clean
 chiselsandbits:block_bit:0, Chiseled Bit - Colored Block Floor
@@ -20780,6 +21034,9 @@ chiselsandbits:block_bit:0, Chiseled Bit - Colored Block Sand
 chiselsandbits:block_bit:0, Chiseled Bit - Colored Block Stone
 chiselsandbits:block_bit:0, Chiseled Bit - Colored Block Wood
 chiselsandbits:block_bit:0, Chiseled Bit - White Opaque Water
+chiselsandbits:block_bit:0, Chiseled Bit - tile.ltinput.name Down
+chiselsandbits:block_bit:0, Chiseled Bit - tile.ltoutput.name Down
+chiselsandbits:block_bit:0, Chiseled Bit - Reinforced Coke Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Log Pile Up/Down
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Coal Coke
 chiselsandbits:block_bit:0, Chiseled Bit - Straw Bale
@@ -20910,32 +21167,34 @@ chiselsandbits:block_bit:0, Chiseled Bit - Square Neon Light
 chiselsandbits:block_bit:0, Chiseled Bit - Hardened Sand
 chiselsandbits:block_bit:0, Chiseled Bit - Strange Glowing Eggs
 chiselsandbits:block_bit:0, Chiseled Bit - Barrier §4Alpha
-chiselsandbits:block_bit:0, Chiseled Bit - Barrier §4Alpha
-chiselsandbits:block_bit:0, Chiseled Bit - Barrier §4Alpha
-chiselsandbits:block_bit:0, Chiseled Bit - Barrier §4Alpha
-chiselsandbits:block_bit:0, Chiseled Bit - Barrier §4Alpha
-chiselsandbits:block_bit:0, Chiseled Bit - Barrier §4Alpha
-chiselsandbits:block_bit:0, Chiseled Bit - Barrier §4Alpha
-chiselsandbits:block_bit:0, Chiseled Bit - Barrier §4Alpha
-chiselsandbits:block_bit:0, Chiseled Bit - Barrier §4Alpha
-chiselsandbits:block_bit:0, Chiseled Bit - Barrier §4Alpha
-chiselsandbits:block_bit:0, Chiseled Bit - Barrier §4Alpha
-chiselsandbits:block_bit:0, Chiseled Bit - Barrier §4Alpha
-chiselsandbits:block_bit:0, Chiseled Bit - Barrier §4Alpha
-chiselsandbits:block_bit:0, Chiseled Bit - Barrier §4Alpha
-chiselsandbits:block_bit:0, Chiseled Bit - Barrier §4Alpha
-chiselsandbits:block_bit:0, Chiseled Bit - Barrier §4Alpha
-chiselsandbits:block_bit:0, Chiseled Bit - Hastealloy Sheetmetal
+chiselsandbits:block_bit:0, Chiseled Bit - Barrier §6Beta
+chiselsandbits:block_bit:0, Chiseled Bit - Barrier §eGamma
+chiselsandbits:block_bit:0, Chiseled Bit - Barrier §2Delta
+chiselsandbits:block_bit:0, Chiseled Bit - Barrier §3Epsilon
+chiselsandbits:block_bit:0, Chiseled Bit - Barrier §1Zeta
+chiselsandbits:block_bit:0, Chiseled Bit - Barrier §5Eta
+chiselsandbits:block_bit:0, Chiseled Bit - Barrier §8Theta
+chiselsandbits:block_bit:0, Chiseled Bit - Crystalline Bedrock
+chiselsandbits:block_bit:0, Chiseled Bit - Rocky Bedrock
+chiselsandbits:block_bit:0, Chiseled Bit - Aquatic Bedrock
+chiselsandbits:block_bit:0, Chiseled Bit - Frozen Bedrock
+chiselsandbits:block_bit:0, Chiseled Bit - Fiery Bedrock
+chiselsandbits:block_bit:0, Chiseled Bit - Organic Bedrock
+chiselsandbits:block_bit:0, Chiseled Bit - Magical Bedrock
+chiselsandbits:block_bit:0, Chiseled Bit - Void Bedrock
 chiselsandbits:block_bit:0, Chiseled Bit - Reactor Internals
 chiselsandbits:block_bit:0, Chiseled Bit - Column Internals
+chiselsandbits:block_bit:0, Chiseled Bit - Steel Casing
+chiselsandbits:block_bit:0, Chiseled Bit - Invar Casing
 chiselsandbits:block_bit:0, Chiseled Bit - Compressed Sawdust
-chiselsandbits:block_bit:0, Chiseled Bit - Stainless Steel Sheetmetal
+chiselsandbits:block_bit:0, Chiseled Bit - Stainless Steel Casing
 chiselsandbits:block_bit:0, Chiseled Bit - Membrane
-chiselsandbits:block_bit:0, Chiseled Bit - Titanium Sheetmetal
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Alumina
+chiselsandbits:block_bit:0, Chiseled Bit - Hastealloy Casing
 chiselsandbits:block_bit:0, Chiseled Bit - Compressed Bark
 chiselsandbits:block_bit:0, Chiseled Bit - Advanced Reactor Internals
 chiselsandbits:block_bit:0, Chiseled Bit - Separator Internals
+chiselsandbits:block_bit:0, Chiseled Bit - Titanium Casing
 chiselsandbits:block_bit:0, Chiseled Bit - Scrap Iron Block
 chiselsandbits:block_bit:0, Chiseled Bit - Compact Raw Porkchop
 chiselsandbits:block_bit:0, Chiseled Bit - Boat Energy Battery
@@ -21084,19 +21343,14 @@ chiselsandbits:block_bit:0, Chiseled Bit
 chiselsandbits:block_bit:0, Chiseled Bit
 chiselsandbits:block_bit:0, Chiseled Bit
 chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
-chiselsandbits:block_bit:0, Chiseled Bit
 chiselsandbits:block_bit:0, Chiseled Bit - Oxygen
 chiselsandbits:block_bit:0, Chiseled Bit - Hydrogen
 chiselsandbits:block_bit:0, Chiseled Bit - Deuterium
 chiselsandbits:block_bit:0, Chiseled Bit - Tritium
 chiselsandbits:block_bit:0, Chiseled Bit - Helium-3
 chiselsandbits:block_bit:0, Chiseled Bit - Helium
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Boron
 chiselsandbits:block_bit:0, Chiseled Bit - Molten Boron-10
 chiselsandbits:block_bit:0, Chiseled Bit - Molten Boron-11
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Lithium
 chiselsandbits:block_bit:0, Chiseled Bit - Molten Lithium-6
 chiselsandbits:block_bit:0, Chiseled Bit - Molten Lithium-7
 chiselsandbits:block_bit:0, Chiseled Bit - Molten Ferroboron
@@ -21105,10 +21359,8 @@ chiselsandbits:block_bit:0, Chiseled Bit - Molten Hard Carbon
 chiselsandbits:block_bit:0, Chiseled Bit - Liquefacted Coal
 chiselsandbits:block_bit:0, Chiseled Bit - Molten Beryllium
 chiselsandbits:block_bit:0, Chiseled Bit - Molten Zirconium
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Manganese
 chiselsandbits:block_bit:0, Chiseled Bit - Molten Manganese Dioxide
 chiselsandbits:block_bit:0, Chiseled Bit - Molten Sulfur
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Arsenic
 chiselsandbits:block_bit:0, Chiseled Bit - Liquid Helium
 chiselsandbits:block_bit:0, Chiseled Bit - Liquid Nitrogen
 chiselsandbits:block_bit:0, Chiseled Bit - Heavy Water
@@ -21145,6 +21397,7 @@ chiselsandbits:block_bit:0, Chiseled Bit - Potassium Hydroxide Solution
 chiselsandbits:block_bit:0, Chiseled Bit - Borax Solution
 chiselsandbits:block_bit:0, Chiseled Bit - Irradiated Borax Solution
 chiselsandbits:block_bit:0, Chiseled Bit - Corium
+chiselsandbits:block_bit:0, Chiseled Bit - Slurry Ice
 chiselsandbits:block_bit:0, Chiseled Bit - Chocolate Liquor
 chiselsandbits:block_bit:0, Chiseled Bit - Cocoa Butter
 chiselsandbits:block_bit:0, Chiseled Bit - Molten Unsweetened Chocolate
@@ -21169,260 +21422,13 @@ chiselsandbits:block_bit:0, Chiseled Bit - Molten Sodium
 chiselsandbits:block_bit:0, Chiseled Bit - Molten Potassium
 chiselsandbits:block_bit:0, Chiseled Bit - Eutectic NaK Alloy
 chiselsandbits:block_bit:0, Chiseled Bit - Hot Eutectic NaK Alloy
+chiselsandbits:block_bit:0, Chiseled Bit - Emergency Coolant
+chiselsandbits:block_bit:0, Chiseled Bit - Heated Emergency Coolant
+chiselsandbits:block_bit:0, Chiseled Bit - Sublimated Arsenic
 chiselsandbits:block_bit:0, Chiseled Bit - Molten Boron Arsenide
 chiselsandbits:block_bit:0, Chiseled Bit - Silicon Carbide Vapor
 chiselsandbits:block_bit:0, Chiseled Bit - Molten Alugentum
 chiselsandbits:block_bit:0, Chiseled Bit - Molten Alumina
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Aluminum
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Silver
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Thorium
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Thorium-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Uranium
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Uranium-233
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Uranium-233-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Uranium-235
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Uranium-235-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Uranium-238
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Uranium-238-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Neptunium-236
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Neptunium-236-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Neptunium-237
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Neptunium-237-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Plutonium-238
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Plutonium-238-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Plutonium-239
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Plutonium-239-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Plutonium-241
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Plutonium-241-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Plutonium-242
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Plutonium-242-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Americium-241
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Americium-241-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Americium-242
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Americium-242-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Americium-243
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Americium-243-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Curium-243
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Curium-243-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Curium-245
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Curium-245-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Curium-246
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Curium-246-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Curium-247
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Curium-247-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Berkelium-247
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Berkelium-247-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Berkelium-248
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Berkelium-248-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Californium-249
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Californium-249-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Californium-250
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Californium-250-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Californium-251
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Californium-251-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Californium-252
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Californium-252-Zirconium Alloy
-chiselsandbits:block_bit:0, Chiseled Bit - Molten TBU Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten TBU Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of TBU Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LEU-233 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LEU-233 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of LEU-233 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HEU-233 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HEU-233 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of HEU-233 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LEU-235 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LEU-235 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of LEU-235 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HEU-235 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HEU-235 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of HEU-235 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LEN-236 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LEN-236 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of LEN-236 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HEN-236 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HEN-236 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of HEN-236 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LEP-239 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LEP-239 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of LEP-239 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HEP-239 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HEP-239 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of HEP-239 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LEP-241 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LEP-241 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of LEP-241 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HEP-241 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HEP-241 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of HEP-241 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten MIX-239 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten MF4-239 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of MF4-239 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten MIX-241 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten MF4-241 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of MF4-241 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LEA-242 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LEA-242 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of LEA-242 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HEA-242 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HEA-242 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of HEA-242 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LECm-243 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LECm-243 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of LECm-243 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HECm-243 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HECm-243 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of HECm-243 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LECm-245 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LECm-245 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of LECm-245 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HECm-245 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HECm-245 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of HECm-245 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LECm-247 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LECm-247 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of LECm-247 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HECm-247 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HECm-247 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of HECm-247 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LEB-248 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LEB-248 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of LEB-248 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HEB-248 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HEB-248 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of HEB-248 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LECf-249 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LECf-249 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of LECf-249 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HECf-249 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HECf-249 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of HECf-249 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LECf-251 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten LECf-251 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of LECf-251 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HECf-251 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten HECf-251 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of HECf-251 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted TBU Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted TBU Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted TBU Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LEU-233 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LEU-233 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted LEU-233 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HEU-233 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HEU-233 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted HEU-233 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LEU-235 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LEU-235 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted LEU-235 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HEU-235 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HEU-235 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted HEU-235 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LEN-236 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LEN-236 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted LEN-236 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HEN-236 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HEN-236 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted HEN-236 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LEP-239 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LEP-239 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted LEP-239 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HEP-239 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HEP-239 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted HEP-239 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LEP-241 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LEP-241 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted LEP-241 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HEP-241 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HEP-241 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted HEP-241 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted MIX-239 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted MF4-239 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted MF4-239 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted MIX-241 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted MF4-241 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted MF4-241 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LEA-242 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LEA-242 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted LEA-242 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HEA-242 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HEA-242 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted HEA-242 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LECm-243 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LECm-243 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted LECm-243 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HECm-243 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HECm-243 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted HECm-243 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LECm-245 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LECm-245 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted LECm-245 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HECm-245 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HECm-245 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted HECm-245 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LECm-247 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LECm-247 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted LECm-247 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HECm-247 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HECm-247 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted HECm-247 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LEB-248 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LEB-248 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted LEB-248 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HEB-248 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HEB-248 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted HEB-248 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LECf-249 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LECf-249 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted LECf-249 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HECf-249 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HECf-249 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted HECf-249 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LECf-251 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted LECf-251 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted LECf-251 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HECf-251 Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Depleted HECf-251 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten FLiBe Salt Solution of Depleted HECf-251 Fluoride Fuel
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Redstone
-chiselsandbits:block_bit:0, Chiseled Bit - Eutectic NaK-Redstone Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Hot Eutectic NaK-Redstone Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Quartz
-chiselsandbits:block_bit:0, Chiseled Bit - Eutectic NaK-Quartz Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Hot Eutectic NaK-Quartz Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Gold
-chiselsandbits:block_bit:0, Chiseled Bit - Eutectic NaK-Gold Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Hot Eutectic NaK-Gold Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Glowstone
-chiselsandbits:block_bit:0, Chiseled Bit - Eutectic NaK-Glowstone Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Hot Eutectic NaK-Glowstone Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Lapis
-chiselsandbits:block_bit:0, Chiseled Bit - Eutectic NaK-Lapis Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Hot Eutectic NaK-Lapis Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Diamond
-chiselsandbits:block_bit:0, Chiseled Bit - Eutectic NaK-Diamond Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Hot Eutectic NaK-Diamond Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Eutectic NaK-Helium Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Hot Eutectic NaK-Helium Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Eutectic NaK-Enderium Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Hot Eutectic NaK-Enderium Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Eutectic NaK-Cryotheum Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Hot Eutectic NaK-Cryotheum Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Iron
-chiselsandbits:block_bit:0, Chiseled Bit - Eutectic NaK-Iron Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Hot Eutectic NaK-Iron Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Emerald
-chiselsandbits:block_bit:0, Chiseled Bit - Eutectic NaK-Emerald Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Hot Eutectic NaK-Emerald Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Copper
-chiselsandbits:block_bit:0, Chiseled Bit - Eutectic NaK-Copper Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Hot Eutectic NaK-Copper Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Tin
-chiselsandbits:block_bit:0, Chiseled Bit - Eutectic NaK-Tin Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Hot Eutectic NaK-Tin Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Molten Magnesium
-chiselsandbits:block_bit:0, Chiseled Bit - Eutectic NaK-Magnesium Mixture
-chiselsandbits:block_bit:0, Chiseled Bit - Hot Eutectic NaK-Magnesium Mixture
 chiselsandbits:block_bit:0, Chiseled Bit - Etching Acid
 chiselsandbits:block_bit:0, Chiseled Bit - Plastic
 chiselsandbits:block_bit:0, Chiseled Bit - LPG
@@ -21431,11 +21437,24 @@ chiselsandbits:block_bit:0, Chiseled Bit - Kerosene
 chiselsandbits:block_bit:0, Chiseled Bit - Liquid Clay
 chiselsandbits:block_bit:0, Chiseled Bit - Wood Tar
 chiselsandbits:block_bit:0, Chiseled Bit - Coal Tar
-chiselsandbits:block_bit:0, Chiseled Bit - Sodium Hydroxide
 chiselsandbits:block_bit:0, Chiseled Bit - Hydrochloric Acid
+chiselsandbits:block_bit:0, Chiseled Bit - Nitric Acid
+chiselsandbits:block_bit:0, Chiseled Bit - Sodium Chloride Solution
+chiselsandbits:block_bit:0, Chiseled Bit - Sodium Nitrate Solution
+chiselsandbits:block_bit:0, Chiseled Bit - Lead Nitrate Solution
+chiselsandbits:block_bit:0, Chiseled Bit - Sodium Tungstate Solution
+chiselsandbits:block_bit:0, Chiseled Bit - Lead Tungstate Solution
+chiselsandbits:block_bit:0, Chiseled Bit - Liquid Hydrogen
+chiselsandbits:block_bit:0, Chiseled Bit - Liquid Argon
+chiselsandbits:block_bit:0, Chiseled Bit - Argon
+chiselsandbits:block_bit:0, Chiseled Bit - Nitric Oxide
+chiselsandbits:block_bit:0, Chiseled Bit - Nitrogen Dioxide
+chiselsandbits:block_bit:0, Chiseled Bit - Molten Silicon
+chiselsandbits:block_bit:0, Chiseled Bit - Molten Yttrium Aluminum Garnet
+chiselsandbits:block_bit:0, Chiseled Bit - Molten Neodymium Doped YAG
+chiselsandbits:block_bit:0, Chiseled Bit - Sodium Hydroxide
 chiselsandbits:block_bit:0, Chiseled Bit - Chloromethane
 chiselsandbits:block_bit:0, Chiseled Bit - Liquid Ammonia
-chiselsandbits:block_bit:0, Chiseled Bit - Nitric Acid
 chiselsandbits:block_bit:0, Chiseled Bit - Sodium Cyanide
 chiselsandbits:block_bit:0, Chiseled Bit - Liquid Oxygen
 chiselsandbits:block_bit:0, Chiseled Bit - Acrylic Acid
@@ -21454,7 +21473,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Syngas
 chiselsandbits:block_bit:0, Chiseled Bit - Compressed Air
 chiselsandbits:block_bit:0, Chiseled Bit - Refined Air
 chiselsandbits:block_bit:0, Chiseled Bit - Cooled Air
-chiselsandbits:block_bit:0, Chiseled Bit - Argon
 chiselsandbits:block_bit:0, Chiseled Bit - Neon
 chiselsandbits:block_bit:0, Chiseled Bit - Krypton
 chiselsandbits:block_bit:0, Chiseled Bit - Xenon
@@ -21522,14 +21540,15 @@ contenttweaker:dinitrotoluene, Dinitrotoluene
 contenttweaker:iron_ore_ore_tailing, item.contenttweaker.iron_ore_ore_tailing.name
 contenttweaker:tungsten_denseplate, item.contenttweaker.tungsten_denseplate.name
 contenttweaker:silver_rod, item.contenttweaker.silver_rod.name
+contenttweaker:tier1_data, item.contenttweaker.tier1_data.name
 contenttweaker:uranium_ore_ore_dust_washed_low, item.contenttweaker.uranium_ore_ore_dust_washed_low.name
 contenttweaker:brass_denseplate, item.contenttweaker.brass_denseplate.name
-contenttweaker:tio2, Titanium Dioxide Dust
 contenttweaker:uranium_ore_ore_tailing, item.contenttweaker.uranium_ore_ore_tailing.name
 contenttweaker:titanium_ore_broken_med, item.contenttweaker.titanium_ore_broken_med.name
 contenttweaker:silver_scrapmetal, item.contenttweaker.silver_scrapmetal.name
 contenttweaker:titanium_ore_ore_small_high, item.contenttweaker.titanium_ore_ore_small_high.name
 contenttweaker:uranium_ore_ore_dust_pure, item.contenttweaker.uranium_ore_ore_dust_pure.name
+contenttweaker:tier3_data, item.contenttweaker.tier3_data.name
 contenttweaker:iron_ore_ore_dust_small_high, item.contenttweaker.iron_ore_ore_dust_small_high.name
 contenttweaker:tin_denseplate, item.contenttweaker.tin_denseplate.name
 contenttweaker:aluminium_plate, item.contenttweaker.aluminium_plate.name
@@ -21539,7 +21558,6 @@ contenttweaker:glassfiber, Raw Glass Fiber
 contenttweaker:aluminium_dusttiny, item.contenttweaker.aluminium_dusttiny.name
 contenttweaker:silver_dusttiny, item.contenttweaker.silver_dusttiny.name
 contenttweaker:tungsten_ore_ore_small_high, item.contenttweaker.tungsten_ore_ore_small_high.name
-contenttweaker:hasheetmetal:0, Hastealloy Sheetmetal
 contenttweaker:titanium_ore_ore_tailing, item.contenttweaker.titanium_ore_ore_tailing.name
 contenttweaker:aluminium_ore_ore_dust_low, item.contenttweaker.aluminium_ore_ore_dust_low.name
 contenttweaker:copper_ore_ore_dust_pure, item.contenttweaker.copper_ore_ore_dust_pure.name
@@ -21551,13 +21569,12 @@ contenttweaker:brass_rod, item.contenttweaker.brass_rod.name
 contenttweaker:thorium_ore_ore_small_high, item.contenttweaker.thorium_ore_ore_small_high.name
 contenttweaker:tin_dusttiny, item.contenttweaker.tin_dusttiny.name
 contenttweaker:copper_ore_ore_low, item.contenttweaker.copper_ore_ore_low.name
-contenttweaker:alumina, Alumina Dust
 contenttweaker:uranium_ore_ore_dust_small_low, item.contenttweaker.uranium_ore_ore_dust_small_low.name
-contenttweaker:tinytio2, Tiny Pile of Titanium Dioxide Dust
 contenttweaker:gold_dusttiny, item.contenttweaker.gold_dusttiny.name
 contenttweaker:thorium_ore_ore_low, item.contenttweaker.thorium_ore_ore_low.name
 contenttweaker:reactorinternal:0, Reactor Internals
 contenttweaker:lead_ore_ore_small_high, item.contenttweaker.lead_ore_ore_small_high.name
+contenttweaker:ga_as_dusttiny, item.contenttweaker.ga_as_dusttiny.name
 contenttweaker:tungsten_ore_ore_dust_washed_low, item.contenttweaker.tungsten_ore_ore_dust_washed_low.name
 contenttweaker:cdteingot, Cadmium Telluride Ingot
 contenttweaker:columninternal:0, Column Internals
@@ -21586,6 +21603,7 @@ contenttweaker:tin_ore_broken_high, item.contenttweaker.tin_ore_broken_high.name
 contenttweaker:gold_ore_broken_med, item.contenttweaker.gold_ore_broken_med.name
 contenttweaker:aluminium_ore_slag, item.contenttweaker.aluminium_ore_slag.name
 contenttweaker:thorium_ore_ore_dust_washed_low, item.contenttweaker.thorium_ore_ore_dust_washed_low.name
+contenttweaker:steelcasing:0, Steel Casing
 contenttweaker:tungsten_ore_broken_low, item.contenttweaker.tungsten_ore_broken_low.name
 contenttweaker:uranium_ore_broken_low, item.contenttweaker.uranium_ore_broken_low.name
 contenttweaker:gold_ore_ore_pellet, item.contenttweaker.gold_ore_ore_pellet.name
@@ -21593,6 +21611,7 @@ contenttweaker:aluminium_ore_ore_dust_small_high, item.contenttweaker.aluminium_
 contenttweaker:ssteel_plate, item.contenttweaker.ssteel_plate.name
 contenttweaker:iron_ore_ore_small_low, item.contenttweaker.iron_ore_ore_small_low.name
 contenttweaker:uranium_ore_slag, item.contenttweaker.uranium_ore_slag.name
+contenttweaker:invarcasing:0, Invar Casing
 contenttweaker:tin_ore_ore_small_low, item.contenttweaker.tin_ore_ore_small_low.name
 contenttweaker:tungsten_ore_broken_med, item.contenttweaker.tungsten_ore_broken_med.name
 contenttweaker:tungsten_dusttiny, item.contenttweaker.tungsten_dusttiny.name
@@ -21613,6 +21632,7 @@ contenttweaker:uranium_ore_ore_dust_small_high, item.contenttweaker.uranium_ore_
 contenttweaker:aluminium_ore_ore_small_high, item.contenttweaker.aluminium_ore_ore_small_high.name
 contenttweaker:titanium_denseplate, item.contenttweaker.titanium_denseplate.name
 contenttweaker:aluminium_ore_ore_high, item.contenttweaker.aluminium_ore_ore_high.name
+contenttweaker:resistor, Resistor
 contenttweaker:titanium_ore_ore_dust_low, item.contenttweaker.titanium_ore_ore_dust_low.name
 contenttweaker:diaminotoluene, Diaminotoluene
 contenttweaker:motor, Experimental Motor
@@ -21629,11 +21649,11 @@ contenttweaker:aluminium_ore_ore_dust_washed_low, item.contenttweaker.aluminium_
 contenttweaker:gold_ore_ore_dust_high, item.contenttweaker.gold_ore_ore_dust_high.name
 contenttweaker:compressedsawdust:0, Compressed Sawdust
 contenttweaker:thorium_ore_ore_small_low, item.contenttweaker.thorium_ore_ore_small_low.name
-contenttweaker:sssheetmetal:0, Stainless Steel Sheetmetal
 contenttweaker:gold_ore_broken_low, item.contenttweaker.gold_ore_broken_low.name
 contenttweaker:lead_ore_ore_high, item.contenttweaker.lead_ore_ore_high.name
 contenttweaker:tungsten_ore_ore_dust_small_low, item.contenttweaker.tungsten_ore_ore_dust_small_low.name
 contenttweaker:gearbox, Gear Box
+contenttweaker:sscasing:0, Stainless Steel Casing
 contenttweaker:driedrawrubber, Dried raw rubber
 contenttweaker:tin_ore_ore_pellet, item.contenttweaker.tin_ore_ore_pellet.name
 contenttweaker:hastelloy_plate, item.contenttweaker.hastelloy_plate.name
@@ -21661,6 +21681,8 @@ contenttweaker:melamine, Melamine Dust
 contenttweaker:scrap9, Silver Platters
 contenttweaker:aluminium_ore_ore_small_low, item.contenttweaker.aluminium_ore_ore_small_low.name
 contenttweaker:thorium_ore_broken_high, item.contenttweaker.thorium_ore_broken_high.name
+contenttweaker:ti_o2_dust, item.contenttweaker.ti_o2_dust.name
+contenttweaker:tier2_data, item.contenttweaker.tier2_data.name
 contenttweaker:gold_ore_broken_high, item.contenttweaker.gold_ore_broken_high.name
 contenttweaker:copper_rod, item.contenttweaker.copper_rod.name
 contenttweaker:lead_ore_ore_dust_low, item.contenttweaker.lead_ore_ore_dust_low.name
@@ -21677,6 +21699,7 @@ contenttweaker:eengine, Electric Engine Unit
 contenttweaker:uranium_ore_ore_high, item.contenttweaker.uranium_ore_ore_high.name
 contenttweaker:hastelloy_dusttiny, item.contenttweaker.hastelloy_dusttiny.name
 contenttweaker:tin_ore_broken_low, item.contenttweaker.tin_ore_broken_low.name
+contenttweaker:advancedwafer, Advanced Silicon Wafer
 contenttweaker:hastelloy_denseplate, item.contenttweaker.hastelloy_denseplate.name
 contenttweaker:uranium_ore_ore_pellet, item.contenttweaker.uranium_ore_ore_pellet.name
 contenttweaker:gold_ore_ore_low, item.contenttweaker.gold_ore_ore_low.name
@@ -21692,11 +21715,12 @@ contenttweaker:copper_ore_ore_tailing, item.contenttweaker.copper_ore_ore_tailin
 contenttweaker:iron_scrapmetal, item.contenttweaker.iron_scrapmetal.name
 contenttweaker:urea, Urea Dust
 contenttweaker:bronze_rod, item.contenttweaker.bronze_rod.name
+contenttweaker:ga_as_dust, item.contenttweaker.ga_as_dust.name
 contenttweaker:uranium_ore_ore_dust_high, item.contenttweaker.uranium_ore_ore_dust_high.name
 contenttweaker:hastelloy_ingot, item.contenttweaker.hastelloy_ingot.name
-contenttweaker:tisheetmetal:0, Titanium Sheetmetal
 contenttweaker:nickel_dusttiny, item.contenttweaker.nickel_dusttiny.name
 contenttweaker:titanium_dusttiny, item.contenttweaker.titanium_dusttiny.name
+contenttweaker:tier4_data, item.contenttweaker.tier4_data.name
 contenttweaker:copper_ore_ore_dust_low, item.contenttweaker.copper_ore_ore_dust_low.name
 contenttweaker:tungsten_ore_ore_dust_pure, item.contenttweaker.tungsten_ore_ore_dust_pure.name
 contenttweaker:uranium_ore_ore_small_high, item.contenttweaker.uranium_ore_ore_small_high.name
@@ -21727,6 +21751,7 @@ contenttweaker:alumina_block:0, Block of Alumina
 contenttweaker:iron_ore_ore_dust_washed_low, item.contenttweaker.iron_ore_ore_dust_washed_low.name
 contenttweaker:grassseed, Grass Seed
 contenttweaker:tungsten_rod, item.contenttweaker.tungsten_rod.name
+contenttweaker:alumina_dust, item.contenttweaker.alumina_dust.name
 contenttweaker:tin_scrapmetal, item.contenttweaker.tin_scrapmetal.name
 contenttweaker:aluminium_ore_ore_low, item.contenttweaker.aluminium_ore_ore_low.name
 contenttweaker:zinc_dusttiny, item.contenttweaker.zinc_dusttiny.name
@@ -21739,12 +21764,15 @@ contenttweaker:gold_ore_ore_small_high, item.contenttweaker.gold_ore_ore_small_h
 contenttweaker:titanium_ore_ore_small_low, item.contenttweaker.titanium_ore_ore_small_low.name
 contenttweaker:lead_ore_broken_low, item.contenttweaker.lead_ore_broken_low.name
 contenttweaker:lead_ore_ore_dust_high, item.contenttweaker.lead_ore_ore_dust_high.name
+contenttweaker:hacasing:0, Hastealloy Casing
+contenttweaker:solder, Solder
 contenttweaker:gold_ore_ore_dust_small_high, item.contenttweaker.gold_ore_ore_dust_small_high.name
 contenttweaker:compressedbark:0, Compressed Bark
 contenttweaker:tungsticacid, Tungstic Acid Dust
 contenttweaker:lead_dusttiny, item.contenttweaker.lead_dusttiny.name
 contenttweaker:nickel_rod, item.contenttweaker.nickel_rod.name
 contenttweaker:bronze_gear, item.contenttweaker.bronze_gear.name
+contenttweaker:ti_o2_dusttiny, item.contenttweaker.ti_o2_dusttiny.name
 contenttweaker:advreactorinternal:0, Advanced Reactor Internals
 contenttweaker:tin_ore_ore_dust_washed_low, item.contenttweaker.tin_ore_ore_dust_washed_low.name
 contenttweaker:separatorinternal:0, Separator Internals
@@ -21763,12 +21791,15 @@ contenttweaker:tin_ore_ore_tailing, item.contenttweaker.tin_ore_ore_tailing.name
 contenttweaker:iron_ore_broken_high, item.contenttweaker.iron_ore_broken_high.name
 contenttweaker:tin_ore_ore_dust_high, item.contenttweaker.tin_ore_ore_dust_high.name
 contenttweaker:centrifuge:0, Centrifuge
+contenttweaker:tier5_data, item.contenttweaker.tier5_data.name
 contenttweaker:iron_denseplate, item.contenttweaker.iron_denseplate.name
 contenttweaker:steel_rod, item.contenttweaker.steel_rod.name
 contenttweaker:iron_dusttiny, item.contenttweaker.iron_dusttiny.name
 contenttweaker:titanium_ore_ore_pellet, item.contenttweaker.titanium_ore_ore_pellet.name
 contenttweaker:copper_scrapmetal, item.contenttweaker.copper_scrapmetal.name
+contenttweaker:fiberglassboard, Fiberglass Board
 contenttweaker:tungsten_ore_ore_dust_low, item.contenttweaker.tungsten_ore_ore_dust_low.name
+contenttweaker:alumina_dusttiny, item.contenttweaker.alumina_dusttiny.name
 contenttweaker:lead_ore_ore_pellet, item.contenttweaker.lead_ore_ore_pellet.name
 contenttweaker:uranium_ore_ore_low, item.contenttweaker.uranium_ore_ore_low.name
 contenttweaker:gold_ore_ore_dust_washed_low, item.contenttweaker.gold_ore_ore_dust_washed_low.name
@@ -21780,6 +21811,7 @@ contenttweaker:thorium_ore_ore_dust_small_low, item.contenttweaker.thorium_ore_o
 contenttweaker:gold_scrapmetal, item.contenttweaker.gold_scrapmetal.name
 contenttweaker:tin_ore_ore_low, item.contenttweaker.tin_ore_ore_low.name
 contenttweaker:ssteel_denseplate, item.contenttweaker.ssteel_denseplate.name
+contenttweaker:ticasing:0, Titanium Casing
 contenttweaker:iron_ore_ore_low, item.contenttweaker.iron_ore_ore_low.name
 contenttweaker:ssteel_rod, item.contenttweaker.ssteel_rod.name
 contenttweaker:nuke, Experimental Calfornium Warhead
@@ -21924,6 +21956,25 @@ magneticraft:electric_heater:0, Electric Heater
 magneticraft:rf_heater:0, RF Heater
 magneticraft:rf_transformer:0, RF transformer
 magneticraft:electric_engine:0, Electric Engine
+magneticraft:multiblock_parts:0, Machine Block
+magneticraft:multiblock_parts:1, Electrical Machine Block
+magneticraft:multiblock_parts:2, Iron Grate Machine Block
+magneticraft:multiblock_parts:3, Striped Machine Block
+magneticraft:multiblock_parts:4, Copper Coil Machine Block
+magneticraft:multiblock_parts:5, Corrugate Iron Machine Block
+magneticraft:multiblock_column:0, Support Column (Y axis)
+magneticraft:pumpjack_drill:0, Pumpjack Pipe
+magneticraft:conveyor_belt:0, Conveyor Belt
+magneticraft:inserter:0, Inserter
+magneticraft:water_generator:0, Water Generator
+magneticraft:feeding_trough:0, Wooden Feeding Trough
+magneticraft:pneumatic_tube:0, Pneumatic Tube
+magneticraft:pneumatic_restriction_tube:0, Restriction Pneumatic Tube
+magneticraft:relay:0, Relay
+magneticraft:filter:0, Filter
+magneticraft:transposer:0, Transposer
+magneticraft:small_tank:0, Small tank
+magneticraft:iron_pipe:0, Iron Pipe
 magneticraft:solar_panel:0, Solar Panel
 magneticraft:shelving_unit:0, Shelving Unit
 magneticraft:steam_engine:0, Small Steam Engine
@@ -21940,16 +21991,8 @@ magneticraft:big_combustion_chamber:0, Bigger Combustion Chamber
 magneticraft:big_steam_boiler:0, Bigger Steam Boiler
 magneticraft:steam_turbine:0, Steam Turbine
 magneticraft:big_electric_furnace:0, Bigger Electric Furnace
-magneticraft:small_tank:0, Small tank
-magneticraft:iron_pipe:0, Iron Pipe
-magneticraft:multiblock_parts:0, Machine Block
-magneticraft:multiblock_parts:1, Electrical Machine Block
-magneticraft:multiblock_parts:2, Iron Grate Machine Block
-magneticraft:multiblock_parts:3, Striped Machine Block
-magneticraft:multiblock_parts:4, Copper Coil Machine Block
-magneticraft:multiblock_parts:5, Corrugate Iron Machine Block
-magneticraft:multiblock_column:0, Support Column (Y axis)
-magneticraft:pumpjack_drill:0, Pumpjack Pipe
+magneticraft:computer:0, Computer
+magneticraft:mining_robot:0, Mining Robot
 magneticraft:combustion_chamber:0, Combustion Chamber
 magneticraft:steam_boiler:0, Boiler
 magneticraft:heat_pipe:0, Heat Pipe
@@ -21957,8 +22000,19 @@ magneticraft:insulated_heat_pipe:0, Insulated Heat Pipe
 magneticraft:heat_sink:0, Heat sink
 magneticraft:gasification_unit:0, Gasification Unit
 magneticraft:brick_furnace:0, Brick furnace
-magneticraft:computer:0, Computer
-magneticraft:mining_robot:0, Mining Robot
+magneticraft:limestone:0, Limestone
+magneticraft:limestone:1, Limestone Brick
+magneticraft:limestone:2, Limestone Cobble
+magneticraft:burnt_limestone:0, Burnt Limestone
+magneticraft:burnt_limestone:1, Burnt Limestone Brick
+magneticraft:burnt_limestone:2, Burnt Limestone Cobble
+magneticraft:tile_limestone:0, Limestone Tiles
+magneticraft:tile_limestone:1, Inverted Limestone Tiles
+magneticraft:tube_light:0, Tube Light
+magneticraft:box:0, Wooden Box
+magneticraft:crushing_table:0, Crushing Table
+magneticraft:sluice_box:0, Sluice Box
+magneticraft:fabricator:0, Fabricator
 magneticraft:ores:0, Chalcopyrite Ore (Copper)
 magneticraft:ores:1, Galena Ore (Lead)
 magneticraft:ores:2, Cobaltite Ore (Cobalt)
@@ -21971,28 +22025,6 @@ magneticraft:storage_blocks:1, Lead Block
 magneticraft:storage_blocks:2, Cobalt Block
 magneticraft:storage_blocks:3, Tungsten Block
 magneticraft:storage_blocks:4, Sulfur Block
-magneticraft:box:0, Wooden Box
-magneticraft:crushing_table:0, Crushing Table
-magneticraft:sluice_box:0, Sluice Box
-magneticraft:fabricator:0, Fabricator
-magneticraft:conveyor_belt:0, Conveyor Belt
-magneticraft:inserter:0, Inserter
-magneticraft:water_generator:0, Water Generator
-magneticraft:feeding_trough:0, Wooden Feeding Trough
-magneticraft:pneumatic_tube:0, Pneumatic Tube
-magneticraft:pneumatic_restriction_tube:0, Restriction Pneumatic Tube
-magneticraft:relay:0, Relay
-magneticraft:filter:0, Filter
-magneticraft:transposer:0, Transposer
-magneticraft:limestone:0, Limestone
-magneticraft:limestone:1, Limestone Brick
-magneticraft:limestone:2, Limestone Cobble
-magneticraft:burnt_limestone:0, Burnt Limestone
-magneticraft:burnt_limestone:1, Burnt Limestone Brick
-magneticraft:burnt_limestone:2, Burnt Limestone Cobble
-magneticraft:tile_limestone:0, Limestone Tiles
-magneticraft:tile_limestone:1, Inverted Limestone Tiles
-magneticraft:tube_light:0, Tube Light
 magneticraft:connector:0, Electric Connector
 magneticraft:electric_pole:0, Electric Pole
 magneticraft:electric_cable:0, Electric cable
@@ -22170,13 +22202,13 @@ forestry:crated.ic2.crafting.23, item.crated.ic2.crafting.23.name
 forestry:crated.ic2.misc_resource.3, item.crated.ic2.misc_resource.3.name
 forestry:crated.ingotsilver, item.crated.ingotSilver.name
 forestry:crated.itemrubber, item.crated.itemRubber.name
-primal:bitumen, Bitumen
-primal:paraffin, Paraffin
-primal:smoke, Smoke
-primal:ovis_atre_milk, Ovis Atre Milk
-primal:magma_basaltic, Basaltic Magma
-primal:tannin, Tannin
-primal:waste, Waste Water
-primal:urushi, Urushi
 primal:brine_netjry, Brine
+primal:ovis_atre_milk, Ovis Atre Milk
 primal:bitumen_boiling, Boiling Bitumen
+primal:tannin, Tannin
+primal:paraffin, Paraffin
+primal:waste, Waste Water
+primal:magma_basaltic, Basaltic Magma
+primal:smoke, Smoke
+primal:urushi, Urushi
+primal:bitumen, Bitumen
