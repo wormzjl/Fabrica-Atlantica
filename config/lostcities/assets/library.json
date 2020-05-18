@@ -69,14 +69,7 @@
       },
       {
         "char": "T",
-        "block": "minecraft:torch",
-        "facing": {
-          "north": 4,
-          "south": 3,
-          "west": 2,
-          "east": 1,
-          "up": 5
-        }
+        "block": "minecraft:air"
       },
       {
         "char": "h",
@@ -134,45 +127,11 @@
       },
       {
         "char": "p",
-        "blocks": [
-          {
-            "random": 30,
-            "block": "minecraft:red_flower"
-          },
-          {
-            "random": 30,
-            "block": "minecraft:yellow_flower"
-          },
-          {
-            "random": 15,
-            "block": "minecraft:sapling"
-          },
-          {
-            "random": 15,
-            "block": "minecraft:sapling@1"
-          },
-          {
-            "random": 15,
-            "block": "minecraft:sapling@2"
-          },
-          {
-            "random": 1000,
-            "block": "minecraft:sapling@4"
-          }
-        ]
+        "block": "minecraft:air"
       },
       {
         "char": "K",
-        "blocks": [
-          {
-            "random": 64,
-            "block": "minecraft:red_flower"
-          },
-          {
-            "random": 1000,
-            "block": "minecraft:yellow_flower"
-          }
-        ]
+        "block": "minecraft:air"
       },
       {
         "char": "!",
