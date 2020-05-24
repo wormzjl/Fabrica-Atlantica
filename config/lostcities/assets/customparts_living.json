@@ -9147,7 +9147,7 @@
       },
       {
         "char": "z",
-        "block": "minecraft:leaves"
+        "block": "minecraft:leaves@4"
       }
     ],
     "meta": [
@@ -10564,7 +10564,7 @@
       },
       {
         "char": "n",
-        "block": "minecraft:leaves2"
+        "block": "minecraft:leaves2@4"
       },
       {
         "char": "o",
@@ -17342,7 +17342,7 @@
       },
       {
         "char": "q",
-        "block": "minecraft:leaves"
+        "block": "minecraft:leaves@4"
       }
     ],
     "meta": [
