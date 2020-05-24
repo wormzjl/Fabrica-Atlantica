@@ -19,7 +19,6 @@ LootTables.getTable("minecraft:entities/zombie_pigman").getPool("pool1").removeE
 
 //Chests
 LootTables.getTable("pneumaticcraft:inject/simple_dungeon_loot").getPool("main").removeEntry("pneumaticcraft:spawner_agitator");
-LootTables.getTable("minecraft:chests/abandoned_mineshaft").getPool("forestry_factory_items").removeEntry("forestry:miner_bag");
 
 val village_blacksmith_vanilla = LootTables.getTable("minecraft:chests/village_blacksmith").getPool("main");
 village_blacksmith_vanilla.removeEntry("minecraft:iron_ingot");

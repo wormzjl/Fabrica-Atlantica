@@ -254,4 +254,5 @@ recipes.addShaped(<aquamunda:boiler>, [[<ore:plateIron>, <ore:plateIron>, <ore:p
 recipes.remove(<aquamunda:evaporator>);
 recipes.addShaped(<aquamunda:evaporator>, [[null, <minecraft:glass>, null], [<minecraft:glass>, null, <minecraft:glass>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 
-//OC TODO - replace components
+//RSC
+recipes.remove(<rs_ctr:wireless_b>);
