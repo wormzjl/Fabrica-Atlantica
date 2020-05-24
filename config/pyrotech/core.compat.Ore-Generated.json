@@ -125,21 +125,9 @@
         "railcraft:nugget:6"
       ]
     },
-    "orePlatinum": {
-      "slagColor": "55f3ff",
-      "langKey": [
-        "ariente:tile.ariente.platinumore",
-        "arienteworld:tile.arienteworld.platinumore"
-      ],
-      "output": [
-        "primal:platinum_nugget:0"
-      ]
-    },
     "oreSilver": {
       "slagColor": "e8f6fd",
       "langKey": [
-        "ariente:tile.ariente.silverore",
-        "arienteworld:tile.arienteworld.silverore",
         "better_diving:item.silver_ore",
         "iceandfire:tile.iceandfire.silverOre",
         "immersiveengineering:tile.immersiveengineering.ore.silver",
