@@ -72,7 +72,7 @@ furnace.setFuel(<blockcraftery:editable_pressure_plate_player_reinforced>, 0);
 //Planks and sticks recipe removal
 recipes.removeByRegex("primal:planks.*");
 recipes.removeByRegex("primal:stick.*");
-recipes.removeByRegex("primal:wooden_slab.*");
+//recipes.removeByRegex("primal:wooden_slab.*");
 recipes.removeByRegex("primal:stone_slab.*");
 recipes.removeByRegex("betterwithmods:planks.*");
 
@@ -156,7 +156,7 @@ mods.betterwithmods.Saw.add(<betterwithmods:moulding_wood>.withTag({texture: {Pr
 mods.betterwithmods.Saw.add(<betterwithmods:moulding_wood>.withTag({texture: {Properties: {type: "packaged"}, Name: "immersiveengineering:treated_wood"}}), [<betterwithmods:corner_wood>.withTag({texture: {Properties: {type: "packaged"}, Name: "immersiveengineering:treated_wood"}})*2]);
 
 //Thin slabs
-recipes.removeByRegex("primal:thin_slab.*");
+//recipes.removeByRegex("primal:thin_slab.*");
 
 mods.betterwithmods.Saw.add(<minecraft:wooden_slab>, [<primal:thin_slab_oak>*2]);
 mods.betterwithmods.Saw.add(<minecraft:wooden_slab:1>, [<primal:thin_slab_spruce>*2]);
