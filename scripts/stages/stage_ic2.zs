@@ -8,7 +8,8 @@ var excluded as IItemStack[] = [
   <ic2:rubber_wood>,
   <ic2:treetap>,
   <ic2:scaffold>,
-  <ic2:boat:1>
+  <ic2:boat:1>,
+  <ic2:sapling>
 ];
 
 var recipestaged as IItemStack[] = [
