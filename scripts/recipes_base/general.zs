@@ -256,3 +256,7 @@ recipes.addShaped(<aquamunda:evaporator>, [[null, <minecraft:glass>, null], [<mi
 
 //RSC
 recipes.remove(<rs_ctr:wireless_b>);
+
+//Architect
+recipes.remove(<architect:provider_item>);
+recipes.remove(<architect:provider_fluid>);

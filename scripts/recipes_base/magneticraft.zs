@@ -12,12 +12,17 @@ static removed as IItemStack[] = [
   <magneticraft:sluice_box>,
   <magneticraft:gasification_unit>,
   <magneticraft:steam_boiler>,
-  <magneticraft:crushing_table>
+  <magneticraft:crushing_table>,
+  <magneticraft:electric_drill>,
+  <magneticraft:electric_chainsaw>
+
 ];
 
 for item in removed {
 	mods.jei.JEI.removeAndHide(item);
 }
+
+recipes.remove(<magneticraft:electric_piston>);
 
 recipes.remove(<magneticraft:solar_panel>);
 recipes.remove(<magneticraft:shelving_unit>);
