@@ -1,0 +1,16 @@
+{
+	title: "Granite Anvil",
+	x: -1.0d,
+	y: 5.0d,
+	description: "Anvil can be used for many things, such as breaking down stone bricks and scraps.",
+	dependencies: [
+		"e5bb0bad"
+	],
+	tasks: [{
+		uid: "044a9957",
+		type: "item",
+		items: [{
+			item: "pyrotech:anvil_granite"
+		}]
+	}]
+}

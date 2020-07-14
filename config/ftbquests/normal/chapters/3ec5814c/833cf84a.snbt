@@ -1,0 +1,49 @@
+{
+	title: "Diving Gears",
+	icon: "better_diving:diving_mask",
+	x: 4.0d,
+	y: 1.0d,
+	dependencies: [
+		"a311c7a1",
+		"6453cdef"
+	],
+	tasks: [{
+		uid: "6ebf940c",
+		type: "item",
+		items: [{
+			item: "better_diving:diving_mask"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fa8f1fd7",
+		type: "item",
+		items: [{
+			id: "better_diving:standard_o2_tank",
+			tag: {
+				"better_diving:oxygen": 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5c3b9e7e",
+		type: "item",
+		items: [{
+			item: "better_diving:wetsuit_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3df63bac",
+		type: "item",
+		items: [{
+			item: "better_diving:fins"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

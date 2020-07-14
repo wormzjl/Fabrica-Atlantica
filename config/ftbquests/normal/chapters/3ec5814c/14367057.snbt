@@ -1,0 +1,21 @@
+{
+	title: "Bronze",
+	x: 0.0d,
+	y: 6.0d,
+	description: "See link below for details.",
+	guide_page: "/modpack/tutorials/forgecraft/",
+	dependencies: [
+		"4d3ca5c8",
+		"738a7262",
+		"59ced770"
+	],
+	tasks: [{
+		uid: "dc72073b",
+		type: "item",
+		title: "Bronze Ingot",
+		items: [{
+			item: "forgecraft:bronzeingotball"
+		}],
+		ignore_nbt: 1b
+	}]
+}

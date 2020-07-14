@@ -1,0 +1,29 @@
+{
+	title: "Sulfuric acid",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "sulfuric_acid",
+			Amount: 1000
+		}
+	},
+	x: 3.0d,
+	y: 7.0d,
+	description: "With materials obtained from the nether, I can cook some sulfuric acid in the cauldron, which is used to extract gold from chipboards.",
+	dependencies: [
+		"c5eb6907",
+		"fa8d7298"
+	],
+	tasks: [{
+		uid: "effd8000",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "sulfuric_acid",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}]
+}

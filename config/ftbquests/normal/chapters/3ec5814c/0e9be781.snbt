@@ -1,0 +1,17 @@
+{
+	title: "Kiln Upgrades",
+	x: -1.0d,
+	y: 3.0d,
+	description: "Using stone bricks, a much easy-to-use version of the kiln can be made.",
+	dependencies: [
+		"022806dc",
+		"59ced770"
+	],
+	tasks: [{
+		uid: "72103550",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_kiln"
+		}]
+	}]
+}

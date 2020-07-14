@@ -1,0 +1,50 @@
+{
+	title: "Basic Gears",
+	icon: "primal:flint_axe",
+	x: 1.0d,
+	y: 2.0d,
+	description: "You can now craft your first set of tools. Crafting tables can be found in abandoned buildings.",
+	dependencies: [
+		"944474b9",
+		"4593cbf6"
+	],
+	tasks: [{
+		uid: "e62d2570",
+		type: "item",
+		items: [{
+			item: "primal:flint_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4ad84dae",
+		type: "item",
+		items: [{
+			item: "primal:flint_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "533e2674",
+		type: "item",
+		items: [{
+			item: "primal:flint_workblade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "03e47d65",
+		type: "item",
+		item: "minecraft:stick",
+		count: 4
+	},
+	{
+		uid: "65e18e84",
+		type: "item",
+		item: "primal:plant_cordage",
+		count: 8
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Making charcoal",
+	icon: "pyrotech:log_pile",
+	x: 3.0d,
+	y: 4.0d,
+	description: "Burn buried log piles to get charcoal. A flint and tinder can be used to start a fire.",
+	dependencies: [
+		"b8995d64"
+	],
+	tasks: [{
+		uid: "79755d3f",
+		type: "item",
+		items: [{
+			item: "pyrotech:log_pile"
+		}]
+	},
+	{
+		uid: "23ea56db",
+		type: "item",
+		items: [{
+			item: "pyrotech:bow_drill"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

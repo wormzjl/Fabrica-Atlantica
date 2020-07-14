@@ -1,0 +1,16 @@
+{
+	title: "An Introduction to Automation",
+	x: 4.0d,
+	y: 7.0d,
+	guide_page: "/modpack/tutorials/autoverse_crafter/",
+	dependencies: [
+		"3e3a96df"
+	],
+	tasks: [{
+		uid: "16ef3c69",
+		type: "item",
+		items: [{
+			item: "autoverse:crafter"
+		}]
+	}]
+}

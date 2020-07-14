@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: 6.0d,
+	description: "With scavenged iron I can make a cauldron, which is used for early game chemistry. The cauldron needs a constant heat source below like fire or lava to work.",
+	dependencies: [
+		"738a7262",
+		"4fa4617a"
+	],
+	tasks: [{
+		uid: "ce4ccf95",
+		type: "item",
+		items: [{
+			item: "primal:cauldron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

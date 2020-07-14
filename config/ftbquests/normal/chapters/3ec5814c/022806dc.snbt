@@ -1,0 +1,24 @@
+{
+	title: "Pit Burning",
+	x: 0.0d,
+	y: 2.0d,
+	description: "A pit is required to smelt things like stone. See link below for details.",
+	guide_page: "/modpack/tutorials/pitburn/",
+	dependencies: [
+		"4593cbf6"
+	],
+	tasks: [{
+		uid: "8e31121d",
+		type: "item",
+		items: [{
+			item: "pyrotech:kiln_pit"
+		}]
+	},
+	{
+		uid: "70f5c727",
+		type: "item",
+		items: [{
+			item: "pyrotech:thatch"
+		}]
+	}]
+}

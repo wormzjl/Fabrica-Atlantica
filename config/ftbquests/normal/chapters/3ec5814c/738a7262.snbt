@@ -1,0 +1,47 @@
+{
+	title: "Basic Smelter",
+	icon: {
+		id: "primal:smelter",
+		tag: {
+			BlockEntityTag: {
+				covered: 1b
+			},
+			type: "mud"
+		}
+	},
+	x: 1.0d,
+	y: 5.0d,
+	description: "Wet mud can be obtained by harvesting wet farmlands. It can then be dried on a rack or inside an oven. To use it, first remove the lid and drop ingredients, then close the lid and light it with any firestarter.",
+	dependencies: [
+		"d011389a"
+	],
+	tasks: [{
+		uid: "b0913d3c",
+		type: "item",
+		items: [{
+			item: "primal:mud_brick_wet"
+		}]
+	},
+	{
+		uid: "19d440d3",
+		type: "item",
+		items: [{
+			item: "primal:mud_brick_dry"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "c7154fd9",
+		type: "item",
+		items: [{
+			id: "primal:smelter",
+			tag: {
+				BlockEntityTag: {
+					covered: 1b
+				},
+				type: "mud"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

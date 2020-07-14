@@ -1,0 +1,31 @@
+{
+	title: "Primal automation",
+	icon: "betterwithmods:axle_generator",
+	x: 5.0d,
+	y: 6.0d,
+	description: "Hand cracking is slow. By using windmill, I can free my hand a bit. Note that gearboxes can break in rain.",
+	dependencies: [
+		"94d1266f"
+	],
+	tasks: [{
+		uid: "fce1afc6",
+		type: "item",
+		items: [{
+			item: "betterwithmods:axle_generator"
+		}]
+	},
+	{
+		uid: "9656480b",
+		type: "item",
+		items: [{
+			item: "betterwithmods:wooden_gearbox"
+		}]
+	},
+	{
+		uid: "7199355c",
+		type: "item",
+		items: [{
+			item: "betterwithmods:wooden_axle"
+		}]
+	}]
+}

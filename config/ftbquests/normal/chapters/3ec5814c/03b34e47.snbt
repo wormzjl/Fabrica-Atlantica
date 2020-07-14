@@ -1,0 +1,16 @@
+{
+	x: -2.0d,
+	y: 3.0d,
+	description: "An upgraded version of the fire pit, can also dry things faster.",
+	dependencies: [
+		"59ced770",
+		"68f53a86"
+	],
+	tasks: [{
+		uid: "701c4dae",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_oven"
+		}]
+	}]
+}

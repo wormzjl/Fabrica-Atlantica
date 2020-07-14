@@ -1,0 +1,22 @@
+{
+	title: "To bee or not to bee",
+	x: 4.0d,
+	y: 3.0d,
+	description: "Bee products can be helpful with my nutritions. Formic acid can be extracted from drones, an essential compound for initial rubber production. Bee hives can be found in ababdoned buildings.",
+	dependencies: [
+		"b8995d64"
+	],
+	tasks: [{
+		uid: "f81a72c7",
+		type: "item",
+		items: [{
+			item: "forestry:bee_house"
+		}]
+	}],
+	rewards: [{
+		uid: "4336a90a",
+		type: "item",
+		item: "forestry:honey_drop",
+		count: 4
+	}]
+}

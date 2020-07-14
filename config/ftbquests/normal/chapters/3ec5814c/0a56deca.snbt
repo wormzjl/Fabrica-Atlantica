@@ -1,0 +1,16 @@
+{
+	title: "Mechanical Automation",
+	x: -2.0d,
+	y: 6.0d,
+	description: "The mechanical hopper can transfer items between inventories with very high efficiency when provided with the right cog. Note that it cannot pick up item from the world.",
+	dependencies: [
+		"59ced770"
+	],
+	tasks: [{
+		uid: "5df868e0",
+		type: "item",
+		items: [{
+			item: "pyrotech:mechanical_hopper"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Better Drying",
+	x: -1.0d,
+	y: 2.0d,
+	description: "An upgraded version of the crude drying rack. Keep it close to heat sources and far away from water!",
+	dependencies: [
+		"4593cbf6",
+		"944474b9"
+	],
+	tasks: [{
+		uid: "91e18c12",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dryingrack",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

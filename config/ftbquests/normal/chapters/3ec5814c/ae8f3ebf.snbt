@@ -1,0 +1,33 @@
+{
+	title: "Getting Flint",
+	icon: "minecraft:flint",
+	x: -1.0d,
+	y: -1.0d,
+	description: "Flint is required to make basic tools. You can either break some gravel or loot from abandoned cities. Flint can be broken into pieces by left-clicking it on hard block surfaces.",
+	text: [
+		"Getting Flint"
+	],
+	dependencies: [
+		"68bbce8c"
+	],
+	tasks: [{
+		uid: "a5da35c6",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}]
+	},
+	{
+		uid: "c55cfe9a",
+		type: "item",
+		items: [{
+			item: "primal:flint_knapp"
+		}]
+	}],
+	rewards: [{
+		uid: "bc7ea07c",
+		type: "item",
+		item: "minecraft:apple",
+		count: 4
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Water for Irrigation",
+	icon: "aquamunda:tank",
+	x: 2.0d,
+	y: 3.0d,
+	text: [
+		"Sea water cannot be used for irrigation. To obtain fresh water, you can use a stone tank to catch rain.",
+		"Note that the tank will evaporate when exposed to sun, use a hose to move stored rainwater away from sunlight."
+	],
+	dependencies: [
+		"e5bb0bad"
+	],
+	tasks: [{
+		uid: "d18ee6c4",
+		type: "item",
+		items: [{
+			item: "aquamunda:tank"
+		}]
+	},
+	{
+		uid: "17a22606",
+		type: "item",
+		items: [{
+			item: "aquamunda:hose"
+		}]
+	}]
+}

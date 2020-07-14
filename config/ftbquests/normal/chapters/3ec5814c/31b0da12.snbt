@@ -1,0 +1,20 @@
+{
+	title: "Primal Tools",
+	icon: "pyrotech:crude_axe",
+	x: 0.0d,
+	y: 0.0d,
+	description: "A crude axe can be made without a 3x3 crafting table. ",
+	dependencies: [
+		"ae8f3ebf",
+		"ce3e1246"
+	],
+	tasks: [{
+		uid: "42052c2f",
+		type: "item",
+		items: [{
+			item: "pyrotech:crude_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 8.0d,
+	y: 5.0d,
+	dependencies: [
+		"f808e062"
+	],
+	tasks: [{
+		uid: "87a6fcc7",
+		type: "item",
+		items: [{
+			item: "betterwithmods:hibachi"
+		}]
+	}],
+	rewards: [{
+		uid: "bae07544",
+		type: "item",
+		item: "randomportals:vertical_end_portal_frame",
+		count: 12
+	},
+	{
+		uid: "1519f6a1",
+		type: "item",
+		item: "minecraft:ender_eye",
+		count: 12
+	}]
+}

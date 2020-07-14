@@ -1,0 +1,26 @@
+{
+	title: "Water Desalination",
+	icon: "aquamunda:boiler",
+	x: 2.0d,
+	y: 9.0d,
+	text: [
+		"The desalinator can be used to convert sea water to fresh water. To accelerate this process, light a fire below."
+	],
+	dependencies: [
+		"6124d5fb"
+	],
+	tasks: [{
+		uid: "2e67e7a4",
+		type: "item",
+		items: [{
+			item: "aquamunda:boiler"
+		}]
+	},
+	{
+		uid: "4147298b",
+		type: "item",
+		items: [{
+			item: "aquamunda:evaporator"
+		}]
+	}]
+}

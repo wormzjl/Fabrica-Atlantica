@@ -1,0 +1,10 @@
+{
+	x: -4.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "8541e717",
+		type: "gamestage",
+		title: "Complete Forestry Research",
+		stage: "forestry"
+	}]
+}

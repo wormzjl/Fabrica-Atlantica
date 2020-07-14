@@ -1,0 +1,51 @@
+{
+	title: "Cutting Woods",
+	icon: "primal:logs_stripped",
+	x: 1.0d,
+	y: 4.0d,
+	description: "Wood logs needs a few more steps to be processed into usable planks. First use a workblade on them to remove barks, then split them with an axe.",
+	dependencies: [
+		"86095b8b"
+	],
+	tasks: [{
+		uid: "0eb7f959",
+		type: "item",
+		title: "Stripped Log",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logStripped",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "00fa0ede",
+		type: "item",
+		title: "Split Log",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logSplit",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "37c4aff2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plankWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}]
+}

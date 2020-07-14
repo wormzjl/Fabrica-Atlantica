@@ -1,0 +1,16 @@
+{
+	title: "Refractory Burns",
+	x: -2.0d,
+	y: 7.0d,
+	description: "By using refractory blocks as walls, charcoal can be made with a much higher efficiency.",
+	dependencies: [
+		"a1065209"
+	],
+	tasks: [{
+		uid: "d60de5dc",
+		type: "item",
+		items: [{
+			item: "pyrotech:refractory_brick_block"
+		}]
+	}]
+}

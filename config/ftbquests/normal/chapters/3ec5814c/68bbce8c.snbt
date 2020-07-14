@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	description: "This is a post-apocalyptic style modpack with heavy emphasis on complex automation and low-level engineering, please refer to FTB guides for detailed informations.",
+	text: [
+		"Welcome to Fabrica Atlantica"
+	],
+	tasks: [{
+		uid: "acc4d900",
+		type: "checkmark",
+		title: "Welcome to Fabrica Atlantica",
+		icon: "minecraft:grass"
+	}]
+}

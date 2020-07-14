@@ -1,0 +1,19 @@
+{
+	title: "Strainer Upgrades",
+	icon: "waterstrainer:strainer_survivalist_dense",
+	x: 1.0d,
+	y: 7.0d,
+	description: "The dense strainer allows capturing heavier materials such as iron.",
+	dependencies: [
+		"14367057"
+	],
+	tasks: [{
+		uid: "d612fd57",
+		type: "item",
+		items: [{
+			item: "waterstrainer:strainer_survivalist_dense"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

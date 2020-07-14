@@ -1,0 +1,19 @@
+{
+	x: 7.0d,
+	y: -1.0d,
+	dependencies: [
+		"928ce54e"
+	],
+	tasks: [{
+		uid: "de383046",
+		type: "item",
+		items: [{
+			item: "railcraft:ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "e1863b79",
+		type: "item",
+		item: "bedrockores:bedrock_miner"
+	}]
+}

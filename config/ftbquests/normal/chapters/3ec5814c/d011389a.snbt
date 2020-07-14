@@ -1,0 +1,32 @@
+{
+	title: "Out of the water",
+	icon: "waterstrainer:strainer_survivalist",
+	x: 0.0d,
+	y: 4.0d,
+	description: "A strainer can be used to recover useful scraps from water.",
+	dependencies: [
+		"b8995d64",
+		"e5bb0bad"
+	],
+	tasks: [{
+		uid: "4cf5d06b",
+		type: "item",
+		items: [{
+			item: "waterstrainer:strainer_survivalist"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5745d2f1",
+		type: "item",
+		items: [{
+			item: "waterstrainer:strainer_base"
+		}]
+	}],
+	rewards: [{
+		uid: "2b5cb4db",
+		type: "item",
+		item: "waterstrainer:strainer_survivalist"
+	}]
+}

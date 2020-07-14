@@ -1,0 +1,24 @@
+{
+	title: "Better with mods",
+	icon: "betterwithmods:single_machine",
+	x: 5.0d,
+	y: 7.0d,
+	description: "Now I can start with better with mods, the first thing to do is to get some hemp fiber.",
+	dependencies: [
+		"a3a1e090"
+	],
+	tasks: [{
+		uid: "d8dfb846",
+		type: "item",
+		items: [{
+			item: "betterwithmods:single_machine"
+		}]
+	},
+	{
+		uid: "69706a0d",
+		type: "item",
+		items: [{
+			item: "betterwithmods:hand_crank"
+		}]
+	}]
+}

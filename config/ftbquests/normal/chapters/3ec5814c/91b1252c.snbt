@@ -1,0 +1,18 @@
+{
+	title: "Bronze forged tools",
+	x: 0.0d,
+	y: 7.0d,
+	description: "Tools from forgecraft has much higher durability than standard ones, and they can be upgraded with different properties.",
+	dependencies: [
+		"14367057"
+	],
+	tasks: [{
+		uid: "f744590f",
+		type: "item",
+		items: [{
+			item: "forgecraft:bronzepickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

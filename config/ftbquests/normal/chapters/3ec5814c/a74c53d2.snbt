@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 9.0d,
+	description: "Higher durability.",
+	dependencies: [
+		"6124d5fb"
+	],
+	tasks: [{
+		uid: "73fb9d8a",
+		type: "item",
+		items: [{
+			item: "pyrotech:anvil_iron_plated"
+		}]
+	}]
+}

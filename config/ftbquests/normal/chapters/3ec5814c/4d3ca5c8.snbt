@@ -1,0 +1,73 @@
+{
+	title: "Basic Smelter",
+	icon: "forgecraft:bloomery_brick",
+	x: 0.0d,
+	y: 5.0d,
+	description: "Bloomery is required to smelt all the scraps into nuggets. Clay can be found underground just like dirt.",
+	dependencies: [
+		"d011389a"
+	],
+	tasks: [{
+		uid: "d1572861",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}]
+	},
+	{
+		uid: "2a99d271",
+		type: "item",
+		title: "Bloomery",
+		items: [{
+			item: "forgecraft:bloomery_brick"
+		},
+		{
+			item: "forgecraft:bloomery_adobe"
+		}]
+	},
+	{
+		uid: "cbb4adbd",
+		type: "item",
+		items: [{
+			item: "forgecraft:itemnbtcrucible"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9cba86a7",
+		type: "item",
+		items: [{
+			item: "forgecraft:pistonbellowsoak"
+		},
+		{
+			item: "forgecraft:pistonbellowsjungle"
+		},
+		{
+			item: "forgecraft:pistonbellowsbirch"
+		},
+		{
+			item: "forgecraft:pistonbellowsspruce"
+		},
+		{
+			item: "forgecraft:pistonbellowsdarkoak"
+		},
+		{
+			item: "forgecraft:pistonbellowsacacia"
+		}]
+	},
+	{
+		uid: "6968d2a9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 1,
+					Items: []
+				}
+			},
+			id: "forgecraft:slottedtongs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

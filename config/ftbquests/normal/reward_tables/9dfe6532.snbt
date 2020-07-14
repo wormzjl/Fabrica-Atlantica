@@ -1,0 +1,30 @@
+{
+	title: "Saplings",
+	icon: "minecraft:sapling",
+	empty_weight: 9,
+	loot_size: 27,
+	rewards: [{
+		item: "minecraft:sapling",
+		count: 4
+	},
+	{
+		item: "minecraft:sapling 1 1",
+		count: 4
+	},
+	{
+		item: "minecraft:sapling 1 2",
+		count: 4
+	},
+	{
+		item: "minecraft:sapling 1 3",
+		count: 4
+	},
+	{
+		item: "minecraft:sapling 1 4",
+		count: 4
+	},
+	{
+		item: "minecraft:sapling 1 5",
+		count: 4
+	}]
+}

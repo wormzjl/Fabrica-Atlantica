@@ -1,0 +1,24 @@
+{
+	title: "Fiber Drying",
+	icon: "pyrotech:drying_rack",
+	x: -1.0d,
+	y: 1.0d,
+	description: "Plant fibers needs to be dried and hardened before being used in more durable tools.",
+	dependencies: [
+		"31b0da12"
+	],
+	tasks: [{
+		uid: "359b9e8a",
+		type: "item",
+		items: [{
+			item: "pyrotech:drying_rack"
+		}]
+	},
+	{
+		uid: "9da02af5",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 13"
+		}]
+	}]
+}

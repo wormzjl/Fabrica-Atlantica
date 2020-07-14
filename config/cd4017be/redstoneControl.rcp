@@ -1,12 +1,15 @@
-VERSION = 99;
+VERSION = 117;
 
 !The maximum distance between signal ports or anchors connected via wire.
 !Warning: wires much longer than 16 blocks may have visual chunk clipping glitches.
 max_wire_length = 16;
 
+block_plug_range = 8; !maximum range for Block Access Plugs
+
 max_split_links = 8; !maximum number of connections for Splitter Plugs
 
 block_select_range = 64; !maximum distance a Block Selector will scan for Frame Blocks in each direction.
+teleporter_range = 64; !maximum distance a Block Teleporter will scan for Frame Blocks in each direction.
 chunk_loader_range = 64; !maximum distance a Chunk Loader will scan for Frame Blocks in each direction.
 
 chunkload_time_cap = 48.0; !maximum time in hours a Chunk Loader can store internally. 
@@ -40,6 +43,23 @@ energy_breaker_speed = 8.0; !energy consumption increase when running the Block 
 energy_placer_op = 1000; !base energy consumed by the Item User per operation.
 energy_placer_speed = 8.0; !energy consumption increase when running the Item User at max clock speed.
 !total_energy_cost = energy_placer_op * (1 + energy_placer_speed / ticks_since_last_op)
+energy_teleport_pb = 2000; !energy consumed by the Block Teleporter per hypercube volume (width * height * length * distance)
+teleport_dist_cap = 512; !upper limit for the distance used in energy cost computation (also the distance used when moving between dimensions)
+
+{
+	!Teleporter white/blacklist entry format:
+	!specific blockstate: "modid:blockid@meta"
+	!all states of block: "modid:blockid"
+	!all blocks from mod: "modid:"
+	
+	!By default all breakable blocks can be moved by a teleporter. Blocks that should NOT be movable must be added here.
+	teleport_blacklist = [
+	];
+	!By default unbreakable blocks can't be moved by a teleporter. Blocks that should be movable anyway must be added here.
+	teleport_whitelist = [
+		"draconicevolution:reactor_core" !prevent dangerous situations where the stabilizers would move without the core.
+	];
+}
 
 PRE_INIT() {
 	add("item", 400, "battery", "rs_ctr:battery");
@@ -52,6 +72,7 @@ PRE_INIT() {
 
 INIT() {
 	!items that can be used as capacitors in Power Distribution Hub (all Forge Energy compatible items already work without need for registration)
+	add("battery", it("minecraft:command_block"), -1); !creative power
 	add("battery", it("m.battery"), 2000000);
 	add("shaped", it("m.battery"), "010/232/010", "nuggetGold", it("item.wire_e"), "dustRedstone", it("minecraft:coal"):1);
 	
@@ -94,6 +115,8 @@ INIT() {
 	add("shaped", it("tile.bin_split"), "20/10/20", it("tile.rs_port"):0, it("tile.rs_port"):1, "gemQuartz");
 	add("shaped", it("tile.counter"), "021/ 34/021", it("tile.rs_port"):1, it("tile.rs_port"):0, "gemQuartz", it("minecraft:redstone_torch"), "dustRedstone");
 	add("shaped", it("tile.comparator"), "0 /31/2 ", it("tile.rs_port"):1, it("tile.rs_port"):0, it("item.block_wire"), it("minecraft:comparator"));
+	add("shaped", it("tile.block_deserializer"), "012", it("tile.comparator"), it("minecraft:compass"), it("tile.num_comb"));
+	add("shaped", it("tile.block_reorienter"), "01", it("item.wrench"), it("tile.multiplex_b"));
 	add("shaped", it("tile.power_hub"), "010/020", it("item.wire_e"), "ingotGold", slab);
 	add("shaped", it("tile.solar_cell"), "222/010", it("item.wire_e"), it("minecraft:daylight_detector"), "gemLapis");
 	add("shaped", it("tile.panel"), "0/1", "paper", slab);
@@ -108,6 +131,8 @@ INIT() {
 	add("shapedNBT", "#ench", it("tile.block_breaker"), "01", it("tile.block_breaker1"), it("minecraft:diamond_pickaxe"));
 	add("shaped", it("tile.item_placer"), "254/535/001", it("tile.rs_port"):1, it("tile.rs_port"):0, it("minecraft:skull"):2, it("m.actuator"), it("minecraft:dispenser"), "ingotIron");
 	add("shaped", it("tile.chunk_loader"), "202/010/304", it("item.cl_fuel"), it("tile.frame"), it("minecraft:clock"), it("tile.rs_port"):1, it("tile.rs_port"):0);
+	add("shaped", it("tile.teleporter1"), "343/525/0 1", it("tile.rs_port"):1, it("tile.rs_port"):0, it("m.actuator"), it("minecraft:obsidian"), "blockDiamond", it("minecraft:ender_eye"));
+	add("shaped", it("tile.teleporter"), " 2 / 0 / 1 ", it("tile.frame"), it("tile.teleporter1"), it("minecraft:dragon_egg"));
 	add("shaped", it("tile.ram"), "021", it("tile.bin_comb"), it("tile.bin_split"), it("tile.logic_comb"));
 	add("shaped", it("tile.ram"):5, "1/0", it("tile.ram"), it("m.corerope1"));
 	add("shaped", it("tile.ram"):7, "101", it("tile.ram"):5, it("m.corerope1"));
@@ -127,6 +152,7 @@ INIT() {
 	add("shaped", it("item.wireless"), "000/010/000", it("item.wire"), "enderpearl");
 	add("shaped", it("item.wireless_b"), " 1 /020/ 1 ", it("item.wireless"), it("m.telekin_alloy"), it("minecraft:nether_star"));
 	add("shaped", it("item.constant"), "1/0", it("item.wire"), it("minecraft:redstone_torch"));
+	add("shaped", it("item.block_plug"), "000/010/000", it("item.block_wire"), it("tile.rs_port"):2);
 	add("shaped", it("item.lamp"), "1/0", it("item.wire"), "dustGlowstone");
 	add("shaped", it("item.tag"), "1/0", it("item.wire"), it("minecraft:name_tag"));
 	add("shaped", 3 * it("item.clock"), " 1 /000", it("item.wire"), it("minecraft:clock"));
@@ -145,18 +171,14 @@ INIT() {
 	add("shaped", it("item.scale"), "02/11", it("item.constant"), it("tile.num_comb"), it("item.wire"));
 	add("shaped", it("item.trigger"), "20/1 /20", it("item.constant"), it("tile.logic_comb"), it("minecraft:comparator"));
 	add("shaped", it("item.oscilloscope"), "000/000/111", it("item.lamp"), it("tile.delay"));
+	add("shaped", it("item.socket_s"), "01", it("tile.rs_port"):0, it("tile.rs_port"):1);
+	add("shaped", it("item.socket_b"), "01", it("tile.rs_port"):2, it("item.block_wire"));
 	add("shaped", it("m.corerope"), " 01/0 0/10 ", "nuggetIron", it("item.wire"));
 	add("shaped", it("m.corerope1"), "000/010/000", it("m.corerope"), "ingotIron");
 	add("shaped", it("m.corerope2"), " 0 /0 0/ 0 ", it("m.corerope1"));
 	add("shaped", 4 * it("item.cl_fuel"), "010/ 2 /0 0", "blockGlass", it("m.telekin_alloy"), it("minecraft:ender_eye"));
-	Loc t = it("item.text"), t1 = t:1;
-	add("shaped", 4 * t1, "0/1", "paper", it("minecraft:sign"));
-	add("shapeless", t:4, t1, t1, t1, t1);
-	add("shapeless", t:3, t1, t1, t1);
-	add("shapeless", t:2, t1, t1);
-	add("shapeless", 4 * t1, t:4);
-	add("shapeless", 3 * t1, t:3);
-	add("shapeless", 2 * t1, t:2);
+	add("shaped", it("item.text"):4, "0/1", "paper", it("minecraft:sign"));
+	add("shaped", it("item.remote"), "01 /222/222", it("tile.bin_comb"), it("item.wireless"), it("minecraft:stone_button"));
 	
 	Loc tag = nbt(); tag:"Istats" = [16, 12, 8, 72, 28, 88]#; !prototype processor (eqivalent to assembly with same materials except less remaining space)
 	add("shaped", it("tile.processor2") + tag, "021/041/031", it("tile.rs_port"):1, it("tile.rs_port"):0, "blockQuartz", "blockRedstone", "ingotIron");
@@ -164,6 +186,10 @@ INIT() {
 	add("shaped", it("tile.processor2") + tag, "0 1/0 1/0 1", it("tile.rs_port"):1, it("tile.rs_port"):0);
 	tag = nbt(); tag:"Istats" = [0, 0, 0, 64, 0, 0]#; !empty processor (64 component space)
 	add("shaped", it("tile.processor") + tag, "001/0 1/011", it("tile.rs_port"):1, it("tile.rs_port"):0);
+	tag = nbt(); tag:"Istats" = [0, 0, 0, 128, -16, 64]#; !empty processor (128 component space)
+	add("shaped", it("tile.processor3") + tag, "010", it("tile.processor2"), "gemEmerald");
+	tag = nbt(); tag:"Istats" = [0, 0, 0, 96, 0, 0]#; !empty processor (96 component space)
+	add("shaped", it("tile.int_panel") + tag, "011", it("tile.panel"), it("tile.processor"));
 	moddedRecipes();
 }
 
@@ -185,14 +211,17 @@ moddedRecipes() {
 	if (hasmod("immersiveengineering")) {
 		add("shaped", it("tile.comparator"), "0/1", it("immersiveengineering:connector"):13, it("minecraft:stone_slab"));
 		add("shapeless", 8 * it("item.wire"), it("immersiveengineering:wirecoil"):5);
+		add("battery", it("immersiveengineering:metal_device0"):3, -1);
 	}
 	if (hasmod("appliedenergistics2")) {
 		add("shapeless", 4 * it("tile.wire_anchor"), it("appliedenergistics2:part"):120);
 		add("shaped", it("item.tag"), "0/1/2", it("appliedenergistics2:material"):21, "paper", it("item.wire"));
+		add("shaped", it("item.wireless_b"), "132/0 0/231", it("item.wireless"), it("m.telekin_alloy"), it("appliedenergistics2:material"):48, it("appliedenergistics2:quantum_link")); !quantum entangled singularity
+		add("battery", it("appliedenergistics2:creative_energy_cell"), -1);
 	}
 	if (hasmod("opencomputers")) {
 		add("shaped", it("tile.oc_adapter"), "5 3/014/523", it("opencomputers:card"):6, it("opencomputers:material"):11, it("opencomputers:component"):6, it("tile.processor2"), it("opencomputers:card"):4, it("item.wire_e"));
-		add("battery", it("opencomputers:capacitor"), 1600000); !CAPACITOR
+		add("battery", it("opencomputers:capacitor"), 1600 * energy_unit_OC); !CAPACITOR
 		add("circuitMat", it("opencomputers:material"):6, 3, 0, 0, -2, 1, 3); !transistor
 		add("circuitMat", it("opencomputers:material"):7, 1, 3, 0, -1, 0, 4); !chip T1
 		add("circuitMat", it("opencomputers:material"):8, 3, 7, 0, -2, 0, 10); !chip T2
@@ -202,6 +231,19 @@ moddedRecipes() {
 		add("circuitMat", it("opencomputers:component"):6, 0, 0, 32, -8, -8, 16); !RAM T1
 		add("circuitMat", it("opencomputers:component"):7, 0, 0, 48, -8, -16, 32); !RAM T1.5
 		add("circuitMat", it("opencomputers:capacitor"), 0, 0, 0, -8, 1, 160000); !CAPACITOR (only 1/10 cap here)
+	}
+	if (hasmod("mekanism")) {
+		add("shaped", it("item.wireless_b"), "121/020", it("item.wireless"), it("m.telekin_alloy"), it("mekanism:machineblock3"));
+	}
+	if (hasmod("enderio")) {
+		add("shaped", it("item.wireless_b"), " 1 /020/ 1 ", it("item.wireless"), it("m.telekin_alloy"), it("enderio:block_transceiver"));
+		add("battery", it("enderio:item_basic_capacitor"):0, 50e3 * energy_unit_FE);
+		add("battery", it("enderio:item_basic_capacitor"):1, 150e3 * energy_unit_FE);
+		add("battery", it("enderio:item_basic_capacitor"):2, 500e3 * energy_unit_FE);
+	}
+	if (hasmod("draconicevolution")) {
+		add("battery", it("draconicevolution:wyvern_energy_core"), 8e6 * energy_unit_FE);
+		add("battery", it("draconicevolution:draconic_energy_core"), 32e6 * energy_unit_FE);
 	}
 }
 
@@ -216,15 +258,19 @@ POST_INIT() {
 	c:"read_b" = base;
 	c:"read_s" = base;
 	c:"read" = base;
+	c:"read_f" = base;
 	c:"write_b" = 2*base;
 	c:"write_s" = 2*base;
 	c:"write" = 2*base;
+	c:"write_f" = 2*base;
 	c:"feedback_b" = 2*base;
 	c:"feedback_s" = 2*base;
 	c:"feedback" = 2*base;
+	c:"feedback_f" = 2*base;
 	c:"array_b" = base;
 	c:"array_s" = 2*base;
 	c:"array_i" = 3*base;
+	c:"array_f" = 3*base;
 	c:"aget" = base;
 	c:"aset" = 4*base;
 	!logic tab:
@@ -236,6 +282,7 @@ POST_INIT() {
 	c:"xor" = 3*base;
 	c:"xnor" = 3*base;
 	c:"swt" = 3*base;
+	c:"fswt" = 3*base;
 	c:"branch" = 3*base;
 	c:"update" = adv;
 	!comparator tab:
@@ -249,6 +296,12 @@ POST_INIT() {
 	c:"ne" = adv;
 	c:"lt" = adv;
 	c:"ge" = adv;
+	c:"feq0" = 2*base;
+	c:"flt0" = 2*base;
+	c:"fgt0" = 2*base;
+	c:"finf" = 2*base;
+	c:"fnan" = 2*base;
+	c:"fcmp" = 2*adv;
 	!arithmetic tab:
 	c:"cst" = base;
 	c:"inc" = adv;
@@ -258,10 +311,12 @@ POST_INIT() {
 	c:"add" = 2*adv;
 	c:"sub" = 2*adv;
 	c:"mul" = 4*adv;
-	c:"div" = 6*adv;
-	c:"mod" = 6*adv;
+	c:"div" = 4*adv;
+	c:"mod" = 4*adv;
 	c:"max" = [2, 1]#;
 	c:"min" = [2, 1]#;
+	c:"rand" = [3, 3]#;
+	c:"time" = 5*adv;
 	!bits & bytes tab:
 	c:"bsl" = 2*adv;
 	c:"bsr" = 2*adv;
@@ -269,4 +324,24 @@ POST_INIT() {
 	c:"bitcom" = 4*adv;
 	c:"bytespl" = 4*adv;
 	c:"bytecom" = 4*adv;
+	c:"lobp" = 3*adv;
+	c:"hobp" = 3*adv;
+	c:"obcnt" = 3*adv;
+	c:"bmask" = base;
+	c:"bin_i2f" = base;
+	c:"bin_f2i" = base;
+	!floating pointer
+	c:"fcst" = base;
+	c:"fneg" = base;
+	c:"finv" = [1, 4]#;
+	c:"fabs" = base;
+	c:"fadd" = [1, 3]#;
+	c:"fsub" = [1, 3]#;
+	c:"fmul" = [1, 5]#;
+	c:"fdiv" = [1, 5]#;
+	c:"fmod" = [1, 5]#;
+	c:"fmax" = [2, 1]#;
+	c:"fmin" = [2, 1]#;
+	c:"floor" = adv;
+	c:"ceil" = adv;
 }

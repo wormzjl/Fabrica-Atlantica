@@ -1,0 +1,35 @@
+{
+	title: "Iron Bloomery",
+	icon: "pyrotech:bloomery",
+	x: 0.0d,
+	y: 8.0d,
+	dependencies: [
+		"a1065209"
+	],
+	tasks: [{
+		uid: "cc9bce78",
+		type: "item",
+		items: [{
+			item: "pyrotech:bloomery"
+		}]
+	},
+	{
+		uid: "afb39d20",
+		type: "item",
+		title: "Tongs",
+		items: [{
+			item: "pyrotech:tongs_stone"
+		},
+		{
+			item: "pyrotech:tongs_flint"
+		},
+		{
+			item: "pyrotech:tongs_bone"
+		},
+		{
+			item: "pyrotech:tongs_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

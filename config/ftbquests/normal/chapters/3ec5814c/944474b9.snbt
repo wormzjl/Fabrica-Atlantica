@@ -1,0 +1,27 @@
+{
+	title: "An Introduction to Crafting",
+	icon: "pyrotech:worktable",
+	x: 1.0d,
+	y: 1.0d,
+	description: "Worktable is used for making more complicated stuffs. Place the corresponding ingredients on its grid, and hit it with a hammer.",
+	dependencies: [
+		"31b0da12"
+	],
+	tasks: [{
+		uid: "53349ecb",
+		type: "item",
+		items: [{
+			item: "pyrotech:worktable"
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "e4c1ad42",
+		type: "item",
+		items: [{
+			item: "pyrotech:crude_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

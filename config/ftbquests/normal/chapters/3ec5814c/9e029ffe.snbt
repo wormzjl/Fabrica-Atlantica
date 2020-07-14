@@ -1,0 +1,19 @@
+{
+	title: "Tanned Hide",
+	x: 3.0d,
+	y: 5.0d,
+	description: "Raw hide can be obtained from various animals, tanning is required to make them useful through.",
+	dependencies: [
+		"c5eb6907"
+	],
+	tasks: [{
+		uid: "ac0f9a4a",
+		type: "item",
+		items: [{
+			item: "primal:hide_tanned"
+		},
+		{
+			item: "primal:pigman_hide_tanned"
+		}]
+	}]
+}

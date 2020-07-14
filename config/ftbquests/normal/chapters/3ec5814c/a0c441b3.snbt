@@ -1,0 +1,23 @@
+{
+	title: "Seeds",
+	x: 2.0d,
+	y: 1.0d,
+	description: "Seeds cannot be obtained by breaking grass, but instead by tilling grass blocks with a hoe. Warning: you will need a lof of hemp later, so it's better to prepare it beforehands.",
+	dependencies: [
+		"86095b8b"
+	],
+	tasks: [{
+		uid: "a4628363",
+		type: "item",
+		items: [{
+			item: "betterwithmods:hemp"
+		}]
+	},
+	{
+		uid: "5a4443a6",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}]
+	}]
+}

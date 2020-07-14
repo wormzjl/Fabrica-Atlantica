@@ -1,0 +1,18 @@
+{
+	title: "An Introduction to Research",
+	x: -4.0d,
+	y: -3.0d,
+	text: [
+		"Research is required to unlock various complex machinery."
+	],
+	dependencies: [
+		"bab1cc78"
+	],
+	tasks: [{
+		uid: "afd5ab1d",
+		type: "item",
+		items: [{
+			item: "researchtable:table"
+		}]
+	}]
+}

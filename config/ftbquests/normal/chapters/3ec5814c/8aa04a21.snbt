@@ -1,0 +1,15 @@
+{
+	x: 5.0d,
+	y: 4.0d,
+	dependencies: [
+		"e0081674",
+		"a0cda165"
+	],
+	tasks: [{
+		uid: "a625cca1",
+		type: "item",
+		items: [{
+			item: "betterwithmods:urn 1 8"
+		}]
+	}]
+}

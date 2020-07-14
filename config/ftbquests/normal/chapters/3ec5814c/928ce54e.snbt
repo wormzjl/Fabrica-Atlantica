@@ -1,0 +1,13 @@
+{
+	title: "Industrial Blast Furnace",
+	x: 7.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "b267f1ee",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}],
+		count: 27L
+	}]
+}

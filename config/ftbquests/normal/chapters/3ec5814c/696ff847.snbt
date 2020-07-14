@@ -1,0 +1,23 @@
+{
+	title: "Refractory Preparations",
+	x: -1.0d,
+	y: 6.0d,
+	description: "Essential devices to make refractory bricks.",
+	dependencies: [
+		"59ced770"
+	],
+	tasks: [{
+		uid: "81283a88",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_crucible"
+		}]
+	},
+	{
+		uid: "a7fd987e",
+		type: "item",
+		items: [{
+			item: "pyrotech:soaking_pot"
+		}]
+	}]
+}

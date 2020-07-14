@@ -1,0 +1,27 @@
+{
+	title: "Iron Age",
+	icon: "minecraft:iron_ingot",
+	x: 1.0d,
+	y: 8.0d,
+	shape: "diamond",
+	dependencies: [
+		"4fa4617a",
+		"80eccb9b"
+	],
+	tasks: [{
+		uid: "b58bc21d",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	},
+	{
+		uid: "da5917c7",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

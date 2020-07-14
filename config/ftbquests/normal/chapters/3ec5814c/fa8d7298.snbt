@@ -1,0 +1,29 @@
+{
+	title: "To the nether",
+	icon: "minecraft:portal",
+	x: 3.0d,
+	y: 8.0d,
+	description: "The Nether is no longer accessed via a obsidian gate. You can dig to the bottom of the overworld to get to the nether directly. Note that the fiery bedrock on top on Nether can only be removed by (vanilla) Iron Pickaxe.",
+	dependencies: [
+		"6124d5fb"
+	],
+	tasks: [{
+		uid: "9179a5c6",
+		type: "dimension",
+		dim: -1
+	},
+	{
+		uid: "e59eb8e1",
+		type: "item",
+		items: [{
+			item: "primal:salt_dust_fire"
+		}]
+	},
+	{
+		uid: "2347c86e",
+		type: "item",
+		items: [{
+			item: "primal:corypha_stalk"
+		}]
+	}]
+}

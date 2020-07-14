@@ -1,0 +1,16 @@
+{
+	title: "Gold!",
+	x: 4.0d,
+	y: 8.0d,
+	description: "Gold is used to make redstone latch, which is an essential component for BetterWithMods.",
+	dependencies: [
+		"83e842c4"
+	],
+	tasks: [{
+		uid: "100b1210",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ingot"
+		}]
+	}]
+}
