@@ -104,18 +104,13 @@ var hastelloy = MaterialSystem.getMaterialBuilder().setName("Hastelloy").setColo
 
 
 var metal_list = [iron, gold, steel, copper, tin, bronze, lead, silver, nickel, invar, zinc, brass, aluminium, titanium, tungsten, ssteel, hastelloy] as Material[];
-var gear_base = [iron, steel, bronze, invar] as Material[];
 var gear_adv = [ssteel, titanium, tungsten] as Material[];
-var gear_all = [iron, steel, bronze, invar, ssteel, titanium, tungsten] as Material[];
+var gear_all = [iron, steel, bronze, invar, ssteel, titanium, tungsten, brass] as Material[];
 var plate_all = [aluminium, titanium, tungsten, ssteel, hastelloy] as Material[];
 var part_names = ["rod", "denseplate", "dusttiny"] as string[];
 
 for i, metal in metal_list {
     metal.registerParts(part_names);
-}
-
-for i, metal in gear_base {
-    metal.registerPart("gear");
 }
 
 for i, metal in gear_adv {

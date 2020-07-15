@@ -29,8 +29,11 @@ recipes.addShaped(<immersiveengineering:metal_device1:2>, [[<ore:dustRedstone>, 
 recipes.removeShaped(<immersiveengineering:stone_decoration:1> * 3, [[<ore:ingotBrickNether>, <ore:ingotBrick>, <ore:ingotBrickNether>], [<ore:ingotBrick>, <minecraft:blaze_powder>, <ore:ingotBrick>], [<ore:ingotBrickNether>, <ore:ingotBrick>, <ore:ingotBrickNether>]]);
 recipes.addShaped(<immersiveengineering:stone_decoration:1> * 3, [[<betterwithmods:material:14>, <ore:ingotBrick>, <betterwithmods:material:14>], [<ore:ingotBrick>, <minecraft:blaze_powder>, <ore:ingotBrick>], [<betterwithmods:material:14>, <ore:ingotBrick>, <betterwithmods:material:14>]]);
 
+recipes.remove(<immersiveengineering:metal_decoration0:5>);
+recipes.addShaped(<immersiveengineering:metal_decoration0:5> * 2, [[<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateSteel>], [<minecraft:piston>, <ore:plateElectrum>, <minecraft:piston>], [<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateSteel>]]);
+
 recipes.remove(<immersiveengineering:metal_decoration0:4>);
-recipes.addShaped(<immersiveengineering:metal_decoration0:4> * 2, [[<ore:plateSteel>, <immersiveengineering:material:8>, <ore:plateSteel>], [<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], [<ore:plateSteel>, <immersiveengineering:material:8>, <ore:plateSteel>]]);
+recipes.addShaped(<immersiveengineering:metal_decoration0:4> * 2, [[<ore:plateIron>, <immersiveengineering:material:8>, <ore:plateIron>], [<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], [<ore:plateIron>, <immersiveengineering:material:8>, <ore:plateIron>]]);
 
 recipes.remove(<immersiveengineering:metal_decoration0:3>);
 recipes.addShaped(<immersiveengineering:metal_decoration0:3> * 2, [[<ore:plateSteel>, <ore:dustRedstone>, <ore:plateSteel>], [<ore:dustRedstone>, <ore:plateCopper>, <ore:dustRedstone>], [<ore:plateSteel>, <ore:dustRedstone>, <ore:plateSteel>]]);
