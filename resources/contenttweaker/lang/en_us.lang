@@ -36,7 +36,7 @@ item.contenttweaker.driedrawrubber.name=Dried raw rubber
 item.contenttweaker.solarcell.name=Solar Cell
 item.contenttweaker.advsolarcell.name=Advanced Solar Cell
 item.contenttweaker.scalcomb.name=Scandium-Aluminium Alloy Honeycomb
-item.contenttweaker.bushingadv.name=Titanium Gear Bushing
+item.contenttweaker.bushingadv.name=Heavy Duty Gear Bushing
 item.contenttweaker.mold_pellet.name=Ore Pellet Mold
 item.contenttweaker.tinyzr.name=Tiny Pile of Zirconium dust
 item.contenttweaker.tinysb.name=Tiny Pile of Antimony dust
@@ -97,12 +97,6 @@ base.material.alumina=Alumina
 base.material.tio2=Titanium Dioxide
 base.material.gaas=Gallium Arsenide
 
-base.material.tier1=Tier 1
-base.material.tier2=Tier 2
-base.material.tier3=Tier 3
-base.material.tier4=Tier 4
-base.material.tier5=Tier 5
-
 contenttweaker.part.ore_high=High Grade %s Ore
 contenttweaker.part.ore_low=Low Grade %s Ore
 contenttweaker.part.ore_small_high=Small Piece of High Grade %s Ore
@@ -121,13 +115,27 @@ contenttweaker.part.broken_low=Broken Poor %s Ore
 contenttweaker.part.slag=%s Slag
 
 contenttweaker.part.scrapmetal=Scrap %s
-contenttweaker.part.gearbase=%s Gear
-contenttweaker.part.gearadv=%s Gear
-contenttweaker.part.gearpart=%s Gear Part
 contenttweaker.part.denseplate=%s Dense Plate
 contenttweaker.part.dusttiny=Tiny Pile of %s Dust
 
-contenttweaker.part.data=%s Research Data
+//Material system alt
+item.contenttweaker.gearpart_iron.name=Iron Gear Part
+item.contenttweaker.gearpart_steel.name=Steel Gear Part
+item.contenttweaker.gearpart_bronze.name=Bronze Gear Part
+item.contenttweaker.gearpart_brass.name=Brass Gear Part
+item.contenttweaker.gearpart_invar.name=Invar Gear Part
+item.contenttweaker.gearpart_ssteel.name=Stainless Steel Gear Part
+item.contenttweaker.gearpart_titanium.name=Titanium Gear Part
+item.contenttweaker.gearpart_tungsten.name=Tungsten Gear Part
+item.contenttweaker.gear_ssteel.name=Stainless Steel Gear
+item.contenttweaker.gear_titanium.name=Titanium Gear
+item.contenttweaker.gear_tungsten.name=Tungsten Gear
+
+item.contenttweaker.data_t1.name=Level 1 Research Data
+item.contenttweaker.data_t2.name=Level 2 Research Data
+item.contenttweaker.data_t3.name=Level 3 Research Data
+item.contenttweaker.data_t4.name=Level 4 Research Data
+item.contenttweaker.data_t5.name=Level 5 Research Data
 
 //Overridden item names
 item.magneticraft.copper_coil_normal.name=Copper Wire Coil

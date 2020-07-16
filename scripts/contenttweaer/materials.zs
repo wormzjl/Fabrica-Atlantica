@@ -104,21 +104,11 @@ var hastelloy = MaterialSystem.getMaterialBuilder().setName("Hastelloy").setColo
 
 
 var metal_list = [iron, gold, steel, copper, tin, bronze, lead, silver, nickel, invar, zinc, brass, aluminium, titanium, tungsten, ssteel, hastelloy] as Material[];
-var gear_adv = [ssteel, titanium, tungsten] as Material[];
-var gear_all = [iron, steel, bronze, invar, ssteel, titanium, tungsten, brass] as Material[];
 var plate_all = [aluminium, titanium, tungsten, ssteel, hastelloy] as Material[];
 var part_names = ["rod", "denseplate", "dusttiny"] as string[];
 
 for i, metal in metal_list {
     metal.registerParts(part_names);
-}
-
-for i, metal in gear_adv {
-    metal.registerPart("gearadv");
-}
-
-for i, metal in gear_all {
-    metal.registerPart("gearpart");
 }
 
 for i, metal in plate_all {
@@ -144,17 +134,4 @@ var chemicals = [gaas, tio2, alumina] as Material[];
 for i, chemical in chemicals {
     chemical.registerPart("dust");
     chemical.registerPart("dusttiny");
-}
-
-//Research data
-var t1 = MaterialSystem.getMaterialBuilder().setName("tier1").setColor(2486272).build();
-var t2 = MaterialSystem.getMaterialBuilder().setName("tier2").setColor(16456475).build();
-var t3 = MaterialSystem.getMaterialBuilder().setName("tier3").setColor(16513819).build();
-var t4 = MaterialSystem.getMaterialBuilder().setName("tier4").setColor(657915).build();
-var t5 = MaterialSystem.getMaterialBuilder().setName("tier5").setColor(719867).build();
-
-var research_all = [t1, t2, t3, t4, t5] as Material[];
-
-for i, item in research_all {
-    item.registerPart("data");
 }

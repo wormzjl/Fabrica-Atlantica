@@ -145,7 +145,7 @@ scalcomb.maxStackSize = 16;
 scalcomb.register();
 
 var bushingadv = VanillaFactory.createItem("bushingadv");
-bushingadv.maxStackSize = 4;
+bushingadv.maxStackSize = 1;
 bushingadv.register();
 
 var mold_pellet = VanillaFactory.createItem("mold_pellet");
@@ -227,3 +227,68 @@ solder.register();
 var fiberglassboard = VanillaFactory.createItem("fiberglassboard");
 fiberglassboard.maxStackSize = 16;
 fiberglassboard.register();
+
+//Material system alt
+var gearpart_iron = VanillaFactory.createItem("gearpart_iron");
+gearpart_iron.maxStackSize = 1;
+gearpart_iron.register();
+
+var gearpart_steel = VanillaFactory.createItem("gearpart_steel");
+gearpart_steel.maxStackSize = 1;
+gearpart_steel.register();
+
+var gearpart_bronze = VanillaFactory.createItem("gearpart_bronze");
+gearpart_bronze.maxStackSize = 1;
+gearpart_bronze.register();
+
+var gearpart_brass = VanillaFactory.createItem("gearpart_brass");
+gearpart_brass.maxStackSize = 1;
+gearpart_brass.register();
+
+var gearpart_invar = VanillaFactory.createItem("gearpart_invar");
+gearpart_invar.maxStackSize = 1;
+gearpart_invar.register();
+
+var gearpart_ssteel = VanillaFactory.createItem("gearpart_ssteel");
+gearpart_ssteel.maxStackSize = 1;
+gearpart_ssteel.register();
+
+var gearpart_titanium = VanillaFactory.createItem("gearpart_titanium");
+gearpart_titanium.maxStackSize = 1;
+gearpart_titanium.register();
+
+var gearpart_tungsten = VanillaFactory.createItem("gearpart_tungsten");
+gearpart_tungsten.maxStackSize = 1;
+gearpart_tungsten.register();
+
+var gear_ssteel = VanillaFactory.createItem("gear_ssteel");
+gear_ssteel.maxStackSize = 1;
+gear_ssteel.register();
+
+var gear_titanium = VanillaFactory.createItem("gear_titanium");
+gear_titanium.maxStackSize = 1;
+gear_titanium.register();
+
+var gear_tungsten = VanillaFactory.createItem("gear_tungsten");
+gear_tungsten.maxStackSize = 1;
+gear_tungsten.register();
+
+var data_t1 = VanillaFactory.createItem("data_t1");
+data_t1.maxStackSize = 1;
+data_t1.register();
+
+var data_t2 = VanillaFactory.createItem("data_t2");
+data_t2.maxStackSize = 1;
+data_t2.register();
+
+var data_t3 = VanillaFactory.createItem("data_t3");
+data_t3.maxStackSize = 1;
+data_t3.register();
+
+var data_t4 = VanillaFactory.createItem("data_t4");
+data_t4.maxStackSize = 1;
+data_t4.register();
+
+var data_t5 = VanillaFactory.createItem("data_t5");
+data_t5.maxStackSize = 1;
+data_t5.register();
