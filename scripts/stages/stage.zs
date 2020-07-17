@@ -1,8 +1,19 @@
 mods.recipestages.Recipes.setPrintContainers(true);
 
-var t0 = ["forestry", "world"] as string[];
-var t1 = ["forestry", "basictech"] as string[];
-var allStages = ["forestry", "basictech"] as string[];
+static t0 as string[] = [
+    "forestry",
+    "world"
+];
+
+static t1 as string[] = [
+    "forestry",
+    "basictech"
+];
+
+static allStages as string[] = [
+    "forestry",
+    "basictech"
+];
 
 mods.recipestages.Recipes.setPackageStage("appeng", allStages);
 mods.recipestages.Recipes.setPackageStage("blusunrize.immersiveengineering", t1);

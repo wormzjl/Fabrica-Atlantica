@@ -1,4 +1,5 @@
 mods.jei.JEI.removeAndHide(<immersivetech:stone_decoration>);
+mods.jei.JEI.removeAndHide(<immersivetech:stone_decoration_slab>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:toolbox>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:wooden_device0>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:wooden_device0:5>);
@@ -65,7 +66,11 @@ recipes.addShaped(<immersiveengineering:material:2> * 2, [[<ore:ingotSteel>], [<
 recipes.remove(<immersiveengineering:material:3>);
 recipes.addShaped(<immersiveengineering:material:3> * 2, [[<ore:ingotAluminium>], [<ore:ingotAluminium>]]);
 
-//IW
+//IW - Using converting variant
+mods.jei.JEI.removeAndHide(<industrialwires:mechanical_converter>);
+mods.jei.JEI.removeAndHide(<industrialwires:mechanical_converter:1>);
+mods.jei.JEI.removeAndHide(<industrialwires:mechanical_converter:2>);
+
 recipes.remove(<industrialwires:control_panel:4>);
 recipes.addShaped(<industrialwires:control_panel:4>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 

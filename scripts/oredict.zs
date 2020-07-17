@@ -36,21 +36,6 @@ wireCopper.remove(<techguns:itemshared:62>);
 sheetPlastic.remove(<techguns:itemshared:55>);
 
 //Research related stack size
-val t1data = <contenttweaker:tier1_data>;
-t1data.maxStackSize = 1;
-
-val t2data = <contenttweaker:tier2_data>;
-t2data.maxStackSize = 1;
-
-val t3data = <contenttweaker:tier3_data>;
-t3data.maxStackSize = 1;
-
-val t4data = <contenttweaker:tier4_data>;
-t4data.maxStackSize = 1;
-
-val t5data = <contenttweaker:tier5_data>;
-t5data.maxStackSize = 1;
-
 val solenoid = <nuclearcraft:part:4>;
 solenoid.maxStackSize = 8;
 
@@ -65,11 +50,8 @@ rocketengine2.maxStackSize = 1;
 
 
 //Stack sizes
-val ironmech = <immersiveengineering:material:8>;
-ironmech.maxStackSize = 8;
-
-val steelmech = <immersiveengineering:material:9>;
-steelmech.maxStackSize = 8;
+val iematerial = <immersiveengineering:material>;
+iematerial.maxStackSize = 32;
 
 val capacitor = <pneumaticcraft:capacitor>;
 capacitor.maxStackSize = 16;

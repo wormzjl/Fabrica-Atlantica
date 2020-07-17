@@ -14,8 +14,8 @@ mods.immersiveengineering.Blueprint.addRecipe("Logistics", <magneticraft:inserte
 
 mods.immersiveengineering.Blueprint.addRecipe("IE Multiblock Parts", <immersiveengineering:metal_decoration1:1>*6, [<ore:plateSteel>, <ore:plateSteel>, <ore:stickSteel>, <ore:stickSteel>]);
 mods.immersiveengineering.Blueprint.addRecipe("IE Multiblock Parts", <immersiveengineering:metal_decoration0:3>*4, [<ore:plateSteel>, <ore:plateSteel>, <minecraft:redstone>, <minecraft:redstone>]);
-mods.immersiveengineering.Blueprint.addRecipe("IE Multiblock Parts", <immersiveengineering:metal_decoration0:4>*4, [<ore:plateSteel>, <ore:plateSteel>, <ore:gearSteel>, <immersiveengineering:material:8>]);
-mods.immersiveengineering.Blueprint.addRecipe("IE Multiblock Parts", <immersiveengineering:metal_decoration0:5>*4, [<ore:plateSteel>, <ore:plateSteel>, <ore:gearSteel>, <immersiveengineering:material:9>]);
+mods.immersiveengineering.Blueprint.addRecipe("IE Multiblock Parts", <immersiveengineering:metal_decoration0:4>*3, [<ore:plateSteel>, <ore:plateSteel>, <ore:gearSteel>, <immersiveengineering:material:8>]);
+mods.immersiveengineering.Blueprint.addRecipe("IE Multiblock Parts", <immersiveengineering:metal_decoration0:5>*3, [<ore:plateInvar>, <ore:plateInvar>, <ore:plateElectrum>, <ore:gearInvar>, <immersiveengineering:material:9>, <immersiveengineering:material:9>, <minecraft:redstone>]);
 
 
 mods.immersiveengineering.Blueprint.addRecipe("Magneticraft Machines", <magneticraft:oil_heater>, [<magneticraft:multiblock_parts>, <pneumaticcraft:printed_circuit_board>]);
