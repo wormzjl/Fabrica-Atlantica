@@ -63,6 +63,7 @@ item.contenttweaker.solder.name=Solder
 item.contenttweaker.fiberglassboard.name=Fiberglass Board
 
 item.contenttweaker.stage_debugger.name=Gamestage Debugger
+item.contenttweaker.stage_disabled.name=Show Disabled Item
 
 
 //Materials

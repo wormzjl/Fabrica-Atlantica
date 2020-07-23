@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import scripts.functions;
 
 static jeihidden as IItemStack[] = [
   <forestry:greenhouse:*>,
@@ -61,7 +62,7 @@ for item in jeihidden {
 }
 
 for item in removed {
-	mods.jei.JEI.removeAndHide(item);
+  functions.removeItem(item);
 }
 
 for item in carpenterremoved {

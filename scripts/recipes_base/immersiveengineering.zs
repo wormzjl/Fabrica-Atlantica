@@ -1,12 +1,19 @@
-mods.jei.JEI.removeAndHide(<immersivetech:stone_decoration>);
-mods.jei.JEI.removeAndHide(<immersivetech:stone_decoration_slab>);
-mods.jei.JEI.removeAndHide(<immersiveengineering:toolbox>);
-mods.jei.JEI.removeAndHide(<immersiveengineering:wooden_device0>);
-mods.jei.JEI.removeAndHide(<immersiveengineering:wooden_device0:5>);
-mods.jei.JEI.removeAndHide(<immersiveengineering:metal_device1:3>);
-mods.jei.JEI.removeAndHide(<immersiveengineering:metal_device1:13>);
+import crafttweaker.item.IItemStack;
+import scripts.functions;
 
-mods.jei.JEI.removeAndHide(<immersiveengineering:metal:29>);
+static removed as IItemStack[] = [
+  <immersivetech:stone_decoration>,
+  <immersivetech:stone_decoration_slab>,
+  <immersiveengineering:toolbox>,
+  <immersiveengineering:wooden_device1>,
+  <immersiveengineering:metal_device1:3>,
+  <immersiveengineering:metal_device1:13>,
+  <immersiveengineering:metal:29>
+];
+
+for item in removed {
+  functions.removeItem(item);
+}
 
 //Recipes
 recipes.remove(<immersiveengineering:metal:30>);

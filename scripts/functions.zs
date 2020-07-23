@@ -16,3 +16,8 @@ function stageItem(stage as string, item as IItemStack){
   mods.ItemStages.addItemStage(stage, item);
   mods.recipestages.Recipes.setRecipeStage(stage, item);
 }
+
+function removeItem(item as IItemStack){
+  mods.ItemStages.addItemStage("disabled", item);
+  mods.recipestages.Recipes.setRecipeStage("disabled", item);
+}

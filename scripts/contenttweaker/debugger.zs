@@ -53,3 +53,12 @@ stage_debugger.itemRightClick = function(stack, world, player, hand) {
 };
 stage_debugger.maxStackSize = 1;
 stage_debugger.register();
+
+//Show disabled items
+var stage_disabled = VanillaFactory.createItem("stage_disabled");
+stage_disabled.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("gamestage add @p disabled", player, world);
+    return "Pass";
+};
+stage_disabled.maxStackSize = 1;
+stage_disabled.register();

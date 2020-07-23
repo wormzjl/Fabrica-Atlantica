@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import scripts.functions;
 
 //mods.jei.JEI.removeAndHide(<ic2:te:22>);
 //mods.jei.JEI.removeAndHide(<ic2:te:24>);
@@ -39,7 +40,7 @@ static removed as IItemStack[] = [
 ];
 
 for item in removed {
-	mods.jei.JEI.removeAndHide(item);
+  functions.removeItem(item);
 }
 
 //Not working
