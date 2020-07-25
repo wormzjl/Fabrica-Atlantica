@@ -1,3 +1,48 @@
+import crafttweaker.item.IItemStack;
+import scripts.functions;
+
+static removed as IItemStack[] = [
+  <pyrotech:crude_hoe>,
+  <pyrotech:crude_pickaxe>,
+  <pyrotech:crude_shovel>,
+  <pyrotech:bone_axe>,
+  <pyrotech:bone_hoe>,
+  <pyrotech:bone_pickaxe>,
+  <pyrotech:bone_shovel>,
+  <pyrotech:bone_sword>,
+  <pyrotech:flint_axe>,
+  <pyrotech:flint_hoe>,
+  <pyrotech:flint_pickaxe>,
+  <pyrotech:flint_shovel>,
+  <pyrotech:flint_sword>,
+  <pyrotech:obsidian_axe>,
+  <pyrotech:obsidian_hoe>,
+  <pyrotech:obsidian_pickaxe>,
+  <pyrotech:obsidian_shovel>,
+  <pyrotech:obsidian_sword>,
+  <pyrotech:unfired_clay_shears>,
+  <pyrotech:clay_shears>,
+  <pyrotech:stone_shears>,
+  <pyrotech:bone_shears>,
+  <pyrotech:flint_shears>,
+  <pyrotech:gold_shears>,
+  <pyrotech:diamond_shears>,
+  <pyrotech:obsidian_shears>,
+  <pyrotech:stone_hammer>,
+  <pyrotech:bone_hammer>,
+  <pyrotech:flint_hammer>,
+  <pyrotech:iron_hammer>,
+  <pyrotech:gold_hammer>,
+  <pyrotech:diamond_hammer>,
+  <pyrotech:obsidian_hammer>,
+  <pyrotech:chopping_block>,
+  <pyrotech:drying_rack:1>
+];
+
+for item in removed {
+  functions.removeItem(item);
+}
+
 mods.pyrotech.BrickCrucible.removeRecipes(<liquid:lava>);
 
 //Drying rack migration (to be applied to oven - 0.25x crude time)
@@ -21,11 +66,14 @@ mods.pyrotech.DryingRack.addRecipe("crucible", <forgecraft:itemnbtcrucible>, <fo
 mods.pyrotech.DryingRack.removeAllRecipes();
 
 //Recipes
-mods.jei.JEI.removeAndHide(<pyrotech:chopping_block>);
-mods.jei.JEI.removeAndHide(<pyrotech:drying_rack:1>);
+recipes.replaceAllOccurences(<ore:fiberPlant>, <pyrotech:material:12>);
+recipes.replaceAllOccurences(<ore:cordageGeneral>, <pyrotech:material:14>);
 
 mods.pyrotech.StoneKiln.removeRecipes(<minecraft:cobblestone>);
 mods.pyrotech.BrickKiln.removeRecipes(<minecraft:cobblestone>);
 
 recipes.remove(<pyrotech:worktable>);
 recipes.addShapeless(<pyrotech:worktable>, [<ore:logWood>, <ore:toolAxe>.transformDamage()]);
+
+recipes.remove(<pyrotech:crude_axe>);
+recipes.addShaped(<pyrotech:crude_axe>, [[<primal:flint_knapp>, <primal:flint_knapp>], [<ore:stickWood>, <pyrotech:material:12>]]);

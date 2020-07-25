@@ -1,7 +1,7 @@
 import crafttweaker.item.IItemStack;
+import scripts.functions;
 
 //Recipe tweaks
-
 furnace.remove(<magneticraft:ingots:5>);
 
 static removed as IItemStack[] = [
@@ -19,7 +19,7 @@ static removed as IItemStack[] = [
 ];
 
 for item in removed {
-	mods.jei.JEI.removeAndHide(item);
+  functions.removeItem(item);
 }
 
 recipes.remove(<magneticraft:electric_piston>);

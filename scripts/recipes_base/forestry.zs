@@ -54,7 +54,9 @@ static carpenterremoved as IItemStack[] = [
   <forestry:forester_bag_t2>,
   <forestry:hunter_bag_t2>,
   <forestry:adventurer_bag_t2>,
-  <forestry:builder_bag_t2>
+  <forestry:builder_bag_t2>,
+  <forestry:kit_pickaxe>,
+  <forestry:kit_shovel>
 ];
 
 for item in jeihidden {

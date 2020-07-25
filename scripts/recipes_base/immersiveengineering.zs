@@ -2,6 +2,10 @@ import crafttweaker.item.IItemStack;
 import scripts.functions;
 
 static removed as IItemStack[] = [
+  <immersiveengineering:pickaxe_steel>,
+  <immersiveengineering:shovel_steel>,
+  <immersiveengineering:axe_steel>,
+  <immersiveengineering:sword_steel>,
   <immersivetech:stone_decoration>,
   <immersivetech:stone_decoration_slab>,
   <immersiveengineering:toolbox>,

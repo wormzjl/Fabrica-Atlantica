@@ -46,8 +46,8 @@ static allStages as string[] = [
     "iw_mech"
 ];
 
-//Mostly not working
-mods.recipestages.Recipes.setPackageStage("appeng", allStages);
+//Recipestages tbd
+//mods.recipestages.Recipes.setPackageStage("appeng", allStages);
 //mods.recipestages.Recipes.setPackageStage("blusunrize.immersiveengineering", t1);
 //mods.recipestages.Recipes.setPackageStage("li.cil.oc", allStages);
 //mods.recipestages.Recipes.setPackageStage("mcjty.rftools", allStages);

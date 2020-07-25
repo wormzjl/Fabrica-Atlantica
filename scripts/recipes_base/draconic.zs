@@ -1,2 +1,11 @@
-mods.jei.JEI.removeAndHide(<draconicevolution:generator>);
-mods.jei.JEI.removeAndHide(<draconicevolution:grinder>);
+import crafttweaker.item.IItemStack;
+import scripts.functions;
+
+static removed as IItemStack[] = [
+  <draconicevolution:generator>,
+  <draconicevolution:grinder>
+];
+
+for item in removed {
+  functions.removeItem(item);
+}

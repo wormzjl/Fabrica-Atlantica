@@ -1,16 +1,101 @@
-mods.jei.JEI.removeAndHide(<primal:fish_trap:*>);
-mods.jei.JEI.removeAndHide(<primal:storage_crate:*>);
-mods.jei.JEI.removeAndHide(<primal:worktable_slab:*>);
-mods.jei.JEI.removeAndHide(<primal:worktable_shelf:*>);
-mods.jei.JEI.removeAndHide(<primal:logs_stacked:*>);
-mods.jei.JEI.removeAndHide(<primal:charcoal_stack:*>);
-mods.jei.JEI.removeAndHide(<primal:charcoal_fair>);
-mods.jei.JEI.removeAndHide(<primal:charcoal_good>);
-mods.jei.JEI.removeAndHide(<primal:charcoal_high>);
-mods.jei.JEI.removeAndHide(<primal:hibachi:*>);
+import crafttweaker.item.IItemStack;
+import scripts.functions;
 
-mods.jei.JEI.removeAndHide(<primal:quern:*>);
-mods.jei.JEI.removeAndHide(<primal:quern_buhrstone_carbonate>);
+static removed as IItemStack[] = [
+  <primal:bone_pickaxe>,
+  <primal:bone_shovel>,
+  <primal:bone_hoe>,
+  <primal:bone_hatchet>,
+  <primal:bone_shears>,
+  <primal:bone_saw>,
+  <primal:opal_pickaxe>,
+  <primal:opal_shovel>,
+  <primal:opal_hoe>,
+  <primal:opal_axe>,
+  <primal:opal_hatchet>,
+  <primal:obsidian_pickaxe>,
+  <primal:obsidian_shovel>,
+  <primal:obsidian_hoe>,
+  <primal:obsidian_axe>,
+  <primal:quartz_pickaxe>,
+  <primal:quartz_shovel>,
+  <primal:quartz_hoe>,
+  <primal:quartz_axe>,
+  <primal:quartz_hatchet>,
+  <primal:quartz_shears>,
+  <primal:quartz_saw>,
+  <primal:diamond_pickaxe>,
+  <primal:diamond_shovel>,
+  <primal:diamond_hoe>,
+  <primal:diamond_axe>,
+  <primal:diamond_hatchet>,
+  <primal:emerald_pickaxe>,
+  <primal:emerald_shovel>,
+  <primal:emerald_hoe>,
+  <primal:emerald_axe>,
+  <primal:emerald_hatchet>,
+  <primal:emerald_saw>,
+  <primal:sword_crude_bone>,
+  <primal:sword_crude_wootz>,
+  <primal:sword_crude_quartz>,
+  <primal:quartz_workblade>,
+  <primal:opal_workblade>,
+  <primal:emerald_workblade>,
+  <primal:armor_obsidian_head>,
+  <primal:armor_obsidian_body>,
+  <primal:armor_obsidian_legs>,
+  <primal:armor_obsidian_feet>,
+  <primal:fish_trap>,
+  <primal:fish_trap:1>,
+  <primal:fish_trap:2>,
+  <primal:fish_trap:3>,
+  <primal:fish_trap:4>,
+  <primal:fish_trap:5>,
+  <primal:fish_trap:6>,
+  <primal:fish_trap:7>,
+  <primal:fish_trap:8>,
+  <primal:fish_trap:9>,
+  <primal:storage_crate:*>,
+  <primal:worktable_slab>,
+  <primal:worktable_slab:1>,
+  <primal:worktable_slab:2>,
+  <primal:worktable_slab:3>,
+  <primal:worktable_slab:4>,
+  <primal:worktable_slab:5>,
+  <primal:worktable_slab:6>,
+  <primal:worktable_slab:7>,
+  <primal:worktable_slab:8>,
+  <primal:worktable_slab:9>,
+  <primal:worktable_shelf>,
+  <primal:worktable_shelf:1>,
+  <primal:worktable_shelf:2>,
+  <primal:worktable_shelf:3>,
+  <primal:worktable_shelf:4>,
+  <primal:worktable_shelf:5>,
+  <primal:worktable_shelf:6>,
+  <primal:worktable_shelf:7>,
+  <primal:worktable_shelf:8>,
+  <primal:worktable_shelf:9>,
+  <primal:logs_stacked:*>,
+  <primal:logs_stacked_corypha>,
+  <primal:charcoal_stack:*>,
+  <primal:charcoal_fair>,
+  <primal:charcoal_good>,
+  <primal:charcoal_high>,
+  <primal:hibachi>,
+  <primal:hibachi:1>,
+  <primal:hibachi:2>,
+  <primal:hibachi:3>,
+  <primal:quern>,
+  <primal:quern:1>,
+  <primal:quern:2>,
+  <primal:quern_buhrstone_carbonate>
+];
+
+for item in removed {
+  functions.removeItem(item);
+}
+
 mods.primal.Quern.removeAll();
 
 //Forgecraft stuff
@@ -193,6 +278,8 @@ recipes.removeByRegex("primal:rock_andesite.*");
 recipes.removeByRegex("primal:rock_diorite.*");
 recipes.removeByRegex("primal:rock_granite.*");
 recipes.removeByRegex("primal:rock_netherrack.*");
+recipes.remove(<primal:plant_fiber>);
+recipes.remove(<primal:plant_cordage>);
 
 recipes.remove(<pyrotech:flint_and_tinder>);
 recipes.addShapeless(<pyrotech:flint_and_tinder>, [<primal:flint_knapp>, <pyrotech:material:13>, <ore:rock>]);

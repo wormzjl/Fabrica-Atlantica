@@ -1,15 +1,23 @@
+import crafttweaker.item.IItemStack;
+import scripts.functions;
+
+static removed as IItemStack[] = [
+  <minecraft:ender_chest>,
+  <compactmachines3:psd>
+];
+
+for item in removed {
+  functions.removeItem(item);
+}
+
+
 mods.jei.JEI.hide(<appliedenergistics2:facade:*>);
 mods.jei.JEI.hide(<microblockcbe:microblock:*>);
 
 //Fuel values
 furnace.setFuel(<contenttweaker:scrap8>, 1200);
 
-//misc
-mods.jei.JEI.removeAndHide(<appliedenergistics2:material:40>);
-mods.jei.JEI.removeAndHide(<minecraft:ender_chest>);
-
 //Compact machines
-mods.jei.JEI.removeAndHide(<compactmachines3:psd>);
 mods.jei.JEI.hide(<compactmachines3:machine>);
 mods.jei.JEI.hide(<compactmachines3:machine:1>);
 mods.jei.JEI.hide(<compactmachines3:machine:2>);
@@ -71,7 +79,7 @@ recipes.remove(<bedrockores:bedrock_miner>);
 recipes.addShaped(<bedrockores:bedrock_miner>, [[<ore:plateSteel>, <minecraft:dropper>, <ore:plateSteel>], [<ore:blockRedstone>, <minecraft:piston>, <ore:blockRedstone>], [<ore:obsidian>, <ore:gemDiamond>, <ore:obsidian>]]);
 
 
-//Iron chests
+//Iron chests - mod to be removed?
 mods.jei.JEI.removeAndHide(<ironchest:iron_shulker_box_white:*>);
 mods.jei.JEI.removeAndHide(<ironchest:iron_shulker_box_orange:*>);
 mods.jei.JEI.removeAndHide(<ironchest:iron_shulker_box_magenta:*>);
@@ -97,130 +105,6 @@ mods.jei.JEI.removeAndHide(<ironchest:diamond_crystal_shulker_upgrade>);
 mods.jei.JEI.removeAndHide(<ironchest:vanilla_copper_shulker_upgrade>);
 mods.jei.JEI.removeAndHide(<ironchest:vanilla_iron_shulker_upgrade>);
 mods.jei.JEI.removeAndHide(<ironchest:diamond_obsidian_shulker_upgrade>);
-
-
-//Industrail renewal
-mods.jei.JEI.removeAndHide(<industrialrenewal:solar_panel>);
-mods.jei.JEI.removeAndHide(<industrialrenewal:sponge_iron>);
-mods.jei.JEI.removeAndHide(<industrialrenewal:stick_iron>);
-mods.jei.JEI.removeAndHide(<industrialrenewal:chunk_loader>);
-
-
-recipes.removeShaped(<industrialrenewal:catwalk_pillar>*6,
- [[<ore:ingotSteel>, <ore:stickIron>, <ore:ingotSteel>],
-  [<ore:ingotSteel>, <ore:stickIron>, <ore:ingotSteel>],
-  [<ore:ingotSteel>, <ore:stickIron>, <ore:ingotSteel>]]);
-
-recipes.addShaped(<industrialrenewal:catwalk_pillar>*32,
- [[<ore:ingotSteel>, <ore:stickIron>, <ore:ingotSteel>],
-  [<ore:ingotSteel>, <ore:stickIron>, <ore:ingotSteel>],
-  [<ore:ingotSteel>, <ore:stickIron>, <ore:ingotSteel>]]);
-
-recipes.remove(<industrialrenewal:catwalk>);
-recipes.remove(<industrialrenewal:catwalk_stair>);
-
-recipes.addShaped(<industrialrenewal:catwalk> * 8, [[<ore:stickIron>, null, <ore:stickIron>], [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]]);
-
-recipes.addShapeless(<industrialrenewal:catwalk_stair>,[<industrialrenewal:catwalk>]);
-recipes.addShapeless(<industrialrenewal:catwalk>,[<industrialrenewal:catwalk_stair>]);
-
-recipes.remove(<industrialrenewal:catwalk_column>);
-recipes.addShaped(<industrialrenewal:catwalk_column>*24,
- [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
-  [<ore:stickIron>, <ore:stickIron>, <ore:stickIron>],
-  [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
-
-recipes.remove(<industrialrenewal:catwalk_ladder>);
-recipes.addShaped(<industrialrenewal:catwalk_ladder>*12,
- [[<ore:stickIron>, <minecraft:ladder>, <ore:stickIron>],
-  [<ore:ingotIron>, <minecraft:ladder>, <ore:ingotIron>],
-  [<ore:stickIron>, <minecraft:ladder>, <ore:stickIron>]]);
-
-recipes.remove(<industrialrenewal:roof>);
-recipes.addShaped(<industrialrenewal:roof>*16,
- [[<industrialrenewal:small_slab>, <industrialrenewal:small_slab>, null],
-  [null, <industrialrenewal:small_slab>, <industrialrenewal:small_slab>],
-  [<ore:stickIron>, <ore:stickIron>, <ore:stickIron>]]);
-
-recipes.remove(<industrialrenewal:window>);
-recipes.addShaped(<industrialrenewal:window>*24,
- [[<ore:paneGlass>, <ore:stickIron>, <ore:paneGlass>],
-  [<ore:paneGlass>, <ore:stickIron>, <ore:paneGlass>],
-  [<ore:paneGlass>, <ore:stickIron>, <ore:paneGlass>]]);
-
-recipes.remove(<industrialrenewal:platform>);
-recipes.addShaped(<industrialrenewal:platform>*8,
- [[<ore:stickIron>, null, <ore:stickIron>],
-  [<ore:stickIron>, <ore:plankWood>, <ore:stickIron>],
-  [null, <industrialrenewal:catwalk_pillar>, null]]);
-
-recipes.remove(<industrialrenewal:scaffold>);
-recipes.addShaped(<industrialrenewal:scaffold> * 24, [[<ore:stickIron>, <ore:plankWood>, <ore:stickIron>], [<ore:stickIron>, <ore:stickIron>, <ore:stickIron>], [<ore:stickIron>, null, <ore:stickIron>]]);
-
-recipes.remove(<industrialrenewal:frame>);
-recipes.addShaped(<industrialrenewal:frame> * 12, [[<ore:stickIron>, <ore:ingotSteel>, <ore:stickIron>], [<ore:stickIron>, <ore:ingotSteel>, <ore:stickIron>], [<ore:stickIron>, <ore:ingotSteel>, <ore:stickIron>]]);
-
-recipes.remove(<industrialrenewal:industrial_floor>);
-recipes.addShaped(<industrialrenewal:industrial_floor> * 24, [[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>], [null, null, null], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
-
-//Betterdiving
-mods.jei.JEI.hide(<better_diving:titanium>);
-mods.jei.JEI.hide(<better_diving:copper_ore>);
-mods.jei.JEI.hide(<better_diving:silver_ore>);
-mods.jei.JEI.hide(<better_diving:lead>);
-mods.jei.JEI.hide(<better_diving:gold>);
-mods.jei.JEI.hide(<better_diving:creepvine_seed_cluster>);
-mods.jei.JEI.hide(<better_diving:limestone_outcrop>);
-mods.jei.JEI.hide(<better_diving:sandstone_outcrop>);
-mods.jei.JEI.hide(<better_diving:creepvine>);
-mods.jei.JEI.hide(<better_diving:seagrass>);
-mods.jei.JEI.hide(<better_diving:acid_mushroom>);
-mods.jei.JEI.removeAndHide(<better_diving:titanium_ingot>);
-mods.jei.JEI.removeAndHide(<better_diving:wiring_kit>);
-mods.jei.JEI.removeAndHide(<better_diving:battery>);
-mods.jei.JEI.removeAndHide(<better_diving:power_cell>);
-mods.jei.JEI.removeAndHide(<better_diving:lubricant>);
-mods.jei.JEI.removeAndHide(<better_diving:silicone_rubber>);
-mods.jei.JEI.removeAndHide(<better_diving:fiber_mesh>);
-
-recipes.remove(<better_diving:diving_mask>);
-recipes.addShaped(<better_diving:diving_mask>, [[<immersiveengineering:material:5>, <minecraft:glass>, <immersiveengineering:material:5>]]);
-
-recipes.remove(<better_diving:standard_o2_tank>);
-recipes.addShaped(<better_diving:standard_o2_tank>, [[<ic2:crafting>, <ore:plateIron>, <ic2:crafting>], [<ore:plateIron>, null, <ore:plateIron>], [<ic2:crafting>, <ore:plateIron>, <ic2:crafting>]]);
-
-recipes.remove(<better_diving:wetsuit_leggings>);
-recipes.addShaped(<better_diving:wetsuit_leggings>, [[<immersiveengineering:material:5>, <ic2:crafting>, <immersiveengineering:material:5>], [<ic2:crafting>, null, <ic2:crafting>], [<ic2:crafting>, null, <ic2:crafting>]]);
-
-recipes.remove(<better_diving:fins>);
-recipes.addShaped(<better_diving:fins>, [[<ic2:crafting>, null, <ic2:crafting>], [<ic2:crafting>, null, <ic2:crafting>]]);
-
-recipes.remove(<better_diving:rebreather>);
-recipes.addShaped(<better_diving:rebreather>, [[<betterwithmods:material:14>, <better_diving:diving_mask>, <betterwithmods:material:14>], [<betterwithmods:material:14>, <immersiveengineering:material:5>, <betterwithmods:material:14>]]);
-
-recipes.remove(<better_diving:high_capacity_o2_tank>);
-recipes.addShaped(<better_diving:high_capacity_o2_tank>, [[<betterwithmods:material:14>, <better_diving:standard_o2_tank>, <betterwithmods:material:14>], [<betterwithmods:material:14>, <immersiveengineering:material:5>, <betterwithmods:material:14>]]);
-
-recipes.remove(<better_diving:improved_wetsuit_leggings>);
-recipes.addShaped(<better_diving:improved_wetsuit_leggings>, [[<betterwithmods:material:14>, <better_diving:wetsuit_leggings>, <betterwithmods:material:14>], [<betterwithmods:material:14>, <immersiveengineering:material:5>, <betterwithmods:material:14>]]);
-
-recipes.remove(<better_diving:ultra_glide_fins>);
-recipes.addShaped(<better_diving:ultra_glide_fins>, [[<betterwithmods:material:14>, <better_diving:fins>, <betterwithmods:material:14>], [<betterwithmods:material:14>, <immersiveengineering:material:5>, <betterwithmods:material:14>]]);
-
-recipes.remove(<better_diving:reinforced_diving_mask>);
-recipes.addShaped(<better_diving:reinforced_diving_mask>, [[<ore:plateSteel>, <better_diving:diving_mask>, <ore:plateSteel>], [<ore:plateSteel>, <immersiveengineering:material:5>, <ore:plateSteel>]]);
-
-recipes.remove(<better_diving:reinforced_o2_tank>);
-recipes.addShaped(<better_diving:reinforced_o2_tank>, [[<ore:plateSteel>, <better_diving:standard_o2_tank>, <ore:plateSteel>], [<ore:plateSteel>, <immersiveengineering:material:5>, <ore:plateSteel>]]);
-
-recipes.remove(<better_diving:reinforced_wetsuit_leggings>);
-recipes.addShaped(<better_diving:reinforced_wetsuit_leggings>, [[<ore:plateSteel>, <better_diving:wetsuit_leggings>, <ore:plateSteel>], [<ore:plateSteel>, <immersiveengineering:material:5>, <ore:plateSteel>]]);
-
-recipes.remove(<better_diving:reinforced_fins>);
-recipes.addShaped(<better_diving:reinforced_fins>, [[<ore:plateSteel>, <better_diving:fins>, <ore:plateSteel>], [<ore:plateSteel>, <immersiveengineering:material:5>, <ore:plateSteel>]]);
-
-recipes.remove(<better_diving:seamoth>);
-recipes.addShaped(<better_diving:seamoth>, [[<ore:denseplateInvar>, <ic2:glass>, <ore:denseplateInvar>], [<ic2:glass>, <ic2:boat:3>, <ic2:glass>], [<ore:denseplateInvar>, <ic2:glass>, <ore:denseplateInvar>]]);
 
 
 //Autoverse

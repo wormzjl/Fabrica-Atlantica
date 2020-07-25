@@ -1,17 +1,25 @@
 import mods.techguns.ReactionChamber;
+import crafttweaker.item.IItemStack;
+import scripts.functions;
 
-mods.jei.JEI.removeAndHide(<techguns:simplemachine:8>);
-mods.jei.JEI.removeAndHide(<techguns:simplemachine:11>);
+static removed as IItemStack[] = [
+  <techguns:simplemachine:8>,
+  <techguns:simplemachine:11>,
+  <techguns:itemshared:56>,
+  <techguns:steam_helmet:*>,
+  <techguns:steam_chestplate:*>,
+  <techguns:steam_leggings:*>,
+  <techguns:steam_boots:*>
+];
+
+for item in removed {
+  functions.removeItem(item);
+}
 
 
-mods.jei.JEI.hide(<techguns:itemshared:56>);
+
 furnace.remove(<techguns:itemshared:55>);
 furnace.remove(<techguns:itemshared:56>);
-
-mods.jei.JEI.hide(<techguns:steam_helmet:*>);
-mods.jei.JEI.hide(<techguns:steam_chestplate:*>);
-mods.jei.JEI.hide(<techguns:steam_leggings:*>);
-mods.jei.JEI.hide(<techguns:steam_boots:*>);
 
 mods.techguns.BlastFurnace.removeRecipe(<techguns:itemshared:83>);
 mods.techguns.BlastFurnace.removeRecipe(<techguns:itemshared:84>);

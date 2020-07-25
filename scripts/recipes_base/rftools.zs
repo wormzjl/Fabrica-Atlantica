@@ -1,22 +1,26 @@
-//Consider crafter gate (OP)
+import crafttweaker.item.IItemStack;
+import scripts.functions;
 
-mods.jei.JEI.removeAndHide(<rftools:powercell>);
-mods.jei.JEI.removeAndHide(<rftools:powercell_advanced>);
+static removed as IItemStack[] = [
+  <rftools:powercell>,
+  <rftools:powercell_advanced>,
+  <rftools:endergenic>,
+  <rftools:pearl_injector>,
+  <rftools:spawner>,
+  <rftools:matter_beamer>,
+  <rftools:saturation_module>,
+  <rftools:saturationplus_module>,
+  <rftools:shape_card:3>,
+  <rftools:shape_card:4>,
+  <rftools:shape_card:6>,
+  <rftools:shape_card:7>
+];
 
-mods.jei.JEI.removeAndHide(<rftools:endergenic>);
-mods.jei.JEI.removeAndHide(<rftools:pearl_injector>);
+for item in removed {
+  functions.removeItem(item);
+}
 
-mods.jei.JEI.removeAndHide(<rftools:spawner>);
-mods.jei.JEI.removeAndHide(<rftools:matter_beamer>);
-
-mods.jei.JEI.removeAndHide(<rftools:saturation_module>);
-mods.jei.JEI.removeAndHide(<rftools:saturationplus_module>);
-
-mods.jei.JEI.removeAndHide(<rftools:shape_card:3>);
-mods.jei.JEI.removeAndHide(<rftools:shape_card:4>);
-mods.jei.JEI.removeAndHide(<rftools:shape_card:6>);
-mods.jei.JEI.removeAndHide(<rftools:shape_card:7>);
-
+//Consider auto-crafter gate (OP)
 recipes.remove(<rftools:space_chamber_card>);
 recipes.remove(<rftools:space_chamber>);
 recipes.remove(<rftools:space_chamber_controller>);

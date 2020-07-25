@@ -1,4 +1,5 @@
 import crafttweaker.item.IItemStack;
+import scripts.functions;
 
 //Recipe tweaks
 
@@ -8,5 +9,5 @@ static removed as IItemStack[] = [
 ];
 
 for item in removed {
-	mods.jei.JEI.removeAndHide(item);
+  functions.removeItem(item);
 }

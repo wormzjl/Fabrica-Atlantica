@@ -1,3 +1,20 @@
+import crafttweaker.item.IItemStack;
+import scripts.functions;
+
+static removed as IItemStack[] = [
+  <nuclearcraft:lithium_ion_battery_basic>,
+  <nuclearcraft:lithium_ion_battery_advanced>,
+  <nuclearcraft:lithium_ion_battery_du>,
+  <nuclearcraft:lithium_ion_cell>,
+  <nuclearcraft:compound:1>,
+  <nuclearcraft:portable_ender_chest>
+];
+
+for item in removed {
+  functions.removeItem(item);
+}
+
+
 //recipes.remove(<nuclearcraft:helium_collector_compact>);
 //recipes.remove(<nuclearcraft:helium_collector>);
 //recipes.remove(<nuclearcraft:helium_collector_dense>);
@@ -10,14 +27,7 @@
 //recipes.remove(<nuclearcraft:nitrogen_collector_compact>);
 //recipes.remove(<nuclearcraft:nitrogen_collector>);
 
-mods.jei.JEI.removeAndHide(<nuclearcraft:lithium_ion_battery_basic>);
-mods.jei.JEI.removeAndHide(<nuclearcraft:lithium_ion_battery_advanced>);
-mods.jei.JEI.removeAndHide(<nuclearcraft:lithium_ion_battery_du>);
-
-mods.jei.JEI.removeAndHide(<nuclearcraft:lithium_ion_cell>);
 //mods.jei.JEI.removeAndHide(<nuclearcraft:supercooler_idle>);
-mods.jei.JEI.removeAndHide(<nuclearcraft:compound:1>);
-mods.jei.JEI.removeAndHide(<nuclearcraft:portable_ender_chest>);
 
 //ores
 furnace.remove(<ic2:ingot:8>);
