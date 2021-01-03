@@ -86,6 +86,7 @@
       "slagColor": "d8af93",
       "langKey": [
         "industrialrenewal:item.industrialrenewal.chunk_hematite",
+        "industrialrenewal:tile.industrialrenewal.orevein_hematite",
         "minecraft:tile.oreIron"
       ],
       "output": [
@@ -129,9 +130,11 @@
       "slagColor": "55f3ff",
       "langKey": [
         "ariente:tile.ariente.platinumore",
-        "arienteworld:tile.arienteworld.platinumore"
+        "arienteworld:tile.arienteworld.platinumore",
+        "immersiveintelligence:tile.immersiveintelligence.ore.platinum"
       ],
       "output": [
+        "immersiveintelligence:material_nugget:2",
         "primal:platinum_nugget:0"
       ]
     },

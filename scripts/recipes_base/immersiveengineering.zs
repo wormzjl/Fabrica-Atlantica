@@ -12,7 +12,10 @@ static removed as IItemStack[] = [
   <immersiveengineering:wooden_device1>,
   <immersiveengineering:metal_device1:3>,
   <immersiveengineering:metal_device1:13>,
-  <immersiveengineering:metal:29>
+  <immersiveengineering:metal:29>,
+  <industrialwires:mechanical_converter>,
+  <industrialwires:mechanical_converter:1>,
+  <industrialwires:mechanical_converter:2>
 ];
 
 for item in removed {
@@ -78,10 +81,6 @@ recipes.remove(<immersiveengineering:material:3>);
 recipes.addShaped(<immersiveengineering:material:3> * 2, [[<ore:ingotAluminium>], [<ore:ingotAluminium>]]);
 
 //IW - Using converting variant
-mods.jei.JEI.removeAndHide(<industrialwires:mechanical_converter>);
-mods.jei.JEI.removeAndHide(<industrialwires:mechanical_converter:1>);
-mods.jei.JEI.removeAndHide(<industrialwires:mechanical_converter:2>);
-
 recipes.remove(<industrialwires:control_panel:4>);
 recipes.addShaped(<industrialwires:control_panel:4>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 

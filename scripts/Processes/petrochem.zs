@@ -152,8 +152,8 @@ mods.immersiveengineering.Refinery.addRecipe(<liquid:gasoline_adv_bio>*1000, <li
 
 
 //Misc Chemistry
-mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:ethanol>*1000, <liquid:sulfur_trioxide>*1000);
-mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:methanol>*1000, null);
+//mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:ethanol>*1000, <liquid:sulfur_trioxide>*1000);
+//mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:methanol>*1000, null);
 
 mods.rockhounding_chemistry.LabOven.add("Animal oil", <primal:tallow>, null, <liquid:plantoil>*200, null, <liquid:animaloil>*2000, null);
 mods.rockhounding_chemistry.LabOven.add("Biodiesel", <rockhounding_chemistry:chemical_items:6>, null, <liquid:plantoil>*1000, <liquid:methanol>*200, <liquid:biodiesel>*1000, null);

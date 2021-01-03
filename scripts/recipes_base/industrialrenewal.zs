@@ -5,7 +5,8 @@ static removed as IItemStack[] = [
   <industrialrenewal:solar_panel>,
   <industrialrenewal:sponge_iron>,
   <industrialrenewal:stick_iron>,
-  <industrialrenewal:chunk_loader>
+  <industrialrenewal:chunk_loader>,
+  <industrialrenewal:solar_panel_frame>
 ];
 
 for item in removed {

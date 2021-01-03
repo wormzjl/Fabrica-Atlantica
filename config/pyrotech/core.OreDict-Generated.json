@@ -59,18 +59,11 @@
     "fuelCoke": [
       "pyrotech:material:1"
     ],
-    "mulchNitrogen": [
-      "minecraft:mutton",
-      "minecraft:rabbit",
-      "minecraft:rotten_flesh",
-      "minecraft:chicken",
-      "minecraft:beef",
-      "minecraft:fish:0",
-      "minecraft:fish:1",
-      "minecraft:fish:2",
-      "minecraft:fish:3",
-      "minecraft:porkchop",
-      "minecraft:dye:15"
+    "milk": [
+      "minecraft:milk_bucket",
+      "pyrotech:bucket_wood:1",
+      "pyrotech:bucket_clay:1",
+      "pyrotech:bucket_stone:1"
     ],
     "oreNetherCoal": [
       "pyrotech:dense_nether_coal_ore"
@@ -81,7 +74,8 @@
       "pyrotech:rock:1",
       "pyrotech:rock:3",
       "pyrotech:rock:6",
-      "pyrotech:rock:8"
+      "pyrotech:rock:8",
+      "pyrotech:rock:10"
     ],
     "stickStone": [
       "pyrotech:material:27"
@@ -97,7 +91,27 @@
       "pyrotech:crude_axe:*",
       "pyrotech:flint_axe:*",
       "pyrotech:bone_axe:*",
-      "pyrotech:obsidian_axe:*"
+      "pyrotech:obsidian_axe:*",
+      "pyrotech:redstone_axe:*"
+    ],
+    "toolSharp": [
+      "minecraft:stone_axe:*",
+      "minecraft:iron_axe:*",
+      "minecraft:golden_axe:*",
+      "minecraft:diamond_axe:*",
+      "pyrotech:crude_axe:*",
+      "pyrotech:flint_axe:*",
+      "pyrotech:bone_axe:*",
+      "pyrotech:obsidian_axe:*",
+      "pyrotech:redstone_axe:*",
+      "minecraft:stone_sword:*",
+      "minecraft:iron_sword:*",
+      "minecraft:golden_sword:*",
+      "minecraft:diamond_sword:*",
+      "pyrotech:flint_sword:*",
+      "pyrotech:bone_sword:*",
+      "pyrotech:obsidian_sword:*",
+      "pyrotech:redstone_sword:*"
     ],
     "twine": [
       "minecraft:string",

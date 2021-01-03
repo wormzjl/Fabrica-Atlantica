@@ -56,7 +56,7 @@ mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:diamond>*1332);
 
 
 
-mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:ammonia>*2000, null);
+//mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:ammonia>*2000, null);
 mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:sulfuric_acid>*1000, null);
 mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:oxygen_difluoride>*2000, null);
 mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:sulfur_trioxide>*1000, <liquid:fluorine>*1000);
