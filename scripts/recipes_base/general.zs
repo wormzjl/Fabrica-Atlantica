@@ -28,6 +28,8 @@ mods.jei.JEI.hide(<compactmachines3:wallbreakable>);
 mods.jei.JEI.hide(<compactmachines3:tunneltool>);
 mods.jei.JEI.hide(<compactmachines3:redstonetunneltool>);
 
+recipes.remove(<worsesolars:solar_cell>);
+
 recipes.remove(<compactmachines3:fieldprojector>);
 recipes.addShaped(<compactmachines3:fieldprojector> * 4, [[null, <minecraft:ender_eye>, null], [null, <minecraft:redstone_torch>, null], [<minecraft:diamond>, <ore:plateTitanium>, <minecraft:diamond>]]);
 

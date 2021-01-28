@@ -19,6 +19,7 @@ static removed as IItemStack[] = [
   <ic2:resource:14>,
   <ic2:refractory_bricks>,
   <ic2:tool_box:*>,
+  <ic2:energy_pack:26>,
   <ic2:te:17>,
   <ic2:te:23>,
   <ic2:te:25>,
@@ -36,7 +37,10 @@ static removed as IItemStack[] = [
   <ic2:te:131>,
   <ic2:te:132>,
   <ic2:te:133>,
-  <ic2:te:134>
+  <ic2:te:134>,
+  <energycontrol:afsu>,
+  <energycontrol:afb:*>,
+  <energycontrol:afsu_upgrade_kit>
 ];
 
 for item in removed {

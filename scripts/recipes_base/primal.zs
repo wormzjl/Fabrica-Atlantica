@@ -98,6 +98,13 @@ for item in removed {
 
 mods.primal.Quern.removeAll();
 
+//Fuel nerf
+furnace.setFuel(<primal:paraffin_clump>, 100);
+
+val clumpFuel = <ore:clumpFuel>;
+clumpFuel.remove(<primal:paraffin_clump>);
+
+
 //Forgecraft stuff
 recipes.remove(<forgecraft:stoneanvil>);
 recipes.addShaped(<forgecraft:stoneanvil>, [[<ore:ingotIron>], [<ore:stone>]]);
