@@ -63,13 +63,8 @@ var recipestaged as IItemStack[] = [
   <forestry:ffarm:*>
 ];
 
-for item in scripts.recipes_base.forestry.jeihidden {
-  excluded += item;
-}
-
-for item in scripts.recipes_base.forestry.removed {
-  excluded += item;
-}
+excluded = functions.MergeArray(excluded, scripts.recipes_base.forestry.jeihidden);
+excluded = functions.MergeArray(excluded, scripts.recipes_base.forestry.removed);
 
 for item in loadedMods["forestry"].items {
   if !(functions.inArray(item, excluded)) {

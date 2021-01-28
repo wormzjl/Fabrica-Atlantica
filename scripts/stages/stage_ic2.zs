@@ -13,12 +13,10 @@ var excluded as IItemStack[] = [
 ];
 
 var recipestaged as IItemStack[] = [
-  <ic2:te:*>
+
 ];
 
-for item in scripts.recipes_base.ic2.removed {
-  excluded += item;
-}
+excluded = functions.MergeArray(excluded, scripts.recipes_base.ic2.removed);
 
 for item in loadedMods["ic2"].items {
   if !(functions.inArray(item, excluded)) {

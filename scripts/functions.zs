@@ -1,10 +1,20 @@
 import crafttweaker.item.IItemStack;
 
+val list3 as IItemStack[];
+
 function inArray(a as IItemStack, list as IItemStack[]) as bool{
   for item in list {
     if item.matches(a) return true;
   }
   return false;
+}
+
+function MergeArray(list1 as IItemStack[], list2 as IItemStack[]) as IItemStack[]{
+  var returnlist = list1;
+  for item in list2 {
+    returnlist += item;
+  }
+  return returnlist;
 }
 
 function stageMod(stage as string, mod as string){
