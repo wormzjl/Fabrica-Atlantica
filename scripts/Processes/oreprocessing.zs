@@ -427,7 +427,7 @@ furnace.remove(<nuclearcraft:ingot:12>);
 furnace.remove(<libvulpes:productingot:9>);
 
 mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:alumina_dust>*2, <nuclearcraft:compound:5>, <materialpart:aluminium_ore:ore_dust_pure>, 500);
-mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:alumina_dust>*2, <nuclearcraft:compound:5>, <materialpart:aluminium_ore:ore_dust_pure>, 100, 512);
+mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:alumina_dust>*2, <nuclearcraft:compound:5>, null, 100, 512, [<materialpart:aluminium_ore:ore_dust_pure>]);
 
 mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:1>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:1>, <nuclearcraft:compound:5>, null, 300, 512);
@@ -439,7 +439,7 @@ mods.industrialwires.MarxGenerator.addRecipe(<contenttweaker:alumina_block>, 2.5
 furnace.remove(<techguns:itemshared:85>);
 furnace.remove(<rockhounding_chemistry:metal_items:4>);
 
-recipes.addShapeless(<contenttweaker:ti_o2_dust>,[<contenttweaker:ti_o2_dusttiny>,<contenttweaker:ti_o2_dusttiny>,<contenttweaker:ti_o2_dusttiny>,<contenttweaker:ti_o2_dusttiny>,<contenttweaker:ti_o2_dusttiny>,<contenttweaker:ti_o2_dusttiny>,<contenttweaker:ti_o2_dusttiny>,<contenttweaker:ti_o2_dusttiny>,<contenttweaker:ti_o2_dusttiny>]);
+recipes.addShapeless(<contenttweaker:ti_o2_dust>,[<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>]);
 
 
 //Uranium

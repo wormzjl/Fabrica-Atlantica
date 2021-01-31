@@ -2,33 +2,33 @@ import crafttweaker.item.IItemStack;
 import scripts.functions;
 
 var excluded as IItemStack[] = [
-
-];
-
-var recipestaged as IItemStack[] = [
-
-];
-
-var stage_basicbelt as IItemStack[] = [
-  <immersiveengineering:conveyor:*>
+  <immersiveengineering:stone_decoration:0>,
+  <immersiveengineering:conveyor:*>,
+  <immersiveengineering:stone_decoration:1>,
+  <immersiveengineering:stone_decoration_slab:1>,
+  <immersiveengineering:stone_decoration:2>,
+  <immersiveengineering:stone_decoration_slab:2>,
+  <immersiveengineering:metal_device1>
 ];
 
 excluded = functions.MergeArray(excluded, scripts.recipes_base.immersiveengineering.removed);
-excluded = functions.MergeArray(excluded, stage_basicbelt);
 
+//T0
 for item in loadedMods["immersiveengineering"].items {
   if !(functions.inArray(item, excluded)) {
     mods.ItemStages.addItemStage("basictech", item);
   }
 }
 
-for item in stage_basicbelt {
-  mods.ItemStages.addItemStage("stage_basicbelt", item);
-}
+mods.ItemStages.addItemStage("CokeOven", <immersiveengineering:stone_decoration:0>);
+mods.ItemStages.addItemStage("stage_basicbelt", <immersiveengineering:conveyor:*>);
+mods.ItemStages.addItemStage("BlastFurnace", <immersiveengineering:stone_decoration:1>);
+mods.ItemStages.addItemStage("BlastFurnace", <immersiveengineering:stone_decoration_slab:1>);
 
-for item in recipestaged {
-	mods.recipestages.Recipes.setRecipeStage("basictech", item);
-}
+//T1
+mods.ItemStages.addItemStage("BlastFurnaceAdvanced", <immersiveengineering:stone_decoration:2>);
+mods.ItemStages.addItemStage("BlastFurnaceAdvanced", <immersiveengineering:stone_decoration_slab:2>);
+mods.ItemStages.addItemStage("BlastFurnaceAdvanced", <immersiveengineering:metal_device1>);
 
 
 //Locking mulitiblocks with stages

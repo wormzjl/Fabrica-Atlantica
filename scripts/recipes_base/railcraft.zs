@@ -1,3 +1,16 @@
+import crafttweaker.item.IItemStack;
+import scripts.functions;
+
+static removed as IItemStack[] = [
+  
+];
+
+for item in removed {
+  functions.removeItem(item);
+}
+
+
+
 recipes.remove(<railcraft:circuit>);
 recipes.remove(<railcraft:circuit:1>);
 recipes.remove(<railcraft:circuit:2>);

@@ -4,9 +4,6 @@ import crafttweaker.oredict.IOreDictEntry;
 val dustTungsticacid = <ore:dustTungsticacid>;
 dustTungsticacid.add(<contenttweaker:tungsticacid>);
 
-val ingotBeryllium = <ore:ingotBeryllium>;
-ingotBeryllium.add(<contenttweaker:berylliumingot>);
-
 val dustUranium = <ore:dustUranium>;
 dustUranium.add(<rockhounding_chemistry:chemical_dusts:55>);
 
@@ -15,6 +12,15 @@ toolShears.add(<minecraft:shears>);
 
 val sheetPlastic = <ore:sheetPlastic>;
 sheetPlastic.add(<pneumaticcraft:plastic:15>);
+
+val gearTitanium = <ore:gearTitanium>;
+gearTitanium.add(<contenttweaker:gear_titanium>);
+
+val gearTungsten = <ore:gearTungsten>;
+gearTungsten.add(<contenttweaker:gear_tungsten>);
+
+val gearSsteel = <ore:gearSsteel>;
+gearSsteel.add(<contenttweaker:gear_ssteel>);
 
 
 //Oredict removals

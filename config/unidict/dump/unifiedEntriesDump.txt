@@ -1,3 +1,6 @@
+Sulfur
+	dustSulfur
+
 Thorium
 	dustThorium
 	oreThorium
@@ -18,27 +21,18 @@ Cobalt
 	blockCobalt
 	ingotCobalt
 
-Aluminium
-	stickAluminium
-	chunkAluminium
-	plateAluminium
-	rodAluminium
-	dustAluminium
-	nuggetAluminium
-	ingotAluminium
-
 Tin
-	chunkTin
-	stickTin
 	dustTinyTin
-	plateTin
+	stickTin
+	chunkTin
 	rodTin
 	dustTin
 	nuggetTin
+	plateTin
 	oreTin
-	gearTin
 	blockTin
 	ingotTin
+	gearTin
 
 Boron
 	dustBoron
@@ -47,54 +41,59 @@ Boron
 	ingotBoron
 
 Nickel
+	dustTinyNickel
 	stickNickel
 	chunkNickel
-	plateNickel
 	rodNickel
 	dustNickel
 	nuggetNickel
+	plateNickel
 	oreNickel
 	blockNickel
 	ingotNickel
 
 Invar
+	dustTinyInvar
 	stickInvar
-	plateInvar
 	rodInvar
 	nuggetInvar
-	gearInvar
+	plateInvar
 	blockInvar
 	ingotInvar
+	gearInvar
 
 Shibuichi
-	plateShibuichi
 	dustShibuichi
 	nuggetShibuichi
-	gearShibuichi
+	plateShibuichi
 	blockShibuichi
 	ingotShibuichi
+	gearShibuichi
 
 Tungsten
+	dustTinyTungsten
 	stickTungsten
 	chunkTungsten
-	plateTungsten
 	rodTungsten
 	dustTungsten
 	nuggetTungsten
+	plateTungsten
 	oreTungsten
 	blockTungsten
 	ingotTungsten
+	gearTungsten
 
 Steel
+	dustTinySteel
 	stickSteel
 	chunkSteel
-	plateSteel
 	rodSteel
 	dustSteel
 	nuggetSteel
-	gearSteel
+	plateSteel
 	blockSteel
 	ingotSteel
+	gearSteel
 
 Lithium
 	dustTinyLithium
@@ -109,12 +108,14 @@ Graphite
 	ingotGraphite
 
 Zinc
+	dustTinyZinc
 	stickZinc
 	chunkZinc
-	plateZinc
 	rodZinc
 	dustZinc
 	nuggetZinc
+	plateZinc
+	oreZinc
 	blockZinc
 	ingotZinc
 
@@ -122,9 +123,9 @@ Stone
 	dustStone
 
 Electrum
-	plateElectrum
 	dustElectrum
 	nuggetElectrum
+	plateElectrum
 	blockElectrum
 	ingotElectrum
 
@@ -132,14 +133,14 @@ Iron
 	dustTinyIron
 	stickIron
 	chunkIron
-	plateIron
 	rodIron
 	dustIron
 	nuggetIron
+	plateIron
 	oreIron
-	gearIron
 	blockIron
 	ingotIron
+	gearIron
 
 Obsidian
 	dustObsidian
@@ -149,17 +150,15 @@ Beryllium
 	blockBeryllium
 	ingotBeryllium
 
-Silver
-	dustTinySilver
-	stickSilver
-	chunkSilver
-	plateSilver
-	rodSilver
-	dustSilver
-	nuggetSilver
-	oreSilver
-	blockSilver
-	ingotSilver
+Aluminum
+	stickAluminum
+	chunkAluminum
+	dustAluminum
+	nuggetAluminum
+	plateAluminum
+	oreAluminum
+	blockAluminum
+	ingotAluminum
 
 Zirconium
 	dustZirconium
@@ -172,69 +171,81 @@ Magnesium
 	blockMagnesium
 	ingotMagnesium
 
+Chromium
+	dustChromium
+	ingotChromium
+
 Bronze
-	stickBronze
 	dustTinyBronze
-	plateBronze
+	stickBronze
 	rodBronze
 	dustBronze
 	nuggetBronze
-	gearBronze
+	plateBronze
 	blockBronze
 	ingotBronze
+	gearBronze
 
 Iridium
 	stickIridium
-	plateIridium
 	dustIridium
 	nuggetIridium
+	plateIridium
 	oreIridium
 	blockIridium
 	ingotIridium
 
 Brass
+	dustTinyBrass
 	stickBrass
-	plateBrass
 	rodBrass
 	dustBrass
 	nuggetBrass
-	gearBrass
+	plateBrass
 	blockBrass
 	ingotBrass
+	gearBrass
 
 Platinum
-	platePlatinum
 	dustPlatinum
 	nuggetPlatinum
+	platePlatinum
 	orePlatinum
 	blockPlatinum
 	ingotPlatinum
 
 Titanium
+	dustTinyTitanium
 	stickTitanium
-	plateTitanium
 	rodTitanium
 	dustTitanium
 	nuggetTitanium
+	plateTitanium
 	oreTitanium
-	gearTitanium
 	blockTitanium
 	ingotTitanium
+	gearTitanium
 
-Sulfur
-	dustTinySulfur
-	dustSulfur
-	oreSulfur
-	blockSulfur
+Silver
+	dustTinySilver
+	stickSilver
+	chunkSilver
+	rodSilver
+	dustSilver
+	nuggetSilver
+	plateSilver
+	oreSilver
+	blockSilver
+	ingotSilver
 
 Lead
 	dustTinyLead
 	stickLead
 	chunkLead
-	plateLead
 	rodLead
 	dustLead
 	nuggetLead
+	plateLead
 	oreLead
 	blockLead
 	ingotLead
@@ -243,24 +254,25 @@ Gold
 	dustTinyGold
 	stickGold
 	chunkGold
-	plateGold
 	rodGold
 	dustGold
 	nuggetGold
+	plateGold
 	oreGold
 	blockGold
 	ingotGold
+	gearGold
 
 Copper
 	dustTinyCopper
 	stickCopper
 	chunkCopper
-	plateCopper
 	rodCopper
 	dustCopper
 	nuggetCopper
+	plateCopper
 	oreCopper
-	gearCopper
 	blockCopper
 	ingotCopper
+	gearCopper
 

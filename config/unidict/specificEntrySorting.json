@@ -1,0 +1,75 @@
+[
+	{
+		"entryName" : "blockSteel",
+		"modIdPriorityList" :
+		[
+			"immersiveengineering",
+			"railcraft"
+		]
+	},
+	{
+		"entryName" : "ingotZircaloy",
+		"modIdPriorityList" :
+		[
+			"rockhounding_chemistry",
+			"nuclearcraft"
+		]
+	},
+	{
+		"entryName" : "ingotNichrome",
+		"modIdPriorityList" :
+		[
+			"rockhounding_chemistry",
+			"qmd"
+		]
+	},
+	{
+		"entryName" : "ingotIridium",
+		"modIdPriorityList" :
+		[
+			"libvulpes",
+			"qmd"
+		]
+	},
+	{
+		"entryName" : "dustIridium",
+		"modIdPriorityList" :
+		[
+			"libvulpes",
+			"qmd"
+		]
+	},
+	{
+		"entryName" : "dustYttrium",
+		"modIdPriorityList" :
+		[
+			"rockhounding_chemistry",
+			"qmd"
+		]
+	},
+	{
+		"entryName" : "dustNeodymium",
+		"modIdPriorityList" :
+		[
+			"rockhounding_chemistry",
+			"qmd"
+		]
+	},
+	{
+		"entryName" : "ingotTitanium",
+		"modIdPriorityList" :
+		[
+			"rockhounding_chemistry",
+			"qmd"
+		]
+	},
+	{
+		"entryName" : "dustTitanium",
+		"modIdPriorityList" :
+		[
+			"rockhounding_chemistry",
+			"qmd"
+		]
+	}
+
+]

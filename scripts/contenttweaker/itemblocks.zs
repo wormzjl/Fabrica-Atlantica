@@ -70,9 +70,6 @@ var membrane = VanillaFactory.createBlock("membrane", <blockmaterial:iron>);
 membrane.register();
 
 //items
-var berylliumingot = VanillaFactory.createItem("berylliumingot");
-berylliumingot.register();
-
 var cdteingot = VanillaFactory.createItem("cdteingot");
 cdteingot.register();
 

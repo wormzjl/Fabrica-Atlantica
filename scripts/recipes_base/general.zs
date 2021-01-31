@@ -3,7 +3,8 @@ import scripts.functions;
 
 static removed as IItemStack[] = [
   <minecraft:ender_chest>,
-  <compactmachines3:psd>
+  <compactmachines3:psd>,
+  <rs_ctr:wireless_b>
 ];
 
 for item in removed {
@@ -28,14 +29,14 @@ mods.jei.JEI.hide(<compactmachines3:wallbreakable>);
 mods.jei.JEI.hide(<compactmachines3:tunneltool>);
 mods.jei.JEI.hide(<compactmachines3:redstonetunneltool>);
 
-recipes.remove(<worsesolars:solar_cell>);
-
 recipes.remove(<compactmachines3:fieldprojector>);
 recipes.addShaped(<compactmachines3:fieldprojector> * 4, [[null, <minecraft:ender_eye>, null], [null, <minecraft:redstone_torch>, null], [<minecraft:diamond>, <ore:plateTitanium>, <minecraft:diamond>]]);
 
-
 recipes.addShaped(<contenttweaker:grassseed>, [[<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>], [<minecraft:dye:15>, <minecraft:wheat_seeds>, <minecraft:dye:15>], [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>]]);
 <contenttweaker:grassseed>.addTooltip("Use this on dirt to get a grass block!");
+
+//Salvaged solar panel
+recipes.remove(<worsesolars:solar_cell>);
 
 //Gated recipes
 //Crafting table
@@ -141,7 +142,6 @@ recipes.remove(<aquamunda:evaporator>);
 recipes.addShaped(<aquamunda:evaporator>, [[null, <minecraft:glass>, null], [<minecraft:glass>, null, <minecraft:glass>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 
 //RSC
-recipes.remove(<rs_ctr:wireless_b>);
 
 //Architect
 recipes.remove(<architect:provider_item>);

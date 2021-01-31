@@ -74,3 +74,11 @@ for item in carpenterremoved {
 mods.forestry.ThermionicFabricator.removeCast(<forestry:thermionic_tubes:8>);
 
 mods.forestry.Moistener.addRecipe(<minecraft:dirt>, <minecraft:sand>, 60);
+
+recipes.remove(<forestry:engine_peat>);
+recipes.addShaped(<forestry:engine_peat>, [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [null, <ore:blockGlass>, null], [<ore:gearBronze>, <minecraft:piston:*>, <ore:gearBronze>]]);
+
+recipes.remove(<forestry:moistener>);
+recipes.addShaped(<forestry:moistener>, [[<ore:gearBronze>, <ore:blockGlass>, <ore:gearBronze>], [<ore:blockGlass>, <forestry:sturdy_machine:*>, <ore:blockGlass>], [<ore:gearBronze>, <ore:blockGlass>, <ore:gearBronze>]]);
+
+recipes.replaceAllOccurences(<ore:gearTin>, <contenttweaker:gear_ssteel>);

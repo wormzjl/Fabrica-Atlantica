@@ -6,7 +6,12 @@ static removed as IItemStack[] = [
   <nuclearcraft:portable_ender_chest>,
   <qmd:helium_collector>,
   <qmd:neon_collector>,
-  <qmd:argon_collector>
+  <qmd:argon_collector>,
+  <qmd:sword_tungsten_carbide>,
+  <qmd:pickaxe_tungsten_carbide>,
+  <qmd:shovel_tungsten_carbide>,
+  <qmd:axe_tungsten_carbide>,
+  <qmd:hoe_tungsten_carbide>
 ];
 
 for item in removed {

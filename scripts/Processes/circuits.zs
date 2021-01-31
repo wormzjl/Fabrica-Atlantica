@@ -5,8 +5,8 @@ mods.nuclearcraft.Assembler.addRecipe(<ore:dustNichrome>, <pneumaticcraft:plasti
 
 //Capacitor
 mods.pneumaticcraft.pressurechamber.removeRecipe([<pneumaticcraft:capacitor>]);
-mods.nuclearcraft.Assembler.addRecipe(<ore:plateAluminium>, <ore:dustManganese>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), null, <pneumaticcraft:capacitor>*4, 2.0, 2.0, 0.0);
-mods.nuclearcraft.Assembler.addRecipe(<ore:plateAluminium>, <pneumaticcraft:plastic:15>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), null, <pneumaticcraft:capacitor>*8, 2.5, 2.5, 0.0);
+mods.nuclearcraft.Assembler.addRecipe(<ore:plateAluminum>, <ore:dustManganese>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), null, <pneumaticcraft:capacitor>*4, 2.0, 2.0, 0.0);
+mods.nuclearcraft.Assembler.addRecipe(<ore:plateAluminum>, <pneumaticcraft:plastic:15>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), null, <pneumaticcraft:capacitor>*8, 2.5, 2.5, 0.0);
 mods.advancedrocketry.ChemicalReactor.addRecipe(<pneumaticcraft:capacitor>*16, 300, 256, <liquid:sulfuric_acid>*500, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), <rockhounding_chemistry:chemical_dusts:46>);
 
 //Transistor
@@ -34,7 +34,7 @@ mods.nuclearcraft.Assembler.addRecipe(<ore:dustLead>, <ore:dustTin>, <ic2:misc_r
 recipes.remove(<techguns:itemshared:65>);
 mods.nuclearcraft.Assembler.addRecipe(<ore:plateIron>, <ore:plateCopper>, <contenttweaker:solder>, null, <techguns:itemshared:65>, 2.0, 2.0, 0.0);
 mods.nuclearcraft.Assembler.addRecipe(<ore:plateSteel>, <ore:plateCopper>, <contenttweaker:solder>, null, <techguns:itemshared:65>*2, 2.5, 2.5, 0.0);
-mods.nuclearcraft.Assembler.addRecipe(<ore:plateAluminium>, <ore:plateCopper>, <contenttweaker:solder>, null, <techguns:itemshared:65>*3, 3.0, 3.0, 0.0);
+mods.nuclearcraft.Assembler.addRecipe(<ore:plateAluminum>, <ore:plateCopper>, <contenttweaker:solder>, null, <techguns:itemshared:65>*3, 3.0, 3.0, 0.0);
 
 //Basic circuit
 mods.nuclearcraft.Assembler.addRecipe(<techguns:itemshared:65>, <contenttweaker:resistor>*2, null, null, <ic2:crafting:1>, 2.0, 2.0, 0.0);

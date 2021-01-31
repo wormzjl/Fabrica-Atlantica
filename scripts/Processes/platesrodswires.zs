@@ -63,7 +63,7 @@ mods.magneticraft.HydraulicPress.addRecipe(<railcraft:ingot:6>, <railcraft:plate
 mods.magneticraft.HydraulicPress.addRecipe(<railcraft:ingot:7>, <railcraft:plate:9>, 40, 1, true);
 mods.magneticraft.HydraulicPress.addRecipe(<railcraft:ingot:8>, <railcraft:plate:10>, 40, 1, true);
 mods.magneticraft.HydraulicPress.addRecipe(<railcraft:ingot:9>, <railcraft:plate:11>, 40, 1, true);
-mods.magneticraft.HydraulicPress.addRecipe(<immersiveengineering:metal:1>, <materialpart:aluminium:plate>, 40, 1, true);
+mods.magneticraft.HydraulicPress.addRecipe(<immersiveengineering:metal:1>, <materialpart:aluminum:plate>, 40, 1, true);
 mods.magneticraft.HydraulicPress.addRecipe(<rockhounding_chemistry:metal_items:4>, <materialpart:titanium:plate>, 40, 1, true);
 mods.magneticraft.HydraulicPress.addRecipe(<magneticraft:ingots:5>, <materialpart:tungsten:plate>, 40, 1, true);
 mods.magneticraft.HydraulicPress.addRecipe(<materialpart:ssteel:ingot>, <materialpart:ssteel:plate>, 40, 1, true);
@@ -80,7 +80,7 @@ mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:8>*7, <materialpart:
 mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:9>*7, <materialpart:invar:denseplate>, 60, 2, true);
 mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:10>*7, <materialpart:zinc:denseplate>, 60, 2, true);
 mods.magneticraft.HydraulicPress.addRecipe(<railcraft:plate:11>*7, <materialpart:brass:denseplate>, 60, 2, true);
-mods.magneticraft.HydraulicPress.addRecipe(<materialpart:aluminium:plate>*7, <materialpart:aluminium:denseplate>, 60, 2, true);
+mods.magneticraft.HydraulicPress.addRecipe(<materialpart:aluminum:plate>*7, <materialpart:aluminum:denseplate>, 60, 2, true);
 mods.magneticraft.HydraulicPress.addRecipe(<materialpart:titanium:plate>*7, <materialpart:titanium:denseplate>, 60, 2, true);
 mods.magneticraft.HydraulicPress.addRecipe(<materialpart:tungsten:plate>*7, <materialpart:tungsten:denseplate>, 60, 2, true);
 mods.magneticraft.HydraulicPress.addRecipe(<materialpart:ssteel:plate>*7, <materialpart:ssteel:denseplate>, 60, 2, true);
@@ -94,7 +94,7 @@ recipes.replaceAllOccurences(<immersiveengineering:material:20>, <ic2:cable>.wit
 
 mods.immersiveengineering.MetalPress.addRecipe(<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})*3, <ore:ingotCopper>, <immersiveengineering:mold:4>, 1000);
 mods.immersiveengineering.MetalPress.addRecipe(<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte})*4, <ore:ingotElectrum>, <immersiveengineering:mold:4>, 1000);
-mods.immersiveengineering.MetalPress.addRecipe(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte})*4, <ore:ingotAluminium>, <immersiveengineering:mold:4>, 1000);
+mods.immersiveengineering.MetalPress.addRecipe(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte})*4, <ore:ingotAluminum>, <immersiveengineering:mold:4>, 1000);
 mods.immersiveengineering.MetalPress.addRecipe(<ic2:cable:3>.withTag({type: 4 as byte, insulation: 0 as byte})*3, <ore:ingotTin>, <immersiveengineering:mold:4>, 1000);
 
 recipes.remove(<immersiveengineering:wirecoil>);

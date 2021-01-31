@@ -78,7 +78,7 @@ recipes.remove(<immersiveengineering:material:2>);
 recipes.addShaped(<immersiveengineering:material:2> * 2, [[<ore:ingotSteel>], [<ore:ingotSteel>]]);
 
 recipes.remove(<immersiveengineering:material:3>);
-recipes.addShaped(<immersiveengineering:material:3> * 2, [[<ore:ingotAluminium>], [<ore:ingotAluminium>]]);
+recipes.addShaped(<immersiveengineering:material:3> * 2, [[<ore:ingotAluminum>], [<ore:ingotAluminum>]]);
 
 //IW - Using converting variant
 recipes.remove(<industrialwires:control_panel:4>);

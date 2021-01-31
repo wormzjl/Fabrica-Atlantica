@@ -23,9 +23,9 @@ mods.immersiveengineering.Blueprint.addRecipe("Magneticraft Machines", <magnetic
 mods.immersiveengineering.Blueprint.addRecipe("Magneticraft Machines", <magneticraft:steam_engine>, [<magneticraft:multiblock_parts>, <pneumaticcraft:printed_circuit_board>]);
 mods.immersiveengineering.Blueprint.addRecipe("Magneticraft Machines", <magneticraft:big_combustion_chamber>, [<magneticraft:multiblock_parts>, <pneumaticcraft:printed_circuit_board>]);
 mods.immersiveengineering.Blueprint.addRecipe("Magneticraft Machines", <magneticraft:multiblock_parts>*4, [<ore:denseplateInvar>, <ore:denseplateInvar>, <ore:denseplateInvar>, <ore:denseplateInvar>, <ic2:crafting:6>]);
-mods.immersiveengineering.Blueprint.addRecipe("Magneticraft Machines", <magneticraft:multiblock_parts:2>*4, [<ore:denseplateAluminium>]);
+mods.immersiveengineering.Blueprint.addRecipe("Magneticraft Machines", <magneticraft:multiblock_parts:2>*4, [<ore:denseplateAluminum>]);
 mods.immersiveengineering.Blueprint.addRecipe("Magneticraft Machines", <magneticraft:multiblock_parts:4>*4, [<ore:denseplateInvar>, <ore:denseplateInvar>, <immersiveengineering:metal_decoration0>]);
-mods.immersiveengineering.Blueprint.addRecipe("Magneticraft Machines", <magneticraft:multiblock_parts:5>*4, [<ore:denseplateAluminium>]);
+mods.immersiveengineering.Blueprint.addRecipe("Magneticraft Machines", <magneticraft:multiblock_parts:5>*4, [<ore:denseplateAluminum>]);
 mods.immersiveengineering.Blueprint.addRecipe("Magneticraft Machines", <magneticraft:multiblock_column>*4, [<ore:denseplateInvar>]);
 
 

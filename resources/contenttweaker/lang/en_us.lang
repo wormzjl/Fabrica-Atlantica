@@ -27,7 +27,6 @@ item.contenttweaker.scrap8.name=Scrap Plastics
 item.contenttweaker.scrap9.name=Silver Platters
 
 item.contenttweaker.tungsticacid.name=Tungstic Acid Dust
-item.contenttweaker.berylliumingot.name=Beryllium Ingot
 item.contenttweaker.cdteingot.name=Cadmium Telluride Ingot
 item.contenttweaker.glassfiber.name=Raw Glass Fiber
 item.contenttweaker.ndmagnet.name=Neodymium Magnet
@@ -96,19 +95,19 @@ base.material.tungsten=Tungsten
 base.material.ssteel=Stainless Steel
 base.material.hastelloy=Hastelloy
 
-base.material.alumina=Alumina
-base.material.tio2=Titanium Dioxide
-base.material.gaas=Gallium Arsenide
+base.material.Alumina=Alumina
+base.material.TiO2=Titanium Dioxide
+base.material.GaAs=Gallium Arsenide
 
-contenttweaker.part.ore_high=High Grade %s Ore
-contenttweaker.part.ore_low=Low Grade %s Ore
-contenttweaker.part.ore_small_high=Small Piece of High Grade %s Ore
-contenttweaker.part.ore_small_low=Small Piece of Low Grade %s Ore
-contenttweaker.part.ore_dust_small_high=Small Pile of High Grade %s Ore Dust
-contenttweaker.part.ore_dust_small_low=Small Pile of Low Grade %s Ore Dust
-contenttweaker.part.ore_dust_high=High Grade %s Ore Dust
-contenttweaker.part.ore_dust_low=Low Grade %s Ore Dust
-contenttweaker.part.ore_dust_washed_low=Enriched Low Grade %s Ore Dust
+contenttweaker.part.ore_high=%s Ore
+contenttweaker.part.ore_low=Impure %s Ore
+contenttweaker.part.ore_small_high=Small Piece of %s Ore
+contenttweaker.part.ore_small_low=Small Piece of Impure %s Ore
+contenttweaker.part.ore_dust_small_high=Small Pile of %s Ore Dust
+contenttweaker.part.ore_dust_small_low=Small Pile of Impure %s Ore Dust
+contenttweaker.part.ore_dust_high=%s Ore Dust
+contenttweaker.part.ore_dust_low=Impure %s Ore Dust
+contenttweaker.part.ore_dust_washed_low=Enriched Impure %s Ore Dust
 contenttweaker.part.ore_dust_pure=Purified %s Ore Dust
 contenttweaker.part.ore_pellet=%s Ore Pellet
 contenttweaker.part.ore_tailing=%s Ore Tailing
@@ -119,7 +118,7 @@ contenttweaker.part.slag=%s Slag
 
 contenttweaker.part.scrapmetal=Scrap %s
 contenttweaker.part.denseplate=%s Dense Plate
-contenttweaker.part.dusttiny=Tiny Pile of %s Dust
+contenttweaker.part.dustTiny=Tiny Pile of %s Dust
 
 //Material system alt
 item.contenttweaker.gearpart_iron.name=Iron Gear Part
@@ -260,4 +259,3 @@ fluid.naphtha_vapour=Naphtha Vapour
 fluid.kerosene_vapour=Kerosene Vapour
 fluid.gas_oil_vapour=Gas Oil Vapour
 fluid.vgo_vapour=VGO Vapour
-
