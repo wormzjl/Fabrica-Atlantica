@@ -1,3 +1,5 @@
+#priority 100
+
 import mods.techguns.ReactionChamber;
 import crafttweaker.item.IItemStack;
 import scripts.functions;

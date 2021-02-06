@@ -1,3 +1,5 @@
+#priority 1000
+
 //Furnance
 furnace.remove(<minecraft:coal:1>);
 furnace.remove(<pyrotech:material:15>);

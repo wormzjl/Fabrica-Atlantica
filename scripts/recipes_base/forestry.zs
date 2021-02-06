@@ -1,3 +1,5 @@
+#priority 100
+
 import crafttweaker.item.IItemStack;
 import scripts.functions;
 
@@ -14,9 +16,8 @@ static jeihidden as IItemStack[] = [
   <forestry:hunter_bag_t2>,
   <forestry:adventurer_bag_t2>,
   <forestry:builder_bag_t2>,
-  <forestry:gear_bronze>,
-  <forestry:gear_copper>,
-  <forestry:gear_tin>
+  <forestry:resources:1>,
+  <forestry:resources:2>
 ];
 
 static removed as IItemStack[] = [
@@ -45,7 +46,13 @@ static removed as IItemStack[] = [
   <forestry:forester_bag>,
   <forestry:hunter_bag>,
   <forestry:adventurer_bag>,
-  <forestry:builder_bag>
+  <forestry:builder_bag>,
+  <forestry:can:*>,
+  <forestry:capsule:*>,
+  <forestry:refractory:*>,
+  <forestry:gear_bronze>,
+  <forestry:gear_copper>,
+  <forestry:gear_tin>
 ];
 
 static carpenterremoved as IItemStack[] = [

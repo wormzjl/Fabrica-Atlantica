@@ -1,3 +1,5 @@
+#priority 1000
+
 mods.jei.JEI.removeAndHide(<primal:sinuous_resin>);
 
 //Primal process

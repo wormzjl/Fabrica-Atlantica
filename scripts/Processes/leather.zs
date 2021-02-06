@@ -1,3 +1,5 @@
+#priority 1000
+
 recipes.remove(<minecraft:leather>);
 
 //Removing BWM tanned leather

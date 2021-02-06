@@ -1,3 +1,5 @@
+#priority 1000
+
 //Initial pyrotech
 mods.pyrotech.GraniteAnvil.addRecipe("iron_plate", <railcraft:plate>, <ore:ingotIron>, 6, "hammer");
 mods.pyrotech.GraniteAnvil.addRecipe("gold_plate", <railcraft:plate:7>, <ore:ingotGold>, 6, "hammer");
@@ -21,20 +23,6 @@ mods.pyrotech.IroncladAnvil.addRecipe("lead_casing", <ic2:casing:4>, <railcraft:
 mods.pyrotech.IroncladAnvil.addRecipe("steel_casing", <ic2:casing:5>, <railcraft:plate:1>, 8, "hammer");
 mods.pyrotech.IroncladAnvil.addRecipe("tin_casing", <ic2:casing:6>, <railcraft:plate:2>, 8, "hammer");
 
-//IE - no Ti/W
-mods.immersiveengineering.MetalPress.removeRecipe(<advancedrocketry:productplate>);
-mods.immersiveengineering.MetalPress.removeRecipe(<advancedrocketry:productplate:1>);
-mods.immersiveengineering.MetalPress.removeRecipe(<advancedrocketry:productplate:7>);
-
-mods.immersiveengineering.MetalPress.removeRecipe(<advancedrocketry:productrod>);
-mods.immersiveengineering.MetalPress.removeRecipe(<advancedrocketry:productrod:1>);
-mods.immersiveengineering.MetalPress.removeRecipe(<advancedrocketry:productrod:7>);
-
-mods.immersiveengineering.MetalPress.removeRecipe(<materialpart:tungsten:plate>);
-mods.immersiveengineering.MetalPress.removeRecipe(<materialpart:tungsten:rod>);
-
-mods.immersiveengineering.MetalPress.removeRecipe(<rockhounding_chemistry:alloy_parts:34>);
-mods.immersiveengineering.MetalPress.removeRecipe(<rockhounding_chemistry:alloy_parts:43>);
 
 //MgC
 mods.magneticraft.HydraulicPress.removeRecipe(<minecraft:iron_ingot>, 2);

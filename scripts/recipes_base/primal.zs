@@ -1,3 +1,5 @@
+#priority 100
+
 import crafttweaker.item.IItemStack;
 import scripts.functions;
 
@@ -114,6 +116,11 @@ recipes.addShaped(<forgecraft:forge_brick>, [[<minecraft:brick>, <primal:slat_ir
 
 recipes.remove(<forgecraft:forge_adobe>);
 recipes.addShaped(<forgecraft:forge_adobe>, [[<primal:adobe_brick_dry>, <primal:slat_iron>, <primal:adobe_brick_dry>], [<primal:adobe_brick_dry>, null, <primal:adobe_brick_dry>], [<primal:adobe_brick_dry>, <primal:adobe_brick_dry>, <primal:adobe_brick_dry>]]);
+
+//For unification purpose
+recipes.remove(<primal:copper_ingot>);
+furnace.remove(<primal:copper_ingot>);
+
 
 //Smelter
 mods.primal.Smelter.removeRecipe("ore_good_lithium");
@@ -245,6 +252,9 @@ mods.primal.Smelter.removeRecipe("netherstone_to_brick");
 mods.primal.Smelter.removeRecipe("netherrack_to_brick");
 mods.primal.Smelter.removeRecipe("appliedenergistics2_smooth_sky_stone");
 mods.primal.Smelter.removeRecipe("bark");
+mods.primal.Smelter.removeRecipe("ore_sand_zinc");
+mods.primal.Smelter.removeRecipe("ore_good_zinc");
+mods.primal.Smelter.removeRecipe("ore_fair_zinc");
 
 mods.primal.Hibachi.removeAll();
 //mods.primal.Hibachi.removeRecipe("vanilla_brick");

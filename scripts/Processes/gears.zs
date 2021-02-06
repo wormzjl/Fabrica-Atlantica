@@ -1,3 +1,5 @@
+#priority 1000
+
 recipes.remove(<libvulpes:productgear:*>);
 recipes.remove(<forestry:gear_bronze>);
 recipes.remove(<forestry:gear_copper>);

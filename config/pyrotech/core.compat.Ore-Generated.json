@@ -23,14 +23,10 @@
     "oreAluminum": {
       "slagColor": "e2e2e3",
       "langKey": [
-        "immersiveengineering:tile.immersiveengineering.ore.aluminum",
-        "libvulpes:material.Aluminum"
+        "immersiveengineering:tile.immersiveengineering.ore.aluminum"
       ],
       "output": [
-        "immersiveengineering:metal:21",
-        "libvulpes:productnugget:9",
-        "magneticraft:nuggets:7",
-        "primal:aluminum_nugget:0"
+        "immersiveengineering:metal:21"
       ]
     },
     "oreCobalt": {
@@ -45,22 +41,10 @@
     "oreCopper": {
       "slagColor": "ffaa1c",
       "langKey": [
-        "better_diving:item.copper_ore",
-        "forestry:tile.for.resources.copper",
-        "ic2:ic2.resource.copper_ore",
-        "immersiveengineering:tile.immersiveengineering.ore.copper",
-        "libvulpes:material.Copper",
-        "magneticraft:tile.magneticraft.ores_copper",
-        "nuclearcraft:tile.nuclearcraft.ore.copper",
-        "techguns:tile.techguns.basicore.0"
+        "immersiveengineering:tile.immersiveengineering.ore.copper"
       ],
       "output": [
-        "immersiveengineering:metal:20",
-        "libvulpes:productnugget:4",
-        "magneticraft:nuggets:2",
-        "primal:copper_nugget:0",
-        "railcraft:nugget:1",
-        "techguns:itemshared:86"
+        "railcraft:nugget:1"
       ]
     },
     "oreGold": {
@@ -78,40 +62,25 @@
         "libvulpes:material.Iridium"
       ],
       "output": [
-        "ic2:misc_resource:2",
-        "libvulpes:productnugget:10"
+        "ic2:misc_resource:2"
       ]
     },
     "oreIron": {
       "slagColor": "d8af93",
       "langKey": [
-        "industrialrenewal:item.industrialrenewal.chunk_hematite",
-        "industrialrenewal:tile.industrialrenewal.orevein_hematite",
         "minecraft:tile.oreIron"
       ],
       "output": [
-        "forgecraft:ironcleanchunk:0",
-        "forgecraft:wroughtironchunk:0",
-        "immersiveengineering:metal:29",
         "minecraft:iron_nugget:0"
       ]
     },
     "oreLead": {
       "slagColor": "95afee",
       "langKey": [
-        "better_diving:item.lead",
-        "ic2:ic2.resource.lead_ore",
-        "immersiveengineering:tile.immersiveengineering.ore.lead",
-        "magneticraft:tile.magneticraft.ores_lead",
-        "nuclearcraft:tile.nuclearcraft.ore.lead",
-        "techguns:tile.techguns.basicore.2"
+        "immersiveengineering:tile.immersiveengineering.ore.lead"
       ],
       "output": [
-        "immersiveengineering:metal:22",
-        "magneticraft:nuggets:3",
-        "primal:lead_nugget:0",
-        "railcraft:nugget:3",
-        "techguns:itemshared:87"
+        "railcraft:nugget:3"
       ]
     },
     "oreNickel": {
@@ -120,65 +89,40 @@
         "immersiveengineering:tile.immersiveengineering.ore.nickel"
       ],
       "output": [
-        "immersiveengineering:metal:24",
-        "magneticraft:nuggets:10",
-        "primal:nickel_nugget:0",
         "railcraft:nugget:6"
       ]
     },
     "orePlatinum": {
       "slagColor": "55f3ff",
       "langKey": [
-        "ariente:tile.ariente.platinumore",
-        "arienteworld:tile.arienteworld.platinumore",
         "immersiveintelligence:tile.immersiveintelligence.ore.platinum"
       ],
       "output": [
-        "immersiveintelligence:material_nugget:2",
-        "primal:platinum_nugget:0"
+        "immersiveintelligence:material_nugget:2"
       ]
     },
     "oreSilver": {
       "slagColor": "e8f6fd",
       "langKey": [
-        "ariente:tile.ariente.silverore",
-        "arienteworld:tile.arienteworld.silverore",
-        "better_diving:item.silver_ore",
-        "iceandfire:tile.iceandfire.silverOre",
-        "immersiveengineering:tile.immersiveengineering.ore.silver",
-        "magneticraft:tile.magneticraft.ores_lead"
+        "immersiveengineering:tile.immersiveengineering.ore.silver"
       ],
       "output": [
-        "iceandfire:silver_nugget:0",
-        "immersiveengineering:metal:23",
-        "magneticraft:nuggets:12",
-        "primal:silver_nugget:0",
         "railcraft:nugget:4"
       ]
     },
     "oreTin": {
       "slagColor": "c3e9ff",
       "langKey": [
-        "forestry:tile.for.resources.tin",
-        "ic2:ic2.resource.tin_ore",
-        "libvulpes:material.Tin",
-        "nuclearcraft:tile.nuclearcraft.ore.tin",
-        "techguns:tile.techguns.basicore.1"
+        "ic2:ic2.resource.tin_ore"
       ],
       "output": [
-        "libvulpes:productnugget:5",
-        "magneticraft:nuggets:13",
-        "primal:tin_nugget:0",
         "railcraft:nugget:2"
       ]
     },
     "oreUranium": {
       "slagColor": "5c734b",
       "langKey": [
-        "ic2:ic2.resource.uranium_ore",
-        "immersiveengineering:tile.immersiveengineering.ore.uranium",
-        "nuclearcraft:tile.nuclearcraft.ore.uranium",
-        "techguns:tile.techguns.basicore.4"
+        "immersiveengineering:tile.immersiveengineering.ore.uranium"
       ],
       "output": [
         "immersiveengineering:metal:25"

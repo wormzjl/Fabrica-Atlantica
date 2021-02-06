@@ -1,3 +1,5 @@
+#priority 1000
+
 //Fuel values
 furnace.setFuel(<ore:plankWood>, 100);
 furnace.setFuel(<ore:slabWood>, 25);
@@ -11,6 +13,13 @@ furnace.setFuel(<minecraft:sign>, 25);
 furnace.setFuel(<minecraft:bowl>, 25);
 furnace.setFuel(<minecraft:torch>, 0);
 furnace.setFuel(<minecraft:paper>, 0);
+
+furnace.setFuel(<minecraft:boat>, 0);
+furnace.setFuel(<minecraft:spruce_boat>, 0);
+furnace.setFuel(<minecraft:birch_boat>, 0);
+furnace.setFuel(<minecraft:jungle_boat>, 0);
+furnace.setFuel(<minecraft:acacia_boat>, 0);
+furnace.setFuel(<minecraft:dark_oak_boat>, 0);
 
 furnace.setFuel(<betterwithmods:siding_wood:*>, 50);
 furnace.setFuel(<betterwithmods:moulding_wood:*>, 25);

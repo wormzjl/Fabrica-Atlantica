@@ -1,3 +1,5 @@
+#priority 100
+
 import crafttweaker.item.IItemStack;
 import scripts.functions;
 
@@ -111,42 +113,94 @@ mods.magneticraft.Wrench.addWrench(<quacklib:wrench>);
 mods.magneticraft.Wrench.addWrench(<rockhounding_core:mod_wrench>);
 mods.magneticraft.Wrench.addWrench(<immersiveengineering:tool>);
 
-//Crushing table
-mods.magneticraft.CrushingTable.removeRecipe(<minecraft:iron_ore>);
-mods.magneticraft.CrushingTable.removeRecipe(<minecraft:gold_ore>);
-mods.magneticraft.CrushingTable.removeRecipe(<ic2:resource:1>);
-mods.magneticraft.CrushingTable.removeRecipe(<ic2:resource:2>);
-mods.magneticraft.CrushingTable.removeRecipe(<ic2:resource:3>);
-//mods.magneticraft.CrushingTable.removeRecipe(<ic2:resource:4>);
-mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ores:1>);
-mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ores:2>);
-mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ores:3>);
-mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ores:4>);
-mods.magneticraft.CrushingTable.removeRecipe(<libvulpes:ore0:9>);
-mods.magneticraft.CrushingTable.removeRecipe(<immersiveengineering:ore:4>);
-//mods.magneticraft.CrushingTable.removeRecipe(<railcraft:ore_metal:5>);
 
-mods.magneticraft.CrushingTable.removeRecipe(<minecraft:iron_block>);
-mods.magneticraft.CrushingTable.removeRecipe(<minecraft:gold_block>);
-mods.magneticraft.CrushingTable.removeRecipe(<railcraft:metal>);
-mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:storage_blocks:1>);
-mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:storage_blocks:3>);
-mods.magneticraft.CrushingTable.removeRecipe(<ic2:ingot:5>);
+//Nuke default ore processing
+var CrushingTableRemoved as IItemStack[] = [
+  <minecraft:iron_ore>,
+  <minecraft:gold_ore>,
+  <ic2:resource:1>,
+  <ic2:resource:2>,
+  <ic2:resource:3>,
+  <magneticraft:ores:1>,
+  <magneticraft:ores:2>,
+  <magneticraft:ores:3>,
+  <magneticraft:ores:4>,
+  <libvulpes:ore0:9>,
+  <immersiveengineering:ore:4>,
+  <minecraft:iron_block>,
+  <minecraft:gold_block>,
+  <railcraft:metal>,
+  <magneticraft:storage_blocks:1>,
+  <magneticraft:storage_blocks:3>,
+  <ic2:ingot:5>
+];
+
+for item in CrushingTableRemoved {
+  mods.magneticraft.CrushingTable.removeRecipe(item);
+}
 
 
-//Sluice box
-mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks>);
-mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:1>);
-mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:2>);
-mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:3>);
-mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:4>);
-mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:5>);
-//mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:6>);
-mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:7>);
-mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:8>);
-mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:9>);
-mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:10>);
-mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:11>);
-mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:12>);
-mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:13>);
-mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:14>);
+var GrinderRemoved as IItemStack[] = [
+  <minecraft:iron_ore>,
+  <minecraft:gold_ore>,
+  <ic2:resource:1>,
+  <ic2:resource:2>,
+  <ic2:resource:3>,
+  <magneticraft:ores:2>,
+  <magneticraft:ores:3>,
+  <magneticraft:ores:4>,
+  <libvulpes:ore0:9>,
+  <rftools:dimensional_shard_ore>,
+  <immersiveengineering:ore:3>,
+  <immersiveengineering:ore:4>,
+  <immersiveintelligence:ore:1>
+];
+
+for item in GrinderRemoved {
+  mods.magneticraft.Grinder.removeRecipe(item);
+}
+
+
+var SieveRemoved as IItemStack[] = [
+  <magneticraft:rocky_chunks>,
+  <magneticraft:rocky_chunks:1>,
+  <magneticraft:rocky_chunks:2>,
+  <magneticraft:rocky_chunks:3>,
+  <magneticraft:rocky_chunks:4>,
+  <magneticraft:rocky_chunks:5>,
+  <magneticraft:rocky_chunks:7>,
+  <magneticraft:rocky_chunks:8>,
+  <magneticraft:rocky_chunks:9>,
+  <magneticraft:rocky_chunks:10>,
+  <magneticraft:rocky_chunks:11>,
+  <magneticraft:rocky_chunks:12>,
+  <magneticraft:rocky_chunks:13>,
+  <magneticraft:rocky_chunks:14>,
+  <minecraft:sand>
+];
+
+for item in SieveRemoved {
+  mods.magneticraft.Sieve.removeRecipe(item);
+}
+
+
+var SluiceBoxRemoved as IItemStack[] = [
+  <magneticraft:rocky_chunks>,
+  <magneticraft:rocky_chunks:1>,
+  <magneticraft:rocky_chunks:2>,
+  <magneticraft:rocky_chunks:3>,
+  <magneticraft:rocky_chunks:4>,
+  <magneticraft:rocky_chunks:5>,
+  <magneticraft:rocky_chunks:7>,
+  <magneticraft:rocky_chunks:8>,
+  <magneticraft:rocky_chunks:9>,
+  <magneticraft:rocky_chunks:10>,
+  <magneticraft:rocky_chunks:11>,
+  <magneticraft:rocky_chunks:12>,
+  <magneticraft:rocky_chunks:13>,
+  <magneticraft:rocky_chunks:14>
+];
+
+for item in SluiceBoxRemoved {
+  mods.magneticraft.SluiceBox.removeRecipe(item);
+}

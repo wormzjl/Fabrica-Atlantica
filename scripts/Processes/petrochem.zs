@@ -1,4 +1,6 @@
-//All values needs tweaking
+#priority 1000
+
+//To be reworked
 //Default removals
 mods.immersiveengineering.Refinery.removeRecipe(<liquid:biodiesel>);
 

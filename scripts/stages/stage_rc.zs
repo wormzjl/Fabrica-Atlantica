@@ -2,7 +2,13 @@ import crafttweaker.item.IItemStack;
 import scripts.functions;
 
 var excluded as IItemStack[] = [
-
+  <railcraft:gear:*>,
+  <railcraft:plate:*>,
+  <railcraft:ingot:*>,
+  <railcraft:nugget:*>,
+  <railcraft:metal:*>,
+  <railcraft:dust:*>,
+  <railcraft:gear:*>
 ];
 
 var recipestaged as IItemStack[] = [

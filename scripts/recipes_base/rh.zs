@@ -1,3 +1,5 @@
+#priority 100
+
 //Recipes
 
 mods.rockhounding_chemistry.ProfilingBench.removeByOutput(<rockhounding_chemistry:au_catalyst>);

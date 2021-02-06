@@ -1,8 +1,10 @@
+#priority 100
+
 import crafttweaker.item.IItemStack;
 import scripts.functions;
 
 static removed as IItemStack[] = [
-  
+
 ];
 
 for item in removed {

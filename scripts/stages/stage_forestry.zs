@@ -30,6 +30,7 @@ var excluded as IItemStack[] = [
   <forestry:logs.4:*>,
   <forestry:logs.5:*>,
   <forestry:logs.6:*>,
+  <forestry:logs.7:*>,
   <forestry:planks.0:*>,
   <forestry:planks.1:*>,
   <forestry:slabs.0:*>,
@@ -41,7 +42,14 @@ var excluded as IItemStack[] = [
   <forestry:leaves.decorative.0:*>,
   <forestry:leaves.decorative.1:*>,
   <forestry:leaves.decorative.2:*>,
-  <forestry:grafter>
+  <forestry:grafter>,
+  <forestry:broken_bronze_pickaxe>,
+  <forestry:broken_bronze_shovel>,
+  <forestry:ingot_copper>,
+  <forestry:ingot_tin>,
+  <forestry:ingot_bronze>,
+  <forestry:resources:*>,
+  <forestry:resource_storage:*>
 ];
 
 var recipestaged as IItemStack[] = [
@@ -73,5 +81,5 @@ for item in loadedMods["forestry"].items {
 }
 
 for item in recipestaged {
-	mods.recipestages.Recipes.setRecipeStage("forestry", item);
+//mods.recipestages.Recipes.setRecipeStage("forestry", item);
 }

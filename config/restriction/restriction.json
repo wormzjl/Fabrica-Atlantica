@@ -79,19 +79,6 @@
       ]
     },
     {
-      "block": "buildcraftfactory:pump",
-      "meta": 0,
-      "ignoreMeta": false,
-      "restrictions": [
-        {
-          "type": "DIMENSION",
-          "reverse": true,
-          "ignoreMeta": false,
-          "id": -1
-        }
-      ]
-    },
-    {
       "block": "rftools:builder",
       "meta": 0,
       "ignoreMeta": false,

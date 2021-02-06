@@ -1,10 +1,17 @@
+#priority 100
+
 import crafttweaker.item.IItemStack;
 import scripts.functions;
 
 static removed as IItemStack[] = [
   <minecraft:ender_chest>,
   <compactmachines3:psd>,
-  <rs_ctr:wireless_b>
+  <rs_ctr:wireless_b>,
+  <rs_ctr:chunk_loader>,
+  <rs_ctr:teleporter1>,
+  <rs_ctr:teleporter>,
+  <ariente:ariente_pearl>,
+  <funkylocomotion:teleporter>
 ];
 
 for item in removed {
@@ -35,7 +42,7 @@ recipes.addShaped(<compactmachines3:fieldprojector> * 4, [[null, <minecraft:ende
 recipes.addShaped(<contenttweaker:grassseed>, [[<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>], [<minecraft:dye:15>, <minecraft:wheat_seeds>, <minecraft:dye:15>], [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>]]);
 <contenttweaker:grassseed>.addTooltip("Use this on dirt to get a grass block!");
 
-//Salvaged solar panel
+//Salvaged solar panel only
 recipes.remove(<worsesolars:solar_cell>);
 
 //Gated recipes

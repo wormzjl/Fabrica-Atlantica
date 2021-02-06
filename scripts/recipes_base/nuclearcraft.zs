@@ -1,9 +1,32 @@
+#priority 100
+
 import crafttweaker.item.IItemStack;
 import scripts.functions;
 
 static removed as IItemStack[] = [
   <nuclearcraft:compound:1>,
   <nuclearcraft:portable_ender_chest>,
+  <nuclearcraft:solar_panel_basic>,
+  <nuclearcraft:solar_panel_advanced>,
+  <nuclearcraft:solar_panel_du>,
+  <nuclearcraft:solar_panel_elite>,
+  <nuclearcraft:rtg_uranium>,
+  <nuclearcraft:rtg_plutonium>,
+  <nuclearcraft:rtg_americium>,
+  <nuclearcraft:rtg_californium>,
+  <nuclearcraft:heat_exchanger_controller>,
+  <nuclearcraft:heat_exchanger_casing>,
+  <nuclearcraft:heat_exchanger_glass>,
+  <nuclearcraft:heat_exchanger_vent>,
+  <nuclearcraft:heat_exchanger_tube_copper>,
+  <nuclearcraft:heat_exchanger_tube_hard_carbon>,
+  <nuclearcraft:heat_exchanger_tube_thermoconducting>,
+  <nuclearcraft:heat_exchanger_computer_port>,
+  <nuclearcraft:condenser_controller>,
+  <nuclearcraft:condenser_tube_copper>,
+  <nuclearcraft:condenser_tube_hard_carbon>,
+  <nuclearcraft:condenser_tube_thermoconducting>,
+  <qmd:ore_leacher>,
   <qmd:helium_collector>,
   <qmd:neon_collector>,
   <qmd:argon_collector>,
@@ -21,7 +44,8 @@ for item in removed {
 //mods.jei.JEI.removeAndHide(<nuclearcraft:supercooler_idle>);
 
 //ores
-furnace.remove(<ic2:ingot:8>);
+mods.qmd.ore_leacher.removeAllRecipes();
+
 
 mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:aluminum>*288);
 mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:iron>*288);

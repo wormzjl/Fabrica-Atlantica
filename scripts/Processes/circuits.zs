@@ -1,3 +1,5 @@
+#priority 1000
+
 //Resistor
 mods.nuclearcraft.Assembler.addRecipe(<ore:dustCarbon>, <ore:paper>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), null, <contenttweaker:resistor>*4, 2.0, 2.0, 0.0);
 mods.nuclearcraft.Assembler.addRecipe(<ore:dustNichrome>, <ic2:crafting:0>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), null, <contenttweaker:resistor>*8, 2.5, 2.5, 0.0);

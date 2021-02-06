@@ -1,6 +1,7 @@
-import crafttweaker.item.IItemStack;
+#priority 10001
 
-val list3 as IItemStack[];
+
+import crafttweaker.item.IItemStack;
 
 function inArray(a as IItemStack, list as IItemStack[]) as bool{
   for item in list {

@@ -1,3 +1,5 @@
+#priority 100
+
 import crafttweaker.item.IItemStack;
 import scripts.functions;
 
@@ -6,16 +8,17 @@ static removed as IItemStack[] = [
   <immersiveengineering:shovel_steel>,
   <immersiveengineering:axe_steel>,
   <immersiveengineering:sword_steel>,
-  <immersivetech:stone_decoration>,
-  <immersivetech:stone_decoration_slab>,
   <immersiveengineering:toolbox>,
   <immersiveengineering:wooden_device1>,
   <immersiveengineering:metal_device1:3>,
   <immersiveengineering:metal_device1:13>,
   <immersiveengineering:metal:29>,
+  <immersivetech:stone_decoration>,
+  <immersivetech:stone_decoration_slab>,
   <industrialwires:mechanical_converter>,
   <industrialwires:mechanical_converter:1>,
-  <industrialwires:mechanical_converter:2>
+  <industrialwires:mechanical_converter:2>,
+  <immersiveintelligence:motor_gear:*>
 ];
 
 for item in removed {
@@ -101,69 +104,136 @@ mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:coal:1>);
 mods.immersiveengineering.CokeOven.addRecipe(<minecraft:coal:1>, 200, <ore:logWood>, 1800);
 
 //Machine
-//mods.immersiveengineering.Crusher.removeRecipe(<rockhounding_chemistry:alloy_items_tech:12>);
+var CrusherRemoved as IItemStack[] = [
+  <minecraft:sandstone>,
+  <minecraft:iron_ore>,
+  <minecraft:gold_ore>,
+  <minecraft:emerald_ore>,
+  <forestry:resources>,
+  <forestry:resources:1>,
+  <forestry:resources:2>,
+  <immersiveengineering:ore:1>,
+  <immersiveengineering:ore:2>,
+  <immersiveengineering:ore:3>,
+  <immersiveengineering:ore:4>,
+  <immersiveengineering:ore:5>,
+  <immersiveintelligence:ore:1>,
+  <immersiveintelligence:ore:3>,
+  <immersiveintelligence:ore:4>,
+  <immersiveintelligence:ore:5>,
+  <nuclearcraft:ore:3>,
+  <nuclearcraft:ore:5>,
+  <nuclearcraft:ore:6>,
+  <nuclearcraft:ore:7>,
+  <nuclearcraft:gem>,
+  <nuclearcraft:gem:3>,
+  <nuclearcraft:gem:4>,
+  <qmd:ingot:9>,
+  <magneticraft:ores:2>,
+  <magneticraft:ores:3>,
+  <libvulpes:ore0>,
+  <libvulpes:ore0:8>,
+  <libvulpes:ore0:10>,
+  <ariente:platinumore>,
+  <ariente:manganeseore>,
+  <ariente:siliconore>,
+  <draconicevolution:draconium_ore>
+];
 
-mods.immersiveengineering.Crusher.removeRecipe(<rockhounding_chemistry:chemical_dusts:55>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<minecraft:sandstone>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<minecraft:iron_ore>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<minecraft:gold_ore>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<minecraft:emerald_ore>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<forestry:resources>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<forestry:resources:1>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<forestry:resources:2>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:ore:1>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:ore:2>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:ore:3>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:ore:4>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:ore:5>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<draconicevolution:draconium_ore>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<nuclearcraft:ore:3>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<nuclearcraft:ore:5>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<nuclearcraft:ore:6>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<nuclearcraft:ore:7>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<magneticraft:ores:2>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<magneticraft:ores:3>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<libvulpes:ore0>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<libvulpes:ore0:8>);
-mods.immersiveengineering.Crusher.removeRecipesForInput(<libvulpes:ore0:10>);
+for item in CrusherRemoved {
+  mods.immersiveengineering.Crusher.removeRecipesForInput(item);
+}
 
+//mods.immersiveengineering.Crusher.removeRecipe(<rockhounding_chemistry:chemical_dusts:55>);
 
-mods.immersiveengineering.ArcFurnace.removeRecipe(<magneticraft:ingots:5>);
-mods.immersiveengineering.ArcFurnace.addRecipe(<magneticraft:ingots:5>, <ore:dustTungsten>, null, 512, 4096);
+var ArcFurnaceRemoved as IItemStack[] = [
+  <draconicevolution:draconium_ingot>,
+  <magneticraft:ingots:4>,
+  <magneticraft:ingots:5>,
+  <minecraft:iron_ingot>,
+  <minecraft:gold_ingot>,
+  <immersiveengineering:metal>,
+  <immersiveengineering:metal:1>,
+  <immersiveengineering:metal:2>,
+  <immersiveengineering:metal:3>,
+  <immersiveengineering:metal:4>,
+  <immersiveengineering:metal:5>,
+  <immersiveintelligence:material_boule>,
+  <ic2:ingot:2>,
+  <ic2:ingot:3>,
+  <ic2:ingot:4>,
+  <ic2:ingot:6>,
+  <ic2:ingot:8>,
+  <nuclearcraft:ingot:3>,
+  <nuclearcraft:ingot:5>,
+  <nuclearcraft:ingot:6>,
+  <nuclearcraft:ingot:7>,
+  <nuclearcraft:ingot:11>,
+  <qmd:ingot>,
+  <qmd:ingot:3>,
+  <qmd:ingot:4>,
+  <qmd:ingot:9>,
+  <qmd:ingot:10>,
+  <libvulpes:productingot:3>,
+  <libvulpes:productingot:7>,
+  <libvulpes:productingot:10>,
+  <railcraft:ingot:8>
+];
 
-mods.immersiveengineering.ArcFurnace.removeRecipe(<draconicevolution:draconium_ingot>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<magneticraft:ingots:4>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<ic2:ingot:8>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<minecraft:iron_ingot>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<minecraft:gold_ingot>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:1>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:2>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:3>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:4>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:5>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<ic2:ingot:2>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<ic2:ingot:3>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<ic2:ingot:4>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<ic2:ingot:6>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<ic2:ingot:8>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<nuclearcraft:ingot:3>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<nuclearcraft:ingot:5>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<nuclearcraft:ingot:6>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<nuclearcraft:ingot:7>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<libvulpes:productingot:7>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<libvulpes:productingot:10>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<railcraft:ingot:8>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<magneticraft:ingots:5>);
+for item in ArcFurnaceRemoved {
+  mods.immersiveengineering.ArcFurnace.removeRecipe(item);
+}
+
+var MetalPressRemoved as IItemStack[] = [
+  <materialpart:tungsten:plate>,
+  <materialpart:tungsten:rod>,
+  <advancedrocketry:productplate>,
+  <advancedrocketry:productplate:1>,
+  <advancedrocketry:productplate:7>,
+  <advancedrocketry:productrod>,
+  <advancedrocketry:productrod:1>,
+  <advancedrocketry:productrod:7>,
+  <libvulpes:productrod:7>,
+  <libvulpes:productrod:10>,
+  <libvulpes:productplate:3>,
+  <libvulpes:productplate:7>,
+  <libvulpes:productplate:10>,
+  <rockhounding_chemistry:alloy_parts:34>,
+  <rockhounding_chemistry:alloy_parts:43>,
+  <ic2:crafting:15>,
+  <immersiveintelligence:material_plate:3>,
+  <immersiveintelligence:material_wire>,
+  <minecraft:paper>
+];
+
+for item in MetalPressRemoved {
+  mods.immersiveengineering.MetalPress.removeRecipe(item);
+}
+
+mods.immersiveengineering.Mixer.removeRecipe(<fluid:methanol>);
+mods.immersiveengineering.Mixer.removeRecipe(<fluid:etching_acid>);
+mods.immersiveengineering.Mixer.removeRecipe(<fluid:sulfuric_acid>);
+mods.immersiveengineering.Mixer.removeRecipe(<fluid:nitric_acid>);
+mods.immersiveengineering.Mixer.removeRecipe(<fluid:hydrofluoric_acid>);
+
+mods.immersiveengineering.BottlingMachine.removeRecipe(<immersiveintelligence:material:17>);
+mods.immersiveengineering.BottlingMachine.removeRecipe(<immersiveintelligence:material:23>);
+mods.immersiveengineering.BottlingMachine.removeRecipe(<immersiveintelligence:material:24>);
 
 //Industrial wires
-mods.industrialwires.MarxGenerator.removeRecipe(<minecraft:iron_ore>);
-mods.industrialwires.MarxGenerator.removeRecipe(<minecraft:gold_ore>);
-mods.industrialwires.MarxGenerator.removeRecipe(<minecraft:coal_ore>);
-mods.industrialwires.MarxGenerator.removeRecipe(<forestry:resources:1>);
-mods.industrialwires.MarxGenerator.removeRecipe(<forestry:resources:2>);
-mods.industrialwires.MarxGenerator.removeRecipe(<ic2:resource:2>);
-mods.industrialwires.MarxGenerator.removeRecipe(<ic2:resource:4>);
-mods.industrialwires.MarxGenerator.removeRecipe(<immersiveengineering:ore:1>);
-mods.industrialwires.MarxGenerator.removeRecipe(<immersiveengineering:ore:3>);
-mods.industrialwires.MarxGenerator.removeRecipe(<immersiveengineering:ore:4>);
+var MarxGeneratorRemoved as IItemStack[] = [
+  <minecraft:iron_ore>,
+  <minecraft:gold_ore>,
+  <minecraft:coal_ore>,
+  <forestry:resources:1>,
+  <forestry:resources:2>,
+  <ic2:resource:2>,
+  <ic2:resource:4>,
+  <immersiveengineering:ore:1>,
+  <immersiveengineering:ore:3>,
+  <immersiveengineering:ore:4>
+];
+
+for item in MarxGeneratorRemoved {
+  mods.industrialwires.MarxGenerator.removeRecipe(item);
+}

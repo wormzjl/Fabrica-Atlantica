@@ -1,9 +1,10 @@
+#priority 100
+
 import crafttweaker.item.IItemStack;
 import scripts.functions;
 
 //mods.jei.JEI.removeAndHide(<ic2:te:22>);
 //mods.jei.JEI.removeAndHide(<ic2:te:24>);
-
 
 static removed as IItemStack[] = [
   <ic2:bronze_pickaxe>,
@@ -46,6 +47,9 @@ static removed as IItemStack[] = [
 for item in removed {
   functions.removeItem(item);
 }
+
+
+furnace.remove(<ic2:ingot:8>);
 
 //Not working
 //recipes.replaceAllOccurences(<ic2:casing:3>, <ic2:casing:5>);

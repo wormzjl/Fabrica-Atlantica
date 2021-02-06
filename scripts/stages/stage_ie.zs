@@ -8,7 +8,24 @@ var excluded as IItemStack[] = [
   <immersiveengineering:stone_decoration_slab:1>,
   <immersiveengineering:stone_decoration:2>,
   <immersiveengineering:stone_decoration_slab:2>,
-  <immersiveengineering:metal_device1>
+  <immersiveengineering:metal_device1>,
+  <immersiveengineering:metal:*>,
+  <immersiveengineering:treated_wood:*>,
+  <immersiveengineering:treated_wood_slab:*>,
+  <immersiveengineering:treated_wood_stairs0:*>,
+  <immersiveengineering:treated_wood_stairs1:*>,
+  <immersiveengineering:treated_wood_stairs2:*>,
+  <immersiveengineering:wooden_decoration:*>,
+  <immersiveengineering:storage:*>,
+  <immersiveengineering:ore:*>,
+  <immersiveengineering:storage_slab:*>,
+  <immersiveengineering:stone_decoration:3>,
+  <immersiveengineering:material>,
+  <immersiveengineering:material:1>,
+  <immersiveengineering:material:2>,
+  <immersiveengineering:material:3>,
+  <immersiveengineering:material:6>,
+  <immersiveengineering:seed>
 ];
 
 excluded = functions.MergeArray(excluded, scripts.recipes_base.immersiveengineering.removed);
