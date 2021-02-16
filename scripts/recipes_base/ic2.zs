@@ -53,20 +53,18 @@ furnace.remove(<ic2:ingot:8>);
 
 //Not working
 //recipes.replaceAllOccurences(<ic2:casing:3>, <ic2:casing:5>);
-recipes.remove(<ic2:re_battery:*>);
 recipes.addShaped(<ic2:re_battery:26>, [[null, <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}), null], [<ic2:casing:6>, <minecraft:redstone>, <ic2:casing:6>], [<ic2:casing:6>, <minecraft:redstone>, <ic2:casing:6>]]);
 
-recipes.remove(<ic2:resource:12>);
 recipes.addShaped(<ic2:resource:12>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, null, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
-recipes.remove(<ic2:te:3>);
 recipes.addShaped(<ic2:te:3>, [[<ic2:re_battery:*>], [<ic2:resource:12>], [<minecraft:furnace>]]);
 
-recipes.remove(<ic2:te:46>);
 recipes.addShaped(<ic2:te:46>, [[null, <ore:plateSteel>, null], [<ore:plateSteel>, null, <ore:plateSteel>], [<ore:plateSteel>, <minecraft:furnace>, <ore:plateSteel>]]);
 
-recipes.remove(<ic2:te:55>);
+recipes.addShaped(<ic2:te:47>, [[<ic2:dust:5>, <ic2:dust:5>, <ic2:dust:5>], [<ic2:crafting:6>, <ic2:resource:12>, <ic2:crafting:6>], [null, <ore:circuitBasic>, null]]);
+
 recipes.addShaped(<ic2:te:55>, [[null, <ore:circuitBasic>, null], [<ic2:crafting:6>, <ic2:resource:12>, <ic2:crafting:6>], [<ic2:crafting:5>, <ic2:crafting:5>, <ic2:crafting:5>]]);
+
 
 
 

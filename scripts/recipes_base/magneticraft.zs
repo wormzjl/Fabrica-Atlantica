@@ -17,7 +17,12 @@ static removed as IItemStack[] = [
   <magneticraft:crushing_table>,
   <magneticraft:electric_drill>,
   <magneticraft:electric_chainsaw>,
-  <magneticraft:steam_turbine>
+  <magneticraft:steam_turbine>,
+  <magneticraft:pneumatic_tube>,
+  <magneticraft:pneumatic_restriction_tube>,
+  <magneticraft:relay>,
+  <magneticraft:filter>,
+  <magneticraft:transposer>
 
 ];
 

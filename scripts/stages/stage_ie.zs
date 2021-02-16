@@ -28,7 +28,20 @@ var excluded as IItemStack[] = [
   <immersiveengineering:seed>
 ];
 
+var mvpower as IItemStack[] = [
+  <immersiveengineering:connector:2>,
+  <immersiveengineering:connector:3>,
+  <immersiveengineering:wirecoil:1>,
+  <immersiveengineering:wirecoil:7>,
+  <industrialwires:ic2_wire_coil:2>,
+  <industrialwires:ic2_wire_coil:7>,
+  <industrialwires:ic2_connector:4>,
+  <industrialwires:ic2_connector:5>,
+  <immersiveengineering:metal_device0:1>
+];
+
 excluded = functions.MergeArray(excluded, scripts.recipes_base.immersiveengineering.removed);
+excluded = functions.MergeArray(excluded, mvpower);
 
 //T0
 for item in loadedMods["immersiveengineering"].items {
@@ -37,8 +50,20 @@ for item in loadedMods["immersiveengineering"].items {
   }
 }
 
+mods.ItemStages.addItemStage("basictech", <immersivepetroleum:schematic>);
+mods.ItemStages.addItemStage("basictech", <industrialwires:ic2_wire_coil>);
+mods.ItemStages.addItemStage("basictech", <industrialwires:ic2_wire_coil:1>);
+mods.ItemStages.addItemStage("basictech", <industrialwires:ic2_wire_coil:5>);
+mods.ItemStages.addItemStage("basictech", <industrialwires:ic2_wire_coil:6>);
+mods.ItemStages.addItemStage("basictech", <industrialwires:ic2_connector>);
+mods.ItemStages.addItemStage("basictech", <industrialwires:ic2_connector:1>);
+mods.ItemStages.addItemStage("basictech", <industrialwires:ic2_connector:2>);
+mods.ItemStages.addItemStage("basictech", <industrialwires:ic2_connector:3>);
+
 mods.ItemStages.addItemStage("CokeOven", <immersiveengineering:stone_decoration:0>);
-mods.ItemStages.addItemStage("automation_ie", <immersiveengineering:conveyor:*>);
+
+mods.ItemStages.addItemStage("ieautomation", <immersiveengineering:conveyor:*>);
+
 mods.ItemStages.addItemStage("BlastFurnace", <immersiveengineering:stone_decoration:1>);
 mods.ItemStages.addItemStage("BlastFurnace", <immersiveengineering:stone_decoration_slab:1>);
 
@@ -47,18 +72,21 @@ mods.ItemStages.addItemStage("BlastFurnaceAdvanced", <immersiveengineering:stone
 mods.ItemStages.addItemStage("BlastFurnaceAdvanced", <immersiveengineering:stone_decoration_slab:2>);
 mods.ItemStages.addItemStage("BlastFurnaceAdvanced", <immersiveengineering:metal_device1>);
 
+for item in mvpower {
+  mods.ItemStages.addItemStage("mvpower", item);
+}
 
 //Locking mulitiblocks with stages
 mods.multiblockstages.IEMultiBlockStages.addStage("BlastFurnace", "IE:BlastFurnace", "Need Research First!");
 mods.multiblockstages.IEMultiBlockStages.addStage("CokeOven", "IE:CokeOven", "Need Research First!");
 mods.multiblockstages.IEMultiBlockStages.addStage("Crusher", "IE:Crusher", "Need Research First!");
 mods.multiblockstages.IEMultiBlockStages.addStage("MetalPress", "IE:MetalPress", "Need Research First!");
-mods.multiblockstages.IEMultiBlockStages.addStage("AutoWorkbench", "IE:AutoWorkbench", "Need Research First!");
-mods.multiblockstages.IEMultiBlockStages.addStage("automation_ie", "IE:Assembler", "Need Research First!");
+mods.multiblockstages.IEMultiBlockStages.addStage("ieautomation", "IE:AutoWorkbench", "Need Research First!");
+mods.multiblockstages.IEMultiBlockStages.addStage("ieautomation", "IE:Assembler", "Need Research First!");
 
 mods.multiblockstages.IEMultiBlockStages.addStage("BlastFurnaceAdvanced", "IE:BlastFurnaceAdvanced", "Need Research First!");
-mods.multiblockstages.IEMultiBlockStages.addStage("SheetmetalTank", "IE:SheetmetalTank", "Need Research First!");
-mods.multiblockstages.IEMultiBlockStages.addStage("Silo", "IE:Silo", "Need Research First!");
+mods.multiblockstages.IEMultiBlockStages.addStage("iestorage", "IE:SheetmetalTank", "Need Research First!");
+mods.multiblockstages.IEMultiBlockStages.addStage("iestorage", "IE:Silo", "Need Research First!");
 
 mods.multiblockstages.IEMultiBlockStages.addStage("BottlingMachine", "IE:BottlingMachine", "Need Research First!");
 mods.multiblockstages.IEMultiBlockStages.addStage("Squeezer", "IE:Squeezer", "Need Research First!");
@@ -98,6 +126,3 @@ mods.multiblockstages.IEMultiBlockStages.addStage("iw_mech", "iw:four_coils", "N
 mods.multiblockstages.IEMultiBlockStages.addStage("iw_mech", "iw:four_electrodes", "Need Research First!");
 mods.multiblockstages.IEMultiBlockStages.addStage("iw_mech", "iw:mech_mb", "Need Research First!");
 mods.multiblockstages.IEMultiBlockStages.addStage("iw_mech", "iw:example_mech_mb", "Need Research First!");
-
-//functions.stageMod("basictech", "immersiveengineering");
-//functions.stageMod("basictech", "immersivepetroleum");

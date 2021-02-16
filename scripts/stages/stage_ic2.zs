@@ -12,14 +12,22 @@ var excluded as IItemStack[] = [
   <ic2:sapling>,
   <ic2:dust:*>,
   <ic2:ingot:*>,
-  <ic2:plate:*>
+  <ic2:plate:*>,
+
+  <ic2:te:47>,
+  <ic2:te:56>
 ];
 
-var recipestaged as IItemStack[] = [
-
+var mvpower as IItemStack[] = [
+  <ic2:te:69>,
+  <ic2:te:73>,
+  <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}),
+  <ic2:cable:2>.withTag({type: 2 as byte, insulation: 1 as byte}),
+  <ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte})
 ];
 
 excluded = functions.MergeArray(excluded, scripts.recipes_base.ic2.removed);
+excluded = functions.MergeArray(excluded, mvpower);
 
 for item in loadedMods["ic2"].items {
   if !(functions.inArray(item, excluded)) {
@@ -27,9 +35,9 @@ for item in loadedMods["ic2"].items {
   }
 }
 
-for item in recipestaged {
-	mods.recipestages.Recipes.setRecipeStage("basictech", item);
-}
+mods.ItemStages.addItemStage("macerator", <ic2:te:47>);
+mods.ItemStages.addItemStage("orewasher", <ic2:te:56>);
 
-//functions.stageMod("basictech", "immersiveengineering");
-//functions.stageMod("basictech", "immersivepetroleum");
+for item in mvpower {
+  mods.ItemStages.addItemStage("mvpower", item);
+}

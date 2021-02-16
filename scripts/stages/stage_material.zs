@@ -3,6 +3,7 @@ import crafttweaker.oredict.IOreDictEntry;
 import scripts.functions;
 
 static component_t1 as IItemStack[] = [
+  <contenttweaker:data_t2>,
   <contenttweaker:nickel_tiny_dust>,
   <contenttweaker:nickel_denseplate>,
   <contenttweaker:nickel_rod>,
@@ -18,6 +19,7 @@ static component_t1 as IItemStack[] = [
 ];
 
 static component_t2 as IItemStack[] = [
+  <contenttweaker:data_t3>,
   <contenttweaker:aluminum_tiny_dust>,
   <contenttweaker:alumina_tiny_dust>,
   <contenttweaker:aluminum_rod>,
@@ -32,6 +34,7 @@ static component_t2 as IItemStack[] = [
 
 
 static component_t3 as IItemStack[] = [
+  <contenttweaker:data_t4>,
   <contenttweaker:titanium_nugget>,
   <contenttweaker:titaniumsponge>,
   <contenttweaker:titanium_plate>,
@@ -48,6 +51,7 @@ static component_t3 as IItemStack[] = [
 ];
 
 static component_t4 as IItemStack[] = [
+  <contenttweaker:data_t5>,
   <contenttweaker:tungsten_plate>,
   <contenttweaker:tungsten_denseplate>,
   <contenttweaker:gearpart_tungsten>,
@@ -81,3 +85,5 @@ for item in component_t4 {
 for item in component_t5 {
   mods.ItemStages.addItemStage("component_t5", item);
 }
+
+mods.ItemStages.addItemStage("basictech", <contenttweaker:data_t1>);

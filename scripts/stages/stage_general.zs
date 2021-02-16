@@ -17,7 +17,7 @@ mods.ItemStages.addItemStage("bedrock_miner", <bedrockores:bedrock_miner>);
 //Autoverse
 for item in loadedMods["autoverse"].items {
   if !(functions.inArray(item, excluded)) {
-    mods.ItemStages.addItemStage("autoverse", item);
+    mods.ItemStages.addItemStage("adv_automation", item);
   }
 }
 
