@@ -1,0 +1,37 @@
+{
+  "test_hooking_vanilla_transformer": {
+    "description": "This adds a hook in PotionEffect that gets called on loading to test whether transforming Vanilla works",
+    "enabled": false,
+    "configuration": {}
+  },
+  "test_runtime_method_at": {
+    "description": "This is a test for the RuntimeMethodAT",
+    "enabled": false,
+    "configuration": {}
+  },
+  "test_single_target_method_transformer": {
+    "description": "This tests the SingleTargetMethodTransformer prefab",
+    "enabled": false,
+    "configuration": {}
+  },
+  "test_target_method_transformer": {
+    "description": "This is a test for the Target Method Transformer prefab",
+    "enabled": false,
+    "configuration": {}
+  },
+  "test_runtime_field_at": {
+    "description": "This is a test for the RuntimeFieldAT",
+    "enabled": false,
+    "configuration": {}
+  },
+  "test_stay_disabled": {
+    "description": "This transformer literally does nothing. Do not enable it, thanks",
+    "enabled": false,
+    "configuration": {}
+  },
+  "test_method_name_remapping_transformer": {
+    "description": "Tests where method names get correctly remapped from SRG to MCP if needed. Fields are handled in 'test_hooking_vanilla_transformer'",
+    "enabled": false,
+    "configuration": {}
+  }
+}
