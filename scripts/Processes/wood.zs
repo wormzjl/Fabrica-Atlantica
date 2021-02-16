@@ -225,16 +225,6 @@ recipes.replaceAllOccurences(<pyrotech:material:20>, <ore:slabWood>);
 recipes.replaceAllOccurences(<pyrotech:material:23>, <ore:slabTreatedWood>);
 recipes.replaceAllOccurences(<pyrotech:planks_tarred>, <ore:plankTreatedWood>);
 
-mods.jei.JEI.removeAndHide(<pyrotech:stone_sawmill>);
-mods.jei.JEI.removeAndHide(<pyrotech:brick_sawmill>);
-mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_stone>);
-mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_flint>);
-mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_bone>);
-mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_iron>);
-mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_gold>);
-mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_diamond>);
-mods.jei.JEI.removeAndHide(<pyrotech:sawmill_blade_obsidian>);
-
 mods.pyrotech.StoneSawmill.removeAllRecipes();
 mods.pyrotech.BrickSawmill.removeAllRecipes();
 

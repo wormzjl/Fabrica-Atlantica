@@ -48,12 +48,24 @@ static removed as IItemStack[] = [
   <pyrotech:diamond_hammer>,
   <pyrotech:obsidian_hammer>,
   <pyrotech:chopping_block>,
-  <pyrotech:drying_rack:1>
+  <pyrotech:drying_rack:1>,
+  <pyrotech:coal_coke_block>,
+  <pyrotech:material:1>,
+  <pyrotech:stone_sawmill>,
+  <pyrotech:brick_sawmill>,
+  <pyrotech:sawmill_blade_stone>,
+  <pyrotech:sawmill_blade_flint>,
+  <pyrotech:sawmill_blade_bone>,
+  <pyrotech:sawmill_blade_iron>,
+  <pyrotech:sawmill_blade_gold>,
+  <pyrotech:sawmill_blade_diamond>,
+  <pyrotech:sawmill_blade_obsidian>
 ];
 
 for item in removed {
   functions.removeItem(item);
 }
+
 
 mods.pyrotech.BrickCrucible.removeRecipes(<liquid:lava>);
 
@@ -89,3 +101,6 @@ recipes.addShapeless(<pyrotech:worktable>, [<ore:logWood>, <ore:toolAxe>.transfo
 
 recipes.remove(<pyrotech:crude_axe>);
 recipes.addShaped(<pyrotech:crude_axe>, [[<primal:flint_knapp>, <primal:flint_knapp>], [<ore:stickWood>, <pyrotech:material:12>]]);
+
+mods.pyrotech.MechanicalCompactor.removeRecipes(<pyrotech:coal_coke_block>);
+mods.pyrotech.GraniteAnvil.removeRecipes(<pyrotech:material:1>);

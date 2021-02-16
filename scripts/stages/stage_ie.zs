@@ -38,7 +38,7 @@ for item in loadedMods["immersiveengineering"].items {
 }
 
 mods.ItemStages.addItemStage("CokeOven", <immersiveengineering:stone_decoration:0>);
-mods.ItemStages.addItemStage("stage_basicbelt", <immersiveengineering:conveyor:*>);
+mods.ItemStages.addItemStage("automation_ie", <immersiveengineering:conveyor:*>);
 mods.ItemStages.addItemStage("BlastFurnace", <immersiveengineering:stone_decoration:1>);
 mods.ItemStages.addItemStage("BlastFurnace", <immersiveengineering:stone_decoration_slab:1>);
 
@@ -54,7 +54,7 @@ mods.multiblockstages.IEMultiBlockStages.addStage("CokeOven", "IE:CokeOven", "Ne
 mods.multiblockstages.IEMultiBlockStages.addStage("Crusher", "IE:Crusher", "Need Research First!");
 mods.multiblockstages.IEMultiBlockStages.addStage("MetalPress", "IE:MetalPress", "Need Research First!");
 mods.multiblockstages.IEMultiBlockStages.addStage("AutoWorkbench", "IE:AutoWorkbench", "Need Research First!");
-mods.multiblockstages.IEMultiBlockStages.addStage("Assembler", "IE:Assembler", "Need Research First!");
+mods.multiblockstages.IEMultiBlockStages.addStage("automation_ie", "IE:Assembler", "Need Research First!");
 
 mods.multiblockstages.IEMultiBlockStages.addStage("BlastFurnaceAdvanced", "IE:BlastFurnaceAdvanced", "Need Research First!");
 mods.multiblockstages.IEMultiBlockStages.addStage("SheetmetalTank", "IE:SheetmetalTank", "Need Research First!");

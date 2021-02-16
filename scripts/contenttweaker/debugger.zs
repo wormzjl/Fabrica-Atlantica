@@ -13,7 +13,7 @@ static allStages as string[] = [
   "Crusher",
   "MetalPress",
   "AutoWorkbench",
-  "Assembler",
+  "automation_ie",
   "BlastFurnaceAdvanced",
   "SheetmetalTank",
   "Silo",
@@ -44,6 +44,9 @@ static allStages as string[] = [
   "railcraft",
   "boiler_rc",
   "rs_ctr",
+  "bedrock_miner",
+
+  "autoverse",
 
   "component_t0",
   "component_t1",

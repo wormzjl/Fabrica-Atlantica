@@ -3,9 +3,6 @@
 import crafttweaker.item.IItemStack;
 import scripts.functions;
 
-//mods.jei.JEI.removeAndHide(<ic2:te:22>);
-//mods.jei.JEI.removeAndHide(<ic2:te:24>);
-
 static removed as IItemStack[] = [
   <ic2:bronze_pickaxe>,
   <ic2:bronze_axe>,
@@ -16,15 +13,18 @@ static removed as IItemStack[] = [
   <ic2:bronze_chestplate>,
   <ic2:bronze_helmet>,
   <ic2:bronze_leggings>,
-  <ic2:ingot:8>,
   <ic2:resource:14>,
+  <ic2:coke>,
   <ic2:refractory_bricks>,
   <ic2:tool_box:*>,
   <ic2:energy_pack:26>,
+  <ic2:te:11>,
   <ic2:te:17>,
+  <ic2:te:21>,
   <ic2:te:23>,
   <ic2:te:25>,
   <ic2:te:26>,
+  <ic2:te:50>,
   <ic2:te:58>,
   <ic2:te:87>,
   <ic2:te:100>,
@@ -56,7 +56,6 @@ furnace.remove(<ic2:ingot:8>);
 recipes.remove(<ic2:re_battery:*>);
 recipes.addShaped(<ic2:re_battery:26>, [[null, <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}), null], [<ic2:casing:6>, <minecraft:redstone>, <ic2:casing:6>], [<ic2:casing:6>, <minecraft:redstone>, <ic2:casing:6>]]);
 
-
 recipes.remove(<ic2:resource:12>);
 recipes.addShaped(<ic2:resource:12>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, null, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
@@ -65,6 +64,10 @@ recipes.addShaped(<ic2:te:3>, [[<ic2:re_battery:*>], [<ic2:resource:12>], [<mine
 
 recipes.remove(<ic2:te:46>);
 recipes.addShaped(<ic2:te:46>, [[null, <ore:plateSteel>, null], [<ore:plateSteel>, null, <ore:plateSteel>], [<ore:plateSteel>, <minecraft:furnace>, <ore:plateSteel>]]);
+
+recipes.remove(<ic2:te:55>);
+recipes.addShaped(<ic2:te:55>, [[null, <ore:circuitBasic>, null], [<ic2:crafting:6>, <ic2:resource:12>, <ic2:crafting:6>], [<ic2:crafting:5>, <ic2:crafting:5>, <ic2:crafting:5>]]);
+
 
 
 //Consider moving to RC rolling machine after

@@ -1,7 +1,5 @@
 #priority 1000
 
-mods.jei.JEI.removeAndHide(<primal:sinuous_resin>);
-
 //Primal process
 mods.primal.Cauldron.addRecipe("Formic_acid", 15, <liquid:water> * 50, <liquid:formicacid> * 50, [<forestry:bee_drone_ge:*>], [<forestry:ash>]);
 mods.primal.Cauldron.addRecipe("Raw_rubber", 15, <liquid:formicacid> * 50, null, [<ic2:misc_resource:4>], [<contenttweaker:rawrubber>]);

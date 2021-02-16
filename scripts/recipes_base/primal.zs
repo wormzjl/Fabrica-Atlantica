@@ -91,7 +91,8 @@ static removed as IItemStack[] = [
   <primal:quern>,
   <primal:quern:1>,
   <primal:quern:2>,
-  <primal:quern_buhrstone_carbonate>
+  <primal:quern_buhrstone_carbonate>,
+  <primal:sinuous_resin>
 ];
 
 for item in removed {

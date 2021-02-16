@@ -80,7 +80,7 @@ mods.pyrotech.Bloomery.createBloomeryBuilder(
         true
     )
     .setAnvilTiers(["granite", "ironclad"])
-    .setBurnTimeTicks(28800)
+    .setBurnTimeTicks(3600)
     .setFailureChance(0.25)
     .setBloomYield(30, 34)
     .setSlagItem(<pyrotech:generated_slag_iron>, 4)
@@ -95,7 +95,7 @@ mods.pyrotech.Bloomery.createBloomeryBuilder(
         true
     )
     .setAnvilTiers(["ironclad"])
-    .setBurnTimeTicks(14400)
+    .setBurnTimeTicks(3600)
     .setFailureChance(0.5)
     .setBloomYield(6, 10)
     .setSlagItem(<pyrotech:generated_slag_iron>, 2)
