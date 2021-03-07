@@ -129,7 +129,16 @@
       {
         "factor": 10.0,
         "building": "living_b2"
+      },
+      {
+        "factor": 2.0,
+        "building": "bunker1"
+      },
+      {
+        "factor": 2.0,
+        "building": "bunker2"
       }
+
     ],
     "multibuildings": [
       {
@@ -896,6 +905,89 @@
       }
     ]
   },
+
+
+  {
+    "type": "building",
+    "name": "bunker1",
+    "filler": "#",
+    "mincellars": 1,
+    "maxcellars": 1,
+    "minfloors": 1,
+    "maxfloors": 1,
+    "parts": [
+      {
+        "cellar": true,
+        "part": "bunker_coal"
+      },
+      {
+        "cellar": true,
+        "part": "bunker_coal_d"
+      },
+      {
+        "cellar": true,
+        "part": "bunker_copper"
+      },
+      {
+        "cellar": true,
+        "part": "bunker_copper_d"
+      },
+      {
+        "cellar": true,
+        "part": "bunker_iron"
+      },
+      {
+        "cellar": true,
+        "part": "bunker_iron_d"
+      },
+      {
+        "top": false,
+        "floor": 0,
+        "part": "bunker_top1"
+      },
+      {
+        "top": false,
+        "floor": 0,
+        "part": "bunker_top2"
+      },
+      {
+        "top": true,
+        "floor": 1,
+        "part": "empty"
+      }
+    ]
+  },
+
+  {
+    "type": "building",
+    "name": "bunker2",
+    "filler": "#",
+    "mincellars": 1,
+    "maxcellars": 1,
+    "minfloors": 1,
+    "maxfloors": 1,
+    "parts": [
+      {
+        "cellar": true,
+        "part": "bunker2"
+      },
+      {
+        "cellar": true,
+        "part": "bunker2_d"
+      },
+      {
+        "top": false,
+        "floor": 0,
+        "part": "bunker2_top"
+      },
+      {
+        "top": true,
+        "floor": 1,
+        "part": "empty"
+      }
+    ]
+  },
+
   {
     "type": "building",
     "name": "living_b1",
@@ -2882,4 +2974,6 @@
       ]
     ]
   }
+
+
 ]

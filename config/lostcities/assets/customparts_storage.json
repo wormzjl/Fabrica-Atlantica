@@ -3500,5 +3500,1875 @@
         "                "
       ]
     ]
+  },
+  {
+    "type": "part",
+    "name": "bunker_coal",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:air"
+      },
+      {
+        "char": "a",
+        "block": "chisel:brownstone"
+      },
+      {
+        "char": "b",
+        "block": "chisel:brownstone@9"
+      },
+      {
+        "char": "c",
+        "block": "chisel:brownstone@1"
+      },
+      {
+        "char": "d",
+        "block": "chisel:technical@15"
+      },
+      {
+        "char": "e",
+        "block": "chisel:technical1"
+      },
+      {
+        "char": "f",
+        "block": "chisel:factory@9"
+      },
+      {
+        "char": "h",
+        "block": "minecraft:orange_glazed_terracotta"
+      },
+      {
+        "char": "i",
+        "block": "minecraft:orange_glazed_terracotta"
+      },
+      {
+        "char": "j",
+        "blocks": [
+          {
+            "random": 10,
+            "block": "minecraft:chest", "loot": "chestloot"
+          },
+          {
+            "random": 10,
+            "block": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "char": "k",
+        "block": "chisel:brownstone@3"
+      },
+      {
+        "char": "l",
+        "block": "industrialrenewal:catwalk_ladder_steel"
+      },
+      {
+        "char": "m",
+        "block": "minecraft:mob_spawner", "mob": "famobs"
+      },
+      {
+        "char": "n",
+        "block": "industrialrenewal:catwalk_ladder_steel@4"
+      }
+    ],
+    "meta": [
+      {
+        "key": "dontconnect",
+        "boolean": true
+      }
+    ],
+    "slices": [
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbbbbbbbbba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abbbbbbbbbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbddbbbbbba",
+        "abefjfe  efjfeba",
+        "abf          fba",
+        "abf          fba",
+        "abf          fba",
+        "abe   k kk   eba",
+        "ad    k  k    da",
+        "adh   kl k   hda",
+        "abih  kkkk  hiba",
+        "abiih   m  hiiba",
+        "abiiih    hiiiba",
+        "abiiiih  hiiiiba",
+        "abiiiiihhiiiiiba",
+        "abbbbbbddbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbddbbbbbba",
+        "abeeeee  eeeeeba",
+        "abe          eba",
+        "abe          eba",
+        "abe          eba",
+        "abe   k kk   eba",
+        "ad    k  k    da",
+        "ad    kl k    da",
+        "abh   kkkk   hba",
+        "abih        hiba",
+        "abiih      hiiba",
+        "abiiih    hiiiba",
+        "abiiiih  hiiiiba",
+        "abbbbbbddbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbddbbbbbba",
+        "abefffe  efffeba",
+        "abf          fba",
+        "abf          fba",
+        "abf          fba",
+        "abe   kkkk   eba",
+        "ad    k  k    da",
+        "ad    kn k    da",
+        "ab    kkkk    ba",
+        "abh          hba",
+        "abih        hiba",
+        "abiih      hiiba",
+        "abiiih    hiiiba",
+        "abbbbbbddbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbddbbbbbba",
+        "abeeeee  eeeeeba",
+        "abe          eba",
+        "abe          eba",
+        "abe          eba",
+        "abe   kkkk   eba",
+        "ad    k  k    da",
+        "ad    kn k    da",
+        "ab    kkkk    ba",
+        "ab            ba",
+        "abh          hba",
+        "abih        hiba",
+        "abiih      hiiba",
+        "abbbbbbddbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaanaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa"
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "bunker_coal_d",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:air"
+      },
+      {
+        "char": "a",
+        "block": "chisel:brownstone"
+      },
+      {
+        "char": "b",
+        "block": "chisel:brownstone@9"
+      },
+      {
+        "char": "c",
+        "block": "chisel:brownstone@1"
+      },
+      {
+        "char": "e",
+        "block": "chisel:technical@15"
+      },
+      {
+        "char": "f",
+        "block": "chisel:technical1"
+      },
+      {
+        "char": "g",
+        "block": "chisel:factory@9"
+      },
+      {
+        "char": "h",
+        "block": "minecraft:gravel"
+      },
+      {
+        "char": "i",
+        "block": "minecraft:orange_glazed_terracotta"
+      },
+      {
+        "char": "j",
+        "block": "minecraft:orange_glazed_terracotta"
+      },
+      {
+        "char": "k",
+        "blocks": [
+          {
+            "random": 10,
+            "block": "minecraft:chest@3", "loot": "chestloot"
+          },
+          {
+            "random": 10,
+            "block": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "char": "l",
+        "block": "chisel:brownstone@3"
+      },
+      {
+        "char": "m",
+        "block": "minecraft:mob_spawner", "mob": "famobs"
+      }
+    ],
+    "meta": [
+      {
+        "key": "dontconnect",
+        "boolean": true
+      }
+    ],
+    "slices": [
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbbbbbbbbba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abbbbbbbbbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbeebbbbbba",
+        "abfgkgfhhfhhgfba",
+        "abgfhhhhhhhfhgba",
+        "abghhhffhffhhgba",
+        "abghhffhfhhfhgba",
+        "abfhhhlfllhhhfba",
+        "aehhhhlhhlhhhhea",
+        "aeihhhlhhlhhhiea",
+        "abjihhllllhhijba",
+        "abjjihhhmhhijjba",
+        "abjjjihhhhhjjjba",
+        "abjjjjihhijjjjba",
+        "abjjjjjiijjjjjba",
+        "abbbbbbeebbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbeebbbbbba",
+        "abffffh  h  ffba",
+        "abfhhhhhhhhhhhba",
+        "abfhhhhhhhfhhhba",
+        "abfhhhhhhhhhhhba",
+        "abhhhhl llhhhhba",
+        "aehhhhlhhlhhhhea",
+        "aehhhhlhhlhhhhea",
+        "abihhhllllhhhiba",
+        "abjihhhhhhhhhjba",
+        "abjjihhhhhhhhjba",
+        "abjjjihhhhijjjba",
+        "abjjjjihhijjjjba",
+        "abbbbbbeebbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbeebbbbbba",
+        "abfggh      hhba",
+        "abghhhhhhhhhhhha",
+        "abghhhhhhhhhhhha",
+        "abhhhhhhhhhhhhba",
+        "ab hhhllllhhhhba",
+        "aehhhhlhhlhhhhha",
+        "aehhhhlhhlhhhhea",
+        "abhhhhll lhhhhba",
+        "abihhhhhhhhhhhba",
+        "abjihhhhhhhhhhba",
+        "abjjhhhhhhhhhhba",
+        "abjjjhhhhhhhhhba",
+        "abbbbbbeebbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbeebbbbbba",
+        "abhfh         ba",
+        "abfh       h hba",
+        "abhhh hh hh  hba",
+        "ab hhhh h  h hba",
+        "ab hh llll   hba",
+        "ae  hhlhhl    ha",
+        "ae hh l hl   hea",
+        "ab hh l     hhba",
+        "abhhh   h  hhhba",
+        "abihhh  h  hhhba",
+        "abjihh  hhhhhhba",
+        "abjjhhh  hhhhhba",
+        "abbbbbbeebbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaa   aaaaaaaaa",
+        "aaa      aaaaaaa",
+        "aaa        aaaaa",
+        "aaaaaa     aaaaa",
+        "aaaaaaaa   aaaaa",
+        "aaaaaaaa  aaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa"
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "bunker_copper",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:air"
+      },
+      {
+        "char": "a",
+        "block": "chisel:brownstone"
+      },
+      {
+        "char": "b",
+        "block": "chisel:brownstone@9"
+      },
+      {
+        "char": "c",
+        "block": "chisel:brownstone@1"
+      },
+      {
+        "char": "d",
+        "block": "chisel:technical@15"
+      },
+      {
+        "char": "e",
+        "block": "chisel:technical1"
+      },
+      {
+        "char": "f",
+        "block": "chisel:factory@9"
+      },
+      {
+        "char": "h",
+        "block": "minecraft:lime_glazed_terracotta"
+      },
+      {
+        "char": "i",
+        "blocks": [
+          {
+            "random": 10,
+            "block": "minecraft:chest@3", "loot": "chestloot"
+          },
+          {
+            "random": 10,
+            "block": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "char": "j",
+        "block": "chisel:brownstone@3"
+      },
+      {
+        "char": "k",
+        "block": "industrialrenewal:catwalk_ladder_steel"
+      },
+      {
+        "char": "l",
+        "block": "minecraft:mob_spawner", "mob": "famobs"
+      },
+      {
+        "char": "m",
+        "block": "minecraft:pink_glazed_terracotta"
+      },
+      {
+        "char": "n",
+        "block": "minecraft:pink_glazed_terracotta"
+      },
+      {
+        "char": "o",
+        "blocks": [
+          {
+            "random": 10,
+            "block": "minecraft:chest@5", "loot": "chestloot"
+          },
+          {
+            "random": 10,
+            "block": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "char": "p",
+        "block": "industrialrenewal:catwalk_ladder_steel@4"
+      },
+      {
+        "char": "q",
+        "blocks": [
+          {
+            "random": 10,
+            "block": "minecraft:chest@2", "loot": "chestloot"
+          },
+          {
+            "random": 10,
+            "block": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "char": "r",
+        "blocks": [
+          {
+            "random": 10,
+            "block": "minecraft:chest@4", "loot": "chestloot"
+          },
+          {
+            "random": 10,
+            "block": "minecraft:air"
+          }
+        ]
+      }
+    ],
+    "meta": [
+      {
+        "key": "dontconnect",
+        "boolean": true
+      }
+    ],
+    "slices": [
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbbbbbbbbba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abbbbbbbbbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbddbbbbbba",
+        "abefife  efffeba",
+        "abf          fba",
+        "abf          fba",
+        "abf          fba",
+        "abe  ej jje  eba",
+        "ad   fj  jf   da",
+        "ad   fjk jf   da",
+        "ab   ejjjje   ba",
+        "abh   effe   hba",
+        "abhh        hhba",
+        "abhhh      mhhba",
+        "abhhhh  l hhhhba",
+        "abbbbbbddbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbddbbbbbba",
+        "abeeeee  eeeeeba",
+        "abe          eba",
+        "abe          eba",
+        "abe          eba",
+        "abe  ej jje  eba",
+        "ad   ej  je   da",
+        "ad   ejk je   da",
+        "ab   ejjjje   ba",
+        "ab    eeee    ba",
+        "abn          mba",
+        "abnm        mhba",
+        "abhhm      hhhba",
+        "abbbbbbddbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbddbbbbbba",
+        "abefffe  effreba",
+        "abf          fba",
+        "abo          fba",
+        "abf          fba",
+        "abe  ejjjje  eba",
+        "ad   fj  jf   da",
+        "ad   fjp jq   da",
+        "ab   ejjjje   ba",
+        "ab    effe    ba",
+        "ab            ba",
+        "abh          mba",
+        "abhh        hhba",
+        "abbbbbbddbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbddbbbbbba",
+        "abeeeee  eeeeeba",
+        "abe          eba",
+        "abe          eba",
+        "abe          eba",
+        "abe  ejjjje  eba",
+        "ad   ej  je   da",
+        "ad   ejp je   da",
+        "ab   ejjjje   ba",
+        "ab    eeee    ba",
+        "ab            ba",
+        "ab            ba",
+        "ab            ba",
+        "abbbbbbddbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaapaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa"
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "bunker_copper_d",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:air"
+      },
+      {
+        "char": "a",
+        "block": "chisel:brownstone"
+      },
+      {
+        "char": "b",
+        "block": "chisel:brownstone@9"
+      },
+      {
+        "char": "c",
+        "block": "chisel:brownstone@1"
+      },
+      {
+        "char": "e",
+        "block": "chisel:technical@15"
+      },
+      {
+        "char": "f",
+        "block": "chisel:technical1"
+      },
+      {
+        "char": "g",
+        "block": "chisel:factory@9"
+      },
+      {
+        "char": "h",
+        "block": "minecraft:gravel"
+      },
+      {
+        "char": "i",
+        "block": "minecraft:lime_glazed_terracotta"
+      },
+      {
+        "char": "j",
+        "block": "minecraft:pink_glazed_terracotta"
+      },
+      {
+        "char": "k",
+        "blocks": [
+          {
+            "random": 10,
+            "block": "minecraft:chest@3", "loot": "chestloot"
+          },
+          {
+            "random": 10,
+            "block": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "char": "l",
+        "block": "chisel:brownstone@3"
+      },
+      {
+        "char": "m",
+        "block": "minecraft:mob_spawner", "mob": "famobs"
+      },
+      {
+        "char": "n",
+        "block": "minecraft:pink_glazed_terracotta"
+      },
+      {
+        "char": "o",
+        "block": "chisel:brownstone@8"
+      }
+    ],
+    "meta": [
+      {
+        "key": "dontconnect",
+        "boolean": true
+      }
+    ],
+    "slices": [
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbbbbbbbbba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abbbbbbbbbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbeebbbbbba",
+        "abfgkgfhhfgggfba",
+        "abghhhhhhhhhhgba",
+        "abghhhhhhhhhhgba",
+        "abghhhhhhhhhhgba",
+        "abfhhhl llfhhfba",
+        "aehhhglhhlghhhea",
+        "aehhhglhhlghhhea",
+        "abhhhfllllfhhhba",
+        "abhhhhfggfhhhhba",
+        "abiihhhhhhhhhhba",
+        "abijihhhhhhhiiba",
+        "abiiiihhmhhhiiba",
+        "abbbbbbeebbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbeebbbbbba",
+        "abfh ffhhffhffba",
+        "abfhhhhhhhhhhfba",
+        "abfhhhhhhhhhhfba",
+        "abfhhhhhhhhhhfba",
+        "abfhhhl llfhhfba",
+        "aehhhhlhhlfhhhea",
+        "aehhhhlhhlfhhhea",
+        "abhhhhllllfhhhba",
+        "abhhhhhffhhhhhba",
+        "abhhhhhhhhhhhhba",
+        "abnhhhhhhhhhhhba",
+        "abihjhhhhhhhhiba",
+        "abbbbbbeebbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbeebbbbbba",
+        "abfh hfoohhhhfba",
+        "abhhhhhhhhhhhhba",
+        "abhhhhhhoohhhgba",
+        "abhhhhhhoohhhhba",
+        "abfhhhhlllfhhhba",
+        "aehhhhlhhlghhhea",
+        "aehhhhlhhlhhhhea",
+        "abhhhhllllhhhhba",
+        "abhhhhhhhhhhhhba",
+        "abhhhhhhhhhhhhba",
+        "abhhhhhhhhhhhhba",
+        "abhhhhhhhhhhhhba",
+        "abbbbbbeebbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbeebbbbbba",
+        "abh  hh  hh hhba",
+        "abf          hba",
+        "abh        o hba",
+        "abh   oo   o hba",
+        "abf h llllf  hba",
+        "ae    hhhlh   ea",
+        "ae h  lhhlh   ea",
+        "ab    llllh   ba",
+        "ab h   hh    hba",
+        "ab  h        hba",
+        "abh         hhba",
+        "abh h      hhhba",
+        "abbbbbbeebbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaa aaaa",
+        "aaaaaaa      aaa",
+        "aaaa         aaa",
+        "aaa         aaaa",
+        "aaa         aaaa",
+        "aaaaaaaa aaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaa aaaaaaaa",
+        "aaaaa aaaaaaaaaa",
+        "aaaaa aaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa"
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "bunker_iron",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:air"
+      },
+      {
+        "char": "a",
+        "block": "chisel:brownstone"
+      },
+      {
+        "char": "b",
+        "block": "chisel:brownstone@9"
+      },
+      {
+        "char": "c",
+        "block": "chisel:brownstone@1"
+      },
+      {
+        "char": "d",
+        "block": "chisel:technical@15"
+      },
+      {
+        "char": "e",
+        "block": "chisel:technical1"
+      },
+      {
+        "char": "f",
+        "block": "chisel:factory@9"
+      },
+      {
+        "char": "h",
+        "block": "minecraft:white_glazed_terracotta"
+      },
+      {
+        "char": "i",
+        "block": "minecraft:white_glazed_terracotta"
+      },
+      {
+        "char": "j",
+        "blocks": [
+          {
+            "random": 10,
+            "block": "minecraft:chest@3", "loot": "chestloot"
+          },
+          {
+            "random": 10,
+            "block": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "char": "k",
+        "block": "chisel:brownstone@3"
+      },
+      {
+        "char": "l",
+        "block": "industrialrenewal:catwalk_ladder_steel"
+      },
+      {
+        "char": "m",
+        "block": "minecraft:mob_spawner", "mob": "famobs"
+      },
+      {
+        "char": "n",
+        "block": "industrialrenewal:catwalk_ladder_steel@4"
+      },
+      {
+        "char": "o",
+        "block": "minecraft:white_glazed_terracotta"
+      }
+    ],
+    "meta": [
+      {
+        "key": "dontconnect",
+        "boolean": true
+      }
+    ],
+    "slices": [
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbbbbbbbbba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abbbbbbbbbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbddbbbbbba",
+        "abefjfe  efjfeba",
+        "abf          fba",
+        "abf          fba",
+        "abf          fba",
+        "abe   k kk   eba",
+        "ad    k  k    da",
+        "ad    kl k    da",
+        "abh   kkkk   iba",
+        "abhi        iiba",
+        "abhhi      iiiba",
+        "abhhhi    ihiiba",
+        "abhiiii miiiiiba",
+        "abbbbbbddbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbddbbbbbba",
+        "abeeeee  eeeeeba",
+        "abe          eba",
+        "abe          eba",
+        "abe          eba",
+        "abe   k kk   eba",
+        "ad    k  k    da",
+        "ad    kl k    da",
+        "ab    kkkk    ba",
+        "abh          iba",
+        "abii        iiba",
+        "abhhi      iiiba",
+        "abhihi    iiiiba",
+        "abbbbbbddbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbddbbbbbba",
+        "abefffe  efffeba",
+        "abf          fba",
+        "abf          fba",
+        "abf          fba",
+        "abe   kkkk   eba",
+        "ad    k  k    da",
+        "ad    kn k    da",
+        "ab    kkkk    ba",
+        "ab            ba",
+        "abi          oba",
+        "abhh        ooba",
+        "abiii      iiiba",
+        "abbbbbbddbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbddbbbbbba",
+        "abeeeee  eeeeeba",
+        "abe          eba",
+        "abe          eba",
+        "abe          eba",
+        "abe   kkkk   eba",
+        "ad    k  k    da",
+        "ad    kn k    da",
+        "ab    kkkk    ba",
+        "ab            ba",
+        "ab            ba",
+        "abh          oba",
+        "abhi        ioba",
+        "abbbbbbddbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaanaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa"
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "bunker_iron_d",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:air"
+      },
+      {
+        "char": "a",
+        "block": "chisel:brownstone"
+      },
+      {
+        "char": "b",
+        "block": "chisel:brownstone@9"
+      },
+      {
+        "char": "c",
+        "block": "chisel:brownstone@1"
+      },
+      {
+        "char": "e",
+        "block": "chisel:technical@15"
+      },
+      {
+        "char": "f",
+        "block": "chisel:technical1"
+      },
+      {
+        "char": "g",
+        "block": "chisel:factory@9"
+      },
+      {
+        "char": "h",
+        "block": "minecraft:gravel"
+      },
+      {
+        "char": "i",
+        "block": "minecraft:white_glazed_terracotta"
+      },
+      {
+        "char": "j",
+        "block": "minecraft:white_glazed_terracotta"
+      },
+      {
+        "char": "k",
+        "block": "chisel:brownstone@3"
+      },
+      {
+        "char": "l",
+        "block": "minecraft:white_glazed_terracotta"
+      }
+    ],
+    "meta": [
+      {
+        "key": "dontconnect",
+        "boolean": true
+      }
+    ],
+    "slices": [
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbbbbbbbbba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abbbbbbbbbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbeebbbbbba",
+        "abfghgfhhfghgfba",
+        "abgfhhhhfhhfhhba",
+        "abghfffhhffhffba",
+        "abhhhhhhhhfhhgba",
+        "abhhffkkkkfhhfba",
+        "aehhhhkhhkhhhhea",
+        "aehhhhkhhkhhhhea",
+        "abihhhkkkkhhhjba",
+        "abihhhhhhhhhjjba",
+        "abiihhhhhhhjjjba",
+        "abiiihhhhhjijjba",
+        "abijjjhhhhhjjjba",
+        "abbbbbbeebbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbeebbbbbba",
+        "abfhhffhhhhhffba",
+        "abfhhhhhhhhhhhba",
+        "abhhhhhhhhhhhhba",
+        "ab hhhhhhhhhhfba",
+        "ab hhhkkkkhhhfba",
+        "ae hhhkhhkhhhhea",
+        "ae hhhkhhkhhhhea",
+        "abhhhhkkkkhhhhba",
+        "abhhhhhhhhhhhjba",
+        "abjhhhhhhhhhjjba",
+        "abiihh   hhjjjba",
+        "abijih h hhhjjba",
+        "abbbbbbeebbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbb ebbbbbba",
+        "abfh hf  hh hfba",
+        "abhh   ahhhhh ba",
+        "ab  hhh ahhhhhba",
+        "ab     ahhhhhhba",
+        "ab  hhkhhkhhhfba",
+        "ae    khhkhhhaea",
+        "ae    khhkhhh ea",
+        "ab    kkkkhahhba",
+        "ab       hhhhhba",
+        "abhh     hhhhlba",
+        "abih      hhhlba",
+        "abjhh  h hhhhjba",
+        "abbbbbbeebbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbeebbbbbba",
+        "abh  hh  hh hhba",
+        "ab        hh  ba",
+        "ab       hh h ba",
+        "ab        h  hba",
+        "ab    khhkh  fba",
+        "ae    k  khaa ea",
+        "ae    khhkha  ea",
+        "ab    kkkkh a ba",
+        "ab        hahhba",
+        "ab        hhhhba",
+        "abh       hhhhba",
+        "abh         hhba",
+        "abbbbbbeebbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaa  aaaaaaa",
+        "aaaaaaa  aaaaaaa",
+        "aaaaaaaaaaaaa aa",
+        "aaaaaaa  aa   aa",
+        "aaaaaaa aaa    a",
+        "aaaaaaaaaaa  aaa",
+        "aaaaaaaaaaa  aaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa"
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "bunker_top1",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:air"
+      },
+      {
+        "char": "a",
+        "block": "chisel:brownstone@8"
+      },
+      {
+        "char": "c",
+        "block": "chisel:brownstone"
+      },
+      {
+        "char": "d",
+        "block": "industrialrenewal:catwalk_hatch"
+      },
+      {
+        "char": "e",
+        "block": "chisel:technical1"
+      }
+    ],
+    "meta": [
+      {
+        "key": "dontconnect",
+        "boolean": true
+      }
+    ],
+    "slices": [
+      [
+        "aaaaaaaaaaaaaaaa",
+        "a              a",
+        "a              a",
+        "a              a",
+        "a              a",
+        "a              a",
+        "a     cccc     a",
+        "a     c  c     a",
+        "a     cd c     a",
+        "a     cccc     a",
+        "a              a",
+        "a              a",
+        "a              a",
+        "a              a",
+        "a              a",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "ccccccc  ccccccc",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "                ",
+        "                ",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "ccccccc  ccccccc"
+      ],
+      [
+        "ccccccc  ccccccc",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "                ",
+        "                ",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "ccccccc  ccccccc"
+      ],
+      [
+        "cccccccccccccccc",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "cccccccccccccccc"
+      ],
+      [
+        "ceeeeeeeeeeeeeec",
+        "e              e",
+        "e              e",
+        "e              e",
+        "e              e",
+        "e              e",
+        "e              e",
+        "e              e",
+        "e              e",
+        "e              e",
+        "e              e",
+        "e              e",
+        "e              e",
+        "e              e",
+        "e              e",
+        "ceeeeeeeeeeeeeec"
+      ],
+      [
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccccccccccccccc"
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "bunker_top2",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": "a",
+        "block": "minecraft:gravel"
+      },
+      {
+        "char": "b",
+        "block": "chisel:brownstone"
+      }
+    ],
+    "meta": [
+      {
+        "key": "dontconnect",
+        "boolean": true
+      }
+    ],
+    "slices": [
+      [
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaabbaaaaaaa",
+        "aaaaaabbbbaaaaaa",
+        "aaaaabbbbbbaaaaa",
+        "aaaaabbbbbbaaaaa",
+        "aaaaaabbbbaaaaaa",
+        "aaaaaaabbaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa"
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "bunker2",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:air"
+      },
+      {
+        "char": "a",
+        "block": "chisel:brownstone"
+      },
+      {
+        "char": "b",
+        "block": "chisel:technicalnew"
+      },
+      {
+        "char": "d",
+        "block": "chisel:factory@6"
+      },
+      {
+        "char": "e",
+        "block": "minecraft:orange_glazed_terracotta"
+      },
+      {
+        "char": "f",
+        "block": "minecraft:mob_spawner", "mob": "famobs"
+      },
+      {
+        "char": "g",
+        "block": "minecraft:white_glazed_terracotta"
+      },
+      {
+        "char": "h",
+        "block": "minecraft:double_stone_slab"
+      },
+      {
+        "char": "i",
+        "block": "industrialrenewal:bunkbed@9"
+      },
+      {
+        "char": "j",
+        "block": "chisel:factory@9"
+      },
+      {
+        "char": "k",
+        "block": "chisel:technicalnew@2"
+      },
+      {
+        "char": "l",
+        "block": "chisel:technicalnew@3"
+      },
+      {
+        "char": "m",
+        "block": "industrialrenewal:bunkbed@1"
+      },
+      {
+        "char": "n",
+        "block": "minecraft:stone_slab"
+      },
+      {
+        "char": "o",
+        "block": "chisel:technicalnew@7"
+      },
+      {
+        "char": "p",
+        "block": "chisel:technical1"
+      },
+      {
+        "char": "q",
+        "blocks": [
+          {
+            "random": 10,
+            "block": "minecraft:chest@3", "loot": "chestloot"
+          },
+          {
+            "random": 10,
+            "block": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "char": "r",
+        "block": "chisel:brownstone@8"
+      },
+      {
+        "char": "s",
+        "block": "chisel:technical@6"
+      },
+      {
+        "char": "t",
+        "block": "chisel:technical@11"
+      },
+      {
+        "char": "u",
+        "block": "chisel:technicalnew@4"
+      }
+    ],
+    "meta": [
+      {
+        "key": "dontconnect",
+        "boolean": true
+      }
+    ],
+    "slices": [
+      [
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbb  himhnpqjpa",
+        "abbb           a",
+        "abbb           a",
+        "a      jj      a",
+        "addd   jj      a",
+        "aeeed          a",
+        "aeeed  kk    a a",
+        "aeeed  kk    a a",
+        "addd         ara",
+        "af    aaaaa aara",
+        "addd  a      ara",
+        "agggd a      ora",
+        "agggd all  ooora",
+        "agggd all oooora",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbb  himh ppppa",
+        "abbt           a",
+        "absb           a",
+        "a      jj      a",
+        "addd   jj      a",
+        "aeeed          a",
+        "aeeed  kk    a a",
+        "aeeed  kk    a a",
+        "addd         a a",
+        "a     aaaaa aaaa",
+        "addd  a      aaa",
+        "agggd a      oaa",
+        "agggd all  oooaa",
+        "agggd all  oooaa",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbb       pjjpa",
+        "abbb           a",
+        "abbb           a",
+        "a              a",
+        "addd           a",
+        "aeeed          a",
+        "aeeed  kk    aaa",
+        "aeeed  kk    a a",
+        "addd         a a",
+        "a     aaaaaaaa a",
+        "addd  a      aaa",
+        "agggd a       aa",
+        "agggd a      oaa",
+        "agggd a      oaa",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "a          ppppa",
+        "a              a",
+        "a              a",
+        "a              a",
+        "a              a",
+        "a              a",
+        "a       k    aaa",
+        "a            aaa",
+        "a            a a",
+        "a     aaaaaaaa a",
+        "a     a      a a",
+        "a     a       aa",
+        "a     a       aa",
+        "a     a       aa",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaukaaaaaaa",
+        "aaaaaaauuaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaa a",
+        "aaaaaaaaaaaaaa a",
+        "aaaaaaaaaaaaaa a",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa"
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "bunker2_d",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:air"
+      },
+      {
+        "char": "a",
+        "block": "chisel:brownstone"
+      },
+      {
+        "char": "b",
+        "block": "chisel:technicalnew"
+      },
+      {
+        "char": "c",
+        "block": "minecraft:gravel"
+      },
+      {
+        "char": "d",
+        "block": "chisel:factory@6"
+      },
+      {
+        "char": "e",
+        "block": "minecraft:orange_glazed_terracotta"
+      },
+      {
+        "char": "f",
+        "block": "minecraft:mob_spawner", "mob": "famobs"
+      },
+      {
+        "char": "g",
+        "block": "minecraft:white_glazed_terracotta"
+      },
+      {
+        "char": "h",
+        "block": "chisel:technicalnew@2"
+      },
+      {
+        "char": "i",
+        "block": "minecraft:double_stone_slab"
+      },
+      {
+        "char": "j",
+        "block": "chisel:technical1"
+      },
+      {
+        "char": "k",
+        "block": "chisel:factory@9"
+      },
+      {
+        "char": "m",
+        "block": "chisel:technicalnew@3"
+      },
+      {
+        "char": "n",
+        "block": "minecraft:stone_slab"
+      },
+      {
+        "char": "o",
+        "block": "chisel:technicalnew@7"
+      },
+      {
+        "char": "p",
+        "blocks": [
+          {
+            "random": 10,
+            "block": "minecraft:chest@3", "loot": "chestloot"
+          },
+          {
+            "random": 10,
+            "block": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "char": "q",
+        "block": "chisel:brownstone@8"
+      },
+      {
+        "char": "r",
+        "block": "chisel:technical@6"
+      },
+      {
+        "char": "s",
+        "block": "chisel:technical@11"
+      },
+      {
+        "char": "t",
+        "block": "chisel:technicalnew@4"
+      }
+    ],
+    "meta": [
+      {
+        "key": "dontconnect",
+        "boolean": true
+      }
+    ],
+    "slices": [
+      [
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbccicccnjpkja",
+        "abbbccccccccccca",
+        "abbbccccccccccca",
+        "acccccckkcccccca",
+        "adddccckkcccccca",
+        "aeeedccccccccc a",
+        "aeeedhhhjcjcca a",
+        "aeeedhjhcjccca a",
+        "adddccccjccccaqa",
+        "afccccaaaaajaaqa",
+        "adddcca      aqa",
+        "agggdca      oqa",
+        "agggdcam   oooqa",
+        "agggdcamm ooooqa",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbcciccc cjjja",
+        "abbscccccccc   a",
+        "abrbcccccccc   a",
+        "a   ccckkccc   a",
+        "adddccckcccc   a",
+        "aeeedccccc     a",
+        "aeeehhccc c  a a",
+        "aeeecccc c   a a",
+        "adddccc c    aca",
+        "acccccaaaac aaaa",
+        "addd  a      aaa",
+        "agggd a      oaa",
+        "agggd am   oooaa",
+        "agggd amm  oooaa",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbb  c    c kja",
+        "abbb           a",
+        "abbb           a",
+        "a      cc      a",
+        "addd   cc      a",
+        "aeeed          a",
+        "aeeecc       aaa",
+        "aeejccc      a a",
+        "addd         a a",
+        "ac    aaacjaaaca",
+        "addc  a      aaa",
+        "aggcc a       aa",
+        "agggd a      oaa",
+        "agggd a      oaa",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "accc        jjja",
+        "accc           a",
+        "accc           a",
+        "a              a",
+        "accc           a",
+        "acccc          a",
+        "accc         aaa",
+        "accc         aaa",
+        "accc         a a",
+        "a     aaaj aaa a",
+        "acc   a      a a",
+        "acc   a       aa",
+        "acccc a       aa",
+        "acccc a       aa",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaa aaaaaaa",
+        "aaaaaa     aaaaa",
+        "aaaaaaa  aaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaat aaaaaaa",
+        "aaaaaaattaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaa a",
+        "aaaaaaaaaaaaaa a",
+        "aaaaaaaaaaaaaa a",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa"
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "bunker2_top",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:air"
+      },
+      {
+        "char": "b",
+        "block": "chisel:brownstone"
+      },
+      {
+        "char": "c",
+        "block": "chisel:technical@15"
+      },
+      {
+        "char": "d",
+        "block": "minecraft:iron_door@3"
+      },
+      {
+        "char": "e",
+        "block": "minecraft:iron_door@8"
+      }
+    ],
+    "meta": [
+      {
+        "key": "dontconnect",
+        "boolean": true
+      }
+    ],
+    "slices": [
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "      bbbb      ",
+        "      bccb      ",
+        "      bccb      ",
+        "      bbbb    b ",
+        "             bbb",
+        "             b b",
+        "             b b",
+        "             bdb",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "              b ",
+        "             bbb",
+        "             b b",
+        "             beb",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "              b ",
+        "             bbb",
+        "             bbb",
+        "                ",
+        "                "
+      ]
+    ]
   }
 ]

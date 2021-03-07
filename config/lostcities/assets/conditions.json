@@ -37,23 +37,43 @@
     "values": [
       {
         "factor": 4,
-        "value": "aqua_creepers:aqua_creeper"
+        "value": "aqua_creepers:aqua_creeper",
+        "range": "-100,0"
       },
       {
         "factor": 8,
-        "value": "primal:shark_hammerhead"
+        "value": "primal:shark_hammerhead",
+        "range": "-100,3"
       },
       {
         "factor": 4,
-        "value": "Elder_guardian"
+        "value": "Elder_guardian",
+        "range": "-100,0"
       },
       {
         "factor": 12,
-        "value": "Guardian"
+        "value": "Guardian",
+        "range": "-100,3"
       },
       {
         "factor": 8,
-        "value": "Squid"
+        "value": "Squid",
+        "range": "-100,3"
+      },
+      {
+        "factor": 10,
+        "value": "Zombie",
+        "range": "4,100"
+      },
+      {
+        "factor": 10,
+        "value": "Skeleton",
+        "range": "4,100"
+      },
+      {
+        "factor": 10,
+        "value": "Spider",
+        "range": "4,100"
       }
     ]
   },

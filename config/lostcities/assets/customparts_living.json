@@ -2625,6 +2625,7 @@
       ]
     ]
   },
+
   {
     "type": "part",
     "name": "b1_basement_d_east",
@@ -2638,14 +2639,6 @@
       {
         "char": "B",
         "block": "minecraft:stone_brick_stairs@1"
-      },
-      {
-        "char": "C",
-        "block": "minecraft:wooden_door@8"
-      },
-      {
-        "char": "D",
-        "block": "minecraft:wooden_door@9"
       },
       {
         "char": "E",
@@ -2748,10 +2741,6 @@
         "block": "minecraft:stone_stairs"
       },
       {
-        "char": "y",
-        "block": "minecraft:wooden_door"
-      },
-      {
         "char": "z",
         "block": "minecraft:stonebrick@2"
       }
@@ -2789,8 +2778,8 @@
         " b  d  e    e b ",
         " b d qqnndeg  b ",
         "ib   q  u q   bi",
-        "ebogfq rr q   y ",
-        "mbdod  rr f   y ",
+        "ebogfq rr q     ",
+        "mbdod  rr f     ",
         "ibo  d sv   s bi",
         " bf pepqjw g eb ",
         " b   p     jxjb ",
@@ -2807,8 +2796,8 @@
         " j            j ",
         " b            b ",
         "bb   p        bb",
-        "db  ptpAA     C ",
-        "zb   p  n t   D ",
+        "db  ptpAA       ",
+        "zb   p  n t     ",
         "bb     g      bb",
         " d   p     B  f ",
         " j              ",
@@ -2936,10 +2925,6 @@
         "block": "minecraft:double_stone_slab"
       },
       {
-        "char": "o",
-        "block": "minecraft:wooden_door@3"
-      },
-      {
         "char": "p",
         "block": "chisel:cobblestone1"
       },
@@ -2960,16 +2945,8 @@
         "block": "minecraft:stone_brick_stairs@3"
       },
       {
-        "char": "u",
-        "block": "minecraft:wooden_door@8"
-      },
-      {
         "char": "v",
         "block": "chisel:cobblestone2@3"
-      },
-      {
-        "char": "w",
-        "block": "minecraft:wooden_door@9"
       },
       {
         "char": "x",
@@ -3010,7 +2987,7 @@
         "aaaaaaaaaaaaaaaa"
       ],
       [
-        "lg    goog    gl",
+        "lg    g  g    gl",
         "gbbjbbb  bbbbbbg",
         " b  h   qc    b ",
         " b        cc  b ",
@@ -3028,7 +3005,7 @@
         "lg    gllg    gh"
       ],
       [
-        "lb    buwb    bx",
+        "lb    b  b    bx",
         "bbbi hb  bhiibbb",
         " b            b ",
         " i            i ",
@@ -3176,10 +3153,6 @@
         "block": "chisel:cobblestone1"
       },
       {
-        "char": "q",
-        "block": "minecraft:wooden_door@1"
-      },
-      {
         "char": "r",
         "block": "minecraft:sea_lantern"
       },
@@ -3198,14 +3171,6 @@
       {
         "char": "v",
         "block": "chisel:brownstone@8"
-      },
-      {
-        "char": "w",
-        "block": "minecraft:wooden_door@9"
-      },
-      {
-        "char": "x",
-        "block": "minecraft:wooden_door@8"
       },
       {
         "char": "y",
@@ -3256,7 +3221,7 @@
         " c    d  drbb b ",
         " b j   n  lt db ",
         " b    nn      b ",
-        "ibbbbbbqqbbbbbbi",
+        "ibbbbbb  bbbbbbi",
         "ji    i  i    id"
       ],
       [
@@ -3274,7 +3239,7 @@
         " f      n  yy f ",
         " f            f ",
         " c     n      c ",
-        "bbbffcvwxvbffbbb",
+        "bbbffcv  vbffbbb",
         "cb    b  b    bj"
       ],
       [
@@ -3384,10 +3349,6 @@
         "block": "minecraft:stonebrick@1"
       },
       {
-        "char": "l",
-        "block": "minecraft:wooden_door@6"
-      },
-      {
         "char": "m",
         "block": "minecraft:prismarine"
       },
@@ -3414,14 +3375,6 @@
       {
         "char": "s",
         "block": "minecraft:stone_brick_stairs@3"
-      },
-      {
-        "char": "t",
-        "block": "minecraft:wooden_door@9"
-      },
-      {
-        "char": "u",
-        "block": "minecraft:wooden_door@8"
       },
       {
         "char": "v",
@@ -3477,8 +3430,8 @@
         "cbcf k  p     f ",
         " bcfc  pnnk   b ",
         "hbc     p p   bh",
-        " lc  n qqpjp  bo",
-        " l   c qk n   bj",
+        "  c  n qqpjp  bo",
+        "     c qk n   bj",
         "hbc mc    n   bh",
         " b   k  pkn   b ",
         " bm c  pmpcbbcb ",
@@ -3495,8 +3448,8 @@
         " mvc          i ",
         " bf     p     b ",
         "bb            rb",
-        " t     ww p   bk",
-        " u     jc     bo",
+        "       ww p   bk",
+        "       jc     bo",
         "bb   e    z   bb",
         " b       ymbb b ",
         " i      p  sc i ",
@@ -3608,20 +3561,8 @@
         "block": "minecraft:stone_brick_stairs@3"
       },
       {
-        "char": "k",
-        "block": "minecraft:wooden_door"
-      },
-      {
         "char": "l",
         "block": "chisel:cobblestone2@3"
-      },
-      {
-        "char": "m",
-        "block": "minecraft:wooden_door@8"
-      },
-      {
-        "char": "n",
-        "block": "minecraft:wooden_door@9"
       }
     ],
     "meta": [
@@ -3657,8 +3598,8 @@
         " b            b ",
         " b   hhhhhh   b ",
         "eb   h    h   be",
-        "gb   h ii h   k ",
-        "gb   h ii h   k ",
+        "gb   h ii h     ",
+        "gb   h ii h     ",
         "eb   h    h   be",
         " b   h    h   b ",
         " b         bb b ",
@@ -3675,8 +3616,8 @@
         " f            f ",
         " b            b ",
         "bb            bb",
-        "gb     ll     m ",
-        "gb     ll     n ",
+        "gb     ll       ",
+        "gb     ll       ",
         "bb            bb",
         " b         bb b ",
         " f         jj f ",
@@ -3780,10 +3721,6 @@
         "block": "minecraft:double_stone_slab"
       },
       {
-        "char": "i",
-        "block": "minecraft:wooden_door@3"
-      },
-      {
         "char": "j",
         "block": "chisel:cobblestone1"
       },
@@ -3792,16 +3729,8 @@
         "block": "minecraft:stone_brick_stairs@3"
       },
       {
-        "char": "l",
-        "block": "minecraft:wooden_door@8"
-      },
-      {
         "char": "m",
         "block": "chisel:cobblestone2@3"
-      },
-      {
-        "char": "n",
-        "block": "minecraft:wooden_door@9"
       }
     ],
     "meta": [
@@ -3831,7 +3760,7 @@
       ],
       [
         "ge    e  e    eg",
-        "ebbbbbbiibbbbbbe",
+        "ebbbbbb  bbbbbbe",
         " b            b ",
         " b            b ",
         " b            b ",
@@ -3849,7 +3778,7 @@
       ],
       [
         "gb    b  b    bg",
-        "bbbffbblnbbffbbb",
+        "bbbffbb  bbffbbb",
         " b            b ",
         " f            f ",
         " f            f ",
@@ -3964,24 +3893,12 @@
         "block": "chisel:cobblestone1"
       },
       {
-        "char": "j",
-        "block": "minecraft:wooden_door@1"
-      },
-      {
         "char": "k",
         "block": "minecraft:stone_brick_stairs@3"
       },
       {
         "char": "l",
         "block": "chisel:cobblestone2@3"
-      },
-      {
-        "char": "m",
-        "block": "minecraft:wooden_door@9"
-      },
-      {
-        "char": "n",
-        "block": "minecraft:wooden_door@8"
       }
     ],
     "meta": [
@@ -4024,7 +3941,7 @@
         " b         bb b ",
         " b         kk b ",
         " b            b ",
-        "ebbbbbbjjbbbbbbe",
+        "ebbbbbb  bbbbbbe",
         "ge    e  e    eg"
       ],
       [
@@ -4042,7 +3959,7 @@
         " f         kk f ",
         " f            f ",
         " b            b ",
-        "bbbffbbmnbbffbbb",
+        "bbbffbb  bbffbbb",
         "gb    b  b    bg"
       ],
       [
@@ -4136,10 +4053,6 @@
         "block": "chisel:andesite1@8"
       },
       {
-        "char": "h",
-        "block": "minecraft:wooden_door@2"
-      },
-      {
         "char": "i",
         "block": "minecraft:double_stone_slab"
       },
@@ -4150,14 +4063,6 @@
       {
         "char": "k",
         "block": "minecraft:stone_brick_stairs@3"
-      },
-      {
-        "char": "l",
-        "block": "minecraft:wooden_door@9"
-      },
-      {
-        "char": "m",
-        "block": "minecraft:wooden_door@8"
       },
       {
         "char": "n",
@@ -4197,8 +4102,8 @@
         " b            b ",
         " b   iiiiii   b ",
         "eb   i    i   be",
-        " h   i jj i   bg",
-        " h   i jj i   bg",
+        "     i jj i   bg",
+        "     i jj i   bg",
         "eb   i    i   be",
         " b   i    i   b ",
         " b         bb b ",
@@ -4215,8 +4120,8 @@
         " f            f ",
         " b            b ",
         "bb            bb",
-        " l     nn     bg",
-        " m     nn     bg",
+        "       nn     bg",
+        "       nn     bg",
         "bb            bb",
         " b         bb b ",
         " f         kk f ",
@@ -11196,18 +11101,6 @@
         "block": "minecraft:stone_brick_stairs@3"
       },
       {
-        "char": "G",
-        "block": "minecraft:wooden_door"
-      },
-      {
-        "char": "H",
-        "block": "minecraft:wooden_door@8"
-      },
-      {
-        "char": "I",
-        "block": "minecraft:wooden_door@9"
-      },
-      {
         "char": " ",
         "block": "minecraft:air"
       },
@@ -11345,8 +11238,8 @@
         " d smsf  mCDBud ",
         " dsvs  fmp f vd ",
         "cpnspfkccnnpmmpa",
-        "n s n yf  y    G",
-        "o    k A kB    G",
+        "n s n yf  y     ",
+        "o    k A kB     ",
         "aptpnfl   fBB  a",
         " c wxw yc    Bc ",
         " d hmk  kyBEn d ",
@@ -11363,8 +11256,8 @@
         " y  s  s      y ",
         " c    sms     d ",
         "a s    sl      a",
-        "o      y       H",
-        "f    s    y    I",
+        "o      y        ",
+        "f    s    y     ",
         "a   sfs     B  c",
         " d   s  l  mm d ",
         " y  f      F  y ",
@@ -11458,14 +11351,6 @@
       {
         "char": "F",
         "block": "minecraft:stone_stairs@1"
-      },
-      {
-        "char": "G",
-        "block": "minecraft:wooden_door@8"
-      },
-      {
-        "char": "H",
-        "block": "minecraft:wooden_door@9"
       },
       {
         "char": "I",
@@ -11572,10 +11457,6 @@
         "block": "minecraft:stone_slab@8"
       },
       {
-        "char": "x",
-        "block": "minecraft:wooden_door@3"
-      },
-      {
         "char": "y",
         "block": "minecraft:double_stone_slab"
       },
@@ -11610,7 +11491,7 @@
         "abbbbbbbbbbbbbba"
       ],
       [
-        "ia    axxa    aj",
+        "ia    a  a    aj",
         "adddddl  lddddda",
         " cmm rw  joo mc ",
         " dn ril   zoCmd ",
@@ -11628,7 +11509,7 @@
         "ia    ayya    aj"
       ],
       [
-        "ya    aGHa    ay",
+        "ya    a  a    ay",
         "cddkkd   kdkkdda",
         " do       C   d ",
         " k   r     I  k ",
@@ -11722,14 +11603,6 @@
       {
         "char": "D",
         "block": "minecraft:leaves@15"
-      },
-      {
-        "char": "E",
-        "block": "minecraft:wooden_door@9"
-      },
-      {
-        "char": "F",
-        "block": "minecraft:wooden_door@8"
       },
       {
         "char": "G",
@@ -11832,10 +11705,6 @@
         "block": "minecraft:double_stone_slab@3"
       },
       {
-        "char": "v",
-        "block": "minecraft:wooden_door@1"
-      },
-      {
         "char": "w",
         "block": "minecraft:prismarine"
       },
@@ -11893,7 +11762,7 @@
         " cs        zA c ",
         " c j          c ",
         "acgccc    gcccca",
-        "ma    avva    ah"
+        "ma    a  a    ah"
       ],
       [
         "ha    akka    a ",
@@ -11911,7 +11780,7 @@
         " C            C ",
         " c            g ",
         "accCCc    cCCgcc",
-        "la    aEFg    am"
+        "la    a  g    am"
       ],
       [
         "fa    akka    al",
@@ -12000,14 +11869,6 @@
         "block": "minecraft:stone_brick_stairs@3"
       },
       {
-        "char": "G",
-        "block": "minecraft:wooden_door@9"
-      },
-      {
-        "char": "H",
-        "block": "minecraft:wooden_door@8"
-      },
-      {
         "char": "I",
         "block": "minecraft:cobblestone"
       },
@@ -12058,10 +11919,6 @@
       {
         "char": "k",
         "block": "minecraft:stonebrick@2"
-      },
-      {
-        "char": "l",
-        "block": "minecraft:wooden_door@2"
       },
       {
         "char": "m",
@@ -12153,8 +12010,8 @@
         " d  kj q mBqr c ",
         " d t     kqjB d ",
         "am u  g  qjq kma",
-        "lnk    z  qg   n",
-        "l n   g zgrDkn  ",
+        " nk    z  qg   n",
+        "  n   g zgrDkn  ",
         "an    j  ACrr  c",
         " c vh     zAnrc ",
         " dqjhw    rkEtd ",
@@ -12171,8 +12028,8 @@
         " z    q       z ",
         " d         q  d ",
         "c         q    c",
-        "G               ",
-        "H          J   k",
+        "                ",
+        "           J   k",
         "a         zgr  a",
         " d          n d ",
         " z vIq     p  z ",
@@ -12304,20 +12161,8 @@
         "block": "chisel:cobblestone2@7"
       },
       {
-        "char": "p",
-        "block": "minecraft:wooden_door"
-      },
-      {
         "char": "q",
         "block": "chisel:glass@12"
-      },
-      {
-        "char": "r",
-        "block": "minecraft:wooden_door@8"
-      },
-      {
-        "char": "s",
-        "block": "minecraft:wooden_door@9"
       }
     ],
     "meta": [
@@ -12353,8 +12198,8 @@
         " c    i  if n c ",
         " c m  i  i  m c ",
         "ailiiii  iiiilia",
-        "g              p",
-        "g         n    p",
+        "g               ",
+        "g         n     ",
         "a          nn  a",
         " h ggg       nh ",
         " c ggg    noo c ",
@@ -12371,8 +12216,8 @@
         " q            q ",
         " c            c ",
         "a              a",
-        "g              r",
-        "g              s",
+        "g               ",
+        "g               ",
         "a           n  a",
         " c         oo c ",
         " q  g      mm q ",
@@ -12496,10 +12341,6 @@
         "block": "minecraft:stone_brick_stairs@3"
       },
       {
-        "char": "n",
-        "block": "minecraft:wooden_door@3"
-      },
-      {
         "char": "o",
         "block": "chisel:factory@9"
       },
@@ -12510,14 +12351,6 @@
       {
         "char": "q",
         "block": "chisel:glass@12"
-      },
-      {
-        "char": "r",
-        "block": "minecraft:wooden_door@8"
-      },
-      {
-        "char": "s",
-        "block": "minecraft:wooden_door@9"
       }
     ],
     "meta": [
@@ -12546,7 +12379,7 @@
         "abbbbbbbbbbbbbba"
       ],
       [
-        "ga    anna    ag",
+        "ga    a  a    ag",
         "accccci  iccccca",
         " hjj  l  loo jh ",
         " ck   i  i o jc ",
@@ -12564,7 +12397,7 @@
         "ga    agga    ag"
       ],
       [
-        "ga    arsa    ag",
+        "ga    a  a    ag",
         "accqqc    cqqcca",
         " co           c ",
         " q         o  q ",
@@ -12696,10 +12529,6 @@
         "block": "minecraft:stone_brick_stairs@3"
       },
       {
-        "char": "n",
-        "block": "minecraft:wooden_door@1"
-      },
-      {
         "char": "o",
         "block": "chisel:factory@9"
       },
@@ -12710,14 +12539,6 @@
       {
         "char": "q",
         "block": "chisel:glass@12"
-      },
-      {
-        "char": "r",
-        "block": "minecraft:wooden_door@9"
-      },
-      {
-        "char": "s",
-        "block": "minecraft:wooden_door@8"
       }
     ],
     "meta": [
@@ -12761,7 +12582,7 @@
         " c         mm c ",
         " c            c ",
         "accccc    hcccca",
-        "ga    anna    ag"
+        "ga    a  a    ag"
       ],
       [
         "ga    agga    ag",
@@ -12779,7 +12600,7 @@
         " q            q ",
         " c            c ",
         "accqqc    cqqcca",
-        "ga    arsa    ag"
+        "ga    a  a    ag"
       ],
       [
         "ga    agga    ag",
@@ -12872,10 +12693,6 @@
         "block": "minecraft:double_stone_slab"
       },
       {
-        "char": "h",
-        "block": "minecraft:wooden_door@2"
-      },
-      {
         "char": "i",
         "block": "chisel:brownstone@8"
       },
@@ -12906,14 +12723,6 @@
       {
         "char": "p",
         "block": "chisel:cobblestone2@7"
-      },
-      {
-        "char": "q",
-        "block": "minecraft:wooden_door@9"
-      },
-      {
-        "char": "r",
-        "block": "minecraft:wooden_door@8"
       },
       {
         "char": "s",
@@ -12953,8 +12762,8 @@
         " c    j  jf o c ",
         " c n  j  j  n c ",
         "ajmjjjj  jjjjmja",
-        "h              g",
-        "h         o    g",
+        "               g",
+        "          o    g",
         "a          oo  a",
         " i ggg       oi ",
         " c ggg    opp c ",
@@ -12971,8 +12780,8 @@
         " s            s ",
         " c            c ",
         "a              a",
-        "q              g",
-        "r              g",
+        "               g",
+        "               g",
         "a           o  a",
         " c         pp c ",
         " s  g      nn s ",
@@ -16449,6 +16258,7 @@
       ]
     ]
   },
+
   {
     "type": "part",
     "name": "b2_o5",
@@ -16456,52 +16266,120 @@
     "zsize": 16,
     "palette": [
       {
+        "char": "A",
+        "block": "chisel:glass@12"
+      },
+      {
+        "char": "B",
+        "block": "chisel:technical@15"
+      },
+      {
+        "char": "C",
+        "block": "chisel:technical@6"
+      },
+      {
         "char": " ",
         "block": "minecraft:air"
       },
       {
         "char": "a",
-        "block": "chisel:factory@1"
+        "block": "chisel:brownstone@3"
       },
       {
         "char": "b",
-        "block": "minecraft:brick_block"
+        "block": "chisel:brownstone@2"
       },
       {
         "char": "c",
-        "block": "minecraft:stone_brick_stairs@3"
+        "block": "chisel:brownstone"
+      },
+      {
+        "char": "d",
+        "block": "chisel:brownstone@1"
       },
       {
         "char": "e",
-        "block": "chisel:andesite1@8"
-      },
-      {
-        "char": "f",
         "block": "chisel:technicalnew@2"
       },
       {
-        "char": "g",
-        "block": "chisel:technical"
+        "char": "f",
+        "block": "minecraft:stone_brick_stairs@3"
       },
       {
         "char": "h",
-        "block": "chisel:glass@12"
+        "block": "minecraft:double_stone_slab"
       },
       {
         "char": "i",
-        "block": "chisel:factory@9"
+        "block": "chisel:brownstone@8"
       },
       {
         "char": "j",
-        "block": "minecraft:chest", "loot": "chestloot"
+        "block": "minecraft:mob_spawner", "mob": "famobs"
       },
       {
         "char": "k",
-        "block": "minecraft:chest", "loot": "chestloot"
+        "block": "minecraft:chest@2", "loot": "chestloot"
       },
       {
         "char": "l",
-        "block": "chisel:technical@6"
+        "block": "chisel:factory@14"
+      },
+      {
+        "char": "m",
+        "block": "chisel:technicalnew"
+      },
+      {
+        "char": "n",
+        "block": "chisel:factory@10"
+      },
+      {
+        "char": "o",
+        "block": "minecraft:cobblestone"
+      },
+      {
+        "char": "p",
+        "block": "chisel:cobblestone2@3"
+      },
+      {
+        "char": "q",
+        "block": "chisel:glass@15"
+      },
+      {
+        "char": "r",
+        "block": "minecraft:stone_stairs@3"
+      },
+      {
+        "char": "s",
+        "block": "minecraft:stonebrick@1"
+      },
+      {
+        "char": "t",
+        "block": "minecraft:stone_stairs@1"
+      },
+      {
+        "char": "u",
+        "block": "chisel:factory@15"
+      },
+      {
+        "char": "v",
+        "block": "chisel:cobblestone1"
+      },
+      {
+        "char": "w",
+        "block": "minecraft:stonebrick@2"
+      },
+      {
+        "char": "x",
+        "block": "minecraft:stone_stairs@2"
+      },
+      {
+        "char": "y",
+        "block": "minecraft:stone_stairs"
+      },
+      {
+        "char": "z",
+        "block": "chisel:cobblestone2@7"
       }
     ],
     "meta": [
@@ -16512,112 +16390,112 @@
     ],
     "slices": [
       [
-        "aaaaaaaaaaaaaaaa",
         "abbbbbbbbbbbbbba",
-        "abbbbbbbbbbbbbba",
-        "abbbbbbbbbbbbbba",
-        "abbbbbbbbbbbbbba",
-        "abbbbbbbbbbbbbba",
-        "abbbbbbbbbbbbbba",
-        "abbbbbbbbbbccbba",
-        "abbbbbbbbbb  bba",
-        "abbbbbbbbbb  bba",
-        "abbbbbbbbbb  bba",
-        "abbbbbbbbbb  bba",
-        "abbbbbbbbbbbbbba",
-        "abbbbbbbbbbbbbba",
-        "abbbbbbbbbbbbbba",
-        "aaaaaaaaaaaaaaaa"
+        "bccccccccccccccb",
+        "bcddddddddddddcb",
+        "bcdccccccccccdcb",
+        "bcdccccccccccdcb",
+        "bcdecccccccccdcb",
+        "bcdcccccccddddcb",
+        "bcdcccccccdffdcb",
+        "bcdcccccccd  dcb",
+        "bcdcccccccd  dcb",
+        "bcdeccccccd  dcb",
+        "bcdcccccccd  dcb",
+        "bcdcccccccdccdcb",
+        "bcddddddddddddcb",
+        "bccccccccccccccb",
+        "abbbbbbbbbbbbbba"
       ],
       [
-        "ef    feef    fe",
-        "fbbbbbbbbbbbbbbf",
-        " b       lllllb ",
-        " b ghhhg   lllb ",
-        " b hiiih     lb ",
-        " b hijih      b ",
-        "fb ghhhg      bf",
-        "eb            be",
-        "eb            be",
-        "fb ghhhg      bf",
-        " b hikih      b ",
-        " b hiiih   bb b ",
-        " b ghhhg   cc b ",
-        " b            b ",
-        "fbbbbbbbbbbbbbbf",
-        "ef    feef    fe"
+        "ha    ahha    ah",
+        "accccc cc ccccca",
+        " il    rr uupoi ",
+        " cl         opc ",
+        " c   t      ppc ",
+        " c e   vsy  opc ",
+        "ajmem tow      a",
+        "h nq    x    ych",
+        "h nq         ych",
+        "akmem          a",
+        " i e   op u   i ",
+        " c  r  pp uzz c ",
+        " copso wo  ff c ",
+        " cpopp so     c ",
+        "acccccucc icccca",
+        "ha    ahha    ah"
       ],
       [
-        "eb    beeb    be",
-        "bbbhhbbbbbbhhbbb",
-        " b        l llb ",
-        " h ghhhg     lh ",
-        " h hiiih      h ",
-        " b hiiih      b ",
-        "bb ghhhg      bb",
-        "eb            be",
-        "eb            be",
-        "bb ghhhg      bb",
-        " b hiiih   bb b ",
-        " h hiiih   cc h ",
-        " h ghhhg      h ",
-        " b            b ",
-        "bbbhhbbbbbbhhbbb",
-        "eb    beeb    be"
+        "ha    ahha    ah",
+        "accAAc cc cAAcca",
+        " cl       uuvvc ",
+        " Al             ",
+        " A            A ",
+        " c            c ",
+        "aBBB           a",
+        "h   B         ch",
+        "h   B         ch",
+        "aBBB           a",
+        " c        uzz c ",
+        " A        uff A ",
+        " Av           A ",
+        " cv    vv     c ",
+        "acc Acucc cAAcca",
+        "ha    ahha    ah"
       ],
       [
-        "eb    beeb    be",
-        "bbbhhbbbbbbhhbbb",
-        " b           lb ",
-        " h ghhhg      h ",
-        " h hiiih      h ",
-        " b hiiih      b ",
-        "bb ghhhg      bb",
-        "eb            be",
-        "eb            be",
-        "bb ghhhg   bb bb",
-        " b hiiih   cc b ",
-        " h hiiih      h ",
-        " h ghhhg      h ",
-        " b            b ",
-        "bbbhhbbbbbbhhbbb",
-        "eb    beeb    be"
+        "ha    ahha    ah",
+        "accAAc cc cAAcca",
+        " cl           c ",
+        " Al           A ",
+        " A            A ",
+        " ce           c ",
+        "aBeB           a",
+        "h   B         ch",
+        "h   B         ch",
+        "aBeB       zz  a",
+        " ce        ff c ",
+        " A            A ",
+        " A            A ",
+        " c            c ",
+        "accAAc cc cAAcca",
+        "ha    ahha    ah"
       ],
       [
-        "ef    feef    fe",
-        "fbbbbbbbbbbbbbbf",
-        " b            b ",
-        " b            b ",
-        " b            b ",
-        " b            b ",
-        "fb            bf",
-        "eb            be",
-        "eb         bb be",
-        "fb         cc bf",
-        " b            b ",
-        " b            b ",
-        " b            b ",
-        " b            b ",
-        "fbbbbbbbbbbbbbbf",
-        "ef    feef    fe"
+        "ha    ahha    ah",
+        "acccccCccCccccca",
+        " c            c ",
+        " c            c ",
+        " c            c ",
+        " ce           c ",
+        "aBBB           a",
+        "h   B         ch",
+        "h   B      zz ch",
+        "aBBB       ff  a",
+        " ce           c ",
+        " c            c ",
+        " c            c ",
+        " c            c ",
+        "accccc cc ccccca",
+        "ha    ahha    ah"
       ],
       [
-        "aaaaaaaaaaaaaaaa",
         "abbbbbbbbbbbbbba",
-        "ab            ba",
-        "ab            ba",
-        "ab            ba",
-        "ab            ba",
-        "ab            ba",
-        "ab         bb ba",
-        "ab         cc ba",
-        "ab            ba",
-        "ab            ba",
-        "ab            ba",
-        "ab            ba",
-        "ab            ba",
-        "abbbbbbbbbbbbbba",
-        "aaaaaaaaaaaaaaaa"
+        "bccccc cc cccccb",
+        "bc            cb",
+        "bc            cb",
+        "bc            cb",
+        "bce           cb",
+        "b              b",
+        "bBBB       zz cb",
+        "bBBB       ff cb",
+        "b              b",
+        "bce           cb",
+        "bc            cb",
+        "bc            cb",
+        "bc            cb",
+        "bcccccCccCcccccb",
+        "abbbbbbbbbbbbbba"
       ]
     ]
   },
@@ -16633,59 +16511,79 @@
       },
       {
         "char": "a",
-        "block": "chisel:factory@1"
-      },
-      {
-        "char": "b",
-        "block": "minecraft:brick_block"
-      },
-      {
-        "char": "c",
-        "block": "chisel:factory@4"
-      },
-      {
-        "char": "d",
-        "block": "minecraft:stone_brick_stairs@3"
-      },
-      {
-        "char": "f",
-        "block": "chisel:andesite1@8"
-      },
-      {
-        "char": "g",
-        "block": "chisel:technicalnew@2"
-      },
-      {
-        "char": "h",
         "block": "chisel:brownstone@3"
       },
       {
+        "char": "b",
+        "block": "chisel:brownstone@2"
+      },
+      {
+        "char": "c",
+        "block": "chisel:brownstone"
+      },
+      {
+        "char": "d",
+        "block": "chisel:brownstone@1"
+      },
+      {
+        "char": "e",
+        "block": "minecraft:stone_brick_stairs@3"
+      },
+      {
+        "char": "g",
+        "block": "chisel:cobblestone2@7"
+      },
+      {
+        "char": "h",
+        "block": "minecraft:double_stone_slab"
+      },
+      {
         "char": "i",
-        "block": "minecraft:stone_slab@13"
+        "block": "chisel:brownstone@8"
       },
       {
         "char": "j",
-        "block": "chisel:factory@15"
+        "block": "minecraft:stone_brick_stairs@1"
       },
       {
         "char": "k",
-        "block": "chisel:technical@8"
+        "block": "chisel:factory@9"
       },
       {
         "char": "l",
-        "block": "chisel:glass@12"
+        "block": "chisel:cobblestone2@8"
       },
       {
         "char": "m",
-        "block": "minecraft:stone_slab@8"
+        "block": "minecraft:stone_brick_stairs@2"
       },
       {
         "char": "n",
-        "block": "minecraft:chest", "loot": "chestloot"
+        "block": "chisel:cobblestone2@9"
       },
       {
         "char": "o",
-        "block": "minecraft:chest", "loot": "chestloot"
+        "block": "minecraft:stone_brick_stairs"
+      },
+      {
+        "char": "p",
+        "block": "chisel:glass@12"
+      },
+      {
+        "char": "q",
+        "block": "minecraft:chest@2", "loot": "chestloot"
+      },
+      {
+        "char": "r",
+        "block": "minecraft:stone_slab@8"
+      },
+      {
+        "char": "s",
+        "block": "chisel:planks-oak@12"
+      },
+      {
+        "char": "t",
+        "block": "minecraft:mob_spawner", "mob": "famobs"
       }
     ],
     "meta": [
@@ -16696,112 +16594,112 @@
     ],
     "slices": [
       [
-        "aaaaaaaaaaaaaaaa",
         "abbbbbbbbbbbbbba",
-        "abbbbbbbcbbcbbba",
-        "abbbbbbbccccbbba",
-        "abbbbbbbbbbbbbba",
-        "abbbbbbbbbbbbbba",
-        "abbbbbbbbbbbbbba",
-        "abbbbbbbbbbddbba",
-        "abbbbbbbbbb  bba",
-        "abbbbbbbbbb  bba",
-        "abbbbbbbbbb  bba",
-        "abbbbbbbbbb  bba",
-        "abbbbbbbbbbbbbba",
-        "abbbbbbbbbbbbbba",
-        "abbbbbbbbbbbbbba",
-        "aaaaaaaaaaaaaaaa"
+        "bccccccccccccccb",
+        "bcddddddddddddcb",
+        "bcdccccccccccdcb",
+        "bcdccccccccccdcb",
+        "bcdccccccccccdcb",
+        "bcdcccccccddddcb",
+        "bcdcccccccdeedcb",
+        "bcdcccccccd  dcb",
+        "bcdcccccccd  dcb",
+        "bcdcccccccd  dcb",
+        "bcdcccccccd  dcb",
+        "bcdcccccccdggdcb",
+        "bcddddddddddddcb",
+        "bccccccccccccccb",
+        "abbbbbbbbbbbbbba"
       ],
       [
-        "fg    gffg    gf",
-        "gbbbbbbbbbbbbbbg",
-        " bhiiiih jj  kb ",
-        " bijj  i      b ",
-        " bi    i      b ",
-        " bi    i      b ",
-        "gbh hiih      bg",
-        "fbi           bf",
-        "fbi           bf",
-        "gbh hiih      bg",
-        " bi    i      b ",
-        " bi    i   bb b ",
-        " bijj  i   dd b ",
-        " bhiiiih      b ",
-        "gbbbbbbbbbbbbbbg",
-        "fg    gffg    gf"
+        "ha    ahha    ah",
+        "accccc cc ccccca",
+        " i            i ",
+        " c e  e       c ",
+        " c gglggo     c ",
+        " c glnlg      c ",
+        "a jgglgg       a",
+        "hc ggngg      ch",
+        "hc gglggo     ch",
+        "a  glnlg       a",
+        " i gglgg      i ",
+        " c  m m    gg c ",
+        " c         ee c ",
+        " ckk          c ",
+        "accccc cc icccca",
+        "ha    ahha    ah"
       ],
       [
-        "fb    bffb    bf",
-        "bbbllbbbbbbllbbb",
-        " b       jj   b ",
-        " l            l ",
-        " l            l ",
-        " b            b ",
-        "bb            bb",
-        "fb            bf",
-        "fb            bf",
-        "bb            bb",
-        " b         bb b ",
-        " l         dd l ",
-        " l            l ",
-        " b            b ",
-        "bbbllbbbbbbllbbb",
-        "fb    bffb    bf"
+        "ha    ahha    ah",
+        "accppc cc cppcca",
+        " c            c ",
+        " p            p ",
+        " p            p ",
+        " c            c ",
+        "a              a",
+        "hc            ch",
+        "hc            ch",
+        "a              a",
+        " c         gg c ",
+        " p         ee p ",
+        " p            p ",
+        " ck           c ",
+        "accppc cc cppcca",
+        "ha    ahha    ah"
       ],
       [
-        "fb    bffb    bf",
-        "bbbllbbbbbbllbbb",
-        " b mmmm       b ",
-        " l            l ",
-        " l            l ",
-        " b            b ",
-        "bbm           bb",
-        "fbm           bf",
-        "fbm           bf",
-        "bbm        bb bb",
-        " b         dd b ",
-        " l            l ",
-        " l            l ",
-        " b    mmm     b ",
-        "bbbllbbbbbbllbbb",
-        "fb    bffb    bf"
+        "ha    ahha    ah",
+        "accppc cc cppcca",
+        " c        rrrrc ",
+        " p            p ",
+        " p            p ",
+        " c            c ",
+        "a              a",
+        "hc            ch",
+        "hc            ch",
+        "a          gg  a",
+        " c         ee c ",
+        " p            p ",
+        " p            p ",
+        " cq rr rr     c ",
+        "accppc cc cppcca",
+        "ha    ahha    ah"
       ],
       [
-        "fg    gffg    gf",
-        "gbbbbbbbbbbbbbbg",
-        " b   n        b ",
-        " b            b ",
-        " b            b ",
-        " b            b ",
-        "gb            bg",
-        "fb            bf",
-        "fb         bb bf",
-        "gb         dd bg",
-        " b            b ",
-        " b            b ",
-        " b            b ",
-        " b     o      b ",
-        "gbbbbbbbbbbbbbbg",
-        "fg    gffg    gf"
+        "ha    ahha    ah",
+        "accccc cc ccccca",
+        " c        stssc ",
+        " c            c ",
+        " c            c ",
+        " c            c ",
+        "a              a",
+        "hc            ch",
+        "hc         gg ch",
+        "a          ee  a",
+        " c            c ",
+        " c            c ",
+        " c            c ",
+        " c  ss ss     c ",
+        "accccc cc ccccca",
+        "ha    ahha    ah"
       ],
       [
-        "aaaaaaaaaaaaaaaa",
         "abbbbbbbbbbbbbba",
-        "ab            ba",
-        "ab            ba",
-        "ab            ba",
-        "ab            ba",
-        "ab            ba",
-        "ab         bb ba",
-        "ab         dd ba",
-        "ab            ba",
-        "ab            ba",
-        "ab            ba",
-        "ab            ba",
-        "ab            ba",
-        "abbbbbbbbbbbbbba",
-        "aaaaaaaaaaaaaaaa"
+        "bccccc cc cccccb",
+        "bc            cb",
+        "bc            cb",
+        "bc            cb",
+        "bc            cb",
+        "b              b",
+        "bc         gg cb",
+        "bc         ee cb",
+        "b              b",
+        "bc            cb",
+        "bc            cb",
+        "bc            cb",
+        "bc            cb",
+        "bccccc cc cccccb",
+        "abbbbbbbbbbbbbba"
       ]
     ]
   },
@@ -16812,100 +16710,116 @@
     "zsize": 16,
     "palette": [
       {
+        "char": "A",
+        "block": "chisel:technical@12"
+      },
+      {
+        "char": "B",
+        "block": "minecraft:mob_spawner", "mob": "famobs"
+      },
+      {
         "char": " ",
         "block": "minecraft:air"
       },
       {
         "char": "a",
-        "block": "chisel:factory@1"
+        "block": "chisel:brownstone@3"
       },
       {
         "char": "b",
-        "block": "minecraft:brick_block"
+        "block": "chisel:brownstone@2"
       },
       {
         "char": "c",
-        "block": "chisel:technical@12"
+        "block": "chisel:brownstone"
       },
       {
         "char": "d",
-        "block": "chisel:glass@15"
+        "block": "chisel:brownstone@1"
       },
       {
         "char": "e",
-        "block": "chisel:technical@15"
-      },
-      {
-        "char": "f",
         "block": "minecraft:stone_brick_stairs@3"
       },
       {
+        "char": "g",
+        "block": "chisel:cobblestone2@7"
+      },
+      {
         "char": "h",
-        "block": "chisel:andesite1@8"
+        "block": "minecraft:double_stone_slab"
       },
       {
         "char": "i",
-        "block": "chisel:technicalnew@2"
+        "block": "chisel:brownstone@8"
       },
       {
         "char": "j",
-        "block": "chisel:technical1"
-      },
-      {
-        "char": "k",
-        "block": "chisel:technical@11"
-      },
-      {
-        "char": "l",
-        "block": "chisel:technicalnew@3"
-      },
-      {
-        "char": "m",
-        "block": "chisel:factory@15"
-      },
-      {
-        "char": "n",
         "block": "chisel:factory@9"
       },
       {
+        "char": "k",
+        "block": "minecraft:chest@5", "loot": "chestloot"
+      },
+      {
+        "char": "l",
+        "block": "minecraft:stone_stairs@1"
+      },
+      {
+        "char": "m",
+        "block": "chisel:cobblestone@6"
+      },
+      {
+        "char": "n",
+        "block": "minecraft:stone_stairs@2"
+      },
+      {
         "char": "o",
-        "block": "minecraft:mob_spawner", "mob": "famobs"
+        "block": "minecraft:stone_stairs"
       },
       {
         "char": "p",
-        "block": "chisel:technical1@2"
+        "block": "industrialrenewal:block_chimney"
       },
       {
         "char": "q",
-        "block": "chisel:technical"
+        "block": "chisel:technical@13"
       },
       {
         "char": "r",
-        "block": "chisel:technical@3"
-      },
-      {
-        "char": "s",
-        "block": "chisel:bricks1@8"
-      },
-      {
-        "char": "t",
         "block": "chisel:glass@12"
       },
       {
+        "char": "s",
+        "block": "minecraft:stone_pressure_plate"
+      },
+      {
+        "char": "t",
+        "block": "chisel:glass@13"
+      },
+      {
         "char": "u",
-        "block": "minecraft:chest", "loot": "chestloot"
+        "block": "chisel:technical@6"
       },
       {
         "char": "v",
-        "block": "chisel:factory@14"
+        "block": "minecraft:stone_slab@8"
       },
       {
         "char": "w",
-        "block": "chisel:factory@6"
+        "block": "chisel:technicalnew"
       },
       {
         "char": "x",
-        "block": "chisel:technical@6"
+        "block": "minecraft:chest@3", "loot": "chestloot"
+      },
+      {
+        "char": "y",
+        "block": "chisel:technicalnew@2"
+      },
+      {
+        "char": "z",
+        "block": "chisel:technical1@2"
       }
     ],
     "meta": [
@@ -16916,112 +16830,112 @@
     ],
     "slices": [
       [
-        "aaaaaaaaaaaaaaaa",
         "abbbbbbbbbbbbbba",
-        "abcbbbbdebbbbbba",
-        "abbbbbbdeddddbba",
-        "abbbbbbdeeeeeeba",
-        "abbbbbbdeddddcba",
-        "abbbbbbdedbbbbba",
-        "abbbbbbdedbffbba",
-        "abbbbbbdedb  bba",
-        "abbbbbbdedb  bba",
-        "abddddddedb  bba",
-        "abeeeeeeedb  bba",
-        "abddddddedbbbbba",
-        "abbbbbbdedbbbcba",
+        "bccccccccccccccb",
+        "bcddddddddddddcb",
+        "bcdccccccccccdcb",
+        "bcdccccccccccdcb",
+        "bcdccccccccccdcb",
+        "bcdcccccccddddcb",
+        "bcdccccdccdeedcb",
+        "bcdccccdccd  dcb",
+        "bcdccccdccd  dcb",
+        "bcdccccdccd  dcb",
+        "bcdccccdccd  dcb",
+        "bcdccccdccdggdcb",
+        "bcddddddddddddcb",
+        "bccccccccccccccb",
+        "abbbbbbbbbbbbbba"
+      ],
+      [
+        "ha    ahha    ah",
+        "accccc cc ccccca",
+        " i      d     i ",
+        " c     d    jqc ",
+        " c          p c ",
+        " c     d    jqc ",
+        "a jj    d      a",
+        "hck     d     ch",
+        "hcjj    d     ch",
+        "a       d      a",
+        " i      d     i ",
+        " c lm o d  gg c ",
+        " c  n   d  ee c ",
+        " c      d     c ",
+        "accccc cc icccca",
+        "ha    ahha    ah"
+      ],
+      [
+        "ha    ahha    ah",
+        "accrrc cc crrcca",
+        " c      d     c ",
+        " r     d    tqr ",
+        " r          tur ",
+        " c     d    tqc ",
+        "a jj    d      a",
+        "hc      d     ch",
+        "hcj     d     ch",
+        "a       d      a",
+        " c      d  gg c ",
+        " r  s   d  ee r ",
+        " r      d     r ",
+        " c      d     c ",
+        "accrrc cc crrcca",
+        "ha    ahha    ah"
+      ],
+      [
+        "ha    ahha    ah",
+        "accrrc cc crrcca",
+        " cvvvvvvd     c ",
+        " rv   vd     qr ",
+        " r    vd     jr ",
+        " c    vd     qc ",
+        "a j   vvd      a",
+        "hc     vd     ch",
+        "hc     vd     ch",
+        "a      vd  gg  a",
+        " c     vd  ee c ",
+        " r     vd     r ",
+        " r     vd     r ",
+        " c     vd     c ",
+        "accrrc cc crrcca",
+        "ha    ahha    ah"
+      ],
+      [
+        "ha    ahha    ah",
+        "accccc cc ccccca",
+        " cwxyzA d     c ",
+        " cj    d      c ",
+        " c     d     jc ",
+        " c     d      c ",
+        "a       d      a",
+        "hc      d     ch",
+        "hc     Bd  gg ch",
+        "a       d  ee  a",
+        " c      d     c ",
+        " c      d     c ",
+        " c      d     c ",
+        " c      d     c ",
+        "accccc cc ccccca",
+        "ha    ahha    ah"
+      ],
+      [
         "abbbbbbbbbbbbbba",
-        "aaaaaaaaaaaaaaaa"
-      ],
-      [
-        "hi    ihhi    ih",
-        "ibbbbbbbbbbbbbbi",
-        " bd      nkpppb ",
-        " b lll  jjokqpb ",
-        " b lll       rb ",
-        " b lll    j  jb ",
-        "ib lll  m     bi",
-        "hb lll  m     bh",
-        "hb ll         bh",
-        "ib    j       bi",
-        " b   j        b ",
-        " bj        bb b ",
-        " bk  k jj  ff b ",
-        " b kkkk  j   jb ",
-        "ibbbbbbbbbbbbbbi",
-        "hi    ihhi    ih"
-      ],
-      [
-        "hb    bhhb    bh",
-        "sbbttbbbbbbbbbbs",
-        " bd       p vpb ",
-        " t l l       wb ",
-        " t l          b ",
-        " b lul       jb ",
-        "sb lll        bs",
-        "hb  l         bh",
-        "hb l          bh",
-        "sb            bs",
-        " b         bb b ",
-        " bj        ff t ",
-        " b            t ",
-        " b   k       jb ",
-        "sbbbbbbbbbbttbbs",
-        "hb    bhhb    bh"
-      ],
-      [
-        "hb    bhhb    bh",
-        "sbbttbbbxbbbbbbs",
-        " bd          pb ",
-        " t l          b ",
-        " t            b ",
-        " b         mmjb ",
-        "sb  l         bs",
-        "hb            bh",
-        "hb            bh",
-        "sb         bb bs",
-        " b         ff b ",
-        " bj  mm       t ",
-        " b            t ",
-        " b           jb ",
-        "sbbbbbbbxbbttbbs",
-        "hb    bhhb    bh"
-      ],
-      [
-        "hi    ihhi    ih",
-        "ibbbbbbbjbbbbbbi",
-        " bcjjjjjjjjjjcb ",
-        " bj     j    jb ",
-        " bj     j    jb ",
-        " bj     cjjjjcb ",
-        "ibj     j    jbi",
-        "hbj     j    jbh",
-        "hbj     j  bbjbh",
-        "ibj     j  ffjbi",
-        " bj     j    jb ",
-        " bcjjjjjc    jb ",
-        " bj     j    jb ",
-        " bcjjjjjjjjjjcb ",
-        "ibbbbbbbjbbbbbbi",
-        "hi    ihhi    ih"
-      ],
-      [
-        "aaaaaaaaaaaaaaaa",
-        "abbbbbbbbbbbbbba",
-        "ab            ba",
-        "ab            ba",
-        "ab            ba",
-        "ab            ba",
-        "ab            ba",
-        "ab         bb ba",
-        "ab         ff ba",
-        "ab            ba",
-        "ab            ba",
-        "ab            ba",
-        "ab            ba",
-        "ab            ba",
-        "abbbbbbbbbbbbbba",
-        "aaaaaaaaaaaaaaaa"
+        "bccccc cc cccccb",
+        "bc      b     cb",
+        "bc     b      cb",
+        "bc     b      cb",
+        "bc     b      cb",
+        "b       b      b",
+        "bc      b  gg cb",
+        "bc      b  ee cb",
+        "b       b      b",
+        "bc      b     cb",
+        "bc      b     cb",
+        "bc      b     cb",
+        "bc      b     cb",
+        "bccccc cc cccccb",
+        "abbbbbbbbbbbbbba"
       ]
     ]
   },
