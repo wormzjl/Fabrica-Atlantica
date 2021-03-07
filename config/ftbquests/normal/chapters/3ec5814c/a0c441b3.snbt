@@ -2,7 +2,10 @@
 	title: "Seeds",
 	x: 2.0d,
 	y: 1.0d,
-	description: "Seeds cannot be obtained by breaking grass, but instead by tilling grass blocks with a hoe. Warning: you will need a lof of hemp later, so it's better to prepare it beforehands.",
+	description: "Seeds cannot be obtained by breaking grass, but instead by tilling grass blocks with a hoe. Advice: you will need a lof of hemp later, so it's better to prepare it beforehands.",
+	text: [
+		""
+	],
 	dependencies: [
 		"86095b8b"
 	],

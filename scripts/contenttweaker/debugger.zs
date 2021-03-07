@@ -52,6 +52,7 @@ static allStages as string[] = [
   "orewasher",
 
   "adv_automation",
+  "ae2",
 
   "component_t0",
   "component_t1",

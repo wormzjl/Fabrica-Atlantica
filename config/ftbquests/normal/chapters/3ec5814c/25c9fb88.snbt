@@ -1,6 +1,6 @@
 {
 	title: "To bee or not to bee",
-	x: 4.0d,
+	x: 3.0d,
 	y: 3.0d,
 	description: "Bee products can be helpful with my nutritions. Formic acid can be extracted from drones, an essential compound for initial rubber production. Bee hives can be found in ababdoned buildings.",
 	dependencies: [

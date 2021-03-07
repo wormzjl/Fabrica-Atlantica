@@ -70,6 +70,9 @@ mods.forgecraft.NBTCrucible.addRecipe(<forgecraft:brokenwootztool>, null, null, 
 //8 scraps to 1 block, 32 nuggets
 mods.pyrotech.MechanicalCompactor.addRecipe("scrap_iron", <contenttweaker:scrapiron>, <contenttweaker:iron_scrapmetal>, 8);
 
+//Recycle chisel factory blocks, 4 iron = 32 blocks
+mods.pyrotech.MechanicalCompactor.addRecipe("scrap_iron_chisel", <contenttweaker:scrapiron>, <chisel:factory>, 32);
+
 mods.pyrotech.Bloomery.removeBloomeryRecipes(<minecraft:iron_nugget>);
 mods.pyrotech.Bloomery.removeWitherForgeRecipes(<minecraft:iron_nugget>);
 

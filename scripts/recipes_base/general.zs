@@ -105,22 +105,6 @@ recipes.remove(<autoverse:crafter>);
 recipes.addShaped(<autoverse:crafter>, [[<minecraft:redstone>, <minecraft:piston>, <minecraft:redstone>], [<ore:plateIron>, <ore:workbench>, <ore:plateIron>], [<ore:stone>, <pyrotech:mechanical_hopper>, <ore:stone>]]);
 
 
-//Aqua Munda
-recipes.remove(<aquamunda:tank>);
-recipes.addShaped(<aquamunda:tank>, [[<pyrotech:material:14>, null, <pyrotech:material:14>], [<pyrotech:material:16>, null, <pyrotech:material:16>], [<pyrotech:material:16>, <pyrotech:material:16>, <pyrotech:material:16>]]);
-
-recipes.remove(<aquamunda:hose>);
-recipes.addShaped(<aquamunda:hose> * 8, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ic2:misc_resource:4>, <ic2:misc_resource:4>, <ic2:misc_resource:4>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
-
-recipes.remove(<aquamunda:sprinkler>);
-recipes.addShaped(<aquamunda:sprinkler>, [[null, <aquamunda:hose>, null], [null, <ore:dyeGreen>, null], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
-
-recipes.remove(<aquamunda:boiler>);
-recipes.addShaped(<aquamunda:boiler>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, null, <ore:plateIron>], [<pyrotech:material:5>, <pyrotech:material:5>, <pyrotech:material:5>]]);
-
-recipes.remove(<aquamunda:evaporator>);
-recipes.addShaped(<aquamunda:evaporator>, [[null, <minecraft:glass>, null], [<minecraft:glass>, null, <minecraft:glass>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
-
 //RSC
 
 //Architect
