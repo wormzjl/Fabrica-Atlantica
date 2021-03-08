@@ -4218,7 +4218,7 @@
       },
       {
         "char": " ",
-        "block": "minecraft:air"
+        "block": "minecraft:water"
       },
       {
         "char": "a",
@@ -4446,7 +4446,7 @@
     "palette": [
       {
         "char": " ",
-        "block": "minecraft:air"
+        "block": "minecraft:water"
       },
       {
         "char": "a",
@@ -4682,7 +4682,7 @@
       },
       {
         "char": " ",
-        "block": "minecraft:air"
+        "block": "minecraft:water"
       },
       {
         "char": "a",
@@ -4934,7 +4934,7 @@
       },
       {
         "char": " ",
-        "block": "minecraft:air"
+        "block": "minecraft:water"
       },
       {
         "char": "a",
@@ -12902,7 +12902,7 @@
       },
       {
         "char": " ",
-        "block": "minecraft:air"
+        "block": "minecraft:water"
       },
       {
         "char": "a",
@@ -13166,7 +13166,7 @@
       },
       {
         "char": " ",
-        "block": "minecraft:air"
+        "block": "minecraft:water"
       },
       {
         "char": "a",
@@ -13394,7 +13394,7 @@
     "palette": [
       {
         "char": " ",
-        "block": "minecraft:air"
+        "block": "minecraft:water"
       },
       {
         "char": "a",
@@ -13654,7 +13654,7 @@
       },
       {
         "char": " ",
-        "block": "minecraft:air"
+        "block": "minecraft:water"
       },
       {
         "char": "a",

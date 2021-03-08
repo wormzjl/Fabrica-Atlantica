@@ -5,7 +5,19 @@
     "outsidestyle": "outside_chisel",
     "citystyles": [
       {
-        "factor": 99.0,
+        "factor": 2,
+        "biomes": [
+          "forest",
+          "plains",
+          "mutated_plains",
+          "birch_forest",
+          "flower_forest",
+          "savanna"
+        ],
+        "citystyle": "citystyle_chisel_standard"
+      },
+      {
+        "factor": 1,
         "citystyle": "citystyle_industrial"
       }
     ]
@@ -13,7 +25,7 @@
   {
     "type": "citystyle",
     "name": "citystyle_industrial",
-    "style": "standard_chisel",
+    "style": "industrial",
     "inherit": "citystyle_config",
     "streetblocks": {
       "border": "y",
@@ -38,26 +50,6 @@
       "inner": "b"
     },
     "buildings": [
-      {
-        "factor": 0.00001,
-        "building": "building1"
-      },
-      {
-        "factor": 0.00001,
-        "building": "building2"
-      },
-      {
-        "factor": 0.00001,
-        "building": "building3"
-      },
-      {
-        "factor": 0.00001,
-        "building": "building4"
-      },
-      {
-        "factor": 0.00001,
-        "building": "building5"
-      },
       {
         "factor": 2.0,
         "building": "buildings1"
@@ -123,64 +115,24 @@
         "building": "storage_single_bauxite"
       },
       {
-        "factor": 10.0,
+        "factor": 8.0,
         "building": "living_b1"
       },
       {
-        "factor": 10.0,
+        "factor": 8.0,
         "building": "living_b2"
       },
       {
-        "factor": 2.0,
+        "factor": 2.5,
         "building": "bunker1"
       },
       {
-        "factor": 2.0,
+        "factor": 2.5,
         "building": "bunker2"
       }
 
     ],
     "multibuildings": [
-      {
-        "factor": 0.00001,
-        "multibuilding": "multi1"
-      },
-      {
-        "factor": 0.00001,
-        "multibuilding": "multi2"
-      },
-      {
-        "factor": 0.00001,
-        "multibuilding": "multi3"
-      },
-      {
-        "factor": 0.00001,
-        "multibuilding": "multi4"
-      },
-      {
-        "factor": 0.00001,
-        "multibuilding": "multi5"
-      },
-      {
-        "factor": 0.00001,
-        "multibuilding": "library"
-      },
-      {
-        "factor": 0.00001,
-        "multibuilding": "center"
-      },
-      {
-        "factor": 0.00001,
-        "multibuilding": "townhall"
-      },
-      {
-        "factor": 0.00001,
-        "multibuilding": "shopping"
-      },
-      {
-        "factor": 0.00001,
-        "multibuilding": "shopping_open"
-      },
       {
         "factor": 2.0,
         "multibuilding": "d1"
@@ -288,24 +240,48 @@
     ],
     "parks": [
       {
-        "factor": 1.0,
+        "factor": 0.3,
         "park": "park_pool"
       },
       {
-        "factor": 0.8,
+        "factor": 0.3,
         "park": "park_fountain1"
       },
       {
-        "factor": 0.8,
-        "park": "park_fountain2"
+        "factor": 0.3,
+        "park": "park1"
       },
       {
         "factor": 0.3,
-        "park": "park_building"
+        "park": "park2"
       },
       {
         "factor": 0.3,
-        "park": "park_building2"
+        "park": "park3"
+      },
+      {
+        "factor": 0.3,
+        "park": "park4"
+      },
+      {
+        "factor": 0.3,
+        "park": "park5"
+      },
+      {
+        "factor": 0.3,
+        "park": "park6"
+      },
+      {
+        "factor": 0.3,
+        "park": "park7"
+      },
+      {
+        "factor": 0.3,
+        "park": "park8"
+      },
+      {
+        "factor": 0.3,
+        "park": "park9"
       }
     ],
     "raildungeons": [
@@ -906,7 +882,6 @@
     ]
   },
 
-
   {
     "type": "building",
     "name": "bunker1",
@@ -991,8 +966,8 @@
   {
     "type": "building",
     "name": "living_b1",
-    "filler": "#",
-    "mincellars": 0,
+    "filler": "B",
+    "mincellars": 1,
     "maxcellars": 1,
     "minfloors": 3,
     "parts": [
@@ -1165,8 +1140,8 @@
     "type": "building",
     "name": "living_b2",
     "filler": "#",
-    "mincellars": 0,
-    "maxcellars": 0,
+    "mincellars": 1,
+    "maxcellars": 1,
     "minfloors": 2,
     "parts": [
       {

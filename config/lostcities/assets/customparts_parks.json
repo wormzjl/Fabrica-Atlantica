@@ -1,0 +1,1538 @@
+[
+  {
+    "type": "part",
+    "name": "park1",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:air"
+      },
+      {
+        "char": "b",
+        "block": "chisel:diorite@1"
+      },
+      {
+        "char": "c",
+        "block": "chisel:templemossy"
+      },
+      {
+        "char": "d",
+        "block": "chisel:diorite"
+      },
+      {
+        "char": "e",
+        "block": "chisel:diorite1@15"
+      },
+      {
+        "char": "f",
+        "block": "chisel:templemossy@7"
+      },
+      {
+        "char": "g",
+        "block": "minecraft:gravel"
+      },
+      {
+        "char": "h",
+        "block": "chisel:diorite@9"
+      },
+      {
+        "char": "i",
+        "block": "minecraft:magma"
+      },
+      {
+        "char": "j",
+        "block": "chisel:cobblestonemossy1@9"
+      },
+      {
+        "char": "k",
+        "block": "chisel:stonebrick"
+      },
+      {
+        "char": "l",
+        "block": "chisel:stonebrick@2"
+      },
+      {
+        "char": "m",
+        "block": "chisel:templemossy@11"
+      },
+      {
+        "char": "n",
+        "block": "minecraft:sea_lantern"
+      }
+    ],
+    "slices": [
+      [
+        "                ",
+        "  d  dd  bbb    ",
+        "  ed  hhbbddddd ",
+        "  eee  eb hdhhh ",
+        "  de      ggdh  ",
+        "  ede  g lg d h ",
+        "  eddgg g     h ",
+        "   eedgejgl d d ",
+        "  e d ei jggd   ",
+        " cd dfejig g    ",
+        "  f f  dg g     ",
+        "   c  d gkdd e  ",
+        "  edc eeggebdd  ",
+        " b  dc  ehhgeed ",
+        " bbee e k g     ",
+        "b    e          "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "          g     ",
+        "          l     ",
+        "                ",
+        "                ",
+        "   b   jg       ",
+        "    b g  g      ",
+        " dd  dj  j      ",
+        "  m f  gj l     ",
+        "   c     g      ",
+        "   df dgk       ",
+        "    e           ",
+        " d              ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "       g        ",
+        "                ",
+        "                ",
+        "  c             ",
+        "   f            ",
+        "    m           ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "   m            ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "   m            ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "   n            ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "park2",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:air"
+      },
+      {
+        "char": "b",
+        "block": "minecraft:gravel"
+      },
+      {
+        "char": "c",
+        "block": "minecraft:dirt@2"
+      },
+      {
+        "char": "d",
+        "block": "chisel:stonebrick@2"
+      },
+      {
+        "char": "e",
+        "block": "chisel:cobblestonemossy@10"
+      },
+      {
+        "char": "f",
+        "block": "chisel:stonebrick"
+      },
+      {
+        "char": "g",
+        "block": "minecraft:cobblestone"
+      },
+      {
+        "char": "h",
+        "block": "minecraft:magma"
+      },
+      {
+        "char": "i",
+        "block": "chisel:cobblestonemossy1@9"
+      }
+    ],
+    "slices": [
+      [
+        "  dbc  c        ",
+        " dcc cc cc      ",
+        "bcbdbb b  cc    ",
+        " cb bbbgd   cb  ",
+        "c b bffdg b c b ",
+        "c  bgddhdgb bc  ",
+        "  egdhh dfebb b ",
+        " bfdhh hhdf  bc ",
+        "b ffdh hdfe  c  ",
+        "cbbfgdhdgg bccb ",
+        "bc  gfdfg  bcb  ",
+        " c   ef bbb c   ",
+        "  c       dcbb  ",
+        "  cc    ccc ddb ",
+        "    cccc b  b   ",
+        "        b       "
+      ],
+      [
+        "                ",
+        " b b b          ",
+        " bb  b d        ",
+        " d  b b         ",
+        "    ee i    b   ",
+        "     de i   bb  ",
+        "    i   be b    ",
+        " b f     i      ",
+        "  bbe   ef      ",
+        " bb  f fe       ",
+        " b    e     b   ",
+        "         bb b   ",
+        "           dd   ",
+        "         bb     ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        " b              ",
+        "    d           ",
+        "     b          ",
+        "     i      b   ",
+        "        e       ",
+        "   e            ",
+        "  b      e      ",
+        "     e e        ",
+        "            b   ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        " b              ",
+        "                ",
+        "                ",
+        "            b   ",
+        "                ",
+        "                ",
+        "  b             ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "            b   ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "park3",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:air"
+      },
+      {
+        "char": "b",
+        "block": "minecraft:gravel"
+      },
+      {
+        "char": "c",
+        "block": "chisel:stonebrick@2"
+      },
+      {
+        "char": "d",
+        "block": "chisel:cobblestonemossy1@9"
+      },
+      {
+        "char": "e",
+        "block": "chisel:diorite@9"
+      },
+      {
+        "char": "f",
+        "block": "chisel:diorite"
+      },
+      {
+        "char": "g",
+        "block": "chisel:diorite1@15"
+      },
+      {
+        "char": "h",
+        "block": "chisel:diorite@1"
+      },
+      {
+        "char": "i",
+        "block": "minecraft:prismarine"
+      },
+      {
+        "char": "j",
+        "block": "minecraft:sea_lantern"
+      },
+      {
+        "char": "k",
+        "block": "chisel:cobblestonemossy1@12"
+      }
+    ],
+    "slices": [
+      [
+        "                ",
+        "   behggfe      ",
+        "  cbeh     f    ",
+        " bdceg efg g    ",
+        "  bdfg eigb g   ",
+        "   cfhbeefb g   ",
+        "  b gh b b ff   ",
+        "   dfgghgf fg   ",
+        "    ffefegffg   ",
+        "    hgb    fh   ",
+        "  b hg fee fh   ",
+        "   bgfbgje ghcb ",
+        "   bgf ggf gg b ",
+        "    f      gf   ",
+        "       feeffeb  ",
+        "           b    "
+      ],
+      [
+        "                ",
+        "                ",
+        "    k           ",
+        "   bb  h h      ",
+        "   bc    b      ",
+        "    db g h      ",
+        "    b  k        ",
+        "     ccb        ",
+        "    c  b b      ",
+        "      b    bc   ",
+        "    bb h h      ",
+        "    b  b   bb   ",
+        "       h g b  c ",
+        "            c   ",
+        "            b   ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "    b  h g      ",
+        "    k           ",
+        "       h h      ",
+        "                ",
+        "     d          ",
+        "                ",
+        "                ",
+        "       g h      ",
+        "                ",
+        "       h h      ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "       f g      ",
+        "                ",
+        "       h        ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "       h h      ",
+        "                ",
+        "       h h      ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "       ggg      ",
+        "       f        ",
+        "       gg       ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "       eef      ",
+        "       e e      ",
+        "       eff      ",
+        "                ",
+        "                ",
+        "                "
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "park4",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:air"
+      },
+      {
+        "char": "b",
+        "block": "minecraft:gravel"
+      },
+      {
+        "char": "c",
+        "block": "minecraft:grass"
+      },
+      {
+        "char": "d",
+        "block": "chisel:stonebrick@2"
+      },
+      {
+        "char": "e",
+        "block": "chisel:stonebrick"
+      },
+      {
+        "char": "f",
+        "block": "chisel:diorite@11"
+      },
+      {
+        "char": "g",
+        "block": "chisel:diorite"
+      },
+      {
+        "char": "h",
+        "block": "chisel:cobblestonemossy@10"
+      },
+      {
+        "char": "i",
+        "block": "chisel:stonebrick@9"
+      },
+      {
+        "char": "j",
+        "block": "chisel:cobblestonemossy1@6"
+      },
+      {
+        "char": "k",
+        "block": "minecraft:dirt@2"
+      },
+      {
+        "char": "l",
+        "block": "minecraft:dirt"
+      },
+      {
+        "char": "m",
+        "block": "chisel:stonebrick@13"
+      },
+      {
+        "char": "n",
+        "block": "chisel:diorite1@10"
+      },
+      {
+        "char": "o",
+        "block": "chisel:stonebrick@7"
+      },
+      {
+        "char": "p",
+        "block": "minecraft:cobblestone"
+      },
+      {
+        "char": "q",
+        "block": "minecraft:sea_lantern"
+      },
+      {
+        "char": "r",
+        "block": "chisel:stonebrick@5"
+      },
+      {
+        "char": "s",
+        "block": "chisel:diorite1@5"
+      }
+    ],
+    "slices": [
+      [
+        "  f k bb        ",
+        "  gjh lffj      ",
+        "bb ckhh nhf     ",
+        " bbhkkbk d      ",
+        " bhbldlb d b    ",
+        " cie khkkobb    ",
+        "cbbbbe hlkk     ",
+        "bbbbbbbbbkk     ",
+        "dbbbbbmbkckh    ",
+        "beecebbkk       ",
+        "db c ebbb  b    ",
+        "b      beb b    ",
+        "b        bb     ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "  f             ",
+        "   q  h gg      ",
+        "         n      ",
+        "     k          ",
+        "   h k k        ",
+        "  h     hh      ",
+        " c e j          ",
+        "   d   ff       ",
+        "pjorc q         ",
+        "  c  edh        ",
+        "       h        ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "  g             ",
+        "         s      ",
+        "                ",
+        "                ",
+        "                ",
+        " gg             ",
+        "  f             ",
+        "                ",
+        "  ip            ",
+        "      j         ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "  n             ",
+        "         g      ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        " ndn            ",
+        "  n             ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "ffj             ",
+        "  f             ",
+        "  f             ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "  q             ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "park5",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:air"
+      },
+      {
+        "char": "b",
+        "block": "minecraft:sea_lantern"
+      },
+      {
+        "char": "c",
+        "block": "chisel:diorite1@15"
+      },
+      {
+        "char": "d",
+        "block": "chisel:diorite@9"
+      },
+      {
+        "char": "e",
+        "block": "minecraft:gravel"
+      },
+      {
+        "char": "f",
+        "block": "chisel:diorite"
+      },
+      {
+        "char": "g",
+        "block": "chisel:diorite@1"
+      },
+      {
+        "char": "h",
+        "block": "minecraft:grass"
+      },
+      {
+        "char": "i",
+        "block": "chisel:concrete_lightgray@10"
+      },
+      {
+        "char": "j",
+        "block": "chisel:concrete_lightgray"
+      },
+      {
+        "char": "k",
+        "block": "minecraft:magma"
+      },
+      {
+        "char": "l",
+        "block": "chisel:concrete_lightgray@9"
+      },
+      {
+        "char": "m",
+        "block": "chisel:stonebrick"
+      },
+      {
+        "char": "n",
+        "block": "chisel:stonebrick@2"
+      },
+      {
+        "char": "o",
+        "block": "minecraft:prismarine"
+      },
+      {
+        "char": "p",
+        "block": "chisel:waterstone@2"
+      },
+      {
+        "char": "q",
+        "block": "minecraft:dirt"
+      },
+      {
+        "char": "r",
+        "block": "minecraft:sand"
+      },
+      {
+        "char": "s",
+        "block": "chisel:cobblestonemossy1@6"
+      },
+      {
+        "char": "t",
+        "block": "chisel:cobblestonemossy@10"
+      },
+      {
+        "char": "u",
+        "block": "chisel:stonebrick@9"
+      },
+      {
+        "char": "v",
+        "block": "minecraft:cobblestone"
+      }
+    ],
+    "slices": [
+      [
+        " e e    ddd     ",
+        "bccdee cfdd     ",
+        "cfekkedfdgd     ",
+        "degkjicgdg      ",
+        "d hjilldf       ",
+        "eeiljjil        ",
+        "  jjlijj        ",
+        " gcijii  d      ",
+        "fdddll f d      ",
+        "fgcc    fp      ",
+        "gdcee fpdb      ",
+        "dche m          ",
+        "e  ehn          ",
+        "     o          ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "e qre           ",
+        " qq  re         ",
+        "e r ts          ",
+        "   n            ",
+        "  sqej u        ",
+        "  eqj           ",
+        "   s  t         ",
+        "    uv          ",
+        "  he            ",
+        " eh             ",
+        "e  e            ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "  qe l          ",
+        "    j           ",
+        "                ",
+        "                ",
+        "                ",
+        " e              ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "     j          ",
+        "    j           ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "     j          ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "     b          ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "park6",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:air"
+      },
+      {
+        "char": "b",
+        "block": "chisel:diorite"
+      },
+      {
+        "char": "c",
+        "block": "chisel:concrete_lightgray"
+      },
+      {
+        "char": "d",
+        "block": "chisel:concrete_lightgray@9"
+      },
+      {
+        "char": "e",
+        "block": "chisel:diorite1@15"
+      },
+      {
+        "char": "f",
+        "block": "chisel:diorite@9"
+      },
+      {
+        "char": "g",
+        "block": "chisel:diorite@1"
+      },
+      {
+        "char": "h",
+        "block": "minecraft:magma"
+      },
+      {
+        "char": "i",
+        "block": "minecraft:cobblestone"
+      },
+      {
+        "char": "j",
+        "block": "chisel:stonebrick"
+      },
+      {
+        "char": "k",
+        "block": "minecraft:dirt@2"
+      },
+      {
+        "char": "l",
+        "block": "chisel:stonebrick@2"
+      },
+      {
+        "char": "m",
+        "block": "minecraft:gravel"
+      },
+      {
+        "char": "n",
+        "block": "chisel:cobblestonemossy1@12"
+      },
+      {
+        "char": "o",
+        "block": "chisel:cobblestonemossy1@9"
+      },
+      {
+        "char": "p",
+        "block": "chisel:cobblestonemossy@10"
+      },
+      {
+        "char": "q",
+        "block": "chisel:cobblestonemossy1@6"
+      },
+      {
+        "char": "r",
+        "block": "minecraft:prismarine"
+      },
+      {
+        "char": "s",
+        "block": "minecraft:sea_lantern"
+      }
+    ],
+    "slices": [
+      [
+        "      ee  gee   ",
+        "     eggeeffg   ",
+        "    eg i i ggg  ",
+        "    egfj   ggg  ",
+        "     gg llligfg ",
+        "    fbgb mk if  ",
+        "    fb kblbkgff ",
+        "  ccddcddho ge  ",
+        "b c    bcnp  eg ",
+        " bc efb ck p ge ",
+        " bd ehf dbbffge ",
+        "  d beg dfgb g  ",
+        " bc     df  e e ",
+        "  cdcccdc       ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "        j q     ",
+        "      kl l      ",
+        "        mok     ",
+        "       kb o     ",
+        "        bn      ",
+        "    g b         ",
+        "        b       ",
+        "  b b g         ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "         q      ",
+        "        q       ",
+        "        k       ",
+        "         n      ",
+        "    g r         ",
+        "                ",
+        "    f e         ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "        k       ",
+        "                ",
+        "                ",
+        "    fg          ",
+        "    g g         ",
+        "    gff         ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "    s           ",
+        "                ",
+        "    s s         ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "park7",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:air"
+      },
+      {
+        "char": "b",
+        "block": "minecraft:gravel"
+      },
+      {
+        "char": "c",
+        "block": "chisel:diorite1@15"
+      },
+      {
+        "char": "d",
+        "block": "chisel:diorite@9"
+      },
+      {
+        "char": "e",
+        "block": "chisel:diorite@1"
+      },
+      {
+        "char": "f",
+        "block": "chisel:diorite"
+      },
+      {
+        "char": "g",
+        "block": "minecraft:magma"
+      },
+      {
+        "char": "h",
+        "block": "minecraft:dirt@2"
+      },
+      {
+        "char": "i",
+        "block": "chisel:stonebrick"
+      },
+      {
+        "char": "j",
+        "block": "chisel:cobblestonemossy1@6"
+      },
+      {
+        "char": "k",
+        "block": "chisel:cobblestonemossy1@9"
+      },
+      {
+        "char": "l",
+        "block": "minecraft:prismarine"
+      },
+      {
+        "char": "m",
+        "block": "minecraft:sea_lantern"
+      },
+      {
+        "char": "n",
+        "block": "minecraft:prismarine@2"
+      }
+    ],
+    "slices": [
+      [
+        "                ",
+        " b  b       b   ",
+        "  bb  f      bb ",
+        " b bb  h f  bb  ",
+        "  bbcfc hcee    ",
+        "  bbdgefhegcb   ",
+        " b befcf ced bb ",
+        "       ff   b   ",
+        "  b    ed  bbbb ",
+        "   befc hccf    ",
+        " b bfgefhegdbb  ",
+        "  bbcdfhffddbb  ",
+        "   b  h fibbbbb ",
+        "  b   h   b bb  ",
+        "   b        b   ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "   b            ",
+        "   bj j  j j    ",
+        "    b   f       ",
+        "    j jf j j    ",
+        "                ",
+        "            b   ",
+        "    j j fj j    ",
+        "   bb h    b    ",
+        "   bj jf j jb   ",
+        "           bb   ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "   bk k  k k    ",
+        "                ",
+        "    k k  k k    ",
+        "                ",
+        "                ",
+        "    k k  k k    ",
+        "    b      b    ",
+        "    k k  k k    ",
+        "           b    ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "    k k  k k    ",
+        "                ",
+        "    k k  k k    ",
+        "                ",
+        "                ",
+        "    k k  k k    ",
+        "                ",
+        "    k k  k k    ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "    l l    l    ",
+        "                ",
+        "    m n  m n    ",
+        "                ",
+        "                ",
+        "      n  l l    ",
+        "                ",
+        "      m  n      ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "park8",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:air"
+      },
+      {
+        "char": "b",
+        "block": "chisel:diorite1@15"
+      },
+      {
+        "char": "c",
+        "block": "minecraft:gravel"
+      },
+      {
+        "char": "d",
+        "block": "chisel:diorite"
+      },
+      {
+        "char": "e",
+        "block": "chisel:stonebrick"
+      },
+      {
+        "char": "f",
+        "block": "chisel:cobblestonemossy1@6"
+      },
+      {
+        "char": "g",
+        "block": "chisel:diorite@1"
+      },
+      {
+        "char": "h",
+        "block": "chisel:diorite@9"
+      },
+      {
+        "char": "i",
+        "block": "chisel:stonebrick@9"
+      },
+      {
+        "char": "j",
+        "block": "chisel:stonebrick@2"
+      },
+      {
+        "char": "k",
+        "block": "chisel:cobblestonemossy@10"
+      },
+      {
+        "char": "l",
+        "block": "minecraft:magma"
+      },
+      {
+        "char": "m",
+        "block": "minecraft:prismarine"
+      },
+      {
+        "char": "n",
+        "block": "minecraft:sea_lantern"
+      }
+    ],
+    "slices": [
+      [
+        "  ghgd ccd  j   ",
+        "bdbggggdlld     ",
+        "  gbggddldc     ",
+        "c  ghdd c       ",
+        " ccbgg      i   ",
+        "ddggdgdgh   j   ",
+        "c ghb c     k   ",
+        "c ggggcc   ce   ",
+        "ccdhbg c  c f   ",
+        "bdghg dddc      ",
+        "c gghg cccc     ",
+        "ccgggdc c c     ",
+        "c dgg  c        ",
+        "effijkeji       ",
+        "                ",
+        "                "
+      ],
+      [
+        "        hd      ",
+        "g   d gg ld     ",
+        "     nd  c      ",
+        "   c d          ",
+        "        g       ",
+        "h    c  hd      ",
+        "c     c g       ",
+        "                ",
+        "c       b       ",
+        "g   m  cgg      ",
+        "  c  d  h       ",
+        "c c     c       ",
+        "   c            ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "         d      ",
+        "dd    d         ",
+        "                ",
+        "                ",
+        "                ",
+        "gd      b       ",
+        "                ",
+        "                ",
+        "                ",
+        "gd dd   h       ",
+        "  c     c       ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        " gd             ",
+        "                ",
+        "                ",
+        "                ",
+        " gd     h       ",
+        "                ",
+        "                ",
+        "                ",
+        " h      g       ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "  bgm           ",
+        "                ",
+        "                ",
+        "                ",
+        "  hbm   n       ",
+        "                ",
+        "                ",
+        "                ",
+        "        n       ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "park9",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:air"
+      },
+      {
+        "char": "a",
+        "block": "chisel:diorite@9"
+      },
+      {
+        "char": "b",
+        "block": "chisel:diorite"
+      },
+      {
+        "char": "c",
+        "block": "chisel:stonebrick@13"
+      },
+      {
+        "char": "e",
+        "block": "chisel:diorite1@15"
+      },
+      {
+        "char": "f",
+        "block": "minecraft:gravel"
+      },
+      {
+        "char": "g",
+        "block": "minecraft:cobblestone"
+      },
+      {
+        "char": "h",
+        "block": "chisel:cobblestonemossy@10"
+      },
+      {
+        "char": "i",
+        "block": "chisel:diorite@1"
+      },
+      {
+        "char": "j",
+        "block": "chisel:stonebrick"
+      },
+      {
+        "char": "k",
+        "block": "chisel:stonebrick@2"
+      },
+      {
+        "char": "l",
+        "block": "minecraft:sea_lantern"
+      },
+      {
+        "char": "m",
+        "block": "minecraft:prismarine"
+      },
+      {
+        "char": "n",
+        "block": "minecraft:grass"
+      },
+      {
+        "char": "o",
+        "block": "chisel:stonebrick@5"
+      },
+      {
+        "char": "p",
+        "block": "chisel:stonebrick@9"
+      },
+      {
+        "char": "q",
+        "block": "minecraft:dirt"
+      },
+      {
+        "char": "r",
+        "block": "minecraft:dirt@2"
+      },
+      {
+        "char": "s",
+        "block": "chisel:cobblestonemossy1@6"
+      }
+    ],
+    "slices": [
+      [
+        "ababeeaeaab     ",
+        "baabeaaeabb     ",
+        "cf jbbj no      ",
+        " f  abnhf       ",
+        "aa iaaifbba     ",
+        "eeae febeae     ",
+        "abailmaibbi     ",
+        "eafabba aba     ",
+        "  ffabff        ",
+        "fhfkbej  g      ",
+        "aeeeiieeeie     ",
+        "beiieieaeea     ",
+        "g  j  kf g      ",
+        "       ff       ",
+        "                ",
+        "                "
+      ],
+      [
+        "fh              ",
+        " qf             ",
+        "k  j  g  k      ",
+        "     f          ",
+        "      fnh       ",
+        "pm     ffpk     ",
+        "hp       hk     ",
+        "h  f            ",
+        "   rf           ",
+        "  rg hc  k      ",
+        "    hf f        ",
+        "      ff        ",
+        "g  j  h  g      ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "k  k     k      ",
+        "                ",
+        "      h         ",
+        "s         m     ",
+        "k         k     ",
+        "                ",
+        "                ",
+        "   g  h  j      ",
+        "                ",
+        "                ",
+        "k  c            ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "   m     l      ",
+        "                ",
+        "                ",
+        "h         k     ",
+        "p         h     ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "m  m            ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "ok       sk     ",
+        "mh       pk     ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ]
+    ]
+  }
+]

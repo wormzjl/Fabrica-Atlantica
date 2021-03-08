@@ -5,15 +5,28 @@
     "values": [
       {
         "factor": 1,
-        "value": "Zombie"
+        "value": "Squid",
+        "range": "-100,3"
+      },
+      {
+        "factor": 4,
+        "value": "Guardian",
+        "range": "-100,3"
       },
       {
         "factor": 1,
-        "value": "Skeleton"
+        "value": "Zombie",
+        "range": "4,100"
       },
       {
         "factor": 1,
-        "value": "Spider"
+        "value": "Skeleton",
+        "range": "4,100"
+      },
+      {
+        "factor": 1,
+        "value": "Spider",
+        "range": "4,100"
       }
     ]
   },
@@ -36,12 +49,12 @@
     "name": "famobs",
     "values": [
       {
-        "factor": 4,
+        "factor": 2,
         "value": "aqua_creepers:aqua_creeper",
         "range": "-100,0"
       },
       {
-        "factor": 8,
+        "factor": 4,
         "value": "primal:shark_hammerhead",
         "range": "-100,3"
       },

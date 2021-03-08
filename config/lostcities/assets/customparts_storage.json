@@ -91,16 +91,7 @@
       },
       {
         "char": "v",
-        "blocks": [
-          {
-            "random": 10,
-            "block": "minecraft:mob_spawner", "mob": "famobs"
-          },
-          {
-            "random": 10,
-            "block": "minecraft:air"
-          }
-        ]
+        "block": "minecraft:mob_spawner", "mob": "famobs"
       },
       {
         "char": "w",
@@ -3509,7 +3500,7 @@
     "palette": [
       {
         "char": " ",
-        "block": "minecraft:air"
+        "block": "minecraft:water"
       },
       {
         "char": "a",
@@ -3551,8 +3542,8 @@
             "block": "minecraft:chest", "loot": "chestloot"
           },
           {
-            "random": 10,
-            "block": "minecraft:air"
+            "random": 3,
+            "block": "minecraft:water"
           }
         ]
       },
@@ -3698,7 +3689,7 @@
     "palette": [
       {
         "char": " ",
-        "block": "minecraft:air"
+        "block": "minecraft:water"
       },
       {
         "char": "a",
@@ -3744,8 +3735,8 @@
             "block": "minecraft:chest@3", "loot": "chestloot"
           },
           {
-            "random": 10,
-            "block": "minecraft:air"
+            "random": 3,
+            "block": "minecraft:water"
           }
         ]
       },
@@ -3883,7 +3874,7 @@
     "palette": [
       {
         "char": " ",
-        "block": "minecraft:air"
+        "block": "minecraft:water"
       },
       {
         "char": "a",
@@ -3921,8 +3912,8 @@
             "block": "minecraft:chest@3", "loot": "chestloot"
           },
           {
-            "random": 10,
-            "block": "minecraft:air"
+            "random": 3,
+            "block": "minecraft:water"
           }
         ]
       },
@@ -3954,8 +3945,8 @@
             "block": "minecraft:chest@5", "loot": "chestloot"
           },
           {
-            "random": 10,
-            "block": "minecraft:air"
+            "random": 3,
+            "block": "minecraft:water"
           }
         ]
       },
@@ -3971,8 +3962,8 @@
             "block": "minecraft:chest@2", "loot": "chestloot"
           },
           {
-            "random": 10,
-            "block": "minecraft:air"
+            "random": 3,
+            "block": "minecraft:water"
           }
         ]
       },
@@ -3984,8 +3975,8 @@
             "block": "minecraft:chest@4", "loot": "chestloot"
           },
           {
-            "random": 10,
-            "block": "minecraft:air"
+            "random": 3,
+            "block": "minecraft:water"
           }
         ]
       }
@@ -4115,7 +4106,7 @@
     "palette": [
       {
         "char": " ",
-        "block": "minecraft:air"
+        "block": "minecraft:water"
       },
       {
         "char": "a",
@@ -4161,7 +4152,7 @@
             "block": "minecraft:chest@3", "loot": "chestloot"
           },
           {
-            "random": 10,
+            "random": 3,
             "block": "minecraft:air"
           }
         ]
@@ -4308,7 +4299,7 @@
     "palette": [
       {
         "char": " ",
-        "block": "minecraft:air"
+        "block": "minecraft:water"
       },
       {
         "char": "a",
@@ -4350,7 +4341,7 @@
             "block": "minecraft:chest@3", "loot": "chestloot"
           },
           {
-            "random": 10,
+            "random": 3,
             "block": "minecraft:air"
           }
         ]
@@ -4501,7 +4492,7 @@
     "palette": [
       {
         "char": " ",
-        "block": "minecraft:air"
+        "block": "minecraft:water"
       },
       {
         "char": "a",
@@ -4667,6 +4658,374 @@
   },
   {
     "type": "part",
+    "name": "bunker_alu",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:water"
+      },
+      {
+        "char": "a",
+        "block": "chisel:brownstone"
+      },
+      {
+        "char": "b",
+        "block": "chisel:brownstone@9"
+      },
+      {
+        "char": "c",
+        "block": "chisel:brownstone@1"
+      },
+      {
+        "char": "d",
+        "block": "chisel:technical@15"
+      },
+      {
+        "char": "e",
+        "block": "chisel:technical1"
+      },
+      {
+        "char": "f",
+        "block": "chisel:factory@9"
+      },
+      {
+        "char": "h",
+        "block": "minecraft:silver_glazed_terracotta"
+      },
+      {
+        "char": "i",
+        "blocks": [
+          {
+            "random": 10,
+            "block": "minecraft:chest@3",
+            "loot": "chestloot"
+          },
+          {
+            "random": 10,
+            "block": "minecraft:water"
+          }
+        ]
+      },
+      {
+        "char": "j",
+        "block": "chisel:brownstone@3"
+      },
+      {
+        "char": "k",
+        "block": "industrialrenewal:catwalk_ladder_steel"
+      },
+      {
+        "char": "l",
+        "block": "minecraft:mob_spawner", "mob": "famobs"
+      },
+      {
+        "char": "m",
+        "block": "industrialrenewal:catwalk_ladder_steel@4"
+      }
+    ],
+    "meta": [
+      {
+        "key": "dontconnect",
+        "boolean": true
+      }
+    ],
+    "slices": [
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbbbbbbbbba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abbbbbbbbbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbddbbbbbba",
+        "abefife  efifeba",
+        "abf          fba",
+        "abf          fba",
+        "abf          fba",
+        "abe   j jj   eba",
+        "ad    j  j    da",
+        "ad    jk j    da",
+        "ab    jjjj    ba",
+        "abh          hba",
+        "abhh        hhba",
+        "abhhh      hhhba",
+        "abhhhh  l hhhhba",
+        "abbbbbbddbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbddbbbbbba",
+        "abeeeee  eeeeeba",
+        "abe          eba",
+        "abe          eba",
+        "abe          eba",
+        "abe   j jj   eba",
+        "ad    j  j    da",
+        "ad    jk j    da",
+        "ab    jjjj    ba",
+        "ab            ba",
+        "abh          hba",
+        "abhh        hhba",
+        "abhhh      hhhba",
+        "abbbbbbddbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbddbbbbbba",
+        "abefffe  efffeba",
+        "abf          fba",
+        "abf          fba",
+        "abf          fba",
+        "abe   jjjj   eba",
+        "ad    j  j    da",
+        "ad    jm j    da",
+        "ab    jjjj    ba",
+        "ab            ba",
+        "ab            ba",
+        "abh          hba",
+        "abhh        hhba",
+        "abbbbbbddbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbddbbbbbba",
+        "abeeeee  eeeeeba",
+        "abe          eba",
+        "abe          eba",
+        "abe          eba",
+        "abe   jjjj   eba",
+        "ad    j  j    da",
+        "ad    jm j    da",
+        "ab    jjjj    ba",
+        "ab            ba",
+        "ab            ba",
+        "ab            ba",
+        "ab            ba",
+        "abbbbbbddbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaamaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa"
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "bunker_alu_d",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:water"
+      },
+      {
+        "char": "a",
+        "block": "chisel:brownstone"
+      },
+      {
+        "char": "b",
+        "block": "chisel:brownstone@9"
+      },
+      {
+        "char": "c",
+        "block": "chisel:brownstone@1"
+      },
+      {
+        "char": "e",
+        "block": "minecraft:gravel"
+      },
+      {
+        "char": "f",
+        "block": "chisel:technical@15"
+      },
+      {
+        "char": "g",
+        "block": "chisel:technical1"
+      },
+      {
+        "char": "h",
+        "block": "chisel:factory@9"
+      },
+      {
+        "char": "i",
+        "block": "minecraft:silver_glazed_terracotta"
+      },
+      {
+        "char": "j",
+        "blocks": [
+          {
+            "random": 10,
+            "block": "minecraft:chest@3",
+            "loot": "chestloot"
+          },
+          {
+            "random": 10,
+            "block": "minecraft:water"
+          }
+        ]
+      },
+      {
+        "char": "k",
+        "block": "chisel:brownstone@3"
+      },
+      {
+        "char": "l",
+        "block": "minecraft:mob_spawner", "mob": "famobs"
+      }
+    ],
+    "meta": [
+      {
+        "key": "dontconnect",
+        "boolean": true
+      }
+    ],
+    "slices": [
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbbbbbbbbba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abccccccccccccba",
+        "abbbbbbbbbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbffbbbbbba",
+        "abghjhgeeghehgba",
+        "abheeeeeeeeeehba",
+        "abheeeeeeeeeehba",
+        "abheeeeeeeeeehba",
+        "abgeeek kkeeegba",
+        "aeeeeekeekeeeefa",
+        "afeeeekeekeeeefa",
+        "abeeeekkkkaeeeba",
+        "abieeeaaaaeaeiba",
+        "abiieeeaaaeeeiba",
+        "abiiieeeeeeeeiba",
+        "abiiiieeleiiiiba",
+        "abbbbbbffbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbffbbbbbba",
+        "abgg eeeegeeggba",
+        "abgeeeeeeeeeeeba",
+        "abgeeeeeeeeeeeba",
+        "abgeeeeeeeeeegba",
+        "aeeeeek kkeeegba",
+        "aeeeeekeekeeeefa",
+        "aeeeeekeekeeeefa",
+        "abeeeekkkkeeeeba",
+        "abeeeeeeeeeeeeba",
+        "abieeeeeeeeeeiba",
+        "abiie       eiba",
+        "abiiee  e eiiiba",
+        "abbbbbbffbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbff bbbbba",
+        "abge     ee eeba",
+        "abh          eba",
+        "abh          eba",
+        "abe          eba",
+        "ab    kkkk   eba",
+        "a     k  k    fa",
+        "ae    k  k    fa",
+        "ab    kkkke   ba",
+        "ab    eeee e eba",
+        "abee   eee   eba",
+        "abie         eba",
+        "abii       eeeba",
+        "abbbbbbffbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbffbbbbbba",
+        "abge     e  eeba",
+        "abe           ba",
+        "abe           ba",
+        "ab           eba",
+        "ab    kkkk   eba",
+        "a     k  k    fa",
+        "a     k  k    fa",
+        "ab    kkkk    ba",
+        "ab            ba",
+        "ab           eba",
+        "abe           ba",
+        "abee          ba",
+        "abbbbbbffbbbbbba",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaa aaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaa      aaaa",
+        "aaaaaa      aaaa",
+        "aaaaaaaa  aaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa",
+        "aaaaaaaaaaaaaaaa"
+      ]
+    ]
+  },
+  {
+    "type": "part",
     "name": "bunker_top1",
     "xsize": 16,
     "zsize": 16,
@@ -4690,6 +5049,10 @@
       {
         "char": "e",
         "block": "chisel:technical1"
+      },
+      {
+        "char": "f",
+        "block": "minecraft:gravel"
       }
     ],
     "meta": [
@@ -4701,20 +5064,20 @@
     "slices": [
       [
         "aaaaaaaaaaaaaaaa",
-        "a              a",
-        "a              a",
-        "a              a",
-        "a              a",
-        "a              a",
-        "a     cccc     a",
-        "a     c  c     a",
-        "a     cd c     a",
-        "a     cccc     a",
-        "a              a",
-        "a              a",
-        "a              a",
-        "a              a",
-        "a              a",
+        "affffffffffffffa",
+        "affffffffffffffa",
+        "affffffffffffffa",
+        "affffffffffffffa",
+        "affffffffffffffa",
+        "afffffccccfffffa",
+        "afffffcffcfffffa",
+        "afffffcdfcfffffa",
+        "afffffccccfffffa",
+        "affffffffffffffa",
+        "affffffffffffffa",
+        "affffffffffffffa",
+        "affffffffffffffa",
+        "affffffffffffffa",
         "aaaaaaaaaaaaaaaa"
       ],
       [
@@ -4853,13 +5216,165 @@
   },
   {
     "type": "part",
-    "name": "bunker2",
+    "name": "bunker_top_d",
     "xsize": 16,
     "zsize": 16,
     "palette": [
       {
         "char": " ",
         "block": "minecraft:air"
+      },
+      {
+        "char": "a",
+        "block": "chisel:brownstone@8"
+      },
+      {
+        "char": "b",
+        "block": "minecraft:gravel"
+      },
+      {
+        "char": "c",
+        "block": "chisel:brownstone"
+      },
+      {
+        "char": "e",
+        "block": "chisel:technical1"
+      },
+      {
+        "char": "f",
+        "block": "minecraft:leaves@4"
+      },
+      {
+        "char": "g",
+        "block": "minecraft:leaves@12"
+      }
+    ],
+    "meta": [
+      {
+        "key": "dontconnect",
+        "boolean": true
+      }
+    ],
+    "slices": [
+      [
+        "aaaaaaaaaaaaaaaa",
+        "abbbbbbbbbbbbbba",
+        "abbbbbbbbbbbbbba",
+        "abbbbbbbbbbbbbba",
+        "abbbbbbbbbbbbbba",
+        "abbbbbbbbbbbbbba",
+        "abbbbbccccbbbbba",
+        "abbbbbcbbcbbbbba",
+        "abbbbbccbcbbbbba",
+        "abbbbbccccbbbbba",
+        "abbbbbbbbbcbccca",
+        "abbbbbbbccccccca",
+        "abbbbbbcccccccca",
+        "abbbbbbcccccccca",
+        "abbbbbbcccccccca",
+        "aaaaaaaaaaaaaaaa"
+      ],
+      [
+        "ccccccc  ccccccc",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c    b    bb   c",
+        "c   b   bbbbb  c",
+        "c      bbbbbbbbc",
+        "     b bbbbbbbb ",
+        "      bbbbbbbbbb",
+        "c   bb bbbbbbbbc",
+        "c      bbbbbbbbc",
+        "c    bbbbebbbbbc",
+        "c    ebbbbebbbbc",
+        "c    bbbebbbbbbc",
+        "c    bebbbbbebbc",
+        "cccccccebccccccc"
+      ],
+      [
+        "ccccccc  ccccccc",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c         b    c",
+        "          b     ",
+        "        fbbbbb  ",
+        "c       fbbbbbbc",
+        "c       bbbbbbbc",
+        "c      bbbbbbbbc",
+        "c     ffbbbbbbbc",
+        "c      fbbbbbbbc",
+        "c       bbbbbbbc",
+        "cccccccbbccccccc"
+      ],
+      [
+        "cccccccccccccccc",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c              c",
+        "c       f      c",
+        "c         ff   c",
+        "c        f bbb c",
+        "c       g bbbbbc",
+        "c      ffbbbbbbc",
+        "c         bbbb c",
+        "c          b b  ",
+        "ccccccccc       "
+      ],
+      [
+        "ceeeeeeeeeeeeeec",
+        "e              e",
+        "e              e",
+        "e              e",
+        "e              e",
+        "e              e",
+        "e              e",
+        "e              e",
+        "e              e",
+        "e              e",
+        "e              e",
+        "e         f    e",
+        "e            b e",
+        "e               ",
+        "e               ",
+        "ceeeeeee        "
+      ],
+      [
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccccccccccccccc",
+        "cccc c      cccc",
+        "cccc          cc",
+        "cccc           c",
+        "cccc           c",
+        "ccc             ",
+        "cccc            ",
+        "ccccc           ",
+        "ccccc           "
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "bunker2",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": [
+      {
+        "char": " ",
+        "block": "minecraft:water"
       },
       {
         "char": "a",
@@ -4929,8 +5444,8 @@
             "block": "minecraft:chest@3", "loot": "chestloot"
           },
           {
-            "random": 10,
-            "block": "minecraft:air"
+            "random": 3,
+            "block": "minecraft:water"
           }
         ]
       },
@@ -5076,7 +5591,7 @@
     "palette": [
       {
         "char": " ",
-        "block": "minecraft:air"
+        "block": "minecraft:water"
       },
       {
         "char": "a",
@@ -5143,7 +5658,7 @@
           },
           {
             "random": 10,
-            "block": "minecraft:air"
+            "block": "minecraft:water"
           }
         ]
       },
@@ -5306,6 +5821,10 @@
       {
         "char": "e",
         "block": "minecraft:iron_door@8"
+      },
+      {
+        "char": "f",
+        "block": "minecraft:gravel"
       }
     ],
     "meta": [
@@ -5316,22 +5835,22 @@
     ],
     "slices": [
       [
-        "                ",
-        "                ",
-        "                ",
-        "                ",
-        "                ",
-        "                ",
-        "      bbbb      ",
-        "      bccb      ",
-        "      bccb      ",
-        "      bbbb    b ",
-        "             bbb",
-        "             b b",
-        "             b b",
-        "             bdb",
-        "                ",
-        "                "
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffffffffffff",
+        "ffffffbbbbffffff",
+        "ffffffbccbffffff",
+        "ffffffbccbffffff",
+        "ffffffbbbbffffbf",
+        "fffffffffffffbbb",
+        "fffffffffffffb b",
+        "fffffffffffffb b",
+        "fffffffffffffbdb",
+        "ffffffffffffffff",
+        "ffffffffffffffff"
       ],
       [
         "                ",

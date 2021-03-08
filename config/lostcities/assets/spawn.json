@@ -1,0 +1,12 @@
+[
+  {
+    "type": "sphere",
+    "name": "spawnsphere",
+    "dimension": 0,
+    "chunkx": 10,
+    "chunkz": 10,
+    "centerx": 168,
+    "centerz": 168,
+    "radius": 96
+  }
+]

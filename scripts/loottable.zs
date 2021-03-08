@@ -90,19 +90,27 @@ lostcitychest.removeEntry("minecraft:gold_ingot");
 lostcitychest.removeEntry("minecraft:diamond");
 lostcitychest.removeEntry("minecraft:emerald");
 
-val lcchestnew = LootTweaker.getTable("lostcities:chests/lostcitychest").addPool("lcchestnew", 10, 20, 0, 0);
+val lcchestnew = LootTweaker.getTable("lostcities:chests/lostcitychest").addPool("lcchestnew", 5, 10, 0, 0);
 
-lcchestnew.addItemEntry(<contenttweaker:scrap1>, 5);
-lcchestnew.addItemEntry(<contenttweaker:scrap2>, 5);
-lcchestnew.addItemEntry(<contenttweaker:scrap3>, 5);
-lcchestnew.addItemEntry(<contenttweaker:scrap4>, 5);
-lcchestnew.addItemEntry(<contenttweaker:scrap5>, 5);
-lcchestnew.addItemEntry(<contenttweaker:scrap6>, 5);
-lcchestnew.addItemEntry(<contenttweaker:scrap7>, 5);
-lcchestnew.addItemEntry(<contenttweaker:scrap8>, 5);
-lcchestnew.addItemEntry(<minecraft:flint>, 15);
-lcchestnew.addItemEntry(<minecraft:bone>, 10);
-lcchestnew.addItemEntry(<minecraft:web>, 10);
+lcchestnew.addItemEntry(<contenttweaker:scrap1>, 50);
+lcchestnew.addItemEntry(<contenttweaker:scrap2>, 50);
+lcchestnew.addItemEntry(<contenttweaker:scrap3>, 50);
+lcchestnew.addItemEntry(<contenttweaker:scrap4>, 50);
+lcchestnew.addItemEntry(<contenttweaker:scrap5>, 50);
+lcchestnew.addItemEntry(<contenttweaker:scrap6>, 50);
+lcchestnew.addItemEntry(<contenttweaker:scrap7>, 50);
+lcchestnew.addItemEntry(<contenttweaker:scrap8>, 50);
+lcchestnew.addItemEntry(<minecraft:flint>, 150);
+lcchestnew.addItemEntry(<minecraft:bone>, 100);
+lcchestnew.addItemEntry(<minecraft:web>, 100);
+lcchestnew.addItemEntry(<techguns:handcannon>, 20);
+lcchestnew.addItemEntry(<techguns:itemshared>*8, 50);
+lcchestnew.addItemEntry(<techguns:revolver>, 10);
+lcchestnew.addItemEntry(<techguns:itemshared:1>*2, 30);
+lcchestnew.addItemEntry(<techguns:goldenrevolver>, 1);
+lcchestnew.addItemEntry(<techguns:sawedoff>, 10);
+lcchestnew.addItemEntry(<techguns:itemshared:2>*4, 30);
+
 
 val raildungeonchest = LootTweaker.getTable("lostcities:chests/raildungeonchest").getPool("lostcities:raildungeonchest");
 raildungeonchest.removeEntry("minecraft:diamond_axe");
