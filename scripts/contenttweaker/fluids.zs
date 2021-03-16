@@ -79,27 +79,9 @@ thorium_slurry.register();
 
 
 //Petrochem liquid
-var crude_heavy = VanillaFactory.createFluid("crude_heavy", Color.fromHex("252525"));
-crude_heavy.viscosity = 3000;
-crude_heavy.register();
-
-var crude_heavy_desalted = VanillaFactory.createFluid("crude_heavy_desalted", Color.fromHex("252525"));
-crude_heavy_desalted.viscosity = 3000;
-crude_heavy_desalted.register();
-
-var crude_desalted = VanillaFactory.createFluid("crude_desalted", Color.fromHex("252525"));
-crude_desalted.viscosity = 2000;
-crude_desalted.register();
-
-var oil_brine = VanillaFactory.createFluid("oil_brine", Color.fromHex("ADD8E6"));
-oil_brine.register();
-
 var heavy_oil_hot = VanillaFactory.createFluid("heavy_oil_hot", Color.fromHex("DAA520"));
 heavy_oil_hot.temperature = 1000;
 heavy_oil_hot.register();
-
-var gas_oil = VanillaFactory.createFluid("gas_oil", Color.fromHex("F4A460"));
-gas_oil.register();
 
 var vgo = VanillaFactory.createFluid("vgo", Color.fromHex("D2691E"));
 vgo.register();
@@ -312,18 +294,6 @@ fuel_gas.register();
 var fuel_gas_raw = VanillaFactory.createFluid("fuel_gas_raw", Color.fromHex("A4D83C"));
 fuel_gas_raw.gaseous = true;
 fuel_gas_raw.register();
-
-var naphtha_vapour = VanillaFactory.createFluid("naphtha_vapour", Color.fromHex("F5DEB3"));
-naphtha_vapour.gaseous = true;
-naphtha_vapour.register();
-
-var kerosene_vapour = VanillaFactory.createFluid("kerosene_vapour", Color.fromHex("87CEEB"));
-kerosene_vapour.gaseous = true;
-kerosene_vapour.register();
-
-var gas_oil_vapour = VanillaFactory.createFluid("gas_oil_vapour", Color.fromHex("F4A460"));
-gas_oil_vapour.gaseous = true;
-gas_oil_vapour.register();
 
 var gas_oil_hydrocracked = VanillaFactory.createFluid("gas_oil_hydrocracked", Color.fromHex("F4A460"));
 gas_oil_hydrocracked.register();
