@@ -60,6 +60,11 @@ val stronghold_corridor_vanilla = LootTweaker.getTable("minecraft:chests/strongh
 stronghold_corridor_vanilla.removeEntry("minecraft:iron_ingot");
 stronghold_corridor_vanilla.removeEntry("minecraft:gold_ingot");
 
+//Mods
+val frbag = LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("forestry_storage_items");
+frbag.removeEntry("forestry:miner_bag");
+
+
 //Fishing
 val fish = LootTweaker.getTable("minecraft:gameplay/fishing/fish").getPool("main");
 val junk = LootTweaker.getTable("minecraft:gameplay/fishing/junk").getPool("main");

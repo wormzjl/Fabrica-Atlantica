@@ -27,9 +27,6 @@ static removed as IItemStack[] = [
   <nuclearcraft:condenser_tube_hard_carbon>,
   <nuclearcraft:condenser_tube_thermoconducting>,
   <qmd:ore_leacher>,
-  <qmd:helium_collector>,
-  <qmd:neon_collector>,
-  <qmd:argon_collector>,
   <qmd:sword_tungsten_carbide>,
   <qmd:pickaxe_tungsten_carbide>,
   <qmd:shovel_tungsten_carbide>,
@@ -42,6 +39,13 @@ for item in removed {
 }
 
 //mods.jei.JEI.removeAndHide(<nuclearcraft:supercooler_idle>);
+
+furnace.remove(<nuclearcraft:ingot:3>);
+furnace.remove(<nuclearcraft:ingot:5>);
+furnace.remove(<nuclearcraft:ingot:6>);
+furnace.remove(<nuclearcraft:ingot:7>);
+furnace.remove(<nuclearcraft:ingot:8>);
+furnace.remove(<nuclearcraft:ingot:11>);
 
 //ores
 mods.qmd.ore_leacher.removeAllRecipes();
