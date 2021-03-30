@@ -13,7 +13,7 @@ var excluded as IItemStack[] = [
   <ic2:dust:*>,
   <ic2:ingot:*>,
   <ic2:plate:*>,
-
+  <ic2:resource:*>,
   <ic2:te:47>,
   <ic2:te:56>
 ];

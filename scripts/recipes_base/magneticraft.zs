@@ -22,8 +22,20 @@ static removed as IItemStack[] = [
   <magneticraft:pneumatic_restriction_tube>,
   <magneticraft:relay>,
   <magneticraft:filter>,
-  <magneticraft:transposer>
-
+  <magneticraft:transposer>,
+  <magneticraft:battery>,
+  <magneticraft:solar_tower>,
+  <magneticraft:solar_mirror>,
+  <magneticraft:electric_engine>,
+  <magneticraft:rf_transformer>,
+  <magneticraft:steam_engine>,
+  <magneticraft:rf_heater>,
+  <magneticraft:solar_panel>,
+  <magneticraft:pumpjack>,
+  <magneticraft:iron_gear>,
+  <magneticraft:steel_gear>,
+  <magneticraft:tungsten_gear>,
+  <magneticraft:broken_gear>
 ];
 
 for item in removed {
@@ -32,23 +44,14 @@ for item in removed {
 
 recipes.remove(<magneticraft:electric_piston>);
 
-recipes.remove(<magneticraft:solar_panel>);
 recipes.remove(<magneticraft:shelving_unit>);
-recipes.remove(<magneticraft:steam_engine>);
 recipes.remove(<magneticraft:grinder>);
 recipes.remove(<magneticraft:sieve>);
-recipes.remove(<magneticraft:solar_tower>);
-recipes.remove(<magneticraft:solar_mirror>);
 recipes.remove(<magneticraft:container>);
-recipes.remove(<magneticraft:pumpjack>);
 recipes.remove(<magneticraft:hydraulic_press>);
 recipes.remove(<magneticraft:oil_heater>);
 recipes.remove(<magneticraft:refinery>);
 recipes.remove(<magneticraft:big_combustion_chamber>);
-
-recipes.remove(<magneticraft:iron_gear>);
-recipes.remove(<magneticraft:steel_gear>);
-recipes.remove(<magneticraft:tungsten_gear>);
 
 recipes.remove(<magneticraft:multiblock_parts:*>);
 recipes.remove(<magneticraft:multiblock_column>);
@@ -82,9 +85,6 @@ recipes.addShaped(<magneticraft:heat_pipe> * 5, [[null, <ore:plateSteel>, null],
 recipes.remove(<magneticraft:insulated_heat_pipe>);
 recipes.addShaped(<magneticraft:insulated_heat_pipe> * 5, [[<pneumaticcraft:plastic:15>, <magneticraft:heat_pipe>, <pneumaticcraft:plastic:15>], [<magneticraft:heat_pipe>, <magneticraft:heat_pipe>, <magneticraft:heat_pipe>], [<pneumaticcraft:plastic:15>, <magneticraft:heat_pipe>, <pneumaticcraft:plastic:15>]]);
 recipes.addShaped(<magneticraft:insulated_heat_pipe> * 5, [[<pneumaticcraft:plastic:15>, <ore:plateSteel>, <pneumaticcraft:plastic:15>], [<ore:plateSteel>, <ore:ingotCopper>, <ore:plateSteel>], [<pneumaticcraft:plastic:15>, <ore:plateSteel>, <pneumaticcraft:plastic:15>]]);
-
-recipes.remove(<magneticraft:battery>);
-recipes.addShaped(<magneticraft:battery>, [[<magneticraft:battery_item_low:*>, <magneticraft:battery_item_low:*>, <magneticraft:battery_item_low:*>], [<ore:plateSteel>, <magneticraft:multiblock_parts:2>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
 recipes.remove(<magneticraft:wrench>);
 recipes.addShaped(<magneticraft:wrench>, [[null, <ore:plateIron>, <ore:ingotIron>], [<ore:dustRedstone>, <ore:ingotIron>, null], [<ore:ingotIron>, <ore:dustRedstone>, null]]);
