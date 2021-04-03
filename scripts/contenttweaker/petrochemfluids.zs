@@ -39,6 +39,7 @@ val fluids_hot = {
   crude_desalted : "252525",
   adu_gas_light : "FFFFF6",
   adu_gas_heavy : "FFFFF6",
+  sr_naphtha : "F5DEB3",
   sr_kerosene : "87CEEB",
   sr_go : "F4A460",
   ar : "643C0B"
@@ -47,6 +48,8 @@ val fluids_hot = {
 val fluids_boiling = {
   crude_heavy_desalted : "252525",
   crude_desalted : "252525",
+  sr_naphtha : "F5DEB3",
+  sr_kerosene : "87CEEB",
   sr_go : "F4A460",
   ar : "643C0B"
 } as string[string];
