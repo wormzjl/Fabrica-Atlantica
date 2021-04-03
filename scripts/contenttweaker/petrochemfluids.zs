@@ -13,6 +13,7 @@ val fluids_ambient = {
   adu_gas_light : "FFFFF6",
   adu_gas_heavy : "FFFFF6",
   off_gas : "FFFFFA",
+  sour_water : "005E7F",
   sr_naphtha : "F5DEB3",
   sr_kerosene : "87CEEB",
   sr_go : "F4A460",

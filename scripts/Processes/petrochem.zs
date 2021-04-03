@@ -93,6 +93,15 @@ mmrecipecount = add3phaseseprecipe(40, drumprocessingtime, {<liquid:water>:1000,
 
 
 //ADU
+team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:crude_desalted>*343, <liquid:crude_desalted_warm>*343, 100);
+team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:crude_heavy_desalted>*338, <liquid:crude_heavy_desalted_warm>*338, 100);
+
+team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:crude_desalted_warm>*308, <liquid:crude_desalted_hot>*308, 100);
+team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:crude_heavy_desalted_warm>*300, <liquid:crude_heavy_desalted_hot>*300, 100);
+
+team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:crude_desalted_hot>*282, <liquid:crude_desalted_boiling>*282, 100);
+team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:crude_heavy_desalted_hot>*271, <liquid:crude_heavy_desalted_boiling>*271, 100);
+
 mods.magneticraft.OilHeater.addRecipe(<liquid:crude_desalted>*heaterbatchsize, <liquid:crude_desalted_boiling>*heaterbatchsize, 183, 900);
 mods.magneticraft.OilHeater.addRecipe(<liquid:crude_heavy_desalted>*heaterbatchsize, <liquid:crude_heavy_desalted_boiling>*heaterbatchsize, 189, 900);
 
@@ -104,6 +113,9 @@ mods.magneticraft.OilHeater.addRecipe(<liquid:crude_heavy_desalted_hot>*heaterba
 
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:ar_boiling>*4250,<liquid:sr_go_boiling>*2300,<liquid:sr_kerosene_hot>*950,<liquid:adu_gas_light_hot>*2500], [<immersiveengineering:material:6>], <liquid:crude_desalted_boiling>*10000, 10, 200, [0.000001]);
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:ar_boiling>*5200,<liquid:sr_go_boiling>*2250,<liquid:sr_kerosene_hot>*800,<liquid:adu_gas_heavy_hot>*1750], [<immersiveengineering:material:6>], <liquid:crude_heavy_desalted_boiling>*10000, 10, 200, [0.000001]);
+
+mmrecipecount = add3phaseseprecipe2(drumprocessingtime, {<liquid:adu_gas_light>:1000, <liquid:off_gas>:120, <liquid:sr_naphtha>:880, <liquid:sour_water>:20} as int[ILiquidStack], mmrecipecount, scaleeff);
+mmrecipecount = add3phaseseprecipe2(drumprocessingtime, {<liquid:adu_gas_heavy>:1000, <liquid:off_gas>:57, <liquid:sr_naphtha>:943, <liquid:sour_water>:20} as int[ILiquidStack], mmrecipecount, scaleeff);
 
 mmrecipecount = addaircoolerrecipe(ACduty, 94, {<liquid:adu_gas_light_hot>:ACbatchsize, <liquid:adu_gas_light>:ACbatchsize} as int[ILiquidStack], mmrecipecount, scaleeff);
 mmrecipecount = addaircoolerrecipe(ACduty, 96, {<liquid:adu_gas_heavy_hot>:ACbatchsize, <liquid:adu_gas_heavy>:ACbatchsize} as int[ILiquidStack], mmrecipecount, scaleeff);
@@ -119,7 +131,6 @@ mmrecipecount = addaircoolerrecipe(ACduty, 62, {<liquid:sr_go_hot>:ACbatchsize, 
 mmrecipecount = addaircoolerrecipe(ACduty, 64, {<liquid:ar_hot>:ACbatchsize, <liquid:ar>:ACbatchsize} as int[ILiquidStack], mmrecipecount, scaleeff);
 mmrecipecount = addaircoolerrecipe(ACduty, 29, {<liquid:sr_go_warm>:ACbatchsize, <liquid:sr_go>:ACbatchsize} as int[ILiquidStack], mmrecipecount, scaleeff);
 mmrecipecount = addaircoolerrecipe(ACduty, 29, {<liquid:ar_warm>:ACbatchsize, <liquid:ar>:ACbatchsize} as int[ILiquidStack], mmrecipecount, scaleeff);
-
 
 //VDU
 
@@ -137,6 +148,20 @@ function add3phaseseprecipe(power as int, time as int, inputs as int[ILiquidStac
   number += 1;
   mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "steelliqliqseplarge", time, 0)
   .addEnergyPerTickInput(power*scaleeff[2]).addFluidInput(inputs.keys[0]*(inputs.values[0]*scaleeff[2])).addFluidInput(inputs.keys[1]*(inputs.values[1]*scaleeff[2])).addFluidOutput(inputs.keys[2]*(inputs.values[2]*scaleeff[2])).addFluidOutput(inputs.keys[3]*(inputs.values[3]*scaleeff[2])).addFluidOutput(inputs.keys[4]*(inputs.values[4]*scaleeff[2])).build();
+  return number;
+}
+
+function add3phaseseprecipe2(time as int, inputs as int[ILiquidStack], recipenumber as int, scaleeff as int[]) as int{
+  var number as int;
+  number = recipenumber + 1;
+  mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "steelliqliqsepsmall", time, 0)
+  .addFluidInput(inputs.keys[0]*(inputs.values[0]*scaleeff[0])).addFluidOutput(inputs.keys[1]*(inputs.values[1]*scaleeff[0])).addFluidOutput(inputs.keys[2]*(inputs.values[2]*scaleeff[0])).addFluidOutput(inputs.keys[3]*(inputs.values[3]*scaleeff[0])).build();
+  number += 1;
+  mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "steelliqliqsepmedium", time, 0)
+  .addFluidInput(inputs.keys[0]*(inputs.values[0]*scaleeff[1])).addFluidOutput(inputs.keys[1]*(inputs.values[1]*scaleeff[1])).addFluidOutput(inputs.keys[2]*(inputs.values[2]*scaleeff[1])).addFluidOutput(inputs.keys[3]*(inputs.values[3]*scaleeff[1])).build();
+  number += 1;
+  mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "steelliqliqseplarge", time, 0)
+  .addFluidInput(inputs.keys[0]*(inputs.values[0]*scaleeff[2])).addFluidOutput(inputs.keys[1]*(inputs.values[1]*scaleeff[2])).addFluidOutput(inputs.keys[2]*(inputs.values[2]*scaleeff[2])).addFluidOutput(inputs.keys[3]*(inputs.values[3]*scaleeff[2])).build();
   return number;
 }
 
