@@ -171,10 +171,6 @@ gas_oil_cracked_hot.register();
 
 
 //Petrochem Gas
-var natural_gas = VanillaFactory.createFluid("natural_gas", Color.fromHex("E7F7CA"));
-natural_gas.gaseous = true;
-natural_gas.register();
-
 var natural_gas_hot = VanillaFactory.createFluid("natural_gas_hot", Color.fromHex("E7F7CA"));
 natural_gas_hot.gaseous = true;
 natural_gas_hot.temperature = 1000;

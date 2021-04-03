@@ -5,11 +5,13 @@ import mods.contenttweaker.Fluid;
 import mods.contenttweaker.Color;
 
 val fluids_ambient = {
-  crude_heavy : 252525,
-  crude_heavy_desalted : 252525,
-  crude_desalted : 252525,
+  natural_gas : "E7F7CA",
+  crude_heavy : "252525",
+  crude_heavy_desalted : "252525",
+  crude_desalted : "252525",
   oil_brine : "ADD8E6",
-  adu_gas : "FFFFF6",
+  adu_gas_light : "FFFFF6",
+  adu_gas_heavy : "FFFFF6",
   off_gas : "FFFFFA",
   sr_naphtha : "F5DEB3",
   sr_kerosene : "87CEEB",
@@ -19,10 +21,12 @@ val fluids_ambient = {
 } as string[string];
 
 val fluids_warm = {
-  crude_heavy : 252525,
-  crude_heavy_desalted : 252525,
-  crude_desalted : 252525,
-  adu_gas : "FFFFF6",
+  oil : "252525",
+  crude_heavy : "252525",
+  crude_heavy_desalted : "252525",
+  crude_desalted : "252525",
+  adu_gas_light : "FFFFF6",
+  adu_gas_heavy : "FFFFF6",
   sr_naphtha : "F5DEB3",
   sr_kerosene : "87CEEB",
   sr_go : "F4A460",
@@ -30,15 +34,20 @@ val fluids_warm = {
 } as string[string];
 
 val fluids_hot = {
-  crude_heavy_desalted : 252525,
-  crude_desalted : 252525,
+  crude_heavy_desalted : "252525",
+  crude_desalted : "252525",
+  adu_gas_light : "FFFFF6",
+  adu_gas_heavy : "FFFFF6",
+  sr_kerosene : "87CEEB",
   sr_go : "F4A460",
   ar : "643C0B"
 } as string[string];
 
 val fluids_boiling = {
-  crude_heavy_desalted : 252525,
-  crude_desalted : 252525
+  crude_heavy_desalted : "252525",
+  crude_desalted : "252525",
+  sr_go : "F4A460",
+  ar : "643C0B"
 } as string[string];
 
 val fluids_blazing = {
@@ -64,7 +73,7 @@ function addAmbientFluid(fluids as string[string]){
 function addWarmFluid(fluids as string[string]){
   for fluid in fluids {
     var fluid1 = VanillaFactory.createFluid(fluid + "_warm", Color.fromHex(fluids[fluid]));
-    fluid1.temperature = 400;
+    fluid1.temperature = 390;
     fluid1.register();
   }
 }

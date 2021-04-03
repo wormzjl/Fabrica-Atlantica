@@ -31,3 +31,10 @@ for liquid in MgCFuelRemoved {
 //IT
 // mods.immersivetechnology.Boiler.addRecipe(ILiquidStack output, ILiquidStack input, int time);
 // mods.immersivetechnology.Boiler.addFuel(ILiquidStack input, int time, double heat);
+
+
+//PnC ref https://github.com/TeamPneumatic/pnc-repressurized/blob/256c80f8ab20b8f950feaaca59148752497a62db/src/main/java/me/desht/pneumaticcraft/datagen/ModRecipeProvider.java#L1424
+mods.pneumaticcraft.liquidfuel.removeAllFuels();
+
+//Steam
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:steam>*1389, <liquid:condensate_water>*8, 50);
