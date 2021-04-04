@@ -1,14 +1,25 @@
 <!-->
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	XML recipes are being DEPRECATED soon.
+	This means that recipes registered via the XML for MACHINES will no longer work
+	To avoid issues that may arise from this, please either distribute a RESOURCE PACK
+	with relevant JSON recipes OR user Craft tweaker + Advanced rocketry tweaker (3rd party)
+	https://minecraft.curseforge.com/projects/advanced-rocketry-tweaker
+	
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	
 	<Recipe timeRequired="NUMBER" power="NUMBER">
 		<input>
-			<fluidStack>FLUID NAME SIZE</fluidStack>
-			<itemStack>ITEM_NAME SIZE META</itemStack>
-			<oreDict>OREDICT_NAME SIZE</oreDict>
+			<fluidStack>FLUID NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
         </input>
 		<output>
-			<fluidStack>FLUID_NAME SIZE</fluidStack>
-			<itemStack>ITEM_NAME SIZE META</itemStack>
-			<oreDict>OREDICT_NAME SIZE</oreDict>
+			<fluidStack>FLUID_NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
 		</output>
 	</Recipe>
 	
@@ -23,11 +34,11 @@
 <Recipes useDefault="true">
 	<Recipe timeRequired="100" power ="20">
 		<input>
-			<fluidStack>water 10</fluidStack>
+			<fluidStack>water;10</fluidStack>
 		</input>
 		<output>
-			<fluidStack>oxygen 100</fluidStack>
-			<fluidStack>hydrogen 100</fluidStack>
+			<fluidStack>hydrogen;100</fluidStack>
+			<fluidStack>oxygen;100</fluidStack>
 		</output>
 	</Recipe>
 </Recipes>

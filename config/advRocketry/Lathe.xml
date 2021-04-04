@@ -1,14 +1,25 @@
 <!-->
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	XML recipes are being DEPRECATED soon.
+	This means that recipes registered via the XML for MACHINES will no longer work
+	To avoid issues that may arise from this, please either distribute a RESOURCE PACK
+	with relevant JSON recipes OR user Craft tweaker + Advanced rocketry tweaker (3rd party)
+	https://minecraft.curseforge.com/projects/advanced-rocketry-tweaker
+	
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	
 	<Recipe timeRequired="NUMBER" power="NUMBER">
 		<input>
-			<fluidStack>FLUID NAME SIZE</fluidStack>
-			<itemStack>ITEM_NAME SIZE META</itemStack>
-			<oreDict>OREDICT_NAME SIZE</oreDict>
+			<fluidStack>FLUID NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
         </input>
 		<output>
-			<fluidStack>FLUID_NAME SIZE</fluidStack>
-			<itemStack>ITEM_NAME SIZE META</itemStack>
-			<oreDict>OREDICT_NAME SIZE</oreDict>
+			<fluidStack>FLUID_NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
 		</output>
 	</Recipe>
 	
@@ -23,18 +34,34 @@
 <Recipes useDefault="true">
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotTitaniumAluminide</oreDict>
+			<oreDict>ingotAluminum</oreDict>
 		</input>
 		<output>
-			<itemStack>advancedrocketry:productrod 2</itemStack>
+			<itemStack>contenttweaker:aluminum_rod;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotAluminum</oreDict>
+			<oreDict>ingotBrass</oreDict>
 		</input>
 		<output>
-			<itemStack>immersiveengineering:material 2 3</itemStack>
+			<itemStack>contenttweaker:brass_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIron</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:iron_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTungsten</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:tungsten_rod;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -42,15 +69,15 @@
 			<oreDict>ingotTitanium</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productrod 2 7</itemStack>
+			<itemStack>contenttweaker:titanium_rod;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotIridium</oreDict>
+			<oreDict>ingotLead</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productrod 2 10</itemStack>
+			<itemStack>contenttweaker:lead_rod;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -58,7 +85,39 @@
 			<oreDict>ingotCopper</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productrod 2 4</itemStack>
+			<itemStack>contenttweaker:copper_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:bronze_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotGold</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:gold_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitaniumAluminide</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productrod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotHastelloy</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:hastelloy_rod;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -66,7 +125,63 @@
 			<oreDict>ingotSteel</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productrod 2 6</itemStack>
+			<itemStack>contenttweaker:steel_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotZinc</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:zinc_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:silver_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSsteel</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:ssteel_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTin</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:tin_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotInvar</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:invar_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNickel</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:nickel_rod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productrod;2;10</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -74,15 +189,7 @@
 			<oreDict>ingotTitaniumIridium</oreDict>
 		</input>
 		<output>
-			<itemStack>advancedrocketry:productrod 2 1</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="100">
-		<input>
-			<oreDict>ingotIron</oreDict>
-		</input>
-		<output>
-			<itemStack>libvulpes:productrod 2 1</itemStack>
+			<itemStack>advancedrocketry:productrod;2;1</itemStack>
 		</output>
 	</Recipe>
 </Recipes>
