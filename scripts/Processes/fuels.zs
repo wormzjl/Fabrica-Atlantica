@@ -37,12 +37,12 @@ for liquid in MgCFuelRemoved {
 //PnC ref https://github.com/TeamPneumatic/pnc-repressurized/blob/256c80f8ab20b8f950feaaca59148752497a62db/src/main/java/me/desht/pneumaticcraft/datagen/ModRecipeProvider.java#L1424
 mods.pneumaticcraft.liquidfuel.removeAllFuels();
 
-//Steam
+//Steam: default:MP, NuC HP: Supercritical
 val def1 = <liquid:steam>.definition;
 def1.temperature = 450;
 
 val def2 = <liquid:condensate_water>.definition;
-def2.temperature = 390;
+def2.temperature = 440;
 
 val def3 = <liquid:high_pressure_steam>.definition;
 def3.temperature = 820;

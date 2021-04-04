@@ -67,7 +67,7 @@ mods.immersiveengineering.Refinery.addRecipe(<liquid:kerosene>*500, <liquid:sr_k
 mods.immersiveengineering.Refinery.addRecipe(<liquid:diesel>*500, <liquid:sr_go>*1000, <liquid:steam>*100, 64);
 mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_oil>*200, <liquid:ar>*1000, <liquid:steam>*100, 64);
 mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_oil>*500, <liquid:sr_vgo>*1000, <liquid:steam>*100, 64);
-mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_oil>*200, <liquid:r_vacuum_residue>*1000, <liquid:steam>*100, 64);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_oil>*200, <liquid:sr_vacuum_residue>*1000, <liquid:steam>*100, 64);
 
 
 //Warm products can be converted directly
@@ -75,7 +75,7 @@ mods.immersiveengineering.Refinery.addRecipe(<liquid:kerosene>*500, <liquid:sr_k
 mods.immersiveengineering.Refinery.addRecipe(<liquid:diesel>*500, <liquid:sr_go_warm>*1000, <liquid:steam>*100, 64);
 mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_oil>*200, <liquid:ar_warm>*1000, <liquid:steam>*100, 64);
 mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_oil>*500, <liquid:sr_vgo_warm>*1000, <liquid:steam>*100, 64);
-mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_oil>*200, <liquid:r_vacuum_residue_warm>*1000, <liquid:steam>*100, 64);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_oil>*200, <liquid:sr_vacuum_residue_warm>*1000, <liquid:steam>*100, 64);
 
 
 //Refining
@@ -111,8 +111,8 @@ mods.magneticraft.OilHeater.addRecipe(<liquid:crude_heavy_desalted>*heaterbatchs
 mods.magneticraft.OilHeater.addRecipe(<liquid:crude_desalted_warm>*heaterbatchsize, <liquid:crude_desalted_hot>*heaterbatchsize, 82, 900);
 mods.magneticraft.OilHeater.addRecipe(<liquid:crude_heavy_desalted_warm>*heaterbatchsize, <liquid:crude_heavy_desalted_hot>*heaterbatchsize, 84, 900);
 
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:ar_boiling>*425,<liquid:sr_go_boiling>*230,<liquid:sr_kerosene_hot>*95,<liquid:adu_gas_light_hot>*250], [<immersiveengineering:material:6>], <liquid:crude_desalted_boiling>*1000, 10, 20, [0.000001]);
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:ar_boiling>*520,<liquid:sr_go_boiling>*225,<liquid:sr_kerosene_hot>*80,<liquid:adu_gas_heavy_hot>*175], [<immersiveengineering:material:6>], <liquid:crude_heavy_desalted_boiling>*1000, 10, 20, [0.000001]);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:adu_gas_light_warm>*250,<liquid:sr_kerosene_hot>*95,<liquid:sr_go_hot>*230,<liquid:ar_hot>*425], [<immersiveengineering:material:6>], <liquid:crude_desalted_hot>*1000, 10, 20, [0.000001]);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:adu_gas_heavy_warm>*175,<liquid:sr_kerosene_hot>*80,<liquid:sr_go_hot>*225,<liquid:ar_hot>*520], [<immersiveengineering:material:6>], <liquid:crude_heavy_desalted_hot>*1000, 10, 20, [0.000001]);
 
 //ADU Products
 mmrecipecount = add3phaseseprecipe2(drumprocessingtime, <liquid:adu_gas_light>, 1000, <liquid:sr_naphtha>, 880, <liquid:sour_water>, 20, <liquid:off_gas>, 120, mmrecipecount, scaleeff);
@@ -166,7 +166,7 @@ mmrecipecount = addaircoolerrecipe(ACduty, 78, <liquid:ar_hot>, ACbatchsize, <li
 mmrecipecount = addaircoolerrecipe(ACduty, 32, <liquid:ar_warm>, ACbatchsize, <liquid:ar>, ACbatchsize, mmrecipecount, scaleeff);
 
 //VDU
-mods.magneticraft.Refinery.addRecipe(<liquid:ar_boiling> * 500, <liquid:sr_vgo_hot>*294, null, <liquid:sr_vacuum_residue_boiling>*206, 20);
+mods.magneticraft.Refinery.addRecipe(<liquid:ar_boiling>*500, <liquid:sr_vacuum_residue_boiling>*206, null, <liquid:sr_vgo_hot>*294, 20);
 
 team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:sr_vgo_boiling>*274, <liquid:sr_vgo_hot>*274, 100);
 team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:sr_vgo_hot>*217, <liquid:sr_vgo_warm>*217, 100);
