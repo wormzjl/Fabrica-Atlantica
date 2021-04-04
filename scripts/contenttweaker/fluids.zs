@@ -79,27 +79,6 @@ thorium_slurry.register();
 
 
 //Petrochem liquid
-var heavy_oil_hot = VanillaFactory.createFluid("heavy_oil_hot", Color.fromHex("DAA520"));
-heavy_oil_hot.temperature = 1000;
-heavy_oil_hot.register();
-
-var vgo = VanillaFactory.createFluid("vgo", Color.fromHex("D2691E"));
-vgo.register();
-
-var vgo_vapour = VanillaFactory.createFluid("vgo_vapour", Color.fromHex("D2691E"));
-vgo_vapour.gaseous = true;
-vgo_vapour.register();
-
-var vacuum_residue = VanillaFactory.createFluid("vacuum_residue", Color.fromHex("725E5E"));
-vacuum_residue.register();
-
-var vacuum_residue_cracked_hot = VanillaFactory.createFluid("vacuum_residue_cracked_hot", Color.fromHex("A38F8F"));
-vacuum_residue_cracked_hot.temperature = 1000;
-vacuum_residue_cracked_hot.register();
-
-var vacuum_residue_cracked = VanillaFactory.createFluid("vacuum_residue_cracked", Color.fromHex("A38F8F"));
-vacuum_residue_cracked.register();
-
 var naphtha_desulfurized = VanillaFactory.createFluid("naphtha_desulfurized", Color.fromHex("F5DEB3"));
 naphtha_desulfurized.gaseous = true;
 naphtha_desulfurized.register();

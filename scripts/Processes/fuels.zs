@@ -1,6 +1,7 @@
-#priority 1000
+#priority 1001
 
 import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.liquid.ILiquidDefinition;
 
 //Default Removal
 var MgCFuelRemoved as ILiquidStack[] = [
@@ -37,4 +38,15 @@ for liquid in MgCFuelRemoved {
 mods.pneumaticcraft.liquidfuel.removeAllFuels();
 
 //Steam
+val def1 = <liquid:steam>.definition;
+def1.temperature = 450;
+
+val def2 = <liquid:condensate_water>.definition;
+def2.temperature = 390;
+
+val def3 = <liquid:high_pressure_steam>.definition;
+def3.temperature = 820;
+
+
+
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:steam>*1389, <liquid:condensate_water>*8, 50);
