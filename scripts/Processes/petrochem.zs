@@ -192,13 +192,13 @@ mmrecipecount = addaircoolerrecipe(ACduty, 32, <liquid:sr_vacuum_residue_warm>, 
 function add3phaseseprecipe(power as int, time as int, input1 as ILiquidStack, in1 as int, input2 as ILiquidStack, in2 as int, output1 as ILiquidStack, out1 as int, output2 as ILiquidStack, out2 as int, output3 as ILiquidStack, out3 as int, recipenumber as int, eff as int[]) as int{
   var number as int;
   number = recipenumber + 1;
-  mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "steelliqliqsepsmall", time, 0)
+  mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "steel3phasesepsmall", time, 0)
   .addEnergyPerTickInput(power*eff[0]).addFluidInput(input1*(in1*eff[0])).addFluidInput(input2*(in2*eff[0])).addFluidOutput(output1*(out1*eff[0])).addFluidOutput(output2*(out2*eff[0])).addFluidOutput(output3*(out3*eff[0])).build();
   number += 1;
-  mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "steelliqliqsepmedium", time, 0)
+  mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "steel3phasesepmedium", time, 0)
   .addEnergyPerTickInput(power*eff[1]).addFluidInput(input1*(in1*eff[1])).addFluidInput(input2*(in2*eff[1])).addFluidOutput(output1*(out1*eff[1])).addFluidOutput(output2*(out2*eff[1])).addFluidOutput(output3*(out3*eff[1])).build();
   number += 1;
-  mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "steelliqliqseplarge", time, 0)
+  mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "steel3phaseseplarge", time, 0)
   .addEnergyPerTickInput(power*eff[2]).addFluidInput(input1*(in1*eff[2])).addFluidInput(input2*(in2*eff[2])).addFluidOutput(output1*(out1*eff[2])).addFluidOutput(output2*(out2*eff[2])).addFluidOutput(output3*(out3*eff[2])).build();
   return number;
 }
@@ -206,13 +206,13 @@ function add3phaseseprecipe(power as int, time as int, input1 as ILiquidStack, i
 function add3phaseseprecipe2(time as int, input1 as ILiquidStack, in1 as int, output1 as ILiquidStack, out1 as int, output2 as ILiquidStack, out2 as int, output3 as ILiquidStack, out3 as int, recipenumber as int, eff as int[]) as int{
   var number as int;
   number = recipenumber + 1;
-  mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "steelliqliqsepsmall", time, 0)
+  mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "steel3phasesepsmall", time, 0)
   .addFluidInput(input1*(in1*eff[0])).addFluidOutput(output1*(out1*eff[0])).addFluidOutput(output2*(out2*eff[0])).addFluidOutput(output3*(out3*eff[0])).build();
   number += 1;
-  mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "steelliqliqsepmedium", time, 0)
+  mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "steel3phasesepmedium", time, 0)
   .addFluidInput(input1*(in1*eff[1])).addFluidOutput(output1*(out1*eff[1])).addFluidOutput(output2*(out2*eff[1])).addFluidOutput(output3*(out3*eff[1])).build();
   number += 1;
-  mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "steelliqliqseplarge", time, 0)
+  mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "steel3phaseseplarge", time, 0)
   .addFluidInput(input1*(in1*eff[2])).addFluidOutput(output1*(out1*eff[2])).addFluidOutput(output2*(out2*eff[2])).addFluidOutput(output3*(out3*eff[2])).build();
   return number;
 }

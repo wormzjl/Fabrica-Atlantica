@@ -4,11 +4,35 @@
     "color": "D7D7D7",
     "parts": [
         {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
             "x": -1,
             "y": 0,
             "z": 0,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
             ]
         },
         {
@@ -60,6 +84,22 @@
             ]
         },
         {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
             "x": 3,
             "y": 0,
             "z": 0,
@@ -68,49 +108,9 @@
             ]
         },
         {
-            "x": -3,
-            "y": 2,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
             "x": 0,
             "y": 0,
-            "z": 8,
+            "z": 4,
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -118,7 +118,7 @@
         {
             "x": 2,
             "y": 2,
-            "z": 9,
+            "z": 5,
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -126,7 +126,7 @@
         {
             "x": 3,
             "y": 2,
-            "z": 9,
+            "z": 5,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -134,7 +134,7 @@
         {
             "x": 2,
             "y": 0,
-            "z": 8,
+            "z": 4,
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -142,7 +142,7 @@
         {
             "x": 3,
             "y": 0,
-            "z": 8,
+            "z": 4,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -216,7 +216,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "modularmachinery:blockredstonebus@0"
+                "immersiveengineering:sheetmetal@9"
             ]
         },
         {
@@ -252,6 +252,22 @@
             ]
         },
         {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
             "x": -2,
             "y": -1,
             "z": 0,
@@ -284,702 +300,6 @@
             ]
         },
         {
-            "x": 2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 7,
-            "elements": [
-                "industrialrenewal:catwalk_column_steel@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 7,
-            "elements": [
-                "industrialrenewal:catwalk_column_steel@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "industrialrenewal:catwalk_column_steel@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:metal_decoration1@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "industrialrenewal:catwalk_column_steel@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "industrialrenewal:catwalk_column_steel@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:metal_decoration1@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:metal_decoration0@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:metal_decoration1@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "industrialrenewal:catwalk_column_steel@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "industrialrenewal:catwalk_column_steel@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:metal_decoration1@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "industrialrenewal:catwalk_column_steel@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
             "x": -3,
             "y": -1,
             "z": 3,
@@ -991,6 +311,14 @@
             "x": -1,
             "y": 3,
             "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -1004,6 +332,14 @@
             ]
         },
         {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
             "x": 1,
             "y": 3,
             "z": 5,
@@ -1028,6 +364,14 @@
             ]
         },
         {
+            "x": -3,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
             "x": 3,
             "y": -1,
             "z": 3,
@@ -1036,17 +380,17 @@
             ]
         },
         {
-            "x": -3,
+            "x": 3,
             "y": -3,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "industrialrenewal:catwalk_steel_pillar@0"
             ]
         },
         {
             "x": 3,
-            "y": -3,
-            "z": 10,
+            "y": -2,
+            "z": 0,
             "elements": [
                 "industrialrenewal:catwalk_steel_pillar@0"
             ]
@@ -1054,7 +398,47 @@
         {
             "x": -3,
             "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
             "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -1073,6 +457,30 @@
             "z": 4,
             "elements": [
                 "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
             ]
         },
         {
@@ -1124,6 +532,14 @@
             ]
         },
         {
+            "x": -3,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
             "x": 3,
             "y": 0,
             "z": 3,
@@ -1132,17 +548,17 @@
             ]
         },
         {
-            "x": -3,
+            "x": 3,
             "y": -2,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "industrialrenewal:catwalk_steel_pillar@0"
             ]
         },
         {
             "x": 3,
-            "y": -2,
-            "z": 10,
+            "y": -3,
+            "z": 0,
             "elements": [
                 "industrialrenewal:catwalk_steel_pillar@0"
             ]
@@ -1161,6 +577,14 @@
             "z": 4,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
             ]
         },
         {
@@ -1188,6 +612,14 @@
             ]
         },
         {
+            "x": -3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
             "x": 3,
             "y": 1,
             "z": 3,
@@ -1196,6 +628,14 @@
             ]
         },
         {
+            "x": -2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "industrialrenewal:catwalk_column_steel@0"
+            ]
+        },
+        {
             "x": 3,
             "y": -1,
             "z": 2,
@@ -1204,25 +644,9 @@
             ]
         },
         {
-            "x": -3,
-            "y": -1,
-            "z": 10,
-            "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 10,
-            "elements": [
-                "industrialrenewal:catwalk_column_steel@0"
-            ]
-        },
-        {
             "x": -1,
             "y": -1,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "industrialrenewal:catwalk_column_steel@0"
             ]
@@ -1230,7 +654,7 @@
         {
             "x": 0,
             "y": -1,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "industrialrenewal:catwalk_column_steel@0"
             ]
@@ -1238,7 +662,7 @@
         {
             "x": 1,
             "y": -1,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "industrialrenewal:catwalk_column_steel@0"
             ]
@@ -1246,7 +670,7 @@
         {
             "x": 2,
             "y": -1,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "industrialrenewal:catwalk_column_steel@0"
             ]
@@ -1254,7 +678,7 @@
         {
             "x": 3,
             "y": -1,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "industrialrenewal:catwalk_steel_pillar@0"
             ]
@@ -1308,49 +732,49 @@
             ]
         },
         {
-            "x": 2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
             "x": -3,
             "y": 0,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
             ]
         },
         {
             "x": -2,
             "y": 0,
-            "z": 10,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -1358,7 +782,7 @@
         {
             "x": -1,
             "y": 0,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -1366,7 +790,7 @@
         {
             "x": 0,
             "y": 0,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -1374,7 +798,7 @@
         {
             "x": 1,
             "y": 0,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -1382,7 +806,7 @@
         {
             "x": 2,
             "y": 0,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -1390,7 +814,7 @@
         {
             "x": 3,
             "y": 0,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -1444,6 +868,14 @@
             ]
         },
         {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
             "x": 2,
             "y": 3,
             "z": 3,
@@ -1452,6 +884,22 @@
             ]
         },
         {
+            "x": -3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "industrialrenewal:catwalk_column_steel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
             "x": 3,
             "y": 1,
             "z": 2,
@@ -1460,41 +908,9 @@
             ]
         },
         {
-            "x": 3,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "industrialrenewal:catwalk_column_steel@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 10,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 9,
-            "elements": [
-                "industrialrenewal:catwalk_column_steel@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 10,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
             "x": -1,
             "y": 1,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -1502,15 +918,23 @@
         {
             "x": 0,
             "y": 1,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "modularmachinery:blockfluidoutputhatch"
             ]
         },
         {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "industrialrenewal:catwalk_column_steel@0"
+            ]
+        },
+        {
             "x": 1,
             "y": 1,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -1518,7 +942,7 @@
         {
             "x": 2,
             "y": 1,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -1526,7 +950,7 @@
         {
             "x": 3,
             "y": 1,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -1534,7 +958,7 @@
         {
             "x": 3,
             "y": -1,
-            "z": 9,
+            "z": 5,
             "elements": [
                 "industrialrenewal:catwalk_column_steel@0"
             ]
@@ -1588,6 +1012,30 @@
             ]
         },
         {
+            "x": -3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
             "x": 2,
             "y": 2,
             "z": 2,
@@ -1612,41 +1060,9 @@
             ]
         },
         {
-            "x": 3,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 10,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 10,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
             "x": -2,
             "y": 0,
-            "z": 9,
+            "z": 5,
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -1654,7 +1070,7 @@
         {
             "x": -1,
             "y": 2,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -1662,7 +1078,15 @@
         {
             "x": 0,
             "y": 2,
-            "z": 10,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -1670,7 +1094,7 @@
         {
             "x": 0,
             "y": 0,
-            "z": 9,
+            "z": 5,
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -1678,7 +1102,7 @@
         {
             "x": 1,
             "y": 2,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -1686,7 +1110,7 @@
         {
             "x": 2,
             "y": 2,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -1694,7 +1118,7 @@
         {
             "x": 3,
             "y": 2,
-            "z": 10,
+            "z": 6,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -1702,7 +1126,7 @@
         {
             "x": 2,
             "y": 0,
-            "z": 9,
+            "z": 5,
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -1710,7 +1134,7 @@
         {
             "x": 3,
             "y": 0,
-            "z": 9,
+            "z": 5,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -1764,6 +1188,14 @@
             ]
         },
         {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
             "x": 2,
             "y": 3,
             "z": 2,
@@ -1780,33 +1212,9 @@
             ]
         },
         {
-            "x": 2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:sheetmetal@9"
-            ]
-        },
-        {
             "x": -3,
             "y": -1,
-            "z": 8,
+            "z": 4,
             "elements": [
                 "industrialrenewal:catwalk_column_steel@0"
             ]
@@ -1814,31 +1222,7 @@
         {
             "x": -2,
             "y": 1,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 9,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 9,
+            "z": 5,
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -1846,7 +1230,7 @@
         {
             "x": 2,
             "y": 1,
-            "z": 9,
+            "z": 1,
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -1854,7 +1238,47 @@
         {
             "x": 3,
             "y": 1,
-            "z": 9,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
             "elements": [
                 "immersiveengineering:sheetmetal@9"
             ]
@@ -1862,7 +1286,7 @@
         {
             "x": 3,
             "y": -1,
-            "z": 8,
+            "z": 4,
             "elements": [
                 "industrialrenewal:catwalk_column_steel@0"
             ]
