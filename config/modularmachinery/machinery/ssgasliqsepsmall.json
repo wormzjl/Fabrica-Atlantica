@@ -1,14 +1,14 @@
 {
-    "registryname": "steelgasliqsepsmall",
-    "localizedname": "Steel Gas - Liquid Separator (Small)",
-    "color": "AEAEAE",
+    "registryname": "ssgasliqsepsmall",
+    "localizedname": "Stainless Steel Gas - Liquid Separator (Small)",
+    "color": "D0DDEC",
     "parts": [
         {
             "x": -1,
             "y": 0,
             "z": 1,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -16,7 +16,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -24,7 +24,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -32,7 +32,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -40,7 +40,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -64,7 +64,7 @@
             "y": 5,
             "z": 0,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -80,7 +80,7 @@
             "y": 5,
             "z": 1,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -88,7 +88,7 @@
             "y": 5,
             "z": 2,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -96,7 +96,7 @@
             "y": 5,
             "z": 1,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -112,7 +112,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -128,7 +128,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -144,7 +144,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -152,7 +152,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -168,7 +168,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -176,7 +176,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -184,7 +184,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -192,7 +192,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -280,7 +280,7 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -288,7 +288,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -304,7 +304,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -312,7 +312,7 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -320,7 +320,7 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {

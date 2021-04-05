@@ -54,7 +54,6 @@ val fluids_hot = {
 } as string[string];
 
 val fluids_boiling = {
-  sr_naphtha : "F5DEB3",
   sr_kerosene : "87CEEB",
   sr_go : "F4A460",
   ar : "643C0B",
@@ -65,12 +64,30 @@ val fluids_boiling = {
 val fluids_blazing = {
 } as string[string];
 
+
+val gas_warm = {
+  hydrogen : "B59EC3"
+} as string[string];
+
+val gas_hot = {
+  hydrogen : "B59EC3"
+} as string[string];
+
+val gas_boiling = {
+  hydrogen : "B59EC3"
+} as string[string];
+
+
 addAmbientFluid(fluids_ambient_misc);
 addAmbientFluid(fluids_ambient);
 addWarmFluid(fluids_warm);
 addHotFluid(fluids_hot);
 addBoilingFluid(fluids_boiling);
 addBlazingFluid(fluids_blazing);
+
+addWarmGas(gas_warm);
+addHotGas(gas_hot);
+addBoilingGas(gas_boiling);
 
 
 //Functions
@@ -110,6 +127,52 @@ function addBlazingFluid(fluids as string[string]){
   for fluid in fluids {
     var fluid1 = VanillaFactory.createFluid(fluid + "_blazing", Color.fromHex(fluids[fluid]));
     fluid1.temperature = 900;
+    fluid1.register();
+  }
+}
+
+
+function addAmbientGas(fluids as string[string]){
+  for fluid in fluids {
+    var fluid1 = VanillaFactory.createFluid(fluid, Color.fromHex(fluids[fluid]));
+    fluid1.temperature = 300;
+    fluid1.gaseous = true;
+    fluid1.register();
+  }
+}
+
+function addWarmGas(fluids as string[string]){
+  for fluid in fluids {
+    var fluid1 = VanillaFactory.createFluid(fluid + "_warm", Color.fromHex(fluids[fluid]));
+    fluid1.temperature = 430;
+    fluid1.gaseous = true;
+    fluid1.register();
+  }
+}
+
+function addHotGas(fluids as string[string]){
+  for fluid in fluids {
+    var fluid1 = VanillaFactory.createFluid(fluid + "_hot", Color.fromHex(fluids[fluid]));
+    fluid1.temperature = 590;
+    fluid1.gaseous = true;
+    fluid1.register();
+  }
+}
+
+function addBoilingGas(fluids as string[string]){
+  for fluid in fluids {
+    var fluid1 = VanillaFactory.createFluid(fluid + "_boiling", Color.fromHex(fluids[fluid]));
+    fluid1.temperature = 700;
+    fluid1.gaseous = true;
+    fluid1.register();
+  }
+}
+
+function addBlazingGas(fluids as string[string]){
+  for fluid in fluids {
+    var fluid1 = VanillaFactory.createFluid(fluid + "_blazing", Color.fromHex(fluids[fluid]));
+    fluid1.temperature = 900;
+    fluid1.gaseous = true;
     fluid1.register();
   }
 }
