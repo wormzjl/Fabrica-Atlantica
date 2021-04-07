@@ -18,13 +18,15 @@ val fluids_ambient = {
   crude_desalted : "252525",
   adu_gas_light : "FFFFF6",
   adu_gas_heavy : "FFFFF6",
-  off_gas : "FFFFFA",
+  adu_off_gas : "FFFFFA",
   sr_naphtha : "F5DEB3",
   sr_kerosene : "87CEEB",
   sr_go : "F4A460",
   ar : "643C0B",
   sr_vgo : "1C1C00",
-  sr_vacuum_residue : "000000"
+  sr_vacuum_residue : "000000",
+  hdt_off_gas : "FFFFF3",
+  sr_nht_eff_mix : "F5EAD9"
 } as string[string];
 
 val fluids_warm = {
@@ -39,7 +41,8 @@ val fluids_warm = {
   sr_go : "F4A460",
   ar : "643C0B",
   sr_vgo : "1C1C00",
-  sr_vacuum_residue : "000000"
+  sr_vacuum_residue : "000000",
+  sr_nht_eff_mix : "F5EAD9"
 } as string[string];
 
 val fluids_hot = {
@@ -50,7 +53,8 @@ val fluids_hot = {
   sr_go : "F4A460",
   ar : "643C0B",
   sr_vgo : "1C1C00",
-  sr_vacuum_residue : "000000"
+  sr_vacuum_residue : "000000",
+  sr_nht_eff_mix : "F5EAD9"
 } as string[string];
 
 val fluids_boiling = {
