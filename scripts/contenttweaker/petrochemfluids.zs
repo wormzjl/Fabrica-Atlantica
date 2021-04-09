@@ -26,7 +26,8 @@ val fluids_ambient = {
   sr_vgo : "1C1C00",
   sr_vacuum_residue : "000000",
   hdt_off_gas : "FFFFF3",
-  sr_nht_eff_mix : "F5EAD9"
+  sr_nht_eff_mix : "F5EAD9",
+  hdt_naphtha : "F5DEB3"
 } as string[string];
 
 val fluids_warm = {
@@ -69,6 +70,11 @@ val fluids_blazing = {
 } as string[string];
 
 
+val gas_ambient = {
+  hdt_sourgas : "FFF900",
+  hdt_offgas : "FFF9F3"
+} as string[string];
+
 val gas_warm = {
   hydrogen : "B59EC3"
 } as string[string];
@@ -89,6 +95,7 @@ addHotFluid(fluids_hot);
 addBoilingFluid(fluids_boiling);
 addBlazingFluid(fluids_blazing);
 
+addAmbientGas(gas_ambient);
 addWarmGas(gas_warm);
 addHotGas(gas_hot);
 addBoilingGas(gas_boiling);
