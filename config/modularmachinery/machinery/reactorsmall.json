@@ -4,11 +4,35 @@
     "color": "AEAEAE",
     "parts": [
         {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
             "x": 1,
             "y": 2,
             "z": 1,
             "elements": [
                 "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
             ]
         },
         {
@@ -20,6 +44,14 @@
             ]
         },
         {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
             "x": -1,
             "y": 7,
             "z": 1,
@@ -84,6 +116,14 @@
             ]
         },
         {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
             "x": -1,
             "y": 3,
             "z": 1,
@@ -108,14 +148,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "casings_catalyst"
-            ]
-        },
-        {
             "x": 1,
             "y": 3,
             "z": 1,
@@ -133,6 +165,14 @@
         },
         {
             "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
             "y": 1,
             "z": 2,
             "elements": [
@@ -165,22 +205,6 @@
         },
         {
             "x": -1,
-            "y": 8,
-            "z": 1,
-            "elements": [
-                "contenttweaker:steelcasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "contenttweaker:steelcasing@0"
-            ]
-        },
-        {
-            "x": 0,
             "y": 8,
             "z": 1,
             "elements": [
@@ -188,11 +212,27 @@
             ]
         },
         {
+            "x": -1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
             "x": 1,
             "y": 8,
             "z": 1,
             "elements": [
-                "contenttweaker:steelcasing@0"
+                "modularmachinery:blockfluidinputhatch"
             ]
         },
         {
@@ -217,6 +257,14 @@
             "z": 0,
             "elements": [
                 "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
             ]
         },
         {
@@ -256,7 +304,7 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "contenttweaker:reactorinternal@0"
+                "casings_catalyst"
             ]
         },
         {
@@ -273,6 +321,14 @@
             "z": 0,
             "elements": [
                 "contenttweaker:steelcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
             ]
         },
         {
@@ -333,6 +389,22 @@
         },
         {
             "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
             "y": 7,
             "z": 0,
             "elements": [
@@ -385,14 +457,6 @@
             "z": 2,
             "elements": [
                 "contenttweaker:steelcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "casings_catalyst"
             ]
         },
         {
@@ -476,6 +540,22 @@
             ]
         },
         {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
             "x": 0,
             "y": 8,
             "z": 0,
@@ -497,14 +577,6 @@
             "z": 2,
             "elements": [
                 "contenttweaker:steelcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "casings_catalyst"
             ]
         },
         {
@@ -569,14 +641,6 @@
             "z": 2,
             "elements": [
                 "contenttweaker:steelcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "casings_catalyst"
             ]
         }
     ]}

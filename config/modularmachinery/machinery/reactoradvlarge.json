@@ -4,163 +4,155 @@
     "color": "D0DDEC",
     "parts": [
         {
-            "x": 3,
+            "x": -2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column_steel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:advreactorinternal@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column_steel@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column_steel@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_column_steel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 0,
             "y": 6,
-            "z": 3,
+            "z": -1,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
             "x": 2,
-            "y": 4,
-            "z": 2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": -1,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
-            "x": 1,
-            "y": 2,
+            "x": -2,
+            "y": 11,
             "z": 1,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
-            "x": 3,
-            "y": 4,
+            "x": -1,
+            "y": 13,
             "z": 2,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
+            "x": 0,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "casings_catalyst"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
             "x": 2,
-            "y": 2,
+            "y": 11,
             "z": 1,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
-            "x": -3,
-            "y": 9,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 11,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 13,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 13,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 9,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 11,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
             "x": 1,
-            "y": 13,
-            "z": 6,
+            "y": 9,
+            "z": 0,
             "elements": [
                 "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "contenttweaker:advreactorinternal@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 11,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "contenttweaker:advreactorinternal@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 11,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "contenttweaker:advreactorinternal@0"
             ]
         },
         {
@@ -172,43 +164,27 @@
             ]
         },
         {
-            "x": 2,
-            "y": 9,
-            "z": 4,
+            "x": -1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 3,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
             "x": 1,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "contenttweaker:advreactorinternal@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 1,
+            "y": 5,
+            "z": 2,
             "elements": [
                 "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 9,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "contenttweaker:advreactorinternal@0"
             ]
         },
         {
@@ -220,41 +196,9 @@
             ]
         },
         {
-            "x": 3,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
             "x": 0,
             "y": 1,
             "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 5,
-            "z": 2,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
@@ -276,9 +220,33 @@
             ]
         },
         {
-            "x": -3,
-            "y": 10,
-            "z": 4,
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": -1,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
@@ -286,7 +254,15 @@
         {
             "x": -2,
             "y": 12,
-            "z": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 2,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
@@ -294,31 +270,15 @@
         {
             "x": 0,
             "y": 14,
-            "z": 6,
+            "z": 2,
             "elements": [
-                "contenttweaker:sscasing@0"
+                "contenttweaker:advreactorinternal@0"
             ]
         },
         {
-            "x": -3,
-            "y": 8,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 10,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 12,
-            "z": 5,
+            "x": 1,
+            "y": 14,
+            "z": 2,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
@@ -326,65 +286,33 @@
         {
             "x": 0,
             "y": 12,
-            "z": 5,
+            "z": 1,
             "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 8,
-            "z": 3,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 12,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
+                "casings_catalyst"
             ]
         },
         {
             "x": -1,
-            "y": 8,
-            "z": 3,
+            "y": 10,
+            "z": 0,
             "elements": [
-                "contenttweaker:reactorinternal@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
             "x": 2,
             "y": 12,
-            "z": 5,
+            "z": 1,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
-            "x": 0,
-            "y": 8,
-            "z": 3,
+            "x": 1,
+            "y": 10,
+            "z": 0,
             "elements": [
-                "contenttweaker:reactorinternal@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -400,55 +328,15 @@
             "y": 6,
             "z": 2,
             "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 10,
-            "z": 4,
-            "elements": [
                 "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 3,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
             ]
         },
         {
             "x": 0,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 10,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
             "y": 8,
             "z": 3,
             "elements": [
-                "contenttweaker:reactorinternal@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -456,7 +344,15 @@
             "y": 6,
             "z": 2,
             "elements": [
-                "contenttweaker:reactorinternal@0"
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "casings_catalyst"
             ]
         },
         {
@@ -468,43 +364,11 @@
             ]
         },
         {
-            "x": 3,
-            "y": 8,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
             "x": 0,
             "y": 2,
             "z": 0,
             "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
+                "contenttweaker:advreactorinternal@0"
             ]
         },
         {
@@ -524,72 +388,96 @@
             ]
         },
         {
-            "x": -3,
-            "y": 11,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
             "x": -2,
-            "y": 13,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 9,
+            "y": 0,
             "z": 3,
             "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 11,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
+                "industrialrenewal:catwalk_steel_pillar@0"
             ]
         },
         {
             "x": -1,
-            "y": 13,
-            "z": 5,
+            "y": 0,
+            "z": 3,
             "elements": [
-                "contenttweaker:sscasing@0"
+                "industrialrenewal:catwalk_column_steel@0"
             ]
         },
         {
             "x": 0,
-            "y": 13,
-            "z": 5,
+            "y": 0,
+            "z": 3,
             "elements": [
-                "contenttweaker:sscasing@0"
+                "industrialrenewal:catwalk_column_steel@0"
             ]
         },
         {
-            "x": -3,
-            "y": 7,
-            "z": 2,
+            "x": 0,
+            "y": 4,
+            "z": -1,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
             "x": 1,
-            "y": 13,
-            "z": 5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "industrialrenewal:catwalk_column_steel@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": -1,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
             "x": -2,
-            "y": 7,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
             "z": 2,
             "elements": [
                 "contenttweaker:sscasing@0"
@@ -598,7 +486,15 @@
         {
             "x": 2,
             "y": 13,
-            "z": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 0,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
@@ -608,7 +504,7 @@
             "y": 9,
             "z": 3,
             "elements": [
-                "modularmachinery:blockcatalystbus@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -624,47 +520,7 @@
             "y": 7,
             "z": 2,
             "elements": [
-                "contenttweaker:advreactorinternal@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 11,
-            "z": 4,
-            "elements": [
                 "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "contenttweaker:advreactorinternal@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 11,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "contenttweaker:advreactorinternal@0"
             ]
         },
         {
@@ -676,43 +532,19 @@
             ]
         },
         {
-            "x": 3,
-            "y": 9,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
+            "x": 1,
             "y": 7,
             "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 1,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
             "x": 0,
-            "y": 3,
-            "z": 0,
+            "y": 5,
+            "z": 1,
             "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
+                "casings_catalyst"
             ]
         },
         {
@@ -732,273 +564,17 @@
             ]
         },
         {
-            "x": -3,
-            "y": 12,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 10,
+            "x": 0,
+            "y": 1,
             "z": 3,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
-            "x": -2,
-            "y": 12,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 14,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
             "x": 0,
-            "y": 14,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 8,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 12,
-            "z": 4,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 14,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 12,
-            "z": 4,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 8,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 12,
-            "z": 4,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 10,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcatalystbus@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": 2,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 12,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 2,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 12,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 2,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 10,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 8,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 8,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 13,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 11,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 13,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 15,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 9,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 9,
-            "z": 2,
+            "y": 3,
+            "z": -1,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
@@ -1006,52 +582,284 @@
         {
             "x": 0,
             "y": 11,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcatalystbus@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 1,
+            "z": -1,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
-            "x": 2,
-            "y": 13,
-            "z": 4,
+            "x": -2,
+            "y": 14,
+            "z": 1,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
             "x": -1,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 13,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
+            "y": 14,
             "z": 1,
             "elements": [
                 "contenttweaker:advreactorinternal@0"
             ]
         },
         {
+            "x": 0,
+            "y": 16,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1,
+            "elements": [
+                "contenttweaker:advreactorinternal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 1,
+            "elements": [
+                "contenttweaker:advreactorinternal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 14,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "contenttweaker:advreactorinternal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "casings_catalyst"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "industrialrenewal:catwalk_column_steel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "industrialrenewal:catwalk_column_steel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockredstonebus"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "industrialrenewal:catwalk_column_steel@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "industrialrenewal:catwalk_column_steel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 15,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 15,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
             "x": -1,
             "y": 5,
             "z": 0,
@@ -1060,39 +868,7 @@
             ]
         },
         {
-            "x": 3,
-            "y": 11,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 9,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
             "x": 1,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
             "y": 9,
             "z": 2,
             "elements": [
@@ -1116,689 +892,137 @@
             ]
         },
         {
-            "x": -3,
-            "y": 12,
+            "x": 0,
+            "y": 3,
             "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 14,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 10,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 12,
-            "z": 3,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 14,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 10,
-            "z": 2,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
             "x": -1,
-            "y": 12,
-            "z": 3,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 14,
-            "z": 4,
+            "y": 1,
+            "z": 2,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
             "x": 0,
-            "y": 12,
-            "z": 3,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 8,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 14,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 12,
-            "z": 3,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 12,
-            "z": 3,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 1,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 12,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 10,
+            "y": 1,
             "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 1,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
             "x": 0,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 10,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 8,
-            "z": 1,
+            "y": 1,
+            "z": -1,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
             "x": 1,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 13,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 11,
+            "y": 1,
             "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 13,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 15,
-            "z": 4,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
             "x": 0,
-            "y": 15,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 11,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 15,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
             "y": 9,
-            "z": 1,
+            "z": -1,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
             "x": -1,
-            "y": 9,
+            "y": 16,
             "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 13,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 13,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 11,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 9,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 0,
             "elements": [
                 "modularmachinery:blockfluidinputhatch"
             ]
         },
         {
-            "x": 3,
-            "y": 11,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 9,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
+            "x": -1,
+            "y": 14,
             "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 14,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 12,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 14,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 12,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 10,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 12,
-            "z": 2,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 12,
-            "z": 2,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 10,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 14,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 12,
-            "z": 2,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 14,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 12,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 10,
-            "z": 1,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
             "x": 0,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 12,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 10,
+            "y": 16,
             "z": 1,
             "elements": [
-                "contenttweaker:sscasing@0"
+                "modularmachinery:blockcasing@1"
             ]
         },
         {
             "x": 1,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 13,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 15,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 13,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 15,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 15,
-            "z": 3,
+            "y": 16,
+            "z": 1,
             "elements": [
                 "modularmachinery:blockfluidinputhatch"
             ]
         },
         {
-            "x": -2,
-            "y": 11,
-            "z": 1,
+            "x": 0,
+            "y": 14,
+            "z": 0,
+            "elements": [
+                "contenttweaker:advreactorinternal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 0,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
-            "x": 1,
-            "y": 15,
+            "x": 0,
+            "y": 12,
             "z": 3,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
-            "x": -1,
-            "y": 11,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 15,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 9,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 13,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 11,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 9,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 13,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 11,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 9,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
             "x": -2,
-            "y": 14,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 12,
+            "y": 8,
             "z": 1,
             "elements": [
                 "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 14,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 12,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 14,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 12,
-            "z": 1,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
             ]
         },
         {
             "x": -1,
             "y": 10,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 14,
             "z": 2,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
-            "x": 1,
-            "y": 12,
+            "x": -1,
+            "y": 8,
             "z": 1,
             "elements": [
-                "contenttweaker:sscasing@0"
+                "contenttweaker:advreactorinternal@0"
             ]
         },
         {
-            "x": 0,
-            "y": 10,
+            "x": -1,
+            "y": 6,
             "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 12,
-            "z": 1,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
@@ -1806,22 +1030,6 @@
         {
             "x": 1,
             "y": 10,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 13,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 15,
             "z": 2,
             "elements": [
                 "contenttweaker:sscasing@0"
@@ -1829,47 +1037,95 @@
         },
         {
             "x": 0,
-            "y": 15,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "contenttweaker:advreactorinternal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "contenttweaker:advreactorinternal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "industrialrenewal:catwalk_column_steel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
             "z": 2,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
-            "x": -1,
-            "y": 13,
-            "z": 1,
+            "x": 1,
+            "y": 0,
+            "z": -1,
             "elements": [
-                "contenttweaker:sscasing@0"
+                "industrialrenewal:catwalk_column_steel@0"
             ]
         },
         {
-            "x": 1,
-            "y": 15,
+            "x": 0,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "industrialrenewal:catwalk_column_steel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
             "z": 2,
             "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 13,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
+                "contenttweaker:advreactorinternal@0"
             ]
         },
         {
             "x": -1,
-            "y": 11,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 13,
+            "y": 0,
             "z": 1,
             "elements": [
                 "contenttweaker:sscasing@0"
@@ -1877,576 +1133,24 @@
         },
         {
             "x": 0,
-            "y": 11,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 13,
+            "y": 0,
             "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 11,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 14,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 14,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 12,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 14,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 12,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 12,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 15,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 13,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 13,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 13,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 14,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockredstonebus@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 3,
             "elements": [
                 "modularmachinery:blockfluidoutputhatch"
             ]
         },
         {
-            "x": 2,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
             "x": -1,
-            "y": 6,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
             "y": 0,
-            "z": 3,
+            "z": -1,
             "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
+                "industrialrenewal:catwalk_column_steel@0"
             ]
         },
         {
             "x": 1,
-            "y": 6,
-            "z": 6,
+            "y": 2,
+            "z": 2,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
@@ -2454,761 +1158,9 @@
         {
             "x": -2,
             "y": 0,
-            "z": 3,
+            "z": -1,
             "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 9,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 9,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 9,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcatalystbus@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 6,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 8,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 10,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 10,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 10,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 5,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 4,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 4,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 8,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 4,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcatalystbus@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 6,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
+                "industrialrenewal:catwalk_steel_pillar@0"
             ]
         },
         {
@@ -3220,17 +1172,41 @@
             ]
         },
         {
-            "x": 3,
-            "y": 2,
-            "z": 2,
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "industrialrenewal:catwalk_column_steel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 0,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
-            "x": -3,
-            "y": 7,
-            "z": 4,
+            "x": 0,
+            "y": 15,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 0,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
@@ -3238,7 +1214,7 @@
         {
             "x": -2,
             "y": 9,
-            "z": 5,
+            "z": 1,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
@@ -3246,39 +1222,15 @@
         {
             "x": -1,
             "y": 11,
-            "z": 6,
+            "z": 2,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
             "x": 0,
-            "y": 11,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 5,
+            "y": 13,
             "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 9,
-            "z": 5,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
@@ -3286,14 +1238,6 @@
         {
             "x": 1,
             "y": 11,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
             "z": 2,
             "elements": [
                 "contenttweaker:sscasing@0"
@@ -3302,31 +1246,7 @@
         {
             "x": -1,
             "y": 7,
-            "z": 4,
-            "elements": [
-                "contenttweaker:advreactorinternal@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 9,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "contenttweaker:advreactorinternal@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 2,
+            "z": 0,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
@@ -3334,7 +1254,7 @@
         {
             "x": 2,
             "y": 9,
-            "z": 5,
+            "z": 1,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
@@ -3342,165 +1262,205 @@
         {
             "x": 1,
             "y": 7,
-            "z": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "minecraft:grass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "casings_catalyst"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0,
             "elements": [
                 "contenttweaker:advreactorinternal@0"
             ]
         },
         {
-            "x": 0,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcatalystbus@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
             "x": 2,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
+            "y": 10,
             "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 2,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
             "x": 1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 2,
+            "y": 8,
+            "z": 0,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
             "x": 2,
-            "y": 1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
             "z": 1,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
-            "x": -3,
-            "y": 8,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 10,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
             "x": -1,
-            "y": 12,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 12,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 8,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 10,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 12,
-            "z": 6,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -3,
             "y": 4,
             "z": 2,
             "elements": [
@@ -3508,39 +1468,23 @@
             ]
         },
         {
-            "x": -2,
+            "x": 0,
             "y": 6,
             "z": 3,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": 4,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 10,
-            "z": 5,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
-            "x": 0,
-            "y": 8,
-            "z": 4,
+            "x": -1,
+            "y": 2,
+            "z": 1,
             "elements": [
-                "contenttweaker:reactorinternal@0"
+                "contenttweaker:advreactorinternal@0"
             ]
         },
         {
-            "x": -2,
+            "x": 1,
             "y": 4,
             "z": 2,
             "elements": [
@@ -3548,91 +1492,11 @@
             ]
         },
         {
-            "x": -1,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 10,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 4,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 8,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 8,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "contenttweaker:reactorinternal@0"
-            ]
-        },
-        {
             "x": 0,
             "y": 2,
             "z": 1,
             "elements": [
-                "contenttweaker:reactorinternal@0"
+                "contenttweaker:advreactorinternal@0"
             ]
         }
     ]}
