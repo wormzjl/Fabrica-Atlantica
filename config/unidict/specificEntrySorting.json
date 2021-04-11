@@ -3,6 +3,7 @@
 		"entryName" : "blockSteel",
 		"modIdPriorityList" :
 		[
+			"ic2",
 			"immersiveengineering",
 			"railcraft"
 		]
