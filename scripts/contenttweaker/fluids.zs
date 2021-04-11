@@ -258,14 +258,6 @@ syngas_hot.gaseous = true;
 syngas_hot.temperature = 1000;
 syngas_hot.register();
 
-var fuel_gas = VanillaFactory.createFluid("fuel_gas", Color.fromHex("A4D83C"));
-fuel_gas.gaseous = true;
-fuel_gas.register();
-
-var fuel_gas_raw = VanillaFactory.createFluid("fuel_gas_raw", Color.fromHex("A4D83C"));
-fuel_gas_raw.gaseous = true;
-fuel_gas_raw.register();
-
 var gas_oil_hydrocracked = VanillaFactory.createFluid("gas_oil_hydrocracked", Color.fromHex("F4A460"));
 gas_oil_hydrocracked.register();
 
@@ -292,9 +284,6 @@ vgo_cracked_hot.register();
 
 var vgo_cracked = VanillaFactory.createFluid("vgo_cracked", Color.fromHex("D2691E"));
 vgo_cracked.register();
-
-var gasoline_adv = VanillaFactory.createFluid("gasoline_adv", Color.fromHex("CC8800"));
-gasoline_adv.register();
 
 var gasoline_bio = VanillaFactory.createFluid("gasoline_bio", Color.fromHex("E69900"));
 gasoline_bio.register();

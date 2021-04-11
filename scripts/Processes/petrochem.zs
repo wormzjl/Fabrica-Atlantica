@@ -236,14 +236,14 @@ mmrecipecount = addaircoolerrecipe(ACduty, 576/ACRate, <liquid:srn_hdt_basic_eff
 mmrecipecount = addaircoolerrecipe(ACduty, 1135/ACRate, <liquid:srn_hdt_adv_eff_mix_hot>, ACbatchsize, <liquid:srn_hdt_adv_eff_mix>, ACbatchsize, mmrecipecount, scaleeff);
 mmrecipecount = addaircoolerrecipe(ACduty, 566/ACRate, <liquid:srn_hdt_adv_eff_mix_warm>, ACbatchsize, <liquid:srn_hdt_adv_eff_mix>, ACbatchsize, mmrecipecount, scaleeff);
 
-mmrecipecount = add3phaseseprecipe3(drumprocessingtime, <liquid:water>, 0.0967*drumbatchsize, <liquid:srn_hdt_basic_eff_mix>, drumbatchsize, <liquid:hdt_naphtha>, 0.9674*drumbatchsize, <liquid:sour_water>, 0.0967*drumbatchsize, <liquid:srn_hdt_basic_sourgas>, 0.0324*drumbatchsize, mmrecipecount, scaleeff);
-mmrecipecount = add3phaseseprecipe3(drumprocessingtime, <liquid:water>, 0.0976*drumbatchsize, <liquid:srn_hdt_adv_eff_mix>, drumbatchsize, <liquid:hdt_naphtha>, 0.9762*drumbatchsize, <liquid:sour_water>, 0.0976*drumbatchsize, <liquid:srn_hdt_adv_sourgas>, 0.0236*drumbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = add3phaseseprecipe3(drumprocessingtime, <liquid:water>, 0.0967*drumbatchsize, <liquid:srn_hdt_basic_eff_mix>, drumbatchsize, <liquid:hdt_naphtha>, 0.9673935*drumbatchsize+1, <liquid:sour_water>, 0.0967*drumbatchsize, <liquid:srn_hdt_basic_sourgas>, 0.0324126*drumbatchsize+1, mmrecipecount, scaleeff);
+mmrecipecount = add3phaseseprecipe3(drumprocessingtime, <liquid:water>, 0.0976*drumbatchsize, <liquid:srn_hdt_adv_eff_mix>, drumbatchsize, <liquid:hdt_naphtha>, 0.9762469*drumbatchsize+1, <liquid:sour_water>, 0.0976*drumbatchsize, <liquid:srn_hdt_adv_sourgas>, 0.0235575*drumbatchsize, mmrecipecount, scaleeff);
 
-mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_amine>, 0.3296*GLColumnBatchsize, <liquid:srn_hdt_basic_sourgas>, GLColumnBatchsize, <liquid:srn_hdt_basic_sweetgas>, 0.9863*GLColumnBatchsize, <liquid:rich_amine>, 0.3433*GLColumnBatchsize, mmrecipecount, scaleeff);
-mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_amine>, 0.2374*GLColumnBatchsize, <liquid:srn_hdt_adv_sourgas>, GLColumnBatchsize, <liquid:srn_hdt_adv_sweetgas>, 0.9901*GLColumnBatchsize, <liquid:rich_amine>, 0.2472*GLColumnBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_amine>, 0.3295708*GLColumnBatchsize+1, <liquid:srn_hdt_basic_sourgas>, GLColumnBatchsize, <liquid:srn_hdt_basic_sweetgas>, 0.9862679*GLColumnBatchsize, <liquid:rich_amine>, 0.343303*GLColumnBatchsize+1, mmrecipecount, scaleeff);
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_amine>, 0.2373595*GLColumnBatchsize+1, <liquid:srn_hdt_adv_sourgas>, GLColumnBatchsize, <liquid:srn_hdt_adv_sweetgas>, 0.99011*GLColumnBatchsize, <liquid:rich_amine>, 0.2472495*GLColumnBatchsize+1, mmrecipecount, scaleeff);
 
-mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liquid:srn_hdt_basic_sweetgas>, GaspurifierBatchsize, <liquid:hydrogen>, 0.8691*GaspurifierBatchsize, <liquid:hdt_offgas>, 0.1309*GaspurifierBatchsize, mmrecipecount, scaleeff);
-mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liquid:srn_hdt_adv_sweetgas>, GaspurifierBatchsize, <liquid:hydrogen>, 0.5865*GaspurifierBatchsize, <liquid:hdt_offgas>, 0.4135*GaspurifierBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liquid:srn_hdt_basic_sweetgas>, GaspurifierBatchsize, <liquid:hydrogen>, 0.8690817*GaspurifierBatchsize+1, <liquid:hdt_offgas>, 0.1309184*GaspurifierBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liquid:srn_hdt_adv_sweetgas>, GaspurifierBatchsize, <liquid:hydrogen>, 0.5864947*GaspurifierBatchsize, <liquid:hdt_offgas>, 0.4135053*GaspurifierBatchsize+1, mmrecipecount, scaleeff);
 
 
 

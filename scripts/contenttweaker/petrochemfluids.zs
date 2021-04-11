@@ -78,6 +78,7 @@ val fluids_blazing = {
 
 
 val gas_ambient = {
+  fuel_gas : "A4D83C",
   adu_off_gas : "FFFFFA",
   srn_hdt_basic_sourgas : "FFF900",
   srn_hdt_adv_sourgas : "FFF900",
