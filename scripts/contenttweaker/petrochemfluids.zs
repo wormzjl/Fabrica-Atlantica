@@ -8,7 +8,9 @@ import mods.contenttweaker.Color;
 val fluids_ambient_misc = {
   oil_brine : "ADD8E6",
   sour_water : "005E7F",
-  fuel_oil : "1D1002"
+  fuel_oil : "1D1002",
+  lean_amine : "FFE0E8",
+  rich_amine : "FFCEE0"
 } as string[string];
 
 val fluids_ambient = {
@@ -18,7 +20,6 @@ val fluids_ambient = {
   crude_desalted : "252525",
   adu_gas_light : "FFFFF6",
   adu_gas_heavy : "FFFFF6",
-  adu_off_gas : "FFFFFA",
   sr_naphtha : "F5DEB3",
   sr_kerosene : "87CEEB",
   sr_go : "F4A460",
@@ -26,7 +27,8 @@ val fluids_ambient = {
   sr_vgo : "1C1C00",
   sr_vacuum_residue : "000000",
   hdt_off_gas : "FFFFF3",
-  sr_nht_eff_mix : "F5EAD9",
+  srn_hdt_basic_eff_mix : "F5EAD9",
+  srn_hdt_adv_eff_mix : "F5EAD9",
   hdt_naphtha : "F5DEB3"
 } as string[string];
 
@@ -43,7 +45,9 @@ val fluids_warm = {
   ar : "643C0B",
   sr_vgo : "1C1C00",
   sr_vacuum_residue : "000000",
-  sr_nht_eff_mix : "F5EAD9"
+  srn_hdt_basic_eff_mix : "F5EAD9",
+  srn_hdt_adv_eff_mix : "F5EAD9",
+  hdt_naphtha : "F5DEB3"
 } as string[string];
 
 val fluids_hot = {
@@ -55,7 +59,9 @@ val fluids_hot = {
   ar : "643C0B",
   sr_vgo : "1C1C00",
   sr_vacuum_residue : "000000",
-  sr_nht_eff_mix : "F5EAD9"
+  srn_hdt_basic_eff_mix : "F5EAD9",
+  srn_hdt_adv_eff_mix : "F5EAD9",
+  hdt_naphtha : "F5DEB3"
 } as string[string];
 
 val fluids_boiling = {
@@ -63,7 +69,8 @@ val fluids_boiling = {
   sr_go : "F4A460",
   ar : "643C0B",
   sr_vgo : "1C1C00",
-  sr_vacuum_residue : "000000"
+  sr_vacuum_residue : "000000",
+  hdt_naphtha : "F5DEB3"
 } as string[string];
 
 val fluids_blazing = {
@@ -71,7 +78,11 @@ val fluids_blazing = {
 
 
 val gas_ambient = {
-  hdt_sourgas : "FFF900",
+  adu_off_gas : "FFFFFA",
+  srn_hdt_basic_sourgas : "FFF900",
+  srn_hdt_adv_sourgas : "FFF900",
+  srn_hdt_basic_sweetgas : "FFFFC8",
+  srn_hdt_adv_sweetgas : "FFFFC8",
   hdt_offgas : "FFF9F3"
 } as string[string];
 
