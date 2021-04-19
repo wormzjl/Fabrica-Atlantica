@@ -26,10 +26,12 @@ val fluids_ambient = {
   ar : "643C0B",
   sr_vgo : "1C1C00",
   sr_vacuum_residue : "000000",
-  hdt_off_gas : "FFFFF3",
   srn_hdt_basic_eff_mix : "F5EAD9",
   srn_hdt_adv_eff_mix : "F5EAD9",
-  hdt_naphtha : "F5DEB3"
+  hdt_naphtha : "F5DEB3",
+  srkero_hdt_basic_eff_gas : "F5EFE6",
+  srkero_hdt_adv_eff_gas : "F5EFE6",
+  srkero_hdt_fracfeed : "87C1E1"
 } as string[string];
 
 val fluids_warm = {
@@ -47,7 +49,12 @@ val fluids_warm = {
   sr_vacuum_residue : "000000",
   srn_hdt_basic_eff_mix : "F5EAD9",
   srn_hdt_adv_eff_mix : "F5EAD9",
-  hdt_naphtha : "F5DEB3"
+  hdt_naphtha : "F5DEB3",
+  srkero_hdt_basic_eff_mix : "87AECB",
+  srkero_hdt_adv_eff_mix : "87AECB",
+  srkero_hdt_basic_eff_gas : "F5EFE6",
+  srkero_hdt_adv_eff_gas : "F5EFE6",
+  srkero_hdt_fracfeed : "87C1E1"
 } as string[string];
 
 val fluids_hot = {
@@ -61,11 +68,12 @@ val fluids_hot = {
   sr_vacuum_residue : "000000",
   srn_hdt_basic_eff_mix : "F5EAD9",
   srn_hdt_adv_eff_mix : "F5EAD9",
-  hdt_naphtha : "F5DEB3"
+  hdt_naphtha : "F5DEB3",
+  srkero_hdt_basic_eff_mix : "87AECB",
+  srkero_hdt_adv_eff_mix : "87AECB"
 } as string[string];
 
 val fluids_boiling = {
-  sr_kerosene : "87CEEB",
   sr_go : "F4A460",
   ar : "643C0B",
   sr_vgo : "1C1C00",
@@ -76,15 +84,22 @@ val fluids_boiling = {
 val fluids_blazing = {
 } as string[string];
 
+val fluid_special = {
+} as string[string];
+
 
 val gas_ambient = {
   fuel_gas : "A4D83C",
   adu_off_gas : "FFFFFA",
+  hdt_offgas : "FFF9F3",
   srn_hdt_basic_sourgas : "FFF900",
   srn_hdt_adv_sourgas : "FFF900",
   srn_hdt_basic_sweetgas : "FFFFC8",
   srn_hdt_adv_sweetgas : "FFFFC8",
-  hdt_offgas : "FFF9F3"
+  srkero_hdt_basic_sourgas : "FFF900",
+  srkero_hdt_adv_sourgas : "FFF900",
+  srkero_hdt_basic_sweetgas : "FFFFC8",
+  srkero_hdt_adv_sweetgas : "FFFFC8",
 } as string[string];
 
 val gas_warm = {
@@ -106,6 +121,8 @@ addWarmFluid(fluids_warm);
 addHotFluid(fluids_hot);
 addBoilingFluid(fluids_boiling);
 addBlazingFluid(fluids_blazing);
+addSpecialFluid(fluid_special);
+
 
 addAmbientGas(gas_ambient);
 addWarmGas(gas_warm);
@@ -154,6 +171,13 @@ function addBlazingFluid(fluids as string[string]){
   }
 }
 
+function addSpecialFluid(fluids as string[string]){
+  for fluid in fluids {
+    var fluid1 = VanillaFactory.createFluid(fluid, Color.fromHex(fluids[fluid]));
+    fluid1.temperature = 630;
+    fluid1.register();
+  }
+}
 
 function addAmbientGas(fluids as string[string]){
   for fluid in fluids {
