@@ -31,7 +31,8 @@ val fluids_ambient = {
   hdt_naphtha : "F5DEB3",
   srkero_hdt_basic_eff_gas : "F5EFE6",
   srkero_hdt_adv_eff_gas : "F5EFE6",
-  srkero_hdt_fracfeed : "87C1E1"
+  srkero_hdt_fracfeed : "87C1E1",
+  hdt_kerosene : "87CEEB"
 } as string[string];
 
 val fluids_warm = {
@@ -54,7 +55,8 @@ val fluids_warm = {
   srkero_hdt_adv_eff_mix : "87AECB",
   srkero_hdt_basic_eff_gas : "F5EFE6",
   srkero_hdt_adv_eff_gas : "F5EFE6",
-  srkero_hdt_fracfeed : "87C1E1"
+  srkero_hdt_fracfeed : "87C1E1",
+  hdt_kerosene : "87CEEB"
 } as string[string];
 
 val fluids_hot = {

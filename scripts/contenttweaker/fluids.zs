@@ -79,9 +79,6 @@ thorium_slurry.register();
 
 
 //Petrochem liquid
-var kerosene_desulfurized = VanillaFactory.createFluid("kerosene_desulfurized", Color.fromHex("87CEEB"));
-kerosene_desulfurized.register();
-
 var gas_oil_desulfurized = VanillaFactory.createFluid("gas_oil_desulfurized", Color.fromHex("F5B379"));
 gas_oil_desulfurized.gaseous = true;
 gas_oil_desulfurized.register();

@@ -253,17 +253,17 @@ mmrecipecount = addadvreactorrecipe(RXTicktime, <modularmachinery:itemcatalyst:1
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:srkero_hdt_basic_eff_mix_hot>*122, <liquid:srkero_hdt_basic_eff_mix_warm>*122, HXUnit);
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:srkero_hdt_adv_eff_mix_hot>*126, <liquid:srkero_hdt_adv_eff_mix_warm>*126, HXUnit);
 
-mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:srkero_hdt_basic_eff_mix_warm>, drumbatchsize, <liquid:srkero_hdt_basic_eff_gas_warm>, 191*2000/drumbatchsize, <liquid:srkero_hdt_fracfeed_warm>, 1809*2000/drumbatchsize, mmrecipecount, scaleeff);
-mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:srkero_hdt_adv_eff_mix_warm>, drumbatchsize, <liquid:srkero_hdt_adv_eff_gas_warm>, 166*2000/drumbatchsize, <liquid:srkero_hdt_fracfeed_warm>, 1834*2000/drumbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:srkero_hdt_basic_eff_mix_warm>, drumbatchsize, <liquid:srkero_hdt_basic_eff_gas_warm>, 194*2000/drumbatchsize, <liquid:srkero_hdt_fracfeed_warm>, 1806*2000/drumbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:srkero_hdt_adv_eff_mix_warm>, drumbatchsize, <liquid:srkero_hdt_adv_eff_gas_warm>, 168*2000/drumbatchsize, <liquid:srkero_hdt_fracfeed_warm>, 1832*2000/drumbatchsize, mmrecipecount, scaleeff);
 
-team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:srkero_hdt_basic_eff_gas_warm>*104, <liquid:srkero_hdt_basic_eff_gas>*104, HXUnit);
-team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:srkero_hdt_adv_eff_gas_warm>*119, <liquid:srkero_hdt_adv_eff_gas>*119, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:srkero_hdt_basic_eff_gas_warm>*105, <liquid:srkero_hdt_basic_eff_gas>*105, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:srkero_hdt_adv_eff_gas_warm>*121, <liquid:srkero_hdt_adv_eff_gas>*121, HXUnit);
 
-mmrecipecount = addaircoolerrecipe(ACduty, 968/ACRate, <liquid:srkero_hdt_basic_eff_gas_warm>, ACbatchsize, <liquid:srkero_hdt_basic_eff_gas>, ACbatchsize, mmrecipecount, scaleeff);
-mmrecipecount = addaircoolerrecipe(ACduty, 840/ACRate, <liquid:srkero_hdt_adv_eff_gas_warm>, ACbatchsize, <liquid:srkero_hdt_adv_eff_gas>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 958/ACRate, <liquid:srkero_hdt_basic_eff_gas_warm>, ACbatchsize, <liquid:srkero_hdt_basic_eff_gas>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 829/ACRate, <liquid:srkero_hdt_adv_eff_gas_warm>, ACbatchsize, <liquid:srkero_hdt_adv_eff_gas>, ACbatchsize, mmrecipecount, scaleeff);
 
-mmrecipecount = add3phaseseprecipe3(drumprocessingtime, <liquid:water>, 150*2000/drumbatchsize, <liquid:srkero_hdt_basic_eff_gas>, drumbatchsize, <liquid:srkero_hdt_fracfeed>, 997*2000/drumbatchsize, <liquid:sour_water>, 150*2000/drumbatchsize, <liquid:srkero_hdt_basic_sourgas>, 1003*2000/drumbatchsize, mmrecipecount, scaleeff);
-mmrecipecount = add3phaseseprecipe3(drumprocessingtime, <liquid:water>, 175*2000/drumbatchsize, <liquid:srkero_hdt_adv_eff_gas>, drumbatchsize, <liquid:srkero_hdt_fracfeed>, 1166*2000/drumbatchsize, <liquid:sour_water>, 175*2000/drumbatchsize, <liquid:srkero_hdt_adv_sourgas>, 834  *2000/drumbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = add3phaseseprecipe3(drumprocessingtime, <liquid:water>, 147*2000/drumbatchsize, <liquid:srkero_hdt_basic_eff_gas>, drumbatchsize, <liquid:srkero_hdt_fracfeed>, 980*2000/drumbatchsize, <liquid:sour_water>, 147*2000/drumbatchsize, <liquid:srkero_hdt_basic_sourgas>, 1020*2000/drumbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = add3phaseseprecipe3(drumprocessingtime, <liquid:water>, 173*2000/drumbatchsize, <liquid:srkero_hdt_adv_eff_gas>, drumbatchsize, <liquid:srkero_hdt_fracfeed>, 1150*2000/drumbatchsize, <liquid:sour_water>, 173*2000/drumbatchsize, <liquid:srkero_hdt_adv_sourgas>, 850*2000/drumbatchsize, mmrecipecount, scaleeff);
 
 mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_amine>, 303*500/GLColumnBatchsize, <liquid:srkero_hdt_basic_sourgas>, GLColumnBatchsize, <liquid:srkero_hdt_basic_sweetgas>, 487*500/GLColumnBatchsize, <liquid:rich_amine>, 316*500/GLColumnBatchsize, mmrecipecount, scaleeff);
 mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_amine>, 426*500/GLColumnBatchsize, <liquid:srkero_hdt_adv_sourgas>, GLColumnBatchsize, <liquid:srkero_hdt_adv_sweetgas>, 482*500/GLColumnBatchsize, <liquid:rich_amine>, 444*500/GLColumnBatchsize, mmrecipecount, scaleeff);
@@ -271,9 +271,12 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_amine>, 426*500
 mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liquid:srkero_hdt_basic_sweetgas>, GaspurifierBatchsize, <liquid:hydrogen>, 457*500/GaspurifierBatchsize, <liquid:hdt_offgas>, 43*500/GaspurifierBatchsize, mmrecipecount, scaleeff);
 mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liquid:srkero_hdt_adv_sweetgas>, GaspurifierBatchsize, <liquid:hydrogen>, 308*500/GaspurifierBatchsize, <liquid:hdt_offgas>, 192*500/GaspurifierBatchsize, mmrecipecount, scaleeff);
 
-//WIP
-team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:srkero_hdt_fracfeed>*, <liquid:srkero_hdt_fracfeed_warm>*, HXUnit);
-mods.magneticraft.OilHeater.addRecipe(<liquid:srkero_hdt_fracfeed>*heaterbatchsize, <liquid:srkero_hdt_fracfeed_warm>*heaterbatchsize, *heaterbatchsize, 900);
+team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:srkero_hdt_fracfeed>*289, <liquid:srkero_hdt_fracfeed_warm>*289, HXUnit);
+mods.magneticraft.OilHeater.addRecipe(<liquid:srkero_hdt_fracfeed>*heaterbatchsize, <liquid:srkero_hdt_fracfeed_warm>*heaterbatchsize, 33*5000/heaterbatchsize, 900);
+
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:hdt_naphtha>*5,<liquid:hdt_kerosene_warm>*995], [<immersiveengineering:material:6>], <liquid:srkero_hdt_fracfeed_warm>*1000, 10, 100, [0.000001]);
+
+//GO HDT
 
 
 
