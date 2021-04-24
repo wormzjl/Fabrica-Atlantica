@@ -26,13 +26,18 @@ val fluids_ambient = {
   ar : "643C0B",
   sr_vgo : "1C1C00",
   sr_vacuum_residue : "000000",
+  hdt_naphtha : "F5DEB3",
+  hdt_kerosene : "87CEEB",
+  hdt_go : "F5B379",
+  hdt_vgo : "DB813C",
   srn_hdt_basic_eff_mix : "F5EAD9",
   srn_hdt_adv_eff_mix : "F5EAD9",
-  hdt_naphtha : "F5DEB3",
   srkero_hdt_basic_eff_gas : "F5EFE6",
   srkero_hdt_adv_eff_gas : "F5EFE6",
   srkero_hdt_fracfeed : "87C1E1",
-  hdt_kerosene : "87CEEB"
+  srgo_hdt_basic_eff_gas : "F5EFE6",
+  srgo_hdt_adv_eff_gas : "F5EFE6",
+  srgo_hdt_fracfeed: "F49E72"
 } as string[string];
 
 val fluids_warm = {
@@ -48,15 +53,20 @@ val fluids_warm = {
   ar : "643C0B",
   sr_vgo : "1C1C00",
   sr_vacuum_residue : "000000",
+  hdt_naphtha : "F5DEB3",
+  hdt_kerosene : "87CEEB",
+  hdt_go : "F5B379",
+  hdt_vgo : "DB813C",
   srn_hdt_basic_eff_mix : "F5EAD9",
   srn_hdt_adv_eff_mix : "F5EAD9",
-  hdt_naphtha : "F5DEB3",
   srkero_hdt_basic_eff_mix : "87AECB",
   srkero_hdt_adv_eff_mix : "87AECB",
   srkero_hdt_basic_eff_gas : "F5EFE6",
   srkero_hdt_adv_eff_gas : "F5EFE6",
   srkero_hdt_fracfeed : "87C1E1",
-  hdt_kerosene : "87CEEB"
+  srgo_hdt_basic_eff_gas : "F5EFE6",
+  srgo_hdt_adv_eff_gas : "F5EFE6",
+  srgo_hdt_fracfeed: "F49E72"
 } as string[string];
 
 val fluids_hot = {
@@ -68,11 +78,19 @@ val fluids_hot = {
   ar : "643C0B",
   sr_vgo : "1C1C00",
   sr_vacuum_residue : "000000",
+  hdt_naphtha : "F5DEB3",
+  hdt_kerosene : "87CEEB",
+  hdt_go : "F5B379",
+  hdt_vgo : "DB813C",
   srn_hdt_basic_eff_mix : "F5EAD9",
   srn_hdt_adv_eff_mix : "F5EAD9",
-  hdt_naphtha : "F5DEB3",
   srkero_hdt_basic_eff_mix : "87AECB",
-  srkero_hdt_adv_eff_mix : "87AECB"
+  srkero_hdt_adv_eff_mix : "87AECB",
+  srgo_hdt_basic_eff_mix : "F4C890",
+  srgo_hdt_adv_eff_mix : "F4C890",
+  srgo_hdt_basic_eff_gas : "F5EFE6",
+  srgo_hdt_adv_eff_gas : "F5EFE6",
+  srgo_hdt_fracfeed: "F49E72"
 } as string[string];
 
 val fluids_boiling = {
@@ -80,7 +98,12 @@ val fluids_boiling = {
   ar : "643C0B",
   sr_vgo : "1C1C00",
   sr_vacuum_residue : "000000",
-  hdt_naphtha : "F5DEB3"
+  hdt_naphtha : "F5DEB3",
+  hdt_kerosene : "87CEEB",
+  hdt_go : "F5B379",
+  hdt_vgo : "DB813C",
+  srgo_hdt_basic_eff_mix : "F4C890",
+  srgo_hdt_adv_eff_mix : "F4C890"
 } as string[string];
 
 val fluids_blazing = {
@@ -102,6 +125,10 @@ val gas_ambient = {
   srkero_hdt_adv_sourgas : "FFF900",
   srkero_hdt_basic_sweetgas : "FFFFC8",
   srkero_hdt_adv_sweetgas : "FFFFC8",
+  srgo_hdt_basic_sourgas : "FFF900",
+  srgo_hdt_adv_sourgas : "FFF900",
+  srgo_hdt_basic_sweetgas : "FFFFC8",
+  srgo_hdt_adv_sweetgas : "FFFFC8"
 } as string[string];
 
 val gas_warm = {
