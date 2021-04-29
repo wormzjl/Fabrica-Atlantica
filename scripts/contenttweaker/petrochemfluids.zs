@@ -99,7 +99,8 @@ val fluids_hot = {
   srvr_hdt_adv_eff_mix : "1D1109",
   srvr_hdt_basic_eff_gas : "E1C2A5",
   srvr_hdt_adv_eff_gas : "E1C2A5",
-  srvr_hdt_fracfeed : "171109"
+  srvr_hdt_fracfeed : "171109",
+  vrhdt_bottom : "150F0C"
 } as string[string];
 
 val fluids_boiling = {
@@ -117,7 +118,8 @@ val fluids_boiling = {
   srvgo_hdt_adv_eff_mix : "DBA25A",
   srvr_hdt_basic_eff_mix : "1D1109",
   srvr_hdt_adv_eff_s1 : "1D1109",
-  srvr_hdt_adv_eff_mix : "1D1109"
+  srvr_hdt_adv_eff_mix : "1D1109",
+  vrhdt_bottom : "150F0C"
 } as string[string];
 
 val fluids_blazing = {

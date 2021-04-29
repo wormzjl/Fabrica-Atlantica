@@ -121,8 +121,8 @@ mods.immersivepetroleum.Distillation.addRecipe([<liquid:fuel_oil>*109], [<immers
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:fuel_oil>*94], [<immersiveengineering:material:6>*7], <liquid:crude_heavy>*1000, 1477, 100, [1.0]);
 
 //Crude oil desalting - Slower recipe
-mmrecipecount = add3phaseseprecipe(40, 2*drumprocessingtime, <liquid:water>, 500/2000*drumbatchsize, <liquid:oil>, drumbatchsize, <liquid:crude_desalted>, 1970/2000*drumbatchsize, <liquid:oil_brine>, 500/2000*drumbatchsize, <liquid:natural_gas>, 30/2000*drumbatchsize, mmrecipecount, scaleeff);
-mmrecipecount = add3phaseseprecipe(40, 2*drumprocessingtime, <liquid:water>, 500/2000*drumbatchsize, <liquid:crude_heavy>, drumbatchsize, <liquid:crude_heavy_desalted>, 1990/2000*drumbatchsize, <liquid:oil_brine>, 500/2000*drumbatchsize, <liquid:natural_gas>, 10/2000*drumbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = add3phaseseprecipe(40, 2*drumprocessingtime, <liquid:water>, 500*2000/drumbatchsize, <liquid:oil>, drumbatchsize, <liquid:crude_desalted>, 1970*2000/drumbatchsize, <liquid:oil_brine>, 500*2000/drumbatchsize, <liquid:natural_gas>, 30*2000/drumbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = add3phaseseprecipe(40, 2*drumprocessingtime, <liquid:water>, 500*2000/drumbatchsize, <liquid:crude_heavy>, drumbatchsize, <liquid:crude_heavy_desalted>, 1990*2000/drumbatchsize, <liquid:oil_brine>, 500*2000/drumbatchsize, <liquid:natural_gas>, 10*2000/drumbatchsize, mmrecipecount, scaleeff);
 
 //Crude oil desalting - Faster recipe (Gas/brine temperature TBD)
 team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:oil>*268, <liquid:oil_warm>*268, HXUnit);
@@ -131,8 +131,8 @@ team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:crude_heavy>*279, <li
 mods.magneticraft.OilHeater.addRecipe(<liquid:oil>*heaterbatchsize, <liquid:oil_warm>*heaterbatchsize, 35*5000/heaterbatchsize, 600);
 mods.magneticraft.OilHeater.addRecipe(<liquid:crude_heavy>*heaterbatchsize, <liquid:crude_heavy_warm>*heaterbatchsize, 34*5000/heaterbatchsize, 600);
 
-mmrecipecount = add3phaseseprecipe(40, drumprocessingtime, <liquid:water>, 500/2000*drumbatchsize, <liquid:oil_warm>, drumbatchsize, <liquid:crude_desalted_warm>, 1970/2000*drumbatchsize, <liquid:oil_brine>, 500/2000*drumbatchsize, <liquid:natural_gas>, 30/2000*drumbatchsize, mmrecipecount, scaleeff);
-mmrecipecount = add3phaseseprecipe(40, drumprocessingtime, <liquid:water>, 500/2000*drumbatchsize, <liquid:crude_heavy_warm>, drumbatchsize, <liquid:crude_heavy_desalted_warm>, 1990/2000*drumbatchsize, <liquid:oil_brine>, 500/2000*drumbatchsize, <liquid:natural_gas>, 10/2000*drumbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = add3phaseseprecipe(40, drumprocessingtime, <liquid:water>, 500*2000/drumbatchsize, <liquid:oil_warm>, drumbatchsize, <liquid:crude_desalted_warm>, 1970*2000/drumbatchsize, <liquid:oil_brine>, 500*2000/drumbatchsize, <liquid:natural_gas>, 30*2000/drumbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = add3phaseseprecipe(40, drumprocessingtime, <liquid:water>, 500*2000/drumbatchsize, <liquid:crude_heavy_warm>, drumbatchsize, <liquid:crude_heavy_desalted_warm>, 1990*2000/drumbatchsize, <liquid:oil_brine>, 500*2000/drumbatchsize, <liquid:natural_gas>, 10*2000/drumbatchsize, mmrecipecount, scaleeff);
 
 
 //ADU - Heatup
