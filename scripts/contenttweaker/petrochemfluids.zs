@@ -123,6 +123,7 @@ val fluids_boiling = {
 } as string[string];
 
 val fluids_blazing = {
+  hdt_naphtha : "F5DEB3"
 } as string[string];
 
 val fluid_special = {
@@ -215,7 +216,7 @@ function addBoilingFluid(fluids as string[string]){
 function addBlazingFluid(fluids as string[string]){
   for fluid in fluids {
     var fluid1 = VanillaFactory.createFluid(fluid + "_blazing", Color.fromHex(fluids[fluid]));
-    fluid1.temperature = 900;
+    fluid1.temperature = 1100;
     fluid1.register();
   }
 }
@@ -267,7 +268,7 @@ function addBoilingGas(fluids as string[string]){
 function addBlazingGas(fluids as string[string]){
   for fluid in fluids {
     var fluid1 = VanillaFactory.createFluid(fluid + "_blazing", Color.fromHex(fluids[fluid]));
-    fluid1.temperature = 900;
+    fluid1.temperature = 1100;
     fluid1.gaseous = true;
     fluid1.register();
   }
