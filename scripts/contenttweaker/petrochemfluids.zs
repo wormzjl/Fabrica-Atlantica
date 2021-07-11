@@ -10,7 +10,13 @@ val fluids_ambient_misc = {
   sour_water : "005E7F",
   fuel_oil : "1D1002",
   lean_amine : "FFE0E8",
-  rich_amine : "FFCEE0"
+  rich_amine : "FFCEE0",
+  naoh_40 : "7578AE",
+  naoh_used : "75787E",
+  sulfolane : "4B0099",
+  benzene : "8B4513",
+  toluene : "A52A2A",
+  pxylene : "B96464"
 } as string[string];
 
 val fluids_ambient = {
@@ -39,7 +45,23 @@ val fluids_ambient = {
   srvgo_hdt_fracfeed : "B79073",
   srvr_hdt_basic_eff_gas : "E1C2A5",
   srvr_hdt_adv_eff_gas : "E1C2A5",
-  srvr_hdt_fracfeed : "171109"
+  srvr_hdt_fracfeed : "171109",
+  naphtha_crackedgas_humid : "E6E2E0",
+  naphtha_crackedgas : "E6E2E0",
+  naphtha_crackedgas_washed : "E6EAE3",
+  naphtha_cracked_demtop : "ADFF2F",
+  naphtha_cracked_dembot : "9AE06E",
+  naphtha_cracked_deetop : "9ACD32",
+  naphtha_cracked_deebot : "65CD32",
+  naphtha_cracked_deptop : "32CD32",
+  naphtha_cracked_depbot : "2BCD1C",
+  naphtha_cracked_debtop : "228B22",
+  pygas : "FFB31A",
+  pygas_mix : "AF0099",
+  pygas_extr_bot : "AF5CA4",
+  pygas_btx : "DA871A",
+  pygas_tx : "96764B",
+  pyoil : "F5B379"
 } as string[string];
 
 val fluids_warm = {
@@ -68,7 +90,9 @@ val fluids_warm = {
   srvgo_hdt_fracfeed : "B79073",
   srvr_hdt_basic_eff_gas : "E1C2A5",
   srvr_hdt_adv_eff_gas : "E1C2A5",
-  srvr_hdt_fracfeed : "171109"
+  srvr_hdt_fracfeed : "171109",
+  naphtha_crackedgas_humid : "E6E2E0",
+  pyoil : "F5B379"
 } as string[string];
 
 val fluids_hot = {
@@ -100,7 +124,9 @@ val fluids_hot = {
   srvr_hdt_basic_eff_gas : "E1C2A5",
   srvr_hdt_adv_eff_gas : "E1C2A5",
   srvr_hdt_fracfeed : "171109",
-  vrhdt_bottom : "150F0C"
+  vrhdt_bottom : "150F0C",
+  naphtha_cracked : "F8F2EC",
+  pyoil : "F5B379"
 } as string[string];
 
 val fluids_boiling = {
@@ -119,11 +145,13 @@ val fluids_boiling = {
   srvr_hdt_basic_eff_mix : "1D1109",
   srvr_hdt_adv_eff_s1 : "1D1109",
   srvr_hdt_adv_eff_mix : "1D1109",
-  vrhdt_bottom : "150F0C"
+  vrhdt_bottom : "150F0C",
+  naphtha_cracked : "F8F2EC"
 } as string[string];
 
 val fluids_blazing = {
-  hdt_naphtha : "F5DEB3"
+  hdt_naphtha : "F5DEB3",
+  naphtha_cracked : "F8F2EC"
 } as string[string];
 
 val fluid_special = {
@@ -131,6 +159,13 @@ val fluid_special = {
 
 
 val gas_ambient = {
+  methane_natural : "ADFF2F",
+  methane : "ADFF2F",
+  ethane : "9ACD32",
+  propane : "32CD32",
+  butane : "228B22",
+  propene : "23A923",
+  butadiene : "BDB76B",
   fuel_gas : "A4D83C",
   adu_off_gas : "FFFFFA",
   hdt_offgas : "FFF9F3",

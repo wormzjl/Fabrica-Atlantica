@@ -12,16 +12,1056 @@
             ]
         },
         {
-            "x": 2,
+            "x": 4,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
             "y": 4,
             "z": 2,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
             "elements": [
                 "modularmachinery:blockfluidoutputhatch"
             ]
         },
         {
+            "x": 4,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
             "x": 1,
             "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
             "z": 1,
             "elements": [
                 "pyrotech:refractory_brick_block@0"
@@ -29,31 +1069,39 @@
         },
         {
             "x": -2,
-            "y": 0,
-            "z": 0,
+            "y": 7,
+            "z": 2,
             "elements": [
                 "immersiveengineering:sheetmetal@8"
             ]
         },
         {
-            "x": 2,
-            "y": 2,
-            "z": 1,
+            "x": -1,
+            "y": 9,
+            "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
             "x": 1,
-            "y": 0,
-            "z": 0,
+            "y": 11,
+            "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
-            "x": 2,
-            "y": 0,
+            "x": 0,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
             "z": 0,
             "elements": [
                 "immersiveengineering:sheetmetal@8"
@@ -61,8 +1109,1464 @@
         },
         {
             "x": -2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 15,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 16,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 16,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 16,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -4,
             "y": 0,
-            "z": 8,
+            "z": 6,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
             "elements": [
                 "immersiveengineering:sheetmetal@8"
             ]
@@ -70,7 +2574,7 @@
         {
             "x": -1,
             "y": 0,
-            "z": 8,
+            "z": 4,
             "elements": [
                 "immersiveengineering:sheetmetal@8"
             ]
@@ -78,55 +2582,1479 @@
         {
             "x": 0,
             "y": 0,
-            "z": 8,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 6,
             "elements": [
                 "modularmachinery:blockfluidinputhatch"
             ]
         },
         {
-            "x": 1,
-            "y": 0,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
+            "x": 0,
             "y": 9,
-            "z": 4,
+            "z": 6,
             "elements": [
                 "immersiveengineering:sheetmetal@8"
             ]
         },
         {
-            "x": -2,
-            "y": 5,
+            "x": -4,
+            "y": 1,
             "z": 2,
             "elements": [
                 "immersiveengineering:sheetmetal@8"
             ]
         },
         {
+            "x": -3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
             "x": -1,
             "y": 7,
-            "z": 3,
+            "z": 5,
             "elements": [
                 "pyrotech:refractory_brick_block@0"
             ]
@@ -134,2204 +4062,12 @@
         {
             "x": 1,
             "y": 9,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 9,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 9,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 9,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 7,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 7,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 7,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "railcraft:equipment@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 7,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 7,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 7,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
             "z": 6,
             "elements": [
                 "modularmachinery:blockfluidinputhatch"
             ]
         },
         {
-            "x": -1,
-            "y": 4,
-            "z": 7,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 7,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "pressure:pipe@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 7,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "pressure:pipe@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 7,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 7,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 7,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "pressure:pipe@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 6,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 6,
-            "elements": [
-                "pressure:pipe@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 7,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 6,
-            "elements": [
-                "pressure:pipe@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "railcraft:equipment@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blockfluidoutputhatch"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 6,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 6,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 6,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 6,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 6,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "pressure:pipe@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "pressure:pipe@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 5,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": 6,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 5,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "pressure:pipe@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 5,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 5,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "pressure:pipe@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "pressure:pipe@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "railcraft:equipment@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockfluidoutputhatch"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 5,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
             "x": 0,
             "y": 7,
             "z": 5,
@@ -2340,11 +4076,27 @@
             ]
         },
         {
+            "x": -4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
             "x": -2,
             "y": 3,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -2352,7 +4104,15 @@
             "y": 5,
             "z": 4,
             "elements": [
-                "pyrotech:refractory_brick_block@0"
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
             ]
         },
         {
@@ -2364,9 +4124,9 @@
             ]
         },
         {
-            "x": -2,
-            "y": 1,
-            "z": 2,
+            "x": -3,
+            "y": -1,
+            "z": 1,
             "elements": [
                 "immersiveengineering:sheetmetal@8"
             ]
@@ -2380,17 +4140,33 @@
             ]
         },
         {
+            "x": 3,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
             "x": 2,
             "y": 7,
             "z": 5,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
             "x": 1,
             "y": 5,
             "z": 4,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
             "elements": [
                 "pyrotech:refractory_brick_block@0"
             ]
@@ -2404,19 +4180,19 @@
             ]
         },
         {
-            "x": -1,
-            "y": 1,
-            "z": 2,
+            "x": 4,
+            "y": 9,
+            "z": 6,
             "elements": [
-                "pyrotech:refractory_brick_block@0"
+                "immersiveengineering:sheetmetal@8"
             ]
         },
         {
-            "x": 2,
-            "y": 5,
-            "z": 4,
+            "x": 3,
+            "y": 7,
+            "z": 5,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -2444,7 +4220,55 @@
             ]
         },
         {
+            "x": 4,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
             "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
             "y": 3,
             "z": 3,
             "elements": [
@@ -2452,7 +4276,7 @@
             ]
         },
         {
-            "x": 1,
+            "x": 3,
             "y": 1,
             "z": 2,
             "elements": [
@@ -2461,6 +4285,14 @@
         },
         {
             "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
             "y": 1,
             "z": 2,
             "elements": [
@@ -2468,7 +4300,7 @@
             ]
         },
         {
-            "x": 1,
+            "x": 3,
             "y": -1,
             "z": 1,
             "elements": [
@@ -2476,7 +4308,7 @@
             ]
         },
         {
-            "x": 2,
+            "x": 4,
             "y": -1,
             "z": 1,
             "elements": [
@@ -2484,17 +4316,105 @@
             ]
         },
         {
-            "x": -2,
+            "x": -4,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
             "y": 6,
             "z": 4,
             "elements": [
                 "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
             "x": -1,
             "y": 8,
             "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 6,
             "elements": [
                 "immersiveengineering:sheetmetal@8"
             ]
@@ -2504,15 +4424,23 @@
             "y": 8,
             "z": 5,
             "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
                 "immersiveengineering:sheetmetal@8"
             ]
         },
         {
-            "x": -2,
-            "y": 4,
-            "z": 3,
+            "x": -3,
+            "y": 2,
+            "z": 2,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -2520,7 +4448,15 @@
             "y": 6,
             "z": 4,
             "elements": [
-                "pyrotech:refractory_brick_block@0"
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
             ]
         },
         {
@@ -2528,21 +4464,29 @@
             "y": 8,
             "z": 5,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
-            "x": -2,
-            "y": 2,
-            "z": 2,
+            "x": -3,
+            "y": 0,
+            "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
             "x": -1,
             "y": 4,
             "z": 3,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 5,
             "elements": [
                 "pyrotech:refractory_brick_block@0"
             ]
@@ -2552,7 +4496,7 @@
             "y": 6,
             "z": 4,
             "elements": [
-                "pyrotech:refractory_brick_block@0"
+                "immersiveengineering:metal_device1@6"
             ]
         },
         {
@@ -2560,7 +4504,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -2568,11 +4512,75 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "pressure:pipe@0"
+                "immersiveengineering:metal_device1@6"
             ]
         },
         {
-            "x": 2,
+            "x": 3,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 4,
             "y": 6,
             "z": 4,
             "elements": [
@@ -2580,7 +4588,7 @@
             ]
         },
         {
-            "x": 1,
+            "x": 3,
             "y": 4,
             "z": 3,
             "elements": [
@@ -2588,15 +4596,7 @@
             ]
         },
         {
-            "x": 0,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "pressure:pipe@0"
-            ]
-        },
-        {
-            "x": -1,
+            "x": 1,
             "y": 0,
             "z": 1,
             "elements": [
@@ -2604,15 +4604,7 @@
             ]
         },
         {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
+            "x": 4,
             "y": 4,
             "z": 3,
             "elements": [
@@ -2620,25 +4612,9 @@
             ]
         },
         {
-            "x": 1,
+            "x": 3,
             "y": 2,
             "z": 2,
-            "elements": [
-                "pyrotech:refractory_brick_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 1,
             "elements": [
                 "pyrotech:refractory_brick_block@0"
             ]
@@ -2648,19 +4624,35 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
-            "x": -2,
-            "y": 7,
-            "z": 4,
+            "x": 4,
+            "y": 2,
+            "z": 2,
             "elements": [
                 "immersiveengineering:sheetmetal@8"
             ]
         },
         {
-            "x": -1,
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
             "y": 9,
             "z": 5,
             "elements": [
@@ -2668,7 +4660,23 @@
             ]
         },
         {
-            "x": -2,
+            "x": -4,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -4,
             "y": 5,
             "z": 3,
             "elements": [
@@ -2676,11 +4684,67 @@
             ]
         },
         {
-            "x": -1,
+            "x": -3,
             "y": 7,
             "z": 4,
             "elements": [
                 "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 6,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
             ]
         },
         {
@@ -2688,7 +4752,39 @@
             "y": 9,
             "z": 5,
             "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
                 "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
             ]
         },
         {
@@ -2696,21 +4792,29 @@
             "y": 9,
             "z": 5,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "immersiveengineering:metal_device1@6"
             ]
         },
         {
-            "x": -2,
-            "y": 3,
-            "z": 2,
+            "x": -3,
+            "y": 1,
+            "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
             "x": -1,
             "y": 5,
             "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 5,
             "elements": [
                 "pyrotech:refractory_brick_block@0"
             ]
@@ -2720,6 +4824,14 @@
             "y": 7,
             "z": 4,
             "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 3,
+            "elements": [
                 "pyrotech:refractory_brick_block@0"
             ]
         },
@@ -2728,7 +4840,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -2736,11 +4848,75 @@
             "y": 3,
             "z": 2,
             "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 4,
+            "elements": [
                 "pyrotech:refractory_brick_block@0"
             ]
         },
         {
             "x": 2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 4,
             "y": 7,
             "z": 4,
             "elements": [
@@ -2748,7 +4924,7 @@
             ]
         },
         {
-            "x": 1,
+            "x": 3,
             "y": 5,
             "z": 3,
             "elements": [
@@ -2756,15 +4932,7 @@
             ]
         },
         {
-            "x": 0,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "pressure:pipe@0"
-            ]
-        },
-        {
-            "x": -1,
+            "x": 1,
             "y": 1,
             "z": 1,
             "elements": [
@@ -2772,7 +4940,7 @@
             ]
         },
         {
-            "x": 2,
+            "x": 4,
             "y": 5,
             "z": 3,
             "elements": [
@@ -2780,7 +4948,7 @@
             ]
         },
         {
-            "x": 1,
+            "x": 3,
             "y": 3,
             "z": 2,
             "elements": [
@@ -2788,7 +4956,7 @@
             ]
         },
         {
-            "x": 0,
+            "x": 2,
             "y": 1,
             "z": 1,
             "elements": [
@@ -2796,7 +4964,7 @@
             ]
         },
         {
-            "x": 2,
+            "x": 4,
             "y": 3,
             "z": 2,
             "elements": [
@@ -2804,7 +4972,7 @@
             ]
         },
         {
-            "x": 1,
+            "x": 3,
             "y": 1,
             "z": 1,
             "elements": [
@@ -2812,7 +4980,7 @@
             ]
         },
         {
-            "x": 2,
+            "x": 4,
             "y": 1,
             "z": 1,
             "elements": [
@@ -2820,55 +4988,7 @@
             ]
         },
         {
-            "x": -2,
-            "y": -1,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 8,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:sheetmetal@8"
-            ]
-        },
-        {
-            "x": -1,
+            "x": -4,
             "y": 8,
             "z": 4,
             "elements": [
@@ -2876,7 +4996,39 @@
             ]
         },
         {
+            "x": -3,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
             "x": -2,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -4,
             "y": 4,
             "z": 2,
             "elements": [
@@ -2884,9 +5036,89 @@
             ]
         },
         {
+            "x": -3,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
             "x": -1,
             "y": 6,
             "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 5,
             "elements": [
                 "pyrotech:refractory_brick_block@0"
             ]
@@ -2896,7 +5128,15 @@
             "y": 8,
             "z": 4,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -2904,7 +5144,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -2912,7 +5152,15 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "pyrotech:refractory_brick_block@0"
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
             ]
         },
         {
@@ -2924,17 +5172,17 @@
             ]
         },
         {
-            "x": 0,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "pressure:pipe@0"
-            ]
-        },
-        {
             "x": -1,
             "y": 2,
             "z": 1,
+            "elements": [
+                "pyrotech:refractory_brick_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 4,
             "elements": [
                 "pyrotech:refractory_brick_block@0"
             ]
@@ -2944,7 +5192,7 @@
             "y": 6,
             "z": 3,
             "elements": [
-                "immersiveengineering:sheetmetal@8"
+                "pyrotech:refractory_brick_block@0"
             ]
         },
         {
@@ -2952,7 +5200,7 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "pressure:pipe@0"
+                "immersiveengineering:metal_device1@6"
             ]
         },
         {
@@ -2960,7 +5208,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "pyrotech:refractory_brick_block@0"
+                "immersiveengineering:metal_device1@6"
             ]
         }
     ]}

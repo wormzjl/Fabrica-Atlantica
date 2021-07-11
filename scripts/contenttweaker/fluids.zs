@@ -79,16 +79,6 @@ thorium_slurry.register();
 
 
 //Petrochem liquid
-var benzene = VanillaFactory.createFluid("benzene", Color.fromHex("8B4513"));
-benzene.register();
-
-var benzene_vapour = VanillaFactory.createFluid("benzene_vapour", Color.fromHex("8B4513"));
-benzene_vapour.gaseous = true;
-benzene_vapour.register();
-
-var toluene = VanillaFactory.createFluid("toluene", Color.fromHex("A52A2A"));
-toluene.register();
-
 var toluenediisocyanate = VanillaFactory.createFluid("toluenediisocyanate", Color.fromHex("800000"));
 toluenediisocyanate.register();
 
@@ -121,10 +111,6 @@ ethylene_oxide.register();
 
 var naphtha_cracked = VanillaFactory.createFluid("naphtha_cracked", Color.fromHex("F0E1C3"));
 naphtha_cracked.register();
-
-var naphtha_cracked_hot = VanillaFactory.createFluid("naphtha_cracked_hot", Color.fromHex("F0E1C3"));
-naphtha_cracked_hot.temperature = 1000;
-naphtha_cracked_hot.register();
 
 var gas_oil_cracked = VanillaFactory.createFluid("gas_oil_cracked", Color.fromHex("FFB270"));
 gas_oil_cracked.register();
@@ -175,72 +161,9 @@ var acid_gas = VanillaFactory.createFluid("acid_gas", Color.fromHex("F0E68C"));
 acid_gas.gaseous = true;
 acid_gas.register();
 
-var methane_natural = VanillaFactory.createFluid("methane_natural", Color.fromHex("ADFF2F"));
-methane_natural.gaseous = true;
-methane_natural.register();
-
-var methane = VanillaFactory.createFluid("methane", Color.fromHex("ADFF2F"));
-methane.gaseous = true;
-methane.register();
-
-var ethane = VanillaFactory.createFluid("ethane", Color.fromHex("9ACD32"));
-ethane.gaseous = true;
-ethane.register();
-
-var propane = VanillaFactory.createFluid("propane", Color.fromHex("32CD32"));
-propane.gaseous = true;
-propane.register();
-
-var isopropane = VanillaFactory.createFluid("isopropane", Color.fromHex("32CD32"));
-isopropane.gaseous = true;
-isopropane.register();
-
-var butane = VanillaFactory.createFluid("butane", Color.fromHex("228B22"));
-butane.gaseous = true;
-butane.register();
-
-var isobutane = VanillaFactory.createFluid("isobutane", Color.fromHex("228B22"));
-isobutane.gaseous = true;
-isobutane.register();
-
-var propene = VanillaFactory.createFluid("propene", Color.fromHex("23A923"));
-propene.gaseous = true;
-propene.register();
-
-var butadiene = VanillaFactory.createFluid("butadiene", Color.fromHex("BDB76B"));
-butadiene.gaseous = true;
-butadiene.register();
-
 var refinerygas = VanillaFactory.createFluid("refinerygas", Color.fromHex("C1C1C1"));
 refinerygas.gaseous = true;
 refinerygas.register();
-
-var butane_cracked = VanillaFactory.createFluid("butane_cracked", Color.fromHex("2B9F2B"));
-butane_cracked.gaseous = true;
-butane_cracked.register();
-
-var butane_cracked_hot = VanillaFactory.createFluid("butane_cracked_hot", Color.fromHex("2B9F2B"));
-butane_cracked_hot.gaseous = true;
-butane_cracked_hot.temperature = 1000;
-butane_cracked_hot.register();
-
-var propane_cracked = VanillaFactory.createFluid("propane_cracked", Color.fromHex("3ED73E"));
-propane_cracked.gaseous = true;
-propane_cracked.register();
-
-var propane_cracked_hot = VanillaFactory.createFluid("propane_cracked_hot", Color.fromHex("3ED73E"));
-propane_cracked_hot.gaseous = true;
-propane_cracked_hot.temperature = 1000;
-propane_cracked_hot.register();
-
-var ethane_cracked = VanillaFactory.createFluid("ethane_cracked", Color.fromHex("A4D83C"));
-ethane_cracked.gaseous = true;
-ethane_cracked.register();
-
-var ethane_cracked_hot = VanillaFactory.createFluid("ethane_cracked_hot", Color.fromHex("A4D83C"));
-ethane_cracked_hot.gaseous = true;
-ethane_cracked_hot.temperature = 1000;
-ethane_cracked_hot.register();
 
 var syngas_hot = VanillaFactory.createFluid("syngas_hot", Color.fromHex("545454"));
 syngas_hot.gaseous = true;
@@ -263,9 +186,6 @@ vgo_fcc.register();
 
 var naphtha_reformed = VanillaFactory.createFluid("naphtha_reformed", Color.fromHex("F5DEB3"));
 naphtha_reformed.register();
-
-var pygas = VanillaFactory.createFluid("pygas", Color.fromHex("FFB31A"));
-pygas.register();
 
 var vgo_cracked_hot = VanillaFactory.createFluid("vgo_cracked_hot", Color.fromHex("D2691E"));
 vgo_cracked_hot.temperature = 1000;
