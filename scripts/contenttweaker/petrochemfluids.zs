@@ -9,8 +9,11 @@ val fluids_ambient_misc = {
   oil_brine : "ADD8E6",
   sour_water : "005E7F",
   fuel_oil : "1D1002",
-  lean_amine : "FFE0E8",
-  rich_amine : "FFCEE0",
+  lean_mea : "80FFE0",
+  rich_mea : "80F2E2",
+  rich_mea_co2 : "80DDE0",
+  lean_mdea : "80FFC3",
+  rich_mdea : "80E6C3",
   naoh_40 : "7578AE",
   naoh_used : "75787E",
   sulfolane : "4B0099",
@@ -184,19 +187,32 @@ val gas_ambient = {
   srvr_hdt_basic_sourgas : "FFF900",
   srvr_hdt_adv_sourgas : "FFF900",
   srvr_hdt_basic_sweetgas : "FFFFC8",
-  srvr_hdt_adv_sweetgas : "FFFFC8"
+  srvr_hdt_adv_sweetgas : "FFFFC8",
+  smrproduct : "9CD3FF",
+  smrproduct_lts : "D6EEFF",
+  smrproduct_ltsgas : "83B9FB"
 } as string[string];
 
 val gas_warm = {
-  hydrogen : "B59EC3"
+  hydrogen : "B59EC3",
+  smrproduct : "9CD3FF",
+  smrproduct_hts : "BBDFFF",
+  smrproduct_lts : "D6EEFF"
 } as string[string];
 
 val gas_hot = {
-  hydrogen : "B59EC3"
+  hydrogen : "B59EC3",
+  smrproduct : "9CD3FF",
+  smrproduct_hts : "BBDFFF"
 } as string[string];
 
 val gas_boiling = {
-  hydrogen : "B59EC3"
+  hydrogen : "B59EC3",
+  smrproduct : "9CD3FF"
+} as string[string];
+
+val gas_blazing = {
+  smrproduct : "9CD3FF"
 } as string[string];
 
 
@@ -213,6 +229,7 @@ addAmbientGas(gas_ambient);
 addWarmGas(gas_warm);
 addHotGas(gas_hot);
 addBoilingGas(gas_boiling);
+addBlazingGas(gas_blazing);
 
 
 //Functions
