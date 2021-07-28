@@ -396,28 +396,65 @@ team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:hdt_naphtha_warm>*260
 team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:hdt_naphtha_hot>*379, <liquid:hdt_naphtha_boiling>*379, HXUnit);
 team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:hdt_naphtha_boiling>*308, <liquid:hdt_naphtha_blazing>*308, HXUnit);
 
+//Amine regen
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:h2s>*35,<liquid:lean_mea>*963], [<immersiveengineering:material:6>], <liquid:rich_mea>*1000, 380, 50, [0.000001]);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:h2s>*55,<liquid:lean_mdea>*944], [<immersiveengineering:material:6>], <liquid:rich_mdea>*1000, 250, 50, [0.000001]);
+
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:carbondioxide>*72,<liquid:lean_mea>*926], [<immersiveengineering:material:6>], <liquid:rich_mea_co2>*1000, 450, 50, [0.000001]);
+
+
 //H2 Plant
-mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:methane>, SMRBatchsize, <liquid:steam>, 32141, <liquid:fuel_gas>, 43, <liquid:smrproduct_blazing>, 25925, mmrecipecount, scaleeff)
-mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:methane>, SMRBatchsize, <liquid:steam>, 32141, <liquid:gasoline>, 50, <liquid:smrproduct_blazing>, 25925, mmrecipecount, scaleeff)
+mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:methane>, SMRBatchsize, <liquid:steam>, 32141, <liquid:fuel_gas>, 43, <liquid:smrproduct_blazing>, 25925, mmrecipecount, scaleeff);
+mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:methane>, SMRBatchsize, <liquid:steam>, 32141, <liquid:gasoline>, 50, <liquid:smrproduct_blazing>, 25925, mmrecipecount, scaleeff);
 
-mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:ethane>, SMRBatchsize, <liquid:steam>, 34283, <liquid:fuel_gas>, 42, <liquid:smrproduct_blazing>, 27653, mmrecipecount, scaleeff)
-mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:ethane>, SMRBatchsize, <liquid:steam>, 34283, <liquid:gasoline>, 48, <liquid:smrproduct_blazing>, 27653, mmrecipecount, scaleeff)
+mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:ethane>, SMRBatchsize, <liquid:steam>, 34283, <liquid:fuel_gas>, 42, <liquid:smrproduct_blazing>, 27653, mmrecipecount, scaleeff);
+mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:ethane>, SMRBatchsize, <liquid:steam>, 34283, <liquid:gasoline>, 48, <liquid:smrproduct_blazing>, 27653, mmrecipecount, scaleeff);
 
-mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:propane>, SMRBatchsize, <liquid:steam>, 35063, <liquid:fuel_gas>, 38, <liquid:smrproduct_blazing>, 28282, mmrecipecount, scaleeff)
-mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:propane>, SMRBatchsize, <liquid:steam>, 35063, <liquid:gasoline>, 44, <liquid:smrproduct_blazing>, 28282, mmrecipecount, scaleeff)
+mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:propane>, SMRBatchsize, <liquid:steam>, 35063, <liquid:fuel_gas>, 38, <liquid:smrproduct_blazing>, 28282, mmrecipecount, scaleeff);
+mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:propane>, SMRBatchsize, <liquid:steam>, 35063, <liquid:gasoline>, 44, <liquid:smrproduct_blazing>, 28282, mmrecipecount, scaleeff);
 
-mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:butane>, SMRBatchsize, <liquid:steam>, 35466, <liquid:fuel_gas>, 37, <liquid:smrproduct_blazing>, 28607, mmrecipecount, scaleeff)
-mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:butane>, SMRBatchsize, <liquid:steam>, 35466, <liquid:gasoline>, 43, <liquid:smrproduct_blazing>, 28607, mmrecipecount, scaleeff)
+mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:butane>, SMRBatchsize, <liquid:steam>, 35466, <liquid:fuel_gas>, 37, <liquid:smrproduct_blazing>, 28607, mmrecipecount, scaleeff);
+mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:butane>, SMRBatchsize, <liquid:steam>, 35466, <liquid:gasoline>, 43, <liquid:smrproduct_blazing>, 28607, mmrecipecount, scaleeff);
 
-mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:hdt_offgas>, SMRBatchsize, <liquid:steam>, 33607, <liquid:fuel_gas>, 39, <liquid:smrproduct_blazing>, 27107, mmrecipecount, scaleeff)
-mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:hdt_offgas>, SMRBatchsize, <liquid:steam>, 33607, <liquid:gasoline>, 45, <liquid:smrproduct_blazing>, 27107, mmrecipecount, scaleeff)
+mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:hdt_offgas>, SMRBatchsize, <liquid:steam>, 33607, <liquid:fuel_gas>, 39, <liquid:smrproduct_blazing>, 27107, mmrecipecount, scaleeff);
+mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:hdt_offgas>, SMRBatchsize, <liquid:steam>, 33607, <liquid:gasoline>, 45, <liquid:smrproduct_blazing>, 27107, mmrecipecount, scaleeff);
 
-mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:hdt_naphtha>, SMRBatchsize, <liquid:steam>, 36343, <liquid:fuel_gas>, 41, <liquid:smrproduct_blazing>, 29315, mmrecipecount, scaleeff)
-mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:hdt_naphtha>, SMRBatchsize, <liquid:steam>, 36343, <liquid:gasoline>, 47, <liquid:smrproduct_blazing>, 29315, mmrecipecount, scaleeff)
+mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:hdt_naphtha>, SMRBatchsize, <liquid:steam>, 36343, <liquid:fuel_gas>, 41, <liquid:smrproduct_blazing>, 29315, mmrecipecount, scaleeff);
+mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:hdt_naphtha>, SMRBatchsize, <liquid:steam>, 36343, <liquid:gasoline>, 47, <liquid:smrproduct_blazing>, 29315, mmrecipecount, scaleeff);
 
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:smrproduct_blazing>*73, <liquid:smrproduct_boiling>*73, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:smrproduct_boiling>*325, <liquid:smrproduct_hot>*325, HXUnit);
 
-mmrecipecount = addbasicreactorrecipe2(RXTicktime*0.02, <modularmachinery:itemcatalyst:4>, 1, <liquid:smrproduct_hot>, 5003, <liquid:smrproduct_hts_hot>, 4149, mmrecipecount, scaleeff);
-mmrecipecount = addbasicreactorrecipe2(RXTicktime*0.02, <modularmachinery:itemcatalyst:4>, 1, <liquid:smrproduct_hts_warn>, 5004, <liquid:smrproduct_lts_warm>, 4564, mmrecipecount, scaleeff);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:smrproduct_hot>*227, <liquid:smrproduct_warm>*227, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:smrproduct_warm>*901, <liquid:smrproduct>*13, 12*HXUnit);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 1678/ACRate, <liquid:smrproduct_blazing>, ACbatchsize, <liquid:smrproduct_hot>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 308/ACRate, <liquid:smrproduct_boiling>, ACbatchsize, <liquid:smrproduct_hot>, ACbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 1730/ACRate, <liquid:smrproduct_hot>, 976, <liquid:smrproduct>, 14, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 1300/ACRate, <liquid:smrproduct_warm>, 976, <liquid:smrproduct>, 14, mmrecipecount, scaleeff);
+
+mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:smrproduct>, drumbatchsize, <liquid:syngas>, 1139*2000/drumbatchsize, <liquid:sour_water>, 861*2000/drumbatchsize, mmrecipecount, scaleeff);
+
+mods.pneumaticcraft.refinery.addRecipe(830040, <liquid:syngas>*51, [<liquid:hydrogen>*9, <liquid:carbon_monoxide>*42]);
+
+mmrecipecount = addbasicreactorrecipe2(30, <modularmachinery:itemcatalyst:4>, 1, <liquid:smrproduct_hot>, 5003, <liquid:smrproduct_hts_hot>, 4149, mmrecipecount, scaleeff);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:smrproduct_hts_hot>*118, <liquid:smrproduct_hts_warm>*118, HXUnit);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 846/ACRate, <liquid:smrproduct_hts_hot>, ACbatchsize, <liquid:smrproduct_hts_warm>, ACbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addbasicreactorrecipe2(30, <modularmachinery:itemcatalyst:4>, 1, <liquid:smrproduct_hts_warm>, 5004, <liquid:smrproduct_lts_warm>, 4564, mmrecipecount, scaleeff);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:smrproduct_lts_warm>*1147, <liquid:smrproduct_lts>*19, 13*HXUnit);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 1147/ACRate, <liquid:smrproduct_lts_warm>, 1012, <liquid:smrproduct_lts>, 23, mmrecipecount, scaleeff);
+
+mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:smrproduct_lts>, drumbatchsize, <liquid:smrproduct_ltsgas>, 1459*2000/drumbatchsize, <liquid:sour_water>, 541*2000/drumbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liquid:smrproduct_lts>, GaspurifierBatchsize, <liquid:hydrogen>, 62*500/GaspurifierBatchsize, <liquid:fuel_gas>, 33*500/GaspurifierBatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mea>, 5453*500/GLColumnBatchsize, <liquid:smrproduct_lts>, GLColumnBatchsize, <liquid:hydrogen>, 77*500/GLColumnBatchsize, <liquid:rich_mea_co2>, 5876*500/GLColumnBatchsize, mmrecipecount, scaleeff);
 
 
 

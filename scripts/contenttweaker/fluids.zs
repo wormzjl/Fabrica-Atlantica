@@ -79,35 +79,8 @@ thorium_slurry.register();
 
 
 //Petrochem liquid
-var toluenediisocyanate = VanillaFactory.createFluid("toluenediisocyanate", Color.fromHex("800000"));
-toluenediisocyanate.register();
-
 var glycerol = VanillaFactory.createFluid("glycerol", Color.fromHex("FFE4C4"));
 glycerol.register();
-
-var bisphenola = VanillaFactory.createFluid("bisphenola", Color.fromHex("FFFF00"));
-bisphenola.register();
-
-var phenol = VanillaFactory.createFluid("phenol", Color.fromHex("FAFAD2"));
-phenol.register();
-
-var acetone = VanillaFactory.createFluid("acetone", Color.fromHex("7FFF00"));
-acetone.register();
-
-var ethylbenzene = VanillaFactory.createFluid("ethylbenzene", Color.fromHex("CD853F"));
-ethylbenzene.register();
-
-var formaldehyde = VanillaFactory.createFluid("formaldehyde", Color.fromHex("F08080"));
-formaldehyde.register();
-
-var ethylene_glycol = VanillaFactory.createFluid("ethylene_glycol", Color.fromHex("9CC9EC"));
-ethylene_glycol.register();
-
-var ethylene_glycol_rich = VanillaFactory.createFluid("ethylene_glycol_rich", Color.fromHex("9CC9EC"));
-ethylene_glycol_rich.register();
-
-var ethylene_oxide = VanillaFactory.createFluid("ethylene_oxide", Color.fromHex("69AEE2"));
-ethylene_oxide.register();
 
 var naphtha_cracked = VanillaFactory.createFluid("naphtha_cracked", Color.fromHex("F0E1C3"));
 naphtha_cracked.register();
@@ -165,11 +138,6 @@ var refinerygas = VanillaFactory.createFluid("refinerygas", Color.fromHex("C1C1C
 refinerygas.gaseous = true;
 refinerygas.register();
 
-var syngas_hot = VanillaFactory.createFluid("syngas_hot", Color.fromHex("545454"));
-syngas_hot.gaseous = true;
-syngas_hot.temperature = 1000;
-syngas_hot.register();
-
 var gas_oil_hydrocracked = VanillaFactory.createFluid("gas_oil_hydrocracked", Color.fromHex("F4A460"));
 gas_oil_hydrocracked.register();
 
@@ -202,13 +170,6 @@ diesel_bio.register();
 
 var gasoline_adv_bio = VanillaFactory.createFluid("gasoline_adv_bio", Color.fromHex("FFAA00"));
 gasoline_adv_bio.register();
-
-var ftproduct = VanillaFactory.createFluid("ftproduct", Color.fromHex("FFE0CC"));
-ftproduct.register();
-
-var wgsproduct = VanillaFactory.createFluid("wgsproduct", Color.fromHex("F5F5F0"));
-wgsproduct.gaseous = true;
-wgsproduct.register();
 
 var cumene = VanillaFactory.createFluid("cumene", Color.fromHex("FFCC33"));
 cumene.register();

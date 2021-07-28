@@ -19,7 +19,16 @@ val fluids_ambient_misc = {
   sulfolane : "4B0099",
   benzene : "8B4513",
   toluene : "A52A2A",
-  pxylene : "B96464"
+  pxylene : "B96464",
+  phenol : "FAFAD2",
+  bisphenola : "FFFF00",
+  acetone : "7FFF00",
+  toluenediisocyanate : "800000",
+  ethylbenzene : "CD853F",
+  formaldehyde : "F08080",
+  ethylene_glycol : "9CC9EC",
+  ethylene_glycol_rich : "9CC9EC",
+  ethylene_oxide : "69AEE2"
 } as string[string];
 
 val fluids_ambient = {
@@ -172,6 +181,7 @@ val gas_ambient = {
   fuel_gas : "A4D83C",
   adu_off_gas : "FFFFFA",
   hdt_offgas : "FFF9F3",
+  h2s : "F1F000",
   srn_hdt_basic_sourgas : "FFF900",
   srn_hdt_adv_sourgas : "FFF900",
   srn_hdt_basic_sweetgas : "FFFFC8",
