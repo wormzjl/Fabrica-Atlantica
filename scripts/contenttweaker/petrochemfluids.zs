@@ -200,29 +200,73 @@ val gas_ambient = {
   srvr_hdt_adv_sweetgas : "FFFFC8",
   smrproduct : "9CD3FF",
   smrproduct_lts : "D6EEFF",
-  smrproduct_ltsgas : "83B9FB"
+  smrproduct_ltsgas : "83B9FB",
+  ethane_cracked : "D7FFB1",
+  ethane_crackedgas : "B9FF79",
+  ethane_crackedgas_washed : "B9FF79",
+  ethane_cracked_demtop : "ADFF2F",
+  ethane_cracked_dembot : "9AE06E",
+  ethane_cracked_deetop : "9ACD32",
+  ethane_cracked_deebot : "65CD32",
+  ethane_cracked_deptop : "32CD32",
+  ethane_cracked_depbot : "2BCD1C",
+  ethane_cracked_debtop : "228B22",
+  propane_cracked : "D7FFB1",
+  propane_crackedgas : "B9FF79",
+  propane_crackedgas_washed : "B9FF79",
+  propane_cracked_demtop : "ADFF2F",
+  propane_cracked_dembot : "9AE06E",
+  propane_cracked_deetop : "9ACD32",
+  propane_cracked_deebot : "65CD32",
+  propane_cracked_deptop : "32CD32",
+  propane_cracked_depbot : "2BCD1C",
+  propane_cracked_debtop : "228B22",
+  butane_cracked : "D7FFB1",
+  butane_crackedgas : "B9FF79",
+  butane_crackedgas_humid : "E6E2E0",
+  butane_crackedgas_washed : "B9FF79",
+  butane_cracked_demtop : "ADFF2F",
+  butane_cracked_dembot : "9AE06E",
+  butane_cracked_deetop : "9ACD32",
+  butane_cracked_deebot : "65CD32",
+  butane_cracked_deptop : "32CD32",
+  butane_cracked_depbot : "2BCD1C",
+  butane_cracked_debtop : "228B22"
 } as string[string];
 
 val gas_warm = {
   hydrogen : "B59EC3",
   smrproduct : "9CD3FF",
   smrproduct_hts : "BBDFFF",
-  smrproduct_lts : "D6EEFF"
+  smrproduct_lts : "D6EEFF",
+  ethane_cracked : "D7FFB1",
+  propane_cracked : "D7FFB1",
+  butane_cracked : "D7FFB1",
+  butane_crackedgas_humid : "E6E2E0"
 } as string[string];
 
 val gas_hot = {
   hydrogen : "B59EC3",
   smrproduct : "9CD3FF",
-  smrproduct_hts : "BBDFFF"
+  smrproduct_hts : "BBDFFF",
+  ethane_cracked : "D7FFB1",
+  propane_cracked : "D7FFB1",
+  butane_cracked : "D7FFB1"
 } as string[string];
 
 val gas_boiling = {
   hydrogen : "B59EC3",
-  smrproduct : "9CD3FF"
+  smrproduct : "9CD3FF",
+  ethane_cracked : "D7FFB1",
+  propane_cracked : "D7FFB1",
+  butane_cracked : "D7FFB1"
 } as string[string];
 
 val gas_blazing = {
-  smrproduct : "9CD3FF"
+  smrproduct : "9CD3FF",
+  ethane_cracked : "D7FFB1",
+  propane_cracked : "D7FFB1",
+  butane_cracked : "D7FFB1"
 } as string[string];
 
 

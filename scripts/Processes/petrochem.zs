@@ -457,35 +457,129 @@ mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liq
 mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mea>, 5453*500/GLColumnBatchsize, <liquid:smrproduct_lts>, GLColumnBatchsize, <liquid:hydrogen>, 77*500/GLColumnBatchsize, <liquid:rich_mea_co2>, 5876*500/GLColumnBatchsize, mmrecipecount, scaleeff);
 
 
+//C2 steam cracker
+mmrecipecount = addsteamcrackerrecipe(SteamcrackerTicktime, <liquid:ethane>, SteamcrackerBatchsize, <liquid:steam>, 10000, <liquid:fuel_gas>, 110, <liquid:ethane_cracked_blazing>, 10500, mmrecipecount, scaleeff);
+mmrecipecount = addsteamcrackerrecipe(SteamcrackerTicktime, <liquid:ethane>, SteamcrackerBatchsize, <liquid:steam>, 10000, <liquid:gasoline>, 133, <liquid:ethane_cracked_blazing>, 10500, mmrecipecount, scaleeff);
 
-//Steam cracker
-mmrecipecount = addsteamcrackerrecipe(SteamcrackerTicktime, <liquid:hdt_naphtha>, SteamcrackerBatchsize, <liquid:steam>, 10000, <liquid:fuel_gas>, 60, <liquid:naphtha_cracked_blazing>, 10500, mmrecipecount, scaleeff);
-mmrecipecount = addsteamcrackerrecipe(SteamcrackerTicktime, <liquid:hdt_naphtha>, SteamcrackerBatchsize, <liquid:steam>, 10000, <liquid:gasoline>, 73, <liquid:naphtha_cracked_blazing>, 10500, mmrecipecount, scaleeff);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:ethane_cracked_blazing>*58, <liquid:ethane_cracked_boiling>*58, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:ethane_cracked_boiling>*257, <liquid:ethane_cracked_hot>*257, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:ethane_cracked_hot>*243, <liquid:ethane_cracked_warm>*243, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:ethane_cracked_warm>*2020, <liquid:ethane_cracked>*105, 12*HXUnit);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 3120/ACRate, <liquid:ethane_cracked_blazing>, ACbatchsize, <liquid:ethane_cracked>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 1396/ACRate, <liquid:ethane_cracked_boiling>, ACbatchsize, <liquid:ethane_cracked>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 1006/ACRate, <liquid:ethane_cracked_hot>, ACbatchsize, <liquid:ethane_cracked>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 594/ACRate, <liquid:ethane_cracked_warm>, 1008, <liquid:ethane_cracked>, 54, mmrecipecount, scaleeff);
+
+mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:ethane_cracked>, drumbatchsize, <liquid:ethane_crackedgas>, 1778*2000/drumbatchsize, <liquid:sour_water>, 222*2000/drumbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:naoh_40>, 20*500/GLColumnBatchsize, <liquid:ethane_crackedgas>, GLColumnBatchsize, <liquid:ethane_crackedgas_washed>, GLColumnBatchsize, <liquid:naoh_used>, 20*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+
+mods.pneumaticcraft.refinery.addRecipe(1630123, <liquid:ethane_crackedgas_washed>*504, [<liquid:ethane_cracked_demtop>*62, <liquid:ethane_cracked_dembot>*442]);
+mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liquid:ethane_cracked_demtop>, GaspurifierBatchsize, <liquid:hydrogen>, 240*500/GaspurifierBatchsize, <liquid:methane>, 260*500/GaspurifierBatchsize, mmrecipecount, scaleeff);
+
+mods.pneumaticcraft.refinery.addRecipe(2180188, <liquid:ethane_cracked_dembot>*500, [<liquid:ethane_cracked_deetop>*452, <liquid:ethane_cracked_deebot>*48]);
+mods.pneumaticcraft.refinery.addRecipe(1850170, <liquid:ethane_cracked_deetop>*476, [<liquid:ethene>*464, <liquid:ethane>*12]);
+
+mods.pneumaticcraft.refinery.addRecipe(2680233, <liquid:ethane_cracked_deebot>*498, [<liquid:ethane_cracked_deptop>*183, <liquid:ethane_cracked_depbot>*315]);
+mods.pneumaticcraft.refinery.addRecipe(2310226, <liquid:ethane_cracked_deptop>*496, [<liquid:propene>*449, <liquid:propane>*47]);
+
+mods.pneumaticcraft.refinery.addRecipe(2580273, <liquid:ethane_cracked_depbot>*494, [<liquid:ethane_cracked_debtop>*185, <liquid:pygas>*309]);
+mods.pneumaticcraft.refinery.addRecipe(2720269, <liquid:ethane_cracked_debtop>*494, [<liquid:butadiene>*446, <liquid:butane>*48]);
+
+
+//C3 steam cracker
+mmrecipecount = addsteamcrackerrecipe(SteamcrackerTicktime, <liquid:propane>, SteamcrackerBatchsize, <liquid:steam>, 10000, <liquid:fuel_gas>, 90, <liquid:propane_cracked_blazing>, 10500, mmrecipecount, scaleeff);
+mmrecipecount = addsteamcrackerrecipe(SteamcrackerTicktime, <liquid:propane>, SteamcrackerBatchsize, <liquid:steam>, 10000, <liquid:gasoline>, 109, <liquid:propane_cracked_blazing>, 10500, mmrecipecount, scaleeff);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:propane_cracked_blazing>*66, <liquid:propane_cracked_boiling>*66, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:propane_cracked_boiling>*294, <liquid:propane_cracked_hot>*294, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:propane_cracked_hot>*282, <liquid:propane_cracked_warm>*282, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:propane_cracked_warm>*2420, <liquid:propane_cracked>*130, 13*HXUnit);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 2756/ACRate, <liquid:propane_cracked_blazing>, ACbatchsize, <liquid:propane_cracked>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 1233/ACRate, <liquid:propane_cracked_boiling>, ACbatchsize, <liquid:propane_cracked>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 892/ACRate, <liquid:propane_cracked_hot>, ACbatchsize, <liquid:propane_cracked>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 537/ACRate, <liquid:propane_cracked_warm>, 1008, <liquid:propane_cracked>, 54, mmrecipecount, scaleeff);
+
+mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:propane_cracked>, drumbatchsize, <liquid:propane_crackedgas>, 1778*2000/drumbatchsize, <liquid:sour_water>, 222*2000/drumbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:naoh_40>, 20*500/GLColumnBatchsize, <liquid:propane_crackedgas>, GLColumnBatchsize, <liquid:propane_crackedgas_washed>, GLColumnBatchsize, <liquid:naoh_used>, 20*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+
+mods.pneumaticcraft.refinery.addRecipe(1630123, <liquid:propane_crackedgas_washed>*482, [<liquid:propane_cracked_demtop>*133, <liquid:propane_cracked_dembot>*349]);
+mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liquid:propane_cracked_demtop>, 509, <liquid:hydrogen>, 26*500/GaspurifierBatchsize, <liquid:methane>, 483*500/GaspurifierBatchsize, mmrecipecount, scaleeff);
+
+mods.pneumaticcraft.refinery.addRecipe(2180188, <liquid:propane_cracked_dembot>*492, [<liquid:propane_cracked_deetop>*287, <liquid:propane_cracked_deebot>*205]);
+mods.pneumaticcraft.refinery.addRecipe(1850170, <liquid:propane_cracked_deetop>*492, [<liquid:ethene>*467, <liquid:ethane>*25]);
+
+mods.pneumaticcraft.refinery.addRecipe(2680233, <liquid:propane_cracked_deebot>*501, [<liquid:propane_cracked_deptop>*311, <liquid:propane_cracked_depbot>*190]);
+mods.pneumaticcraft.refinery.addRecipe(2310226, <liquid:propane_cracked_deptop>*502, [<liquid:propene>*435, <liquid:propane>*67]);
+
+mods.pneumaticcraft.refinery.addRecipe(2580273, <liquid:propane_cracked_depbot>*508, [<liquid:propane_cracked_debtop>*181, <liquid:pygas>*327]);
+mods.pneumaticcraft.refinery.addRecipe(2720269, <liquid:propane_cracked_debtop>*495, [<liquid:butadiene>*447, <liquid:butane>*48]);
+
+
+//C4 steam cracker
+mmrecipecount = addsteamcrackerrecipe(SteamcrackerTicktime, <liquid:butane>, SteamcrackerBatchsize, <liquid:steam>, 10000, <liquid:fuel_gas>, 71, <liquid:butane_cracked_blazing>, 10500, mmrecipecount, scaleeff);
+mmrecipecount = addsteamcrackerrecipe(SteamcrackerTicktime, <liquid:butane>, SteamcrackerBatchsize, <liquid:steam>, 10000, <liquid:gasoline>, 86, <liquid:butane_cracked_blazing>, 10500, mmrecipecount, scaleeff);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:butane_cracked_blazing>*68, <liquid:butane_cracked_boiling>*68, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:butane_cracked_boiling>*302, <liquid:butane_cracked_hot>*302, HXUnit);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 1812/ACRate, <liquid:butane_cracked_blazing>, ACbatchsize, <liquid:butane_cracked_hot>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 331/ACRate, <liquid:butane_cracked_boiling>, ACbatchsize, <liquid:butane_cracked_hot>, ACbatchsize, mmrecipecount, scaleeff);
+
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:butane_crackedgas_humid_warm>*999,<liquid:pyoil_hot>*1], [<immersiveengineering:material:6>], <liquid:butane_cracked_hot>*1000, 250, 10, [0.000001]);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:butane_crackedgas_humid_warm>*1730, <liquid:butane_crackedgas_humid>*91, 9*HXUnit);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 520/ACRate, <liquid:butane_crackedgas_humid_warm>, 1008, <liquid:butane_crackedgas_humid>, 53, mmrecipecount, scaleeff);
+
+mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:butane_crackedgas_humid>, drumbatchsize, <liquid:butane_crackedgas>, 1773*2000/drumbatchsize, <liquid:sour_water>, 227*2000/drumbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:naoh_40>, 20*500/GLColumnBatchsize, <liquid:butane_crackedgas>, GLColumnBatchsize, <liquid:butane_crackedgas_washed>, GLColumnBatchsize, <liquid:naoh_used>, 20*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+
+mods.pneumaticcraft.refinery.addRecipe(1630123, <liquid:butane_crackedgas_washed>*511, [<liquid:butane_cracked_demtop>*130, <liquid:butane_cracked_dembot>*382]);
+mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liquid:butane_cracked_demtop>, 486, <liquid:hydrogen>, 12*500/GaspurifierBatchsize, <liquid:methane>, 474*500/GaspurifierBatchsize, mmrecipecount, scaleeff);
+
+mods.pneumaticcraft.refinery.addRecipe(2180188, <liquid:butane_cracked_dembot>*500, [<liquid:butane_cracked_deetop>*293, <liquid:butane_cracked_deebot>*207]);
+mods.pneumaticcraft.refinery.addRecipe(1850170, <liquid:butane_cracked_deetop>*506, [<liquid:ethene>*457, <liquid:ethane>*49]);
+
+mods.pneumaticcraft.refinery.addRecipe(2680233, <liquid:butane_cracked_deebot>*508, [<liquid:butane_cracked_deptop>*305, <liquid:butane_cracked_depbot>*203]);
+mods.pneumaticcraft.refinery.addRecipe(2310226, <liquid:butane_cracked_deptop>*496, [<liquid:propene>*449, <liquid:propane>*47]);
+
+mods.pneumaticcraft.refinery.addRecipe(2580273, <liquid:butane_cracked_depbot>*508, [<liquid:butane_cracked_debtop>*175, <liquid:pygas>*333]);
+mods.pneumaticcraft.refinery.addRecipe(2720269, <liquid:butane_cracked_debtop>*499, [<liquid:butadiene>*391, <liquid:butane>*108]);
+
+
+//Naphtha Steam cracker
+mmrecipecount = addsteamcrackerrecipe(SteamcrackerTicktime, <liquid:hdt_naphtha>, SteamcrackerBatchsize, <liquid:steam>, 10000, <liquid:fuel_gas>, 63, <liquid:naphtha_cracked_blazing>, 10500, mmrecipecount, scaleeff);
+mmrecipecount = addsteamcrackerrecipe(SteamcrackerTicktime, <liquid:hdt_naphtha>, SteamcrackerBatchsize, <liquid:steam>, 10000, <liquid:gasoline>, 76, <liquid:naphtha_cracked_blazing>, 10500, mmrecipecount, scaleeff);
 
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:naphtha_cracked_blazing>*70, <liquid:naphtha_cracked_boiling>*70, HXUnit);
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:naphtha_cracked_boiling>*315, <liquid:naphtha_cracked_hot>*315, HXUnit);
 
 mmrecipecount = addaircoolerrecipe(ACduty, 1742/ACRate, <liquid:naphtha_cracked_blazing>, ACbatchsize, <liquid:naphtha_cracked_hot>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 318/ACRate, <liquid:naphtha_cracked_boiling>, ACbatchsize, <liquid:naphtha_cracked_hot>, ACbatchsize, mmrecipecount, scaleeff);
 
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:naphtha_crackedgas_humid_warm>*992,<liquid:pyoil_hot>*8], [<immersiveengineering:material:6>], <liquid:naphtha_cracked_hot>*1000, 250, 10, [0.000001]);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:naphtha_crackedgas_humid_warm>*996,<liquid:pyoil_hot>*4], [<immersiveengineering:material:6>], <liquid:naphtha_cracked_hot>*1000, 250, 10, [0.000001]);
 
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:pyoil_hot>*241, <liquid:pyoil_warm>*241, HXUnit);
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:pyoil_warm>*350, <liquid:pyoil>*350, HXUnit);
 
-team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:naphtha_crackedgas_humid_warm>*2799, <liquid:naphtha_crackedgas_humid>*128, HXUnit*15);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:naphtha_crackedgas_humid_warm>*2612, <liquid:naphtha_crackedgas_humid>*119, 14*HXUnit);
 
 mmrecipecount = addaircoolerrecipe(ACduty, 702/ACRate, <liquid:pyoil_hot>, ACbatchsize, <liquid:pyoil>, ACbatchsize, mmrecipecount, scaleeff);
 mmrecipecount = addaircoolerrecipe(ACduty, 286/ACRate, <liquid:pyoil_warm>, ACbatchsize, <liquid:pyoil>, ACbatchsize, mmrecipecount, scaleeff);
 
-mmrecipecount = addaircoolerrecipe(ACduty, 536/ACRate, <liquid:naphtha_crackedgas_humid_warm>, 1006, <liquid:naphtha_crackedgas_humid>, 46, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 536/ACRate, <liquid:naphtha_crackedgas_humid_warm>, 1009, <liquid:naphtha_crackedgas_humid>, 46, mmrecipecount, scaleeff);
 
-mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:naphtha_crackedgas_humid>, drumbatchsize, <liquid:naphtha_crackedgas>, 1738*2000/drumbatchsize, <liquid:sour_water>, 262*2000/drumbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:naphtha_crackedgas_humid>, drumbatchsize, <liquid:naphtha_crackedgas>, 1737*2000/drumbatchsize, <liquid:sour_water>, 263*2000/drumbatchsize, mmrecipecount, scaleeff);
 
 mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:naoh_40>, 20*500/GLColumnBatchsize, <liquid:naphtha_crackedgas>, GLColumnBatchsize, <liquid:naphtha_crackedgas_washed>, GLColumnBatchsize, <liquid:naoh_used>, 20*500/GLColumnBatchsize, mmrecipecount, scaleeff);
 
-//Separation train
 mods.pneumaticcraft.refinery.addRecipe(1630123, <liquid:naphtha_crackedgas_washed>*505, [<liquid:naphtha_cracked_demtop>*90, <liquid:naphtha_cracked_dembot>*415]);
-mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liquid:naphtha_cracked_demtop>, GaspurifierBatchsize, <liquid:hydrogen>, 11*500/GaspurifierBatchsize, <liquid:methane>, 489*500/GaspurifierBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liquid:naphtha_cracked_demtop>, 493, <liquid:hydrogen>, 11*500/GaspurifierBatchsize, <liquid:methane>, 482*500/GaspurifierBatchsize, mmrecipecount, scaleeff);
 
 mods.pneumaticcraft.refinery.addRecipe(2180188, <liquid:naphtha_cracked_dembot>*499, [<liquid:naphtha_cracked_deetop>*210, <liquid:naphtha_cracked_deebot>*289]);
 mods.pneumaticcraft.refinery.addRecipe(1850170, <liquid:naphtha_cracked_deetop>*491, [<liquid:ethene>*433, <liquid:ethane>*58]);
@@ -496,7 +590,7 @@ mods.pneumaticcraft.refinery.addRecipe(2310226, <liquid:naphtha_cracked_deptop>*
 mods.pneumaticcraft.refinery.addRecipe(2580273, <liquid:naphtha_cracked_depbot>*499, [<liquid:naphtha_cracked_debtop>*155, <liquid:pygas>*344]);
 mods.pneumaticcraft.refinery.addRecipe(2720269, <liquid:naphtha_cracked_debtop>*493, [<liquid:butadiene>*395, <liquid:butane>*98]);
 
-//Aromatics extractive distillation
+//Steam cracker aromatics
 mods.nuclearcraft.SaltMixer.addRecipe(<liquid:pygas>*100, <liquid:sulfolane>*400, <liquid:pygas_mix>*500);
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:gasoline>*98,<liquid:pygas_extr_bot>*902], [<immersiveengineering:material:6>], <liquid:pygas_mix>*1000, 800, 100, [0.000001]);
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:pygas_btx>*103,<liquid:sulfolane>*897], [<immersiveengineering:material:6>], <liquid:pygas_extr_bot>*1000, 800, 100, [0.000001]);
