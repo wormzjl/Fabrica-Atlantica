@@ -73,7 +73,21 @@ val fluids_ambient = {
   pygas_extr_bot : "AF5CA4",
   pygas_btx : "DA871A",
   pygas_tx : "96764B",
-  pyoil : "F5B379"
+  pyoil : "F5B379",
+  napref_s3 : "F5E3C6",
+  napref_adv_s3 : "F5E3C6",
+  naphtha_reformate : "F5CEB3",
+  naphtha_reformate_adv : "F5CEB3",
+  naphtha_reformate_stripped : "FFC7A9",
+  naphtha_reformate_adv_stripped : "FFC7A9",
+  naphtha_reformate_mix : "D344AA",
+  naphtha_reformate_adv_mix : "D344AA",
+  naphtha_reformate_extr_bot : "AF5CA4",
+  naphtha_reformate_adv_extr_bot : "AF5CA4",
+  naphtha_reformate_btx : "DA871A",
+  naphtha_reformate_adv_btx : "DA871A",
+  naphtha_reformate_tx : "96764B",
+  naphtha_reformate_adv_tx : "96764B"
 } as string[string];
 
 val fluids_warm = {
@@ -104,7 +118,9 @@ val fluids_warm = {
   srvr_hdt_adv_eff_gas : "E1C2A5",
   srvr_hdt_fracfeed : "171109",
   naphtha_crackedgas_humid : "E6E2E0",
-  pyoil : "F5B379"
+  pyoil : "F5B379",
+  napref_s3 : "F5E3C6",
+  napref_adv_s3 : "F5E3C6"
 } as string[string];
 
 val fluids_hot = {
@@ -138,7 +154,9 @@ val fluids_hot = {
   srvr_hdt_fracfeed : "171109",
   vrhdt_bottom : "150F0C",
   naphtha_cracked : "F8F2EC",
-  pyoil : "F5B379"
+  pyoil : "F5B379",
+  napref_s3 : "F5E3C6",
+  napref_adv_s3 : "F5E3C6"
 } as string[string];
 
 val fluids_boiling = {
@@ -158,12 +176,24 @@ val fluids_boiling = {
   srvr_hdt_adv_eff_s1 : "1D1109",
   srvr_hdt_adv_eff_mix : "1D1109",
   vrhdt_bottom : "150F0C",
-  naphtha_cracked : "F8F2EC"
+  naphtha_cracked : "F8F2EC",
+  napref_s1 : "F5E3C6",
+  napref_s2 : "F5E3C6",
+  napref_s3 : "F5E3C6",
+  napref_adv_s1 : "F5E3C6",
+  napref_adv_s2 : "F5E3C6",
+  napref_adv_s3 : "F5E3C6"
 } as string[string];
 
 val fluids_blazing = {
   hdt_naphtha : "F5DEB3",
-  naphtha_cracked : "F8F2EC"
+  naphtha_cracked : "F8F2EC",
+  napref_s1 : "F5E3C6",
+  napref_s2 : "F5E3C6",
+  napref_s3 : "F5E3C6",
+  napref_adv_s1 : "F5E3C6",
+  napref_adv_s2 : "F5E3C6",
+  napref_adv_s3 : "F5E3C6"
 } as string[string];
 
 val fluid_special = {
@@ -231,7 +261,9 @@ val gas_ambient = {
   butane_cracked_deebot : "65CD32",
   butane_cracked_deptop : "32CD32",
   butane_cracked_depbot : "2BCD1C",
-  butane_cracked_debtop : "228B22"
+  butane_cracked_debtop : "228B22",
+  reformer_gas : "FFF9F3",
+  reformer_gas_adv : "FFF9F3"
 } as string[string];
 
 val gas_warm = {
