@@ -41,12 +41,15 @@ val fluids_ambient = {
   sr_naphtha : "F5DEB3",
   sr_go : "F4A460",
   ar : "643C0B",
-  sr_vgo : "1C1C00",
+  sr_vgo : "724727",
   sr_vacuum_residue : "000000",
   hdt_naphtha : "F5DEB3",
   hdt_go : "F5B379",
   hdt_vgo : "DB813C",
   hdt_vacuum_residue : "150F0C",
+  lcgo : "D08B4D",
+  hcgo : "5C3A19",
+  coker_naphtha : "F5CFB3",
   srn_hdt_basic_eff_mix : "F5EAD9",
   srn_hdt_adv_eff_mix : "F5EAD9",
   srgo_hdt_basic_eff_gas : "F5EFE6",
@@ -100,12 +103,14 @@ val fluids_warm = {
   sr_naphtha : "F5DEB3",
   sr_go : "F4A460",
   ar : "643C0B",
-  sr_vgo : "1C1C00",
+  sr_vgo : "724727",
   sr_vacuum_residue : "000000",
   hdt_naphtha : "F5DEB3",
   hdt_go : "F5B379",
   hdt_vgo : "DB813C",
   hdt_vacuum_residue : "150F0C",
+  lcgo : "D08B4D",
+  hcgo : "5C3A19",
   srn_hdt_basic_eff_mix : "F5EAD9",
   srn_hdt_adv_eff_mix : "F5EAD9",
   srgo_hdt_basic_eff_gas : "F5EFE6",
@@ -129,12 +134,14 @@ val fluids_hot = {
   sr_naphtha : "F5DEB3",
   sr_go : "F4A460",
   ar : "643C0B",
-  sr_vgo : "1C1C00",
+  sr_vgo : "724727",
   sr_vacuum_residue : "000000",
   hdt_naphtha : "F5DEB3",
   hdt_go : "F5B379",
   hdt_vgo : "DB813C",
   hdt_vacuum_residue : "150F0C",
+  lcgo : "D08B4D",
+  hcgo : "5C3A19",
   srn_hdt_basic_eff_mix : "F5EAD9",
   srn_hdt_adv_eff_mix : "F5EAD9",
   srgo_hdt_basic_eff_mix : "F4C890",
@@ -162,7 +169,7 @@ val fluids_hot = {
 val fluids_boiling = {
   sr_go : "F4A460",
   ar : "643C0B",
-  sr_vgo : "1C1C00",
+  sr_vgo : "724727",
   sr_vacuum_residue : "000000",
   hdt_naphtha : "F5DEB3",
   hdt_go : "F5B379",
@@ -182,10 +189,13 @@ val fluids_boiling = {
   napref_s3 : "F5E3C6",
   napref_adv_s1 : "F5E3C6",
   napref_adv_s2 : "F5E3C6",
-  napref_adv_s3 : "F5E3C6"
+  napref_adv_s3 : "F5E3C6",
+  vrcoker_effluent : "512D11"
 } as string[string];
 
 val fluids_blazing = {
+  ar : "643C0B",
+  sr_vacuum_residue : "000000",
   hdt_naphtha : "F5DEB3",
   naphtha_cracked : "F8F2EC",
   napref_s1 : "F5E3C6",
@@ -263,7 +273,15 @@ val gas_ambient = {
   butane_cracked_depbot : "2BCD1C",
   butane_cracked_debtop : "228B22",
   reformer_gas : "FFF9F3",
-  reformer_gas_adv : "FFF9F3"
+  reformer_gas_adv : "FFF9F3",
+  vrcoker_fracgas : "FDEA6F",
+  vrcoker_sourgas : "FDEAB3",
+  vrcoker_gas : "B9FF79",
+  vrcoker_gas_dembot : "9AE06E",
+  vrcoker_gas_deetop : "9ACD32",
+  vrcoker_gas_deebot : "65CD32",
+  vrcoker_gas_deptop : "32CD32",
+  vrcoker_gas_depbot : "2BCD1C"
 } as string[string];
 
 val gas_warm = {
@@ -274,7 +292,8 @@ val gas_warm = {
   ethane_cracked : "D7FFB1",
   propane_cracked : "D7FFB1",
   butane_cracked : "D7FFB1",
-  butane_crackedgas_humid : "E6E2E0"
+  butane_crackedgas_humid : "E6E2E0",
+  vrcoker_fracgas : "FDEA6F"
 } as string[string];
 
 val gas_hot = {

@@ -11,8 +11,7 @@ static removed as IItemStack[] = [
   <rs_ctr:teleporter1>,
   <rs_ctr:teleporter>,
   <ariente:ariente_pearl>,
-  <funkylocomotion:teleporter>,
-  <capsule:capsule:*>
+  <funkylocomotion:teleporter>
 ];
 
 for item in removed {
