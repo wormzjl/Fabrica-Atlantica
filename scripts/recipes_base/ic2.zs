@@ -18,6 +18,7 @@ static removed as IItemStack[] = [
   <ic2:refractory_bricks>,
   <ic2:tool_box:*>,
   <ic2:energy_pack:26>,
+  <ic2:te:10>,
   <ic2:te:11>,
   <ic2:te:17>,
   <ic2:te:21>,
