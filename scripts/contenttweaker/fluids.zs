@@ -8,25 +8,6 @@ import mods.contenttweaker.Color;
 var animaloil = VanillaFactory.createFluid("animaloil", Color.fromHex("FDFFD9"));
 animaloil.register();
 
-var liquidrubber = VanillaFactory.createFluid("liquidrubber", Color.fromHex("7A7A7A"));
-liquidrubber.viscosity = 2000;
-liquidrubber.register();
-
-var rubber = VanillaFactory.createFluid("rubber", Color.fromHex("4D4D4D"));
-rubber.viscosity = 2000;
-rubber.register();
-
-var formicacid = VanillaFactory.createFluid("formicacid", Color.fromHex("00FFFF"));
-formicacid.register();
-
-var chlorine = VanillaFactory.createFluid("chlorine", Color.fromHex("00FF00"));
-chlorine.gaseous = true;
-chlorine.register();
-
-var phosgene = VanillaFactory.createFluid("phosgene", Color.fromHex("FFA07A"));
-phosgene.gaseous = true;
-phosgene.register();
-
 var fumingsulfuricacid = VanillaFactory.createFluid("fumingsulfuricacid", Color.fromHex("C7DB8E"));
 fumingsulfuricacid.register();
 
@@ -35,9 +16,6 @@ sulfuricnitricacid.register();
 
 var fumingsulfuricnitricacid = VanillaFactory.createFluid("fumingsulfuricnitricacid", Color.fromHex("FAFFA8"));
 fumingsulfuricnitricacid.register();
-
-var epoxyresin = VanillaFactory.createFluid("epoxyresin", Color.fromHex("2AB4D7"));
-epoxyresin.register();
 
 
 //Mineral processing
@@ -76,21 +54,6 @@ uranium_slurry.register();
 
 var thorium_slurry = VanillaFactory.createFluid("thorium_slurry", Color.fromHex("484848"));
 thorium_slurry.register();
-
-
-//Petrochem liquid
-var glycerol = VanillaFactory.createFluid("glycerol", Color.fromHex("FFE4C4"));
-glycerol.register();
-
-var naphtha_cracked = VanillaFactory.createFluid("naphtha_cracked", Color.fromHex("F0E1C3"));
-naphtha_cracked.register();
-
-var gas_oil_cracked = VanillaFactory.createFluid("gas_oil_cracked", Color.fromHex("FFB270"));
-gas_oil_cracked.register();
-
-var gas_oil_cracked_hot = VanillaFactory.createFluid("gas_oil_cracked_hot", Color.fromHex("FFB270"));
-gas_oil_cracked_hot.temperature = 1000;
-gas_oil_cracked_hot.register();
 
 
 //Petrochem Gas

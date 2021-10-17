@@ -20,7 +20,6 @@ mods.rockhounding_chemistry.Transposer.add(<liquid:xenon>, <liquid:xenon>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:oxygen>, <liquid:oxygen>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:nitrogen>, <liquid:nitrogen>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:ammonia>, <liquid:ammonia>);
-mods.rockhounding_chemistry.Transposer.add(<liquid:chlorine>, <liquid:chlorine>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:hydrogen>, <liquid:hydrogen>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas>, <liquid:natural_gas>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_hot>, <liquid:natural_gas_hot>);

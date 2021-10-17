@@ -12,8 +12,10 @@ val fluids_ambient_misc = {
   lean_mea : "80FFE0",
   rich_mea : "80F2E2",
   rich_mea_co2 : "80DDE0",
+  rich_mea_co2h2s : "80DDE0",
   lean_mdea : "80FFC3",
   rich_mdea : "80E6C3",
+  rich_methanol_co2h2s : "715F6F",
   naoh_40 : "7578AE",
   naoh_used : "75787E",
   sulfolane : "4B0099",
@@ -28,7 +30,13 @@ val fluids_ambient_misc = {
   formaldehyde : "F08080",
   ethylene_glycol : "9CC9EC",
   ethylene_glycol_rich : "9CC9EC",
-  ethylene_oxide : "69AEE2"
+  ethylene_oxide : "69AEE2",
+  glycerol : "FFE4C4",
+  liquidrubber : "7A7A7A",
+  rubber : "4D4D4D",
+  formicacid : "00FFFF",
+  epoxyresin : "2AB4D7"
+
 } as string[string];
 
 val fluids_ambient = {
@@ -209,6 +217,14 @@ val fluids_blazing = {
 val fluid_special = {
 } as string[string];
 
+val fluid_cold = {
+  methanol : "715F5C"
+} as string[string];
+
+val gas_ambient_misc = {
+  phosgene : "FFA07A"
+} as string[string];
+
 
 val gas_ambient = {
   methane_natural : "ADFF2F",
@@ -262,6 +278,15 @@ val gas_ambient = {
   naphtha_smrproduct_lts : "D6EEFF",
   naphtha_smrproduct_ltsgas : "83B9FB",
   naphtha_syngas : "DDF5DD",
+  coal_syngas : "DDF5DD",
+  coal_syngas_lts : "D6EEFF",
+  coal_syngas_ltsgas : "83B9FB",
+  coal_syngas_sour : "EEF5DD",
+  coalgasifier_effluent : "BDBD94",
+  coal_syngas_advlts : "D6EEFF",
+  coal_syngas_advltsgas_sour : "EEF5DD",
+  coal_stdsyngas_advhts : "BBDFFF",
+  coal_stdsyngas_advhtsgas_sour : "EEF5DD",
   ethane_cracked : "D7FFB1",
   ethane_crackedgas : "B9FF79",
   ethane_crackedgas_washed : "B9FF79",
@@ -323,8 +348,15 @@ val gas_warm = {
   hdtgas_smrproduct_hts : "BBDFFF",
   hdtgas_smrproduct_lts : "D6EEFF",
   naphtha_smrproduct : "9CD3FF",
-  naphtha_smrproduct_hts : "D6EEFF",
-  naphtha_smrproduct_lts : "83B9FB",
+  naphtha_smrproduct_hts : "BBDFFF",
+  naphtha_smrproduct_lts : "D6EEFF",
+  coal_syngas : "DDF5DD",
+  coal_syngas_hts : "BBDFFF",
+  coal_syngas_lts : "D6EEFF",
+  coalgasifier_effluent : "BDBD94",
+  coal_syngas_advhts : "BBDFFF",
+  coal_syngas_advlts : "D6EEFF",
+  coal_stdsyngas_advhts : "BBDFFF",
   ethane_cracked : "D7FFB1",
   propane_cracked : "D7FFB1",
   butane_cracked : "D7FFB1",
@@ -346,6 +378,11 @@ val gas_hot = {
   hdtgas_smrproduct_hts : "BBDFFF",
   naphtha_smrproduct : "9CD3FF",
   naphtha_smrproduct_hts : "BBDFFF",
+  coal_syngas : "DDF5DD",
+  coal_syngas_hts : "BBDFFF",
+  coalgasifier_effluent : "BDBD94",
+  coal_syngas_advhts : "BBDFFF",
+  coal_stdsyngas_advhts : "BBDFFF",
   ethane_cracked : "D7FFB1",
   propane_cracked : "D7FFB1",
   butane_cracked : "D7FFB1"
@@ -359,6 +396,7 @@ val gas_boiling = {
   c4_smrproduct : "9CD3FF",
   hdtgas_smrproduct : "9CD3FF",
   naphtha_smrproduct : "9CD3FF",
+  coalgasifier_effluent : "BDBD94",
   ethane_cracked : "D7FFB1",
   propane_cracked : "D7FFB1",
   butane_cracked : "D7FFB1"
@@ -371,6 +409,7 @@ val gas_blazing = {
   c4_smrproduct : "9CD3FF",
   hdtgas_smrproduct : "9CD3FF",
   naphtha_smrproduct : "9CD3FF",
+  coalgasifier_effluent : "BDBD94",
   ethane_cracked : "D7FFB1",
   propane_cracked : "D7FFB1",
   butane_cracked : "D7FFB1"
@@ -384,8 +423,9 @@ addHotFluid(fluids_hot);
 addBoilingFluid(fluids_boiling);
 addBlazingFluid(fluids_blazing);
 addSpecialFluid(fluid_special);
+addColdFluid(fluid_cold);
 
-
+addAmbientGas(gas_ambient_misc);
 addAmbientGas(gas_ambient);
 addWarmGas(gas_warm);
 addHotGas(gas_hot);
@@ -438,6 +478,14 @@ function addSpecialFluid(fluids as string[string]){
   for fluid in fluids {
     var fluid1 = VanillaFactory.createFluid(fluid, Color.fromHex(fluids[fluid]));
     fluid1.temperature = 630;
+    fluid1.register();
+  }
+}
+
+function addColdFluid(fluids as string[string]){
+  for fluid in fluids {
+    var fluid1 = VanillaFactory.createFluid(fluid + "_cold", Color.fromHex(fluids[fluid]));
+    fluid1.temperature = 213;
     fluid1.register();
   }
 }
