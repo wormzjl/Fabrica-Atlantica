@@ -36,7 +36,6 @@ val fluids_ambient_misc = {
   rubber : "4D4D4D",
   formicacid : "00FFFF",
   epoxyresin : "2AB4D7"
-
 } as string[string];
 
 val fluids_ambient = {
@@ -98,7 +97,16 @@ val fluids_ambient = {
   naphtha_reformate_btx : "DA871A",
   naphtha_reformate_adv_btx : "DA871A",
   naphtha_reformate_tx : "96764B",
-  naphtha_reformate_adv_tx : "96764B"
+  naphtha_reformate_adv_tx : "96764B",
+  sr_vgo_advhck_fracfeed : "B79073",
+  hdt_vgo_advhck_fracfeed : "B79073",
+  mix_vgo_advhck_fracfeed : "B79073",
+  sr_vgo_advhckeff_gas : "E1C2A5",
+  hdt_vgo_advhckeff_gas : "E1C2A5",
+  mix_vgo_advhckeff_gas : "E1C2A5",
+  sr_vgo_advhck_vapor : "FFFFF6",
+  hdt_vgo_advhck_vapor : "FFFFF6",
+  mix_vgo_advhck_vapor : "FFFFF6"
 } as string[string];
 
 val fluids_warm = {
@@ -133,7 +141,16 @@ val fluids_warm = {
   naphtha_crackedgas_humid : "E6E2E0",
   pyoil : "F5B379",
   napref_s3 : "F5E3C6",
-  napref_adv_s3 : "F5E3C6"
+  napref_adv_s3 : "F5E3C6",
+  sr_vgo_advhck_fracfeed : "B79073",
+  hdt_vgo_advhck_fracfeed : "B79073",
+  mix_vgo_advhck_fracfeed : "B79073",
+  sr_vgo_advhckeff_gas : "E1C2A5",
+  hdt_vgo_advhckeff_gas : "E1C2A5",
+  mix_vgo_advhckeff_gas : "E1C2A5",
+  sr_vgo_advhck_vapor : "FFFFF6",
+  hdt_vgo_advhck_vapor : "FFFFF6",
+  mix_vgo_advhck_vapor : "FFFFF6"
 } as string[string];
 
 val fluids_hot = {
@@ -171,7 +188,17 @@ val fluids_hot = {
   naphtha_cracked : "F8F2EC",
   pyoil : "F5B379",
   napref_s3 : "F5E3C6",
-  napref_adv_s3 : "F5E3C6"
+  napref_adv_s3 : "F5E3C6",
+  sr_vgo_advhckeff : "DBA25A",
+  hdt_vgo_advhckeff : "DBA25A",
+  mix_vgo_advhckeff : "DBA25A",
+  sr_vgo_advhck_fracfeed : "B79073",
+  hdt_vgo_advhck_fracfeed : "B79073",
+  mix_vgo_advhck_fracfeed : "B79073",
+  sr_vgo_advhckeff_gas : "E1C2A5",
+  hdt_vgo_advhckeff_gas : "E1C2A5",
+  mix_vgo_advhckeff_gas : "E1C2A5"
+
 } as string[string];
 
 val fluids_boiling = {
@@ -198,7 +225,10 @@ val fluids_boiling = {
   napref_adv_s1 : "F5E3C6",
   napref_adv_s2 : "F5E3C6",
   napref_adv_s3 : "F5E3C6",
-  vrcoker_effluent : "512D11"
+  vrcoker_effluent : "512D11",
+  sr_vgo_advhckeff : "DBA25A",
+  hdt_vgo_advhckeff : "DBA25A",
+  mix_vgo_advhckeff : "DBA25A"
 } as string[string];
 
 val fluids_blazing = {
@@ -327,7 +357,13 @@ val gas_ambient = {
   vrcoker_gas_deetop : "9ACD32",
   vrcoker_gas_deebot : "65CD32",
   vrcoker_gas_deptop : "32CD32",
-  vrcoker_gas_depbot : "2BCD1C"
+  vrcoker_gas_depbot : "2BCD1C",
+  sr_vgo_advhck_sourgas : "FFF900",
+  hdt_vgo_advhck_sourgas : "FFF900",
+  mix_vgo_advhck_sourgas : "FFF900",
+  sr_vgo_advhck_sweetgas : "FFFFC8",
+  hdt_vgo_advhck_sweetgas : "FFFFC8",
+  mix_vgo_advhck_sweetgas : "FFFFC8"
 } as string[string];
 
 val gas_warm = {

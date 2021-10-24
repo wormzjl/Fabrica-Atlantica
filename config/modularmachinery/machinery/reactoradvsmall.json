@@ -29,6 +29,542 @@
         },
         {
             "x": -1,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "casings_catalyst"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "contenttweaker:reactorinternal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "industrialrenewal:catwalk_steel_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
             "y": 0,
             "z": 2,
             "elements": [
@@ -40,7 +576,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "modularmachinery:blockredstonebus"
+                "modularmachinery:blockredstonebus@0"
             ]
         },
         {
@@ -53,6 +589,38 @@
         },
         {
             "x": -1,
+            "y": 13,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
             "y": 7,
             "z": 1,
             "elements": [
@@ -60,9 +628,9 @@
             ]
         },
         {
-            "x": -1,
-            "y": 5,
-            "z": 0,
+            "x": 0,
+            "y": 9,
+            "z": 2,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
@@ -76,6 +644,22 @@
             ]
         },
         {
+            "x": -1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
             "x": 1,
             "y": 7,
             "z": 1,
@@ -92,14 +676,6 @@
             ]
         },
         {
-            "x": -1,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
             "x": 1,
             "y": 5,
             "z": 0,
@@ -108,81 +684,9 @@
             ]
         },
         {
-            "x": 0,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
-            ]
-        },
-        {
             "x": -1,
             "y": 1,
             "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 0,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
@@ -198,6 +702,22 @@
         {
             "x": 1,
             "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
             "z": 2,
             "elements": [
                 "contenttweaker:sscasing@0"
@@ -208,7 +728,15 @@
             "y": 8,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidinputhatch"
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -220,33 +748,25 @@
             ]
         },
         {
-            "x": 0,
+            "x": 1,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
             "y": 8,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
             "x": 0,
             "y": 6,
             "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 2,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
@@ -260,95 +780,7 @@
             ]
         },
         {
-            "x": 1,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
             "x": -1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "casings_catalyst"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
             "y": 2,
             "z": 2,
             "elements": [
@@ -359,6 +791,14 @@
             "x": -1,
             "y": 0,
             "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
@@ -389,18 +829,26 @@
         },
         {
             "x": -1,
-            "y": -2,
+            "y": 11,
             "z": 2,
             "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
-            "x": 1,
-            "y": -2,
+            "x": -1,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
             "z": 2,
             "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
+                "contenttweaker:sscasing@0"
             ]
         },
         {
@@ -412,32 +860,16 @@
             ]
         },
         {
-            "x": 0,
-            "y": 7,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
             "x": 1,
-            "y": 7,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
+            "y": 11,
             "z": 2,
             "elements": [
                 "contenttweaker:sscasing@0"
             ]
         },
         {
-            "x": -1,
-            "y": 5,
+            "x": 1,
+            "y": 9,
             "z": 1,
             "elements": [
                 "contenttweaker:sscasing@0"
@@ -446,158 +878,6 @@
         {
             "x": 0,
             "y": 7,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:advreactorinternal@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "industrialrenewal:catwalk_steel_pillar@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sscasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
             "z": 0,
             "elements": [
                 "modularmachinery:blockfluidinputhatch@0"
@@ -605,7 +885,127 @@
         },
         {
             "x": 1,
-            "y": 4,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:reactorinternal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "casings_catalyst"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sscasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
             "z": 0,
             "elements": [
                 "contenttweaker:sscasing@0"
