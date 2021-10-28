@@ -115,7 +115,25 @@ val fluids_ambient = {
   mix_vgo_basichckeff_gas : "E1C2A5",
   sr_vgo_basichck_vapor : "FFFFF6",
   hdt_vgo_basichck_vapor : "FFFFF6",
-  mix_vgo_basichck_vapor : "FFFFF6"
+  mix_vgo_basichck_vapor : "FFFFF6",
+  sr_go_advhck_fracfeed : "B79073",
+  hdt_go_advhck_fracfeed : "B79073",
+  mix_go_advhck_fracfeed : "B79073",
+  sr_go_advhckeff_gas : "E1C2A5",
+  hdt_go_advhckeff_gas : "E1C2A5",
+  mix_go_advhckeff_gas : "E1C2A5",
+  sr_go_advhck_vapor : "FFFFF6",
+  hdt_go_advhck_vapor : "FFFFF6",
+  mix_go_advhck_vapor : "FFFFF6",
+  sr_go_basichck_fracfeed : "B79073",
+  hdt_go_basichck_fracfeed : "B79073",
+  mix_go_basichck_fracfeed : "B79073",
+  sr_go_basichckeff_gas : "E1C2A5",
+  hdt_go_basichckeff_gas : "E1C2A5",
+  mix_go_basichckeff_gas : "E1C2A5",
+  sr_go_basichck_vapor : "FFFFF6",
+  hdt_go_basichck_vapor : "FFFFF6",
+  mix_go_basichck_vapor : "FFFFF6"
 
 } as string[string];
 
@@ -169,7 +187,26 @@ val fluids_warm = {
   mix_vgo_basichckeff_gas : "E1C2A5",
   sr_vgo_basichck_vapor : "FFFFF6",
   hdt_vgo_basichck_vapor : "FFFFF6",
-  mix_vgo_basichck_vapor : "FFFFF6"
+  mix_vgo_basichck_vapor : "FFFFF6",
+  sr_go_advhck_fracfeed : "B79073",
+  hdt_go_advhck_fracfeed : "B79073",
+  mix_go_advhck_fracfeed : "B79073",
+  sr_go_advhckeff_gas : "E1C2A5",
+  hdt_go_advhckeff_gas : "E1C2A5",
+  mix_go_advhckeff_gas : "E1C2A5",
+  sr_go_advhck_vapor : "FFFFF6",
+  hdt_go_advhck_vapor : "FFFFF6",
+  mix_go_advhck_vapor : "FFFFF6",
+  sr_go_basichck_fracfeed : "B79073",
+  hdt_go_basichck_fracfeed : "B79073",
+  mix_go_basichck_fracfeed : "B79073",
+  sr_go_basichckeff_gas : "E1C2A5",
+  hdt_go_basichckeff_gas : "E1C2A5",
+  mix_go_basichckeff_gas : "E1C2A5",
+  sr_go_basichck_vapor : "FFFFF6",
+  hdt_go_basichck_vapor : "FFFFF6",
+  mix_go_basichck_vapor : "FFFFF6"
+
 } as string[string];
 
 val fluids_hot = {
@@ -225,7 +262,27 @@ val fluids_hot = {
   mix_vgo_basichck_fracfeed : "B79073",
   sr_vgo_basichckeff_gas : "E1C2A5",
   hdt_vgo_basichckeff_gas : "E1C2A5",
-  mix_vgo_basichckeff_gas : "E1C2A5"
+  mix_vgo_basichckeff_gas : "E1C2A5",
+  sr_go_advhckeff : "DBA25A",
+  hdt_go_advhckeff : "DBA25A",
+  mix_go_advhckeff : "DBA25A",
+  sr_go_advhck_fracfeed : "B79073",
+  hdt_go_advhck_fracfeed : "B79073",
+  mix_go_advhck_fracfeed : "B79073",
+  sr_go_advhckeff_gas : "E1C2A5",
+  hdt_go_advhckeff_gas : "E1C2A5",
+  mix_go_advhckeff_gas : "E1C2A5",
+  sr_go_basichckeff : "DBA25A",
+  hdt_go_basichckeff : "DBA25A",
+  mix_go_basichckeff : "DBA25A",
+  sr_go_basichck_fracfeed : "B79073",
+  hdt_go_basichck_fracfeed : "B79073",
+  mix_go_basichck_fracfeed : "B79073",
+  sr_go_basichckeff_gas : "E1C2A5",
+  hdt_go_basichckeff_gas : "E1C2A5",
+  mix_go_basichckeff_gas : "E1C2A5"
+
+
 } as string[string];
 
 val fluids_boiling = {
@@ -258,7 +315,13 @@ val fluids_boiling = {
   mix_vgo_advhckeff : "DBA25A",
   sr_vgo_basichckeff : "DBA25A",
   hdt_vgo_basichckeff : "DBA25A",
-  mix_vgo_basichckeff : "DBA25A"
+  mix_vgo_basichckeff : "DBA25A",
+  sr_go_advhckeff : "DBA25A",
+  hdt_go_advhckeff : "DBA25A",
+  mix_go_advhckeff : "DBA25A",
+  sr_go_basichckeff : "DBA25A",
+  hdt_go_basichckeff : "DBA25A",
+  mix_go_basichckeff : "DBA25A"
 } as string[string];
 
 val fluids_blazing = {
@@ -399,7 +462,19 @@ val gas_ambient = {
   mix_vgo_basichck_sourgas : "FFF900",
   sr_vgo_basichck_sweetgas : "FFFFC8",
   hdt_vgo_basichck_sweetgas : "FFFFC8",
-  mix_vgo_basichck_sweetgas : "FFFFC8"
+  mix_vgo_basichck_sweetgas : "FFFFC8",
+  sr_go_advhck_sourgas : "FFF900",
+  hdt_go_advhck_sourgas : "FFF900",
+  mix_go_advhck_sourgas : "FFF900",
+  sr_go_advhck_sweetgas : "FFFFC8",
+  hdt_go_advhck_sweetgas : "FFFFC8",
+  mix_go_advhck_sweetgas : "FFFFC8",
+  sr_go_basichck_sourgas : "FFF900",
+  hdt_go_basichck_sourgas : "FFF900",
+  mix_go_basichck_sourgas : "FFF900",
+  sr_go_basichck_sweetgas : "FFFFC8",
+  hdt_go_basichck_sweetgas : "FFFFC8",
+  mix_go_basichck_sweetgas : "FFFFC8"
 
 } as string[string];
 
