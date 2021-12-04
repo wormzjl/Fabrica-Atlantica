@@ -6,8 +6,8 @@ import mods.contenttweaker.Part;
 import mods.contenttweaker.DropTableBuilder;
 
 //New parts
-var names = ["ore_high", "ore_low", "ore_small_high", "ore_small_low", "ore_dust_small_high", "ore_dust_small_low", "ore_dust_high", "ore_dust_low", "ore_dust_washed_low", "ore_dust_pure", "ore_pellet", "ore_tailing", "scrapmetal", "gear", "gearadv", "denseplate", "broken_high", "broken_med", "broken_low", "dusttiny", "slag", "gearpart", "data"] as string[];
-var overlay = [true, true, true, true, true, true, true, true, false, true, false, true, false, true, true, false, true, true, true, false, true, false, true] as bool[];
+var names = ["ore_high", "ore_low", "ore_small_high", "ore_small_low", "ore_dust_small_high", "ore_dust_small_low", "ore_dust_high", "ore_dust_low", "ore_dust_washed_low", "ore_dust_pure", "ore_pellet", "ore_tailing", "scrapmetal", "gear", "gearadv", "denseplate", "broken_high", "broken_med", "broken_low", "dusttiny", "slag", "gearpart", "data", "catalyst"] as string[];
+var overlay = [true, true, true, true, true, true, true, true, false, true, false, true, false, true, true, false, true, true, true, false, true, false, true, false] as bool[];
 
 for index, name in names {
     var partBuilder = MaterialSystem.getPartBuilder();
@@ -138,4 +138,22 @@ var chemicals = [gaas, tio2, alumina] as Material[];
 for i, chemical in chemicals {
     chemical.registerPart("dust");
     chemical.registerPart("tiny_dust");
+}
+
+//Catalysts
+var ni = MaterialSystem.getMaterialBuilder().setName("Ni").setColor(1023844).build();
+var como = MaterialSystem.getMaterialBuilder().setName("CoMo").setColor(1007793).build();
+var nimo = MaterialSystem.getMaterialBuilder().setName("NiMo").setColor(1008996).build();
+var comoni = MaterialSystem.getMaterialBuilder().setName("CoMoNi").setColor(373685).build();
+var fecr = MaterialSystem.getMaterialBuilder().setName("FeCr").setColor(8912956).build();
+var pt = MaterialSystem.getMaterialBuilder().setName("Pt").setColor(2738636).build();
+var ptir = MaterialSystem.getMaterialBuilder().setName("PtIr").setColor(2745574).build();
+var nimohck = MaterialSystem.getMaterialBuilder().setName("NiMoHCK").setColor(1014884).build();
+var niwhck = MaterialSystem.getMaterialBuilder().setName("NiWHCK").setColor(998001).build();
+var comohck = MaterialSystem.getMaterialBuilder().setName("CoMoHCK").setColor(1015985).build();
+var comohck_spent = MaterialSystem.getMaterialBuilder().setName("CoMoHCK_spent").setColor(3086865).build();
+
+var cat_list = [ni, como, nimo, comoni, fecr, pt, ptir, nimohck, niwhck, comohck, comohck_spent] as Material[];
+for i, catalysts in cat_list {
+    catalysts.registerPart("catalyst");
 }
