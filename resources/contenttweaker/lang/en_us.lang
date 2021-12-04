@@ -95,9 +95,21 @@ base.material.tungsten=Tungsten
 base.material.ssteel=Stainless Steel
 base.material.hastelloy=Hastelloy
 
-base.material.Alumina=Alumina
-base.material.TiO2=Titanium Dioxide
-base.material.GaAs=Gallium Arsenide
+base.material.alumina=Alumina
+base.material.tio2=Titanium Dioxide
+base.material.gaas=Gallium Arsenide
+
+base.material.ni=Nickel
+base.material.como=Cobalt-Molybdenum
+base.material.nimo=Nickel-Molybdenum
+base.material.comoni=Cobalt-Molybdenum-Nickel
+base.material.fecr=Iron-Chromium
+base.material.pt=Platnium
+base.material.ptir=Platnium-Iridium
+base.material.nimohck=Nickel-Molybdenum Hydrocracking
+base.material.niwhck=Nickel-Tungsten Hydrocracking
+base.material.comohck=Cobalt-Molybdenum Hydrocracking
+base.material.comohck_spent=Spent Cobalt-Molybdenum Hydrocracking
 
 contenttweaker.part.ore_high=%s Ore
 contenttweaker.part.ore_low=Impure %s Ore
@@ -119,6 +131,7 @@ contenttweaker.part.slag=%s Slag
 contenttweaker.part.scrapmetal=Scrap %s
 contenttweaker.part.denseplate=%s Dense Plate
 contenttweaker.part.dustTiny=Tiny Pile of %s Dust
+contenttweaker.part.catalyst=%s Catalyst
 
 //Material system alt
 item.contenttweaker.gearpart_iron.name=Iron Gear Part
