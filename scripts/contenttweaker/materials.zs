@@ -141,19 +141,23 @@ for i, chemical in chemicals {
 }
 
 //Catalysts
-var ni = MaterialSystem.getMaterialBuilder().setName("Ni").setColor(1023844).build();
-var como = MaterialSystem.getMaterialBuilder().setName("CoMo").setColor(1007793).build();
-var nimo = MaterialSystem.getMaterialBuilder().setName("NiMo").setColor(1008996).build();
-var comoni = MaterialSystem.getMaterialBuilder().setName("CoMoNi").setColor(373685).build();
-var fecr = MaterialSystem.getMaterialBuilder().setName("FeCr").setColor(8912956).build();
-var pt = MaterialSystem.getMaterialBuilder().setName("Pt").setColor(2738636).build();
-var ptir = MaterialSystem.getMaterialBuilder().setName("PtIr").setColor(2745574).build();
-var nimohck = MaterialSystem.getMaterialBuilder().setName("NiMoHCK").setColor(1014884).build();
-var niwhck = MaterialSystem.getMaterialBuilder().setName("NiWHCK").setColor(998001).build();
-var comohck = MaterialSystem.getMaterialBuilder().setName("CoMoHCK").setColor(1015985).build();
-var comohck_spent = MaterialSystem.getMaterialBuilder().setName("CoMoHCK_spent").setColor(3086865).build();
+var ni = MaterialSystem.getMaterialBuilder().setName("ni").setColor(1023844).build();
+var como = MaterialSystem.getMaterialBuilder().setName("como").setColor(1007793).build();
+var nimo = MaterialSystem.getMaterialBuilder().setName("nimo").setColor(1008996).build();
+var comoni = MaterialSystem.getMaterialBuilder().setName("comoni").setColor(373685).build();
+var fecr = MaterialSystem.getMaterialBuilder().setName("fecr").setColor(8912956).build();
+var pt = MaterialSystem.getMaterialBuilder().setName("pt").setColor(2738636).build();
+var ptir = MaterialSystem.getMaterialBuilder().setName("ptir").setColor(2745574).build();
+var nimohck = MaterialSystem.getMaterialBuilder().setName("nimohck").setColor(1014884).build();
+var niwhck = MaterialSystem.getMaterialBuilder().setName("niwhck").setColor(998001).build();
+var comohck = MaterialSystem.getMaterialBuilder().setName("comohck").setColor(1015985).build();
+var comohck_spent = MaterialSystem.getMaterialBuilder().setName("comohck_spent").setColor(3086865).build();
+var fcc = MaterialSystem.getMaterialBuilder().setName("fcc").setColor(16777173).build();
+var advfcc = MaterialSystem.getMaterialBuilder().setName("advfcc").setColor(16777142).build();
+var fcc_spent = MaterialSystem.getMaterialBuilder().setName("fcc_spent").setColor(1250304).build();
+var advfcc_spent = MaterialSystem.getMaterialBuilder().setName("advfcc_spent").setColor(1250304).build();
 
-var cat_list = [ni, como, nimo, comoni, fecr, pt, ptir, nimohck, niwhck, comohck, comohck_spent] as Material[];
+var cat_list = [ni, como, nimo, comoni, fecr, pt, ptir, nimohck, niwhck, comohck, comohck_spent, fcc, advfcc, fcc_spent, advfcc_spent] as Material[];
 for i, catalysts in cat_list {
     catalysts.registerPart("catalyst");
 }

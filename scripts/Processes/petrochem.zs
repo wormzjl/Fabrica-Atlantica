@@ -101,6 +101,9 @@ var GasifierTicktime = 1000 as int;
 var VRHCKBatchsize = 5000 as int;
 var VRHCKTicktime = 900 as int;
 
+//FCC
+var FCCBatchsize = 5000 as int;
+var FCCTicktime = 900 as int;
 
 //Fuel blending
 //SR Grade - 50% eff
@@ -909,7 +912,7 @@ mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liq
 
 
 //VRHCK Stage 1
-mmrecipecount = addresidcrackerrecipe(100, VRHCKTicktime, <contenttweaker:co_mo_h_c_k_catalyst>, 2, <liquid:sr_vacuum_residue_boiling>, VRHCKBatchsize, <liquid:hydrogen_boiling>, 338, <liquid:vrhck_s1_effluent_boiling>, 5329, <contenttweaker:co_mo_h_c_k_spent_catalyst>, 2, mmrecipecount, scaleeff);
+mmrecipecount = addresidcrackerrecipe(100, VRHCKTicktime, <contenttweaker:comohck_catalyst>, 2, <liquid:sr_vacuum_residue_boiling>, VRHCKBatchsize, <liquid:hydrogen_boiling>, 338, <liquid:vrhck_s1_effluent_boiling>, 5329, <contenttweaker:comohck_spent_catalyst>, 2, mmrecipecount, scaleeff);
 
 mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:vrhck_s1_effluent_boiling>, drumbatchsize, <liquid:vrhck_s1_effluent_gas_boiling>, 371*2000/drumbatchsize, <liquid:vrhck_s1_effluent_liquid_boiling>, 1629*2000/drumbatchsize, mmrecipecount, scaleeff);
 
@@ -952,7 +955,7 @@ mods.magneticraft.Refinery.addRecipe(<liquid:vrhck_s1_adubottom_boiling>*500, <l
 
 
 //VRHCK Stage 2
-mmrecipecount = addresidcrackerrecipe(100, VRHCKTicktime, <contenttweaker:co_mo_h_c_k_catalyst>, 2, <liquid:vrhck_s1_effluent_liquid_boiling>, 4340, <liquid:hydrogen_boiling>, 342, <liquid:vrhck_s2_effluent_boiling>, 4674, <contenttweaker:co_mo_h_c_k_spent_catalyst>, 2, mmrecipecount, scaleeff);
+mmrecipecount = addresidcrackerrecipe(100, VRHCKTicktime, <contenttweaker:comohck_catalyst>, 2, <liquid:vrhck_s1_effluent_liquid_boiling>, 4340, <liquid:hydrogen_boiling>, 342, <liquid:vrhck_s2_effluent_boiling>, 4674, <contenttweaker:comohck_spent_catalyst>, 2, mmrecipecount, scaleeff);
 
 mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:vrhck_s2_effluent_boiling>, drumbatchsize, <liquid:vrhck_s2_effluent_gas_boiling>, 488*2000/drumbatchsize, <liquid:vrhck_s2_effluent_liquid_boiling>, 1512*2000/drumbatchsize, mmrecipecount, scaleeff);
 
@@ -1867,6 +1870,29 @@ function addresidcrackerrecipe(power as int, time as int, catalyst as IItemStack
   .addEnergyPerTickInput(power*eff[0]).addFluidInput(input1*(in1*eff[0])).addFluidInput(input2*(in2*eff[0])).addItemInput(catalyst*(cat1*eff[0])).addFluidOutput(output1*(out1*eff[0])).addItemOutput(output*(out*eff[0])).build();
   number += 1;
   mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "residcrackerlarge", time, 0)
-  .addEnergyPerTickInput(power*eff[1]).addFluidInput(input1*(in1*eff[1])).addFluidInput(input2*(in2*eff[0])).addItemInput(catalyst*(cat1*eff[1])).addFluidOutput(output1*(out1*eff[1])).addItemOutput(output*(out*eff[1])).build();
+  .addEnergyPerTickInput(power*eff[1]).addFluidInput(input1*(in1*eff[1])).addFluidInput(input2*(in2*eff[1])).addItemInput(catalyst*(cat1*eff[1])).addFluidOutput(output1*(out1*eff[1])).addItemOutput(output*(out*eff[1])).build();
+  return number;
+}
+
+//FCC
+function addfccreactorrecipe(time as int, catalyst as IItemStack, cat as int, input1 as ILiquidStack, in1 as int, input2 as ILiquidStack, in2 as int, output1 as ILiquidStack, out1 as int, output as IItemStack, out as int, recipenumber as int, eff as int[]) as int{
+  var number as int;
+  number = recipenumber + 1;
+  mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "reactorfccsmall", time, 0)
+  .addItemInput(catalyst*(cat*eff[0])).addFluidInput(input1*(in1*eff[0])).addFluidInput(input2*(in2*eff[0])).addFluidOutput(output1*(out1*eff[0])).addItemOutput(output*(out*eff[0])).build();
+  number += 1;
+  mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "reactorfcclarge", time, 0)
+  .addItemInput(catalyst*(cat*eff[1])).addFluidInput(input1*(in1*eff[1])).addFluidInput(input2*(in2*eff[1])).addFluidOutput(output1*(out1*eff[1])).addItemOutput(output*(out*eff[1])).build();
+  return number;
+}
+
+function addfccregeneratorrecipe(time as int, catalyst as IItemStack, cat as int, input1 as ILiquidStack, in1 as int, output1 as ILiquidStack, out1 as int, output as IItemStack, out as int, recipenumber as int, eff as int[]) as int{
+  var number as int;
+  number = recipenumber + 1;
+  mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "regeneratorsmall", time, 0)
+  .addItemInput(catalyst*(cat*eff[0])).addFluidInput(input1*(in1*eff[0])).addFluidOutput(output1*(out1*eff[0])).addItemOutput(output*(out*eff[0])).build();
+  number += 1;
+  mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "regeneratorlarge", time, 0)
+  .addItemInput(catalyst*(cat*eff[1])).addFluidInput(input1*(in1*eff[1])).addFluidOutput(output1*(out1*eff[1])).addItemOutput(output*(out*eff[1])).build();
   return number;
 }

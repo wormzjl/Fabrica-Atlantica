@@ -110,6 +110,11 @@ base.material.nimohck=Nickel-Molybdenum Hydrocracking
 base.material.niwhck=Nickel-Tungsten Hydrocracking
 base.material.comohck=Cobalt-Molybdenum Hydrocracking
 base.material.comohck_spent=Spent Cobalt-Molybdenum Hydrocracking
+base.material.fcc=FCC
+base.material.advfcc=Advanced FCC
+base.material.fcc_spent=Spent FCC
+base.material.advfcc_spent=Spent Advanced FCC
+
 
 contenttweaker.part.ore_high=%s Ore
 contenttweaker.part.ore_low=Impure %s Ore
