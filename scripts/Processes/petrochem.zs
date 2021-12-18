@@ -139,6 +139,7 @@ mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_oil>*1000, <liquid:hdt
 mods.immersiveengineering.Refinery.addRecipe(<liquid:gasoline>*350, <liquid:coker_naphtha>*1000, <liquid:steam>*100, 64);
 mods.immersiveengineering.Refinery.addRecipe(<liquid:diesel>*350, <liquid:lcgo>*1000, <liquid:steam>*100, 64);
 mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_oil>*350, <liquid:hcgo>*1000, <liquid:steam>*100, 64);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_oil>*900, <liquid:fccslurry>*1000, <liquid:steam>*100, 64);
 mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_oil>*1000, <liquid:vrhck_uco>*1000, <liquid:steam>*100, 64);
 
 
@@ -249,7 +250,6 @@ mods.magneticraft.OilHeater.addRecipe(<liquid:hdt_vacuum_residue>*heaterbatchsiz
 mods.magneticraft.OilHeater.addRecipe(<liquid:hdt_vacuum_residue_warm>*heaterbatchsize, <liquid:hdt_vacuum_residue_boiling>*heaterbatchsize, 71*5000/heaterbatchsize, 900);
 mods.magneticraft.OilHeater.addRecipe(<liquid:hdt_vacuum_residue_hot>*heaterbatchsize, <liquid:hdt_vacuum_residue_boiling>*heaterbatchsize, 31*5000/heaterbatchsize, 900);
 
-//Cooling
 mmrecipecount = addaircoolerrecipe(ACduty, 686/ACRate, <liquid:sr_go_hot>, ACbatchsize, <liquid:sr_go>, ACbatchsize, mmrecipecount, scaleeff);
 mmrecipecount = addaircoolerrecipe(ACduty, 286/ACRate, <liquid:sr_go_warm>, ACbatchsize, <liquid:sr_go>, ACbatchsize, mmrecipecount, scaleeff);
 
@@ -272,6 +272,64 @@ mmrecipecount = addaircoolerrecipe(ACduty, 286/ACRate, <liquid:hdt_vgo_warm>, AC
 mmrecipecount = addaircoolerrecipe(ACduty, 1032/ACRate, <liquid:hdt_vacuum_residue_boiling>, ACbatchsize, <liquid:hdt_vacuum_residue>, ACbatchsize, mmrecipecount, scaleeff);
 mmrecipecount = addaircoolerrecipe(ACduty, 702/ACRate, <liquid:hdt_vacuum_residue_hot>, ACbatchsize, <liquid:hdt_vacuum_residue>, ACbatchsize, mmrecipecount, scaleeff);
 mmrecipecount = addaircoolerrecipe(ACduty, 286/ACRate, <liquid:hdt_vacuum_residue_warm>, ACbatchsize, <liquid:hdt_vacuum_residue>, ACbatchsize, mmrecipecount, scaleeff);
+
+//Misc Products
+team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:coker_naphtha>*195, <liquid:coker_naphtha_warm>*195, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:coker_naphtha_warm>*260, <liquid:coker_naphtha_hot>*260, HXUnit);
+
+team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:lcgo_boiling>*179, <liquid:lcgo_hot>*179, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:lcgo_hot>*250, <liquid:lcgo_warm>*250, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:lcgo_warm>*350, <liquid:lcgo>*350, HXUnit);
+
+team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:hcgo_boiling>*303, <liquid:hcgo_hot>*303, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:hcgo_hot>*240, <liquid:hcgo_warm>*240, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:hcgo_warm>*350, <liquid:hcgo>*350, HXUnit);
+
+team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:fcccycleoil_boiling>*179, <liquid:fcccycleoil_hot>*179, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:fcccycleoil_hot>*250, <liquid:fcccycleoil_warm>*250, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:fcccycleoil_warm>*350, <liquid:fcccycleoil>*350, HXUnit);
+
+team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:fccslurry_boiling>*303, <liquid:fccslurry_hot>*303, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:fccslurry_hot>*240, <liquid:fccslurry_warm>*240, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:fccslurry_warm>*350, <liquid:fccslurry>*350, HXUnit);
+
+team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:vrhck_uco_boiling>*303, <liquid:vrhck_uco_hot>*303, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:vrhck_uco_hot>*240, <liquid:vrhck_uco_warm>*240, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:vrhck_uco_warm>*350, <liquid:vrhck_uco>*350, HXUnit);
+
+
+mods.magneticraft.OilHeater.addRecipe(<liquid:coker_naphtha>*heaterbatchsize, <liquid:coker_naphtha_hot>*heaterbatchsize, 85*5000/heaterbatchsize, 900);
+mods.magneticraft.OilHeater.addRecipe(<liquid:coker_naphtha_warm>*heaterbatchsize, <liquid:coker_naphtha_hot>*heaterbatchsize, 36*5000/heaterbatchsize, 900);
+
+mods.magneticraft.OilHeater.addRecipe(<liquid:lcgo>*heaterbatchsize, <liquid:lcgo_boiling>*heaterbatchsize, 118*5000/heaterbatchsize, 900);
+mods.magneticraft.OilHeater.addRecipe(<liquid:lcgo_warm>*heaterbatchsize, <liquid:lcgo_boiling>*heaterbatchsize, 91*5000/heaterbatchsize, 900);
+mods.magneticraft.OilHeater.addRecipe(<liquid:lcgo_hot>*heaterbatchsize, <liquid:lcgo_boiling>*heaterbatchsize, 53*5000/heaterbatchsize, 900);
+
+mods.magneticraft.OilHeater.addRecipe(<liquid:hcgo>*heaterbatchsize, <liquid:hcgo_boiling>*heaterbatchsize, 98*5000/heaterbatchsize, 900);
+mods.magneticraft.OilHeater.addRecipe(<liquid:hcgo_warm>*heaterbatchsize, <liquid:hcgo_boiling>*heaterbatchsize, 71*5000/heaterbatchsize, 900);
+mods.magneticraft.OilHeater.addRecipe(<liquid:hcgo_hot>*heaterbatchsize, <liquid:hcgo_boiling>*heaterbatchsize, 31*5000/heaterbatchsize, 900);
+
+mods.magneticraft.OilHeater.addRecipe(<liquid:fcccycleoil>*heaterbatchsize, <liquid:fcccycleoil_boiling>*heaterbatchsize, 118*5000/heaterbatchsize, 900);
+mods.magneticraft.OilHeater.addRecipe(<liquid:fcccycleoil_warm>*heaterbatchsize, <liquid:fcccycleoil_boiling>*heaterbatchsize, 91*5000/heaterbatchsize, 900);
+mods.magneticraft.OilHeater.addRecipe(<liquid:fcccycleoil_hot>*heaterbatchsize, <liquid:fcccycleoil_boiling>*heaterbatchsize, 53*5000/heaterbatchsize, 900);
+
+
+mmrecipecount = addaircoolerrecipe(ACduty, 686/ACRate, <liquid:lcgo_hot>, ACbatchsize, <liquid:lcgo>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 286/ACRate, <liquid:lcgo_warm>, ACbatchsize, <liquid:lcgo>, ACbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 702/ACRate, <liquid:hcgo_hot>, ACbatchsize, <liquid:hcgo>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 286/ACRate, <liquid:hcgo_warm>, ACbatchsize, <liquid:hcgo>, ACbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 686/ACRate, <liquid:fcccycleoil_hot>, ACbatchsize, <liquid:fcccycleoil>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 286/ACRate, <liquid:fcccycleoil_warm>, ACbatchsize, <liquid:fcccycleoil>, ACbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 1032/ACRate, <liquid:fccslurry_boiling>, ACbatchsize, <liquid:fccslurry>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 702/ACRate, <liquid:fccslurry_hot>, ACbatchsize, <liquid:fccslurry>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 286/ACRate, <liquid:fccslurry_warm>, ACbatchsize, <liquid:fccslurry>, ACbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 1032/ACRate, <liquid:vrhck_uco_boiling>, ACbatchsize, <liquid:vrhck_uco>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 702/ACRate, <liquid:vrhck_uco_hot>, ACbatchsize, <liquid:vrhck_uco>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 286/ACRate, <liquid:vrhck_uco_warm>, ACbatchsize, <liquid:vrhck_uco>, ACbatchsize, mmrecipecount, scaleeff);
 
 
 
@@ -464,6 +522,162 @@ team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:vrhdt_bottom_hot>*303
 mods.magneticraft.OilHeater.addRecipe(<liquid:vrhdt_bottom_hot>*heaterbatchsize, <liquid:vrhdt_bottom_boiling>*heaterbatchsize, 31*5000/heaterbatchsize, 900);
 
 mods.magneticraft.Refinery.addRecipe(<liquid:vrhdt_bottom_boiling>*1000, <liquid:hdt_vacuum_residue_boiling>*980, null, <liquid:hdt_vgo_hot>*20, 40);
+
+
+//HDT - FCC CO
+mmrecipecount = addbasicreactorrecipe(RXTicktime, <modularmachinery:itemcatalyst>, 6, <liquid:fcccycleoil_boiling>, RXBatchsize, <liquid:hydrogen_boiling>, 841*RXBatchsize/5000, <liquid:fccco_hdt_basic_eff_mix_boiling>, 5841*RXBatchsize/5000, mmrecipecount, scaleeff);
+mmrecipecount = addadvreactorrecipe7(RXTicktime, <modularmachinery:itemcatalyst:1>, 2, <liquid:fcccycleoil_boiling>, RXBatchsize, <liquid:hydrogen_boiling>, 571*RXBatchsize/5000, <liquid:hydrogen>, 30*RXBatchsize/5000, <liquid:fccco_hdt_adv_eff_mix_boiling>, 5601*RXBatchsize/5000, mmrecipecount, scaleeff);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:fccco_hdt_basic_eff_mix_boiling>*95, <liquid:fccco_hdt_basic_eff_mix_hot>*95, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:fccco_hdt_adv_eff_mix_boiling>*97, <liquid:fccco_hdt_adv_eff_mix_hot>*97, HXUnit);
+
+mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:fccco_hdt_basic_eff_mix_hot>, drumbatchsize, <liquid:fccco_hdt_basic_eff_gas_hot>, 361*2000/drumbatchsize, <liquid:fccco_hdt_fracfeed_hot>, 1639*2000/drumbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:fccco_hdt_adv_eff_mix_hot>, drumbatchsize, <liquid:fccco_hdt_adv_eff_gas_hot>, 290*2000/drumbatchsize, <liquid:fccco_hdt_fracfeed_hot>, 1710*2000/drumbatchsize, mmrecipecount, scaleeff);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:fccco_hdt_basic_eff_gas_hot>*58, <liquid:fccco_hdt_basic_eff_gas_warm>*58, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:fccco_hdt_basic_eff_gas_warm>*72, <liquid:fccco_hdt_basic_eff_gas>*72, HXUnit);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:fccco_hdt_adv_eff_gas_hot>*64, <liquid:fccco_hdt_adv_eff_gas_warm>*64, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:fccco_hdt_adv_eff_gas_warm>*80, <liquid:fccco_hdt_adv_eff_gas>*80, HXUnit);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 3102/ACRate, <liquid:fccco_hdt_basic_eff_gas_hot>, ACbatchsize, <liquid:fccco_hdt_basic_eff_gas>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 1384/ACRate, <liquid:fccco_hdt_basic_eff_gas_warm>, ACbatchsize, <liquid:fccco_hdt_basic_eff_gas>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 2819/ACRate, <liquid:fccco_hdt_adv_eff_gas_hot>, ACbatchsize, <liquid:fccco_hdt_adv_eff_gas>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 1255/ACRate, <liquid:fccco_hdt_adv_eff_gas_warm>, ACbatchsize, <liquid:fccco_hdt_adv_eff_gas>, ACbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = add3phaseseprecipe3(drumprocessingtime, <liquid:water>, 120*2000/drumbatchsize, <liquid:fccco_hdt_basic_eff_gas>, drumbatchsize, <liquid:fccco_hdt_fracfeed>, 478*2000/drumbatchsize, <liquid:sour_water>, 120*2000/drumbatchsize, <liquid:fccco_hdt_basic_sourgas>, 1522*2000/drumbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = add3phaseseprecipe3(drumprocessingtime, <liquid:water>, 155*2000/drumbatchsize, <liquid:fccco_hdt_adv_eff_gas>, drumbatchsize, <liquid:fccco_hdt_fracfeed>, 620*2000/drumbatchsize, <liquid:sour_water>, 155*2000/drumbatchsize, <liquid:fccco_hdt_adv_sourgas>, 1380*2000/drumbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mea>, 135*500/GLColumnBatchsize, <liquid:fccco_hdt_basic_sourgas>, GLColumnBatchsize, <liquid:fccco_hdt_basic_sweetgas>, 495*500/GLColumnBatchsize, <liquid:rich_mea>, 140*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mea>, 193*500/GLColumnBatchsize, <liquid:fccco_hdt_adv_sourgas>, GLColumnBatchsize, <liquid:fccco_hdt_adv_sweetgas>, 493*500/GLColumnBatchsize, <liquid:rich_mea>, 200*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mdea>, 84*500/GLColumnBatchsize, <liquid:fccco_hdt_basic_sourgas>, GLColumnBatchsize, <liquid:fccco_hdt_basic_sweetgas>, 495*500/GLColumnBatchsize, <liquid:rich_mdea>, 89*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mdea>, 120*500/GLColumnBatchsize, <liquid:fccco_hdt_adv_sourgas>, GLColumnBatchsize, <liquid:fccco_hdt_adv_sweetgas>, 493*500/GLColumnBatchsize, <liquid:rich_mdea>, 127*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liquid:fccco_hdt_basic_sweetgas>, GaspurifierBatchsize, <liquid:hydrogen>, 475*500/GaspurifierBatchsize, <liquid:hdt_offgas>, 25*500/GaspurifierBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liquid:fccco_hdt_adv_sweetgas>, GaspurifierBatchsize, <liquid:hydrogen>, 324*500/GaspurifierBatchsize, <liquid:hdt_offgas>, 176*500/GaspurifierBatchsize, mmrecipecount, scaleeff);
+
+team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:fccco_hdt_fracfeed>*347, <liquid:fccco_hdt_fracfeed_warm>*347, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:fccco_hdt_fracfeed_warm>*250, <liquid:fccco_hdt_fracfeed_hot>*250, HXUnit);
+
+mods.magneticraft.OilHeater.addRecipe(<liquid:fccco_hdt_fracfeed>*heaterbatchsize, <liquid:fccco_hdt_fracfeed_hot>*heaterbatchsize, 65*5000/heaterbatchsize, 900);
+mods.magneticraft.OilHeater.addRecipe(<liquid:fccco_hdt_fracfeed_warm>*heaterbatchsize, <liquid:fccco_hdt_fracfeed_hot>*heaterbatchsize, 38*5000/heaterbatchsize, 900);
+
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:hdt_naphtha>*10,<liquid:hdt_go_warm>*990], [<immersiveengineering:material:6>], <liquid:fccco_hdt_fracfeed_hot>*1000, 12, 100, [0.000001]);
+
+
+//HDT - Coker Naphtha
+mmrecipecount = addbasicreactorrecipe(RXTicktime, <modularmachinery:itemcatalyst>, 6, <liquid:coker_naphtha_hot>, RXBatchsize, <liquid:hydrogen_hot>, 1192*RXBatchsize/5000, <liquid:cn_hdt_basic_eff_mix_hot>, 6192*RXBatchsize/5000, mmrecipecount, scaleeff);
+mmrecipecount = addadvreactorrecipe7(RXTicktime, <modularmachinery:itemcatalyst:1>, 2, <liquid:coker_naphtha_hot>, RXBatchsize, <liquid:hydrogen_hot>, 724*RXBatchsize/5000, <liquid:hydrogen>, 128*RXBatchsize/5000, <liquid:cn_hdt_adv_eff_mix_hot>, 5852*RXBatchsize/5000, mmrecipecount, scaleeff);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:cn_hdt_basic_eff_mix_hot>*83, <liquid:cn_hdt_basic_eff_mix_warm>*83, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:cn_hdt_basic_eff_mix_warm>*136, <liquid:cn_hdt_basic_eff_mix>*136, HXUnit);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:cn_hdt_adv_eff_mix_hot>*88, <liquid:cn_hdt_adv_eff_mix_warm>*88, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:cn_hdt_adv_eff_mix_warm>*157, <liquid:cn_hdt_adv_eff_mix>*157, HXUnit);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 1937/ACRate, <liquid:cn_hdt_basic_eff_mix_hot>, ACbatchsize, <liquid:cn_hdt_basic_eff_mix>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 737/ACRate, <liquid:cn_hdt_basic_eff_mix_warm>, ACbatchsize, <liquid:cn_hdt_basic_eff_mix>, ACbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 1778/ACRate, <liquid:cn_hdt_adv_eff_mix_hot>, ACbatchsize, <liquid:cn_hdt_adv_eff_mix>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 639/ACRate, <liquid:cn_hdt_adv_eff_mix_warm>, ACbatchsize, <liquid:cn_hdt_adv_eff_mix>, ACbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = add3phaseseprecipe3(drumprocessingtime, <liquid:water>, 164*2000/drumbatchsize, <liquid:cn_hdt_basic_eff_mix>, drumbatchsize, <liquid:hdt_naphtha>, 1644*2000/drumbatchsize, <liquid:sour_water>, 164*2000/drumbatchsize, <liquid:cn_hdt_basic_sourgas>, 356*2000/drumbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = add3phaseseprecipe3(drumprocessingtime, <liquid:water>, 174*2000/drumbatchsize, <liquid:cn_hdt_adv_eff_mix>, drumbatchsize, <liquid:hdt_naphtha>, 1739*2000/drumbatchsize, <liquid:sour_water>, 174*2000/drumbatchsize, <liquid:cn_hdt_adv_sourgas>, 261*2000/drumbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mea>, 66*500/GLColumnBatchsize, <liquid:cn_hdt_basic_sourgas>, GLColumnBatchsize, <liquid:cn_hdt_basic_sweetgas>, 498*500/GLColumnBatchsize, <liquid:rich_mea>, 68*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mea>, 96*500/GLColumnBatchsize, <liquid:cn_hdt_adv_sourgas>, GLColumnBatchsize, <liquid:cn_hdt_adv_sweetgas>, 497*500/GLColumnBatchsize, <liquid:rich_mea>, 99*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mdea>, 41*500/GLColumnBatchsize, <liquid:cn_hdt_basic_sourgas>, GLColumnBatchsize, <liquid:cn_hdt_basic_sweetgas>, 498*500/GLColumnBatchsize, <liquid:rich_mdea>, 43*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mdea>, 60*500/GLColumnBatchsize, <liquid:cn_hdt_adv_sourgas>, GLColumnBatchsize, <liquid:cn_hdt_adv_sweetgas>, 497*500/GLColumnBatchsize, <liquid:rich_mdea>, 63*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liquid:cn_hdt_basic_sweetgas>, GaspurifierBatchsize, <liquid:hydrogen>, 487*500/GaspurifierBatchsize, <liquid:hdt_offgas>, 13*500/GaspurifierBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liquid:cn_hdt_adv_sweetgas>, GaspurifierBatchsize, <liquid:hydrogen>, 332*500/GaspurifierBatchsize, <liquid:hdt_offgas>, 168*500/GaspurifierBatchsize, mmrecipecount, scaleeff);
+
+
+//HDT - LCGO
+mmrecipecount = addbasicreactorrecipe(RXTicktime, <modularmachinery:itemcatalyst>, 6, <liquid:lcgo_boiling>, RXBatchsize, <liquid:hydrogen_boiling>, 1271*RXBatchsize/5000, <liquid:lcgo_hdt_basic_eff_mix_boiling>, 6271*RXBatchsize/5000, mmrecipecount, scaleeff);
+mmrecipecount = addadvreactorrecipe7(RXTicktime, <modularmachinery:itemcatalyst:1>, 2, <liquid:lcgo_boiling>, RXBatchsize, <liquid:hydrogen_boiling>, 862*RXBatchsize/5000, <liquid:hydrogen>, 46*RXBatchsize/5000, <liquid:lcgo_hdt_adv_eff_mix_boiling>, 5908*RXBatchsize/5000, mmrecipecount, scaleeff);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:lcgo_hdt_basic_eff_mix_boiling>*80, <liquid:lcgo_hdt_basic_eff_mix_hot>*80, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:lcgo_hdt_adv_eff_mix_boiling>*81, <liquid:lcgo_hdt_adv_eff_mix_hot>*81, HXUnit);
+
+mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:lcgo_hdt_basic_eff_mix_hot>, drumbatchsize, <liquid:lcgo_hdt_basic_eff_gas_hot>, 477*2000/drumbatchsize, <liquid:lcgo_hdt_fracfeed_hot>, 1523*2000/drumbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:lcgo_hdt_adv_eff_mix_hot>, drumbatchsize, <liquid:lcgo_hdt_adv_eff_gas_hot>, 383*2000/drumbatchsize, <liquid:lcgo_hdt_fracfeed_hot>, 1617*2000/drumbatchsize, mmrecipecount, scaleeff);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:lcgo_hdt_basic_eff_gas_hot>*56, <liquid:lcgo_hdt_basic_eff_gas_warm>*56, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:lcgo_hdt_basic_eff_gas_warm>*69, <liquid:lcgo_hdt_basic_eff_gas>*69, HXUnit);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:lcgo_hdt_adv_eff_gas_hot>*61, <liquid:lcgo_hdt_adv_eff_gas_warm>*61, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:lcgo_hdt_adv_eff_gas_warm>*75, <liquid:lcgo_hdt_adv_eff_gas>*75, HXUnit);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 3247/ACRate, <liquid:lcgo_hdt_basic_eff_gas_hot>, ACbatchsize, <liquid:lcgo_hdt_basic_eff_gas>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 1451/ACRate, <liquid:lcgo_hdt_basic_eff_gas_warm>, ACbatchsize, <liquid:lcgo_hdt_basic_eff_gas>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 2986/ACRate, <liquid:lcgo_hdt_adv_eff_gas_hot>, ACbatchsize, <liquid:lcgo_hdt_adv_eff_gas>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 1332/ACRate, <liquid:lcgo_hdt_adv_eff_gas_warm>, ACbatchsize, <liquid:lcgo_hdt_adv_eff_gas>, ACbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = add3phaseseprecipe3(drumprocessingtime, <liquid:water>, 135*2000/drumbatchsize, <liquid:lcgo_hdt_basic_eff_gas>, drumbatchsize, <liquid:lcgo_hdt_fracfeed>, 336*2000/drumbatchsize, <liquid:sour_water>, 135*2000/drumbatchsize, <liquid:lcgo_hdt_basic_sourgas>, 1664*2000/drumbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = add3phaseseprecipe3(drumprocessingtime, <liquid:water>, 178*2000/drumbatchsize, <liquid:lcgo_hdt_adv_eff_gas>, drumbatchsize, <liquid:lcgo_hdt_fracfeed>, 444*2000/drumbatchsize, <liquid:sour_water>, 178*2000/drumbatchsize, <liquid:lcgo_hdt_adv_sourgas>, 1556*2000/drumbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mea>, 647*500/GLColumnBatchsize, <liquid:lcgo_hdt_basic_sourgas>, GLColumnBatchsize, <liquid:lcgo_hdt_basic_sweetgas>, 477*500/GLColumnBatchsize, <liquid:rich_mea>, 670*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mea>, 913*500/GLColumnBatchsize, <liquid:lcgo_hdt_adv_sourgas>, GLColumnBatchsize, <liquid:lcgo_hdt_adv_sweetgas>, 467*500/GLColumnBatchsize, <liquid:rich_mea>, 946*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mdea>, 403*500/GLColumnBatchsize, <liquid:lcgo_hdt_basic_sourgas>, GLColumnBatchsize, <liquid:lcgo_hdt_basic_sweetgas>, 477*500/GLColumnBatchsize, <liquid:rich_mdea>, 426*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mdea>, 569*500/GLColumnBatchsize, <liquid:lcgo_hdt_adv_sourgas>, GLColumnBatchsize, <liquid:lcgo_hdt_adv_sweetgas>, 467*500/GLColumnBatchsize, <liquid:rich_mdea>, 602*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liquid:lcgo_hdt_basic_sweetgas>, GaspurifierBatchsize, <liquid:hydrogen>, 481*500/GaspurifierBatchsize, <liquid:hdt_offgas>, 19*500/GaspurifierBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liquid:lcgo_hdt_adv_sweetgas>, GaspurifierBatchsize, <liquid:hydrogen>, 328*500/GaspurifierBatchsize, <liquid:hdt_offgas>, 172*500/GaspurifierBatchsize, mmrecipecount, scaleeff);
+
+team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:lcgo_hdt_fracfeed>*346, <liquid:lcgo_hdt_fracfeed_warm>*346, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:lcgo_hdt_fracfeed_warm>*250, <liquid:lcgo_hdt_fracfeed_hot>*250, HXUnit);
+
+mods.magneticraft.OilHeater.addRecipe(<liquid:lcgo_hdt_fracfeed>*heaterbatchsize, <liquid:lcgo_hdt_fracfeed_hot>*heaterbatchsize, 65*5000/heaterbatchsize, 900);
+mods.magneticraft.OilHeater.addRecipe(<liquid:lcgo_hdt_fracfeed_warm>*heaterbatchsize, <liquid:lcgo_hdt_fracfeed_hot>*heaterbatchsize, 38*5000/heaterbatchsize, 900);
+
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:hdt_naphtha>*13,<liquid:hdt_go_warm>*987], [<immersiveengineering:material:6>], <liquid:lcgo_hdt_fracfeed_hot>*1000, 12, 100, [0.000001]);
+
+
+//HDT - HCGO
+mmrecipecount = addbasicreactorrecipe(RXTicktime, <modularmachinery:itemcatalyst:2>, 9, <liquid:hcgo_boiling>, RXBatchsize, <liquid:hydrogen_boiling>, 1745*RXBatchsize/5000, <liquid:hcgo_hdt_basic_eff_mix_boiling>, 6745*RXBatchsize/5000, mmrecipecount, scaleeff);
+mmrecipecount = addadvreactorrecipe7(RXTicktime, <modularmachinery:itemcatalyst:3>, 3, <liquid:hcgo_boiling>, RXBatchsize, <liquid:hydrogen_boiling>, 935*RXBatchsize/5000, <liquid:hydrogen>, 311*RXBatchsize/5000, <liquid:hcgo_hdt_adv_eff_mix_boiling>, 6246*RXBatchsize/5000, mmrecipecount, scaleeff);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:hcgo_hdt_basic_eff_mix_boiling>*85, <liquid:hcgo_hdt_basic_eff_mix_hot>*85, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:hcgo_hdt_adv_eff_mix_boiling>*87, <liquid:hcgo_hdt_adv_eff_mix_hot>*87, HXUnit);
+
+mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:hcgo_hdt_basic_eff_mix_hot>, drumbatchsize, <liquid:hcgo_hdt_basic_eff_gas_hot>, 605*2000/drumbatchsize, <liquid:hcgo_hdt_fracfeed_hot>, 1395*2000/drumbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:hcgo_hdt_adv_eff_mix_hot>, drumbatchsize, <liquid:hcgo_hdt_adv_eff_gas_hot>, 496*2000/drumbatchsize, <liquid:hcgo_hdt_fracfeed_hot>, 1504*2000/drumbatchsize, mmrecipecount, scaleeff);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:hcgo_hdt_basic_eff_gas_hot>*56, <liquid:hcgo_hdt_basic_eff_gas_warm>*56, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:hcgo_hdt_basic_eff_gas_warm>*69, <liquid:hcgo_hdt_basic_eff_gas>*69, HXUnit);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:hcgo_hdt_adv_eff_gas_hot>*61, <liquid:hcgo_hdt_adv_eff_gas_warm>*61, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:hcgo_hdt_adv_eff_gas_warm>*75, <liquid:hcgo_hdt_adv_eff_gas>*75, HXUnit);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 3239/ACRate, <liquid:hcgo_hdt_basic_eff_gas_hot>, ACbatchsize, <liquid:hcgo_hdt_basic_eff_gas>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 1446/ACRate, <liquid:hcgo_hdt_basic_eff_gas_warm>, ACbatchsize, <liquid:hcgo_hdt_basic_eff_gas>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 2982/ACRate, <liquid:hcgo_hdt_adv_eff_gas_hot>, ACbatchsize, <liquid:hcgo_hdt_adv_eff_gas>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 1329/ACRate, <liquid:hcgo_hdt_adv_eff_gas_warm>, ACbatchsize, <liquid:hcgo_hdt_adv_eff_gas>, ACbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = add3phaseseprecipe3(drumprocessingtime, <liquid:water>, 174*2000/drumbatchsize, <liquid:hcgo_hdt_basic_eff_gas>, drumbatchsize, <liquid:hcgo_hdt_fracfeed>, 347*2000/drumbatchsize, <liquid:sour_water>, 174*2000/drumbatchsize, <liquid:hcgo_hdt_basic_sourgas>, 1653*2000/drumbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = add3phaseseprecipe3(drumprocessingtime, <liquid:water>, 228*2000/drumbatchsize, <liquid:hcgo_hdt_adv_eff_gas>, drumbatchsize, <liquid:hcgo_hdt_fracfeed>, 456*2000/drumbatchsize, <liquid:sour_water>, 228*2000/drumbatchsize, <liquid:hcgo_hdt_adv_sourgas>, 1544*2000/drumbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mea>, 740*500/GLColumnBatchsize, <liquid:hcgo_hdt_basic_sourgas>, GLColumnBatchsize, <liquid:hcgo_hdt_basic_sweetgas>, 473*500/GLColumnBatchsize, <liquid:rich_mea>, 766*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mea>, 1040*500/GLColumnBatchsize, <liquid:hcgo_hdt_adv_sourgas>, GLColumnBatchsize, <liquid:hcgo_hdt_adv_sweetgas>, 462*500/GLColumnBatchsize, <liquid:rich_mea>, 1078*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mdea>, 461*500/GLColumnBatchsize, <liquid:hcgo_hdt_basic_sourgas>, GLColumnBatchsize, <liquid:hcgo_hdt_basic_sweetgas>, 473*500/GLColumnBatchsize, <liquid:rich_mdea>, 488*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mdea>, 648*500/GLColumnBatchsize, <liquid:hcgo_hdt_adv_sourgas>, GLColumnBatchsize, <liquid:hcgo_hdt_adv_sweetgas>, 462*500/GLColumnBatchsize, <liquid:rich_mdea>, 686*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liquid:hcgo_hdt_basic_sweetgas>, GaspurifierBatchsize, <liquid:hydrogen>, 486*500/GaspurifierBatchsize, <liquid:hdt_offgas>, 14*500/GaspurifierBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liquid:hcgo_hdt_adv_sweetgas>, GaspurifierBatchsize, <liquid:hydrogen>, 334*500/GaspurifierBatchsize, <liquid:hdt_offgas>, 166*500/GaspurifierBatchsize, mmrecipecount, scaleeff);
+
+team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:hcgo_hdt_fracfeed>*347, <liquid:hcgo_hdt_fracfeed_warm>*347, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:hcgo_hdt_fracfeed_warm>*241, <liquid:hcgo_hdt_fracfeed_hot>*241, HXUnit);
+
+mods.magneticraft.OilHeater.addRecipe(<liquid:hcgo_hdt_fracfeed>*heaterbatchsize, <liquid:hcgo_hdt_fracfeed_hot>*heaterbatchsize, 67*5000/heaterbatchsize, 900);
+mods.magneticraft.OilHeater.addRecipe(<liquid:hcgo_hdt_fracfeed_warm>*heaterbatchsize, <liquid:hcgo_hdt_fracfeed_hot>*heaterbatchsize, 39*5000/heaterbatchsize, 900);
+
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:hdt_naphtha>*10,<liquid:hdt_go_warm>*18,<liquid:hdt_vgo_warm>*972], [<immersiveengineering:material:6>], <liquid:hcgo_hdt_fracfeed_hot>*1000, 14, 100, [0.000001]);
+
 
 
 //GO Hydrocracker - SRGO + Adv catalyst
@@ -1620,19 +1834,7 @@ mods.immersivepetroleum.Distillation.addRecipe([<liquid:vrcoker_fracvapor_warm>*
 
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:vrcoker_fracvapor_warm>*247, <liquid:vrcoker_fracvapor>*247, HXUnit);
 
-team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:lcgo_hot>*250, <liquid:lcgo_warm>*250, HXUnit);
-team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:lcgo_warm>*350, <liquid:lcgo>*350, HXUnit);
-
-team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:hcgo_hot>*241, <liquid:hcgo_warm>*241, HXUnit);
-team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:hcgo_warm>*350, <liquid:hcgo>*350, HXUnit);
-
 mmrecipecount = addaircoolerrecipe(ACduty, 404/ACRate, <liquid:vrcoker_fracvapor_warm>, ACbatchsize, <liquid:vrcoker_fracvapor>, ACbatchsize, mmrecipecount, scaleeff);
-
-mmrecipecount = addaircoolerrecipe(ACduty, 686/ACRate, <liquid:lcgo_hot>, ACbatchsize, <liquid:lcgo>, ACbatchsize, mmrecipecount, scaleeff);
-mmrecipecount = addaircoolerrecipe(ACduty, 286/ACRate, <liquid:lcgo_warm>, ACbatchsize, <liquid:lcgo>, ACbatchsize, mmrecipecount, scaleeff);
-
-mmrecipecount = addaircoolerrecipe(ACduty, 702/ACRate, <liquid:hcgo_hot>, ACbatchsize, <liquid:hcgo>, ACbatchsize, mmrecipecount, scaleeff);
-mmrecipecount = addaircoolerrecipe(ACduty, 286/ACRate, <liquid:hcgo_warm>, ACbatchsize, <liquid:hcgo>, ACbatchsize, mmrecipecount, scaleeff);
 
 mmrecipecount = add3phaseseprecipe2(drumprocessingtime, <liquid:vrcoker_fracvapor>, drumbatchsize, <liquid:coker_naphtha>, 1246*2000/drumbatchsize, <liquid:sour_water>, 0.01*drumbatchsize, <liquid:vrcoker_sourgas>, 754*2000/drumbatchsize, mmrecipecount, scaleeff);
 
