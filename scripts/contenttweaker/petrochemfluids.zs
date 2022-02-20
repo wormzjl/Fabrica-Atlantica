@@ -475,7 +475,8 @@ val fluid_cold = {
   vgo_advfcc_sweetgas : "FFFFC8",
   go_basicfcc_sweetgas : "FFFFC8",
   go_advfcc_sweetgas : "FFFFC8",
-  vr_basicfcc_sweetgas : "FFFFC8"
+  vr_basicfcc_sweetgas : "FFFFC8",
+  ammonia_eff : "8C9CC6"
 } as string[string];
 
 val gas_ambient_misc = {
@@ -699,7 +700,8 @@ val gas_ambient = {
   vr_basicfcc_deebot : "65CD32",
   vr_basicfcc_deptop : "32CD32",
   vr_basicfcc_depbot : "2BCD1C",
-  fcc_fluegas : "FFFFD1"
+  fcc_fluegas : "FFFFD1",
+  h2n2_mix : "38A8FF"
 } as string[string];
 
 val gas_warm = {
@@ -737,7 +739,9 @@ val gas_warm = {
   butane_cracked : "D7FFB1",
   butane_crackedgas_humid : "E6E2E0",
   vrcoker_fracvapor : "FDEA6F",
-  fcc_fluegas : "FFFFD1"
+  fcc_fluegas : "FFFFD1",
+  h2n2_mix : "38A8FF",
+  ammonia_eff : "8C9CC6"
 } as string[string];
 
 val gas_hot = {
@@ -764,7 +768,8 @@ val gas_hot = {
   ethane_cracked : "D7FFB1",
   propane_cracked : "D7FFB1",
   butane_cracked : "D7FFB1",
-  fcc_fluegas : "FFFFD1"
+  fcc_fluegas : "FFFFD1",
+  ammonia_eff : "8C9CC6"
 } as string[string];
 
 val gas_boiling = {

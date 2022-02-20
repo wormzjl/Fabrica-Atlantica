@@ -125,6 +125,16 @@ mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_gas>*478, <liquid:syng
 mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_gas>*275, <liquid:coal_syngas>*1000, <liquid:steam>*100, 64);
 mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_gas>*948, <liquid:vrcoker_gas>*1000, <liquid:steam>*100, 64);
 
+mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_gas>*1000, <liquid:methane>*1000, <liquid:steam>*100, 64);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_gas>*949, <liquid:ethane>*1000, <liquid:steam>*100, 64);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_gas>*926, <liquid:propane>*1000, <liquid:steam>*100, 64);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_gas>*914, <liquid:butane>*1000, <liquid:steam>*100, 64);
+
+mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_gas>*993, <liquid:natural_gas_dry>*1000, <liquid:steam>*100, 64);
+
+mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_gas>*475, <liquid:natural_gas_decanted>*1000, <liquid:steam>*100, 64);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_gas>*457, <liquid:natural_gas_sour_decanted>*1000, <liquid:steam>*100, 64);
+
 
 //Post-HDT - 100% eff
 mods.immersiveengineering.Refinery.addRecipe(<liquid:gasoline>*1000, <liquid:hdt_naphtha>*1000, <liquid:steam>*100, 64);
@@ -2090,6 +2100,33 @@ mods.pneumaticcraft.refinery.addRecipe(2720269, <liquid:vr_basicfcc_depbot>*499,
 //FCC regen
 mmrecipecount = addfccregeneratorrecipe(FCCTicktime, <contenttweaker:fcc_spent_catalyst>, 30, <liquid:compressed_air>, 15000, <liquid:fcc_fluegas>, 15000, <contenttweaker:fcc_catalyst>, 28, mmrecipecount, scaleeff);
 mmrecipecount = addfccregeneratorrecipe(FCCTicktime, <contenttweaker:advfcc_spent_catalyst>, 45, <liquid:compressed_air>, 22500, <liquid:fcc_fluegas>, 22500, <contenttweaker:advfcc_catalyst>, 44, mmrecipecount, scaleeff);
+
+
+//Bulk chemicals that need a real process
+//Air separation
+mods.nuclearcraft.Supercooler.addRecipe(<liquid:air>*4320, <liquid:cooled_air>*4320);
+
+mods.pneumaticcraft.refinery.addRecipe(900078, <liquid:cooled_air>*500, [<liquid:oxygen>*105, <liquid:nitrogen>*395]);
+
+//Ammonia process
+mods.nuclearcraft.SaltMixer.addRecipe(<liquid:nitrogen>*3000, <liquid:hydrogen>*643, <liquid:h2n2_mix>*3643);
+
+team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:h2n2_mix>*253, <liquid:h2n2_mix_warm>*253, HXUnit);
+
+mmrecipecount = addbasicreactorrecipe2(RXTicktime, <modularmachinery:itemcatalyst:11>, 1, <liquid:h2n2_mix_warm>, RXBatchsize, <liquid:ammonia_eff_hot>, RXBatchsize, mmrecipecount, scaleeff);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:ammonia_eff_hot>*253, <liquid:ammonia_eff_warm>*253, HXUnit);
+
+mods.nuclearcraft.Supercooler.addRecipe(<liquid:ammonia_eff_warm>*620, <liquid:ammonia_eff_cold>*620);
+
+mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:ammonia_eff_cold>, drumbatchsize, <liquid:h2n2_mix>, 1700*2000/drumbatchsize, <liquid:liquid_ammonia>, 300*2000/drumbatchsize, mmrecipecount, scaleeff);
+
+
+//EO
+
+
+
+
 
 
 
