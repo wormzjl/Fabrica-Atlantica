@@ -21,15 +21,6 @@ mods.rockhounding_chemistry.Transposer.add(<liquid:oxygen>, <liquid:oxygen>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:nitrogen>, <liquid:nitrogen>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:ammonia>, <liquid:ammonia>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:hydrogen>, <liquid:hydrogen>);
-mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas>, <liquid:natural_gas>);
-mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_hot>, <liquid:natural_gas_hot>);
-mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_sour>, <liquid:natural_gas_sour>);
-mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_sour_hot>, <liquid:natural_gas_sour_hot>);
-mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_humid>, <liquid:natural_gas_humid>);
-mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_sour_humid>, <liquid:natural_gas_sour_humid>);
-mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_dried>, <liquid:natural_gas_dried>);
-mods.rockhounding_chemistry.Transposer.add(<liquid:natural_gas_sour_dried>, <liquid:natural_gas_sour_dried>);
-mods.rockhounding_chemistry.Transposer.add(<liquid:acid_gas>, <liquid:acid_gas>);
 
 //Condenser
 mods.rockhounding_chemistry.GasCondenser.add(<liquid:helium>*100, <liquid:liquid_helium>*1);
