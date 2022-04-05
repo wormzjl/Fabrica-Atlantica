@@ -3,8 +3,8 @@
 		"entryName" : "blockSteel",
 		"modIdPriorityList" :
 		[
-			"ic2",
 			"immersiveengineering",
+			"ic2",
 			"railcraft"
 		]
 	},

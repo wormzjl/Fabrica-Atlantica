@@ -167,8 +167,10 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mea>, 827*500/G
 mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mdea>, 516*500/GLColumnBatchsize, <liquid:natural_gas_sour_decanted>, GLColumnBatchsize, <liquid:natural_gas_sweet>, 470*500/GLColumnBatchsize, <liquid:rich_mdea>, 546*500/GLColumnBatchsize, mmrecipecount, scaleeff);
 
 mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:teg>, 240*500/GLColumnBatchsize, <liquid:natural_gas_sweet>, GLColumnBatchsize, <liquid:natural_gas_dry>, 490, <liquid:teg_rich>, 250*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:meg>, 490*500/GLColumnBatchsize, <liquid:natural_gas_sweet>, GLColumnBatchsize, <liquid:natural_gas_dry>, 490, <liquid:meg_rich>, GLColumnBatchsize, mmrecipecount, scaleeff);
 
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:teg>*959,<liquid:steam>*6400], [<immersiveengineering:material:6>], <liquid:teg_rich>*1000, 350, 100, [0.000001]);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:meg>*979,<liquid:steam>*3200], [<immersiveengineering:material:6>], <liquid:meg_rich>*1000, 350, 100, [0.000001]);
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:natural_gas_dry>*1473, <liquid:natural_gas_dry_cold>*1473);
 
@@ -2104,26 +2106,86 @@ mmrecipecount = addfccregeneratorrecipe(FCCTicktime, <contenttweaker:advfcc_spen
 
 //Bulk chemicals that need a real process
 //Air separation
-mods.nuclearcraft.Supercooler.addRecipe(<liquid:air>*4320, <liquid:cooled_air>*4320);
+mods.rockhounding_chemistry.HeatExchanger.remove(<liquid:refined_air>*1000);
+
+mods.nuclearcraft.Supercooler.addRecipe(<liquid:compressed_air>*4320, <liquid:cooled_air>*4320);
 
 mods.pneumaticcraft.refinery.addRecipe(900078, <liquid:cooled_air>*500, [<liquid:oxygen>*105, <liquid:nitrogen>*395]);
 
 //Ammonia process
 mods.nuclearcraft.SaltMixer.addRecipe(<liquid:nitrogen>*3000, <liquid:hydrogen>*643, <liquid:h2n2_mix>*3643);
 
-team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:h2n2_mix>*253, <liquid:h2n2_mix_warm>*253, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:h2n2_mix>*234, <liquid:h2n2_mix_warm>*234, HXUnit);
 
-mmrecipecount = addbasicreactorrecipe2(RXTicktime, <modularmachinery:itemcatalyst:11>, 1, <liquid:h2n2_mix_warm>, RXBatchsize, <liquid:ammonia_eff_hot>, RXBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addbasicreactorrecipe2(RXTicktime, <modularmachinery:itemcatalyst:11>, 1, <liquid:h2n2_mix_warm>, 0.2*RXBatchsize, <liquid:ammonia_eff_hot>, 0.2*RXBatchsize, mmrecipecount, scaleeff);
 
-team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:ammonia_eff_hot>*253, <liquid:ammonia_eff_warm>*253, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:ammonia_eff_hot>*234, <liquid:ammonia_eff_warm>*234, HXUnit);
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:ammonia_eff_warm>*620, <liquid:ammonia_eff_cold>*620);
 
-mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:ammonia_eff_cold>, drumbatchsize, <liquid:h2n2_mix>, 1700*2000/drumbatchsize, <liquid:liquid_ammonia>, 300*2000/drumbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:ammonia_eff_cold>, drumbatchsize, <liquid:h2n2_mix>, 1700*2000/drumbatchsize, <liquid:ammonia>, 300*2000/drumbatchsize, mmrecipecount, scaleeff);
 
 
 //EO
+mods.nuclearcraft.SaltMixer.addRecipe(<liquid:ethene>*1000, <liquid:oxygen>*1143, <liquid:eo_feed_mix>*2143);
 
+team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:eo_feed_mix>*568, <liquid:eo_feed_mix_warm>*568, HXUnit);
+
+mmrecipecount = addbasicreactorrecipe2(RXTicktime, <modularmachinery:itemcatalyst:12>, 1, <liquid:eo_feed_mix_warm>, 0.2*RXBatchsize, <liquid:eo_eff_hot>, 0.2*RXBatchsize, mmrecipecount, scaleeff);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:eo_eff_hot>*568, <liquid:eo_eff_warm>*568, HXUnit);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:eo_eff_warm>*425, <liquid:eo_eff>*425, HXUnit);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 235/ACRate, <liquid:eo_eff_warm>, ACbatchsize, <liquid:eo_eff>, ACbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:distwater>, 5867*500/GLColumnBatchsize, <liquid:eo_eff>, GLColumnBatchsize, <liquid:carbondioxide>, 147*500/GLColumnBatchsize, <liquid:eo_solution>, 6220*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:ethylene_oxide>*47,<liquid:water>*953], [<immersiveengineering:material:6>], <liquid:eo_solution>*1000, 128, 140, [0.000001]);
+
+//Glycols
+mods.immersiveengineering.Refinery.addRecipe(<liquid:glycol_mix>*1891, <liquid:distwater>*891, <liquid:ethylene_oxide>*1000, 8000);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:meg>*676,<liquid:deg>*56,<liquid:teg>*3,<liquid:water>*265], [<immersiveengineering:material:6>], <liquid:glycol_mix>*1000, 128, 140, [0.000001]);
+
+//Amines
+mods.nuclearcraft.SaltMixer.addRecipe(<liquid:ammonia>*1932, <liquid:distwater>*205, <liquid:ammonia_water_mix>*2137);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:amine_eff>*3137, <liquid:ammonia_water_mix>*2137, <liquid:ethylene_oxide>*1000, 8000);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:amine_mix>*399,<liquid:ammonia>*536,<liquid:water>*65], [<immersiveengineering:material:6>], <liquid:amine_eff>*1000, 128, 140, [0.000001]);
+mods.magneticraft.Refinery.addRecipe(<liquid:amine_mix>*500, <liquid:mea>*210, <liquid:dea>*175, <liquid:tea>*115, 200);
+
+//Methylamines
+mmrecipecount = addbasicreactorrecipe(RXTicktime, <modularmachinery:itemcatalyst:13>, 1, <liquid:methanol>, 0.2*RXBatchsize, <liquid:ammonia>, 703*RXBatchsize/5000, <liquid:methylamine_eff>, 1703*RXBatchsize/5000, mmrecipecount, scaleeff);
+
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:methylamine_eff_bottoms>*362,<liquid:mma>*74,<liquid:ammonia>*257,<liquid:water>*307], [<immersiveengineering:material:6>], <liquid:methylamine_eff>*1000, 128, 140, [0.000001]);
+
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:methanol>*113,<liquid:tma>*180,<liquid:dma>*707], [<immersiveengineering:material:6>], <liquid:methylamine_eff_bottoms>*1000, 128, 140, [0.000001]);
+
+//MDEA and amine solution
+mods.nuclearcraft.ChemicalReactor.addRecipe(<liquid:mma>*100, <liquid:ethylene_oxide>*284, <liquid:mdea>*384, null);
+
+mods.nuclearcraft.SaltMixer.addRecipe(<liquid:mdea>*300, <liquid:distwater>*700, <liquid:lean_mdea>*1000);
+mods.nuclearcraft.SaltMixer.addRecipe(<liquid:mea>*300, <liquid:distwater>*700, <liquid:lean_mea>*1000);
+
+
+//Nitric acid
+mmrecipecount = addbasicreactorrecipe(RXTicktime, <modularmachinery:itemcatalyst:5>, 1, <liquid:ammonia>, 0.1*RXBatchsize, <liquid:compressed_air>, 8482*RXBatchsize/5000, <liquid:nitricacid_eff_blazing>, 8982*RXBatchsize/5000, mmrecipecount, scaleeff);
+
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:nitricacid_eff_boiling>*1000, <liquid:high_pressure_steam>*3630, <liquid:nitricacid_eff_blazing>*1000, <liquid:distwater>*363, 0, 40);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:nitricacid_eff_blazing>*153, <liquid:nitricacid_eff_boiling>*153, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:nitricacid_eff_boiling>*826, <liquid:nitricacid_eff_hot>*826, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:nitricacid_eff_hot>*568, <liquid:nitricacid_eff_warm>*568, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:nitricacid_eff_warm>*370, <liquid:nitricacid_eff>*370, HXUnit);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 1221/ACRate, <liquid:nitricacid_eff_blazing>, ACbatchsize, <liquid:nitricacid_eff>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 567/ACRate, <liquid:nitricacid_eff_boiling>, ACbatchsize, <liquid:nitricacid_eff>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 446/ACRate, <liquid:nitricacid_eff_hot>, ACbatchsize, <liquid:nitricacid_eff>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 270/ACRate, <liquid:nitricacid_eff_warm>, ACbatchsize, <liquid:nitricacid_eff>, ACbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:distwater>, 35*500/GLColumnBatchsize, <liquid:nitricacid_eff>, GLColumnBatchsize, <liquid:fluegas>, 372*500/GLColumnBatchsize, <liquid:nitric_acid>, 163*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+
+
+//Sulfuric acid
 
 
 

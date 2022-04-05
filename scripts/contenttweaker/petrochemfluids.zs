@@ -20,6 +20,16 @@ val fluids_ambient_misc = {
   naoh_used : "75788F",
   teg : "7F7EE9",
   teg_rich : "7F7EC4",
+  meg : "9CC9EC",
+  meg_rich : "9CC9EC",
+  deg : "8FB5EC",
+  mea : "80E8C4",
+  dea : "9FE8C4",
+  tea : "BDE8C4",
+  mma : "EDA0AE",
+  dma : "ED89AE",
+  tma : "ED6CAE",
+  mdea : "60FFC6",
   sulfolane : "4B0099",
   benzene : "8B4513",
   toluene : "A52A2A",
@@ -30,8 +40,6 @@ val fluids_ambient_misc = {
   toluenediisocyanate : "800000",
   ethylbenzene : "CD853F",
   formaldehyde : "F08080",
-  ethylene_glycol : "9CC9EC",
-  ethylene_glycol_rich : "9CC9EC",
   ethylene_oxide : "69AEE2",
   glycerol : "FFE4C4",
   liquidrubber : "7A7A7A",
@@ -156,7 +164,14 @@ val fluids_ambient = {
   go_basicfcc_fracvapor : "FFFFF6",
   go_advfcc_fracvapor : "FFFFF6",
   vr_basicfcc_fracvapor : "FFFFF6",
-  vr_advfcc_fracvapor : "FFFFF6"
+  vr_advfcc_fracvapor : "FFFFF6",
+  eo_solution : "3F6BDF",
+  glycol_mix : "91B4C6",
+  ammonia_water_mix : "4167A1",
+  amine_eff : "CCD9C4",
+  amine_mix : "9FD9C4",
+  methylamine_eff : "EDA08F",
+  methylamine_eff_bottoms : "ED89AE"
 } as string[string];
 
 val fluids_warm = {
@@ -449,7 +464,6 @@ val fluids_blazing = {
   napref_adv_s1 : "F5E3C6",
   napref_adv_s2 : "F5E3C6",
   napref_adv_s3 : "F5E3C6"
-
 } as string[string];
 
 val fluid_special = {
@@ -701,7 +715,10 @@ val gas_ambient = {
   vr_basicfcc_deptop : "32CD32",
   vr_basicfcc_depbot : "2BCD1C",
   fcc_fluegas : "FFFFD1",
-  h2n2_mix : "38A8FF"
+  h2n2_mix : "38A8FF",
+  eo_feed_mix : "9AE58C",
+  eo_eff : "9AE5B3",
+  nitricacid_eff : "CCD9EF"
 } as string[string];
 
 val gas_warm = {
@@ -741,7 +758,10 @@ val gas_warm = {
   vrcoker_fracvapor : "FDEA6F",
   fcc_fluegas : "FFFFD1",
   h2n2_mix : "38A8FF",
-  ammonia_eff : "8C9CC6"
+  ammonia_eff : "8C9CC6",
+  eo_feed_mix : "9AE58C",
+  eo_eff : "9AE5B3",
+  nitricacid_eff : "CCD9EF"
 } as string[string];
 
 val gas_hot = {
@@ -769,7 +789,9 @@ val gas_hot = {
   propane_cracked : "D7FFB1",
   butane_cracked : "D7FFB1",
   fcc_fluegas : "FFFFD1",
-  ammonia_eff : "8C9CC6"
+  ammonia_eff : "8C9CC6",
+  eo_eff : "9AE5B3",
+  nitricacid_eff : "CCD9EF"
 } as string[string];
 
 val gas_boiling = {
@@ -785,7 +807,8 @@ val gas_boiling = {
   ethane_cracked : "D7FFB1",
   propane_cracked : "D7FFB1",
   butane_cracked : "D7FFB1",
-  fcc_fluegas : "FFFFD1"
+  fcc_fluegas : "FFFFD1",
+  nitricacid_eff : "CCD9EF"
 } as string[string];
 
 val gas_blazing = {
@@ -800,7 +823,8 @@ val gas_blazing = {
   ethane_cracked : "D7FFB1",
   propane_cracked : "D7FFB1",
   butane_cracked : "D7FFB1",
-  fcc_fluegas : "FFFFD1"
+  fcc_fluegas : "FFFFD1",
+  nitricacid_eff : "CCD9EF"
 } as string[string];
 
 
