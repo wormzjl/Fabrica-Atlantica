@@ -1413,6 +1413,8 @@ mods.immersivepetroleum.Distillation.addRecipe([<liquid:toluene>*455,<liquid:pxy
 mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:methane>, SMRBatchsize, <liquid:steam>, 25713, <liquid:fuel_gas>, 34, <liquid:c1_smrproduct_blazing>, 530, mmrecipecount, scaleeff);
 mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:methane>, SMRBatchsize, <liquid:steam>, 25713, <liquid:gasoline>, 40, <liquid:c1_smrproduct_blazing>, 530, mmrecipecount, scaleeff);
 
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:c1_smrproduct_boiling>*1000, <liquid:high_pressure_steam>*6820, <liquid:c1_smrproduct_blazing>*1000, <liquid:distwater>*682, 0, 60);
+
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:c1_smrproduct_blazing>*82, <liquid:c1_smrproduct_boiling>*82, HXUnit);
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:c1_smrproduct_boiling>*369, <liquid:c1_smrproduct_hot>*369, HXUnit);
 
@@ -1453,6 +1455,8 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mea>, 5453*500/
 //H2 Plant - ethane
 mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:ethane>, SMRBatchsize, <liquid:steam>, 34283, <liquid:fuel_gas>, 33, <liquid:c2_smrproduct_blazing>, 680, mmrecipecount, scaleeff);
 mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:ethane>, SMRBatchsize, <liquid:steam>, 34283, <liquid:gasoline>, 38, <liquid:c2_smrproduct_blazing>, 680, mmrecipecount, scaleeff);
+
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:c2_smrproduct_boiling>*1000, <liquid:high_pressure_steam>*6400, <liquid:c2_smrproduct_blazing>*1000, <liquid:distwater>*640, 0, 60);
 
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:c2_smrproduct_blazing>*87, <liquid:c2_smrproduct_boiling>*87, HXUnit);
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:c2_smrproduct_boiling>*365, <liquid:c2_smrproduct_hot>*365, HXUnit);
@@ -1495,6 +1499,8 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mea>, 5593*500/
 mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:propane>, SMRBatchsize, <liquid:steam>, 37400, <liquid:fuel_gas>, 30, <liquid:c3_smrproduct_blazing>, 734, mmrecipecount, scaleeff);
 mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:propane>, SMRBatchsize, <liquid:steam>, 37400, <liquid:gasoline>, 35, <liquid:c3_smrproduct_blazing>, 734, mmrecipecount, scaleeff);
 
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:c3_smrproduct_boiling>*1000, <liquid:high_pressure_steam>*6290, <liquid:c3_smrproduct_blazing>*1000, <liquid:distwater>*629, 0, 60);
+
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:c3_smrproduct_blazing>*89, <liquid:c3_smrproduct_boiling>*89, HXUnit);
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:c3_smrproduct_boiling>*403, <liquid:c3_smrproduct_hot>*403, HXUnit);
 
@@ -1535,6 +1541,8 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mea>, 5619*500/
 //H2 Plant - butane
 mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:butane>, SMRBatchsize, <liquid:steam>, 39012, <liquid:fuel_gas>, 30, <liquid:c4_smrproduct_blazing>, 763, mmrecipecount, scaleeff);
 mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:butane>, SMRBatchsize, <liquid:steam>, 39012, <liquid:gasoline>, 35, <liquid:c4_smrproduct_blazing>, 763, mmrecipecount, scaleeff);
+
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:c4_smrproduct_boiling>*1000, <liquid:high_pressure_steam>*6240, <liquid:c4_smrproduct_blazing>*1000, <liquid:distwater>*624, 0, 60);
 
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:c4_smrproduct_blazing>*89, <liquid:c4_smrproduct_boiling>*89, HXUnit);
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:c4_smrproduct_boiling>*406, <liquid:c4_smrproduct_hot>*406, HXUnit);
@@ -1577,6 +1585,8 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mea>, 5671*500/
 mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:hdt_offgas>, SMRBatchsize, <liquid:steam>, 31576, <liquid:fuel_gas>, 31, <liquid:hdtgas_smrproduct_blazing>, 632, mmrecipecount, scaleeff);
 mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:hdt_offgas>, SMRBatchsize, <liquid:steam>, 31576, <liquid:gasoline>, 36, <liquid:hdtgas_smrproduct_blazing>, 632, mmrecipecount, scaleeff);
 
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:hdtgas_smrproduct_boiling>*1000, <liquid:high_pressure_steam>*6510, <liquid:hdtgas_smrproduct_blazing>*1000, <liquid:distwater>*651, 0, 60);
+
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:hdtgas_smrproduct_blazing>*86, <liquid:hdtgas_smrproduct_boiling>*86, HXUnit);
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:hdtgas_smrproduct_boiling>*386, <liquid:hdtgas_smrproduct_hot>*386, HXUnit);
 
@@ -1617,6 +1627,8 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mea>, 5516*500/
 //H2 Plant - Natural Gas
 mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:natural_gas_dry>, SMRBatchsize, <liquid:steam>, 26446, <liquid:fuel_gas>, 34, <liquid:natural_gas_smrproduct_blazing>, 543, mmrecipecount, scaleeff);
 mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:natural_gas_dry>, SMRBatchsize, <liquid:steam>, 26446, <liquid:gasoline>, 39, <liquid:natural_gas_smrproduct_blazing>, 543, mmrecipecount, scaleeff);
+
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:natural_gas_smrproduct_boiling>*1000, <liquid:high_pressure_steam>*6770, <liquid:natural_gas_smrproduct_blazing>*1000, <liquid:distwater>*677, 0, 60);
 
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:natural_gas_smrproduct_blazing>*82, <liquid:natural_gas_smrproduct_boiling>*82, HXUnit);
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:natural_gas_smrproduct_boiling>*372, <liquid:natural_gas_smrproduct_hot>*372, HXUnit);
@@ -1659,6 +1671,8 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mea>, 5452*500/
 mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:hdt_naphtha>, SMRBatchsize, <liquid:steam>, 42521, <liquid:fuel_gas>, 32, <liquid:naphtha_smrproduct_blazing>, 824, mmrecipecount, scaleeff);
 mmrecipecount = addsmrrecipe(SMRTicktime, <modularmachinery:itemcatalyst>, 1, <liquid:hdt_naphtha>, SMRBatchsize, <liquid:steam>, 42521, <liquid:gasoline>, 37, <liquid:naphtha_smrproduct_blazing>, 824, mmrecipecount, scaleeff);
 
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:naphtha_smrproduct_boiling>*1000, <liquid:high_pressure_steam>*6140, <liquid:naphtha_smrproduct_blazing>*1000, <liquid:distwater>*614, 0, 60);
+
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:naphtha_smrproduct_blazing>*91, <liquid:naphtha_smrproduct_boiling>*91, HXUnit);
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:naphtha_smrproduct_boiling>*414, <liquid:naphtha_smrproduct_hot>*414, HXUnit);
 
@@ -1698,6 +1712,8 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mea>, 5620*500/
 
 //Coal Gasifier - Basic SMR
 mmrecipecount = addgasifierrecipe(GasifierTicktime, <railcraft:dust:5>, GasifierBatchsize, <liquid:oxygen>, 1229, <liquid:steam>, 28569, <liquid:coalgasifier_effluent_blazing>, 2729, <rockhounding_chemistry:chemical_items:1>, GasifierBatchsize, mmrecipecount, scaleeff);
+
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:coalgasifier_effluent_boiling>*1000, <liquid:high_pressure_steam>*5060, <liquid:coalgasifier_effluent_blazing>*1000, <liquid:distwater>*506, 0, 50);
 
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:coalgasifier_effluent_blazing>*110, <liquid:coalgasifier_effluent_boiling>*110, HXUnit);
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:coalgasifier_effluent_boiling>*623, <liquid:coalgasifier_effluent_hot>*623, HXUnit);
@@ -1783,6 +1799,8 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mea>, 3410*500/
 mmrecipecount = addsteamcrackerrecipe(SteamcrackerTicktime, <liquid:ethane>, SteamcrackerBatchsize, <liquid:steam>, 14285, <liquid:fuel_gas>, 110, <liquid:ethane_cracked_blazing>, 750, mmrecipecount, scaleeff);
 mmrecipecount = addsteamcrackerrecipe(SteamcrackerTicktime, <liquid:ethane>, SteamcrackerBatchsize, <liquid:steam>, 14285, <liquid:gasoline>, 133, <liquid:ethane_cracked_blazing>, 750, mmrecipecount, scaleeff);
 
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:ethane_cracked_boiling>*1000, <liquid:high_pressure_steam>*8540, <liquid:ethane_cracked_blazing>*1000, <liquid:distwater>*854, 0, 80);
+
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:ethane_cracked_blazing>*65, <liquid:ethane_cracked_boiling>*65, HXUnit);
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:ethane_cracked_boiling>*287, <liquid:ethane_cracked_hot>*287, HXUnit);
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:ethane_cracked_hot>*258, <liquid:ethane_cracked_warm>*258, HXUnit);
@@ -1816,6 +1834,8 @@ mods.pneumaticcraft.refinery.addRecipe(2720269, <liquid:ethane_cracked_debtop>*4
 mmrecipecount = addsteamcrackerrecipe(SteamcrackerTicktime, <liquid:propane>, SteamcrackerBatchsize, <liquid:steam>, 14285, <liquid:fuel_gas>, 90, <liquid:propane_cracked_blazing>, 750, mmrecipecount, scaleeff);
 mmrecipecount = addsteamcrackerrecipe(SteamcrackerTicktime, <liquid:propane>, SteamcrackerBatchsize, <liquid:steam>, 14285, <liquid:gasoline>, 109, <liquid:propane_cracked_blazing>, 750, mmrecipecount, scaleeff);
 
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:propane_cracked_boiling>*1000, <liquid:high_pressure_steam>*7700, <liquid:propane_cracked_blazing>*1000, <liquid:distwater>*770, 0, 70);
+
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:propane_cracked_blazing>*72, <liquid:propane_cracked_boiling>*72, HXUnit);
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:propane_cracked_boiling>*321, <liquid:propane_cracked_hot>*321, HXUnit);
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:propane_cracked_hot>*290, <liquid:propane_cracked_warm>*290, HXUnit);
@@ -1848,6 +1868,8 @@ mods.pneumaticcraft.refinery.addRecipe(2720269, <liquid:propane_cracked_debtop>*
 //C4 steam cracker
 mmrecipecount = addsteamcrackerrecipe(SteamcrackerTicktime, <liquid:butane>, SteamcrackerBatchsize, <liquid:steam>, 14285, <liquid:fuel_gas>, 71, <liquid:butane_cracked_blazing>, 750, mmrecipecount, scaleeff);
 mmrecipecount = addsteamcrackerrecipe(SteamcrackerTicktime, <liquid:butane>, SteamcrackerBatchsize, <liquid:steam>, 14285, <liquid:gasoline>, 86, <liquid:butane_cracked_blazing>, 750, mmrecipecount, scaleeff);
+
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:butane_cracked_boiling>*1000, <liquid:high_pressure_steam>*7520, <liquid:butane_cracked_blazing>*1000, <liquid:distwater>*752, 0, 70);
 
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:butane_cracked_blazing>*74, <liquid:butane_cracked_boiling>*74, HXUnit);
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:butane_cracked_boiling>*329, <liquid:butane_cracked_hot>*329, HXUnit);
@@ -1883,6 +1905,8 @@ mods.pneumaticcraft.refinery.addRecipe(2720269, <liquid:butane_cracked_debtop>*4
 //Naphtha Steam cracker
 mmrecipecount = addsteamcrackerrecipe(SteamcrackerTicktime, <liquid:hdt_naphtha>, SteamcrackerBatchsize, <liquid:steam>, 14285, <liquid:fuel_gas>, 63, <liquid:naphtha_cracked_blazing>, 750, mmrecipecount, scaleeff);
 mmrecipecount = addsteamcrackerrecipe(SteamcrackerTicktime, <liquid:hdt_naphtha>, SteamcrackerBatchsize, <liquid:steam>, 14285, <liquid:gasoline>, 76, <liquid:naphtha_cracked_blazing>, 750, mmrecipecount, scaleeff);
+
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:naphtha_cracked_boiling>*1000, <liquid:high_pressure_steam>*7290, <liquid:naphtha_cracked_blazing>*1000, <liquid:distwater>*729, 0, 70);
 
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:naphtha_cracked_blazing>*76, <liquid:naphtha_cracked_boiling>*76, HXUnit);
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:naphtha_cracked_boiling>*339, <liquid:naphtha_cracked_hot>*339, HXUnit);
@@ -2100,8 +2124,16 @@ mods.pneumaticcraft.refinery.addRecipe(2720269, <liquid:vr_basicfcc_depbot>*499,
 
 
 //FCC regen
-mmrecipecount = addfccregeneratorrecipe(FCCTicktime, <contenttweaker:fcc_spent_catalyst>, 30, <liquid:compressed_air>, 15000, <liquid:fcc_fluegas>, 15000, <contenttweaker:fcc_catalyst>, 28, mmrecipecount, scaleeff);
-mmrecipecount = addfccregeneratorrecipe(FCCTicktime, <contenttweaker:advfcc_spent_catalyst>, 45, <liquid:compressed_air>, 22500, <liquid:fcc_fluegas>, 22500, <contenttweaker:advfcc_catalyst>, 44, mmrecipecount, scaleeff);
+mmrecipecount = addfccregeneratorrecipe(FCCTicktime, <contenttweaker:fcc_spent_catalyst>, 30, <liquid:compressed_air>, 750, <liquid:flue_gas_blazing>, 750, <contenttweaker:fcc_catalyst>, 28, mmrecipecount, scaleeff);
+mmrecipecount = addfccregeneratorrecipe(FCCTicktime, <contenttweaker:advfcc_spent_catalyst>, 45, <liquid:compressed_air>, 1125, <liquid:flue_gas_blazing>, 1125, <contenttweaker:advfcc_catalyst>, 44, mmrecipecount, scaleeff);
+
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:flue_gas_boiling>*1000, <liquid:high_pressure_steam>*4290, <liquid:flue_gas_blazing>*1000, <liquid:distwater>*429, 0, 50);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:flue_gas_blazing>*129, <liquid:flue_gas_boiling>*129, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:flue_gas_boiling>*866, <liquid:flue_gas_hot>*866, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:flue_gas_hot>*568, <liquid:flue_gas_warm>*568, HXUnit);
+
+
 
 
 //Bulk chemicals that need a real process

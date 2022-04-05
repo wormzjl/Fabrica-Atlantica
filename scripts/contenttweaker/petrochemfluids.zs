@@ -714,7 +714,6 @@ val gas_ambient = {
   vr_basicfcc_deebot : "65CD32",
   vr_basicfcc_deptop : "32CD32",
   vr_basicfcc_depbot : "2BCD1C",
-  fcc_fluegas : "FFFFD1",
   h2n2_mix : "38A8FF",
   eo_feed_mix : "9AE58C",
   eo_eff : "9AE5B3",
@@ -756,7 +755,7 @@ val gas_warm = {
   butane_cracked : "D7FFB1",
   butane_crackedgas_humid : "E6E2E0",
   vrcoker_fracvapor : "FDEA6F",
-  fcc_fluegas : "FFFFD1",
+  flue_gas : "FFFFD1",
   h2n2_mix : "38A8FF",
   ammonia_eff : "8C9CC6",
   eo_feed_mix : "9AE58C",
@@ -788,7 +787,7 @@ val gas_hot = {
   ethane_cracked : "D7FFB1",
   propane_cracked : "D7FFB1",
   butane_cracked : "D7FFB1",
-  fcc_fluegas : "FFFFD1",
+  flue_gas : "FFFFD1",
   ammonia_eff : "8C9CC6",
   eo_eff : "9AE5B3",
   nitricacid_eff : "CCD9EF"
@@ -807,7 +806,7 @@ val gas_boiling = {
   ethane_cracked : "D7FFB1",
   propane_cracked : "D7FFB1",
   butane_cracked : "D7FFB1",
-  fcc_fluegas : "FFFFD1",
+  flue_gas : "FFFFD1",
   nitricacid_eff : "CCD9EF"
 } as string[string];
 
@@ -823,7 +822,7 @@ val gas_blazing = {
   ethane_cracked : "D7FFB1",
   propane_cracked : "D7FFB1",
   butane_cracked : "D7FFB1",
-  fcc_fluegas : "FFFFD1",
+  flue_gas : "77828A",
   nitricacid_eff : "CCD9EF"
 } as string[string];
 
