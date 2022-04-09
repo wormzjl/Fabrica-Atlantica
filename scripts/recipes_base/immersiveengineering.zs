@@ -26,6 +26,8 @@ for item in removed {
 }
 
 //Recipes
+mods.immersiveengineering.Fermenter.removeFluidRecipe(<liquid:ammonia>);
+
 recipes.remove(<immersiveengineering:metal:30>);
 recipes.remove(<immersiveengineering:metal:31>);
 recipes.remove(<immersiveengineering:metal:32>);

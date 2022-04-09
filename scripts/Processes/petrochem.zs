@@ -2074,7 +2074,6 @@ team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:flue_gas_hot>*568, 
 
 
 
-
 //Bulk chemicals that need a real process
 //Air separation
 mods.rockhounding_chemistry.HeatExchanger.remove(<liquid:refined_air>*1000);
@@ -2156,10 +2155,54 @@ mmrecipecount = addaircoolerrecipe(ACduty, 270/ACRate, <liquid:nitricacid_eff_wa
 mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:distwater>, 35*500/GLColumnBatchsize, <liquid:nitricacid_eff>, GLColumnBatchsize, <liquid:fluegas>, 372*500/GLColumnBatchsize, <liquid:nitric_acid>, 163*500/GLColumnBatchsize, mmrecipecount, scaleeff);
 
 
+//Sulfur
+mmrecipecount = addburnerrecipe(400, <liquid:h2s>, 1000, <liquid:compressed_air>, 2020, <liquid:claus_burner_eff_blazing>, 3020, mmrecipecount);
+
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:claus_burner_eff_boiling>*500, <liquid:high_pressure_steam>*5420, <liquid:claus_burner_eff_blazing>*500, <liquid:distwater>*542, 0, 50);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:claus_burner_eff_blazing>*51, <liquid:claus_burner_eff_boiling>*51, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:claus_burner_eff_boiling>*791, <liquid:claus_burner_eff_hot>*791, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:claus_burner_eff_hot>*500, <liquid:claus_burner_eff_warm>*500, HXUnit);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 2277/ACRate, <liquid:claus_burner_eff_blazing>, ACbatchsize, <liquid:claus_burner_eff_warm>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 327/ACRate, <liquid:claus_burner_eff_boiling>, ACbatchsize, <liquid:claus_burner_eff_warm>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 200/ACRate, <liquid:claus_burner_eff_hot>, ACbatchsize, <liquid:claus_burner_eff_warm>, ACbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:claus_burner_eff_warm>, drumbatchsize, <liquid:claus_burner_eff_gas_warm>, 1595*2000/drumbatchsize, <liquid:sulfur>, 405*2000/drumbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addbasicreactorrecipe2(RXTicktime, <modularmachinery:itemcatalyst:14>, 1, <liquid:claus_burner_eff_gas_warm>, 0.4*RXBatchsize, <liquid:claus_converter_eff_hot>, 0.4*RXBatchsize, mmrecipecount, scaleeff);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:claus_converter_eff_hot>*286, <liquid:claus_converter_eff_warm>*286, HXUnit);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 350/ACRate, <liquid:claus_converter_eff_hot>, ACbatchsize, <liquid:claus_converter_eff_warm>, ACbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:claus_converter_eff_warm>, drumbatchsize, <liquid:fluegas>, 1903*2000/drumbatchsize, <liquid:sulfur>, 97*2000/drumbatchsize, mmrecipecount, scaleeff);
+
+
 //Sulfuric acid
+mmrecipecount = addburnerrecipe(400, <liquid:sulfur>, 500, <liquid:compressed_air>, 8154, <liquid:so2_eff_blazing>, 8654, mmrecipecount);
 
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:so2_eff_boiling>*1000, <liquid:high_pressure_steam>*2910, <liquid:so2_eff_blazing>*1000, <liquid:distwater>*291, 0, 50);
 
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:so2_eff_blazing>*191, <liquid:so2_eff_boiling>*191, HXUnit);
 
+mmrecipecount = addaircoolerrecipe(ACduty, 523/ACRate, <liquid:so2_eff_blazing>, ACbatchsize, <liquid:so2_eff_boiling>, ACbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addbasicreactorrecipe2(RXTicktime, <modularmachinery:itemcatalyst:15>, 1, <liquid:so2_eff_boiling>, RXBatchsize, <liquid:so3_eff_blazing>, RXBatchsize, mmrecipecount, scaleeff);
+
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:so3_eff_boiling>*1000, <liquid:high_pressure_steam>*940, <liquid:so3_eff_blazing>*1000, <liquid:distwater>*94, 0, 50);
+
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:so3_eff_blazing>*594, <liquid:so3_eff_boiling>*594, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:so3_eff_boiling>*758, <liquid:so3_eff_hot>*758, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:so3_eff_hot>*481, <liquid:so3_eff_warm>*481, HXUnit);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 508/ACRate, <liquid:so3_eff_blazing>, ACbatchsize, <liquid:so3_eff_warm>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 340/ACRate, <liquid:so3_eff_boiling>, ACbatchsize, <liquid:so3_eff_warm>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 208/ACRate, <liquid:so3_eff_hot>, ACbatchsize, <liquid:so3_eff_warm>, ACbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:sulfuric_acid>, 5810*500/GLColumnBatchsize, <liquid:so3_eff_warm>, GLColumnBatchsize, <liquid:fluegas>, 428*500/GLColumnBatchsize, <liquid:sulfuric_acid_conc>, 5898*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+
+mods.nuclearcraft.SaltMixer.addRecipe(<liquid:sulfuric_acid_conc>*1000, <liquid:distwater>*15, <liquid:sulfuric_acid>*1015);
 
 
 
@@ -2505,5 +2548,14 @@ function addfccregeneratorrecipe(time as int, catalyst as IItemStack, cat as int
   number += 1;
   mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "regeneratorlarge", time, 0)
   .addItemInput(catalyst*(cat*eff[1])).addFluidInput(input1*(in1*eff[1])).addFluidOutput(output1*(out1*eff[1])).addItemOutput(output*(out*eff[1])).build();
+  return number;
+}
+
+//Burner
+function addburnerrecipe(time as int, input1 as ILiquidStack, in1 as int, input2 as ILiquidStack, in2 as int, output1 as ILiquidStack, out1 as int, recipenumber as int) as int{
+  var number as int;
+  number = recipenumber + 1;
+  mods.modularmachinery.RecipeBuilder.newBuilder("recipe_" + number, "burner", time, 0)
+  .addFluidInput(input1*in1).addFluidInput(input2*in2).addFluidOutput(output1*out1).build();
   return number;
 }

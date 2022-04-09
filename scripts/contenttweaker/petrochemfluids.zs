@@ -171,7 +171,8 @@ val fluids_ambient = {
   amine_eff : "CCD9C4",
   amine_mix : "9FD9C4",
   methylamine_eff : "EDA08F",
-  methylamine_eff_bottoms : "ED89AE"
+  methylamine_eff_bottoms : "ED89AE",
+  sulfuric_acid_conc : "383B33"
 } as string[string];
 
 val fluids_warm = {
@@ -727,7 +728,11 @@ val gas_warm = {
   ammonia_eff : "8C9CC6",
   eo_feed_mix : "9AE58C",
   eo_eff : "9AE5B3",
-  nitricacid_eff : "CCD9EF"
+  nitricacid_eff : "CCD9EF",
+  claus_burner_eff : "EEE29F",
+  claus_burner_eff_gas : "E8F79F",
+  claus_converter_eff : "F9FF9F",
+  so3_eff : "E6CA1E"
 } as string[string];
 
 val gas_hot = {
@@ -757,7 +762,10 @@ val gas_hot = {
   flue_gas : "FFFFD1",
   ammonia_eff : "8C9CC6",
   eo_eff : "9AE5B3",
-  nitricacid_eff : "CCD9EF"
+  nitricacid_eff : "CCD9EF",
+  claus_burner_eff : "EEE29F",
+  claus_converter_eff : "F9FF9F",
+  so3_eff : "E6CA1E"
 } as string[string];
 
 val gas_boiling = {
@@ -774,7 +782,10 @@ val gas_boiling = {
   propane_cracked : "D7FFB1",
   butane_cracked : "D7FFB1",
   flue_gas : "FFFFD1",
-  nitricacid_eff : "CCD9EF"
+  nitricacid_eff : "CCD9EF",
+  claus_burner_eff : "EEE29F",
+  so2_eff : "E6D84E",
+  so3_eff : "E6CA1E"
 } as string[string];
 
 val gas_blazing = {
@@ -790,7 +801,10 @@ val gas_blazing = {
   propane_cracked : "D7FFB1",
   butane_cracked : "D7FFB1",
   flue_gas : "77828A",
-  nitricacid_eff : "CCD9EF"
+  nitricacid_eff : "CCD9EF",
+  claus_burner_eff : "EEE29F",
+  so2_eff : "E6D84E",
+  so3_eff : "E6CA1E"
 } as string[string];
 
 

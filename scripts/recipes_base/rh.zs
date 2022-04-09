@@ -1,6 +1,15 @@
 #priority 100
 
 //Recipes
+mods.rockhounding_chemistry.LabOven.removeByOutput(<liquid:sulfuric_acid>*800);
+mods.rockhounding_chemistry.LabOven.removeByOutput(<liquid:sulfuric_acid>*400);
+mods.rockhounding_chemistry.LabOven.removeByOutput(<liquid:liquid_ammonia>*50);
+mods.rockhounding_chemistry.LabOven.removeByOutput(<liquid:hydrofluoric_acid>*400);
+
+
+mods.rockhounding_chemistry.GasReformer.removeByOutput(<liquid:ammonia>*30);
+mods.rockhounding_chemistry.GasReformer.removeByOutput(<liquid:nitric_acid>*15);
+mods.rockhounding_chemistry.BedReactor.removeByOutput(<liquid:ammonia>*200);
 
 mods.rockhounding_chemistry.ProfilingBench.removeByOutput(<rockhounding_chemistry:au_catalyst>);
 
