@@ -48,5 +48,5 @@ val def3 = <liquid:high_pressure_steam>.definition;
 def3.temperature = 820;
 
 
-
-team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:steam>*1389, <liquid:condensate_water>*8, 50);
+team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:steam>*2778, <liquid:condensate_water>*17, 100);
+team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:distwater>*14, <liquid:steam>*2222, 100);

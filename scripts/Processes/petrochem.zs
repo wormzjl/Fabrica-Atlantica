@@ -153,6 +153,8 @@ mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_oil>*900, <liquid:fccs
 mods.immersiveengineering.Refinery.addRecipe(<liquid:fuel_oil>*1000, <liquid:vrhck_uco>*1000, <liquid:steam>*100, 64);
 
 
+
+
 //Natural gas processing
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:natural_gas_crude>*2000, <liquid:natural_gas>*100);
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:natural_gas_sour_crude>*2000, <liquid:natural_gas_sour>*100);
@@ -208,9 +210,9 @@ mmrecipecount = add3phaseseprecipe(40, drumprocessingtime, <liquid:water>, 500*2
 
 //Various heating
 //H2
-team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:hydrogen>*55, <liquid:hydrogen_warm>*55, HXUnit);
-team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:hydrogen_warm>*45, <liquid:hydrogen_hot>*45, HXUnit);
-team.cappcraft.icheme.HeatExchanger.addBiDirectionEntry(<liquid:hydrogen_hot>*65, <liquid:hydrogen_boiling>*65, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:hydrogen>*55, <liquid:hydrogen_warm>*55, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:hydrogen_warm>*45, <liquid:hydrogen_hot>*45, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addHeatUpEntry(<liquid:hydrogen_hot>*65, <liquid:hydrogen_boiling>*65, HXUnit);
 
 mods.magneticraft.OilHeater.addRecipe(<liquid:hydrogen>*heaterbatchsize, <liquid:hydrogen_hot>*heaterbatchsize, 384*5000/heaterbatchsize, 700);
 mods.magneticraft.OilHeater.addRecipe(<liquid:hydrogen_warm>*heaterbatchsize, <liquid:hydrogen_hot>*heaterbatchsize, 212*5000/heaterbatchsize, 700);
