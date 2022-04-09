@@ -1372,9 +1372,7 @@ mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liq
 mods.nuclearcraft.SaltMixer.addRecipe(<liquid:naphtha_reformate_stripped>*100, <liquid:sulfolane>*400, <liquid:naphtha_reformate_mix>*500);
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:gasoline>*140,<liquid:naphtha_reformate_extr_bot>*860], [<immersiveengineering:material:6>], <liquid:naphtha_reformate_mix>*1000, 800, 100, [0.000001]);
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:naphtha_reformate_btx>*60,<liquid:sulfolane>*939], [<immersiveengineering:material:6>], <liquid:naphtha_reformate_extr_bot>*1000, 800, 100, [0.000001]);
-
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:benzene>*136,<liquid:naphtha_reformate_tx>*864], [<immersiveengineering:material:6>], <liquid:naphtha_reformate_btx>*1000, 280, 100, [0.000001]);
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:toluene>*438,<liquid:pxylene>*562], [<immersiveengineering:material:6>], <liquid:naphtha_reformate_tx>*1000, 280, 100, [0.000001]);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:benzene>*136, <liquid:toluene>*378,<liquid:pxylene>*486], [<immersiveengineering:material:6>], <liquid:naphtha_reformate_btx>*1000, 280, 100, [0.000001]);
 
 //Reformer - PtIr catalyst
 mmrecipecount = addadvreactorrecipe2(RXTicktime, <modularmachinery:itemcatalyst:6>, 1, <liquid:hdt_naphtha_blazing>, RXBatchsize, <liquid:hydrogen_boiling>, 500*RXBatchsize/5000, <liquid:napref_adv_s1_boiling>, 5500*RXBatchsize/5000, mmrecipecount, scaleeff);
@@ -1404,9 +1402,7 @@ mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liq
 mods.nuclearcraft.SaltMixer.addRecipe(<liquid:naphtha_reformate_adv_stripped>*100, <liquid:sulfolane>*400, <liquid:naphtha_reformate_adv_mix>*500);
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:gasoline>*118,<liquid:naphtha_reformate_adv_extr_bot>*882], [<immersiveengineering:material:6>], <liquid:naphtha_reformate_adv_mix>*1000, 800, 100, [0.000001]);
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:naphtha_reformate_adv_btx>*82,<liquid:sulfolane>*917], [<immersiveengineering:material:6>], <liquid:naphtha_reformate_adv_extr_bot>*1000, 800, 100, [0.000001]);
-
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:benzene>*144,<liquid:naphtha_reformate_adv_tx>*856], [<immersiveengineering:material:6>], <liquid:naphtha_reformate_adv_btx>*1000, 280, 100, [0.000001]);
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:toluene>*455,<liquid:pxylene>*545], [<immersiveengineering:material:6>], <liquid:naphtha_reformate_adv_tx>*1000, 280, 100, [0.000001]);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:benzene>*144,<liquid:toluene>*390,<liquid:pxylene>*466], [<immersiveengineering:material:6>], <liquid:naphtha_reformate_adv_btx>*1000, 280, 100, [0.000001]);
 
 
 //H2 Plant - methane
@@ -1922,9 +1918,7 @@ mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:naphtha_cracked_depbot>*
 mods.nuclearcraft.SaltMixer.addRecipe(<liquid:pygas>*100, <liquid:sulfolane>*400, <liquid:pygas_mix>*500);
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:gasoline>*98,<liquid:pygas_extr_bot>*902], [<immersiveengineering:material:6>], <liquid:pygas_mix>*1000, 800, 100, [0.000001]);
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:pygas_btx>*103,<liquid:sulfolane>*897], [<immersiveengineering:material:6>], <liquid:pygas_extr_bot>*1000, 800, 100, [0.000001]);
-
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:benzene>*454,<liquid:pygas_tx>*546], [<immersiveengineering:material:6>], <liquid:pygas_btx>*1000, 280, 100, [0.000001]);
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:toluene>*630,<liquid:pxylene>*370], [<immersiveengineering:material:6>], <liquid:pygas_tx>*1000, 280, 100, [0.000001]);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:benzene>*454,<liquid:toluene>*344,<liquid:pxylene>*202], [<immersiveengineering:material:6>], <liquid:pygas_btx>*1000, 280, 100, [0.000001]);
 
 
 //Coker
