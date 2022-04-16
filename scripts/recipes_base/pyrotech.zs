@@ -96,8 +96,8 @@ recipes.replaceAllOccurences(<ore:cordageGeneral>, <pyrotech:material:14>);
 mods.pyrotech.StoneKiln.removeRecipes(<minecraft:cobblestone>);
 mods.pyrotech.BrickKiln.removeRecipes(<minecraft:cobblestone>);
 
-recipes.remove(<pyrotech:worktable>);
-recipes.addShaped(<pyrotech:worktable>, [[<ore:logWood>, <pyrotech:crude_axe:*>]]);
+//recipes.remove(<pyrotech:worktable>);
+//recipes.addShaped(<pyrotech:worktable>, [[<ore:logWood>, <pyrotech:crude_axe:*>]]);
 
 recipes.remove(<pyrotech:crude_axe>);
 recipes.addShaped(<pyrotech:crude_axe>, [[<primal:flint_knapp>, <primal:flint_knapp>], [<ore:stickWood>, <pyrotech:material:12>]]);
