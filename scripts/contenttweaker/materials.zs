@@ -132,8 +132,9 @@ for i, scrap in scraps_list {
 var gaas = MaterialSystem.getMaterialBuilder().setName("GaAs").setColor(9474718).build();
 var tio2 = MaterialSystem.getMaterialBuilder().setName("TiO2").setColor(16185078).build();
 var alumina = MaterialSystem.getMaterialBuilder().setName("Alumina").setColor(16579836).build();
+var silica = MaterialSystem.getMaterialBuilder().setName("Silica").setColor(16316664).build();
 
-var chemicals = [gaas, tio2, alumina] as Material[];
+var chemicals = [gaas, tio2, alumina, silica] as Material[];
 
 for i, chemical in chemicals {
     chemical.registerPart("dust");
@@ -150,6 +151,11 @@ var pt = MaterialSystem.getMaterialBuilder().setName("pt").setColor(2738636).bui
 var ptir = MaterialSystem.getMaterialBuilder().setName("ptir").setColor(2745574).build();
 var nimohck = MaterialSystem.getMaterialBuilder().setName("nimohck").setColor(1014884).build();
 var niwhck = MaterialSystem.getMaterialBuilder().setName("niwhck").setColor(998001).build();
+var pthck = MaterialSystem.getMaterialBuilder().setName("pthck").setColor(2745572).build();
+var fe = MaterialSystem.getMaterialBuilder().setName("fe").setColor(6094848).build();
+var ag = MaterialSystem.getMaterialBuilder().setName("ag").setColor(12776435).build();
+var zeolite = MaterialSystem.getMaterialBuilder().setName("zeolite").setColor(16777138).build();
+var vanadium = MaterialSystem.getMaterialBuilder().setName("vanadium").setColor(14774300).build();
 var comohck = MaterialSystem.getMaterialBuilder().setName("comohck").setColor(1015985).build();
 var comohck_spent = MaterialSystem.getMaterialBuilder().setName("comohck_spent").setColor(3086865).build();
 var fcc = MaterialSystem.getMaterialBuilder().setName("fcc").setColor(16777173).build();
@@ -157,7 +163,7 @@ var advfcc = MaterialSystem.getMaterialBuilder().setName("advfcc").setColor(1677
 var fcc_spent = MaterialSystem.getMaterialBuilder().setName("fcc_spent").setColor(1250304).build();
 var advfcc_spent = MaterialSystem.getMaterialBuilder().setName("advfcc_spent").setColor(1250304).build();
 
-var cat_list = [ni, como, nimo, comoni, fecr, pt, ptir, nimohck, niwhck, comohck, comohck_spent, fcc, advfcc, fcc_spent, advfcc_spent] as Material[];
+var cat_list = [ni, como, nimo, comoni, fecr, pt, ptir, nimohck, niwhck, pthck, fe, ag, zeolite, alumina, vanadium, comohck, comohck_spent, fcc, advfcc, fcc_spent, advfcc_spent] as Material[];
 for i, catalysts in cat_list {
     catalysts.registerPart("catalyst");
 }

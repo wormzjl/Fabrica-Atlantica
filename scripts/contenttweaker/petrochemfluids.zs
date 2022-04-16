@@ -440,8 +440,6 @@ val fluids_boiling = {
   vrhck_effluent_gas : "E1C2A5",
   vrhck_s2_adubottom : "150F0C",
   vrhck_uco : "150F0C",
-  lube_basichckeff : "DCBF5A",
-  lube_advhckeff : "DCBF5A",
   vgo_basicfcc_eff : "C0AE3B",
   vgo_advfcc_eff : "C0AE3B",
   go_basicfcc_eff : "C0C33B",

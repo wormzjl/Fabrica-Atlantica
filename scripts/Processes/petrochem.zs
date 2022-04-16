@@ -105,6 +105,43 @@ var VRHCKTicktime = 900 as int;
 var FCCBatchsize = 5000 as int;
 var FCCTicktime = 900 as int;
 
+
+//Catalysts
+furnace.addRecipe(<modularmachinery:blockcatalystbus>, <contenttweaker:ni_catalyst>*64);
+furnace.addRecipe(<modularmachinery:blockcatalystbus:1>, <contenttweaker:como_catalyst>*64);
+furnace.addRecipe(<modularmachinery:blockcatalystbus:2>, <contenttweaker:nimo_catalyst>*64);
+furnace.addRecipe(<modularmachinery:blockcatalystbus:3>, <contenttweaker:comoni_catalyst>*64);
+furnace.addRecipe(<modularmachinery:blockcatalystbus:4>, <contenttweaker:fecr_catalyst>*64);
+furnace.addRecipe(<modularmachinery:blockcatalystbus:5>, <contenttweaker:pt_catalyst>*64);
+furnace.addRecipe(<modularmachinery:blockcatalystbus:6>, <contenttweaker:ptir_catalyst>*64);
+furnace.addRecipe(<modularmachinery:blockcatalystbus:7>, <contenttweaker:nimohck_catalyst>*64);
+furnace.addRecipe(<modularmachinery:blockcatalystbus:8>, <contenttweaker:niwhck_catalyst>*64);
+furnace.addRecipe(<modularmachinery:blockcatalystbus:10>, <contenttweaker:pthck_catalyst>*64);
+furnace.addRecipe(<modularmachinery:blockcatalystbus:11>, <contenttweaker:fe_catalyst>*64);
+furnace.addRecipe(<modularmachinery:blockcatalystbus:12>, <contenttweaker:ag_catalyst>*64);
+furnace.addRecipe(<modularmachinery:blockcatalystbus:13>, <contenttweaker:zeolite_catalyst>*64);
+furnace.addRecipe(<modularmachinery:blockcatalystbus:14>, <contenttweaker:alumina_catalyst>*64);
+furnace.addRecipe(<modularmachinery:blockcatalystbus:15>, <contenttweaker:vanadium_catalyst>*64);
+
+furnace.addRecipe(<contenttweaker:ni_catalyst>*48, <modularmachinery:blockcatalystbusbroken>);
+furnace.addRecipe(<contenttweaker:como_catalyst>*48, <modularmachinery:blockcatalystbusbroken:1>);
+furnace.addRecipe(<contenttweaker:nimo_catalyst>*48, <modularmachinery:blockcatalystbusbroken:2>);
+furnace.addRecipe(<contenttweaker:comoni_catalyst>*48, <modularmachinery:blockcatalystbusbroken:3>);
+furnace.addRecipe(<contenttweaker:fecr_catalyst>*48, <modularmachinery:blockcatalystbusbroken:4>);
+furnace.addRecipe(<contenttweaker:pt_catalyst>*48, <modularmachinery:blockcatalystbusbroken:5>);
+furnace.addRecipe(<contenttweaker:ptir_catalyst>*48, <modularmachinery:blockcatalystbusbroken:6>);
+furnace.addRecipe(<contenttweaker:nimohck_catalyst>*48, <modularmachinery:blockcatalystbusbroken:7>);
+furnace.addRecipe(<contenttweaker:niwhck_catalyst>*48, <modularmachinery:blockcatalystbusbroken:8>);
+furnace.addRecipe(<contenttweaker:pthck_catalyst>*48, <modularmachinery:blockcatalystbusbroken:10>);
+furnace.addRecipe(<contenttweaker:fe_catalyst>*48, <modularmachinery:blockcatalystbusbroken:11>);
+furnace.addRecipe(<contenttweaker:ag_catalyst>*48, <modularmachinery:blockcatalystbusbroken:12>);
+furnace.addRecipe(<contenttweaker:zeolite_catalyst>*48, <modularmachinery:blockcatalystbusbroken:13>);
+furnace.addRecipe(<contenttweaker:alumina_catalyst>*48, <modularmachinery:blockcatalystbusbroken:14>);
+furnace.addRecipe(<contenttweaker:vanadium_catalyst>*48, <modularmachinery:blockcatalystbusbroken:15>);
+
+
+
+
 //Fuel blending
 //SR Grade - 50% eff
 mods.immersiveengineering.Refinery.addRecipe(<liquid:gasoline>*500, <liquid:sr_naphtha>*1000, <liquid:steam>*100, 64);
@@ -1137,7 +1174,7 @@ mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liq
 
 
 //VGO Hydrocracker - Stage 1 recycle + Basic catalyst
-mmrecipecount = addadvreactorrecipe6(RXTicktime, <modularmachinery:itemcatalyst:2>, 9, <modularmachinery:itemcatalyst:7>, 9, <modularmachinery:itemredstonesignal:14>, <liquid:sr_vgo_boiling>, 0.9*RXBatchsize, <liquid:hdt_vgo_hot>, 0.1*RXBatchsize, <liquid:hydrogen_boiling>, 234, <liquid:hydrogen>, 233, <liquid:mix_vgo_basichckeff_boiling>, 5454, mmrecipecount, scaleeff);
+mmrecipecount = addadvreactorrecipe6(RXTicktime, <modularmachinery:itemcatalyst:7>, 9, <modularmachinery:itemcatalyst:7>, 9, <modularmachinery:itemredstonesignal:14>, <liquid:sr_vgo_boiling>, 0.9*RXBatchsize, <liquid:hdt_vgo_hot>, 0.1*RXBatchsize, <liquid:hydrogen_boiling>, 234, <liquid:hydrogen>, 233, <liquid:mix_vgo_basichckeff_boiling>, 5454, mmrecipecount, scaleeff);
 
 team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:mix_vgo_basichckeff_boiling>*210, <liquid:mix_vgo_basichckeff_hot>*210, HXUnit);
 
@@ -1263,11 +1300,7 @@ mods.magneticraft.Refinery.addRecipe(<liquid:vrhck_s2_adubottom_boiling>*500, <l
 
 
 //Lube plant - Adv cat
-mmrecipecount = addadvreactorrecipe7(RXTicktime, <modularmachinery:itemcatalyst:10>, 3, <liquid:hdt_vgo_boiling>, RXBatchsize, <liquid:hydrogen_boiling>, 68, <liquid:hydrogen>, 8, <liquid:lube_advhckeff_boiling>, 5072, mmrecipecount, scaleeff);
-
-team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:lube_advhckeff_boiling>*284, <liquid:lube_advhckeff_hot>*284, HXUnit);
-
-mmrecipecount = addaircoolerrecipe(ACduty, 352/ACRate, <liquid:lube_advhckeff_boiling>, ACbatchsize, <liquid:lube_advhckeff_hot>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addadvreactorrecipe7(RXTicktime, <modularmachinery:itemcatalyst:10>, 3, <liquid:hdt_vgo_hot>, RXBatchsize, <liquid:hydrogen_hot>, 68, <liquid:hydrogen>, 8, <liquid:lube_advhckeff_hot>, 5072, mmrecipecount, scaleeff);
 
 mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:lube_advhckeff_hot>, drumbatchsize, <liquid:lube_advhckeff_gas_hot>, 95*2000/drumbatchsize, <liquid:lube_advhck_fracfeed_hot>, 1905*2000/drumbatchsize, mmrecipecount, scaleeff);
 
@@ -1300,11 +1333,7 @@ mmrecipecount = addgaspurifierrecipe(GaspurifierPower, GaspurifierTicktime, <liq
 
 
 //Lube plant - Basic cat
-mmrecipecount = addadvreactorrecipe7(RXTicktime, <modularmachinery:itemcatalyst:9>, 3, <liquid:hdt_vgo_boiling>, RXBatchsize, <liquid:hydrogen_boiling>, 109, <liquid:hydrogen>, 12, <liquid:lube_basichckeff_boiling>, 5115, mmrecipecount, scaleeff);
-
-team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:lube_basichckeff_boiling>*274, <liquid:lube_basichckeff_hot>*274, HXUnit);
-
-mmrecipecount = addaircoolerrecipe(ACduty, 365/ACRate, <liquid:lube_basichckeff_boiling>, ACbatchsize, <liquid:lube_basichckeff_hot>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addadvreactorrecipe7(RXTicktime, <modularmachinery:itemcatalyst:7>, 3, <liquid:hdt_vgo_hot>, RXBatchsize, <liquid:hydrogen_hot>, 109, <liquid:hydrogen>, 12, <liquid:lube_basichckeff_hot>, 5115, mmrecipecount, scaleeff);
 
 mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:lube_basichckeff_hot>, drumbatchsize, <liquid:lube_basichckeff_gas_hot>, 160*2000/drumbatchsize, <liquid:lube_basichck_fracfeed_hot>, 1840*2000/drumbatchsize, mmrecipecount, scaleeff);
 

@@ -175,11 +175,13 @@ mods.rockhounding_chemistry.RetentionVat.add(<liquid:leachate>*1000,
 
 
 //Material replacements
+mods.rockhounding_chemistry.MaterialCabinet.add("SiO", "dustSilica", "Silica");
 mods.rockhounding_chemistry.MaterialCabinet.add("AlO", "dustAlumina", "Alumina");
 mods.rockhounding_chemistry.MaterialCabinet.add("TiO", "dustTiO2", "Titanium Dioxide");
 mods.rockhounding_chemistry.MaterialCabinet.add("WA", "dustTungsticacid", "Tungstic Acid");
 mods.rockhounding_chemistry.MaterialCabinet.add("S", "dustSteel", "Steel Dust");
 mods.rockhounding_chemistry.MaterialCabinet.add("REE", "dustMischmetal", "Mischmetal Dust");
+
 
 //Aluminium
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:antimonate_shards>);
@@ -317,3 +319,22 @@ mods.rockhounding_chemistry.MetalAlloyer.add(["dustMagnesium", "dustBoron"], [33
 mods.rockhounding_chemistry.MetalAlloyer.add(["dustSteel", "dustBoron", "dustSilicon", "dustAluminum"], [78, 19, 2, 1], <nuclearcraft:alloy:6>);
 
 mods.rockhounding_chemistry.MetalAlloyer.add(["dustSteel", "dustChrome", "dustNickel", "dustManganese"], [53, 25, 20, 2], <materialpart:ssteel:ingot>);
+
+//Catalysts
+mods.rockhounding_chemistry.MetalAlloyer.add(["dustAlumina", "dustNickel"], [90, 10], <contenttweaker:ni_catalyst>);
+mods.rockhounding_chemistry.MetalAlloyer.add(["dustAlumina", "dustCobalt", "dustMolybdenum"], [84, 4, 12], <contenttweaker:como_catalyst>);
+mods.rockhounding_chemistry.MetalAlloyer.add(["dustAlumina", "dustNickel", "dustMolybdenum"], [84, 4, 12], <contenttweaker:nimo_catalyst>);
+mods.rockhounding_chemistry.MetalAlloyer.add(["dustAlumina", "dustCobalt", "dustMolybdenum", "dustNickel"], [84, 2, 12, 2], <contenttweaker:comoni_catalyst>);
+mods.rockhounding_chemistry.MetalAlloyer.add(["dustIron", "dustChrome"], [90, 10], <contenttweaker:fecr_catalyst>);
+mods.rockhounding_chemistry.MetalAlloyer.add(["dustAlumina", "dustPlatinum"], [99, 1], <contenttweaker:pt_catalyst>);
+mods.rockhounding_chemistry.MetalAlloyer.add(["dustAlumina", "dustPlatinum", "dustIridium"], [98, 1, 1], <contenttweaker:ptir_catalyst>);
+mods.rockhounding_chemistry.MetalAlloyer.add(["dustAlumina", "dustSilica", "dustNickel", "dustMolybdenum"], [14, 70, 4, 12], <contenttweaker:nimohck_catalyst>);
+mods.rockhounding_chemistry.MetalAlloyer.add(["dustAlumina", "dustSilica", "dustNickel", "dustTungsten"], [12, 60, 5, 23], <contenttweaker:niwhck_catalyst>);
+mods.rockhounding_chemistry.MetalAlloyer.add(["dustAlumina", "dustSilica", "dustPlatinum"], [17, 82, 1], <contenttweaker:pthck_catalyst>);
+mods.rockhounding_chemistry.MetalAlloyer.add(["dustIron"], [100], <contenttweaker:fe_catalyst>);
+mods.rockhounding_chemistry.MetalAlloyer.add(["dustAlumina", "dustSilver"], [85, 15], <contenttweaker:ag_catalyst>);
+mods.rockhounding_chemistry.MetalAlloyer.add(["dustAlumina", "dustSilica"], [17, 83], <contenttweaker:zeolite_catalyst>);
+mods.rockhounding_chemistry.MetalAlloyer.add(["dustSilica", "dustVanadium"], [82, 8], <contenttweaker:vanadium_catalyst>);
+mods.rockhounding_chemistry.MetalAlloyer.add(["dustAlumina", "dustSilica", "dustCobalt", "dustMolybdenum"], [14, 70, 4, 12], <contenttweaker:comohck_catalyst>);
+mods.rockhounding_chemistry.MetalAlloyer.add(["dustAlumina", "dustSilica"], [30, 70], <contenttweaker:fcc_catalyst>);
+mods.rockhounding_chemistry.MetalAlloyer.add(["dustAlumina", "dustSilica", "dustLanthanum", "dustCerium"], [29, 68, 2, 1], <contenttweaker:advfcc_catalyst>);
