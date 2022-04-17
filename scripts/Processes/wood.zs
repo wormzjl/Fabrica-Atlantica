@@ -2,17 +2,23 @@
 
 //Fuel values
 furnace.setFuel(<ore:plankWood>, 100);
-furnace.setFuel(<ore:slabWood>, 25);
-furnace.setFuel(<ore:stickWood>, 25);
-furnace.setFuel(<ore:stairWood>, 75);
-furnace.setFuel(<ore:fenceWood>, 25);
-furnace.setFuel(<ore:fenceGateWood>, 100);
+furnace.setFuel(<ore:slabWood>, 0);
+furnace.setFuel(<ore:stickWood>, 0);
+furnace.setFuel(<ore:stairWood>, 0);
+furnace.setFuel(<ore:fenceWood>, 0);
+furnace.setFuel(<ore:fenceGateWood>, 0);
 furnace.setFuel(<ore:barkWood>, 25);
+furnace.setFuel(<ore:trapdoorWood>, 0);
+furnace.setFuel(<ore:buttonWood>, 0);
+furnace.setFuel(<ore:chestWood>, 0);
+furnace.setFuel(<ore:doorWood>, 0);
+furnace.setFuel(<ore:chestTrapped>, 0);
 
 furnace.setFuel(<minecraft:sign>, 25);
 furnace.setFuel(<minecraft:bowl>, 25);
 furnace.setFuel(<minecraft:torch>, 0);
 furnace.setFuel(<minecraft:paper>, 0);
+furnace.setFuel(<minecraft:wooden_pressure_plate>, 0);
 
 furnace.setFuel(<minecraft:boat>, 0);
 furnace.setFuel(<minecraft:spruce_boat>, 0);

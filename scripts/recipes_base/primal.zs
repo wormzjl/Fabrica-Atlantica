@@ -95,6 +95,9 @@ static removed as IItemStack[] = [
   <primal:sinuous_resin>
 ];
 
+recipes.remove(<primal:worktable_slab:*>);
+recipes.remove(<primal:worktable_shelf:*>);
+
 for item in removed {
   functions.removeItem(item);
 }

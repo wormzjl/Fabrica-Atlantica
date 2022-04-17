@@ -8,7 +8,12 @@ var excluded as IItemStack[] = [
   <railcraft:nugget:*>,
   <railcraft:metal:*>,
   <railcraft:dust:*>,
-  <railcraft:gear:*>
+  <railcraft:gear:*>,
+  <minecraft:stone:2>,
+  <minecraft:stone:4>,
+  <minecraft:stone:6>,
+  <minecraft:nether_brick>,
+  <minecraft:red_nether_brick>
 ];
 
 var recipestaged as IItemStack[] = [
