@@ -213,14 +213,14 @@ mods.immersivepetroleum.Distillation.addRecipe([<liquid:meg>*979,<liquid:steam>*
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:natural_gas_dry>*1473, <liquid:natural_gas_dry_cold>*1473);
 
-mods.pneumaticcraft.refinery.addRecipe(1030083, <liquid:natural_gas_dry_cold>*500, [<liquid:helium_crude>*2, <liquid:natural_gas_dehbot>*498]);
+mods.pneumaticcraft.refinery.addRecipe(1030083, <liquid:natural_gas_dry_cold>*500, [<liquid:natural_gas_dehbot>*498, <liquid:helium_crude>*2]);
 mmrecipecount = addgaspurifierrecipe2(GaspurifierPower, 2*GaspurifierTicktime, <liquid:helium_crude>, GaspurifierBatchsize, <liquid:helium>, 250*500/GaspurifierBatchsize, mmrecipecount, scaleeff);
 
-mods.pneumaticcraft.refinery.addRecipe(1630123, <liquid:natural_gas_dehbot>*500, [<liquid:methane>*460, <liquid:natural_gas_dembot>*40]);
+mods.pneumaticcraft.refinery.addRecipe(1630123, <liquid:natural_gas_dehbot>*500, [<liquid:natural_gas_dembot>*40, <liquid:methane>*460]);
 
-mods.pneumaticcraft.refinery.addRecipe(2180188, <liquid:natural_gas_dembot>*501, [<liquid:ethane>*326, <liquid:natural_gas_deebot>*175]);
+mods.pneumaticcraft.refinery.addRecipe(2180188, <liquid:natural_gas_dembot>*501, [<liquid:natural_gas_deebot>*175, <liquid:ethane>*326]);
 
-mods.pneumaticcraft.refinery.addRecipe(2680233, <liquid:natural_gas_deebot>*498, [<liquid:propane>*357, <liquid:butane>*141]);
+mods.pneumaticcraft.refinery.addRecipe(2680233, <liquid:natural_gas_deebot>*498, [<liquid:butane>*141, <liquid:propane>*357]);
 
 
 
@@ -1458,7 +1458,7 @@ mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:c1_smrproduct>, d
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:c1_syngas>*885, <liquid:c1_syngas_cold>*885);
 
-mods.pneumaticcraft.refinery.addRecipe(830040, <liquid:c1_syngas_cold>*51, [<liquid:hydrogen>*9, <liquid:carbon_monoxide>*42]);
+mods.pneumaticcraft.refinery.addRecipe(830040, <liquid:c1_syngas_cold>*51, [<liquid:carbon_monoxide>*42, <liquid:hydrogen>*9]);
 
 mmrecipecount = addbasicreactorrecipe2(RXTicktime, <modularmachinery:itemcatalyst:4>, 1, <liquid:c1_smrproduct_hot>, RXBatchsize, <liquid:c1_smrproduct_hts_hot>, RXBatchsize, mmrecipecount, scaleeff);
 
@@ -1501,7 +1501,7 @@ mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:c2_smrproduct>, d
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:c2_syngas>*981, <liquid:c2_syngas_cold>*981);
 
-mods.pneumaticcraft.refinery.addRecipe(830040, <liquid:c2_syngas_cold>*46, [<liquid:hydrogen>*7, <liquid:carbon_monoxide>*39]);
+mods.pneumaticcraft.refinery.addRecipe(830040, <liquid:c2_syngas_cold>*46, [<liquid:carbon_monoxide>*39, <liquid:hydrogen>*7]);
 
 mmrecipecount = addbasicreactorrecipe2(RXTicktime, <modularmachinery:itemcatalyst:4>, 1, <liquid:c2_smrproduct_hot>, RXBatchsize, <liquid:c2_smrproduct_hts_hot>, RXBatchsize, mmrecipecount, scaleeff);
 
@@ -1544,7 +1544,7 @@ mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:c3_smrproduct>, d
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:c3_syngas>*1019, <liquid:c3_syngas_cold>*1019);
 
-mods.pneumaticcraft.refinery.addRecipe(830040, <liquid:c3_syngas_cold>*49, [<liquid:hydrogen>*7, <liquid:carbon_monoxide>*42]);
+mods.pneumaticcraft.refinery.addRecipe(830040, <liquid:c3_syngas_cold>*49, [<liquid:carbon_monoxide>*42, <liquid:hydrogen>*7]);
 
 mmrecipecount = addbasicreactorrecipe2(RXTicktime, <modularmachinery:itemcatalyst:4>, 1, <liquid:c3_smrproduct_hot>, RXBatchsize, <liquid:c3_smrproduct_hts_hot>, RXBatchsize, mmrecipecount, scaleeff);
 
@@ -1587,7 +1587,7 @@ mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:c4_smrproduct>, d
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:c4_syngas>*1039, <liquid:c4_syngas_cold>*1039);
 
-mods.pneumaticcraft.refinery.addRecipe(830040, <liquid:c4_syngas_cold>*51, [<liquid:hydrogen>*7, <liquid:carbon_monoxide>*44]);
+mods.pneumaticcraft.refinery.addRecipe(830040, <liquid:c4_syngas_cold>*51, [<liquid:carbon_monoxide>*44, <liquid:hydrogen>*7]);
 
 mmrecipecount = addbasicreactorrecipe2(RXTicktime, <modularmachinery:itemcatalyst:4>, 1, <liquid:c4_smrproduct_hot>, RXBatchsize, <liquid:c4_smrproduct_hts_hot>, RXBatchsize, mmrecipecount, scaleeff);
 
@@ -1630,7 +1630,7 @@ mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:hdtgas_smrproduct
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:hdtgas_syngas>*949, <liquid:hdtgas_syngas_cold>*949);
 
-mods.pneumaticcraft.refinery.addRecipe(830040, <liquid:hdtgas_syngas_cold>*50, [<liquid:hydrogen>*8, <liquid:carbon_monoxide>*42]);
+mods.pneumaticcraft.refinery.addRecipe(830040, <liquid:hdtgas_syngas_cold>*50, [<liquid:carbon_monoxide>*42, <liquid:hydrogen>*8]);
 
 mmrecipecount = addbasicreactorrecipe2(RXTicktime, <modularmachinery:itemcatalyst:4>, 1, <liquid:hdtgas_smrproduct_hot>, RXBatchsize, <liquid:hdtgas_smrproduct_hts_hot>, RXBatchsize, mmrecipecount, scaleeff);
 
@@ -1673,7 +1673,7 @@ mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:natural_gas_smrpr
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:natural_gas_syngas>*894, <liquid:natural_gas_syngas_cold>*894);
 
-mods.pneumaticcraft.refinery.addRecipe(830040, <liquid:natural_gas_syngas_cold>*52, [<liquid:hydrogen>*9, <liquid:carbon_monoxide>*43]);
+mods.pneumaticcraft.refinery.addRecipe(830040, <liquid:natural_gas_syngas_cold>*52, [<liquid:carbon_monoxide>*43, <liquid:hydrogen>*9]);
 
 mmrecipecount = addbasicreactorrecipe2(RXTicktime, <modularmachinery:itemcatalyst:4>, 1, <liquid:natural_gas_smrproduct_hot>, RXBatchsize, <liquid:natural_gas_smrproduct_hts_hot>, RXBatchsize, mmrecipecount, scaleeff);
 
@@ -1716,7 +1716,7 @@ mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:naphtha_smrproduc
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:naphtha_syngas>*1086, <liquid:naphtha_syngas_cold>*1086);
 
-mods.pneumaticcraft.refinery.addRecipe(830040, <liquid:naphtha_syngas_cold>*47, [<liquid:hydrogen>*6, <liquid:carbon_monoxide>*41]);
+mods.pneumaticcraft.refinery.addRecipe(830040, <liquid:naphtha_syngas_cold>*47, [<liquid:carbon_monoxide>*41, <liquid:hydrogen>*6]);
 
 mmrecipecount = addbasicreactorrecipe2(RXTicktime, <modularmachinery:itemcatalyst:4>, 1, <liquid:naphtha_smrproduct_hot>, RXBatchsize, <liquid:naphtha_smrproduct_hts_hot>, RXBatchsize, mmrecipecount, scaleeff);
 
@@ -1763,7 +1763,7 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mea>, 4214*500/
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:coal_syngas>*2005, <liquid:coal_syngas_cold>*2005);
 
-mods.pneumaticcraft.refinery.addRecipe(830040, <liquid:coal_syngas_cold>*31, [<liquid:hydrogen>*1, <liquid:carbon_monoxide>*30]);
+mods.pneumaticcraft.refinery.addRecipe(830040, <liquid:coal_syngas_cold>*31, [<liquid:carbon_monoxide>*30, <liquid:hydrogen>*1]);
 
 mods.magneticraft.OilHeater.addRecipe(<liquid:coal_syngas>*heaterbatchsize, <liquid:coal_syngas_hot>*heaterbatchsize, 41*5000/heaterbatchsize, 1200);
 mods.magneticraft.OilHeater.addRecipe(<liquid:coal_syngas_warm>*heaterbatchsize, <liquid:coal_syngas_hot>*heaterbatchsize, 23*5000/heaterbatchsize, 1200);
@@ -1845,10 +1845,10 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:naoh_40>, 20*500/GLC
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:ethane_crackedgas_washed>*1590, <liquid:ethane_crackedgas_cold>*1590);
 
-mods.pneumaticcraft.refinery.addRecipe(1630103, <liquid:ethane_crackedgas_cold>*500, [<liquid:hydrogen>*30, <liquid:methane>*32, <liquid:ethane_cracked_dembot>*438]);
-mods.pneumaticcraft.refinery.addRecipe(2180168, <liquid:ethane_cracked_dembot>*500, [<liquid:ethene>*441, <liquid:ethane>*11, <liquid:ethane_cracked_deebot>*48]);
-mods.pneumaticcraft.refinery.addRecipe(2680223, <liquid:ethane_cracked_deebot>*500, [<liquid:propene>*166, <liquid:propane>*18, <liquid:ethane_cracked_depbot>*316]);
-mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:ethane_cracked_depbot>*500, [<liquid:butadiene>*169, <liquid:butane>*18, <liquid:pygas>*313]);
+mods.pneumaticcraft.refinery.addRecipe(1630103, <liquid:ethane_crackedgas_cold>*500, [<liquid:ethane_cracked_dembot>*438,  <liquid:methane>*32, <liquid:hydrogen>*30]);
+mods.pneumaticcraft.refinery.addRecipe(2180168, <liquid:ethane_cracked_dembot>*500, [<liquid:ethane_cracked_deebot>*48, <liquid:ethane>*11, <liquid:ethene>*441]);
+mods.pneumaticcraft.refinery.addRecipe(2680223, <liquid:ethane_cracked_deebot>*500, [<liquid:ethane_cracked_depbot>*316, <liquid:propane>*18, <liquid:propene>*166]);
+mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:ethane_cracked_depbot>*500, [<liquid:pygas>*313, <liquid:butane>*18, <liquid:butadiene>*169]);
 
 
 //C3 steam cracker
@@ -1873,10 +1873,10 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:naoh_40>, 20*500/GLC
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:propane_crackedgas_washed>*1941, <liquid:propane_crackedgas_cold>*1941);
 
-mods.pneumaticcraft.refinery.addRecipe(1630103, <liquid:propane_crackedgas_cold>*500, [<liquid:hydrogen>*7, <liquid:methane>*131, <liquid:propane_cracked_dembot>*362]);
-mods.pneumaticcraft.refinery.addRecipe(2180168, <liquid:propane_cracked_dembot>*500, [<liquid:ethene>*277, <liquid:ethane>*15, <liquid:propane_cracked_deebot>*208]);
-mods.pneumaticcraft.refinery.addRecipe(2680223, <liquid:propane_cracked_deebot>*500, [<liquid:propene>*269, <liquid:propane>*41, <liquid:propane_cracked_depbot>*190]);
-mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:propane_cracked_depbot>*500, [<liquid:butadiene>*161, <liquid:butane>*17, <liquid:pygas>*322]);
+mods.pneumaticcraft.refinery.addRecipe(1630103, <liquid:propane_crackedgas_cold>*500, [<liquid:propane_cracked_dembot>*362, <liquid:methane>*131, <liquid:hydrogen>*7]);
+mods.pneumaticcraft.refinery.addRecipe(2180168, <liquid:propane_cracked_dembot>*500, [<liquid:propane_cracked_deebot>*208, <liquid:ethane>*15, <liquid:ethene>*277]);
+mods.pneumaticcraft.refinery.addRecipe(2680223, <liquid:propane_cracked_deebot>*500, [<liquid:propane_cracked_depbot>*190, <liquid:propane>*41, <liquid:propene>*269]);
+mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:propane_cracked_depbot>*500, [<liquid:pygas>*322, <liquid:butane>*17, <liquid:butadiene>*161]);
 
 
 //C4 steam cracker
@@ -1903,10 +1903,10 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:naoh_40>, 20*500/GLC
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:butane_crackedgas_washed>*2034, <liquid:butane_crackedgas_cold>*2034);
 
-mods.pneumaticcraft.refinery.addRecipe(1630103, <liquid:butane_crackedgas_cold>*500, [<liquid:hydrogen>*3, <liquid:methane>*124, <liquid:butane_cracked_dembot>*373]);
-mods.pneumaticcraft.refinery.addRecipe(2180168, <liquid:butane_cracked_dembot>*500, [<liquid:ethene>*265, <liquid:ethane>*28, <liquid:butane_cracked_deebot>*207]);
-mods.pneumaticcraft.refinery.addRecipe(2680223, <liquid:butane_cracked_deebot>*500, [<liquid:propene>*272, <liquid:propane>*28, <liquid:butane_cracked_depbot>*200]);
-mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:butane_cracked_depbot>*500, [<liquid:butadiene>*135, <liquid:butane>*37, <liquid:pygas>*328]);
+mods.pneumaticcraft.refinery.addRecipe(1630103, <liquid:butane_crackedgas_cold>*500, [<liquid:butane_cracked_dembot>*373, <liquid:methane>*124, <liquid:hydrogen>*3]);
+mods.pneumaticcraft.refinery.addRecipe(2180168, <liquid:butane_cracked_dembot>*500, [<liquid:butane_cracked_deebot>*207, <liquid:ethane>*28, <liquid:ethene>*265]);
+mods.pneumaticcraft.refinery.addRecipe(2680223, <liquid:butane_cracked_deebot>*500, [<liquid:butane_cracked_depbot>*200, <liquid:propane>*28, <liquid:propene>*272]);
+mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:butane_cracked_depbot>*500, [<liquid:pygas>*328, <liquid:butane>*37, <liquid:butadiene>*135]);
 
 
 //Naphtha Steam cracker
@@ -1939,10 +1939,10 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:naoh_40>, 20*500/GLC
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:naphtha_crackedgas_washed>*2136, <liquid:naphtha_crackedgas_cold>*2136);
 
-mods.pneumaticcraft.refinery.addRecipe(1630103, <liquid:naphtha_crackedgas_cold>*500, [<liquid:hydrogen>*2, <liquid:methane>*87, <liquid:naphtha_cracked_dembot>*411]);
-mods.pneumaticcraft.refinery.addRecipe(2180168, <liquid:naphtha_cracked_dembot>*500, [<liquid:ethene>*185, <liquid:ethane>*25, <liquid:naphtha_cracked_deebot>*290]);
-mods.pneumaticcraft.refinery.addRecipe(2680223, <liquid:naphtha_cracked_deebot>*500, [<liquid:propene>*206, <liquid:propane>*6, <liquid:naphtha_cracked_depbot>*288]);
-mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:naphtha_cracked_depbot>*500, [<liquid:butadiene>*124, <liquid:butane>*31, <liquid:pygas>*345]);
+mods.pneumaticcraft.refinery.addRecipe(1630103, <liquid:naphtha_crackedgas_cold>*500, [<liquid:naphtha_cracked_dembot>*411, <liquid:methane>*87, <liquid:hydrogen>*2]);
+mods.pneumaticcraft.refinery.addRecipe(2180168, <liquid:naphtha_cracked_dembot>*500, [<liquid:naphtha_cracked_deebot>*290, <liquid:ethane>*25, <liquid:ethene>*185]);
+mods.pneumaticcraft.refinery.addRecipe(2680223, <liquid:naphtha_cracked_deebot>*500, [<liquid:naphtha_cracked_depbot>*288, <liquid:propane>*6, <liquid:propene>*206]);
+mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:naphtha_cracked_depbot>*500, [<liquid:pygas>*345, <liquid:butane>*31, <liquid:butadiene>*124]);
 
 
 //Steam cracker aromatics
@@ -1968,10 +1968,10 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mdea>, 2663*500
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:vrcoker_gas>*2079, <liquid:vrcoker_gas_cold>*2079);
 
-mods.pneumaticcraft.refinery.addRecipe(1630103, <liquid:vrcoker_gas_cold>*503, [<liquid:methane>*152, <liquid:vrcoker_gas_dembot>*351]);
-mods.pneumaticcraft.refinery.addRecipe(2180168, <liquid:vrcoker_gas_dembot>*500, [<liquid:ethene>*61, <liquid:ethane>*131, <liquid:vrcoker_gas_deebot>*308]);
-mods.pneumaticcraft.refinery.addRecipe(2680223, <liquid:vrcoker_gas_deebot>*500, [<liquid:propene>*119, <liquid:propane>*135, <liquid:vrcoker_gas_depbot>*237]);
-mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:vrcoker_gas_depbot>*504, [<liquid:butadiene>*243, <liquid:butane>*261]);
+mods.pneumaticcraft.refinery.addRecipe(1630103, <liquid:vrcoker_gas_cold>*503, [<liquid:vrcoker_gas_dembot>*351, <liquid:methane>*152]);
+mods.pneumaticcraft.refinery.addRecipe(2180168, <liquid:vrcoker_gas_dembot>*500, [<liquid:vrcoker_gas_deebot>*308, <liquid:ethane>*131, <liquid:ethene>*61]);
+mods.pneumaticcraft.refinery.addRecipe(2680223, <liquid:vrcoker_gas_deebot>*500, [<liquid:vrcoker_gas_depbot>*237, <liquid:propane>*135, <liquid:propene>*119]);
+mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:vrcoker_gas_depbot>*504, [<liquid:butane>*261, <liquid:butadiene>*243]);
 
 
 //FCC - VGO basic cat
@@ -1991,10 +1991,10 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mdea>, 109*500/
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:vgo_basicfcc_sweetgas>*2229, <liquid:vgo_basicfcc_sweetgas_cold>*2229);
 
-mods.pneumaticcraft.refinery.addRecipe(1630103, <liquid:vgo_basicfcc_sweetgas_cold>*500, [<liquid:hydrogen>*7, <liquid:methane>*59, <liquid:vgo_basicfcc_dembot>*434]);
-mods.pneumaticcraft.refinery.addRecipe(2180168, <liquid:vgo_basicfcc_dembot>*500, [<liquid:ethene>*40, <liquid:ethane>*6, <liquid:vgo_basicfcc_deebot>*454]);
-mods.pneumaticcraft.refinery.addRecipe(2680223, <liquid:vgo_basicfcc_deebot>*500, [<liquid:propene>*144, <liquid:propane>*15, <liquid:vgo_basicfcc_depbot>*341]);
-mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:vgo_basicfcc_depbot>*500, [<liquid:butadiene>*441, <liquid:butane>*59]);
+mods.pneumaticcraft.refinery.addRecipe(1630103, <liquid:vgo_basicfcc_sweetgas_cold>*500, [<liquid:vgo_basicfcc_dembot>*434, <liquid:methane>*59, <liquid:hydrogen>*7]);
+mods.pneumaticcraft.refinery.addRecipe(2180168, <liquid:vgo_basicfcc_dembot>*500, [<liquid:vgo_basicfcc_deebot>*454, <liquid:ethane>*6, <liquid:ethene>*40]);
+mods.pneumaticcraft.refinery.addRecipe(2680223, <liquid:vgo_basicfcc_deebot>*500, [<liquid:vgo_basicfcc_depbot>*341, <liquid:propane>*15, <liquid:propene>*144]);
+mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:vgo_basicfcc_depbot>*500, [<liquid:butane>*59, <liquid:butadiene>*441]);
 
 
 //FCC - VGO adv cat
@@ -2013,10 +2013,10 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mdea>, 47*500/G
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:vgo_advfcc_sweetgas>*2177, <liquid:vgo_advfcc_sweetgas_cold>*2177);
 
-mods.pneumaticcraft.refinery.addRecipe(1630103, <liquid:vgo_advfcc_sweetgas_cold>*500, [<liquid:hydrogen>*2, <liquid:methane>*86, <liquid:vgo_advfcc_dembot>*412]);
-mods.pneumaticcraft.refinery.addRecipe(2180168, <liquid:vgo_advfcc_dembot>*500, [<liquid:ethene>*42, <liquid:ethane>*6, <liquid:vgo_advfcc_deebot>*452]);
-mods.pneumaticcraft.refinery.addRecipe(2680223, <liquid:vgo_advfcc_deebot>*500, [<liquid:propene>*250, <liquid:propane>*26, <liquid:vgo_advfcc_depbot>*234]);
-mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:vgo_advfcc_depbot>*500, [<liquid:butadiene>*441, <liquid:butane>*59]);
+mods.pneumaticcraft.refinery.addRecipe(1630103, <liquid:vgo_advfcc_sweetgas_cold>*500, [<liquid:vgo_advfcc_dembot>*412, <liquid:methane>*86, <liquid:hydrogen>*2]);
+mods.pneumaticcraft.refinery.addRecipe(2180168, <liquid:vgo_advfcc_dembot>*500, [<liquid:vgo_advfcc_deebot>*452, <liquid:ethane>*6, <liquid:ethene>*42]);
+mods.pneumaticcraft.refinery.addRecipe(2680223, <liquid:vgo_advfcc_deebot>*500, [<liquid:vgo_advfcc_depbot>*234, <liquid:propane>*26, <liquid:propene>*250]);
+mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:vgo_advfcc_depbot>*500, [<liquid:butane>*59, <liquid:butadiene>*441]);
 
 
 //FCC - GO basic cat
@@ -2036,10 +2036,10 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime*2, <liquid:lean_mdea>, 50*500
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:go_basicfcc_sweetgas>*2229, <liquid:go_basicfcc_sweetgas_cold>*2229);
 
-mods.pneumaticcraft.refinery.addRecipe(1630103, <liquid:go_basicfcc_sweetgas_cold>*500, [<liquid:hydrogen>*7, <liquid:methane>*59, <liquid:go_basicfcc_dembot>*434]);
-mods.pneumaticcraft.refinery.addRecipe(2180168, <liquid:go_basicfcc_dembot>*500, [<liquid:ethene>*40, <liquid:ethane>*6, <liquid:go_basicfcc_deebot>*454]);
-mods.pneumaticcraft.refinery.addRecipe(2680223, <liquid:go_basicfcc_deebot>*500, [<liquid:propene>*144, <liquid:propane>*15, <liquid:go_basicfcc_depbot>*341]);
-mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:go_basicfcc_depbot>*500, [<liquid:butadiene>*441, <liquid:butane>*59]);
+mods.pneumaticcraft.refinery.addRecipe(1630103, <liquid:go_basicfcc_sweetgas_cold>*500, [<liquid:go_basicfcc_dembot>*434, <liquid:methane>*59,<liquid:hydrogen>*7 ]);
+mods.pneumaticcraft.refinery.addRecipe(2180168, <liquid:go_basicfcc_dembot>*500, [<liquid:go_basicfcc_deebot>*454, <liquid:ethane>*6, <liquid:ethene>*40]);
+mods.pneumaticcraft.refinery.addRecipe(2680223, <liquid:go_basicfcc_deebot>*500, [<liquid:go_basicfcc_depbot>*341, <liquid:propane>*15, <liquid:propene>*144]);
+mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:go_basicfcc_depbot>*500, [<liquid:butane>*59, <liquid:butadiene>*441]);
 
 
 //FCC - GO adv cat
@@ -2058,10 +2058,10 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime*2, <liquid:lean_mdea>, 19*500
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:go_advfcc_sweetgas>*2177, <liquid:go_advfcc_sweetgas_cold>*2177);
 
-mods.pneumaticcraft.refinery.addRecipe(1630103, <liquid:go_advfcc_sweetgas_cold>*500, [<liquid:hydrogen>*2, <liquid:methane>*86, <liquid:go_advfcc_dembot>*412]);
-mods.pneumaticcraft.refinery.addRecipe(2180168, <liquid:go_advfcc_dembot>*500, [<liquid:ethene>*42, <liquid:ethane>*6, <liquid:go_advfcc_deebot>*452]);
-mods.pneumaticcraft.refinery.addRecipe(2680223, <liquid:go_advfcc_deebot>*500, [<liquid:propene>*250, <liquid:propane>*26, <liquid:go_advfcc_depbot>*224]);
-mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:go_advfcc_depbot>*500, [<liquid:butadiene>*441, <liquid:butane>*59]);
+mods.pneumaticcraft.refinery.addRecipe(1630103, <liquid:go_advfcc_sweetgas_cold>*500, [<liquid:go_advfcc_dembot>*412, <liquid:methane>*86, <liquid:hydrogen>*2]);
+mods.pneumaticcraft.refinery.addRecipe(2180168, <liquid:go_advfcc_dembot>*500, [<liquid:go_advfcc_deebot>*452, <liquid:ethane>*6, <liquid:ethene>*42]);
+mods.pneumaticcraft.refinery.addRecipe(2680223, <liquid:go_advfcc_deebot>*500, [<liquid:go_advfcc_depbot>*224, <liquid:propane>*26, <liquid:propene>*250]);
+mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:go_advfcc_depbot>*500, [<liquid:butane>*59, <liquid:butadiene>*441]);
 
 
 //FCC - VR
@@ -2081,10 +2081,10 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:lean_mdea>, 317*500/
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:vr_basicfcc_sweetgas>*2229, <liquid:vr_basicfcc_sweetgas_cold>*2229);
 
-mods.pneumaticcraft.refinery.addRecipe(1630103, <liquid:vr_basicfcc_sweetgas_cold>*500, [<liquid:hydrogen>*4, <liquid:methane>*59, <liquid:vr_basicfcc_dembot>*437]);
-mods.pneumaticcraft.refinery.addRecipe(2180168, <liquid:vr_basicfcc_dembot>*500, [<liquid:ethene>*40, <liquid:ethane>*6, <liquid:vr_basicfcc_deebot>*454]);
-mods.pneumaticcraft.refinery.addRecipe(2680223, <liquid:vr_basicfcc_deebot>*500, [<liquid:propene>*144, <liquid:propane>*15, <liquid:vr_basicfcc_depbot>*341]);
-mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:vr_basicfcc_depbot>*500, [<liquid:butadiene>*441, <liquid:butane>*59]);
+mods.pneumaticcraft.refinery.addRecipe(1630103, <liquid:vr_basicfcc_sweetgas_cold>*500, [<liquid:vr_basicfcc_dembot>*437, <liquid:methane>*59, <liquid:hydrogen>*4]);
+mods.pneumaticcraft.refinery.addRecipe(2180168, <liquid:vr_basicfcc_dembot>*500, [<liquid:vr_basicfcc_deebot>*454, <liquid:ethane>*6, <liquid:ethene>*40]);
+mods.pneumaticcraft.refinery.addRecipe(2680223, <liquid:vr_basicfcc_deebot>*500, [<liquid:vr_basicfcc_depbot>*341, <liquid:propane>*15, <liquid:propene>*144]);
+mods.pneumaticcraft.refinery.addRecipe(3330303, <liquid:vr_basicfcc_depbot>*500, [<liquid:butane>*59, <liquid:butadiene>*441]);
 
 
 //FCC regen
@@ -2105,7 +2105,7 @@ mods.rockhounding_chemistry.HeatExchanger.remove(<liquid:refined_air>*1000);
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:compressed_air>*4320, <liquid:cooled_air>*4320);
 
-mods.pneumaticcraft.refinery.addRecipe(900078, <liquid:cooled_air>*500, [<liquid:oxygen>*105, <liquid:nitrogen>*395]);
+mods.pneumaticcraft.refinery.addRecipe(900078, <liquid:cooled_air>*500, [<liquid:nitrogen>*395, <liquid:oxygen>*105]);
 
 //Ammonia process
 mods.nuclearcraft.SaltMixer.addRecipe(<liquid:nitrogen>*3000, <liquid:hydrogen>*643, <liquid:h2n2_mix>*3643);

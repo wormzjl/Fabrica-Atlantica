@@ -25,9 +25,10 @@ for liquid in MgCFuelRemoved {
   mods.magneticraft.FluidFuel.removeFuel(liquid);
 }
 
-//mods.magneticraft.FluidFuel.addFuel(<liquid:methane>, 24592, 100.0);
-//mods.magneticraft.FluidFuel.addFuel(<liquid:ethanol>, 46692, 25.0);
-//mods.magneticraft.FluidFuel.addFuel(<liquid:kerosene>, 28264, 150.0);
+mods.magneticraft.FluidFuel.addFuel(<liquid:fuel_gas>, 42084, 50.0);
+mods.magneticraft.FluidFuel.addFuel(<liquid:gasoline>, 36456, 50.0);
+mods.magneticraft.FluidFuel.addFuel(<liquid:diesel>, 35784, 50.0);
+mods.magneticraft.FluidFuel.addFuel(<liquid:fuel_oil>, 32760, 50.0);
 
 //IT
 // mods.immersivetechnology.Boiler.addRecipe(ILiquidStack output, ILiquidStack input, int time);

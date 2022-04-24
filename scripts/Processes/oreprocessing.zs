@@ -16,6 +16,8 @@ mods.primal.Cauldron.addRecipe("Sulfuric_acid", 5, <liquid:water> * 120, <liquid
 mods.primal.Cauldron.addRecipe("Scrap_electronics", 15, <liquid:sulfuric_acid> * 30, <liquid:waste> * 30, [<contenttweaker:scrap1>], [<materialpart:gold:scrapmetal>, <minecraft:redstone>]);
 
 recipes.addShapeless(<minecraft:iron_ingot>,[<forgecraft:ironingotball:*>]);
+recipes.addShapeless(<railcraft:ingot:5>,[<forgecraft:bronzeingotball:*>]);
+
 
 mods.forgecraft.NBTCrucible.removeAll();
 
