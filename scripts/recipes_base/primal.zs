@@ -97,6 +97,7 @@ static removed as IItemStack[] = [
 
 recipes.remove(<primal:worktable_slab:*>);
 recipes.remove(<primal:worktable_shelf:*>);
+recipes.remove(<primal:logs_stacked:*>);
 
 for item in removed {
   functions.removeItem(item);

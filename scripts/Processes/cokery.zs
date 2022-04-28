@@ -17,7 +17,7 @@ recipes.remove(<primal:logs_split_yew>);
 recipes.remove(<primal:logs_split_ironwood>);
 
 recipes.remove(<pyrotech:log_pile>);
-recipes.addShapeless(<pyrotech:log_pile>, [<ore:logSplit>, <ore:logSplit>, <ore:logSplit>, <ore:logSplit>, <ore:logSplit>, <ore:logSplit>, <ore:logSplit>, <ore:logSplit>, <ore:logSplit>]);
+recipes.addShaped(<pyrotech:log_pile>, [[<ore:logSplit>, <ore:logSplit>, <ore:logSplit>], [<ore:logSplit>, <ore:logSplit>, <ore:logSplit>], [<ore:logSplit>, <ore:logSplit>, <ore:logSplit>]]);
 
 mods.pyrotech.SoakingPot.removeRecipes(<minecraft:coal_block>);
 mods.pyrotech.PitKiln.removeRecipes(<pyrotech:material:15>);
