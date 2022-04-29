@@ -93,39 +93,39 @@ driedrawrubber.maxStackSize = 16;
 driedrawrubber.register();
 
 var scrap1 = VanillaFactory.createItem("scrap1");
-scrap1.maxStackSize = 4;
+scrap1.maxStackSize = 8;
 scrap1.register();
 
 var scrap2 = VanillaFactory.createItem("scrap2");
-scrap2.maxStackSize = 4;
+scrap2.maxStackSize = 8;
 scrap2.register();
 
 var scrap3 = VanillaFactory.createItem("scrap3");
-scrap3.maxStackSize = 4;
+scrap3.maxStackSize = 8;
 scrap3.register();
 
 var scrap4 = VanillaFactory.createItem("scrap4");
-scrap4.maxStackSize = 4;
+scrap4.maxStackSize = 8;
 scrap4.register();
 
 var scrap5 = VanillaFactory.createItem("scrap5");
-scrap5.maxStackSize = 4;
+scrap5.maxStackSize = 8;
 scrap5.register();
 
 var scrap6 = VanillaFactory.createItem("scrap6");
-scrap6.maxStackSize = 4;
+scrap6.maxStackSize = 8;
 scrap6.register();
 
 var scrap7 = VanillaFactory.createItem("scrap7");
-scrap7.maxStackSize = 4;
+scrap7.maxStackSize = 8;
 scrap7.register();
 
 var scrap8 = VanillaFactory.createItem("scrap8");
-scrap8.maxStackSize = 4;
+scrap8.maxStackSize = 8;
 scrap8.register();
 
 var scrap9 = VanillaFactory.createItem("scrap9");
-scrap9.maxStackSize = 4;
+scrap9.maxStackSize = 8;
 scrap9.register();
 
 var solarcell = VanillaFactory.createItem("solarcell");

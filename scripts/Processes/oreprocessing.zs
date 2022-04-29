@@ -12,8 +12,8 @@ mods.pyrotech.GraniteAnvil.addRecipe("saltpeter", <betterwithmods:material:26>, 
 mods.primal.Smelter.addRecipe("Scrap_copper", 10, [<contenttweaker:scrap3>], [<materialpart:copper:scrapmetal>]);
 mods.primal.Cauldron.addRecipe("Used_battery", 5, <liquid:water> * 500, [<contenttweaker:scrap4>], [<materialpart:lead:scrapmetal>, <minecraft:redstone>]);
 mods.primal.Cauldron.addRecipe("Paint_cans", 5, <liquid:water> * 500, [<contenttweaker:scrap5>], [<materialpart:tin:scrapmetal>, <minecraft:dye:4>]);
-mods.primal.Cauldron.addRecipe("Sulfuric_acid", 5, <liquid:water> * 120, <liquid:sulfuric_acid> * 120, [<primal:corypha_stalk:1>, <betterwithmods:material:26>], [<forestry:ash>]);
-mods.primal.Cauldron.addRecipe("Scrap_electronics", 15, <liquid:sulfuric_acid> * 30, <liquid:waste> * 30, [<contenttweaker:scrap1>], [<materialpart:gold:scrapmetal>, <minecraft:redstone>]);
+mods.primal.Cauldron.addRecipe("Sulfuric_acid", 5, <liquid:water> * 1000, <liquid:sulfuric_acid> * 1000, [<primal:corypha_stalk:1>*4, <betterwithmods:material:26>*4], [<forestry:ash>]);
+mods.primal.Cauldron.addRecipe("Scrap_electronics", 15, <liquid:sulfuric_acid> * 1000, <liquid:waste> * 1000, [<contenttweaker:scrap1>*16], [<materialpart:gold:scrapmetal>*16, <minecraft:redstone>*16]);
 
 recipes.addShapeless(<minecraft:iron_ingot>,[<forgecraft:ironingotball:*>]);
 recipes.addShapeless(<railcraft:ingot:5>,[<forgecraft:bronzeingotball:*>]);
