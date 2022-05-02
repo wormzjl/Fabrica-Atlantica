@@ -123,7 +123,7 @@ titanium.registerPart("nugget");
 
 
 //Scraps
-var scraps_list = [iron, gold, copper, tin, lead, silver] as Material[];
+var scraps_list = [iron, gold, copper, tin, lead, silver, zinc] as Material[];
 for i, scrap in scraps_list {
     scrap.registerPart("scrapmetal");
 }

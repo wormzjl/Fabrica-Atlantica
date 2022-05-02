@@ -21,15 +21,6 @@ mods.betterwithmods.Cauldron.remove([<betterwithmods:material:1>]);
 mods.betterwithmods.Cauldron.addStoked([<betterwithmods:material:16>,<ore:dustCarbon>],[<betterwithmods:material:1>]);
 furnace.setFuel(<betterwithmods:material:1>, 1600);
 
-mods.betterwithmods.Mill.addRecipe([<contenttweaker:scrap2>],[<materialpart:iron:scrapmetal>]);
-mods.betterwithmods.Mill.addRecipe([<contenttweaker:scrap6>],[<materialpart:iron:scrapmetal>]);
-mods.betterwithmods.Mill.addRecipe([<contenttweaker:scrap7>],[<materialpart:iron:scrapmetal>]);
-mods.betterwithmods.Mill.addRecipe([<ic2:crafting:10>],[<materialpart:tin:scrapmetal>]);
-mods.betterwithmods.Mill.addRecipe([<contenttweaker:scrap9>],[<materialpart:silver:scrapmetal>]);
-mods.betterwithmods.Mill.addRecipe([<contenttweaker:scrap4>],[<materialpart:lead:scrapmetal>,<minecraft:redstone>]);
-mods.betterwithmods.Mill.addRecipe([<contenttweaker:scrap3>],[<materialpart:copper:scrapmetal>]);
-mods.betterwithmods.Mill.addRecipe([<contenttweaker:scrap5>],[<materialpart:tin:scrapmetal>,<minecraft:dye:4>]);
-
 mods.betterwithmods.Mill.addRecipe([<primal:salt_dust_fire>],[<betterwithmods:material:26>]);
 
 //Prima quern compa

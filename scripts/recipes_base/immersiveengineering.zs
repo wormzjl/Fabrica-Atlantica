@@ -105,9 +105,11 @@ recipes.addShaped(<industrialwires:panel_component:7>*4, [[<ore:stickSteel>, <mi
 recipes.addShapeless(<industrialwires:panel_component:8>*4, [<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <immersiveengineering:tool:2>]);
 recipes.addShapeless(<industrialwires:panel_component:9>*4, [<ore:dustRedstone>, <ore:dustGlowstone>, <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}), <ore:electronTube>]);
 
-//Charcoal nerf
+//Charcoal
 mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:coal:1>);
 mods.immersiveengineering.CokeOven.addRecipe(<minecraft:coal:1>, 200, <ore:logWood>, 1800);
+
+mods.immersiveengineering.Crusher.addRecipe(<betterwithmods:material:37>, <minecraft:coal:1>, 100);
 
 //Machine
 var CrusherRemoved as IItemStack[] = [
