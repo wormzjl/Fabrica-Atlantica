@@ -57,31 +57,8 @@ thorium_slurry.register();
 
 
 //Petrochem Gas
-
-var natural_gas_humid = VanillaFactory.createFluid("natural_gas_humid", Color.fromHex("E7F7CA"));
-natural_gas_humid.gaseous = true;
-natural_gas_humid.register();
-
-var natural_gas_sour_humid = VanillaFactory.createFluid("natural_gas_sour_humid", Color.fromHex("E7F7CA"));
-natural_gas_sour_humid.gaseous = true;
-natural_gas_sour_humid.register();
-
-var natural_gas_dried = VanillaFactory.createFluid("natural_gas_dried", Color.fromHex("E7F7CA"));
-natural_gas_dried.gaseous = true;
-natural_gas_dried.register();
-
-var natural_gas_sour_dried = VanillaFactory.createFluid("natural_gas_sour_dried", Color.fromHex("E7F7CA"));
-natural_gas_sour_dried.gaseous = true;
-natural_gas_sour_dried.register();
-
 var ngl = VanillaFactory.createFluid("ngl", Color.fromHex("98FB98"));
 ngl.register();
-
-var gasoline_bio = VanillaFactory.createFluid("gasoline_bio", Color.fromHex("E69900"));
-gasoline_bio.register();
-
-var diesel_bio = VanillaFactory.createFluid("diesel_bio", Color.fromHex("86592D"));
-diesel_bio.register();
 
 var gasoline_adv_bio = VanillaFactory.createFluid("gasoline_adv_bio", Color.fromHex("FFAA00"));
 gasoline_adv_bio.register();

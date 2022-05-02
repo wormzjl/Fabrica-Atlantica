@@ -45,7 +45,9 @@ val fluids_ambient_misc = {
   liquidrubber : "7A7A7A",
   rubber : "4D4D4D",
   formicacid : "00FFFF",
-  epoxyresin : "2AB4D7"
+  epoxyresin : "2AB4D7",
+  gasoline_bio : "E69900",
+  diesel_bio : "86592D"
 } as string[string];
 
 val fluids_ambient = {

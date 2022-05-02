@@ -91,6 +91,13 @@ mods.pyrotech.DryingRack.addRecipe("crucible", <forgecraft:itemnbtcrucible>, <fo
 //Replace PT standard drying rack with primal one (rotting effect is great)
 mods.pyrotech.DryingRack.removeAllRecipes();
 
+//Solve shard conflict
+recipes.replaceAllOccurences(<pyrotech:material:19>, <minecraft:iron_nugget>);
+recipes.replaceAllOccurences(<pyrotech:material:34>, <minecraft:gold_nugget>);
+mods.pyrotech.GraniteAnvil.removeRecipes(<pyrotech:material:19>);
+mods.pyrotech.GraniteAnvil.removeRecipes(<pyrotech:material:34>);
+
+
 //Recipes
 recipes.replaceAllOccurences(<ore:fiberPlant>, <pyrotech:material:12>);
 recipes.replaceAllOccurences(<ore:cordageGeneral>, <pyrotech:material:14>);
