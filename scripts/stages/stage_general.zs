@@ -32,3 +32,31 @@ mods.ItemStages.stageModItems("rsc", "projectred-fabrication");
 mods.ItemStages.stageModItems("rsc", "projectred-illumination");
 mods.ItemStages.stageModItems("rsc", "projectred-integration");
 mods.ItemStages.stageModItems("rsc", "projectred-transmission");
+
+//RFT
+var teleporter as IItemStack[] = [
+  <rftools:matter_booster>,
+  <rftools:matter_transmitter>,
+  <rftools:matter_receiver>,
+  <rftools:dialing_device>,
+  <rftools:destination_analyzer>,
+  <rftools:teleport_probe>
+];
+
+for item in teleporter {
+  mods.ItemStages.addItemStage("teleporter", item);
+}
+
+mods.ItemStages.addItemStage("basictech", <rftools:coalgenerator>);
+
+var rftexcluded as IItemStack[] = [
+  <rftools:coalgenerator>
+];
+
+rftexcluded = functions.MergeArray(rftexcluded, teleporter);
+
+for item in loadedMods["rftools"].items {
+  if !(functions.inArray(item, rftexcluded)) {
+    mods.ItemStages.addItemStage("rftools", item);
+  }
+}
