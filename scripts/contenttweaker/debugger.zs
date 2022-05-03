@@ -44,6 +44,8 @@ static allStages as string[] = [
   "boiler_rc",
   "boiler_ir",
   "rsc",
+  "teleporter",
+  "rftools",
   "bedrock_miner",
   "tgmetalpress",
   "macerator",

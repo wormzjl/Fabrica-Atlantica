@@ -30,6 +30,9 @@ mods.magneticraft.FluidFuel.addFuel(<liquid:gasoline>, 36456, 50.0);
 mods.magneticraft.FluidFuel.addFuel(<liquid:diesel>, 35784, 50.0);
 mods.magneticraft.FluidFuel.addFuel(<liquid:fuel_oil>, 32760, 50.0);
 
+//Misc fuel values
+furnace.setFuel(<contenttweaker:scrap8>, 1200);
+
 //IT
 // mods.immersivetechnology.Boiler.addRecipe(ILiquidStack output, ILiquidStack input, int time);
 // mods.immersivetechnology.Boiler.addFuel(ILiquidStack input, int time, double heat);

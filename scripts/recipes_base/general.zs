@@ -22,8 +22,10 @@ for item in removed {
 mods.jei.JEI.hide(<appliedenergistics2:facade:*>);
 mods.jei.JEI.hide(<microblockcbe:microblock:*>);
 
-//Fuel values
-furnace.setFuel(<contenttweaker:scrap8>, 1200);
+
+
+//Chest
+recipes.replaceAllOccurences(<ore:shulkerBox>, <minecraft:chest>);
 
 //Compact machines
 mods.jei.JEI.hide(<compactmachines3:machine>);
