@@ -109,6 +109,12 @@ recipes.addShaped(<autoverse:crafter>, [[<minecraft:redstone>, <minecraft:piston
 
 //RSC
 
-//Architect
-recipes.remove(<architect:provider_item>);
-recipes.remove(<architect:provider_fluid>);
+//Integrated dynamics
+mods.forestry.Squeezer.addRecipe(<liquid:menrilresin>*1000, [<integrateddynamics:menril_log>], 250);
+mods.forestry.Squeezer.addRecipe(<liquid:liquidchorus>*250, [<minecraft:chorus_fruit_popped>], 250);
+
+recipes.remove(<integrateddynamics:cable>);
+recipes.addShaped(<integrateddynamics:cable>*6, [[<integrateddynamics:crystalized_menril_chunk>, <contenttweaker:aluminum_rod>, <integrateddynamics:crystalized_menril_chunk>], [<integrateddynamics:crystalized_menril_chunk>, <ore:dustRedstone>, <integrateddynamics:crystalized_menril_chunk>], [<integrateddynamics:crystalized_menril_chunk>, <contenttweaker:aluminum_rod>, <integrateddynamics:crystalized_menril_chunk>]]);
+
+recipes.removeByRecipeName("integrateddynamics:variable");
+recipes.addShaped(<integrateddynamics:variable>*24, [[<integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>], [<integrateddynamics:crystalized_menril_chunk>, <pneumaticcraft:plastic:15>, <integrateddynamics:crystalized_menril_chunk>], [<integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>]]);

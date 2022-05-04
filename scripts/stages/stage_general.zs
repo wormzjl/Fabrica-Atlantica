@@ -60,3 +60,50 @@ for item in loadedMods["rftools"].items {
     mods.ItemStages.addItemStage("rftools", item);
   }
 }
+
+//integrateddynamics
+var idstaged as IItemStack[] = [
+  <integrateddynamics:part_audio_reader_item>,
+  <integrateddynamics:part_block_reader_item>,
+  <integrateddynamics:part_entity_reader_item>,
+  <integrateddynamics:part_extradimensional_reader_item>,
+  <integrateddynamics:part_fluid_reader_item>,
+  <integrateddynamics:part_inventory_reader_item>,
+  <integrateddynamics:part_machine_reader_item>,
+  <integrateddynamics:part_network_reader_item>,
+  <integrateddynamics:part_redstone_reader_item>,
+  <integrateddynamics:part_world_reader_item>,
+  <integrateddynamics:part_audio_writer_item>,
+  <integrateddynamics:part_effect_writer_item>,
+  <integrateddynamics:part_entity_writer_item>,
+  <integrateddynamics:part_machine_writer_item>,
+  <integrateddynamics:part_inventory_writer_item>,
+  <integrateddynamics:part_redstone_writer_item>,
+  <integrateddynamics:part_static_light_panel_item>,
+  <integrateddynamics:part_dynamic_light_panel_item>,
+  <integrateddynamics:part_display_panel_item>,
+  <integrateddynamics:part_connector_mono_directional_item>,
+  <integrateddynamics:part_connector_omni_directional_item>,
+  <integrateddynamics:cable>,
+  <integrateddynamics:variablestore>,
+  <integrateddynamics:logic_programmer>,
+  <integrateddynamics:proxy>,
+  <integrateddynamics:materializer>,
+  <integrateddynamics:mechanical_drying_basin>,
+  <integrateddynamics:wrench>,
+  <integrateddynamics:variable>,
+  <integrateddynamics:labeller>,
+  <integrateddynamics:crystalized_menril_chunk>,
+  <integrateddynamics:variable_transformer:1>,
+  <integrateddynamics:variable_transformer>,
+  <integrateddynamics:portable_logic_programmer>,
+  <integrateddynamics:delay>,
+  <integrateddynamics:drying_basin>,
+  <integratednbt:nbt_extractor>,
+  <integratednbt:nbt_extractor_remote>,
+  <integratedrest:http>
+];
+
+for item in idstaged {
+  mods.ItemStages.addItemStage("integrateddynamics", item);
+}

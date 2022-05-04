@@ -115,6 +115,7 @@ lcchestnew.addItemEntry(<techguns:itemshared:1>*2, 30);
 lcchestnew.addItemEntry(<techguns:goldenrevolver>, 1);
 lcchestnew.addItemEntry(<techguns:sawedoff>, 10);
 lcchestnew.addItemEntry(<techguns:itemshared:2>*4, 30);
+lcchestnew.addItemEntry(<integrateddynamics:menril_sapling>, 20);
 
 
 val raildungeonchest = LootTweaker.getTable("lostcities:chests/raildungeonchest").getPool("lostcities:raildungeonchest");

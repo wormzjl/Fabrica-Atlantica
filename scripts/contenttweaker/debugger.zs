@@ -46,6 +46,7 @@ static allStages as string[] = [
   "rsc",
   "teleporter",
   "rftools",
+  "integrateddynamics",
   "bedrock_miner",
   "tgmetalpress",
   "macerator",
