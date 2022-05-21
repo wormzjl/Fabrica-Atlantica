@@ -19,12 +19,6 @@ fumingsulfuricnitricacid.register();
 
 
 //Mineral processing
-var flotation_solution = VanillaFactory.createFluid("flotation_solution", Color.fromHex("99E6FF"));
-flotation_solution.register();
-
-var flotation_waste = VanillaFactory.createFluid("flotation_waste", Color.fromHex("1A1A00"));
-flotation_waste.register();
-
 var iron_slurry = VanillaFactory.createFluid("iron_slurry", Color.fromHex("484848"));
 iron_slurry.register();
 

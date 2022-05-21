@@ -136,87 +136,87 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<railcraft:nugget:8>*5, <materi
 
 //MgC processing
 
-mods.magneticraft.Grinder.addRecipe(<materialpart:iron_ore:poor_ore_minecraft_stone>, <materialpart:iron_ore:broken_low>, <minecraft:cobblestone>, 1.0, 100, false);
-mods.magneticraft.Grinder.addRecipe(<materialpart:iron_ore:ore_minecraft_stone>, <materialpart:iron_ore:broken_med>, <minecraft:cobblestone>, 1.0, 100, false);
-mods.magneticraft.Grinder.addRecipe(<materialpart:iron_ore:dense_ore_minecraft_stone>, <materialpart:iron_ore:broken_high>, <minecraft:cobblestone>, 1.0, 100, false);
+mods.magneticraft.Grinder.addRecipe(<materialpart:iron_ore:poor_ore_minecraft_stone>, <materialpart:iron_ore:broken_low>, <minecraft:cobblestone>, 1.0, 100);
+mods.magneticraft.Grinder.addRecipe(<materialpart:iron_ore:ore_minecraft_stone>, <materialpart:iron_ore:broken_med>, <minecraft:cobblestone>, 1.0, 100);
+mods.magneticraft.Grinder.addRecipe(<materialpart:iron_ore:dense_ore_minecraft_stone>, <materialpart:iron_ore:broken_high>, <minecraft:cobblestone>, 1.0, 100);
 
-mods.magneticraft.Grinder.addRecipe(<materialpart:gold_ore:poor_ore_minecraft_stone>, <materialpart:gold_ore:broken_low>, <minecraft:cobblestone>, 1.0, 100, false);
-mods.magneticraft.Grinder.addRecipe(<materialpart:gold_ore:ore_minecraft_stone>, <materialpart:gold_ore:broken_med>, <minecraft:cobblestone>, 1.0, 100, false);
-mods.magneticraft.Grinder.addRecipe(<materialpart:gold_ore:dense_ore_minecraft_stone>, <materialpart:gold_ore:broken_high>, <minecraft:cobblestone>, 1.0, 100, false);
+mods.magneticraft.Grinder.addRecipe(<materialpart:gold_ore:poor_ore_minecraft_stone>, <materialpart:gold_ore:broken_low>, <minecraft:cobblestone>, 1.0, 100);
+mods.magneticraft.Grinder.addRecipe(<materialpart:gold_ore:ore_minecraft_stone>, <materialpart:gold_ore:broken_med>, <minecraft:cobblestone>, 1.0, 100);
+mods.magneticraft.Grinder.addRecipe(<materialpart:gold_ore:dense_ore_minecraft_stone>, <materialpart:gold_ore:broken_high>, <minecraft:cobblestone>, 1.0, 100);
 
-mods.magneticraft.Grinder.addRecipe(<materialpart:copper_ore:poor_ore_minecraft_stone>, <materialpart:copper_ore:broken_low>, <minecraft:cobblestone>, 1.0, 100, false);
-mods.magneticraft.Grinder.addRecipe(<materialpart:copper_ore:ore_minecraft_stone>, <materialpart:copper_ore:broken_med>, <minecraft:cobblestone>, 1.0, 100, false);
-mods.magneticraft.Grinder.addRecipe(<materialpart:copper_ore:dense_ore_minecraft_stone>, <materialpart:copper_ore:broken_high>, <minecraft:cobblestone>, 1.0, 100, false);
+mods.magneticraft.Grinder.addRecipe(<materialpart:copper_ore:poor_ore_minecraft_stone>, <materialpart:copper_ore:broken_low>, <minecraft:cobblestone>, 1.0, 100);
+mods.magneticraft.Grinder.addRecipe(<materialpart:copper_ore:ore_minecraft_stone>, <materialpart:copper_ore:broken_med>, <minecraft:cobblestone>, 1.0, 100);
+mods.magneticraft.Grinder.addRecipe(<materialpart:copper_ore:dense_ore_minecraft_stone>, <materialpart:copper_ore:broken_high>, <minecraft:cobblestone>, 1.0, 100);
 
-mods.magneticraft.Grinder.addRecipe(<materialpart:tin_ore:poor_ore_minecraft_stone>, <materialpart:tin_ore:broken_low>, <minecraft:cobblestone>, 1.0, 100, false);
-mods.magneticraft.Grinder.addRecipe(<materialpart:tin_ore:ore_minecraft_stone>, <materialpart:tin_ore:broken_med>, <minecraft:cobblestone>, 1.0, 100, false);
-mods.magneticraft.Grinder.addRecipe(<materialpart:tin_ore:dense_ore_minecraft_stone>, <materialpart:tin_ore:broken_high>, <minecraft:cobblestone>, 1.0, 100, false);
+mods.magneticraft.Grinder.addRecipe(<materialpart:tin_ore:poor_ore_minecraft_stone>, <materialpart:tin_ore:broken_low>, <minecraft:cobblestone>, 1.0, 100);
+mods.magneticraft.Grinder.addRecipe(<materialpart:tin_ore:ore_minecraft_stone>, <materialpart:tin_ore:broken_med>, <minecraft:cobblestone>, 1.0, 100);
+mods.magneticraft.Grinder.addRecipe(<materialpart:tin_ore:dense_ore_minecraft_stone>, <materialpart:tin_ore:broken_high>, <minecraft:cobblestone>, 1.0, 100);
 
-mods.magneticraft.Grinder.addRecipe(<materialpart:lead_ore:poor_ore_minecraft_stone>, <materialpart:lead_ore:broken_low>, <minecraft:cobblestone>, 1.0, 100, false);
-mods.magneticraft.Grinder.addRecipe(<materialpart:lead_ore:ore_minecraft_stone>, <materialpart:lead_ore:broken_med>, <minecraft:cobblestone>, 1.0, 100, false);
-mods.magneticraft.Grinder.addRecipe(<materialpart:lead_ore:dense_ore_minecraft_stone>, <materialpart:lead_ore:broken_high>, <minecraft:cobblestone>, 1.0, 100, false);
+mods.magneticraft.Grinder.addRecipe(<materialpart:lead_ore:poor_ore_minecraft_stone>, <materialpart:lead_ore:broken_low>, <minecraft:cobblestone>, 1.0, 100);
+mods.magneticraft.Grinder.addRecipe(<materialpart:lead_ore:ore_minecraft_stone>, <materialpart:lead_ore:broken_med>, <minecraft:cobblestone>, 1.0, 100);
+mods.magneticraft.Grinder.addRecipe(<materialpart:lead_ore:dense_ore_minecraft_stone>, <materialpart:lead_ore:broken_high>, <minecraft:cobblestone>, 1.0, 100);
 
-mods.magneticraft.Grinder.addRecipe(<materialpart:aluminium_ore:poor_ore_minecraft_stone>, <materialpart:aluminium_ore:broken_low>, <minecraft:cobblestone>, 1.0, 120, false);
-mods.magneticraft.Grinder.addRecipe(<materialpart:aluminium_ore:ore_minecraft_stone>, <materialpart:aluminium_ore:broken_med>, <minecraft:cobblestone>, 1.0, 120, false);
-mods.magneticraft.Grinder.addRecipe(<materialpart:aluminium_ore:dense_ore_minecraft_stone>, <materialpart:aluminium_ore:broken_high>, <minecraft:cobblestone>, 1.0, 120, false);
+mods.magneticraft.Grinder.addRecipe(<materialpart:aluminium_ore:poor_ore_minecraft_stone>, <materialpart:aluminium_ore:broken_low>, <minecraft:cobblestone>, 1.0, 120);
+mods.magneticraft.Grinder.addRecipe(<materialpart:aluminium_ore:ore_minecraft_stone>, <materialpart:aluminium_ore:broken_med>, <minecraft:cobblestone>, 1.0, 120);
+mods.magneticraft.Grinder.addRecipe(<materialpart:aluminium_ore:dense_ore_minecraft_stone>, <materialpart:aluminium_ore:broken_high>, <minecraft:cobblestone>, 1.0, 120);
 
-mods.magneticraft.Grinder.addRecipe(<materialpart:titanium_ore:poor_ore_minecraft_stone>, <materialpart:titanium_ore:broken_low>, <minecraft:cobblestone>, 1.0, 140, false);
-mods.magneticraft.Grinder.addRecipe(<materialpart:titanium_ore:ore_minecraft_stone>, <materialpart:titanium_ore:broken_med>, <minecraft:cobblestone>, 1.0, 140, false);
-mods.magneticraft.Grinder.addRecipe(<materialpart:titanium_ore:dense_ore_minecraft_stone>, <materialpart:titanium_ore:broken_high>, <minecraft:cobblestone>, 1.0, 140, false);
+mods.magneticraft.Grinder.addRecipe(<materialpart:titanium_ore:poor_ore_minecraft_stone>, <materialpart:titanium_ore:broken_low>, <minecraft:cobblestone>, 1.0, 140);
+mods.magneticraft.Grinder.addRecipe(<materialpart:titanium_ore:ore_minecraft_stone>, <materialpart:titanium_ore:broken_med>, <minecraft:cobblestone>, 1.0, 140);
+mods.magneticraft.Grinder.addRecipe(<materialpart:titanium_ore:dense_ore_minecraft_stone>, <materialpart:titanium_ore:broken_high>, <minecraft:cobblestone>, 1.0, 140);
 
-mods.magneticraft.Grinder.addRecipe(<materialpart:tungsten_ore:poor_ore_minecraft_stone>, <materialpart:tungsten_ore:broken_low>, <minecraft:cobblestone>, 1.0, 180, false);
-mods.magneticraft.Grinder.addRecipe(<materialpart:tungsten_ore:ore_minecraft_stone>, <materialpart:tungsten_ore:broken_med>, <minecraft:cobblestone>, 1.0, 180, false);
-mods.magneticraft.Grinder.addRecipe(<materialpart:tungsten_ore:dense_ore_minecraft_stone>, <materialpart:tungsten_ore:broken_high>, <minecraft:cobblestone>, 1.0, 180, false);
+mods.magneticraft.Grinder.addRecipe(<materialpart:tungsten_ore:poor_ore_minecraft_stone>, <materialpart:tungsten_ore:broken_low>, <minecraft:cobblestone>, 1.0, 180);
+mods.magneticraft.Grinder.addRecipe(<materialpart:tungsten_ore:ore_minecraft_stone>, <materialpart:tungsten_ore:broken_med>, <minecraft:cobblestone>, 1.0, 180);
+mods.magneticraft.Grinder.addRecipe(<materialpart:tungsten_ore:dense_ore_minecraft_stone>, <materialpart:tungsten_ore:broken_high>, <minecraft:cobblestone>, 1.0, 180);
 
-mods.magneticraft.Grinder.addRecipe(<materialpart:uranium_ore:poor_ore_minecraft_stone>, <materialpart:uranium_ore:broken_low>, <minecraft:cobblestone>, 1.0, 140, false);
-mods.magneticraft.Grinder.addRecipe(<materialpart:uranium_ore:ore_minecraft_stone>, <materialpart:uranium_ore:broken_med>, <minecraft:cobblestone>, 1.0, 140, false);
-mods.magneticraft.Grinder.addRecipe(<materialpart:uranium_ore:dense_ore_minecraft_stone>, <materialpart:uranium_ore:broken_high>, <minecraft:cobblestone>, 1.0, 140, false);
+mods.magneticraft.Grinder.addRecipe(<materialpart:uranium_ore:poor_ore_minecraft_stone>, <materialpart:uranium_ore:broken_low>, <minecraft:cobblestone>, 1.0, 140);
+mods.magneticraft.Grinder.addRecipe(<materialpart:uranium_ore:ore_minecraft_stone>, <materialpart:uranium_ore:broken_med>, <minecraft:cobblestone>, 1.0, 140);
+mods.magneticraft.Grinder.addRecipe(<materialpart:uranium_ore:dense_ore_minecraft_stone>, <materialpart:uranium_ore:broken_high>, <minecraft:cobblestone>, 1.0, 140);
 
-mods.magneticraft.Grinder.addRecipe(<materialpart:thorium_ore:poor_ore_minecraft_stone>, <materialpart:thorium_ore:broken_low>, <minecraft:cobblestone>, 1.0, 120, false);
-mods.magneticraft.Grinder.addRecipe(<materialpart:thorium_ore:ore_minecraft_stone>, <materialpart:thorium_ore:broken_med>, <minecraft:cobblestone>, 1.0, 120, false);
-mods.magneticraft.Grinder.addRecipe(<materialpart:thorium_ore:dense_ore_minecraft_stone>, <materialpart:thorium_ore:broken_high>, <minecraft:cobblestone>, 1.0, 120, false);
+mods.magneticraft.Grinder.addRecipe(<materialpart:thorium_ore:poor_ore_minecraft_stone>, <materialpart:thorium_ore:broken_low>, <minecraft:cobblestone>, 1.0, 120);
+mods.magneticraft.Grinder.addRecipe(<materialpart:thorium_ore:ore_minecraft_stone>, <materialpart:thorium_ore:broken_med>, <minecraft:cobblestone>, 1.0, 120);
+mods.magneticraft.Grinder.addRecipe(<materialpart:thorium_ore:dense_ore_minecraft_stone>, <materialpart:thorium_ore:broken_high>, <minecraft:cobblestone>, 1.0, 120);
 
 
 
-mods.magneticraft.Sieve.addRecipe(<materialpart:iron_ore:broken_low>, <materialpart:iron_ore:ore_high>, 0.7, <materialpart:iron_ore:ore_low>, 0.5, <railcraft:dust:1>, 0.2, 100, false);
-mods.magneticraft.Sieve.addRecipe(<materialpart:iron_ore:broken_med>, <materialpart:iron_ore:ore_high>*2, 0.6, <materialpart:iron_ore:ore_low>, 0.7, <railcraft:dust:1>, 0.2, 100, false);
-mods.magneticraft.Sieve.addRecipe(<materialpart:iron_ore:broken_high>, <materialpart:iron_ore:ore_high>*3, 0.8, <materialpart:iron_ore:ore_low>*2, 0.6, <railcraft:dust:1>, 0.2, 100, false);
+mods.magneticraft.Sieve.addRecipe(<materialpart:iron_ore:broken_low>, <materialpart:iron_ore:ore_high>, 0.7, <materialpart:iron_ore:ore_low>, 0.5, <railcraft:dust:1>, 0.2, 100);
+mods.magneticraft.Sieve.addRecipe(<materialpart:iron_ore:broken_med>, <materialpart:iron_ore:ore_high>*2, 0.6, <materialpart:iron_ore:ore_low>, 0.7, <railcraft:dust:1>, 0.2, 100);
+mods.magneticraft.Sieve.addRecipe(<materialpart:iron_ore:broken_high>, <materialpart:iron_ore:ore_high>*3, 0.8, <materialpart:iron_ore:ore_low>*2, 0.6, <railcraft:dust:1>, 0.2, 100);
 
-mods.magneticraft.Sieve.addRecipe(<materialpart:gold_ore:broken_low>, <materialpart:gold_ore:ore_high>, 0.7, <materialpart:gold_ore:ore_low>, 0.5, <rockhounding_chemistry:chemical_items:4>, 0.2, 100, false);
-mods.magneticraft.Sieve.addRecipe(<materialpart:gold_ore:broken_med>, <materialpart:gold_ore:ore_high>*2, 0.6, <materialpart:gold_ore:ore_low>, 0.7, <rockhounding_chemistry:chemical_items:4>, 0.2, 100, false);
-mods.magneticraft.Sieve.addRecipe(<materialpart:gold_ore:broken_high>, <materialpart:gold_ore:ore_high>*3, 0.8, <materialpart:gold_ore:ore_low>*2, 0.6, <rockhounding_chemistry:chemical_items:4>, 0.2, 100, false);
+mods.magneticraft.Sieve.addRecipe(<materialpart:gold_ore:broken_low>, <materialpart:gold_ore:ore_high>, 0.7, <materialpart:gold_ore:ore_low>, 0.5, <rockhounding_chemistry:chemical_items:4>, 0.2, 100);
+mods.magneticraft.Sieve.addRecipe(<materialpart:gold_ore:broken_med>, <materialpart:gold_ore:ore_high>*2, 0.6, <materialpart:gold_ore:ore_low>, 0.7, <rockhounding_chemistry:chemical_items:4>, 0.2, 100);
+mods.magneticraft.Sieve.addRecipe(<materialpart:gold_ore:broken_high>, <materialpart:gold_ore:ore_high>*3, 0.8, <materialpart:gold_ore:ore_low>*2, 0.6, <rockhounding_chemistry:chemical_items:4>, 0.2, 100);
 
-mods.magneticraft.Sieve.addRecipe(<materialpart:copper_ore:broken_low>, <materialpart:copper_ore:ore_high>, 0.7, <materialpart:copper_ore:ore_low>, 0.5, <railcraft:dust:1>, 0.2, 100, false);
-mods.magneticraft.Sieve.addRecipe(<materialpart:copper_ore:broken_med>, <materialpart:copper_ore:ore_high>*2, 0.6, <materialpart:copper_ore:ore_low>, 0.7, <railcraft:dust:1>, 0.2, 100, false);
-mods.magneticraft.Sieve.addRecipe(<materialpart:copper_ore:broken_high>, <materialpart:copper_ore:ore_high>*3, 0.8, <materialpart:copper_ore:ore_low>*2, 0.6, <railcraft:dust:1>, 0.2, 100, false);
+mods.magneticraft.Sieve.addRecipe(<materialpart:copper_ore:broken_low>, <materialpart:copper_ore:ore_high>, 0.7, <materialpart:copper_ore:ore_low>, 0.5, <railcraft:dust:1>, 0.2, 100);
+mods.magneticraft.Sieve.addRecipe(<materialpart:copper_ore:broken_med>, <materialpart:copper_ore:ore_high>*2, 0.6, <materialpart:copper_ore:ore_low>, 0.7, <railcraft:dust:1>, 0.2, 100);
+mods.magneticraft.Sieve.addRecipe(<materialpart:copper_ore:broken_high>, <materialpart:copper_ore:ore_high>*3, 0.8, <materialpart:copper_ore:ore_low>*2, 0.6, <railcraft:dust:1>, 0.2, 100);
 
-mods.magneticraft.Sieve.addRecipe(<materialpart:tin_ore:broken_low>, <materialpart:tin_ore:ore_high>, 0.7, <materialpart:tin_ore:ore_low>, 0.5, <railcraft:dust:1>, 0.2, 100, false);
-mods.magneticraft.Sieve.addRecipe(<materialpart:tin_ore:broken_med>, <materialpart:tin_ore:ore_high>*2, 0.6, <materialpart:tin_ore:ore_low>, 0.7, <railcraft:dust:1>, 0.2, 100, false);
-mods.magneticraft.Sieve.addRecipe(<materialpart:tin_ore:broken_high>, <materialpart:tin_ore:ore_high>*3, 0.8, <materialpart:tin_ore:ore_low>*2, 0.6, <railcraft:dust:1>, 0.2, 100, false);
+mods.magneticraft.Sieve.addRecipe(<materialpart:tin_ore:broken_low>, <materialpart:tin_ore:ore_high>, 0.7, <materialpart:tin_ore:ore_low>, 0.5, <railcraft:dust:1>, 0.2, 100);
+mods.magneticraft.Sieve.addRecipe(<materialpart:tin_ore:broken_med>, <materialpart:tin_ore:ore_high>*2, 0.6, <materialpart:tin_ore:ore_low>, 0.7, <railcraft:dust:1>, 0.2, 100);
+mods.magneticraft.Sieve.addRecipe(<materialpart:tin_ore:broken_high>, <materialpart:tin_ore:ore_high>*3, 0.8, <materialpart:tin_ore:ore_low>*2, 0.6, <railcraft:dust:1>, 0.2, 100);
 
-mods.magneticraft.Sieve.addRecipe(<materialpart:lead_ore:broken_low>, <materialpart:lead_ore:ore_high>, 0.7, <materialpart:lead_ore:ore_low>, 0.5, <railcraft:dust:1>, 0.2, 100, false);
-mods.magneticraft.Sieve.addRecipe(<materialpart:lead_ore:broken_med>, <materialpart:lead_ore:ore_high>*2, 0.6, <materialpart:lead_ore:ore_low>, 0.7, <railcraft:dust:1>, 0.2, 100, false);
-mods.magneticraft.Sieve.addRecipe(<materialpart:lead_ore:broken_high>, <materialpart:lead_ore:ore_high>*3, 0.8, <materialpart:lead_ore:ore_low>*2, 0.6, <railcraft:dust:1>, 0.2, 100, false);
+mods.magneticraft.Sieve.addRecipe(<materialpart:lead_ore:broken_low>, <materialpart:lead_ore:ore_high>, 0.7, <materialpart:lead_ore:ore_low>, 0.5, <railcraft:dust:1>, 0.2, 100);
+mods.magneticraft.Sieve.addRecipe(<materialpart:lead_ore:broken_med>, <materialpart:lead_ore:ore_high>*2, 0.6, <materialpart:lead_ore:ore_low>, 0.7, <railcraft:dust:1>, 0.2, 100);
+mods.magneticraft.Sieve.addRecipe(<materialpart:lead_ore:broken_high>, <materialpart:lead_ore:ore_high>*3, 0.8, <materialpart:lead_ore:ore_low>*2, 0.6, <railcraft:dust:1>, 0.2, 100);
 
-mods.magneticraft.Sieve.addRecipe(<materialpart:aluminium_ore:broken_low>, <materialpart:aluminium_ore:ore_high>, 0.7, <materialpart:aluminium_ore:ore_low>, 0.5, <rockhounding_chemistry:chemical_items:4>, 0.2, 100, false);
-mods.magneticraft.Sieve.addRecipe(<materialpart:aluminium_ore:broken_med>, <materialpart:aluminium_ore:ore_high>*2, 0.6, <materialpart:aluminium_ore:ore_low>, 0.7, <rockhounding_chemistry:chemical_items:4>, 0.2, 100, false);
-mods.magneticraft.Sieve.addRecipe(<materialpart:aluminium_ore:broken_high>, <materialpart:aluminium_ore:ore_high>*3, 0.8, <materialpart:aluminium_ore:ore_low>*2, 0.6, <rockhounding_chemistry:chemical_items:4>, 0.2, 100, false);
+mods.magneticraft.Sieve.addRecipe(<materialpart:aluminium_ore:broken_low>, <materialpart:aluminium_ore:ore_high>, 0.7, <materialpart:aluminium_ore:ore_low>, 0.5, <rockhounding_chemistry:chemical_items:4>, 0.2, 100);
+mods.magneticraft.Sieve.addRecipe(<materialpart:aluminium_ore:broken_med>, <materialpart:aluminium_ore:ore_high>*2, 0.6, <materialpart:aluminium_ore:ore_low>, 0.7, <rockhounding_chemistry:chemical_items:4>, 0.2, 100);
+mods.magneticraft.Sieve.addRecipe(<materialpart:aluminium_ore:broken_high>, <materialpart:aluminium_ore:ore_high>*3, 0.8, <materialpart:aluminium_ore:ore_low>*2, 0.6, <rockhounding_chemistry:chemical_items:4>, 0.2, 100);
 
-mods.magneticraft.Sieve.addRecipe(<materialpart:titanium_ore:broken_low>, <materialpart:titanium_ore:ore_high>, 0.7, <materialpart:titanium_ore:ore_low>, 0.5, <rockhounding_chemistry:chemical_items:4>, 0.2, 100, false);
-mods.magneticraft.Sieve.addRecipe(<materialpart:titanium_ore:broken_med>, <materialpart:titanium_ore:ore_high>*2, 0.6, <materialpart:titanium_ore:ore_low>, 0.7, <rockhounding_chemistry:chemical_items:4>, 0.2, 100, false);
-mods.magneticraft.Sieve.addRecipe(<materialpart:titanium_ore:broken_high>, <materialpart:titanium_ore:ore_high>*3, 0.8, <materialpart:titanium_ore:ore_low>*2, 0.6, <rockhounding_chemistry:chemical_items:4>, 0.2, 100, false);
+mods.magneticraft.Sieve.addRecipe(<materialpart:titanium_ore:broken_low>, <materialpart:titanium_ore:ore_high>, 0.7, <materialpart:titanium_ore:ore_low>, 0.5, <rockhounding_chemistry:chemical_items:4>, 0.2, 100);
+mods.magneticraft.Sieve.addRecipe(<materialpart:titanium_ore:broken_med>, <materialpart:titanium_ore:ore_high>*2, 0.6, <materialpart:titanium_ore:ore_low>, 0.7, <rockhounding_chemistry:chemical_items:4>, 0.2, 100);
+mods.magneticraft.Sieve.addRecipe(<materialpart:titanium_ore:broken_high>, <materialpart:titanium_ore:ore_high>*3, 0.8, <materialpart:titanium_ore:ore_low>*2, 0.6, <rockhounding_chemistry:chemical_items:4>, 0.2, 100);
 
-mods.magneticraft.Sieve.addRecipe(<materialpart:tungsten_ore:broken_low>, <materialpart:tungsten_ore:ore_high>, 0.7, <materialpart:tungsten_ore:ore_low>, 0.5, <rockhounding_chemistry:chemical_items:4>, 0.2, 100, false);
-mods.magneticraft.Sieve.addRecipe(<materialpart:tungsten_ore:broken_med>, <materialpart:tungsten_ore:ore_high>*2, 0.6, <materialpart:tungsten_ore:ore_low>, 0.7, <rockhounding_chemistry:chemical_items:4>, 0.2, 100, false);
-mods.magneticraft.Sieve.addRecipe(<materialpart:tungsten_ore:broken_high>, <materialpart:tungsten_ore:ore_high>*3, 0.8, <materialpart:tungsten_ore:ore_low>*2, 0.6, <rockhounding_chemistry:chemical_items:4>, 0.2, 100, false);
+mods.magneticraft.Sieve.addRecipe(<materialpart:tungsten_ore:broken_low>, <materialpart:tungsten_ore:ore_high>, 0.7, <materialpart:tungsten_ore:ore_low>, 0.5, <rockhounding_chemistry:chemical_items:4>, 0.2, 100);
+mods.magneticraft.Sieve.addRecipe(<materialpart:tungsten_ore:broken_med>, <materialpart:tungsten_ore:ore_high>*2, 0.6, <materialpart:tungsten_ore:ore_low>, 0.7, <rockhounding_chemistry:chemical_items:4>, 0.2, 100);
+mods.magneticraft.Sieve.addRecipe(<materialpart:tungsten_ore:broken_high>, <materialpart:tungsten_ore:ore_high>*3, 0.8, <materialpart:tungsten_ore:ore_low>*2, 0.6, <rockhounding_chemistry:chemical_items:4>, 0.2, 100);
 
-mods.magneticraft.Sieve.addRecipe(<materialpart:uranium_ore:broken_low>, <materialpart:uranium_ore:ore_high>, 0.7, <materialpart:uranium_ore:ore_low>, 0.5, <railcraft:dust:1>, 0.2, 100, false);
-mods.magneticraft.Sieve.addRecipe(<materialpart:uranium_ore:broken_med>, <materialpart:uranium_ore:ore_high>*2, 0.6, <materialpart:uranium_ore:ore_low>, 0.7, <railcraft:dust:1>, 0.2, 100, false);
-mods.magneticraft.Sieve.addRecipe(<materialpart:uranium_ore:broken_high>, <materialpart:uranium_ore:ore_high>*3, 0.8, <materialpart:uranium_ore:ore_low>*2, 0.6, <railcraft:dust:1>, 0.2, 100, false);
+mods.magneticraft.Sieve.addRecipe(<materialpart:uranium_ore:broken_low>, <materialpart:uranium_ore:ore_high>, 0.7, <materialpart:uranium_ore:ore_low>, 0.5, <railcraft:dust:1>, 0.2, 100);
+mods.magneticraft.Sieve.addRecipe(<materialpart:uranium_ore:broken_med>, <materialpart:uranium_ore:ore_high>*2, 0.6, <materialpart:uranium_ore:ore_low>, 0.7, <railcraft:dust:1>, 0.2, 100);
+mods.magneticraft.Sieve.addRecipe(<materialpart:uranium_ore:broken_high>, <materialpart:uranium_ore:ore_high>*3, 0.8, <materialpart:uranium_ore:ore_low>*2, 0.6, <railcraft:dust:1>, 0.2, 100);
 
-mods.magneticraft.Sieve.addRecipe(<materialpart:thorium_ore:broken_low>, <materialpart:thorium_ore:ore_high>, 0.7, <materialpart:thorium_ore:ore_low>, 0.5, <railcraft:dust:1>, 0.2, 100, false);
-mods.magneticraft.Sieve.addRecipe(<materialpart:thorium_ore:broken_med>, <materialpart:thorium_ore:ore_high>*2, 0.6, <materialpart:thorium_ore:ore_low>, 0.7, <railcraft:dust:1>, 0.2, 100, false);
-mods.magneticraft.Sieve.addRecipe(<materialpart:thorium_ore:broken_high>, <materialpart:thorium_ore:ore_high>*3, 0.8, <materialpart:thorium_ore:ore_low>*2, 0.6, <railcraft:dust:1>, 0.2, 100, false);
+mods.magneticraft.Sieve.addRecipe(<materialpart:thorium_ore:broken_low>, <materialpart:thorium_ore:ore_high>, 0.7, <materialpart:thorium_ore:ore_low>, 0.5, <railcraft:dust:1>, 0.2, 100);
+mods.magneticraft.Sieve.addRecipe(<materialpart:thorium_ore:broken_med>, <materialpart:thorium_ore:ore_high>*2, 0.6, <materialpart:thorium_ore:ore_low>, 0.7, <railcraft:dust:1>, 0.2, 100);
+mods.magneticraft.Sieve.addRecipe(<materialpart:thorium_ore:broken_high>, <materialpart:thorium_ore:ore_high>*3, 0.8, <materialpart:thorium_ore:ore_low>*2, 0.6, <railcraft:dust:1>, 0.2, 100);
 
 //2nd step, IE Crushing
 mods.immersiveengineering.Crusher.addRecipe(<materialpart:iron_ore:ore_small_high>*4, <materialpart:iron_ore:ore_high>, 2048);
@@ -278,7 +278,7 @@ mods.immersiveengineering.MetalPress.addRecipe(<materialpart:lead_ore:ore_pellet
 //mods.immersiveengineering.MetalPress.addRecipe(<materialpart:uranium_ore:ore_pellet>, <materialpart:uranium_ore:ore_dust_pure>, <contenttweaker:mold_pellet>, 1024);
 //mods.immersiveengineering.MetalPress.addRecipe(<materialpart:thorium_ore:ore_pellet>, <materialpart:thorium_ore:ore_dust_pure>, <contenttweaker:mold_pellet>, 768);
 
-//Low grade ore flotation, step 1
+//Low grade ore flotation, step 1, NEED REWORK
 mods.immersiveengineering.Mixer.addRecipe(<liquid:iron_slurry>*1000, <liquid:flotation_solution>*1000, [<materialpart:iron_ore:ore_dust_low>], 1024);
 mods.immersiveengineering.Mixer.addRecipe(<liquid:gold_slurry>*1000, <liquid:flotation_solution>*1000, [<materialpart:gold_ore:ore_dust_low>], 1024);
 mods.immersiveengineering.Mixer.addRecipe(<liquid:copper_slurry>*1000, <liquid:flotation_solution>*1000, [<materialpart:copper_ore:ore_dust_low>], 1024);
@@ -290,7 +290,7 @@ mods.immersiveengineering.Mixer.addRecipe(<liquid:tungsten_slurry>*1000, <liquid
 mods.immersiveengineering.Mixer.addRecipe(<liquid:uranium_slurry>*1000, <liquid:flotation_solution>*1000, [<materialpart:uranium_ore:ore_dust_low>], 1024);
 mods.immersiveengineering.Mixer.addRecipe(<liquid:thorium_slurry>*1000, <liquid:flotation_solution>*1000, [<materialpart:thorium_ore:ore_dust_low>], 1024);
 
-//Low grade ore flotation, step 2 -> MM
+//Low grade ore flotation, step 2 -> MM, NEED REWORK
 val ironf = mods.modularmachinery.RecipeBuilder.newBuilder("ironflotation", "flotationplant", 400, 0);
 ironf.addEnergyPerTickInput(128).addFluidInput(<liquid:iron_slurry> * 1000).addFluidInput(<liquid:compressed_air> * 1000).addFluidOutput(<liquid:flotation_waste> * 1000).addItemOutput(<materialpart:iron_ore:ore_dust_washed_low>).addItemOutput(<materialpart:iron_ore:ore_tailing>).build();
 
@@ -418,14 +418,25 @@ furnace.remove(<primal:aluminum_ingot>);
 furnace.remove(<nuclearcraft:ingot:12>);
 furnace.remove(<libvulpes:productingot:9>);
 
-mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:alumina_dust>*2, <nuclearcraft:compound:5>, <materialpart:aluminium_ore:ore_dust_pure>, 500);
-mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:alumina_dust>*2, <nuclearcraft:compound:5>, null, 100, 512, [<materialpart:aluminium_ore:ore_dust_pure>]);
+val aluminium_leaching_high = mods.modularmachinery.RecipeBuilder.newBuilder("aluminium_leaching_high", "leachingtank", 100, 0);
+aluminium_leaching_high.addEnergyPerTickInput(128).addFluidInput(<liquid:sodium_hydroxide_solution>*1000).addItemInput(<contenttweaker:aluminium_ore_ore_dust_high>).addFluidOutput(<liquid:aluminium_ore_leachate>*1000).addItemOutput(<contenttweaker:aluminium_ore_ore_tailing>).build();
+
+val aluminium_leaching_low = mods.modularmachinery.RecipeBuilder.newBuilder("aluminium_leaching_low", "leachingtank", 100, 0);
+aluminium_leaching_low.addEnergyPerTickInput(128).addFluidInput(<liquid:sodium_hydroxide_solution>*500).addItemInput(<contenttweaker:aluminium_ore_ore_dust_low>).addFluidOutput(<liquid:aluminium_ore_leachate>*500).addItemOutput(<contenttweaker:aluminium_ore_ore_tailing>*2).build();
+
+mods.nuclearcraft.Crystallizer.addRecipe(<liquid:aluminium_ore_leachate>*500, <contenttweaker:alumina_dust>);
+
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveintelligence:material_ingot:7>);
 
 mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:1>);
-mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:1>, <nuclearcraft:compound:5>, null, 300, 512);
-mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:21>*3, <contenttweaker:alumina_dust>, null, 256, 1024);
+mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:1>, <immersiveengineering:metal:10>, null, 100, 1024);
+mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:21>*2, <contenttweaker:alumina_dust>, null, 140, 4096);
 
-mods.industrialwires.MarxGenerator.addRecipe(<contenttweaker:alumina_block>, 2.5, 9, <immersiveengineering:metal:10>);
+mods.industrialwires.MarxGenerator.addRecipe(<contenttweaker:alumina_block>, 2.5, 1, <immersiveengineering:metal:10>);
+
+mods.immersivetechnology.MeltingCrucible.addRecipe(<liquid:alumina>*1000, <contenttweaker:alumina_dust>*9, 2048, 400);
+mods.immersivetechnology.ElectrolyticCrucibleBattery.addRecipe(<liquid:aluminum>*720, null, null, null, <liquid:alumina>*1000, 8192, 500);
+
 
 //Titanium
 furnace.remove(<techguns:itemshared:85>);

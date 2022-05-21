@@ -72,6 +72,10 @@ mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:lapis>*1332);
 mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:diamond>*1332);
 //mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:emerald>*1665);
 
+mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:ethanol>*2000, <liquid:carbon_dioxide>*2000);
+mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:carbon_monoxide>*250, <liquid:water>*250);
+mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:methanol>*250, null);
+
 mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:ethanol>*250, <liquid:sulfur_trioxide>*250);
 mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:sulfur_trioxide>*250, <liquid:fluorine>*250);
 mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:sulfur_trioxide>*500, null);
@@ -93,7 +97,11 @@ mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:hydrofluoric_ac
 mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:hydrofluoric_acid>*250, null);
 mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:borax_solution>*333, <liquid:hydrofluoric_acid>*1000);
 
+mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:alumina>*144, <liquid:silver>*72);
+
+//Remove Electrolyzer completely after recipe migration to custom machines
 mods.nuclearcraft.Electrolyzer.removeRecipeWithInput(<liquid:water>*500);
+mods.nuclearcraft.Electrolyzer.removeRecipeWithInput(<liquid:alumina>*72);
 //mods.nuclearcraft.Electrolyzer.removeRecipeWithInput(<liquid:koh>*666);
 
 mods.nuclearcraft.Enricher.removeRecipeWithOutput(<liquid:fluorite_water>*666);

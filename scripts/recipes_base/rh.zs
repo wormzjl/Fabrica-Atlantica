@@ -31,6 +31,8 @@ mods.rockhounding_chemistry.Transposer.add(<liquid:nitrogen>, <liquid:nitrogen>)
 mods.rockhounding_chemistry.Transposer.add(<liquid:ammonia>, <liquid:ammonia>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:hydrogen>, <liquid:hydrogen>);
 
+mods.rockhounding_chemistry.Transposer.add(<liquid:carbon_dioxide>, <liquid:carbondioxide>);
+
 //Condenser
 mods.rockhounding_chemistry.GasCondenser.add(<liquid:helium>*100, <liquid:liquid_helium>*1);
 

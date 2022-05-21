@@ -42,12 +42,19 @@ val fluids_ambient_misc = {
   formaldehyde : "F08080",
   ethylene_oxide : "69AEE2",
   glycerol : "FFE4C4",
+  fattyacids : "FEFEEE",
   liquidrubber : "7A7A7A",
   rubber : "4D4D4D",
   epoxyresin : "2AB4D7",
   gasoline_bio : "E69900",
   diesel_bio : "86592D",
-  methyl_formate : "2F6D3A"
+  methyl_formate : "2F6D3A",
+  flotation_solution : "99E6FF",
+  flotation_waste : "1A1A00",
+  carbon_disulfide : "F7F7E0",
+  sodium_ethylate : "FDF5E0",
+  sodium_ethyl_xanthate : "E2E299",
+  aluminium_ore_leachate : "484848"
 } as string[string];
 
 val fluids_ambient = {

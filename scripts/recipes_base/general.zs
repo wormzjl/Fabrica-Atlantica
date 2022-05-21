@@ -10,6 +10,8 @@ static removed as IItemStack[] = [
   <rs_ctr:chunk_loader>,
   <rs_ctr:teleporter1>,
   <rs_ctr:teleporter>,
+  <rs_ctr:solar_cell>,
+  <rs_ctr:item_placer>,
   <ariente:ariente_pearl>,
   <funkylocomotion:teleporter>
 ];

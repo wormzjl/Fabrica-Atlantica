@@ -1841,7 +1841,7 @@ mmrecipecount = addaircoolerrecipe(ACduty, 1076/ACRate, <liquid:ethane_cracked_w
 
 mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:ethane_cracked>, drumbatchsize, <liquid:ethane_crackedgas>, 1333*2000/drumbatchsize, <liquid:sour_water>, 667*2000/drumbatchsize, mmrecipecount, scaleeff);
 
-mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:naoh_40>, 20*500/GLColumnBatchsize, <liquid:ethane_crackedgas>, GLColumnBatchsize, <liquid:ethane_crackedgas_washed>, GLColumnBatchsize, <liquid:naoh_used>, 20*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime/4, <liquid:sodium_hydroxide_solution>, 20*500/GLColumnBatchsize, <liquid:ethane_crackedgas>, GLColumnBatchsize, <liquid:ethane_crackedgas_washed>, GLColumnBatchsize, <liquid:naoh_used>, 20*500/GLColumnBatchsize, mmrecipecount, scaleeff);
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:ethane_crackedgas_washed>*1590, <liquid:ethane_crackedgas_cold>*1590);
 
@@ -1869,7 +1869,7 @@ mmrecipecount = addaircoolerrecipe(ACduty, 1033/ACRate, <liquid:propane_cracked_
 
 mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:propane_cracked>, drumbatchsize, <liquid:propane_crackedgas>, 1333*2000/drumbatchsize, <liquid:sour_water>, 667*2000/drumbatchsize, mmrecipecount, scaleeff);
 
-mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:naoh_40>, 20*500/GLColumnBatchsize, <liquid:propane_crackedgas>, GLColumnBatchsize, <liquid:propane_crackedgas_washed>, GLColumnBatchsize, <liquid:naoh_used>, 20*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime/4, <liquid:sodium_hydroxide_solution>, 20*500/GLColumnBatchsize, <liquid:propane_crackedgas>, GLColumnBatchsize, <liquid:propane_crackedgas_washed>, GLColumnBatchsize, <liquid:naoh_used>, 20*500/GLColumnBatchsize, mmrecipecount, scaleeff);
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:propane_crackedgas_washed>*1941, <liquid:propane_crackedgas_cold>*1941);
 
@@ -1899,7 +1899,7 @@ mmrecipecount = addaircoolerrecipe(ACduty, 1020/ACRate, <liquid:butane_crackedga
 
 mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:butane_crackedgas_humid>, drumbatchsize, <liquid:butane_crackedgas>, 1324*2000/drumbatchsize, <liquid:sour_water>, 676*2000/drumbatchsize, mmrecipecount, scaleeff);
 
-mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:naoh_40>, 20*500/GLColumnBatchsize, <liquid:butane_crackedgas>, GLColumnBatchsize, <liquid:butane_crackedgas_washed>, GLColumnBatchsize, <liquid:naoh_used>, 20*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime/4, <liquid:sodium_hydroxide_solution>, 20*500/GLColumnBatchsize, <liquid:butane_crackedgas>, GLColumnBatchsize, <liquid:butane_crackedgas_washed>, GLColumnBatchsize, <liquid:naoh_used>, 20*500/GLColumnBatchsize, mmrecipecount, scaleeff);
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:butane_crackedgas_washed>*2034, <liquid:butane_crackedgas_cold>*2034);
 
@@ -1935,7 +1935,7 @@ mmrecipecount = addaircoolerrecipe(ACduty, 1064/ACRate, <liquid:naphtha_crackedg
 
 mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:naphtha_crackedgas_humid>, drumbatchsize, <liquid:naphtha_crackedgas>, 1290*2000/drumbatchsize, <liquid:sour_water>, 710*2000/drumbatchsize, mmrecipecount, scaleeff);
 
-mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:naoh_40>, 20*500/GLColumnBatchsize, <liquid:naphtha_crackedgas>, GLColumnBatchsize, <liquid:naphtha_crackedgas_washed>, GLColumnBatchsize, <liquid:naoh_used>, 20*500/GLColumnBatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addglcolumnrecipe(GLColumnTicktime/4, <liquid:sodium_hydroxide_solution>, 20*500/GLColumnBatchsize, <liquid:naphtha_crackedgas>, GLColumnBatchsize, <liquid:naphtha_crackedgas_washed>, GLColumnBatchsize, <liquid:naoh_used>, 20*500/GLColumnBatchsize, mmrecipecount, scaleeff);
 
 mods.nuclearcraft.Supercooler.addRecipe(<liquid:naphtha_crackedgas_washed>*2136, <liquid:naphtha_crackedgas_cold>*2136);
 

@@ -228,6 +228,7 @@ mods.immersiveengineering.BottlingMachine.removeRecipe(<immersiveintelligence:ma
 mods.immersiveengineering.BottlingMachine.removeRecipe(<immersiveintelligence:material:23>);
 mods.immersiveengineering.BottlingMachine.removeRecipe(<immersiveintelligence:material:24>);
 
+
 //Industrial wires
 var MarxGeneratorRemoved as IItemStack[] = [
   <minecraft:iron_ore>,
@@ -245,3 +246,8 @@ var MarxGeneratorRemoved as IItemStack[] = [
 for item in MarxGeneratorRemoved {
   mods.industrialwires.MarxGenerator.removeRecipe(item);
 }
+
+//II - not working ATM
+//mods.immersiveintelligence.Electrolyzer.removeRecipe(<liquid:water>);
+//mods.immersiveintelligence.Electrolyzer.removeRecipe(<liquid:brine>);
+//mods.immersiveintelligence.Electrolyzer.removeRecipe(<liquid:carbon_dioxide>);
