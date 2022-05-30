@@ -272,23 +272,11 @@ mods.immersiveengineering.MetalPress.addRecipe(<materialpart:gold_ore:ore_pellet
 mods.immersiveengineering.MetalPress.addRecipe(<materialpart:copper_ore:ore_pellet>, <materialpart:copper_ore:ore_dust_pure>, <contenttweaker:mold_pellet>, 512);
 mods.immersiveengineering.MetalPress.addRecipe(<materialpart:tin_ore:ore_pellet>, <materialpart:tin_ore:ore_dust_pure>, <contenttweaker:mold_pellet>, 512);
 mods.immersiveengineering.MetalPress.addRecipe(<materialpart:lead_ore:ore_pellet>, <materialpart:lead_ore:ore_dust_pure>, <contenttweaker:mold_pellet>, 512);
-//mods.immersiveengineering.MetalPress.addRecipe(<materialpart:aluminium_ore:ore_pellet>, <materialpart:aluminium_ore:ore_dust_pure>, <contenttweaker:mold_pellet>, 768);
-//mods.immersiveengineering.MetalPress.addRecipe(<materialpart:titanium_ore:ore_pellet>, <materialpart:titanium_ore:ore_dust_pure>, <contenttweaker:mold_pellet>, 1024);
+
 //mods.immersiveengineering.MetalPress.addRecipe(<materialpart:tungsten_ore:ore_pellet>, <materialpart:tungsten_ore:ore_dust_pure>, <contenttweaker:mold_pellet>, 2048);
 //mods.immersiveengineering.MetalPress.addRecipe(<materialpart:uranium_ore:ore_pellet>, <materialpart:uranium_ore:ore_dust_pure>, <contenttweaker:mold_pellet>, 1024);
 //mods.immersiveengineering.MetalPress.addRecipe(<materialpart:thorium_ore:ore_pellet>, <materialpart:thorium_ore:ore_dust_pure>, <contenttweaker:mold_pellet>, 768);
 
-//Low grade ore flotation, step 1, NEED REWORK
-mods.immersiveengineering.Mixer.addRecipe(<liquid:iron_slurry>*1000, <liquid:flotation_solution>*1000, [<materialpart:iron_ore:ore_dust_low>], 1024);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:gold_slurry>*1000, <liquid:flotation_solution>*1000, [<materialpart:gold_ore:ore_dust_low>], 1024);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:copper_slurry>*1000, <liquid:flotation_solution>*1000, [<materialpart:copper_ore:ore_dust_low>], 1024);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:tin_slurry>*1000, <liquid:flotation_solution>*1000, [<materialpart:tin_ore:ore_dust_low>], 1024);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:lead_slurry>*1000, <liquid:flotation_solution>*1000, [<materialpart:lead_ore:ore_dust_low>], 1024);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:aluminium_slurry>*1000, <liquid:flotation_solution>*1000, [<materialpart:aluminium_ore:ore_dust_low>], 1024);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:titanium_slurry>*1000, <liquid:flotation_solution>*1000, [<materialpart:titanium_ore:ore_dust_low>], 1024);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:tungsten_slurry>*1000, <liquid:flotation_solution>*1000, [<materialpart:tungsten_ore:ore_dust_low>], 1024);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:uranium_slurry>*1000, <liquid:flotation_solution>*1000, [<materialpart:uranium_ore:ore_dust_low>], 1024);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:thorium_slurry>*1000, <liquid:flotation_solution>*1000, [<materialpart:thorium_ore:ore_dust_low>], 1024);
 
 //Low grade ore flotation, step 2 -> MM, NEED REWORK
 val ironf = mods.modularmachinery.RecipeBuilder.newBuilder("ironflotation", "flotationplant", 400, 0);
@@ -309,8 +297,6 @@ leadf.addEnergyPerTickInput(128).addFluidInput(<liquid:lead_slurry> * 1000).addF
 val aluminiumf = mods.modularmachinery.RecipeBuilder.newBuilder("aluminiumflotation", "flotationplant", 500, 0);
 aluminiumf.addEnergyPerTickInput(128).addFluidInput(<liquid:aluminium_slurry> * 1000).addFluidInput(<liquid:compressed_air> * 1000).addFluidOutput(<liquid:flotation_waste> * 1000).addItemOutput(<materialpart:aluminium_ore:ore_dust_washed_low>).addItemOutput(<materialpart:aluminium_ore:ore_tailing>).build();
 
-val titaniumf = mods.modularmachinery.RecipeBuilder.newBuilder("titaniumflotation", "flotationplant", 600, 0);
-titaniumf.addEnergyPerTickInput(128).addFluidInput(<liquid:titanium_slurry> * 1000).addFluidInput(<liquid:compressed_air> * 1000).addFluidOutput(<liquid:flotation_waste> * 1000).addItemOutput(<materialpart:titanium_ore:ore_dust_washed_low>).addItemOutput(<materialpart:titanium_ore:ore_tailing>).build();
 
 val tungstenf = mods.modularmachinery.RecipeBuilder.newBuilder("tungstenflotation", "flotationplant", 800, 0);
 tungstenf.addEnergyPerTickInput(128).addFluidInput(<liquid:tungsten_slurry> * 1000).addFluidInput(<liquid:compressed_air> * 1000).addFluidOutput(<liquid:flotation_waste> * 1000).addItemOutput(<materialpart:tungsten_ore:ore_dust_washed_low>).addItemOutput(<materialpart:tungsten_ore:ore_tailing>).build();
@@ -434,15 +420,25 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:21>*2
 
 mods.industrialwires.MarxGenerator.addRecipe(<contenttweaker:alumina_block>, 2.5, 1, <immersiveengineering:metal:10>);
 
-mods.immersivetechnology.MeltingCrucible.addRecipe(<liquid:alumina>*1000, <contenttweaker:alumina_dust>*9, 2048, 400);
-mods.immersivetechnology.ElectrolyticCrucibleBattery.addRecipe(<liquid:aluminum>*720, null, null, null, <liquid:alumina>*1000, 8192, 500);
+mods.immersivetechnology.MeltingCrucible.addRecipe(<liquid:alumina>*1000, <contenttweaker:alumina_dust>*9, 2048*400, 400);
+mods.immersivetechnology.ElectrolyticCrucibleBattery.addRecipe(<liquid:aluminum>*720, null, null, null, <liquid:alumina>*1000, 8192*500, 500);
 
 
 //Titanium
 furnace.remove(<techguns:itemshared:85>);
 furnace.remove(<rockhounding_chemistry:metal_items:4>);
 
-recipes.addShapeless(<contenttweaker:ti_o2_dust>,[<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>]);
+val titaniumf1 = mods.modularmachinery.RecipeBuilder.newBuilder("titaniumflotation_high", "flotationcolumn", 200, 0);
+titaniumf1.addEnergyPerTickInput(128).addItemInput(<contenttweaker:titanium_ore_ore_dust_high>).addFluidInput(<liquid:compressed_air> * 100).addFluidInput(<liquid:flotation_solution> * 100).addFluidOutput(<liquid:flotation_waste> * 100).addItemOutput(<contenttweaker:titanium_ore_ore_dust_pure>*2).addItemOutput(<contenttweaker:titanium_ore_ore_tailing>).build();
+
+val titaniumf2 = mods.modularmachinery.RecipeBuilder.newBuilder("titaniumflotation_low", "flotationcolumn", 200, 0);
+titaniumf2.addEnergyPerTickInput(128).addItemInput(<contenttweaker:titanium_ore_ore_dust_low>).addFluidInput(<liquid:compressed_air> * 100).addFluidInput(<liquid:flotation_solution> * 100).addFluidOutput(<liquid:flotation_waste> * 100).addItemOutput(<contenttweaker:titanium_ore_ore_dust_pure>).addItemOutput(<contenttweaker:titanium_ore_ore_tailing>*2).build();
+
+val titaniumr = mods.modularmachinery.RecipeBuilder.newBuilder("titaniumchlorination", "fbr", 100, 0);
+titaniumr.addEnergyPerTickInput(128).addItemInput(<contenttweaker:titanium_ore_ore_dust_pure>).addFluidInput(<liquid:chlorine> * 100).addFluidOutput(<liquid:flotation_waste> * 100).addItemOutput(<contenttweaker:titanium_ore_ore_dust_pure>*2).addItemOutput(<contenttweaker:titanium_ore_ore_tailing>).build();
+
+
+//recipes.addShapeless(<contenttweaker:ti_o2_dust>,[<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>]);
 
 
 //Uranium

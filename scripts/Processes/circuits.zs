@@ -15,7 +15,7 @@ mods.advancedrocketry.ChemicalReactor.addRecipe(<pneumaticcraft:capacitor>*16, 3
 mods.pneumaticcraft.pressurechamber.removeRecipe([<pneumaticcraft:transistor>]);
 mods.nuclearcraft.Assembler.addRecipe(<ore:dustSilicon>, <pneumaticcraft:plastic:15>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), null, <pneumaticcraft:transistor>*4, 2.0, 2.0, 0.0);
 mods.nuclearcraft.Assembler.addRecipe(<advancedrocketry:wafer>, <pneumaticcraft:plastic:15>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}), null, <pneumaticcraft:transistor>*8, 2.5, 2.5, 0.0);
-mods.advancedrocketry.PrecisionAssembler.addRecipe(<pneumaticcraft:transistor>*16, 300, 256, <contenttweaker:ga_as_dust>, <pneumaticcraft:plastic:15>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}));
+mods.advancedrocketry.PrecisionAssembler.addRecipe(<pneumaticcraft:transistor>*16, 300, 256, <contenttweaker:gaas_dust>, <pneumaticcraft:plastic:15>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}));
 
 //Processor
 mods.advancedrocketry.PrecisionAssembler.addRecipe(<qmd:semiconductor:4>, 300, 256, <advancedrocketry:wafer>, <rockhounding_chemistry:alloy_items_tech:28>*2, <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte})*2);

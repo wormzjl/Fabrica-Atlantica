@@ -51,27 +51,6 @@ furnace.remove(<nuclearcraft:ingot:11>);
 mods.qmd.ore_leacher.removeAllRecipes();
 
 
-mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:aluminum>*288);
-mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:iron>*288);
-mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:gold>*288);
-//mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:lead>*360);
-mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:copper>*288);
-mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:silver>*288);
-mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:tin>*288);
-//mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:nickel>*360);
-mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:boron>*288);
-mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:lithium>*288);
-mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:thorium>*288);
-mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:uranium>*288);
-mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:magnesium>*288);
-mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:manganese>*288);
-
-
-mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:quartz>*1332);
-mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:lapis>*1332);
-mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:diamond>*1332);
-//mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:emerald>*1665);
-
 mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:ethanol>*2000, <liquid:carbon_dioxide>*2000);
 mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:carbon_monoxide>*250, <liquid:water>*250);
 mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(<liquid:methanol>*250, null);

@@ -129,8 +129,8 @@ for i, scrap in scraps_list {
 }
 
 //Misc dusts
-var gaas = MaterialSystem.getMaterialBuilder().setName("GaAs").setColor(9474718).build();
-var tio2 = MaterialSystem.getMaterialBuilder().setName("TiO2").setColor(16185078).build();
+var gaas = MaterialSystem.getMaterialBuilder().setName("gaas").setColor(9474718).build();
+var tio2 = MaterialSystem.getMaterialBuilder().setName("tio2").setColor(16185078).build();
 var alumina = MaterialSystem.getMaterialBuilder().setName("Alumina").setColor(16579836).build();
 var silica = MaterialSystem.getMaterialBuilder().setName("Silica").setColor(16316664).build();
 
