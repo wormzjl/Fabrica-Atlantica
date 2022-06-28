@@ -428,15 +428,20 @@ mods.immersivetechnology.ElectrolyticCrucibleBattery.addRecipe(<liquid:aluminum>
 furnace.remove(<techguns:itemshared:85>);
 furnace.remove(<rockhounding_chemistry:metal_items:4>);
 
-val titaniumf1 = mods.modularmachinery.RecipeBuilder.newBuilder("titaniumflotation_high", "flotationcolumn", 200, 0);
-titaniumf1.addEnergyPerTickInput(128).addItemInput(<contenttweaker:titanium_ore_ore_dust_high>).addFluidInput(<liquid:compressed_air> * 100).addFluidInput(<liquid:flotation_solution> * 100).addFluidOutput(<liquid:flotation_waste> * 100).addItemOutput(<contenttweaker:titanium_ore_ore_dust_pure>*2).addItemOutput(<contenttweaker:titanium_ore_ore_tailing>).build();
+val titaniumf1 = mods.modularmachinery.RecipeBuilder.newBuilder("titaniumflotation_high", "flotationcolumn", 100, 0);
+titaniumf1.addItemInput(<contenttweaker:titanium_ore_ore_dust_high>).addFluidInput(<liquid:compressed_air> * 100).addFluidInput(<liquid:flotation_solution> * 100).addFluidOutput(<liquid:flotation_waste> * 100).addItemOutput(<contenttweaker:titanium_ore_ore_dust_pure>*2).addItemOutput(<contenttweaker:titanium_ore_ore_tailing>).build();
 
-val titaniumf2 = mods.modularmachinery.RecipeBuilder.newBuilder("titaniumflotation_low", "flotationcolumn", 200, 0);
-titaniumf2.addEnergyPerTickInput(128).addItemInput(<contenttweaker:titanium_ore_ore_dust_low>).addFluidInput(<liquid:compressed_air> * 100).addFluidInput(<liquid:flotation_solution> * 100).addFluidOutput(<liquid:flotation_waste> * 100).addItemOutput(<contenttweaker:titanium_ore_ore_dust_pure>).addItemOutput(<contenttweaker:titanium_ore_ore_tailing>*2).build();
+val titaniumf2 = mods.modularmachinery.RecipeBuilder.newBuilder("titaniumflotation_low", "flotationcolumn", 100, 0);
+titaniumf2.addItemInput(<contenttweaker:titanium_ore_ore_dust_low>).addFluidInput(<liquid:compressed_air> * 100).addFluidInput(<liquid:flotation_solution> * 100).addFluidOutput(<liquid:flotation_waste> * 100).addItemOutput(<contenttweaker:titanium_ore_ore_dust_pure>).addItemOutput(<contenttweaker:titanium_ore_ore_tailing>*2).build();
 
-val titaniumr = mods.modularmachinery.RecipeBuilder.newBuilder("titaniumchlorination", "fbr", 100, 0);
-titaniumr.addEnergyPerTickInput(128).addItemInput(<contenttweaker:titanium_ore_ore_dust_pure>).addFluidInput(<liquid:chlorine> * 100).addFluidOutput(<liquid:flotation_waste> * 100).addItemOutput(<contenttweaker:titanium_ore_ore_dust_pure>*2).addItemOutput(<contenttweaker:titanium_ore_ore_tailing>).build();
+val titaniumr = mods.modularmachinery.RecipeBuilder.newBuilder("titaniumchlorination", "fbr", 50, 0);
+titaniumr.addItemInput(<contenttweaker:titanium_ore_ore_dust_pure>).addItemInput(<ore:dustCoke>, 2).addFluidInput(<liquid:chlorine>*276).addFluidOutput(<liquid:titanium_reactiongas_blazing>*425).addItemOutput(<contenttweaker:titanium_ore_slag>).build();
 
+mods.immersivetechnology.MeltingCrucible.addRecipe(<liquid:mgcl2>*1000, <contenttweaker:mgcl2_dust>*9, 2048*20, 20);
+mods.immersivetechnology.ElectrolyticCrucibleBattery.addRecipe(<liquid:magnesium>*253, <liquid:chlorine>*747, null, null, <liquid:mgcl2>*1000, 8192*58, 58);
+
+val titaniumred = mods.modularmachinery.RecipeBuilder.newBuilder("titaniumreduction", "titaniumreactor", 100, 0);
+titaniumred.addFluidInput(<liquid:ticl4>*1140).addFluidInput(<liquid:magnesium>*288).addFluidOutput(<liquid:mgcl2>*1140).addItemOutput(<contenttweaker:titaniumsponge>*2).build();
 
 //recipes.addShapeless(<contenttweaker:ti_o2_dust>,[<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>,<contenttweaker:ti_o2_tiny_dust>]);
 

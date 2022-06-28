@@ -2230,6 +2230,22 @@ mmrecipecount = addglcolumnrecipe(GLColumnTicktime, <liquid:sulfuric_acid>, 5810
 mods.nuclearcraft.SaltMixer.addRecipe(<liquid:sulfuric_acid_conc>*1000, <liquid:distwater>*15, <liquid:sulfuric_acid>*1015);
 
 
+//Ore process misc
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:titanium_reactiongas_blazing>*256, <liquid:titanium_reactiongas_boiling>*256, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:titanium_reactiongas_boiling>*1443, <liquid:titanium_reactiongas_hot>*1443, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:titanium_reactiongas_hot>*1042, <liquid:titanium_reactiongas_warm>*1042, HXUnit);
+team.cappcraft.icheme.HeatExchanger.addCoolDownEntry(<liquid:titanium_reactiongas_warm>*435, <liquid:titanium_reactiongas>*435, HXUnit);
+
+mods.immersivetechnology.HeatExchanger.addRecipe(<liquid:titanium_reactiongas_boiling>*1000, <liquid:high_pressure_steam>*2170, <liquid:titanium_reactiongas_blazing>*1000, <liquid:distwater>*217, 0, 20);
+
+mmrecipecount = addaircoolerrecipe(ACduty, 786/ACRate, <liquid:titanium_reactiongas_blazing>, ACbatchsize, <liquid:titanium_reactiongas>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 395/ACRate, <liquid:titanium_reactiongas_boiling>, ACbatchsize, <liquid:titanium_reactiongas>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 326/ACRate, <liquid:titanium_reactiongas_hot>, ACbatchsize, <liquid:titanium_reactiongas>, ACbatchsize, mmrecipecount, scaleeff);
+mmrecipecount = addaircoolerrecipe(ACduty, 230/ACRate, <liquid:titanium_reactiongas_warm>, ACbatchsize, <liquid:titanium_reactiongas>, ACbatchsize, mmrecipecount, scaleeff);
+
+mmrecipecount = add2phaseseprecipe(drumprocessingtime, <liquid:titanium_reactiongas>, drumbatchsize, <liquid:fluegas>, 552*2000/drumbatchsize, <liquid:ticl4>, 1448*2000/drumbatchsize, mmrecipecount, scaleeff);
+
+
 
 //Functions
 //3 phase sep: 2 liquid inputs, 3 liquid outputs, 1 energy input

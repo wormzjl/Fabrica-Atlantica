@@ -54,7 +54,9 @@ val fluids_ambient_misc = {
   carbon_disulfide : "F7F7E0",
   sodium_ethylate : "FDF5E0",
   sodium_ethyl_xanthate : "E2E299",
-  aluminium_ore_leachate : "484848"
+  aluminium_ore_leachate : "484848",
+  ticl4 : "8FF9AF",
+  mgcl2 : "ED9AD3"
 } as string[string];
 
 val fluids_ambient = {
@@ -689,7 +691,8 @@ val gas_ambient = {
   h2n2_mix : "38A8FF",
   eo_feed_mix : "9AE58C",
   eo_eff : "9AE5B3",
-  nitricacid_eff : "CCD9EF"
+  nitricacid_eff : "CCD9EF",
+  titanium_reactiongas : "EDFFA4"
 } as string[string];
 
 val gas_warm = {
@@ -736,7 +739,8 @@ val gas_warm = {
   claus_burner_eff : "EEE29F",
   claus_burner_eff_gas : "E8F79F",
   claus_converter_eff : "F9FF9F",
-  so3_eff : "E6CA1E"
+  so3_eff : "E6CA1E",
+  titanium_reactiongas : "EDFFA4"
 } as string[string];
 
 val gas_hot = {
@@ -769,7 +773,8 @@ val gas_hot = {
   nitricacid_eff : "CCD9EF",
   claus_burner_eff : "EEE29F",
   claus_converter_eff : "F9FF9F",
-  so3_eff : "E6CA1E"
+  so3_eff : "E6CA1E",
+  titanium_reactiongas : "EDFFA4"
 } as string[string];
 
 val gas_boiling = {
@@ -789,7 +794,8 @@ val gas_boiling = {
   nitricacid_eff : "CCD9EF",
   claus_burner_eff : "EEE29F",
   so2_eff : "E6D84E",
-  so3_eff : "E6CA1E"
+  so3_eff : "E6CA1E",
+  titanium_reactiongas : "EDFFA4"
 } as string[string];
 
 val gas_blazing = {
@@ -808,7 +814,8 @@ val gas_blazing = {
   nitricacid_eff : "CCD9EF",
   claus_burner_eff : "EEE29F",
   so2_eff : "E6D84E",
-  so3_eff : "E6CA1E"
+  so3_eff : "E6CA1E",
+  titanium_reactiongas : "EDFFA4"
 } as string[string];
 
 

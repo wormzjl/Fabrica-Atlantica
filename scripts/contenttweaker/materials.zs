@@ -133,8 +133,9 @@ var gaas = MaterialSystem.getMaterialBuilder().setName("gaas").setColor(9474718)
 var tio2 = MaterialSystem.getMaterialBuilder().setName("tio2").setColor(16185078).build();
 var alumina = MaterialSystem.getMaterialBuilder().setName("Alumina").setColor(16579836).build();
 var silica = MaterialSystem.getMaterialBuilder().setName("Silica").setColor(16316664).build();
+var mgcl2 = MaterialSystem.getMaterialBuilder().setName("mgcl2").setColor(16316660).build();
 
-var chemicals = [gaas, tio2, alumina, silica] as Material[];
+var chemicals = [gaas, tio2, alumina, silica, mgcl2] as Material[];
 
 for i, chemical in chemicals {
     chemical.registerPart("dust");
