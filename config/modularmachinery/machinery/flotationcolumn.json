@@ -62,14 +62,6 @@
         {
             "x": -1,
             "y": 6,
-            "z": 2,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
             "z": 3,
             "elements": [
                 "contenttweaker:invarcasing@0"
@@ -86,49 +78,9 @@
         {
             "x": 0,
             "y": 7,
-            "z": 0,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
             "z": 3,
             "elements": [
                 "contenttweaker:invarcasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
             ]
         },
         {
@@ -174,14 +126,6 @@
         {
             "x": 1,
             "y": 2,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
             "z": 0,
             "elements": [
                 "contenttweaker:invarcasing@0"
@@ -348,14 +292,6 @@
             ]
         },
         {
-            "x": 1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
             "x": -2,
             "y": 5,
             "z": 1,
@@ -398,33 +334,9 @@
         {
             "x": 1,
             "y": 7,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
             "z": -1,
             "elements": [
                 "contenttweaker:invarcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 0,
-            "elements": [
-                "minecraft:water"
             ]
         },
         {
@@ -489,30 +401,6 @@
             "z": -1,
             "elements": [
                 "contenttweaker:invarcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 2,
-            "elements": [
-                "minecraft:water"
             ]
         },
         {
@@ -700,27 +588,11 @@
             ]
         },
         {
-            "x": 1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
             "x": 2,
             "y": 5,
             "z": 0,
             "elements": [
                 "contenttweaker:invarcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "minecraft:water"
             ]
         },
         {
@@ -745,14 +617,6 @@
             "z": -1,
             "elements": [
                 "contenttweaker:invarcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "minecraft:water"
             ]
         },
         {
@@ -790,14 +654,6 @@
         {
             "x": 1,
             "y": 6,
-            "z": 2,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
             "z": 3,
             "elements": [
                 "contenttweaker:invarcasing@0"
@@ -820,22 +676,6 @@
             ]
         },
         {
-            "x": 1,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
             "x": 2,
             "y": 2,
             "z": 2,
@@ -849,30 +689,6 @@
             "z": -1,
             "elements": [
                 "contenttweaker:invarcasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "minecraft:water"
             ]
         },
         {
@@ -918,22 +734,6 @@
         {
             "x": -1,
             "y": 2,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": 2,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
             "z": 0,
             "elements": [
                 "contenttweaker:invarcasing@0"
@@ -953,22 +753,6 @@
             "z": -1,
             "elements": [
                 "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
             ]
         },
         {
@@ -1046,22 +830,6 @@
         {
             "x": 0,
             "y": 1,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
             "z": 3,
             "elements": [
                 "contenttweaker:invarcasing@0"
@@ -1073,14 +841,6 @@
             "z": 0,
             "elements": [
                 "contenttweaker:invarcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "minecraft:water"
             ]
         },
         {
@@ -1124,22 +884,6 @@
             ]
         },
         {
-            "x": 1,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
             "x": -2,
             "y": 8,
             "z": -1,
@@ -1177,30 +921,6 @@
             "z": -1,
             "elements": [
                 "contenttweaker:invarcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "minecraft:water"
             ]
         },
         {
@@ -1289,14 +1009,6 @@
             "z": 3,
             "elements": [
                 "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "minecraft:water"
             ]
         },
         {
@@ -1334,30 +1046,6 @@
         {
             "x": -1,
             "y": 3,
-            "z": 2,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
             "z": -1,
             "elements": [
                 "contenttweaker:invarcasing@0"
@@ -1380,22 +1068,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
             "x": -2,
             "y": 7,
             "z": 2,
@@ -1409,14 +1081,6 @@
             "z": 3,
             "elements": [
                 "contenttweaker:invarcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "minecraft:water"
             ]
         },
         {
@@ -1486,14 +1150,6 @@
         {
             "x": 0,
             "y": 5,
-            "z": 2,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
             "z": 3,
             "elements": [
                 "contenttweaker:invarcasing@0"
@@ -1505,38 +1161,6 @@
             "z": -1,
             "elements": [
                 "contenttweaker:invarcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
             ]
         },
         {
@@ -1593,14 +1217,6 @@
             "z": 3,
             "elements": [
                 "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "minecraft:water"
             ]
         },
         {
@@ -1665,14 +1281,6 @@
             "z": 2,
             "elements": [
                 "contenttweaker:invarcasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "minecraft:water"
             ]
         },
         {
@@ -1686,49 +1294,9 @@
         {
             "x": -1,
             "y": 1,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
             "z": 0,
             "elements": [
                 "contenttweaker:invarcasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
             ]
         },
         {
@@ -1753,14 +1321,6 @@
             "z": 3,
             "elements": [
                 "contenttweaker:invarcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "minecraft:water"
             ]
         },
         {
@@ -1825,22 +1385,6 @@
             "z": 3,
             "elements": [
                 "contenttweaker:invarcasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "minecraft:water"
             ]
         },
         {
@@ -1854,30 +1398,6 @@
         {
             "x": 0,
             "y": 6,
-            "z": 0,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
             "z": 3,
             "elements": [
                 "contenttweaker:invarcasing@0"
@@ -1889,14 +1409,6 @@
             "z": -1,
             "elements": [
                 "contenttweaker:invarcasing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 0,
-            "elements": [
-                "minecraft:water"
             ]
         },
         {
@@ -1998,33 +1510,9 @@
         {
             "x": 1,
             "y": 8,
-            "z": 2,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
             "z": 3,
             "elements": [
                 "contenttweaker:invarcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "minecraft:water"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 1,
-            "elements": [
-                "minecraft:water"
             ]
         },
         {

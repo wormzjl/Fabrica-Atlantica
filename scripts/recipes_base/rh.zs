@@ -14,8 +14,8 @@ mods.rockhounding_chemistry.BedReactor.removeByOutput(<liquid:ammonia>*200);
 mods.rockhounding_chemistry.ProfilingBench.removeByOutput(<rockhounding_chemistry:au_catalyst>);
 
 //base
-mods.rockhounding_chemistry.InhibitElements.inhibit("dustIridium");
-mods.rockhounding_chemistry.InhibitElements.inhibit("dustOsmium");
+mods.rockhounding_chemistry.InhibitElement.inhibit("dustIridium");
+mods.rockhounding_chemistry.InhibitElement.inhibit("dustOsmium");
 
 mods.rockhounding_chemistry.Transposer.add(<liquid:water_vapour>, <liquid:water_vapour>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:steam>, <liquid:water_vapour>);
@@ -30,6 +30,7 @@ mods.rockhounding_chemistry.Transposer.add(<liquid:oxygen>, <liquid:oxygen>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:nitrogen>, <liquid:nitrogen>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:ammonia>, <liquid:ammonia>);
 mods.rockhounding_chemistry.Transposer.add(<liquid:hydrogen>, <liquid:hydrogen>);
+mods.rockhounding_chemistry.Transposer.add(<liquid:compressed_air>, <liquid:compressed_air>);
 
 mods.rockhounding_chemistry.Transposer.add(<liquid:carbon_dioxide>, <liquid:carbondioxide>);
 
@@ -183,7 +184,9 @@ mods.rockhounding_chemistry.MaterialCabinet.add("TiO", "dusttio2", "Titanium Dio
 mods.rockhounding_chemistry.MaterialCabinet.add("WA", "dustTungsticacid", "Tungstic Acid");
 mods.rockhounding_chemistry.MaterialCabinet.add("S", "dustSteel", "Steel Dust");
 mods.rockhounding_chemistry.MaterialCabinet.add("REE", "dustMischmetal", "Mischmetal Dust");
+mods.rockhounding_chemistry.MaterialCabinet.add("MgCl2", "dustmgcl2", "Magnesium Chloride Dust");
 
+//Magnesium
 
 //Aluminium
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:antimonate_shards>);
@@ -208,10 +211,10 @@ mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:nat
 mods.rockhounding_chemistry.ChemicalExtractor.add("Native", <rockhounding_chemistry:native_shards:8>, ["dustAlumina", "dustCopper", "dustZinc"], [46, 40, 14]);
 
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:oxide_shards:1>);
-mods.rockhounding_chemistry.ChemicalExtractor.add("Oxide", <rockhounding_chemistry:oxide_shards:1>, ["dustChromium", "dustCobalt", "dustIron", "dustNickel", "dustAlumina", "dustMagnesium"], [35, 14, 8, 6, 5, 1]);
+mods.rockhounding_chemistry.ChemicalExtractor.add("Oxide", <rockhounding_chemistry:oxide_shards:1>, ["dustChromium", "dustCobalt", "dustIron", "dustNickel", "dustAlumina", "dustmgcl2"], [35, 14, 8, 6, 5, 1]);
 
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:oxide_shards:2>);
-mods.rockhounding_chemistry.ChemicalExtractor.add("Oxide", <rockhounding_chemistry:oxide_shards:2>, ["dustNiobium", "dustTantalum", "dustIron", "dustManganese", "dustMagnesium", "dusttio2", "dustAlumina"], [42, 24, 8, 7, 5, 2, 1]);
+mods.rockhounding_chemistry.ChemicalExtractor.add("Oxide", <rockhounding_chemistry:oxide_shards:2>, ["dustNiobium", "dustTantalum", "dustIron", "dustManganese", "dustmgcl2", "dusttio2", "dustAlumina"], [42, 24, 8, 7, 5, 2, 1]);
 
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:oxide_shards:7>);
 mods.rockhounding_chemistry.ChemicalExtractor.add("Oxide", <rockhounding_chemistry:oxide_shards:7>, ["dustAlumina"], [100]);
@@ -220,10 +223,10 @@ mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:oxi
 mods.rockhounding_chemistry.ChemicalExtractor.add("Oxide", <rockhounding_chemistry:oxide_shards:8>, ["dustZinc", "dustAlumina"], [36, 30]);
 
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:oxide_shards:9>);
-mods.rockhounding_chemistry.ChemicalExtractor.add("Oxide", <rockhounding_chemistry:oxide_shards:9>, ["dustAlumina", "dustIron", "dustCalcium", "dusttio2", "dustLanthanum", "dustCerium", "dustMagnesium"], [40, 6, 5, 3, 2, 2, 1]);
+mods.rockhounding_chemistry.ChemicalExtractor.add("Oxide", <rockhounding_chemistry:oxide_shards:9>, ["dustAlumina", "dustIron", "dustCalcium", "dusttio2", "dustLanthanum", "dustCerium", "dustmgcl2"], [40, 6, 5, 3, 2, 2, 1]);
 
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:phosphate_shards:1>);
-mods.rockhounding_chemistry.ChemicalExtractor.add("Phosphate", <rockhounding_chemistry:phosphate_shards:1>, ["dustPhosphorus", "dustAlumina", "dustMagnesium"], [20, 18, 8]);
+mods.rockhounding_chemistry.ChemicalExtractor.add("Phosphate", <rockhounding_chemistry:phosphate_shards:1>, ["dustPhosphorus", "dustAlumina", "dustmgcl2"], [20, 18, 8]);
 
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:phosphate_shards:5>);
 mods.rockhounding_chemistry.ChemicalExtractor.add("Phosphate", <rockhounding_chemistry:phosphate_shards:5>, ["dustAlumina", "dustPhosphorus"], [20, 15]);
@@ -241,7 +244,7 @@ mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:sil
 mods.rockhounding_chemistry.ChemicalExtractor.add("Silicate", <rockhounding_chemistry:silicate_shards:1>, ["dustSilicon", "dustManganese", "dustPotassium", "dustAlumina", "dustIron"], [19, 14, 10, 6, 6]);
 
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:silicate_shards:4>);
-mods.rockhounding_chemistry.ChemicalExtractor.add("Silicate", <rockhounding_chemistry:silicate_shards:4>, ["dustSilicon", "dustIron", "dustMagnesium", "dustPotassium", "dustScandium", "dustAlumina"], [18, 12, 10, 4, 2, 2]);
+mods.rockhounding_chemistry.ChemicalExtractor.add("Silicate", <rockhounding_chemistry:silicate_shards:4>, ["dustSilicon", "dustIron", "dustmgcl2", "dustPotassium", "dustScandium", "dustAlumina"], [18, 12, 10, 4, 2, 2]);
 
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:silicate_shards:6>);
 mods.rockhounding_chemistry.ChemicalExtractor.add("Silicate", <rockhounding_chemistry:silicate_shards:6>, ["dustSilicon", "dustAlumina", "dustLithium"], [22, 22, 6]);
@@ -250,7 +253,7 @@ mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:sil
 mods.rockhounding_chemistry.ChemicalExtractor.add("Silicate", <rockhounding_chemistry:silicate_shards:8>, ["dustAlumina", "dustSilicon", "dustLithium", "dustBoron"], [26, 11, 3, 2]);
 
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:silicate_shards:10>);
-mods.rockhounding_chemistry.ChemicalExtractor.add("Silicate", <rockhounding_chemistry:silicate_shards:10>, ["dustSilicon", "dustCerium", "dustManganese", "dustAlumina", "dustCalcium", "dustEuropium", "dustLutetium", "dustThulium", "dustTerbium", "dustMagnesium", "dusttio2", "dustChromium", "dustIron"], [14, 12, 9, 5, 5, 4, 4, 4, 4, 2, 1, 1, 1]);
+mods.rockhounding_chemistry.ChemicalExtractor.add("Silicate", <rockhounding_chemistry:silicate_shards:10>, ["dustSilicon", "dustCerium", "dustManganese", "dustAlumina", "dustCalcium", "dustEuropium", "dustLutetium", "dustThulium", "dustTerbium", "dustmgcl2", "dusttio2", "dustChromium", "dustIron"], [14, 12, 9, 5, 5, 4, 4, 4, 4, 2, 1, 1, 1]);
 
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:silicate_shards:13>);
 mods.rockhounding_chemistry.ChemicalExtractor.add("Silicate", <rockhounding_chemistry:silicate_shards:13>, ["dustManganese", "dustIron", "dustSilicon", "dustCalcium", "dustAlumina"], [23, 16, 16, 6, 2]);
@@ -262,7 +265,7 @@ mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:sul
 mods.rockhounding_chemistry.ChemicalExtractor.add("Sulfate", <rockhounding_chemistry:sulfate_shards:4>, ["dustCalcium", "dustSulfur", "dustChromium", "dustAlumina"], [19, 7, 6, 1]);
 
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:sulfide_shards:8>);
-mods.rockhounding_chemistry.ChemicalExtractor.add("Sulfide", <rockhounding_chemistry:sulfide_shards:8>, ["dustIron", "dustSulfur", "dustCopper", "dustMagnesium", "dustAlumina"], [26, 26, 24, 9, 7]);
+mods.rockhounding_chemistry.ChemicalExtractor.add("Sulfide", <rockhounding_chemistry:sulfide_shards:8>, ["dustIron", "dustSulfur", "dustCopper", "dustmgcl2", "dustAlumina"], [26, 26, 24, 9, 7]);
 
 mods.rockhounding_chemistry.ChemicalExtractor.remove(<rockhounding_chemistry:vanadate_shards:3>);
 mods.rockhounding_chemistry.ChemicalExtractor.add("Vanadate", <rockhounding_chemistry:vanadate_shards:3>, ["dustAlumina", "dustVanadium", "dustZinc", "dustNickel"], [18, 17, 8, 2]);

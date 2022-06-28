@@ -100,8 +100,7 @@ var idstaged as IItemStack[] = [
   <integrateddynamics:delay>,
   <integrateddynamics:drying_basin>,
   <integratednbt:nbt_extractor>,
-  <integratednbt:nbt_extractor_remote>,
-  <integratedrest:http>
+  <integratednbt:nbt_extractor_remote>
 ];
 
 for item in idstaged {
